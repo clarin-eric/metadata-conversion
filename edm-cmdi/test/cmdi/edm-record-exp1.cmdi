@@ -4,14 +4,23 @@
     xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
     xsi:schemaLocation="http://www.clarin.eu/cmd/1 file:/Users/twagoo/Documents/Repositories/git/cmdi-toolkit/src/main/resources/toolkit/xsd/cmd-envelop.xsd 
-    http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
+        http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
     CMDVersion="1.2">
     <cmd:Header>
-        <cmd:MdProfile>http://www.oxygenxml.com/</cmd:MdProfile>
+        <cmd:MdCreator></cmd:MdCreator>
+        <cmd:MdCreationDate>2010-01-01</cmd:MdCreationDate>
+        <cmd:MdSelfLink>...</cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>??</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="landingPage">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>...</cmd:ResourceRef>
+            </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList>
         </cmd:JournalFileProxyList>
@@ -19,8 +28,8 @@
         </cmd:ResourceRelationList>
     </cmd:Resources>
     <cmd:Components>
-        <cmdp:EDM>
-            <cmdp:Title></cmdp:Title>
-        </cmdp:EDM>
+        <EDM>
+            <Title></Title>
+        </EDM>
     </cmd:Components>
 </cmd:CMD>
