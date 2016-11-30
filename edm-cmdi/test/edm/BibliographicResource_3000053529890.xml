@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+  <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92033/BibliographicResource_3000053529890"/>
+  <edm:WebResource rdf:about="http://polona.pl/item/568087/">
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://www.polona.pl/resources/item/568087/thumbnail/large/">
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </edm:WebResource>
+  <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92033/BibliographicResource_3000053529890">
+    <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92033/BibliographicResource_3000053529890"/>
+    <edm:dataProvider>National Library of Poland</edm:dataProvider>
+    <edm:isShownAt rdf:resource="http://polona.pl/item/568087/"/>
+    <edm:object rdf:resource="http://www.polona.pl/resources/item/568087/thumbnail/large/"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92033/BibliographicResource_3000053529890">
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">[ca 1931]</dc:date>
+    <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">pocztówki</dc:description>
+    <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Nazwa wyd. na aw. monogramem.</dc:description>
+    <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">image/text</dc:format>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://polona.pl/item/568087/</dc:identifier>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">[Przemyśl] : W. S. P ; w
+            Bełzie : nakł. J. Bodnara, [ca 1931].</dc:publisher>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">pl</dc:language>
+    <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Domena
+            publiczna</dc:rights>
+    <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Biblioteka Narodowa</dc:source>
+    <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Bełz
+            (Ukraina)</dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Polska</dc:subject>
+    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Bełz, widok ogólny</dc:title>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Pocztówki</dc:type>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0245"/>
+    <edm:europeanaProxy>false</edm:europeanaProxy>
+    <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92033/BibliographicResource_3000053529890"/>
+    <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92033/BibliographicResource_3000053529890"/>
+    <edm:type>TEXT</edm:type>
+  </ore:Proxy>
+  <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92033/BibliographicResource_3000053529890">
+    <edm:europeanaProxy>true</edm:europeanaProxy>
+    <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92033/BibliographicResource_3000053529890"/>
+    <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92033/BibliographicResource_3000053529890"/>
+    <edm:type>TEXT</edm:type>
+  </ore:Proxy>
+  <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92033/BibliographicResource_3000053529890">
+    <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92033/BibliographicResource_3000053529890"/>
+    <edm:collectionName>92033_Ag_EU_TEL_a0245</edm:collectionName>
+    <edm:country>Poland</edm:country>
+    <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92033/BibliographicResource_3000053529890.html"/>
+    <edm:language>pl</edm:language>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </edm:EuropeanaAggregation>
+</rdf:RDF>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+  <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200302/BibliographicResource_3000059393577"/>
+  <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/issue.vm?id=0004076552">
+    <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/details.vm?q=id:0004076552">
+    <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/images/items/0004076553/low.jpg">
+    <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+  </edm:WebResource>
+  <edm:TimeSpan rdf:about="http://semium.org/time/19xx_1_third">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 20th century</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 20-го века</skos:prefLabel>
+    <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+    <edm:end>Sun Dec 31 00:19:32 CET 1933</edm:end>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/1902">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1902</skos:prefLabel>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_1_third"/>
+    <edm:begin>Wed Jan 01 00:19:32 CET 1902</edm:begin>
+    <edm:end>Wed Dec 31 00:19:32 CET 1902</edm:end>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+    <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+    <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+  </edm:TimeSpan>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://vocab.getty.edu/aat/300026656">
+    <skos:altLabel xml:lang="de">Tageszeitung</skos:altLabel>
+    <skos:altLabel xml:lang="it">giornale (newspaper)</skos:altLabel>
+    <skos:altLabel xml:lang="fr">journal (newspaper)</skos:altLabel>
+    <skos:altLabel xml:lang="sv">tidning</skos:altLabel>
+    <skos:altLabel xml:lang="en">newspaper</skos:altLabel>
+    <skos:altLabel xml:lang="es">diario (noticias)</skos:altLabel>
+    <skos:altLabel xml:lang="nl">nieuwsbladen</skos:altLabel>
+    <skos:prefLabel xml:lang="en">newspapers</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">diarios (noticias)</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">kranten</skos:prefLabel>
+    <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+    <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+  </skos:Concept>
+  <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_3000059393577">
+    <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_3000059393577"/>
+    <edm:dataProvider>National Library of Spain</edm:dataProvider>
+    <edm:hasView rdf:resource="http://hemerotecadigital.bne.es/issue.vm?id=0004076552"/>
+    <edm:isShownAt rdf:resource="http://hemerotecadigital.bne.es/details.vm?q=id:0004076552"/>
+    <edm:object rdf:resource="http://hemerotecadigital.bne.es/images/items/0004076553/low.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </ore:Aggregation>
+  <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200302/BibliographicResource_3000059393577">
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1902</dc:date>
+    <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">
+            En sus páginas colaboran los principales ilustradores del modernismo, además de pintores, entre los que se encuentran Cecilio Pla, Carlos Vázquez, Marcelino Unceta, Modest Urgell, C. Camps, M. Obiols Delgado, H. Beedy, R. Casas, E. Estevan, J. Hassall o M. Navarrete y T. Gascón, éstos dos con viñetas. Las fotografías proceden de Hauser y Menet, entre otros. Entre sus colaboradores literarios aparecen escritores españoles, pero también hispanoamericanos, como Salvador Rueda, Luis de Terán, José Echegaray, José Nogales, Eugenio Sellés, Manuel Argüello Mora, Francisco de Torres y Gisbert, Casimiro Prieto, Dionisio Pérez, Luis del Val, Leopoldo Alas ‘Clarín’, Eusebio Blasco, Vicente Nicolau, el Conde las Navas, Emilia Pardo Bazán o Francico Pi y Margall. Amparo Taberner será la autora de una sección titulada “Artistas en la intimidad”.            
+            Pasará después a ser estampada por la Tipografía de F. Giró y por último será editada por la Casa Editorial Maucci, al tiempo que van desapareciendo las litografías en color y disminuyendo las ilustraciones artísticas y aumentando el número de fotografías en blanco y negro de actualidad y de vistas españolas o extranjeras, reduciendo asimismo sus textos de creación literaria y dedicando especial atención a la guerra ruso-japonesa a través de crónicas de A. Riera. También Julio Martínez Lecha será el autor de una “Crónica semanal” y dedicará también atención al mundo del teatro y la literatura.            
+            En sus primeros años aparece en números de doce páginas, que aumentará a dieciséis conforme va desapareciendo el color en sus páginas y aumentando el número de fotografías y sus textos de actualidad. Falta su primer número en la colección de la Biblioteca Nacional de España, acabando esta en su número 270, correspondiente al 30 de diciembre de 1905. El último número de la colección de la Hemeroteca Municipal de Madrid es el 278, correspondiente al 24 de febrero de 1906.
+        </dc:description>
+    <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://hemerotecadigital.bne.es/details.vm?q=id%3A0004076552</dc:identifier>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Barcelona</dc:publisher>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">es</dc:language>
+    <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://hemerotecadigital.bne.es/details.vm?q=id%3A0004070483"/>
+    <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Biblioteca Nacional de España</dc:rights>
+    <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">1699-0722</dc:source>
+    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Pluma y lápiz (Barcelona. 1900) - 1902-01-01</dc:title>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Issue</dc:type>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Analytic serial</dc:type>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/2000092065198"/>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0597"/>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+    <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1902-01-01</dcterms:issued>
+    <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059393576"/>
+    <edm:europeanaProxy>false</edm:europeanaProxy>
+    <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_3000059393577"/>
+    <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_3000059393577"/>
+    <edm:type>TEXT</edm:type>
+  </ore:Proxy>
+  <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200302/BibliographicResource_3000059393577">
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx_1_third"/>
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx"/>
+    <edm:europeanaProxy>true</edm:europeanaProxy>
+    <edm:year>1902</edm:year>
+    <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_3000059393577"/>
+    <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_3000059393577"/>
+    <edm:type>TEXT</edm:type>
+  </ore:Proxy>
+  <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_3000059393577">
+    <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_3000059393577"/>
+    <edm:collectionName>9200302_Ag_EU_TEL_a0597_Newspapers_Spain</edm:collectionName>
+    <edm:country>Spain</edm:country>
+    <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200302/BibliographicResource_3000059393577.html"/>
+    <edm:language>es</edm:language>
+    <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:EuropeanaAggregation>
+</rdf:RDF>
