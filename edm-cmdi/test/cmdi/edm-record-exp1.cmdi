@@ -17,9 +17,13 @@
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
-            <cmd:ResourceProxy id="landingPage">
+            <cmd:ResourceProxy id="landingPage1">
                 <cmd:ResourceType>LandingPage</cmd:ResourceType>
-                <cmd:ResourceRef>...</cmd:ResourceRef>
+                <cmd:ResourceRef>http://europeana.eu/portal/record/92031/BibliographicResource_1000128561234.html</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="webresource1">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>http://molcat1.bl.uk/treasures/gutenberg/search.asp</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList>
@@ -35,6 +39,43 @@
                 proxyFor="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234" 
                 proxyIn="http://data.europeana.eu/aggregation/provider/92031/BibliographicResource_1000128561234">
                 <edm-ProvidedCHO>
+                    <!--
+                        <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Jerome, Saint. Præfationes
+                        in Biblia Sacra</dc:contributor>
+                        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Known as the Gutenberg Bible,
+                            the Mazarine Bible and the 42-line Bible. 643 leaves, the last two blank. Without
+                            signatures. From the Library of King George III.</dc:description>
+                        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">On paper. Double columns, 42
+                            lines to a column, except on ff. 129-132 recto, 40 lines. Ff. 1-20 are of the second of
+                            three recorded settings-up. The text of the first setting-up, with 40 lines to a column
+                            on ff. 1-4 and 41 lines on fol. 5 verso, begins: “Incipit epistola sancti iheronimi ad
+                            paulinum presbiterum de omnibus diuine historie libris. capitulu[m] p[ri]mu[m]. [F]Rater
+                            ambrosius tua michi munuscula [per]ferens, etc.” The headings are supplied throughout by
+                            hand, except on fol. 129 where they are printed in red. Hain *3031. Gesamtkatalog
+                            4201.</dc:description>
+                        <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">jpeg</dc:format>
+
+                        <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Mainz: Printer of the 42-line Bible, i.e.
+                            Johann Gutenberg, Johann Fust and Peter Schoeffer</dc:publisher>
+                        <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">G.12226,7.</dc:relation>
+                        <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">British
+                            Library</dc:source>
+
+                        <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Still image</dc:type>
+                        <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">text</dc:type>
+                        <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">Bible.
+                            Latin</dcterms:alternative>
+                        <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">Gutenberg
+                            Bible</dcterms:alternative>
+                        <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1455</dcterms:created>
+                        <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">2
+                            v.</dcterms:extent>
+                        <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0157"/>
+                        <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Gutenberg Bible
+                            Collection</dcterms:isPartOf>
+                        <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">2000</dcterms:issued>
+                    -->
+                    
                     <dc-identifier>7892777d-6c83-427d-9ecd-c0e255cc2a3d</dc-identifier>
                     <dc-title>Begin. [fol. 1
                         recto:] [F]Rater ambrosius tua michi munuscula perferens. detulit siml[ul] [et]
@@ -60,6 +101,13 @@
                 aggregatedCHO="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234">
                 <edm-dataProvider>The British Library</edm-dataProvider>
                 <edm-provider>The European Library</edm-provider>
+                <edm-isShownAt>
+                    <edm-WebResource cmd:ref="webresource1">
+                        <edm-rights>
+                            <rightsURI>http://creativecommons.org/licenses/by-nc-nd/4.0/</rightsURI>
+                        </edm-rights>
+                    </edm-WebResource>
+                </edm-isShownAt>
                 <edm-rights>
                     <rightsURI>http://creativecommons.org/licenses/by-nc-nd/4.0/</rightsURI>
                 </edm-rights>

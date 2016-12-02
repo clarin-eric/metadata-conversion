@@ -66,8 +66,7 @@
   <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92031/BibliographicResource_1000128561234">
     <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234"/>
     <edm:collectionName>92031_Ag_EU_TEL_a0157</edm:collectionName>
-    <edm:country>United
-            Kingdom</edm:country>
+    <edm:country>United Kingdom</edm:country>
     <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92031/BibliographicResource_1000128561234.html"/>
     <edm:language>en</edm:language>
     <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
