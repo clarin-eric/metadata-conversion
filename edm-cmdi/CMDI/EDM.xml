@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.2" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <ID>clarin.eu:cr1:p_1475136016208</ID>
+        <Name>EDM</Name>
+        <Description>Metadata profile for the European Data Model (EDM). See http://pro.europeana.eu/page/edm-documentation</Description>
+        <Status>development</Status>
+    </Header>
+    <Component name="EDM" CardinalityMin="1" CardinalityMax="1">
+        <Component name="edm-ProvidedCHO" ComponentRef="clarin.eu:cr1:c_1475136016211" ConceptLink="http://hdl.handle.net/11459/CCR_C-6248_a1248ec1-67d5-6424-4c70-eb78d2b6c133" CardinalityMin="1" CardinalityMax="1">
+            <AttributeList>
+                <Attribute name="rdf-about" ValueScheme="anyURI">
+                    <Documentation>rdf:about</Documentation>
+                </Attribute>
+            </AttributeList>
+            <Element name="dc-identifier" ConceptLink="http://purl.org/dc/elements/1.1/identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                <Documentation>An identifier of the original CHO</Documentation>
+            </Element>
+            <Element name="dc-language" ConceptLink="http://purl.org/dc/elements/1.1/language" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>The language of text CHOs and also for other types of CHO if there is a language aspect.</Documentation>
+            </Element>
+            <Element name="dc-title" ConceptLink="http://purl.org/dc/elements/1.1/title" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="10" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                <Documentation>dc:title</Documentation>
+            </Element>
+            <Element name="dcterms-alternative" ConceptLink="http://purl.org/dc/terms/alternative" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                <Documentation>Any alternative title of the CHO including abbreviations or translations that may not be exact.</Documentation>
+            </Element>
+            <Element name="edm-type" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                <Documentation>The value must be one of the types accepted by Europeana as it will support portal functionality</Documentation>
+                <ValueScheme>
+                    <Vocabulary>
+                        <enumeration>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9" AppInfo="Text">TEXT</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022" AppInfo="Video">VIDEO</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64" AppInfo="Sound">SOUND</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a" AppInfo="Image">IMAGE</item>
+                            <item ConceptLink="" AppInfo="3D">3D</item>
+                        </enumeration>
+                    </Vocabulary>
+                </ValueScheme>
+            </Element>
+            <Component name="dc-coverage" ConceptLink="http://purl.org/dc/elements/1.1/coverage" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>container for dc:coverage</Documentation>
+                <Element name="dc-coverage" ConceptLink="http://purl.org/dc/elements/1.1/coverage" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Documentation>dc:coverage literal</Documentation>
+                </Element>
+                <Component name="edm-Place" ComponentRef="clarin.eu:cr1:c_1475136016213" ConceptLink="http://hdl.handle.net/11459/CCR_C-6255_bbbfe10d-83d1-185c-ec65-3e8ed033af02" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>The preferred form of the name of the place</Documentation>
+                    </Element>
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>Alternative forms of the name of the place</Documentation>
+                    </Element>
+                </Component>
+                <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                    </Element>
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                    </Element>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="ProvidedCHOProxy" CardinalityMin="0" CardinalityMax="unbounded">
+            <Documentation>Representation of ore:Proxy for an edm:ProvidedCHO</Documentation>
+            <AttributeList>
+                <Attribute name="proxyFor" ValueScheme="anyURI">
+                    <Documentation>Identifier of the ProvidedCHO object this is a proxy for</Documentation>
+                </Attribute>
+                <Attribute name="proxyIn" ValueScheme="anyURI">
+                    <Documentation>Identifier of the Aggregation object this proxy belongs to</Documentation>
+                </Attribute>
+            </AttributeList>
+            <Component name="edm-ProvidedCHO" ComponentRef="clarin.eu:cr1:c_1475136016211" ConceptLink="http://hdl.handle.net/11459/CCR_C-6248_a1248ec1-67d5-6424-4c70-eb78d2b6c133" CardinalityMin="1" CardinalityMax="1">
+                <AttributeList>
+                    <Attribute name="rdf-about" ValueScheme="anyURI">
+                        <Documentation>rdf:about</Documentation>
+                    </Attribute>
+                </AttributeList>
+                <Element name="dc-identifier" ConceptLink="http://purl.org/dc/elements/1.1/identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Documentation>An identifier of the original CHO</Documentation>
+                </Element>
+                <Element name="dc-language" ConceptLink="http://purl.org/dc/elements/1.1/language" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>The language of text CHOs and also for other types of CHO if there is a language aspect.</Documentation>
+                </Element>
+                <Element name="dc-title" ConceptLink="http://purl.org/dc/elements/1.1/title" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="10" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Documentation>dc:title</Documentation>
+                </Element>
+                <Element name="dcterms-alternative" ConceptLink="http://purl.org/dc/terms/alternative" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Documentation>Any alternative title of the CHO including abbreviations or translations that may not be exact.</Documentation>
+                </Element>
+                <Element name="edm-type" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Documentation>The value must be one of the types accepted by Europeana as it will support portal functionality</Documentation>
+                    <ValueScheme>
+                        <Vocabulary>
+                            <enumeration>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9" AppInfo="Text">TEXT</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022" AppInfo="Video">VIDEO</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64" AppInfo="Sound">SOUND</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a" AppInfo="Image">IMAGE</item>
+                                <item ConceptLink="" AppInfo="3D">3D</item>
+                            </enumeration>
+                        </Vocabulary>
+                    </ValueScheme>
+                </Element>
+                <Component name="dc-coverage" ConceptLink="http://purl.org/dc/elements/1.1/coverage" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>container for dc:coverage</Documentation>
+                    <Element name="dc-coverage" ConceptLink="http://purl.org/dc/elements/1.1/coverage" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:coverage literal</Documentation>
+                    </Element>
+                    <Component name="edm-Place" ComponentRef="clarin.eu:cr1:c_1475136016213" ConceptLink="http://hdl.handle.net/11459/CCR_C-6255_bbbfe10d-83d1-185c-ec65-3e8ed033af02" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>The preferred form of the name of the place</Documentation>
+                        </Element>
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>Alternative forms of the name of the place</Documentation>
+                        </Element>
+                    </Component>
+                    <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                        </Element>
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                        </Element>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="edm-Aggregation" ComponentRef="clarin.eu:cr1:c_1475136016210" CardinalityMin="1" CardinalityMax="1">
+            <AttributeList>
+                <Attribute name="rdf-about" ConceptLink="rdf:about" ValueScheme="anyURI"/>
+                <Attribute name="class">
+                    <ValueScheme>
+                        <Vocabulary>
+                            <enumeration>
+                                <item ConceptLink="" AppInfo="ore:Aggregation">ore-Aggregation</item>
+                                <item ConceptLink="" AppInfo="edm:EuropeanaAggregation">edm-EuropeanaAggregation</item>
+                            </enumeration>
+                        </Vocabulary>
+                    </ValueScheme>
+                </Attribute>
+                <Attribute name="aggregatedCHO" ValueScheme="anyURI" Required="true">
+                    <Documentation>The identifier of the source object</Documentation>
+                </Attribute>
+            </AttributeList>
+            <Element name="edm-dataProvider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+            <Element name="emd-provider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
+                <Documentation>The name or identifier of the provider of the object (i.e. the organisation providing data directly to  Europeana)</Documentation>
+            </Element>
+            <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                <Documentation>dc:rights literal</Documentation>
+            </Element>
+            <Element name="edm-ugc" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>Property for objects that are user generated or user created that have been collected  by crowdsourcing or project activity.  The property is used to identify such content.</Documentation>
+            </Element>
+            <Element name="edm-intermediateProvider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>The intermediate organization that selects, collates, or curates data from a Data  Provider that is then aggregated by a Provider from which Europeana harvests. The Intermediate  Provider must be distinct from both the Data Provider and the Provider in the data supply  chain. </Documentation>
+            </Element>
+            <Component name="edm-hasView" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>A web resource which is a digital representation of the CHO.  This may be the source object  itself in the case of a born digital cultural heritage object</Documentation>
+                <Component name="edm-WebResource" ComponentRef="clarin.eu:cr1:c_1475136016216" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:description literal</Documentation>
+                    </Element>
+                    <Element name="dc-format" ConceptLink="http://purl.org/dc/elements/1.1/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:format literal (e.g. mime type; use the value "3D-PDF" if appropriate)</Documentation>
+                    </Element>
+                    <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:rights literal</Documentation>
+                    </Element>
+                    <Element name="dc-source" ConceptLink="http://purl.org/dc/elements/1.1/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:source literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:conformsTo literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:extent literal</Documentation>
+                    </Element>
+                    <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Creator of the web resource</Documentation>
+                        <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dc-creator literal</Documentation>
+                        </Element>
+                        <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the agent</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:created literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="edm-isShownAt" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>A web view of the object in full information context.</Documentation>
+                <Component name="edm-WebResource" ComponentRef="clarin.eu:cr1:c_1475136016216" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:description literal</Documentation>
+                    </Element>
+                    <Element name="dc-format" ConceptLink="http://purl.org/dc/elements/1.1/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:format literal (e.g. mime type; use the value "3D-PDF" if appropriate)</Documentation>
+                    </Element>
+                    <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:rights literal</Documentation>
+                    </Element>
+                    <Element name="dc-source" ConceptLink="http://purl.org/dc/elements/1.1/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:source literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:conformsTo literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:extent literal</Documentation>
+                    </Element>
+                    <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Creator of the web resource</Documentation>
+                        <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dc-creator literal</Documentation>
+                        </Element>
+                        <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the agent</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:created literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="edm-isShownBy" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>A web view of the object</Documentation>
+                <Component name="edm-WebResource" ComponentRef="clarin.eu:cr1:c_1475136016216" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:description literal</Documentation>
+                    </Element>
+                    <Element name="dc-format" ConceptLink="http://purl.org/dc/elements/1.1/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:format literal (e.g. mime type; use the value "3D-PDF" if appropriate)</Documentation>
+                    </Element>
+                    <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:rights literal</Documentation>
+                    </Element>
+                    <Element name="dc-source" ConceptLink="http://purl.org/dc/elements/1.1/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:source literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:conformsTo literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:extent literal</Documentation>
+                    </Element>
+                    <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Creator of the web resource</Documentation>
+                        <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dc-creator literal</Documentation>
+                        </Element>
+                        <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the agent</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:created literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="edm-object" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>A representation of the CHO which will be used for generating previews for use in the  Europeana portal</Documentation>
+                <Component name="edm-WebResource" ComponentRef="clarin.eu:cr1:c_1475136016216" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:description literal</Documentation>
+                    </Element>
+                    <Element name="dc-format" ConceptLink="http://purl.org/dc/elements/1.1/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:format literal (e.g. mime type; use the value "3D-PDF" if appropriate)</Documentation>
+                    </Element>
+                    <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:rights literal</Documentation>
+                    </Element>
+                    <Element name="dc-source" ConceptLink="http://purl.org/dc/elements/1.1/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:source literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:conformsTo literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:extent literal</Documentation>
+                    </Element>
+                    <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Creator of the web resource</Documentation>
+                        <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dc-creator literal</Documentation>
+                        </Element>
+                        <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the agent</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:created literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="edm-rights" ConceptLink="http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3" CardinalityMin="1" CardinalityMax="1">
+                <Documentation>Rights statement that applies to the  digital representation as given (for example) in edm:object or edm:isShownAt/By, when these resources  are not provided with their own edm:rights (see edm:rights documentation).</Documentation>
+                <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Documentation></Documentation>
+                </Element>
+                <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="licenseURI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                    <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                        <Documentation></Documentation>
+                    </Element>
+                    <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation></Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
+                        </AttributeList>
+                    </Element>
+                </Component>
+            </Component>
+        </Component>
+    </Component>
+</ComponentSpec>
