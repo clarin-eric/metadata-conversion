@@ -25,7 +25,7 @@
             <Element name="dcterms-alternative" ConceptLink="http://purl.org/dc/terms/alternative" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                 <Documentation>Any alternative title of the CHO including abbreviations or translations that may not be exact.</Documentation>
             </Element>
-            <Element name="edm-type" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+            <Element name="edm-type" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                 <Documentation>The value must be one of the types accepted by Europeana as it will support portal functionality</Documentation>
                 <ValueScheme>
                     <Vocabulary>
@@ -65,10 +65,10 @@
         <Component name="ProvidedCHOProxy" CardinalityMin="0" CardinalityMax="unbounded">
             <Documentation>Representation of ore:Proxy for an edm:ProvidedCHO</Documentation>
             <AttributeList>
-                <Attribute name="proxyFor" ValueScheme="anyURI">
+                <Attribute name="proxyFor" ValueScheme="anyURI" Required="true">
                     <Documentation>Identifier of the ProvidedCHO object this is a proxy for</Documentation>
                 </Attribute>
-                <Attribute name="proxyIn" ValueScheme="anyURI">
+                <Attribute name="proxyIn" ValueScheme="anyURI" Required="true">
                     <Documentation>Identifier of the Aggregation object this proxy belongs to</Documentation>
                 </Attribute>
             </AttributeList>
@@ -90,7 +90,7 @@
                 <Element name="dcterms-alternative" ConceptLink="http://purl.org/dc/terms/alternative" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                     <Documentation>Any alternative title of the CHO including abbreviations or translations that may not be exact.</Documentation>
                 </Element>
-                <Element name="edm-type" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                <Element name="edm-type" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                     <Documentation>The value must be one of the types accepted by Europeana as it will support portal functionality</Documentation>
                     <ValueScheme>
                         <Vocabulary>
@@ -128,25 +128,15 @@
                 </Component>
             </Component>
         </Component>
-        <Component name="edm-Aggregation" ComponentRef="clarin.eu:cr1:c_1475136016210" CardinalityMin="1" CardinalityMax="1">
+        <Component name="edm-Aggregation" ComponentRef="clarin.eu:cr1:c_1475136016210" CardinalityMin="1" CardinalityMax="unbounded">
             <AttributeList>
                 <Attribute name="rdf-about" ConceptLink="rdf:about" ValueScheme="anyURI"/>
-                <Attribute name="class">
-                    <ValueScheme>
-                        <Vocabulary>
-                            <enumeration>
-                                <item ConceptLink="" AppInfo="ore:Aggregation">ore-Aggregation</item>
-                                <item ConceptLink="" AppInfo="edm:EuropeanaAggregation">edm-EuropeanaAggregation</item>
-                            </enumeration>
-                        </Vocabulary>
-                    </ValueScheme>
-                </Attribute>
                 <Attribute name="aggregatedCHO" ValueScheme="anyURI" Required="true">
                     <Documentation>The identifier of the source object</Documentation>
                 </Attribute>
             </AttributeList>
             <Element name="edm-dataProvider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-            <Element name="emd-provider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
+            <Element name="edm-provider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
                 <Documentation>The name or identifier of the provider of the object (i.e. the organisation providing data directly to  Europeana)</Documentation>
             </Element>
             <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -358,11 +348,35 @@
                     </Component>
                 </Component>
             </Component>
-            <Component name="edm-rights" ConceptLink="http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3" CardinalityMin="1" CardinalityMax="1">
-                <Documentation>Rights statement that applies to the  digital representation as given (for example) in edm:object or edm:isShownAt/By, when these resources  are not provided with their own edm:rights (see edm:rights documentation).</Documentation>
-                <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
-                    <Documentation></Documentation>
-                </Element>
+            <Component name="edm-rights" ComponentRef="clarin.eu:cr1:c_1475136016220" ConceptLink="http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3" CardinalityMin="1" CardinalityMax="1">
+                <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="licenseURI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                    <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                        <Documentation></Documentation>
+                    </Element>
+                    <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation></Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
+                        </AttributeList>
+                    </Element>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="edm-EuropeanaAggregation" ComponentRef="clarin.eu:cr1:c_1475136016219" CardinalityMin="0" CardinalityMax="unbounded">
+            <AttributeList>
+                <Attribute name="rdf-about" ConceptLink="rdf:about" ValueScheme="anyURI"/>
+                <Attribute name="aggregatedCHO" ValueScheme="anyURI" Required="true">
+                    <Documentation>The identifier of the source object</Documentation>
+                </Attribute>
+            </AttributeList>
+            <Element name="edm-collectionName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+            <Element name="edm-country" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                <Documentation></Documentation>
+            </Element>
+            <Component name="edm-rights" ComponentRef="clarin.eu:cr1:c_1475136016220" ConceptLink="http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3" CardinalityMin="1" CardinalityMax="1">
+                <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                 <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
                     <Element name="licenseURI" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                     <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
