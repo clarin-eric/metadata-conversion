@@ -6,7 +6,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
     xsi:schemaLocation="http://www.clarin.eu/cmd/1 file:/Users/twagoo/Documents/Repositories/git/cmdi-toolkit/src/main/resources/toolkit/xsd/cmd-envelop.xsd 
-        http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
+        http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 ../../CMDI/profile/EDM.xsd"
     CMDVersion="1.2">
     <cmd:Header>
         <cmd:MdCreator></cmd:MdCreator>
@@ -29,7 +29,54 @@
     </cmd:Resources>
     <cmd:Components>
         <EDM>
-            <Title></Title>
+            <edm-ProvidedCHO 
+                rdf-about="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234" />
+            <ProvidedCHOProxy 
+                proxyFor="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234" 
+                proxyIn="http://data.europeana.eu/aggregation/provider/92031/BibliographicResource_1000128561234">
+                <edm-ProvidedCHO>
+                    <dc-identifier>7892777d-6c83-427d-9ecd-c0e255cc2a3d</dc-identifier>
+                    <dc-title>Begin. [fol. 1
+                        recto:] [F]Rater ambrosius tua michi munuscula perferens. detulit siml[ul] [et]
+                        suauissimas litteras, etc. [fol. 5 recto:] [I]N principio creauit deus celu[m] et
+                        terram, etc. End. [fol. 641 verso:] Gratia d[omi]n[i] n[ost]r[i] ihesu cristi tu[m]
+                        [sic] omnib[us] vobis ame[n]. G.L.</dc-title>
+                    <edm-type>IMAGE</edm-type>
+                </edm-ProvidedCHO>
+            </ProvidedCHOProxy>
+            <ProvidedCHOProxy
+                proxyFor="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234" 
+                proxyIn="http://data.europeana.eu/aggregation/europeana/92031/BibliographicResource_1000128561234">
+                <edm-ProvidedCHO>
+                    <!--
+                        <edm:year xml:lang="eur">1455</edm:year>
+                        <edm:year xml:lang="eur">2000</edm:year>
+                    -->
+                    <edm-type>IMAGE</edm-type>
+                </edm-ProvidedCHO>
+            </ProvidedCHOProxy>
+            <edm-Aggregation 
+                rdf-about="http://data.europeana.eu/aggregation/provider/92031/BibliographicResource_1000128561234" 
+                aggregatedCHO="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234">
+                <edm-dataProvider>The British Library</edm-dataProvider>
+                <edm-provider>The European Library</edm-provider>
+                <edm-rights>
+                    <rightsURI>http://creativecommons.org/licenses/by-nc-nd/4.0/</rightsURI>
+                </edm-rights>
+            </edm-Aggregation>
+            <edm-EuropeanaAggregation 
+                rdf-about="http://data.europeana.eu/aggregation/europeana/92031/BibliographicResource_1000128561234" 
+                aggregatedCHO="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234">
+                <edm-collectionName>92031_Ag_EU_TEL_a0157</edm-collectionName>
+                <edm-country>United Kingdom</edm-country>
+                <!--
+                    <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92031/BibliographicResource_1000128561234.html"/>
+                    <edm:language>en</edm:language>
+                -->
+                <edm-rights>
+                    <rightsURI>http://creativecommons.org/licenses/by-nc-nd/4.0/</rightsURI>
+                </edm-rights>
+            </edm-EuropeanaAggregation>
         </EDM>
     </cmd:Components>
 </cmd:CMD>
