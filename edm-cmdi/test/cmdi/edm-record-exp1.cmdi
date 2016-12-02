@@ -5,15 +5,15 @@
     xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
-    xsi:schemaLocation="http://www.clarin.eu/cmd/1 file:/Users/twagoo/Documents/Repositories/git/cmdi-toolkit/src/main/resources/toolkit/xsd/cmd-envelop.xsd 
-        http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 ../../CMDI/profile/EDM.xsd"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd 
+    http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
     CMDVersion="1.2">
     <cmd:Header>
         <cmd:MdCreator></cmd:MdCreator>
         <cmd:MdCreationDate>2010-01-01</cmd:MdCreationDate>
-        <cmd:MdSelfLink>...</cmd:MdSelfLink>
+        <!--<cmd:MdSelfLink>BibliographicResource_1000128561234.cmdi</cmd:MdSelfLink>-->
         <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
-        <cmd:MdCollectionDisplayName>??</cmd:MdCollectionDisplayName>
+        <cmd:MdCollectionDisplayName>92031_Ag_EU_TEL_a0157</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
@@ -60,7 +60,6 @@
                     <dc-identifier>7892777d-6c83-427d-9ecd-c0e255cc2a3d</dc-identifier>
                     <dc-language></dc-language>
                     <dc-relation>G.12226,7.</dc-relation>
-                    <dc-rights></dc-rights>
                     <dc-source xml:lang="en">British Library</dc-source>
                     <dc-title>Begin. [fol. 1
                         recto:] [F]Rater ambrosius tua michi munuscula perferens. detulit siml[ul] [et]
