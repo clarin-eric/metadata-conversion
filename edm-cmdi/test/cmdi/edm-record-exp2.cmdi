@@ -61,11 +61,6 @@
                     </dc-date>
                     <dc-type>
                         <skos-Concept rdf-about="http://vocab.getty.edu/aat/300026656">
-                            <!--
-                                <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
-                                <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
-                                <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
-                            -->
                             <skos-prefLabel xml:lang="en">newspapers</skos-prefLabel>
                             <skos-prefLabel xml:lang="es">diarios (noticias)</skos-prefLabel>
                             <skos-prefLabel xml:lang="nl">kranten</skos-prefLabel>
@@ -76,6 +71,9 @@
                             <skos-altLabel xml:lang="en">newspaper</skos-altLabel>
                             <skos-altLabel xml:lang="es">diario (noticias)</skos-altLabel>
                             <skos-altLabel xml:lang="nl">nieuwsbladen</skos-altLabel>
+                            <skos-broader rdf-resource="http://vocab.getty.edu/aat/300026642"/>
+                            <skos-narrower rdf-resource="http://vocab.getty.edu/aat/300404424"/>
+                            <skos-note>http://vocab.getty.edu/aat/rev/5002531933</skos-note>
                         </skos-Concept>
                     </dc-type>
                     <dc-type>
@@ -98,59 +96,10 @@
                     <edm-year>1923</edm-year>
                    <dc-date>
                        <edm-TimeSpan rdf-about="http://semium.org/time/1923">
-                           <!--
-                              <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_1_third"/>
-                              <edm:begin>Mon Jan 01 00:19:32 CET 1923</edm:begin>
-                              <edm:end>Mon Dec 31 00:19:32 CET 1923</edm:end>
-                              
-                                {{{
-                                <edm:TimeSpan rdf:about="http://semium.org/time/19xx_1_third">
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early
-                                          20th century</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 20-го
-                                          века</skos:prefLabel>
-                                  <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
-                                  <edm:end>Sun Dec
-                                          31 00:19:32 CET 1933</edm:end>
-                                </edm:TimeSpan>
-                                <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e
-                                          siècle</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й
-                                          век</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
-                                  <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
-                                  <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
-                                  <edm:end>Sun Dec 31 01:00:00 CET
-                                          2000</edm:end>
-                                </edm:TimeSpan>
-                                <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e
-                                          millénaire après J.-C.</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium
-                                          AD</skos:prefLabel>
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years
-                                      1001-2000</skos:prefLabel>
-                                </edm:TimeSpan>
-                                <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological
-                                          period</skos:prefLabel>
-                                  <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
-                                </edm:TimeSpan>
-                                <edm:TimeSpan rdf:about="http://semium.org/time/Time">
-                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
-                                </edm:TimeSpan>
-                                }}}
-                                
-                           -->
                            <skos-prefLabel>1923</skos-prefLabel>
-                           <skos-altLabel></skos-altLabel>
+                           <dcterms-isPartOf rdf-resource="http://semium.org/time/19xx_1_third"/>
+                           <edm-begin>Mon Jan 01 00:19:32 CET 1923</edm-begin>
+                           <edm-end>Mon Dec 31 00:19:32 CET 1923</edm-end>
                        </edm-TimeSpan>
                    </dc-date> 
                 </edm-ProvidedCHO>
