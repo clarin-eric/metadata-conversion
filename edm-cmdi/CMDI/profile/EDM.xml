@@ -1799,10 +1799,11 @@
                     <Documentation>The identifier of the source object</Documentation>
                 </Attribute>
             </AttributeList>
-            <Element name="edm-collectionName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-            <Element name="edm-country" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+            <Element name="edm-collectionName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6832_3f1d39bf-ed03-4f05-6b6c-f28cc0e268ed" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+            <Element name="edm-country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
                 <Documentation></Documentation>
             </Element>
+            <Element name="edm-language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
             <Component name="edm-rights" ComponentRef="clarin.eu:cr1:c_1475136016220" ConceptLink="http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3" CardinalityMin="1" CardinalityMax="1">
                 <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                 <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
