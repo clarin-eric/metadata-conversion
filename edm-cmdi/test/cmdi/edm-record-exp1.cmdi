@@ -39,12 +39,6 @@
                 proxyFor="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234" 
                 proxyIn="http://data.europeana.eu/aggregation/provider/92031/BibliographicResource_1000128561234">
                 <edm-ProvidedCHO>
-                    <!--
-                        <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0157"/>
-                        <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Gutenberg Bible Collection</dcterms:isPartOf>
-                        <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">2000</dcterms:issued>
-                    -->
-                    <edm-type>IMAGE</edm-type>
                     <dc-description xml:lang="en">Known as the Gutenberg Bible,
                         the Mazarine Bible and the 42-line Bible. 643 leaves, the last two blank. Without
                         signatures. From the Library of King George III.</dc-description>
@@ -69,6 +63,9 @@
                     <dcterms-alternative>Bible. Latin</dcterms-alternative>
                     <dcterms-alternative>Gutenberg Bible</dcterms-alternative>
                     <dcterms-extent>2 v.</dcterms-extent>
+                    <dcterms-isPartOf rdf-resource="http://data.theeuropeanlibrary.org/Collection/a0157" />
+                    <dcterms-isPartOf>Gutenberg Bible Collection</dcterms-isPartOf>
+                    <edm-type>IMAGE</edm-type>
                     <dc-contributor>
                         <dc-contributor>Jerome, Saint. Præfationes in Biblia Sacra</dc-contributor>
                     </dc-contributor>
@@ -84,17 +81,18 @@
                     <dcterms-created>
                         <dcterms-created>1455</dcterms-created>
                     </dcterms-created>
+                    <dcterms-issued>
+                        <dcterms-issued>2000</dcterms-issued>
+                    </dcterms-issued>
                 </edm-ProvidedCHO>
             </ProvidedCHOProxy>
             <ProvidedCHOProxy
                 proxyFor="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234" 
                 proxyIn="http://data.europeana.eu/aggregation/europeana/92031/BibliographicResource_1000128561234">
                 <edm-ProvidedCHO>
-                    <!--
-                        <edm:year xml:lang="eur">1455</edm:year>
-                        <edm:year xml:lang="eur">2000</edm:year>
-                    -->
                     <edm-type>IMAGE</edm-type>
+                    <edm-year>1455</edm-year>
+                    <edm-year>2000</edm-year>
                 </edm-ProvidedCHO>
             </ProvidedCHOProxy>
             <edm-Aggregation 

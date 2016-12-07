@@ -192,6 +192,7 @@
                     </Vocabulary>
                 </ValueScheme>
             </Element>
+            <Element name="edm-year" ConceptLink="http://hdl.handle.net/11459/CCR_C-5762_3e1b13e8-8247-513f-35a6-241839a1198b" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="unbounded"/>
             <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>Only the rdf-resource attribute should be used</Documentation>
                 <AttributeList>
@@ -824,6 +825,7 @@
                         </Vocabulary>
                     </ValueScheme>
                 </Element>
+                <Element name="edm-year" ConceptLink="http://hdl.handle.net/11459/CCR_C-5762_3e1b13e8-8247-513f-35a6-241839a1198b" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="unbounded"/>
                 <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                     <Documentation>Only the rdf-resource attribute should be used</Documentation>
                     <AttributeList>
