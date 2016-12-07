@@ -13,20 +13,6 @@
                     <Documentation>rdf:about</Documentation>
                 </Attribute>
             </AttributeList>
-            <Element name="edm-type" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
-                <Documentation>The value must be one of the types accepted by Europeana as it will support portal functionality</Documentation>
-                <ValueScheme>
-                    <Vocabulary>
-                        <enumeration>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9" AppInfo="Text">TEXT</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022" AppInfo="Video">VIDEO</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64" AppInfo="Sound">SOUND</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a" AppInfo="Image">IMAGE</item>
-                            <item ConceptLink="" AppInfo="3D">3D</item>
-                        </enumeration>
-                    </Vocabulary>
-                </ValueScheme>
-            </Element>
             <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                 <Documentation>A description of the CHO</Documentation>
             </Element>
@@ -137,6 +123,82 @@
             </Element>
             <Element name="dcterms-tableOfContents" ConceptLink="http://purl.org/dc/terms/tableOfContents" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                 <Documentation>A list of sub-units of the CHO. </Documentation>
+            </Element>
+            <Element name="edm-incorporates" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>The identifier of another resource that is incorporated in the described CHO.</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-about" ValueScheme="anyURI" Required="true"/>
+                </AttributeList>
+            </Element>
+            <Element name="edm-isDerivativeOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>Only the rdf-about attribute should be used</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                        <Documentation>The identifier of another resource from which the described CHO has been derived.</Documentation>
+                    </Attribute>
+                </AttributeList>
+            </Element>
+            <Element name="edm-isNextInSequence" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>Only the rdf-about attribute should be used</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                        <Documentation>The identifier of the preceding object where both objects are part of the same overall resource.</Documentation>
+                    </Attribute>
+                </AttributeList>
+            </Element>
+            <Element name="edm-isRelatedTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>Only the rdf-about attribute should be used</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                        <Documentation>The identifier or name of a concept or other resource to which the described CHO is related. </Documentation>
+                    </Attribute>
+                </AttributeList>
+            </Element>
+            <Element name="edm-isRepresentationOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>Only the rdf-about attribute should be used</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                        <Documentation>The identifier of another object of which the described CHO is a representation.</Documentation>
+                    </Attribute>
+                </AttributeList>
+            </Element>
+            <Element name="edm-isSimilarTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>Only the rdf-about attribute should be used</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                        <Documentation>The identifier of another resource to which the described CHO is similar.</Documentation>
+                    </Attribute>
+                </AttributeList>
+            </Element>
+            <Element name="edm-isSuccessorOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>Only the rdf-about attribute should be used</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                        <Documentation>The identifier of a resource to which the described CHO is a successor.</Documentation>
+                    </Attribute>
+                </AttributeList>
+            </Element>
+            <Element name="edm-type" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                <Documentation>The value must be one of the types accepted by Europeana as it will support portal functionality</Documentation>
+                <ValueScheme>
+                    <Vocabulary>
+                        <enumeration>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9" AppInfo="Text">TEXT</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022" AppInfo="Video">VIDEO</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64" AppInfo="Sound">SOUND</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a" AppInfo="Image">IMAGE</item>
+                            <item ConceptLink="" AppInfo="3D">3D</item>
+                        </enumeration>
+                    </Vocabulary>
+                </ValueScheme>
+            </Element>
+            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>Only the rdf-about attribute should be used</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true">
+                        <Documentation>Use to point to your own (linked data) representation of the object, if you have already minted a URI  identifier for it.  It is also possible to provide URIs minted by thirdVparties for the object.</Documentation>
+                    </Attribute>
+                </AttributeList>
             </Element>
             <Component name="dc-contributor" ConceptLink="http://purl.org/dc/elements/1.1/contributor" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>container for dc:contributor</Documentation>
@@ -430,6 +492,90 @@
                     </Element>
                 </Component>
             </Component>
+            <Component name="edm-hasMet" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>The identifier of an agent, a place, a time period or any other identifiable entity that the CHO may have “met”  in its life. </Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                </AttributeList>
+                <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                    </AttributeList>
+                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>The preferred form of the name of the agent</Documentation>
+                    </Element>
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>Alternative forms of the name of the agent</Documentation>
+                    </Element>
+                </Component>
+                <Component name="edm-Place" ComponentRef="clarin.eu:cr1:c_1475136016213" ConceptLink="http://hdl.handle.net/11459/CCR_C-6255_bbbfe10d-83d1-185c-ec65-3e8ed033af02" CardinalityMin="0" CardinalityMax="1">
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                    </AttributeList>
+                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>The preferred form of the name of the place</Documentation>
+                    </Element>
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>Alternative forms of the name of the place</Documentation>
+                    </Element>
+                </Component>
+                <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                    </AttributeList>
+                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                    </Element>
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                    </Element>
+                </Component>
+                <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                    </AttributeList>
+                    <Element name="skos-prefLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>The preferred form of the name of the concept</Documentation>
+                    </Element>
+                    <Element name="skos-altLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>Alternative forms of the name of the concept</Documentation>
+                    </Element>
+                </Component>
+            </Component>
+            <Component name="edm-hasType" ConceptLink="" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>The identifier of a concept, or a word or phrase from a controlled vocabulary (thesaurus etc) giving the type  of the CHO. </Documentation>
+                <Element name="edm-hasType" ConceptLink="http://hdl.handle.net/11459/CCR_C-1971_b6a96b19-16fd-ec1a-0fc6-78fe87ff5cc3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Documentation>edm:hasType literal</Documentation>
+                </Element>
+                <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                    </AttributeList>
+                    <Element name="skos-prefLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>The preferred form of the name of the concept</Documentation>
+                    </Element>
+                    <Element name="skos-altLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>Alternative forms of the name of the concept</Documentation>
+                    </Element>
+                </Component>
+            </Component>
+            <Component name="edm-realizes" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>If the CHO described is of type edm:PhysicalThing it may realize an information object.</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                </AttributeList>
+                <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                    </AttributeList>
+                    <Element name="skos-prefLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>The preferred form of the name of the concept</Documentation>
+                    </Element>
+                    <Element name="skos-altLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>Alternative forms of the name of the concept</Documentation>
+                    </Element>
+                </Component>
+            </Component>
         </Component>
         <Component name="ProvidedCHOProxy" CardinalityMin="0" CardinalityMax="unbounded">
             <Documentation>Representation of ore:Proxy for an edm:ProvidedCHO</Documentation>
@@ -447,20 +593,6 @@
                         <Documentation>rdf:about</Documentation>
                     </Attribute>
                 </AttributeList>
-                <Element name="edm-type" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
-                    <Documentation>The value must be one of the types accepted by Europeana as it will support portal functionality</Documentation>
-                    <ValueScheme>
-                        <Vocabulary>
-                            <enumeration>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9" AppInfo="Text">TEXT</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022" AppInfo="Video">VIDEO</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64" AppInfo="Sound">SOUND</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a" AppInfo="Image">IMAGE</item>
-                                <item ConceptLink="" AppInfo="3D">3D</item>
-                            </enumeration>
-                        </Vocabulary>
-                    </ValueScheme>
-                </Element>
                 <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                     <Documentation>A description of the CHO</Documentation>
                 </Element>
@@ -571,6 +703,82 @@
                 </Element>
                 <Element name="dcterms-tableOfContents" ConceptLink="http://purl.org/dc/terms/tableOfContents" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                     <Documentation>A list of sub-units of the CHO. </Documentation>
+                </Element>
+                <Element name="edm-incorporates" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>The identifier of another resource that is incorporated in the described CHO.</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI" Required="true"/>
+                    </AttributeList>
+                </Element>
+                <Element name="edm-isDerivativeOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>Only the rdf-about attribute should be used</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                            <Documentation>The identifier of another resource from which the described CHO has been derived.</Documentation>
+                        </Attribute>
+                    </AttributeList>
+                </Element>
+                <Element name="edm-isNextInSequence" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>Only the rdf-about attribute should be used</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                            <Documentation>The identifier of the preceding object where both objects are part of the same overall resource.</Documentation>
+                        </Attribute>
+                    </AttributeList>
+                </Element>
+                <Element name="edm-isRelatedTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>Only the rdf-about attribute should be used</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                            <Documentation>The identifier or name of a concept or other resource to which the described CHO is related. </Documentation>
+                        </Attribute>
+                    </AttributeList>
+                </Element>
+                <Element name="edm-isRepresentationOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                    <Documentation>Only the rdf-about attribute should be used</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                            <Documentation>The identifier of another object of which the described CHO is a representation.</Documentation>
+                        </Attribute>
+                    </AttributeList>
+                </Element>
+                <Element name="edm-isSimilarTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>Only the rdf-about attribute should be used</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                            <Documentation>The identifier of another resource to which the described CHO is similar.</Documentation>
+                        </Attribute>
+                    </AttributeList>
+                </Element>
+                <Element name="edm-isSuccessorOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>Only the rdf-about attribute should be used</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI" Required="true">
+                            <Documentation>The identifier of a resource to which the described CHO is a successor.</Documentation>
+                        </Attribute>
+                    </AttributeList>
+                </Element>
+                <Element name="edm-type" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Documentation>The value must be one of the types accepted by Europeana as it will support portal functionality</Documentation>
+                    <ValueScheme>
+                        <Vocabulary>
+                            <enumeration>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9" AppInfo="Text">TEXT</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022" AppInfo="Video">VIDEO</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64" AppInfo="Sound">SOUND</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a" AppInfo="Image">IMAGE</item>
+                                <item ConceptLink="" AppInfo="3D">3D</item>
+                            </enumeration>
+                        </Vocabulary>
+                    </ValueScheme>
+                </Element>
+                <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>Only the rdf-about attribute should be used</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true">
+                            <Documentation>Use to point to your own (linked data) representation of the object, if you have already minted a URI  identifier for it.  It is also possible to provide URIs minted by thirdVparties for the object.</Documentation>
+                        </Attribute>
+                    </AttributeList>
                 </Element>
                 <Component name="dc-contributor" ConceptLink="http://purl.org/dc/elements/1.1/contributor" CardinalityMin="0" CardinalityMax="unbounded">
                     <Documentation>container for dc:contributor</Documentation>
@@ -861,6 +1069,90 @@
                         </Element>
                         <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>Alternative forms of the name of the place</Documentation>
+                        </Element>
+                    </Component>
+                </Component>
+                <Component name="edm-hasMet" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>The identifier of an agent, a place, a time period or any other identifiable entity that the CHO may have “met”  in its life. </Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                    </AttributeList>
+                    <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                        </AttributeList>
+                        <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>The preferred form of the name of the agent</Documentation>
+                        </Element>
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>Alternative forms of the name of the agent</Documentation>
+                        </Element>
+                    </Component>
+                    <Component name="edm-Place" ComponentRef="clarin.eu:cr1:c_1475136016213" ConceptLink="http://hdl.handle.net/11459/CCR_C-6255_bbbfe10d-83d1-185c-ec65-3e8ed033af02" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                        </AttributeList>
+                        <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>The preferred form of the name of the place</Documentation>
+                        </Element>
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>Alternative forms of the name of the place</Documentation>
+                        </Element>
+                    </Component>
+                    <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                        </AttributeList>
+                        <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                        </Element>
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                        </Element>
+                    </Component>
+                    <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                        </AttributeList>
+                        <Element name="skos-prefLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>The preferred form of the name of the concept</Documentation>
+                        </Element>
+                        <Element name="skos-altLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>Alternative forms of the name of the concept</Documentation>
+                        </Element>
+                    </Component>
+                </Component>
+                <Component name="edm-hasType" ConceptLink="" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>The identifier of a concept, or a word or phrase from a controlled vocabulary (thesaurus etc) giving the type  of the CHO. </Documentation>
+                    <Element name="edm-hasType" ConceptLink="http://hdl.handle.net/11459/CCR_C-1971_b6a96b19-16fd-ec1a-0fc6-78fe87ff5cc3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>edm:hasType literal</Documentation>
+                    </Element>
+                    <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                        </AttributeList>
+                        <Element name="skos-prefLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>The preferred form of the name of the concept</Documentation>
+                        </Element>
+                        <Element name="skos-altLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>Alternative forms of the name of the concept</Documentation>
+                        </Element>
+                    </Component>
+                </Component>
+                <Component name="edm-realizes" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Documentation>If the CHO described is of type edm:PhysicalThing it may realize an information object.</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                    </AttributeList>
+                    <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                        </AttributeList>
+                        <Element name="skos-prefLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>The preferred form of the name of the concept</Documentation>
+                        </Element>
+                        <Element name="skos-altLabel" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>Alternative forms of the name of the concept</Documentation>
                         </Element>
                     </Component>
                 </Component>
