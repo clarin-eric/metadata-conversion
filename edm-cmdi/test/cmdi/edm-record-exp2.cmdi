@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
+    xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd 
+    http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
+    CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator></cmd:MdCreator>
+        <cmd:MdSelfLink></cmd:MdSelfLink>
+        <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>9200355_Ag_EU_TEL_a0620_Newspapers_Berlin</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="landingPage">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>http://europeana.eu/portal/record/9200355/BibliographicResource_3000096308403.html</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="isShownAt1">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>http://www.theeuropeanlibrary.org/tel4/newspapers/issue/3000096308403</cmd:ResourceRef>
+            </cmd:ResourceProxy>            
+            <cmd:ResourceProxy id="isShownBy1">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>http://www.theeuropeanlibrary.org/tel4/newspapers/issue/fullscreen/3000096308403</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+            <cmd:ResourceProxy id="object1">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>http://port2.theeuropeanlibrary.org/fcgi-bin/iipsrv2.fcgi?FIF=node-2/image/SBB/Berliner_Tageblatt/1923/12/01/0/F_SBB_00001_19231201_052_554_0_001.jp2&amp;wid=200&amp;cvt=jpg</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList>
+        </cmd:JournalFileProxyList>
+        <cmd:ResourceRelationList>
+        </cmd:ResourceRelationList>
+    </cmd:Resources>
+    <cmd:Components>
+        <EDM>
+            <edm-ProvidedCHO 
+                rdf-about="http://data.europeana.eu/item/9200355/BibliographicResource_3000096308403" />
+            <ProvidedCHOProxy
+                rdf-about="http://data.europeana.eu/proxy/provider/9200355/BibliographicResource_3000096308403"
+                proxyFor="http://data.europeana.eu/item/9200355/BibliographicResource_3000096308403" 
+                proxyIn="http://data.europeana.eu/aggregation/provider/9200355/BibliographicResource_3000096308403">
+                <edm-ProvidedCHO>
+                    <dc-identifier>http://data.theeuropeanlibrary.org/BibliographicResource/3000096308403</dc-identifier>
+                    <dc-language>de</dc-language>
+                    <dc-title>Berliner Tageblatt - 1923-12-01</dc-title>
+                    <dcterms-extent xml:lang="en">Pages: 10</dcterms-extent>
+                    <dcterms-isPartOf rdf-resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000096302605" />
+                    <dcterms-isPartOf rdf-resource="http://data.theeuropeanlibrary.org/Collection/a0620" />
+                    <dcterms-isPartOf xml:lang="en">Europeana Newspapers</dcterms-isPartOf>
+                    <edm-isNextInSequence rdf-resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000096308091" />
+                    <edm-type>TEXT</edm-type>
+                    <dc-date>
+                        <dc-date>1923</dc-date>
+                    </dc-date>
+                    <dc-type>
+                        <skos-Concept rdf-about="http://vocab.getty.edu/aat/300026656">
+                            <!--
+                                <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+                                <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+                                <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+                            -->
+                            <skos-prefLabel xml:lang="en">newspapers</skos-prefLabel>
+                            <skos-prefLabel xml:lang="es">diarios (noticias)</skos-prefLabel>
+                            <skos-prefLabel xml:lang="nl">kranten</skos-prefLabel>
+                            <skos-altLabel xml:lang="de">Tageszeitung</skos-altLabel>
+                            <skos-altLabel xml:lang="it">giornale (newspaper)</skos-altLabel>
+                            <skos-altLabel xml:lang="fr">journal (newspaper)</skos-altLabel>
+                            <skos-altLabel xml:lang="sv">tidning</skos-altLabel>
+                            <skos-altLabel xml:lang="en">newspaper</skos-altLabel>
+                            <skos-altLabel xml:lang="es">diario (noticias)</skos-altLabel>
+                            <skos-altLabel xml:lang="nl">nieuwsbladen</skos-altLabel>
+                        </skos-Concept>
+                    </dc-type>
+                    <dc-type>
+                        <dc-type>Newspaper Issue</dc-type>
+                    </dc-type>
+                    <dc-type>
+                        <dc-type xml:lang="en">Analytic serial</dc-type>
+                    </dc-type>
+                    <dcterms-issued>
+                        <dcterms-issued>1923-12-01</dcterms-issued>
+                    </dcterms-issued>
+                </edm-ProvidedCHO>
+            </ProvidedCHOProxy>
+            <ProvidedCHOProxy
+                rdf-about="http://data.europeana.eu/proxy/europeana/9200355/BibliographicResource_3000096308403"
+                proxyFor="http://data.europeana.eu/item/9200355/BibliographicResource_3000096308403" 
+                proxyIn="http://data.europeana.eu/aggregation/europeana/9200355/BibliographicResource_3000096308403">
+                <edm-ProvidedCHO>
+                    <edm-type>TEXT</edm-type>
+                    <edm-year>1923</edm-year>
+                   <dc-date>
+                       <edm-TimeSpan rdf-about="http://semium.org/time/1923">
+                           <!--
+                              <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_1_third"/>
+                              <edm:begin>Mon Jan 01 00:19:32 CET 1923</edm:begin>
+                              <edm:end>Mon Dec 31 00:19:32 CET 1923</edm:end>
+                              
+                                {{{
+                                <edm:TimeSpan rdf:about="http://semium.org/time/19xx_1_third">
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early
+                                          20th century</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 20-го
+                                          века</skos:prefLabel>
+                                  <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+                                  <edm:end>Sun Dec
+                                          31 00:19:32 CET 1933</edm:end>
+                                </edm:TimeSpan>
+                                <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e
+                                          siècle</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й
+                                          век</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+                                  <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+                                  <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+                                  <edm:end>Sun Dec 31 01:00:00 CET
+                                          2000</edm:end>
+                                </edm:TimeSpan>
+                                <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e
+                                          millénaire après J.-C.</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium
+                                          AD</skos:prefLabel>
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years
+                                      1001-2000</skos:prefLabel>
+                                </edm:TimeSpan>
+                                <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological
+                                          period</skos:prefLabel>
+                                  <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+                                </edm:TimeSpan>
+                                <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+                                  <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+                                </edm:TimeSpan>
+                                }}}
+                                
+                           -->
+                           <skos-prefLabel>1923</skos-prefLabel>
+                           <skos-altLabel></skos-altLabel>
+                       </edm-TimeSpan>
+                   </dc-date> 
+                </edm-ProvidedCHO>
+            </ProvidedCHOProxy>
+            <edm-Aggregation 
+                rdf-about="http://data.europeana.eu/aggregation/provider/9200355/BibliographicResource_3000096308403"
+                aggregatedCHO="http://data.europeana.eu/item/9200355/BibliographicResource_3000096308403">
+                <edm-dataProvider>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</edm-dataProvider>
+                <edm-provider xml:lang="en">The European Library</edm-provider>
+                <edm-isShownAt>
+                    <edm-WebResource cmd:ref="isShownAt1">
+                        <edm-rights>
+                            <rightsURI>http://creativecommons.org/publicdomain/mark/1.0/</rightsURI>
+                        </edm-rights>
+                    </edm-WebResource>
+                </edm-isShownAt>
+                <edm-isShownBy>
+                    <edm-WebResource cmd:ref="isShownBy1">
+                        <edm-rights>
+                            <rightsURI>http://creativecommons.org/publicdomain/mark/1.0/</rightsURI>
+                        </edm-rights>
+                    </edm-WebResource>
+                </edm-isShownBy>
+                <edm-object>
+                    <edm-WebResource cmd:ref="object1">
+                        <edm-rights>
+                            <rightsURI>http://creativecommons.org/publicdomain/mark/1.0/</rightsURI>
+                        </edm-rights>                            
+                    </edm-WebResource>
+                </edm-object>
+                <edm-rights>
+                    <rightsURI>http://creativecommons.org/publicdomain/mark/1.0/</rightsURI>
+                </edm-rights>
+            </edm-Aggregation>
+            <edm-EuropeanaAggregation 
+                rdf-about="http://data.europeana.eu/aggregation/europeana/9200355/BibliographicResource_3000096308403"
+                aggregatedCHO="http://data.europeana.eu/item/9200355/BibliographicResource_3000096308403">
+                <edm-collectionName>9200355_Ag_EU_TEL_a0620_Newspapers_Berlin</edm-collectionName>
+                <edm-country>Germany</edm-country>
+                <edm-language>de</edm-language>
+                <edm-rights>
+                    <rightsURI>http://creativecommons.org/publicdomain/mark/1.0/</rightsURI>
+                </edm-rights>
+            </edm-EuropeanaAggregation>
+        </EDM>
+    </cmd:Components>
+</cmd:CMD>

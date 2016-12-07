@@ -241,7 +241,7 @@
                     <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>The preferred form of the name of the timespan or period</Documentation>
                     </Element>
-                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                     </Element>
                 </Component>
@@ -275,7 +275,7 @@
                     <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>The preferred form of the name of the timespan or period</Documentation>
                     </Element>
-                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                     </Element>
                 </Component>
@@ -343,7 +343,7 @@
                     <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>The preferred form of the name of the timespan or period</Documentation>
                     </Element>
-                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                     </Element>
                 </Component>
@@ -432,7 +432,7 @@
                             <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>The preferred form of the name of the timespan or period</Documentation>
                             </Element>
-                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                             </Element>
                         </Component>
@@ -464,7 +464,7 @@
                             <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>The preferred form of the name of the timespan or period</Documentation>
                             </Element>
-                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                             </Element>
                         </Component>
@@ -489,7 +489,7 @@
                     <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>The preferred form of the name of the timespan or period</Documentation>
                     </Element>
-                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                     </Element>
                 </Component>
@@ -523,7 +523,7 @@
                     <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>The preferred form of the name of the timespan or period</Documentation>
                     </Element>
-                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                     </Element>
                 </Component>
@@ -579,7 +579,7 @@
                     <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>The preferred form of the name of the timespan or period</Documentation>
                     </Element>
-                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                     </Element>
                 </Component>
@@ -633,6 +633,7 @@
         <Component name="ProvidedCHOProxy" CardinalityMin="0" CardinalityMax="unbounded">
             <Documentation>Representation of ore:Proxy for an edm:ProvidedCHO</Documentation>
             <AttributeList>
+                <Attribute name="rdf-about" ValueScheme="anyURI"/>
                 <Attribute name="proxyFor" ValueScheme="anyURI" Required="true">
                     <Documentation>Identifier of the ProvidedCHO object this is a proxy for</Documentation>
                 </Attribute>
@@ -874,7 +875,7 @@
                         <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>The preferred form of the name of the timespan or period</Documentation>
                         </Element>
-                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                         </Element>
                     </Component>
@@ -908,7 +909,7 @@
                         <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>The preferred form of the name of the timespan or period</Documentation>
                         </Element>
-                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                         </Element>
                     </Component>
@@ -976,7 +977,7 @@
                         <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>The preferred form of the name of the timespan or period</Documentation>
                         </Element>
-                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                         </Element>
                     </Component>
@@ -1065,7 +1066,7 @@
                                 <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>The preferred form of the name of the timespan or period</Documentation>
                                 </Element>
-                                <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                                 </Element>
                             </Component>
@@ -1097,7 +1098,7 @@
                                 <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>The preferred form of the name of the timespan or period</Documentation>
                                 </Element>
-                                <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                                 </Element>
                             </Component>
@@ -1122,7 +1123,7 @@
                         <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>The preferred form of the name of the timespan or period</Documentation>
                         </Element>
-                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                         </Element>
                     </Component>
@@ -1156,7 +1157,7 @@
                         <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>The preferred form of the name of the timespan or period</Documentation>
                         </Element>
-                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                         </Element>
                     </Component>
@@ -1212,7 +1213,7 @@
                         <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>The preferred form of the name of the timespan or period</Documentation>
                         </Element>
-                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                         </Element>
                     </Component>
@@ -1271,8 +1272,8 @@
                     <Documentation>The identifier of the source object</Documentation>
                 </Attribute>
             </AttributeList>
-            <Element name="edm-dataProvider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-            <Element name="edm-provider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
+            <Element name="edm-dataProvider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+            <Element name="edm-provider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                 <Documentation>The name or identifier of the provider of the object (i.e. the organisation providing data directly to  Europeana)</Documentation>
             </Element>
             <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -1281,7 +1282,7 @@
             <Element name="edm-ugc" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
                 <Documentation>Property for objects that are user generated or user created that have been collected  by crowdsourcing or project activity.  The property is used to identify such content.</Documentation>
             </Element>
-            <Element name="edm-intermediateProvider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="edm-intermediateProvider" ConceptLink="http://hdl.handle.net/11459/CCR_C-6837_8edd5107-ce2f-7f13-b8cd-1bd9750509b2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                 <Documentation>The intermediate organization that selects, collates, or curates data from a Data  Provider that is then aggregated by a Provider from which Europeana harvests. The Intermediate  Provider must be distinct from both the Data Provider and the Provider in the data supply  chain. </Documentation>
             </Element>
             <Component name="edm-hasView" CardinalityMin="0" CardinalityMax="unbounded">
@@ -1368,7 +1369,7 @@
                             <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>The preferred form of the name of the timespan or period</Documentation>
                             </Element>
-                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                             </Element>
                         </Component>
@@ -1400,7 +1401,7 @@
                             <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>The preferred form of the name of the timespan or period</Documentation>
                             </Element>
-                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                             </Element>
                         </Component>
@@ -1491,7 +1492,7 @@
                             <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>The preferred form of the name of the timespan or period</Documentation>
                             </Element>
-                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                             </Element>
                         </Component>
@@ -1523,7 +1524,7 @@
                             <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>The preferred form of the name of the timespan or period</Documentation>
                             </Element>
-                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                             </Element>
                         </Component>
@@ -1614,7 +1615,7 @@
                             <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>The preferred form of the name of the timespan or period</Documentation>
                             </Element>
-                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                             </Element>
                         </Component>
@@ -1646,7 +1647,7 @@
                             <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>The preferred form of the name of the timespan or period</Documentation>
                             </Element>
-                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                             </Element>
                         </Component>
@@ -1737,7 +1738,7 @@
                             <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>The preferred form of the name of the timespan or period</Documentation>
                             </Element>
-                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                             </Element>
                         </Component>
@@ -1769,7 +1770,7 @@
                             <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>The preferred form of the name of the timespan or period</Documentation>
                             </Element>
-                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>Alternative forms of the name of the timespan or period</Documentation>
                             </Element>
                         </Component>
@@ -1799,8 +1800,8 @@
                     <Documentation>The identifier of the source object</Documentation>
                 </Attribute>
             </AttributeList>
-            <Element name="edm-collectionName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6832_3f1d39bf-ed03-4f05-6b6c-f28cc0e268ed" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-            <Element name="edm-country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+            <Element name="edm-collectionName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6832_3f1d39bf-ed03-4f05-6b6c-f28cc0e268ed" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+            <Element name="edm-country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                 <Documentation></Documentation>
             </Element>
             <Element name="edm-language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
