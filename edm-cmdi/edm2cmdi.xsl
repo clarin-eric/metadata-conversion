@@ -35,6 +35,7 @@
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
     xmlns:cmd="http://www.clarin.eu/cmd/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:func="http://www.clarin.eu/cmd/conversion/edm-cmd"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
     exclude-result-prefixes="xs"
     version="2.0">
@@ -119,7 +120,7 @@
     
     <xsl:template match="edm:WebResource" mode="resources">
         <xsl:if test="normalize-space(@rdf:about) != ''">
-            <cmd:ResourceProxy id="{concat('webResource_', generate-id(.))}">
+            <cmd:ResourceProxy id="{func:webResourceProxyId(.)}">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
                 <cmd:ResourceRef><xsl:value-of select="@rdf:about"/></cmd:ResourceRef>
             </cmd:ResourceProxy>
@@ -259,8 +260,7 @@
     </xsl:template>
     
     <xsl:template match="edm:WebResource">
-        <xsl:variable name="webResourceProxyId" select="concat('webResource_', generate-id(.))"/>
-        <edm-WebResource cmd:ref="{$webResourceProxyId}">
+        <edm-WebResource cmd:ref="{func:webResourceProxyId(.)}">
             <!--
                 **************************
                 * WebResource properties *
@@ -407,5 +407,16 @@
         <xsl:attribute name="rdf-resource" select="@rdf:resource" />
         <xsl:comment select="concat(name(), ' ', @rdf:about)" />
     </xsl:template>
+
+    <!--
+        *****************************************************************
+        * UTILS AND FUNCTIONS                                           *
+        *****************************************************************
+    -->
+
+    <xsl:function name="func:webResourceProxyId">
+        <xsl:param name="webResouce" required="yes"/>
+        <xsl:value-of select="concat('webResource_', generate-id($webResouce))"/>
+    </xsl:function>
     
 </xsl:stylesheet>
