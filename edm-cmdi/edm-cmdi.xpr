@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>edm2cmdi</String>
+                                        <String>edm2cmdi - resource2</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

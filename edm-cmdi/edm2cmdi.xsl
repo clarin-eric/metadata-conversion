@@ -204,8 +204,31 @@
         <edm-Aggregation rdf-about="{@rdf:about}" aggregatedCHO="{edm:aggregatedCHO/@rdf:resource}">
             <xsl:apply-templates select="edm:dataProvider" mode="element-prop" />
             <xsl:apply-templates select="edm:provider" mode="element-prop" />
+            <xsl:apply-templates select="dc:rights" mode="element-prop" />
+            <xsl:apply-templates select="edm:ugc" mode="element-prop" />
+            <xsl:apply-templates select="edm-intermediateProvider" mode="element-prop" />
+            
+            <xsl:apply-templates select="edm:hasView" />
+            <xsl:apply-templates select="edm:isShownAt" />
+            <xsl:apply-templates select="edm:isShownBy" />
+            <xsl:apply-templates select="edm:object" />
+            
             <xsl:apply-templates select="edm:rights" />
         </edm-Aggregation>
+    </xsl:template>
+    
+    <xsl:template match="edm:hasView|edm:isShownAt|edm:isShownBy|edm:object">
+        <xsl:variable name="targetWebResource" select="@rdf:resource"/>
+        <xsl:element name="{replace(name(), ':', '-')}">
+            <xsl:apply-templates select="//edm:WebResource[@rdf:about = $targetWebResource]" />
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="edm:WebResource">
+        <xsl:variable name="webResourceProxyId" select="concat('webResource_', generate-id(.))"/>
+        <edm-WebResource cmd:ref="{$webResourceProxyId}">
+            <!-- TODO: WebResource properties -->
+        </edm-WebResource>
     </xsl:template>
     
     <xsl:template match="edm:rights">
