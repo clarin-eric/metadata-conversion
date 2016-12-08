@@ -50,7 +50,7 @@
     <xsl:template match="rdf:RDF" mode="resources">
         <cmd:Resources>
             <cmd:ResourceProxyList>
-                <!-- landing page -->
+                <xsl:apply-templates select="edm:EuropeanaAggregation/edm:landingPage" mode="resources" />
                 <!-- webresources -->
             </cmd:ResourceProxyList>
             <cmd:JournalFileProxyList>
@@ -63,6 +63,15 @@
               <cmd:IsPartOf></cmd:IsPartOf>
           </cmd:IsPartOfList>
         -->
+    </xsl:template>
+    
+    <xsl:template match="edm:landingPage" mode="resources">
+        <xsl:if test="normalize-space(@rdf:resource) != ''">
+            <cmd:ResourceProxy id="{concat('landingPage_', generate-id(.))}">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef><xsl:value-of select="@rdf:resource"/></cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="rdf:RDF" mode="components">
