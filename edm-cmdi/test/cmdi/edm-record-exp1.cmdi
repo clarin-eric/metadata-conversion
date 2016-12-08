@@ -98,7 +98,7 @@
                 rdf-about="http://data.europeana.eu/aggregation/provider/92031/BibliographicResource_1000128561234" 
                 aggregatedCHO="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234">
                 <edm-dataProvider>The British Library</edm-dataProvider>
-                <edm-provider>The European Library</edm-provider>
+                <edm-provider xml:lang="en">The European Library</edm-provider>
                 <edm-isShownAt>
                     <edm-WebResource cmd:ref="webresource1">
                         <edm-rights>

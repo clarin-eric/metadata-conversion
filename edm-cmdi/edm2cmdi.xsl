@@ -113,13 +113,7 @@
             <EDM>
                 <xsl:apply-templates select="edm:ProvidedCHO" />
                 <xsl:apply-templates select="ore:Proxy" />
-                <edm-Aggregation aggregatedCHO="">
-                    <edm-dataProvider></edm-dataProvider>
-                    <edm-provider></edm-provider>
-                    <edm-rights>
-                        <rightsURI></rightsURI>
-                    </edm-rights>
-                </edm-Aggregation>
+                <xsl:apply-templates select="ore:Aggregation" />
             </EDM>
         </cmd:Components>
     </xsl:template>
@@ -132,7 +126,7 @@
     
     <xsl:template match="ore:Proxy">
         <xsl:variable name="proxyFor" select="ore:proxyFor/@rdf:resource" />
-        <!-- check if it is a proxy for a ProvidedCHO -->
+        <!-- check if it is a proxy for an existing ProvidedCHO -->
         <xsl:if test="//rdf:RDF/edm:ProvidedCHO[@rdf:about = $proxyFor]">
             <ProvidedCHOProxy
                 rdf-about="{@rdf:about}"
@@ -204,6 +198,22 @@
         <xsl:apply-templates select="edm:hasMet" mode="component-prop" />
         <xsl:apply-templates select="edm:hasType" mode="component-prop" />
         <xsl:apply-templates select="edm:realizes" mode="component-prop" />
+    </xsl:template>
+    
+    <xsl:template match="ore:Aggregation">
+        <edm-Aggregation rdf-about="{@rdf:about}" aggregatedCHO="{edm:aggregatedCHO/@rdf:resource}">
+            <xsl:apply-templates select="edm:dataProvider" mode="element-prop" />
+            <xsl:apply-templates select="edm:provider" mode="element-prop" />
+            <xsl:apply-templates select="edm:rights" />
+        </edm-Aggregation>
+    </xsl:template>
+    
+    <xsl:template match="edm:rights">
+        <xsl:variable name="rightsUri" select="@rdf:resource"/>
+        <edm-rights>
+            <rightsURI><xsl:value-of select="$rightsUri"/></rightsURI>
+            <xsl:apply-templates select="//cc:License[@rdf:about = $rightsUri]" mode="contextual" />
+        </edm-rights>
     </xsl:template>
     
     <!--
