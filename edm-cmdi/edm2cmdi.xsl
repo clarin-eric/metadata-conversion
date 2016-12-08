@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    =====================================================================
+    EDM to CMDI conversion
+    <https://github.com/clarin-eric/metadata-conversion>
+    
+    Author: Twan Goosen <twan@clarin.eu>
+    
+    <https://www.clarin.eu>
+    <https://www.europeana.eu>
+    =====================================================================
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    =====================================================================
+-->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -28,9 +52,9 @@
     </xsl:template>
     
     <!--
-        **********
-        * HEADER *
-        **********
+        *****************************************************************
+        * HEADER                                                        *
+        *****************************************************************
     -->
     
     <xsl:template match="rdf:RDF" mode="header">
@@ -61,9 +85,9 @@
     </xsl:template>
     
     <!--
-        *********************
-        * RESOURCES SECTION *
-        *********************
+        *****************************************************************
+        * RESOURCES SECTION                                             *
+        *****************************************************************
     -->
     
     <xsl:template match="rdf:RDF" mode="resources">
@@ -103,9 +127,9 @@
     </xsl:template>
     
     <!--
-        **********************
-        * COMPONENTS SECTION *
-        **********************
+        *****************************************************************
+        * COMPONENTS SECTION                                            *
+        *****************************************************************
     -->
     
     <xsl:template match="rdf:RDF" mode="components">
@@ -140,6 +164,11 @@
     </xsl:template>
     
     <xsl:template match="edm:ProvidedCHO|ore:Proxy" mode="cho-props">
+        <!--
+            **********************************
+            * ProvidedCHO (proxy) properties *
+            **********************************
+         -->        
         <xsl:apply-templates select="dc:description" mode="element-prop" />
         <xsl:apply-templates select="dc:format" mode="element-prop" />
         <xsl:apply-templates select="dc:identifier" mode="element-prop" />
@@ -202,6 +231,11 @@
     
     <xsl:template match="ore:Aggregation">
         <edm-Aggregation rdf-about="{@rdf:about}" aggregatedCHO="{edm:aggregatedCHO/@rdf:resource}">
+            <!--
+                **************************
+                * Aggregation properties *
+                **************************
+             -->     
             <xsl:apply-templates select="edm:dataProvider" mode="element-prop" />
             <xsl:apply-templates select="edm:provider" mode="element-prop" />
             <xsl:apply-templates select="dc:rights" mode="element-prop" />
@@ -240,9 +274,9 @@
     </xsl:template>
     
     <!--
-        **********************
-        * ELEMENT PROPERTIES *
-        **********************
+        *****************************************************************
+        * ELEMENT PROPERTIES                                            *
+        *****************************************************************
     -->
     
     <xsl:template match="*" mode="element-prop">
@@ -263,9 +297,9 @@
     </xsl:template>
     
     <!--
-        ************************
-        * COMPONENT PROPERTIES *
-        ************************
+        *****************************************************************
+        * COMPONENT PROPERTIES                                          *
+        *****************************************************************
     -->
     
     <xsl:template match="*" mode="component-prop">
@@ -300,9 +334,9 @@
     </xsl:template>
 
     <!--
-        **********************
-        * CONTEXTUAL CLASSES *
-        **********************
+        *****************************************************************
+        * CONTEXTUAL CLASSES                                            *
+        *****************************************************************
     -->
 
     <xsl:template match="skos:Concept" mode="contextual">
