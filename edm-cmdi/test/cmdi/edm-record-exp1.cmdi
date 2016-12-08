@@ -31,6 +31,9 @@
         <cmd:ResourceRelationList>
         </cmd:ResourceRelationList>
     </cmd:Resources>
+    <cmd:IsPartOfList>
+        <cmd:IsPartOf></cmd:IsPartOf>
+    </cmd:IsPartOfList>
     <cmd:Components>
         <EDM>
             <edm-ProvidedCHO 

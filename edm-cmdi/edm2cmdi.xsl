@@ -4,7 +4,6 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
     xmlns:cmd="http://www.clarin.eu/cmd/1"
-    xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     exclude-result-prefixes="xs"
     version="2.0">
@@ -22,12 +21,29 @@
     </xsl:template>
     
     <xsl:template match="rdf:RDF" mode="header">
+        <xsl:variable name="selfLink">
+            <xsl:choose>
+                <xsl:when test="edm:EuropeanaAggregation">
+                    <xsl:value-of select="replace(edm:EuropeanaAggregation/@rdf:about, '^.*://(data.europeana.eu/)?', 'europeana:')"/>
+                </xsl:when>
+                <xsl:when test="edm:ProvidedCHO">
+                    <xsl:value-of select="replace(edm:ProvidedCHO/@rdf:about, '^.*://(data.europeana.eu/)?', 'europeana:')"/>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:variable name="collectionName" select="edm:EuropeanaAggregation/edm:collectionName" />
         <cmd:Header>
-            <cmd:MdCreator></cmd:MdCreator>
-            <cmd:MdCreationDate>...</cmd:MdCreationDate>
-            <cmd:MdSelfLink>...</cmd:MdSelfLink>
+            <!--
+                cmd:MdCreator?
+            -->
+            <cmd:MdCreationDate><xsl:value-of select="current-date()"/></cmd:MdCreationDate>
+            <xsl:if test="normalize-space($selfLink) != ''">
+                <cmd:MdSelfLink><xsl:value-of select="$selfLink"/></cmd:MdSelfLink>
+            </xsl:if>
             <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
-            <cmd:MdCollectionDisplayName>...</cmd:MdCollectionDisplayName>
+            <xsl:if test="normalize-space($collectionName) != ''">
+                <cmd:MdCollectionDisplayName><xsl:value-of select="$collectionName"/></cmd:MdCollectionDisplayName>
+            </xsl:if>
         </cmd:Header>
     </xsl:template>
     
@@ -50,9 +66,16 @@
     </xsl:template>
     
     <xsl:template match="rdf:RDF" mode="components">
-        <cmd:Components  xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208">
+        <cmd:Components xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208">
             <EDM>
-                
+                <edm-ProvidedCHO></edm-ProvidedCHO>
+                <edm-Aggregation aggregatedCHO="">
+                    <edm-dataProvider></edm-dataProvider>
+                    <edm-provider></edm-provider>
+                    <edm-rights>
+                        <rightsURI></rightsURI>
+                    </edm-rights>
+                </edm-Aggregation>
             </EDM>
         </cmd:Components>
     </xsl:template>
