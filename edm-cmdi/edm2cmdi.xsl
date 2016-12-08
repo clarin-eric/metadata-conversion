@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:ore="http://www.openarchives.org/ore/terms/"
+    xmlns:cc="http://creativecommons.org/ns#"
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
     xmlns:cmd="http://www.clarin.eu/cmd/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -178,6 +180,9 @@
         <xsl:apply-templates select="edm:type" mode="element-prop" />
         <xsl:apply-templates select="edm:year" mode="element-prop" />
         <xsl:apply-templates select="owl:sameAs" mode="element-prop" /> 
+        
+        <xsl:apply-templates select="dc:date" mode="component-prop" />
+        <xsl:apply-templates select="dc:type" mode="component-prop" />
     </xsl:template>
     
     <xsl:template match="*" mode="element-prop">
@@ -194,6 +199,47 @@
             </xsl:if>
             <xsl:value-of select="."/>
         </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="*" mode="component-prop">
+        <xsl:param name="cmd-name" select="replace(name(), ':', '-')" />
+        <xsl:element name="{$cmd-name}">
+            <xsl:choose>
+                <xsl:when test="@rdf:resource">
+                    <!-- reference -->
+                    <xsl:variable name="refId" select="@rdf:resource"/>
+                    <xsl:apply-templates select="//*[@rdf:about = $refId]" mode="contextual" />
+                </xsl:when>
+                <xsl:otherwise>
+                    <!-- literal -->
+                    <xsl:element name="{$cmd-name}"><xsl:value-of select="."/></xsl:element>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="skos:Concept" mode="contextual">
+        <!-- TODO: concept -->
+    </xsl:template>
+    
+    <xsl:template match="edm:TimeSpan" mode="contextual">
+        <!-- TODO: timespan -->
+    </xsl:template>
+    
+    <xsl:template match="edm:Place" mode="contextual">
+        <!-- TODO: place -->
+    </xsl:template>
+    
+    <xsl:template match="edm:Agent" mode="contextual">
+        <!-- TODO: agent-->
+    </xsl:template>
+    
+    <xsl:template match="cc:License" mode="contextual">
+        <!-- TODO: license -->
+    </xsl:template>
+    
+    <xsl:template match="*" mode="contextual">
+        <xsl:comment select="concat(name(), ' ', @rdf:about)" />
     </xsl:template>
     
 </xsl:stylesheet>
