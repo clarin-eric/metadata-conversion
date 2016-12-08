@@ -16,4 +16,4 @@ representation of original EDM records but rather to preserve and represent info
 useful for exploitation and processing of Europeana metadata and resources within the
 [CLARIN](https://www.clarin.eu) infrastructure.
 
-Contact: [twan@clarin.eu](twan@clarin.eu)
+Contact: [twan@clarin.eu](mailto:twan@clarin.eu)
