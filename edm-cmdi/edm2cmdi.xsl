@@ -178,11 +178,32 @@
         <xsl:apply-templates select="edm:isSimilarTo" mode="element-prop" />
         <xsl:apply-templates select="edm:isSuccessorOf" mode="element-prop" />
         <xsl:apply-templates select="edm:type" mode="element-prop" />
-        <xsl:apply-templates select="edm:year" mode="element-prop" />
+        <xsl:apply-templates select="edm:year" mode="element-prop">
+            <xsl:with-param name="allow-xml-lang" select="false()"></xsl:with-param>
+        </xsl:apply-templates>
         <xsl:apply-templates select="owl:sameAs" mode="element-prop" /> 
         
+        <xsl:apply-templates select="dc:contributor" mode="component-prop" />
+        <xsl:apply-templates select="dc:coverage" mode="component-prop" />
+        <xsl:apply-templates select="dc:creator" mode="component-prop" />
         <xsl:apply-templates select="dc:date" mode="component-prop" />
+        <xsl:apply-templates select="dc:publisher" mode="component-prop" />
+        <xsl:apply-templates select="dc:subject" mode="component-prop" />
         <xsl:apply-templates select="dc:type" mode="component-prop" />
+        <xsl:apply-templates select="dcterms:created" mode="component-prop" />
+        <!--
+            TODO: includes a webresource!
+            <xsl:apply-templates select="dcterms:hasFormat" mode="component-prop" />
+            and decide on this one... make element instead?
+            <xsl:apply-templates select="dcterms:hasPart" mode="component-prop" />
+        -->
+        <xsl:apply-templates select="dcterms:issued" mode="component-prop" />
+        <xsl:apply-templates select="dcterms:spatial" mode="component-prop" />
+        <xsl:apply-templates select="dcterms:temporal" mode="component-prop" />
+        <xsl:apply-templates select="dcterms:currentLocation" mode="component-prop" />
+        <xsl:apply-templates select="edm:hasMet" mode="component-prop" />
+        <xsl:apply-templates select="edm:hasType" mode="component-prop" />
+        <xsl:apply-templates select="edm:realizes" mode="component-prop" />
     </xsl:template>
     
     <!--
@@ -193,8 +214,11 @@
     
     <xsl:template match="*" mode="element-prop">
         <xsl:param name="cmd-name" select="replace(name(), ':', '-')" />
+        <xsl:param name="allow-xml-lang" select="true()" />
         <xsl:element name="{$cmd-name}">
-            <xsl:copy-of select="@xml:lang" />
+            <xsl:if test="$allow-xml-lang">
+                <xsl:copy-of select="@xml:lang" />
+            </xsl:if>
             <xsl:if test="normalize-space(@rdf:about)">
                 <xsl:attribute name="rdf-about" select="@rdf:about" />
             </xsl:if>
@@ -218,11 +242,24 @@
                 <xsl:when test="@rdf:resource">
                     <!-- reference -->
                     <xsl:variable name="refId" select="@rdf:resource"/>
-                    <xsl:apply-templates select="//*[@rdf:about = $refId]" mode="contextual" />
+                    <xsl:variable name="refTarget" select="//*[@rdf:about = $refId]"/>
+                    <xsl:choose>
+                        <xsl:when test="$refTarget">
+                            <!-- Matching target in document -->
+                            <xsl:apply-templates select="$refTarget" mode="contextual" />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <!-- No matching target in document -->
+                            <xsl:attribute name="rdf-resource" select="$refId" />
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:when>
                 <xsl:otherwise>
                     <!-- literal -->
-                    <xsl:element name="{$cmd-name}"><xsl:value-of select="."/></xsl:element>
+                    <xsl:element name="{$cmd-name}">
+                        <xsl:copy-of select="@xml:lang" />
+                        <xsl:value-of select="."/>
+                    </xsl:element>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:element>
@@ -278,6 +315,7 @@
     
     <xsl:template match="*" mode="contextual">
         <!-- fallback -->
+        <xsl:attribute name="rdf-resource" select="@rdf:resource" />
         <xsl:comment select="concat(name(), ' ', @rdf:about)" />
     </xsl:template>
     

@@ -9,7 +9,7 @@
     http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
     CMDVersion="1.2">
     <cmd:Header>
-        <cmd:MdSelfLink></cmd:MdSelfLink>
+        <cmd:MdSelfLink>europeana:aggregation/europeana/9200355/BibliographicResource_3000096308403</cmd:MdSelfLink>
         <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
         <cmd:MdCollectionDisplayName>9200355_Ag_EU_TEL_a0620_Newspapers_Berlin</cmd:MdCollectionDisplayName>
     </cmd:Header>

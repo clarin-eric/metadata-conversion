@@ -9,8 +9,7 @@
     http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
     CMDVersion="1.2">
     <cmd:Header>
-        <cmd:MdCreator></cmd:MdCreator>
-        <cmd:MdCreationDate>2010-01-01</cmd:MdCreationDate>
+        <cmd:MdSelfLink>europeana:aggregation/europeana/92031/BibliographicResource_1000128561234</cmd:MdSelfLink>
         <!--<cmd:MdSelfLink>BibliographicResource_1000128561234.cmdi</cmd:MdSelfLink>-->
         <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
         <cmd:MdCollectionDisplayName>92031_Ag_EU_TEL_a0157</cmd:MdCollectionDisplayName>
@@ -26,19 +25,15 @@
                 <cmd:ResourceRef>http://molcat1.bl.uk/treasures/gutenberg/search.asp</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
-        <cmd:JournalFileProxyList>
-        </cmd:JournalFileProxyList>
-        <cmd:ResourceRelationList>
-        </cmd:ResourceRelationList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
     </cmd:Resources>
-    <cmd:IsPartOfList>
-        <cmd:IsPartOf></cmd:IsPartOf>
-    </cmd:IsPartOfList>
     <cmd:Components>
         <EDM>
             <edm-ProvidedCHO 
                 rdf-about="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234" />
             <ProvidedCHOProxy 
+                rdf-about="http://data.europeana.eu/proxy/provider/92031/BibliographicResource_1000128561234"
                 proxyFor="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234" 
                 proxyIn="http://data.europeana.eu/aggregation/provider/92031/BibliographicResource_1000128561234">
                 <edm-ProvidedCHO>
@@ -67,7 +62,7 @@
                     <dcterms-alternative>Gutenberg Bible</dcterms-alternative>
                     <dcterms-extent>2 v.</dcterms-extent>
                     <dcterms-isPartOf rdf-resource="http://data.theeuropeanlibrary.org/Collection/a0157" />
-                    <dcterms-isPartOf>Gutenberg Bible Collection</dcterms-isPartOf>
+                    <dcterms-isPartOf xml:lang="en">Gutenberg Bible Collection</dcterms-isPartOf>
                     <edm-type>IMAGE</edm-type>
                     <dc-contributor>
                         <dc-contributor>Jerome, Saint. Præfationes in Biblia Sacra</dc-contributor>
@@ -90,6 +85,7 @@
                 </edm-ProvidedCHO>
             </ProvidedCHOProxy>
             <ProvidedCHOProxy
+                rdf-about="http://data.europeana.eu/proxy/europeana/92031/BibliographicResource_1000128561234"
                 proxyFor="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234" 
                 proxyIn="http://data.europeana.eu/aggregation/europeana/92031/BibliographicResource_1000128561234">
                 <edm-ProvidedCHO>

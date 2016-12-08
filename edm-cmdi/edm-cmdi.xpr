@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>edm2cmdi - resource2</String>
+                                        <String>edm2cmdi</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -51,10 +51,10 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>file:/Users/twagoo/Documents/Repositories/git/metadata-conversion/edm-cmdi/edm2cmdi.xsl</String>
+                                    <String>${pdu}/edm2cmdi.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>file:/Users/twagoo/Documents/Repositories/git/metadata-conversion/edm-cmdi/test/edm/BibliographicResource_1000128561234.xml</String>
+                                    <String>${pdu}/test/edm/BibliographicResource_1000128561234.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -72,10 +72,10 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <null/>
+                                    <File>${cfn}.xml</File>
                                 </field>
                                 <field name="outputResource">
-                                    <null/>
+                                    <String>${cfn}.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
