@@ -28,6 +28,7 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:ore="http://www.openarchives.org/ore/terms/"
@@ -390,9 +391,15 @@
     <xsl:template match="edm:Place" mode="contextual">
         <edm-Place>
             <xsl:attribute name="rdf-about" select="@rdf:about" />
+            <xsl:apply-templates select="wgs84_pos:lat" mode="element-prop" />
+            <xsl:apply-templates select="wgs84_pos:long" mode="element-prop" />
+            <xsl:apply-templates select="wgs84_pos:alt" mode="element-prop" />
             <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
             <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
-            <!-- TODO -->
+            <xsl:apply-templates select="skos:note" mode="element-prop" />
+            <xsl:apply-templates select="dcterms:hasPart" mode="element-prop" />
+            <xsl:apply-templates select="dcterms:isPartOf" mode="element-prop" />
+            <xsl:apply-templates select="owl:sameAs" mode="element-prop" />
         </edm-Place>
     </xsl:template>
     
@@ -407,7 +414,9 @@
     
     <xsl:template match="cc:License" mode="contextual">
         <cc-License>
-            <!-- TODO -->
+            <xsl:attribute name="rdf-about" select="@rdf:about" />
+            <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
+            <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
         </cc-License>
     </xsl:template>
     
