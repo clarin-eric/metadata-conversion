@@ -306,7 +306,7 @@
                 <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                     <Documentation>dc:creator literal</Documentation>
                 </Element>
-                <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="1" CardinalityMax="1">
+                <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
                     <AttributeList>
                         <Attribute name="rdf-about" ValueScheme="anyURI"/>
                     </AttributeList>
@@ -1435,7 +1435,7 @@
                     <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>dc:creator literal</Documentation>
                     </Element>
-                    <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="1" CardinalityMax="1">
+                    <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
                         <AttributeList>
                             <Attribute name="rdf-about" ValueScheme="anyURI"/>
                         </AttributeList>
