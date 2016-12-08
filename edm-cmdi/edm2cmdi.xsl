@@ -280,8 +280,9 @@
 
             <xsl:apply-templates select="dc:creator" mode="component-prop" />
             <xsl:apply-templates select="dc:created" mode="component-prop" />
-            <xsl:apply-templates select="edm:rights" />
             <xsl:apply-templates select="dcterms:issued" mode="component-prop" />            
+
+            <xsl:apply-templates select="edm:rights" />
         </edm-WebResource>
     </xsl:template>
     
