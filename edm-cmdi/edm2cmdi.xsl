@@ -179,7 +179,7 @@
         <xsl:apply-templates select="edm:isSuccessorOf" mode="element-prop" />
         <xsl:apply-templates select="edm:type" mode="element-prop" />
         <xsl:apply-templates select="edm:year" mode="element-prop">
-            <xsl:with-param name="allow-xml-lang" select="false()"></xsl:with-param>
+            <xsl:with-param name="allow-xml-lang" select="false()" />
         </xsl:apply-templates>
         <xsl:apply-templates select="owl:sameAs" mode="element-prop" /> 
         
@@ -236,8 +236,9 @@
     -->
     
     <xsl:template match="*" mode="component-prop">
-        <xsl:param name="cmd-name" select="replace(name(), ':', '-')" />
-        <xsl:element name="{$cmd-name}">
+        <xsl:param name="cmd-outer-name" select="replace(name(), ':', '-')" />
+        <xsl:param name="cmd-inner-name" select="$cmd-outer-name" />
+        <xsl:element name="{$cmd-outer-name}">
             <xsl:choose>
                 <xsl:when test="@rdf:resource">
                     <!-- reference -->
@@ -256,7 +257,7 @@
                 </xsl:when>
                 <xsl:otherwise>
                     <!-- literal -->
-                    <xsl:element name="{$cmd-name}">
+                    <xsl:element name="{$cmd-inner-name}">
                         <xsl:copy-of select="@xml:lang" />
                         <xsl:value-of select="."/>
                     </xsl:element>
