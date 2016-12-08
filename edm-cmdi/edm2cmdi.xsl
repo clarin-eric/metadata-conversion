@@ -2,7 +2,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:ore="http://www.openarchives.org/ore/terms/"
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
     xmlns:cmd="http://www.clarin.eu/cmd/1"
@@ -142,6 +144,56 @@
     </xsl:template>
     
     <xsl:template match="edm:ProvidedCHO|ore:Proxy" mode="cho-props">
+        <xsl:apply-templates select="dc:description" mode="element-prop" />
+        <xsl:apply-templates select="dc:format" mode="element-prop" />
+        <xsl:apply-templates select="dc:identifier" mode="element-prop" />
+        <xsl:apply-templates select="dc:language" mode="element-prop" />
+        <xsl:apply-templates select="dc:relation" mode="element-prop" />
+        <xsl:apply-templates select="dc:rights" mode="element-prop" />
+        <xsl:apply-templates select="dc:source" mode="element-prop" />
+        <xsl:apply-templates select="dc:title" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:alternative" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:conformsTo" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:extent" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:hasVersion" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:isFormatOf" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:isPartOf" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:isReferencedBy" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:isReplacedBy" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:isRequiredBy" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:isVersionOf" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:medium" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:provenance" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:references" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:replaces" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:requires" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:tableOfContents" mode="element-prop" />
+        <xsl:apply-templates select="edm:incorporates" mode="element-prop" />
+        <xsl:apply-templates select="edm:isDerivativeOf" mode="element-prop" />
+        <xsl:apply-templates select="edm:isNextInSequence" mode="element-prop" />
+        <xsl:apply-templates select="edm:isRelatedTo" mode="element-prop" />
+        <xsl:apply-templates select="edm:isRepresentationOf" mode="element-prop" />
+        <xsl:apply-templates select="edm:isSimilarTo" mode="element-prop" />
+        <xsl:apply-templates select="edm:isSuccessorOf" mode="element-prop" />
+        <xsl:apply-templates select="edm:type" mode="element-prop" />
+        <xsl:apply-templates select="edm:year" mode="element-prop" />
+        <xsl:apply-templates select="owl:sameAs" mode="element-prop" /> 
+    </xsl:template>
+    
+    <xsl:template match="*" mode="element-prop">
+        <xsl:param name="cmd-name" select="replace(name(), ':', '-')" />
+        <xsl:element name="{$cmd-name}">
+            <xsl:if test="normalize-space(@xml:lang)">
+                <xsl:attribute name="xml:lang" select="@xml:lang" />
+            </xsl:if>
+            <xsl:if test="normalize-space(@rdf:about)">
+                <xsl:attribute name="rdf-about" select="@rdf:about" />
+            </xsl:if>
+            <xsl:if test="normalize-space(@rdf:resource)">
+                <xsl:attribute name="rdf-resource" select="@rdf:resource" />
+            </xsl:if>
+            <xsl:value-of select="."/>
+        </xsl:element>
     </xsl:template>
     
 </xsl:stylesheet>

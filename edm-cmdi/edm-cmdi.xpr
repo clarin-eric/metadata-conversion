@@ -140,7 +140,7 @@
                                     <String>${pdu}/edm2cmdi.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>file:/Users/twagoo/Documents/Repositories/git/metadata-conversion/edm-cmdi/test/edm/BibliographicResource_3000096308403.xml</String>
+                                    <String>${pdu}/test/edm/BibliographicResource_3000096308403.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -158,10 +158,10 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <null/>
+                                    <File>${cfn}.xml</File>
                                 </field>
                                 <field name="outputResource">
-                                    <null/>
+                                    <String>${cfn}.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

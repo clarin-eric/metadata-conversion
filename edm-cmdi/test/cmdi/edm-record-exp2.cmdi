@@ -32,10 +32,8 @@
                 <cmd:ResourceRef>http://port2.theeuropeanlibrary.org/fcgi-bin/iipsrv2.fcgi?FIF=node-2/image/SBB/Berliner_Tageblatt/1923/12/01/0/F_SBB_00001_19231201_052_554_0_001.jp2&amp;wid=200&amp;cvt=jpg</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
-        <cmd:JournalFileProxyList>
-        </cmd:JournalFileProxyList>
-        <cmd:ResourceRelationList>
-        </cmd:ResourceRelationList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
     </cmd:Resources>
     <cmd:Components>
         <EDM>
