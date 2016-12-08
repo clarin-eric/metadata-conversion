@@ -185,12 +185,16 @@
         <xsl:apply-templates select="dc:type" mode="component-prop" />
     </xsl:template>
     
+    <!--
+        **********************
+        * ELEMENT PROPERTIES *
+        **********************
+    -->
+    
     <xsl:template match="*" mode="element-prop">
         <xsl:param name="cmd-name" select="replace(name(), ':', '-')" />
         <xsl:element name="{$cmd-name}">
-            <xsl:if test="normalize-space(@xml:lang)">
-                <xsl:attribute name="xml:lang" select="@xml:lang" />
-            </xsl:if>
+            <xsl:copy-of select="@xml:lang" />
             <xsl:if test="normalize-space(@rdf:about)">
                 <xsl:attribute name="rdf-about" select="@rdf:about" />
             </xsl:if>
@@ -200,6 +204,12 @@
             <xsl:value-of select="."/>
         </xsl:element>
     </xsl:template>
+    
+    <!--
+        ************************
+        * COMPONENT PROPERTIES *
+        ************************
+    -->
     
     <xsl:template match="*" mode="component-prop">
         <xsl:param name="cmd-name" select="replace(name(), ':', '-')" />
@@ -217,28 +227,57 @@
             </xsl:choose>
         </xsl:element>
     </xsl:template>
-    
+
+    <!--
+        **********************
+        * CONTEXTUAL CLASSES *
+        **********************
+    -->
+
     <xsl:template match="skos:Concept" mode="contextual">
-        <!-- TODO: concept -->
+        <skos-Concept>
+            <xsl:attribute name="rdf-about" select="@rdf:about" />
+            <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
+            <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
+            <!-- TODO -->
+        </skos-Concept>
     </xsl:template>
     
     <xsl:template match="edm:TimeSpan" mode="contextual">
-        <!-- TODO: timespan -->
+        <edm-TimeSpan>
+            <xsl:attribute name="rdf-about" select="@rdf:about" />
+            <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
+            <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
+            <!-- TODO -->
+        </edm-TimeSpan>
     </xsl:template>
     
     <xsl:template match="edm:Place" mode="contextual">
-        <!-- TODO: place -->
+        <edm-Place>
+            <xsl:attribute name="rdf-about" select="@rdf:about" />
+            <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
+            <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
+            <!-- TODO -->
+        </edm-Place>
     </xsl:template>
     
     <xsl:template match="edm:Agent" mode="contextual">
-        <!-- TODO: agent-->
+        <edm-Agent>
+            <xsl:attribute name="rdf-about" select="@rdf:about" />
+            <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
+            <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
+            <!-- TODO -->
+        </edm-Agent>
     </xsl:template>
     
     <xsl:template match="cc:License" mode="contextual">
-        <!-- TODO: license -->
+        <cc-License>
+            <!-- TODO -->
+        </cc-License>
     </xsl:template>
     
     <xsl:template match="*" mode="contextual">
+        <!-- fallback -->
         <xsl:comment select="concat(name(), ' ', @rdf:about)" />
     </xsl:template>
     
