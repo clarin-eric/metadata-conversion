@@ -379,6 +379,11 @@
             <xsl:attribute name="rdf-about" select="@rdf:about" />
             <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
             <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
+            <xsl:apply-templates select="dcterms:hasPart" mode="element-prop" />
+            <xsl:apply-templates select="dcterms:isPartOf" mode="element-prop" />
+            <xsl:apply-templates select="edm:begin" mode="element-prop" />
+            <xsl:apply-templates select="edm:end" mode="element-prop" />
+            <xsl:apply-templates select="owl:sameAs" mode="element-prop" />
         </edm-TimeSpan>
     </xsl:template>
     
