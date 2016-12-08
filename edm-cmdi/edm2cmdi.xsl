@@ -261,7 +261,27 @@
     <xsl:template match="edm:WebResource">
         <xsl:variable name="webResourceProxyId" select="concat('webResource_', generate-id(.))"/>
         <edm-WebResource cmd:ref="{$webResourceProxyId}">
-            <!-- TODO: WebResource properties -->
+            <!--
+                **************************
+                * WebResource properties *
+                **************************
+             -->
+            <xsl:apply-templates select="dc:description" mode="element-prop" />
+            <xsl:apply-templates select="dc:format" mode="element-prop" />
+            <xsl:apply-templates select="dc:rights" mode="element-prop" />
+            <xsl:apply-templates select="dcterms:conformsTo" mode="element-prop" />
+            <xsl:apply-templates select="dcterms:extent" mode="element-prop" />
+            <xsl:apply-templates select="dcterms:hasPart" mode="element-prop" />
+            <xsl:apply-templates select="dcterms:isFormatOf" mode="element-prop" />
+            <xsl:apply-templates select="dcterms:isPartOf" mode="element-prop" />
+            <xsl:apply-templates select="dcterms:isReferencedBy" mode="element-prop" />
+            <xsl:apply-templates select="edm:isNextInSequence" mode="element-prop" />
+            <xsl:apply-templates select="owl:sameAs" mode="element-prop" />
+
+            <xsl:apply-templates select="dc:creator" mode="component-prop" />
+            <xsl:apply-templates select="dc:created" mode="component-prop" />
+            <xsl:apply-templates select="edm:rights" />
+            <xsl:apply-templates select="dcterms:issued" mode="component-prop" />            
         </edm-WebResource>
     </xsl:template>
     
