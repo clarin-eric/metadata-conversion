@@ -2,9 +2,12 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ore="http://www.openarchives.org/ore/terms/"
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
     xmlns:cmd="http://www.clarin.eu/cmd/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
     exclude-result-prefixes="xs"
     version="2.0">
     
@@ -19,6 +22,12 @@
             <xsl:apply-templates select="." mode="components" />
         </cmd:CMD>
     </xsl:template>
+    
+    <!--
+        **********
+        * HEADER *
+        **********
+    -->
     
     <xsl:template match="rdf:RDF" mode="header">
         <xsl:variable name="selfLink">
@@ -46,6 +55,12 @@
             </xsl:if>
         </cmd:Header>
     </xsl:template>
+    
+    <!--
+        *********************
+        * RESOURCES SECTION *
+        *********************
+    -->
     
     <xsl:template match="rdf:RDF" mode="resources">
         <cmd:Resources>
@@ -83,10 +98,17 @@
         </xsl:if>
     </xsl:template>
     
+    <!--
+        **********************
+        * COMPONENTS SECTION *
+        **********************
+    -->
+    
     <xsl:template match="rdf:RDF" mode="components">
-        <cmd:Components xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208">
+        <cmd:Components>
             <EDM>
-                <edm-ProvidedCHO></edm-ProvidedCHO>
+                <xsl:apply-templates select="edm:ProvidedCHO" />
+                <xsl:apply-templates select="ore:Proxy" />
                 <edm-Aggregation aggregatedCHO="">
                     <edm-dataProvider></edm-dataProvider>
                     <edm-provider></edm-provider>
@@ -96,6 +118,30 @@
                 </edm-Aggregation>
             </EDM>
         </cmd:Components>
+    </xsl:template>
+    
+    <xsl:template match="edm:ProvidedCHO">
+        <edm-ProvidedCHO rdf-about="{@rdf:about}">
+            <xsl:apply-templates select="." mode="cho-props" />
+        </edm-ProvidedCHO>
+    </xsl:template>
+    
+    <xsl:template match="ore:Proxy">
+        <xsl:variable name="proxyFor" select="ore:proxyFor/@rdf:resource" />
+        <!-- check if it is a proxy for a ProvidedCHO -->
+        <xsl:if test="//rdf:RDF/edm:ProvidedCHO[@rdf:about = $proxyFor]">
+            <ProvidedCHOProxy
+                rdf-about="{@rdf:about}"
+                proxyFor="{ore:proxyFor/@rdf:resource}" 
+                proxyIn="{ore:proxyIn/@rdf:resource}">
+                <edm-ProvidedCHO>
+                    <xsl:apply-templates select="." mode="cho-props" />
+                </edm-ProvidedCHO>
+            </ProvidedCHOProxy>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="edm:ProvidedCHO|ore:Proxy" mode="cho-props">
     </xsl:template>
     
 </xsl:stylesheet>
