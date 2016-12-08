@@ -365,7 +365,12 @@
             <xsl:attribute name="rdf-about" select="@rdf:about" />
             <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
             <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
-            <!-- TODO -->
+            <xsl:apply-templates select="skos:broader" mode="element-prop" />
+            <xsl:apply-templates select="skos:narrower" mode="element-prop" />
+            <xsl:apply-templates select="skos:related" mode="element-prop" />
+            <xsl:apply-templates select="skos:note" mode="element-prop" />
+            <xsl:apply-templates select="skos:notation" mode="element-prop" />
+            <xsl:apply-templates select="skos:inScheme" mode="element-prop" />
         </skos-Concept>
     </xsl:template>
     
@@ -374,7 +379,6 @@
             <xsl:attribute name="rdf-about" select="@rdf:about" />
             <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
             <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
-            <!-- TODO -->
         </edm-TimeSpan>
     </xsl:template>
     
