@@ -38,7 +38,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:func="http://www.clarin.eu/cmd/conversion/edm-cmd"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
-    exclude-result-prefixes="xs"
+    exclude-result-prefixes="xs owl rdf skos wgs84_pos dc dcterms ore cc edm func"
     version="2.0">
     
     <xsl:output method="xml" indent="yes" />
