@@ -47,8 +47,7 @@
     <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">2
             v.</dcterms:extent>
     <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0157"/>
-    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Gutenberg Bible
-            Collection</dcterms:isPartOf>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Gutenberg Bible Collection</dcterms:isPartOf>
     <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">2000</dcterms:issued>
     <edm:europeanaProxy>false</edm:europeanaProxy>
     <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92031/BibliographicResource_1000128561234"/>

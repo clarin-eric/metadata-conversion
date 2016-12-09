@@ -70,7 +70,21 @@
                 </xsl:when>
             </xsl:choose>
         </xsl:variable>
-        <xsl:variable name="collectionName" select="edm:EuropeanaAggregation/edm:collectionName" />
+        
+        <xsl:variable name="collectionName">
+            <xsl:choose>
+                <xsl:when test="edm:ProvidedCHO/dcterms:isPartOf[normalize-space(.) != '']">
+                    <xsl:value-of select="edm:ProvidedCHO/dcterms:isPartOf[normalize-space(.) != ''][1]"/>
+                </xsl:when>
+                <xsl:when test="ore:Proxy/dcterms:isPartOf[normalize-space(.) != '']">
+                    <xsl:value-of select="ore:Proxy/dcterms:isPartOf[normalize-space(.) != ''][1]"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of  select="//edm:EuropeanaAggregation/edm:collectionName" />
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        
         <cmd:Header>
             <!--
                 cmd:MdCreator?
@@ -81,7 +95,9 @@
             </xsl:if>
             <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
             <xsl:if test="normalize-space($collectionName) != ''">
-                <cmd:MdCollectionDisplayName><xsl:value-of select="$collectionName"/></cmd:MdCollectionDisplayName>
+                <cmd:MdCollectionDisplayName>
+                    <xsl:value-of select="$collectionName"/>
+                </cmd:MdCollectionDisplayName>
             </xsl:if>
         </cmd:Header>
     </xsl:template>
@@ -140,6 +156,9 @@
                 <xsl:apply-templates select="edm:ProvidedCHO" />
                 <xsl:apply-templates select="ore:Proxy" />
                 <xsl:apply-templates select="ore:Aggregation" />
+                <!-- TODO
+                    <xsl:apply-templates select="edm:EuropeanaAggregation" />
+                -->
             </EDM>
         </cmd:Components>
     </xsl:template>
