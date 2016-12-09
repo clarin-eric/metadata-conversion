@@ -436,7 +436,7 @@
         <!--
             Maps an element name to a CMD element/component name (only for recognised namespaces)
         -->
-        <xsl:param name="node" required="yes" />
+        <xsl:param name="node" />
         <xsl:value-of select="concat(func:get-cmd-name-prefix($node/namespace-uri()), '-', $node/local-name())" />
     </xsl:function>
     
@@ -444,7 +444,7 @@
         <!--
             Maps a recognised namespace to a 'prefix' for a CMD element or component so that the name can be derived from the original name automatically and reliably
         -->
-        <xsl:param name="ns" required="yes" />
+        <xsl:param name="ns" />
         
         <xsl:variable name="ns-prefix-map">
             <func:entry key="http://purl.org/dc/elements/1.1/">dc</func:entry>
@@ -469,7 +469,7 @@
     </xsl:function>
 
     <xsl:function name="func:webResourceProxyId">
-        <xsl:param name="webResouce" required="yes"/>
+        <xsl:param name="webResouce" />
         <xsl:value-of select="concat('webResource_', generate-id($webResouce))"/>
     </xsl:function>
     

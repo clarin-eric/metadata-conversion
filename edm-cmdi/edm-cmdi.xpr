@@ -226,7 +226,7 @@
                                     <String>${pdu}/edm2cmdi.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>file:/Users/twagoo/Documents/Repositories/git/metadata-conversion/edm-cmdi/test/edm/BibliographicResource_1000128561237.xml</String>
+                                    <String>${pdu}/test/edm/BibliographicResource_1000128561237.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -280,7 +280,7 @@
                                     <String-array/>
                                 </field>
                                 <field name="xslTransformer">
-                                    <String>Saxon-EE</String>
+                                    <String>Saxon-HE</String>
                                 </field>
                                 <field name="extensionURLs">
                                     <String-array/>
