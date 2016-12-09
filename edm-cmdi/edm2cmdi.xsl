@@ -103,7 +103,7 @@
             <cmd:ResourceRelationList>
             </cmd:ResourceRelationList>
         </cmd:Resources>
-        <!-- 
+        <!--  TODO
           <cmd:IsPartOfList>
               <cmd:IsPartOf></cmd:IsPartOf>
           </cmd:IsPartOfList>
