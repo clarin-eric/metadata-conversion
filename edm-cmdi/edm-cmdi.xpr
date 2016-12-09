@@ -72,10 +72,10 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${cfn}.xml</File>
+                                    <File>test/target/${cfn}.xml</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${cfn}.xml</String>
+                                    <String>test/target/${cfn}.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -158,10 +158,10 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${cfn}.xml</File>
+                                    <File>test/target/${cfn}.xml</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${cfn}.xml</String>
+                                    <String>test/target/${cfn}.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -244,10 +244,10 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
-                                    <File>${cfn}.xml</File>
+                                    <File>test/target/${cfn}.xml</File>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${cfn}.xml</String>
+                                    <String>test/target/${cfn}.xml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

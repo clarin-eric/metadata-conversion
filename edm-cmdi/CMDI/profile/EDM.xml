@@ -365,7 +365,7 @@
             </Component>
             <Component name="dc-publisher" ConceptLink="http://purl.org/dc/elements/1.1/publisher" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>dc:publisher container</Documentation>
-                <Element name="dc-publisher" ConceptLink="http://purl.org/dc/elements/1.1/publisher" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                <Element name="dc-publisher" ConceptLink="http://purl.org/dc/elements/1.1/publisher" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                     <Documentation>dc:publisher literal</Documentation>
                 </Element>
                 <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
@@ -689,13 +689,12 @@
                         <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                         <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
                             <AttributeList>
-                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
                             </AttributeList>
-                            <Element name="licenseURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-                            <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation></Documentation>
                             </Element>
-                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation></Documentation>
                                 <AttributeList>
                                     <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
@@ -758,6 +757,9 @@
             </Component>
             <Component name="dcterms-spatial" ConceptLink="http://purl.org/dc/terms/spatial" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>dcterms:spatial container</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
                 <Element name="dcterms-spatial" ConceptLink="http://purl.org/dc/terms/spatial" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                     <Documentation>dcterms:spatial literal</Documentation>
                 </Element>
@@ -802,6 +804,9 @@
             </Component>
             <Component name="dcterms-temporal" ConceptLink="http://purl.org/dc/terms/temporal" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>dcterms:temporal container</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
                 <Element name="dcterms-temporal" ConceptLink="http://purl.org/dc/terms/temporal" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                     <Documentation>dcterms:temporal literal</Documentation>
                 </Element>
@@ -1494,7 +1499,7 @@
                 </Component>
                 <Component name="dc-publisher" ConceptLink="http://purl.org/dc/elements/1.1/publisher" CardinalityMin="0" CardinalityMax="unbounded">
                     <Documentation>dc:publisher container</Documentation>
-                    <Element name="dc-publisher" ConceptLink="http://purl.org/dc/elements/1.1/publisher" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Element name="dc-publisher" ConceptLink="http://purl.org/dc/elements/1.1/publisher" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>dc:publisher literal</Documentation>
                     </Element>
                     <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
@@ -1818,13 +1823,12 @@
                             <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                             <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
                                 <AttributeList>
-                                    <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
                                 </AttributeList>
-                                <Element name="licenseURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-                                <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation></Documentation>
                                 </Element>
-                                <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation></Documentation>
                                     <AttributeList>
                                         <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
@@ -1887,6 +1891,9 @@
                 </Component>
                 <Component name="dcterms-spatial" ConceptLink="http://purl.org/dc/terms/spatial" CardinalityMin="0" CardinalityMax="unbounded">
                     <Documentation>dcterms:spatial container</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
                     <Element name="dcterms-spatial" ConceptLink="http://purl.org/dc/terms/spatial" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>dcterms:spatial literal</Documentation>
                     </Element>
@@ -1931,6 +1938,9 @@
                 </Component>
                 <Component name="dcterms-temporal" ConceptLink="http://purl.org/dc/terms/temporal" CardinalityMin="0" CardinalityMax="unbounded">
                     <Documentation>dcterms:temporal container</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
                     <Element name="dcterms-temporal" ConceptLink="http://purl.org/dc/terms/temporal" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>dcterms:temporal literal</Documentation>
                     </Element>
@@ -2441,13 +2451,12 @@
                         <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                         <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
                             <AttributeList>
-                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
                             </AttributeList>
-                            <Element name="licenseURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-                            <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation></Documentation>
                             </Element>
-                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation></Documentation>
                                 <AttributeList>
                                     <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
@@ -2623,13 +2632,12 @@
                         <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                         <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
                             <AttributeList>
-                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
                             </AttributeList>
-                            <Element name="licenseURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-                            <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation></Documentation>
                             </Element>
-                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation></Documentation>
                                 <AttributeList>
                                     <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
@@ -2805,13 +2813,12 @@
                         <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                         <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
                             <AttributeList>
-                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
                             </AttributeList>
-                            <Element name="licenseURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-                            <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation></Documentation>
                             </Element>
-                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation></Documentation>
                                 <AttributeList>
                                     <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
@@ -2987,13 +2994,12 @@
                         <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                         <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
                             <AttributeList>
-                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
                             </AttributeList>
-                            <Element name="licenseURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-                            <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation></Documentation>
                             </Element>
-                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation></Documentation>
                                 <AttributeList>
                                     <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
@@ -3007,13 +3013,12 @@
                 <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                 <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
                     <AttributeList>
-                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                        <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
                     </AttributeList>
-                    <Element name="licenseURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-                    <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation></Documentation>
                     </Element>
-                    <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation></Documentation>
                         <AttributeList>
                             <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
@@ -3038,13 +3043,12 @@
                 <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                 <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
                     <AttributeList>
-                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                        <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
                     </AttributeList>
-                    <Element name="licenseURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
-                    <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="odrl-inheritFrom" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation></Documentation>
                     </Element>
-                    <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation></Documentation>
                         <AttributeList>
                             <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
