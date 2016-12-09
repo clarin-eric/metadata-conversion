@@ -255,7 +255,7 @@
     
     <xsl:template match="edm:hasView|edm:isShownAt|edm:isShownBy|edm:object">
         <xsl:variable name="targetWebResource" select="@rdf:resource"/>
-        <xsl:element name="{replace(name(), ':', '-')}">
+        <xsl:element name="{func:get-cmd-name(.)}">
             <xsl:apply-templates select="//edm:WebResource[@rdf:about = $targetWebResource]" />
         </xsl:element>
     </xsl:template>
@@ -302,7 +302,7 @@
     -->
     
     <xsl:template match="*" mode="element-prop">
-        <xsl:param name="cmd-name" select="replace(name(), ':', '-')" />
+        <xsl:param name="cmd-name" select="func:get-cmd-name(.)" />
         <xsl:param name="allow-xml-lang" select="true()" />
         <xsl:element name="{$cmd-name}">
             <xsl:if test="$allow-xml-lang">
@@ -325,7 +325,7 @@
     -->
     
     <xsl:template match="*" mode="component-prop">
-        <xsl:param name="cmd-outer-name" select="replace(name(), ':', '-')" />
+        <xsl:param name="cmd-outer-name" select="func:get-cmd-name(.)" />
         <xsl:param name="cmd-inner-name" select="$cmd-outer-name" />
         <xsl:element name="{$cmd-outer-name}">
             <xsl:choose>
@@ -431,6 +431,12 @@
         * UTILS AND FUNCTIONS                                           *
         *****************************************************************
     -->
+    
+    <xsl:function name="func:get-cmd-name">
+        <xsl:param name="node" required="yes" />
+        <!-- TODO!!: use default cmd-name on local prefix!! -->
+        <xsl:value-of select="replace($node/name(), ':', '-')" />
+    </xsl:function>
 
     <xsl:function name="func:webResourceProxyId">
         <xsl:param name="webResouce" required="yes"/>
