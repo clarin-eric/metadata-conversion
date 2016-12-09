@@ -445,18 +445,27 @@
             Maps a recognised namespace to a 'prefix' for a CMD element or component so that the name can be derived from the original name automatically and reliably
         -->
         <xsl:param name="ns" required="yes" />
+        
+        <xsl:variable name="ns-prefix-map">
+            <func:entry key="http://purl.org/dc/elements/1.1/">dc</func:entry>
+            <func:entry key="http://purl.org/dc/terms/">dcterms</func:entry>
+            <func:entry key="http://www.europeana.eu/schemas/edm/">edm</func:entry>
+            <func:entry key="http://www.w3.org/1999/02/22-rdf-syntax-ns#">rdf</func:entry>
+            <func:entry key="http://www.w3.org/2004/02/skos/core#">skos</func:entry>
+            <func:entry key="http://www.w3.org/2002/07/owl#">owl</func:entry>
+            <func:entry key="http://www.w3.org/2003/01/geo/wgs84_pos#">wgs84_pos</func:entry>
+            <func:entry key="http://www.openarchives.org/ore/terms/">ore</func:entry>
+            <func:entry key="http://creativecommons.org/ns#">cc</func:entry>
+        </xsl:variable>
+        
+        <xsl:variable name="prefix" select="$ns-prefix-map/func:entry[@key = string($ns)]"/>
         <xsl:choose>
-            <xsl:when test="$ns = 'http://purl.org/dc/elements/1.1/'">dc</xsl:when>
-            <xsl:when test="$ns = 'http://purl.org/dc/terms/'">dcterms</xsl:when>
-            <xsl:when test="$ns = 'http://www.europeana.eu/schemas/edm/'">edm</xsl:when>
-            <xsl:when test="$ns = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'">rdf</xsl:when>
-            <xsl:when test="$ns = 'http://www.w3.org/2004/02/skos/core#'">skos</xsl:when>
-            <xsl:when test="$ns = 'http://www.w3.org/2002/07/owl#'">owl</xsl:when>
-            <xsl:when test="$ns = 'http://www.w3.org/2003/01/geo/wgs84_pos#'">wgs84_pos</xsl:when>
-            <xsl:when test="$ns = 'http://www.openarchives.org/ore/terms/'">ore</xsl:when>
-            <xsl:when test="$ns = 'http://creativecommons.org/ns#'">cc</xsl:when>
-            <xsl:otherwise>unknown</xsl:otherwise>
+            <xsl:when test="normalize-space($prefix) != ''">
+                <xsl:value-of select="$prefix"/>
+            </xsl:when>
+            <xsl:otherwise>unkown</xsl:otherwise>
         </xsl:choose>
+        
     </xsl:function>
 
     <xsl:function name="func:webResourceProxyId">
