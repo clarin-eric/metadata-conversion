@@ -433,9 +433,30 @@
     -->
     
     <xsl:function name="func:get-cmd-name">
+        <!--
+            Maps an element name to a CMD element/component name (only for recognised namespaces)
+        -->
         <xsl:param name="node" required="yes" />
-        <!-- TODO!!: use default cmd-name on local prefix!! -->
-        <xsl:value-of select="replace($node/name(), ':', '-')" />
+        <xsl:value-of select="concat(func:get-cmd-name-prefix($node/namespace-uri()), '-', $node/local-name())" />
+    </xsl:function>
+    
+    <xsl:function name="func:get-cmd-name-prefix">
+        <!--
+            Maps a recognised namespace to a 'prefix' for a CMD element or component so that the name can be derived from the original name automatically and reliably
+        -->
+        <xsl:param name="ns" required="yes" />
+        <xsl:choose>
+            <xsl:when test="$ns = 'http://purl.org/dc/elements/1.1/'">dc</xsl:when>
+            <xsl:when test="$ns = 'http://purl.org/dc/terms/'">dcterms</xsl:when>
+            <xsl:when test="$ns = 'http://www.europeana.eu/schemas/edm/'">edm</xsl:when>
+            <xsl:when test="$ns = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'">rdf</xsl:when>
+            <xsl:when test="$ns = 'http://www.w3.org/2004/02/skos/core#'">skos</xsl:when>
+            <xsl:when test="$ns = 'http://www.w3.org/2002/07/owl#'">owl</xsl:when>
+            <xsl:when test="$ns = 'http://www.w3.org/2003/01/geo/wgs84_pos#'">wgs84_pos</xsl:when>
+            <xsl:when test="$ns = 'http://www.openarchives.org/ore/terms/'">ore</xsl:when>
+            <xsl:when test="$ns = 'http://creativecommons.org/ns#'">cc</xsl:when>
+            <xsl:otherwise>unknown</xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
 
     <xsl:function name="func:webResourceProxyId">
