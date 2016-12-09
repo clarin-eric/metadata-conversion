@@ -6,7 +6,7 @@ SAXON_DISTR_URL="https://netcologne.dl.sourceforge.net/project/saxon/Saxon-HE/9.
 SCRIPT_DIR="$(dirname "$0")"
 SAXON_DIR="${SCRIPT_DIR}/target/saxon"
 SAXON="${SAXON_DIR}/saxon9he.jar"
-IN_DIR="${SCRIPT_DIR}/edm"
+IN_DIR="${SCRIPT_DIR}/edm/Europeana_Repository"
 OUT_DIR="${SCRIPT_DIR}/target/edm-cmdi"
 STYLESHEET="${SCRIPT_DIR}/../edm2cmdi.xsl"
 
