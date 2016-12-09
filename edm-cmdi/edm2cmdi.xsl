@@ -156,9 +156,7 @@
                 <xsl:apply-templates select="edm:ProvidedCHO" />
                 <xsl:apply-templates select="ore:Proxy" />
                 <xsl:apply-templates select="ore:Aggregation" />
-                <!-- TODO
-                    <xsl:apply-templates select="edm:EuropeanaAggregation" />
-                -->
+                <xsl:apply-templates select="edm:EuropeanaAggregation" />
             </EDM>
         </cmd:Components>
     </xsl:template>
@@ -277,6 +275,15 @@
         <xsl:element name="{func:get-cmd-name(.)}">
             <xsl:apply-templates select="//edm:WebResource[@rdf:about = $targetWebResource]" />
         </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="edm:EuropeanaAggregation">
+        <edm-EuropeanaAggregation  rdf-about="{@rdf:about}" aggregatedCHO="{edm:aggregatedCHO/@rdf:resource}">
+            <xsl:apply-templates select="edm:collectionName" mode="element-prop" />
+            <xsl:apply-templates select="edm:country" mode="element-prop" />
+            <xsl:apply-templates select="edm:language" mode="element-prop" />
+            <xsl:apply-templates select="edm:rights" />
+        </edm-EuropeanaAggregation>
     </xsl:template>
     
     <xsl:template match="edm:WebResource">
