@@ -33,12 +33,13 @@
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:ore="http://www.openarchives.org/ore/terms/"
     xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:odrl="http://www.w3.org/ns/odrl/2/"
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
     xmlns:cmd="http://www.clarin.eu/cmd/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:func="http://www.clarin.eu/cmd/conversion/edm-cmd"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
-    exclude-result-prefixes="xs owl rdf skos wgs84_pos dc dcterms ore cc edm func"
+    exclude-result-prefixes="xs owl rdf skos wgs84_pos dc dcterms ore cc odrl edm func"
     version="2.0">
     
     <xsl:output method="xml" indent="yes" />
@@ -468,8 +469,8 @@
     <xsl:template match="cc:License" mode="contextual">
         <cc-License>
             <xsl:attribute name="rdf-about" select="@rdf:about" />
-            <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
-            <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
+            <xsl:apply-templates select="odrl:inheritFrom" mode="element-prop" />
+            <xsl:apply-templates select="cc:deprecatedOn" mode="element-prop" />
         </cc-License>
     </xsl:template>
     
@@ -509,6 +510,7 @@
             <func:entry key="http://www.w3.org/2003/01/geo/wgs84_pos#">wgs84_pos</func:entry>
             <func:entry key="http://www.openarchives.org/ore/terms/">ore</func:entry>
             <func:entry key="http://creativecommons.org/ns#">cc</func:entry>
+            <func:entry key="http://www.w3.org/ns/odrl/2/">odrl</func:entry>
         </xsl:variable>
         
         <xsl:variable name="prefix" select="$ns-prefix-map/func:entry[@key = string($ns)]"/>
