@@ -1,0 +1,57 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92004/BibliographicResource_2000059192468"/>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/mns_direct.php?docId=set20100108_182_3">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/en/index.php?request=show_tei_digidoc&amp;docId=set20100108_182_3">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/wtis_lq.php?strFolder=J/NLOTRO179754_________20DJ/P0/179754_________20DJP00024P.JPG">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/551487/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">55.78874</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">49.12214</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Казань</skos:prefLabel>
+          </edm:Place>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92004/BibliographicResource_2000059192468">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192468"/>
+            <edm:dataProvider>National Library of Czech Republic</edm:dataProvider>
+            <edm:hasView rdf:resource="http://www.manuscriptorium.com/apps/main/en/index.php?request=show_tei_digidoc&amp;docId=set20100108_182_3"/>
+            <edm:isShownAt rdf:resource="http://www.manuscriptorium.com/apps/main/mns_direct.php?docId=set20100108_182_3"/>
+            <edm:object rdf:resource="http://www.manuscriptorium.com/apps/main/wtis_lq.php?strFolder=J/NLOTRO179754_________20DJ/P0/179754_________20DJP00024P.JPG"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92004/BibliographicResource_2000059192468">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zhusupbek-Khodji (Shaikhulislamuly)</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1908-1908</dc:date>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">other</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:test.manuscriptorium.cz:set20100108_182_3</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">mul</dc:language>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">National Library of the Republic of Kazakhstan</dc:source>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Kyz-Zhibek: the Poem</dc:title>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1908-1908</dcterms:created>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0588"/>
+            <dcterms:medium xmlns:dcterms="http://purl.org/dc/terms/">unknown</dcterms:medium>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/551487/"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192468"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92004/BibliographicResource_2000059192468"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92004/BibliographicResource_2000059192468">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192468"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92004/BibliographicResource_2000059192468"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92004/BibliographicResource_2000059192468">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192468"/>
+            <edm:collectionName>92004_Ag_EU_TEL_a0588_TEL_NKP_manuscriptorium</edm:collectionName>
+            <edm:country>Czech Republic</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92004/BibliographicResource_2000059192468.html"/>
+            <edm:language>cs</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

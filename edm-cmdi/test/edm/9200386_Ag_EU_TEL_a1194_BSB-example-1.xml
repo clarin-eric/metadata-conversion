@@ -1,0 +1,161 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200386/BibliographicResource_3000044582574"/>
+          <edm:WebResource rdf:about="http://lod.b3kat.de/title/BV009283857">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Wochenbände für das geistige und materielle Wohl des deutschen Volkes</dc:description>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10617298-4"/>
+          <edm:WebResource rdf:about="http://bsb0mdz-upload.bsb.lrz.de/~europeana/bsb10617298/download/thumbs/bsb10617298_00006.jpg"/>
+          <edm:Place rdf:about="http://sws.geonames.org/2825297/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">48.78232</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">9.17702</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">สตุตการ์ต</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Щутгарт</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">შტუტგარტი</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ku">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">슈투트가르트</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">שטוטגרט</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sh">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Stuttgartum</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Штутгарт</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">斯图加特</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Štutgarte</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Štutgartas</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mk">Штутгарт</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Штуттґарт</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Stoccarda</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">اشتوتگارت</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">شتوتغارت</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Στουτγκάρδη</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Stutgarto</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">シュトゥットガルト</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Stuttgart</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Stuttgart</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2921044/"/>
+          </edm:Place>
+          <edm:Place rdf:about="http://lod.b3kat.de/bib/DE-12"/>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1852">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1852</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/18xx_3_quarter"/>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1852</edm:begin>
+            <edm:end>Fri Dec 31 01:00:00 CET 1852</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx_3_quarter">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">3e quart 19e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">3 quarter of the 19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">3-я четверть 19-го века</skos:prefLabel>
+            <edm:begin>Wed Jan 01 01:00:00 CET 1851</edm:begin>
+            <edm:end>Fri Dec 31 01:00:00 CET 1875</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx_2_half">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">19e (fin)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second half of the 19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Вторая половина 19-го века</skos:prefLabel>
+            <edm:begin>Wed Jan 01 01:00:00 CET 1851</edm:begin>
+            <edm:end>Tue Dec 31 00:19:32 CET 1901</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">19e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">19й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">19de eeuw</skos:prefLabel>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1801</edm:begin>
+            <edm:end>Mon Dec 31 00:19:32 CET 1900</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200386/BibliographicResource_3000044582574">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000044582574"/>
+            <edm:dataProvider>Bavarian State Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10617298-4"/>
+            <edm:object rdf:resource="http://bsb0mdz-upload.bsb.lrz.de/~europeana/bsb10617298/download/thumbs/bsb10617298_00006.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/out-of-copyright-non-commercial/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200386/BibliographicResource_3000044582574">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Gesellschaft zur Verbreitung Guter und Wohlfeiler Bücher</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">In: Wochenbände für das geistige und materielle Wohl des deutschen Volkes. - 1.1846 - 300.1849[?], 204. 1852</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Besitzer: München, Bayerische Staatsbibliothek -- München, Bayerische Staatsbibliothek -- Per. 199 q-204/218</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Illustrations: Phonodisc phonowire</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">BDR-BSBe10183835-62845</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Rieger</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">de</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">050</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">790</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Wochenbände für das geistige und materielle Wohl des deutschen Volkes - 204. 1852</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Analitic serial</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://lod.b3kat.de/title/BV009283857"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1194"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1852</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2825297/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/gw"/>
+            <edm:currentLocation rdf:resource="http://lod.b3kat.de/bib/DE-12"/>
+            <edm:isSimilarTo rdf:resource="http://lod.b3kat.de/title/10183835"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000044582574"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200386/BibliographicResource_3000044582574"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200386/BibliographicResource_3000044582574">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/18xx_2_half"/>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/18xx"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/1852"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1852</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000044582574"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200386/BibliographicResource_3000044582574"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200386/BibliographicResource_3000044582574">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000044582574"/>
+            <edm:collectionName>9200386_Ag_EU_TEL_a1194_BSB</edm:collectionName>
+            <edm:country>Germany</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200386/BibliographicResource_3000044582574.html"/>
+            <edm:language>de</edm:language>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/out-of-copyright-non-commercial/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

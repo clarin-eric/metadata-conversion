@@ -1,0 +1,65 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703108">
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="a0590:eb7d9179-39dc-40a6-9f58-ffff82592f77"/>
+          </edm:ProvidedCHO>
+          <edm:WebResource rdf:about="http://193.200.14.178/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=7d133cfe-0af4-4959-8d7b-202f7d2cfd04&amp;did=59&amp;culture=en">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/nbkm/S_25a.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200136/BibliographicResource_2000064703108">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703108"/>
+            <edm:dataProvider>National Library of Bulgaria</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://193.200.14.178/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=7d133cfe-0af4-4959-8d7b-202f7d2cfd04&amp;did=59&amp;culture=en"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/S_25a.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200136/BibliographicResource_2000064703108">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Мевляна Хасан ефенди</dc:creator>
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mevlana Hasan efendi</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">най-ранната дата: 4 зилхидже 1155 (30.І.1743) г. (л. 3а)</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">Earliest date: 4 zilhicce 1155 (30.I.1743), fol. 3a</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">крайна дата: 6 джемазиюл еввел 1158 (6.VІ.1745) г. (л. 86а)</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">Final date:  6 cemaziyul evvel 1158 (6.VІ.1745), fol. 86а</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Лист 87а-88б са празни. Върху вътрешната страна на горната корица са нанесени отметки. Текстът (главно отметки от 1156-1158 г.) на л. 88б-90б е изписан обратно.
+Мевляна Хасан ефенди встъпва в длъжност на мястото на Ибрахим Накъд на 1 зилхидже 1155 (27.І.1743) г. (л. 2б). Считано от същата дата, той назначава за свой наместник сина си Хюсейин ефенди (л. 2б-V).
+От 1 шабан 1157 (9.ІХ.1744) г. на мястото на Хасан ефенди е назначен мевляна Халеби-заде Хюсейин ефенди (л. 43б). Последният назначава за свой наместник мевляна Али ефенди, считано от същата дата (л. 43б-ІV).
+На л. 43а е налице заверка с печат на Хюсейин, наместник (мувалля хиляфетен) по време на кадията Хасан, негов баща, поставена под документ от 20 реджеб 1157 (29.VІІІ.1744) г.
+От 1 мухаррем 1158 (3.ІІ.1745) г. като наиб на Видин е отбелязан Али Ислями (л. 49а).
+Халеби-заде Хюсейин назначава ес-Сеййид Исмаил ефенди за наиб, считано от 1 ребиюл ахър 1158 (3.V.1745) г. (л. 56а-І).
+На л. 55бе налице заверка с печат на Али, наместник по времето на кадията Хюсейин. Документът над заверката е от 15 ребиюл еввел 1158 (17.ІV.1745) г.
+Сиджилът включва наследствени описи, хюджети, преписи на султански документи, тевзи дефтери за разходи на Видинския Варош и мукатаи към Видин оджаклък за определени месеци от 1155-1158 г. (л. 15б-16а, 27б-28б, 35б-36а, 45б-46б, 53б-54а и 63а-64а); нарх лист за цените на хранителни стоки от 17 ребиюлеввел 1156 (11.V.1743 г. (л. 89б).</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="bg">38,7-39 х 14,5 см</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">eb7d9179-39dc-40a6-9f58-ffff82592f77</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">ota</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджили / Sijills</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Национална библиотека Св. Св. Кирил и Методий / St. St. Cyril and Methodius National Library</dc:rights>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджил - Видин</dc:title>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Sijill - Vidin</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджил / Sijill</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">90</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0590"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1914</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703108"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200136/BibliographicResource_2000064703108"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200136/BibliographicResource_2000064703108">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1914</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703108"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200136/BibliographicResource_2000064703108"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200136/BibliographicResource_2000064703108">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703108"/>
+            <edm:collectionName>9200136_Ag_EU_TEL_a0590_Bulgaria</edm:collectionName>
+            <edm:country>Bulgaria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200136/BibliographicResource_2000064703108.html"/>
+            <edm:language>bg</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

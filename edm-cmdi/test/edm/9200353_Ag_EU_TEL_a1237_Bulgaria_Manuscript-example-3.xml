@@ -1,0 +1,106 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072603">
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="a1237:НБКМ 297"/>
+          </edm:ProvidedCHO>
+          <edm:WebResource rdf:about="http://digital.nationallibrary.bg/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=71306f5b-d32d-4328-968c-3043dab885fe&amp;did=70&amp;culture=en">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/nbkm/SL_2/70.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1353">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1353</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/13xx_3_quarter"/>
+            <edm:begin>Tue Jan 01 01:00:00 CET 1353</edm:begin>
+            <edm:end>Tue Dec 31 01:00:00 CET 1353</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/13xx_3_quarter">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">3e quart 14e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">3 quarter of the 14th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">3-я четверть 14-го века</skos:prefLabel>
+            <edm:begin>Sat Jan 01 01:00:00 CET 1351</edm:begin>
+            <edm:end>Mon Dec 31 01:00:00 CET 1375</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/13xx_2_half">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">14e (fin)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second half of the 14th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Вторая половина 14-го века</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/13xx"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/13xx"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/13xx"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/13xx"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/13xx"/>
+            <edm:begin>Sat Jan 01 01:00:00 CET 1351</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 1401</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/13xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">14..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">14??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">14e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">14e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">14-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">14th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">14th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">14й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">14de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Sun Jan 01 01:00:00 CET 1301</edm:begin>
+            <edm:end>Fri Dec 31 01:00:00 CET 1400</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200353/BibliographicResource_3000096072603">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072603"/>
+            <edm:dataProvider>National Library of Bulgaria</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digital.nationallibrary.bg/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=71306f5b-d32d-4328-968c-3043dab885fe&amp;did=70&amp;culture=en"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/SL_2/70.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200353/BibliographicResource_3000096072603">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1353</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Това е един от относително пълните български преписи на съчинението "Паренесис" на Ефрем Сирин. Освен това тук са включени някои от известните негови слова, както и житието му под датата 28 януари (краят на житието е във фрагмента, съхраняван в РНБ); пергамент; дъски с орнаментирана кожа; Среден правилен полуустав от една ръка, по 26 реда на страница; тъмнокафяво за основния текст; киновар за заглавията, инициали и някои служебни обозначения; геометрични инициали и заставки в червено; един лист от ръкописа се пази в РНБ-Санкт Петербург, № F.п.I.63</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">250 x 180 мм</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">НБКМ 297</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">cu</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Българският ХІV век / The Bulgarian Fourteenth Century</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Национална библиотека Св. Св. Кирил и Методий / St. St. Cyril and Methodius National Library</dc:rights>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">Лесновския манастир "Архангел Михаил и Гавриил"</dc:source>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Паренесис на Ефрем Сирин (Лесновски паренесис)</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Славянски ръкопис / Slavonic Manuscript</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">315 л.</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1237"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1914</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072603"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200353/BibliographicResource_3000096072603"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200353/BibliographicResource_3000096072603">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/1353"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1353</edm:year>
+            <edm:year xml:lang="eur">1914</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072603"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200353/BibliographicResource_3000096072603"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200353/BibliographicResource_3000096072603">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072603"/>
+            <edm:collectionName>9200353_Ag_EU_TEL_a1237_Bulgaria_Manuscript</edm:collectionName>
+            <edm:country>Bulgaria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200353/BibliographicResource_3000096072603.html"/>
+            <edm:language>bg</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

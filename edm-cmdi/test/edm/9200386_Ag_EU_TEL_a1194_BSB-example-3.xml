@@ -1,0 +1,132 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200386/BibliographicResource_3000044582565"/>
+          <edm:WebResource rdf:about="http://lod.b3kat.de/title/BV012091105">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Beobachtungen und Abhandlungen aus dem Gebiete der gesammten praktischen Heilkunde von österreichischen Ärzten</dc:description>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10083859-3"/>
+          <edm:WebResource rdf:about="http://bsb0mdz-upload.bsb.lrz.de/~europeana/bsb10083859/download/thumbs/bsb10083859_00005.jpg"/>
+          <edm:Place rdf:about="http://sws.geonames.org/2761369/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">48.20849</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">16.37208</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Beč</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Viena</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Viyana</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Bécs</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">เวียนนา</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Viena</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Vindobona</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vienna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Vienne</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Виена</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Dunaj</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Vín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Vínarborg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Vienna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Беч</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">빈</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Vídeň</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Βιέννη</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ቪየና</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Wiedeń</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Vindobona</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Viena</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Vieno</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Vienna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Вена</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Viena</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Wenen</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2782113/"/>
+          </edm:Place>
+          <edm:Place rdf:about="http://lod.b3kat.de/bib/DE-12"/>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1819">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1819</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/18xx_1_third"/>
+            <edm:begin>Fri Jan 01 01:00:00 CET 1819</edm:begin>
+            <edm:end>Fri Dec 31 01:00:00 CET 1819</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx_1_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 19-го века</skos:prefLabel>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1801</edm:begin>
+            <edm:end>Tue Dec 31 01:00:00 CET 1833</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">19e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">19й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">19de eeuw</skos:prefLabel>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1801</edm:begin>
+            <edm:end>Mon Dec 31 00:19:32 CET 1900</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200386/BibliographicResource_3000044582565">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000044582565"/>
+            <edm:dataProvider>Bavarian State Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10083859-3"/>
+            <edm:object rdf:resource="http://bsb0mdz-upload.bsb.lrz.de/~europeana/bsb10083859/download/thumbs/bsb10083859_00005.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/out-of-copyright-non-commercial/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200386/BibliographicResource_3000044582565">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">In: Beobachtungen und Abhandlungen aus dem Gebiete der gesammten praktischen Heilkunde von österreichischen Ärzten. - 1.1819 - 6.1828; damit Ersch. eingest., 1. 1819</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Besitzer: München, Bayerische Staatsbibliothek -- München, Bayerische Staatsbibliothek -- Med.g. 31-1</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Illustrations: Illuminations</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">BDR-BSBe10183898-2876</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Gerold</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">de</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">610</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Beobachtungen und Abhandlungen aus dem Gebiete der gesammten praktischen Heilkunde von österreichischen Ärzten - 1. 1819</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Analitic serial</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://lod.b3kat.de/title/BV012091105"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1194"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1819</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2761369/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/au"/>
+            <edm:currentLocation rdf:resource="http://lod.b3kat.de/bib/DE-12"/>
+            <edm:isSimilarTo rdf:resource="http://lod.b3kat.de/title/10183898"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000044582565"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200386/BibliographicResource_3000044582565"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200386/BibliographicResource_3000044582565">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/18xx_1_third"/>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/18xx"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/1819"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1819</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000044582565"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200386/BibliographicResource_3000044582565"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200386/BibliographicResource_3000044582565">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000044582565"/>
+            <edm:collectionName>9200386_Ag_EU_TEL_a1194_BSB</edm:collectionName>
+            <edm:country>Germany</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200386/BibliographicResource_3000044582565.html"/>
+            <edm:language>de</edm:language>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/out-of-copyright-non-commercial/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

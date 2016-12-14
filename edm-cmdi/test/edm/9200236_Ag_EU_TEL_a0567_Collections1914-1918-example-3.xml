@@ -1,0 +1,95 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200236/BibliographicResource_3000073848074"/>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/items/show/3934">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/archive/fullsize/d0eca6f3b498a48a22e51f361e9b6b6a.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/archive/square_thumbnails/d0eca6f3b498a48a22e51f361e9b6b6a.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://vocab.getty.edu/aat/300026656">
+            <skos:altLabel xml:lang="de">Tageszeitung</skos:altLabel>
+            <skos:altLabel xml:lang="it">giornale (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="fr">journal (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="sv">tidning</skos:altLabel>
+            <skos:altLabel xml:lang="en">newspaper</skos:altLabel>
+            <skos:altLabel xml:lang="es">diario (noticias)</skos:altLabel>
+            <skos:altLabel xml:lang="nl">nieuwsbladen</skos:altLabel>
+            <skos:prefLabel xml:lang="en">newspapers</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">diarios (noticias)</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">kranten</skos:prefLabel>
+            <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+            <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+            <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200236/BibliographicResource_3000073848074">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200236/BibliographicResource_3000073848074"/>
+            <edm:dataProvider>National Library of Serbia</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://velikirat.nb.rs/items/show/3934"/>
+            <edm:isShownBy rdf:resource="http://velikirat.nb.rs/archive/fullsize/d0eca6f3b498a48a22e51f361e9b6b6a.jpg"/>
+            <edm:object rdf:resource="http://velikirat.nb.rs/archive/fullsize/d0eca6f3b498a48a22e51f361e9b6b6a.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200236/BibliographicResource_3000073848074">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">10.02.1915</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">год. II, бр. 198</dc:description>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://velikirat.nb.rs/items/show/3934</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sr</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">sh2008113856</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">World War, 1914-1918--Serbia</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Српски југ (10.02.1915)</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">newspaper</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://velikirat.nb.rs/collections/show/154"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0567"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200236/BibliographicResource_3000073848074"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200236/BibliographicResource_3000073848074"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200236/BibliographicResource_3000073848074">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200236/BibliographicResource_3000073848074"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200236/BibliographicResource_3000073848074"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200236/BibliographicResource_3000073848074">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200236/BibliographicResource_3000073848074"/>
+            <edm:collectionName>9200236_Ag_EU_TEL_a0567_Collections1914-1918</edm:collectionName>
+            <edm:country>Serbia</edm:country>
+            <edm:preview rdf:resource="http://velikirat.nb.rs/archive/fullsize/d0eca6f3b498a48a22e51f361e9b6b6a.jpg"/>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200236/BibliographicResource_3000073848074.html"/>
+            <edm:language>sr</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

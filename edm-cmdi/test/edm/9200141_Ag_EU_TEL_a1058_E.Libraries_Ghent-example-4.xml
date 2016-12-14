@@ -1,0 +1,53 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200141/BibliographicResource_3000135581974"/>
+          <edm:WebResource rdf:about="http://adore.ugent.be/OpenURL/app?type=carousel&amp;id=archive.ugent.be:01A1ECB8-94E0-11E1-8B47-4F963B7C8C91">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://adore.ugent.be/OpenURL/resolve?svc_id=medium&amp;url_ver=Z39.88-2004&amp;rft_id=archive.ugent.be:01A1ECB8-94E0-11E1-8B47-4F963B7C8C91:1">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200141/BibliographicResource_3000135581974">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200141/BibliographicResource_3000135581974"/>
+            <edm:dataProvider>Ghent University Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://adore.ugent.be/OpenURL/app?type=carousel&amp;id=archive.ugent.be:01A1ECB8-94E0-11E1-8B47-4F963B7C8C91"/>
+            <edm:object rdf:resource="http://adore.ugent.be/OpenURL/resolve?svc_id=medium&amp;url_ver=Z39.88-2004&amp;rft_id=archive.ugent.be:01A1ECB8-94E0-11E1-8B47-4F963B7C8C91:1"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200141/BibliographicResource_3000135581974">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Smaragdus</dc:creator>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Handschrift 12e eeuw</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Datum bescherming 28/11/2007 - Publicatie Belgisch Staatsblad: 24/12/2007</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Moderne band</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">In historisch opzicht is deze collectie een onmisbare bron voor de kennis van het religieuze en liturgische leven in de Sint-Baafskerk en van haar verleden als abdijkerk. De bijzondere artistieke waarde van de collectie ligt in de eerste plaats in de talrijke gezangen voor lokale heiligen die in andere bronnen niet voorkomen, en die vaak nog niet in de standaardrepertoria zijn opgenomen. Zo bevat ze een schat aan origineel eenstemmig liturgisch repertoire. De collectie heeft een belangrijke schakelfunctie omdat ze het ontstaan en de verspreiding van de vroege polyfonie in de Lage Landen (meerstemmig Credo en Gloria) documenteert. Door haar ouderdom, en door haar samenhang met de oudste liturgische en gregoriaanse bronnen is deze collectie van onmiskenbaar belang als getuige, zowel van de ontwikkeling van het gregoriaanse repertoire, en de Karolingische liturgie, als van de ontwikkeling en verspreiding ervan op Europese schaal.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Manuscript</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">000991129</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">la</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">De Saint-Genois, J. Catalogue ... des manuscrits de la bibliothèque ... de l'université de Gand; 498</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">CC BY-SA (4.0)</dc:rights>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Benedict</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Expositio in regulam S. Benedicti</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Monograph</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">265 p. : : initialen ; ; 2°.</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1058"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1101? - 1199?</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">12e eeuw.</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200141/BibliographicResource_3000135581974"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200141/BibliographicResource_3000135581974"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200141/BibliographicResource_3000135581974">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200141/BibliographicResource_3000135581974"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200141/BibliographicResource_3000135581974"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200141/BibliographicResource_3000135581974">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200141/BibliographicResource_3000135581974"/>
+            <edm:collectionName>9200141_Ag_EU_TEL_a1058_E.Libraries_Ghent</edm:collectionName>
+            <edm:country>Belgium</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200141/BibliographicResource_3000135581974.html"/>
+            <edm:language>mul</edm:language>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

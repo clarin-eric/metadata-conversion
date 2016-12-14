@@ -1,0 +1,164 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065017"/>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/issue.vm?id=0004152848">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/details.vm?q=id:0004152848">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/images/items/0004152849/low.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_2_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mid 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Середина 20-го века</skos:prefLabel>
+            <edm:begin>Mon Jan 01 00:19:32 CET 1934</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 1966</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1936">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1936</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_2_third"/>
+            <edm:begin>Wed Jan 01 00:19:32 CET 1936</edm:begin>
+            <edm:end>Thu Dec 31 00:19:32 CET 1936</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://vocab.getty.edu/aat/300026656">
+            <skos:altLabel xml:lang="de">Tageszeitung</skos:altLabel>
+            <skos:altLabel xml:lang="it">giornale (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="fr">journal (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="sv">tidning</skos:altLabel>
+            <skos:altLabel xml:lang="en">newspaper</skos:altLabel>
+            <skos:altLabel xml:lang="es">diario (noticias)</skos:altLabel>
+            <skos:altLabel xml:lang="nl">nieuwsbladen</skos:altLabel>
+            <skos:prefLabel xml:lang="en">newspapers</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">diarios (noticias)</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">kranten</skos:prefLabel>
+            <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+            <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+            <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_2000092065017">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065017"/>
+            <edm:dataProvider>National Library of Spain</edm:dataProvider>
+            <edm:hasView rdf:resource="http://hemerotecadigital.bne.es/issue.vm?id=0004152848"/>
+            <edm:isShownAt rdf:resource="http://hemerotecadigital.bne.es/details.vm?q=id:0004152848"/>
+            <edm:object rdf:resource="http://hemerotecadigital.bne.es/images/items/0004152849/low.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200302/BibliographicResource_2000092065017">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1936</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Subtitulada “ilustración de actualidades”, en su saludo señaló que, “en los momentos en que empieza la nueva reconstrucción de España”, nacía, no como una publicación de empresa, sino de un “grupo de compañeros”, a los que se califica de “francamente revolucionarios”. Estuvo dirigida por el periodista de la CNT Eduardo Rubio Fernández y su redacción estaba integrada por periodistas de este sindicato, de la UGT, comunistas y republicanos, siendo autodefinidaza como una revista de “combate antifascista y no partidaria”. De periodicidad quincenal, apareció los días 1 y 15 de cada mes, y su paginación la fue ampliando, desde las 32 hasta casi el centenar de páginas.
+
+Adoptó el lema “pensar alto, sentir hondo y hablar claro” y fue sobre todo un magazine con una gran calidad de edición que, junto a crónicas y reportajes de los frentes y la retaguardia, ofrece otras destacadas informaciones sobre la industria cinematográfica y del teatro. También incluye artículos de política, economía, sociedad y cultura y sobre el desarrollo de la contienda, con páginas también dedicadas al mundo financiero, la ciencia, la educación, la mujer o el deporte, pero dándole especial atención a actrices, actores y películas extranjeras, con una sección titulada precisamente “Hollywood”, y asimismo españolas, en otra sección titulada “Pantalla española”.
+
+Su portada, a veces coloreada y buscando los tonos rojo y negro del anarquismo, fue ocupada generalmente por actrices o por dibujos de milicianas o alusivos a la contienda, siendo distribuida gratuitamente entre los milicianos que se encontraban en los frentes de batalla. También cuenta con otra sección que, bajo el epígrafe “Panorama sindical”, daba espacio para informar de todas las organizaciones obreras “sin distinción”. En ella publicó entrevistas la periodista Magda Donato y fueron publicadas numerosas fotografías, dedicándole una sección propia denominada “Vistas del frente”. Otros colaboradores de la revista fueron Aurelio Fernández, Luis de Alarcón, Gustavo Cochet y Socías Aldape. Dio cabida asimismo a una destacada publicidad comercial.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://hemerotecadigital.bne.es/details.vm?q=id%3A0004152848</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Barcelona</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">es</dc:language>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Biblioteca Nacional de España</dc:rights>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">2171-3170</dc:source>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Del 15/10/1936 al 01/12/1938</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Mi revista (Barcelona. 1936)</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Title</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Serial</dc:type>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399545"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399654"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399644"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399631"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399697"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399698"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399730"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399756"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399762"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399774"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399767"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399825"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399856"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399892"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399858"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399889"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399962"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399939"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399952"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399942"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059399941"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400081"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400048"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400188"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400209"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400141"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400114"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400213"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400285"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400234"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400373"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400370"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400388"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400365"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400387"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400369"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400502"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400467"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400421"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400465"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400433"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400572"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400534"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400530"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400582"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400518"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059400580"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0597"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1936-10-15 - 1938-12-01</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065017"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_2000092065017"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200302/BibliographicResource_2000092065017">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx"/>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx_2_third"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1936</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065017"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_2000092065017"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_2000092065017">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065017"/>
+            <edm:collectionName>9200302_Ag_EU_TEL_a0597_Newspapers_Spain</edm:collectionName>
+            <edm:country>Spain</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200302/BibliographicResource_2000092065017.html"/>
+            <edm:language>es</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

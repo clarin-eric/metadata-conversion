@@ -1,0 +1,185 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656967"/>
+          <edm:WebResource rdf:about="http://digicontent.snk.sk/content/journals/Domacnost%20a%20skola/">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/3199128/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">45.22222</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">19.37694</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ilok</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ilok, , Vodiči</skos:prefLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Ilok</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Ilok</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">伊洛克</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Ілок</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Илок</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Újlak</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">ایلک</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">אילוק</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Ilok</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ckb">ئیلۆک</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hbs">Ilok</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Újlak</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ilok</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Ilok</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Ilok</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Илок</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">イロク</skos:altLabel>
+            <skos:note xmlns:skos="http://www.w3.org/2004/02/skos/core#">http://en.wikipedia.org/wiki/Ilok</skos:note>
+          </edm:Place>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/8785">
+            <skos:prefLabel xml:lang="sl">vzgoja</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">výchova</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">heziketa</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">opfostring</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">educaţie</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">educazione familiare</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">eğitim, yetiştirme</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">trobbija</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">oppfostring</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">felnevelés</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">audzināšana</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">تربية - تنشئة</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">auklėjimas, ugdymas</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">výchova</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Aufzucht</skos:prefLabel>
+            <skos:prefLabel>upbringing</skos:prefLabel>
+            <skos:prefLabel>教养</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">ανατροφή</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">kasvatus</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">educação familiar</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">wychowanie</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">éducation (formation)</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">uppfostran; fostran</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Възпитание</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">upbringing</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">воспитание</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">kasvatus</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">educación (formación)</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">opvoeding</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2547"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2547">
+            <skos:prefLabel xml:lang="sl">izobraževanje</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">vzdelávanie</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">uddannelse</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">heziketa; hezkuntza</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">educaţie</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">educazione</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">eğitim</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">edukazzjoni</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">utdanning</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">oktatás/nevelés</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">izglītošana; izglītība; mācības</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">تعليم</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">mokymas</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">vzdělávání</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Bildung</skos:prefLabel>
+            <skos:prefLabel>education</skos:prefLabel>
+            <skos:prefLabel>教育</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">εκπαίδευση/μόρφωση/αγωγή/παιδεία</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">koulutus</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">edukacja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">educação</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">éducation</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">utbildning</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Образование</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">education</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">образование</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">haridus</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">educación</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">onderwijs</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200322/BibliographicResource_3000094656967">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656967"/>
+            <edm:dataProvider>Slovak National Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digicontent.snk.sk/content/journals/Domacnost%20a%20skola/"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200322/BibliographicResource_3000094656967">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Jozef Maliak</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Ján Uram</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Maliak, Jozef</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Párička, Ján (Ružomberok)</dc:contributor>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Vychádzal mesačne v Iloku</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Red., maj. a vyd. Jozef Maliak, v roč. I (1911) hlav. spolupracovník Ján Uram</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Tlač. Ján Párička v Ružomberku</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Illustrations: Phonodisc phonowire</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Illustrations: Illuminations</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">vtls010297444</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Jozef Maliak</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sk</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 37</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 070.489</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 379.8</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 64</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">výchova</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">vzdelávanie</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">výchovno-vzdelávacie  časopisy</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Domácnosť a škola časopis rodinný a učiteľský</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Title</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Analytic</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Newspaper</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">4 roč.</dcterms:extent>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">16 x 25 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1221"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1911 - 1914</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. I, č. 1 (1911)-roč. IV, č. 9 (1914)</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/3199128/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/xo"/>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. I. 1911 12 čís. 380 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. II. 1912 12 čís. 380 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. III. 1913 12 čís. 384 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. IV. 1914  9 čís. 272 str.</dcterms:tableOfContents>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656967"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200322/BibliographicResource_3000094656967"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200322/BibliographicResource_3000094656967">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/8785"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/2547"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656967"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200322/BibliographicResource_3000094656967"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200322/BibliographicResource_3000094656967">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656967"/>
+            <edm:collectionName>9200322_Ag_EU_TEL_a1221_Collections_1914-1918</edm:collectionName>
+            <edm:country>Slovakia</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200322/BibliographicResource_3000094656967.html"/>
+            <edm:language>sk</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

@@ -1,0 +1,94 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92012/BibliographicResource_1000097254959"/>
+          <edm:WebResource rdf:about="http://timarit.is/view_page_init.jsp?issId=299950">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://timarit.is/oaithumbnail/i299950">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1938">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1938</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_2_third"/>
+            <edm:begin>Sat Jan 01 00:20:00 CET 1938</edm:begin>
+            <edm:end>Sat Dec 31 00:20:00 CET 1938</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_2_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mid 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Середина 20-го века</skos:prefLabel>
+            <edm:begin>Mon Jan 01 00:19:32 CET 1934</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 1966</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92012/BibliographicResource_1000097254959">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92012/BibliographicResource_1000097254959"/>
+            <edm:dataProvider>National and University Library of Iceland</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://timarit.is/view_page_init.jsp?issId=299950"/>
+            <edm:object rdf:resource="http://timarit.is/oaithumbnail/i299950"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92012/BibliographicResource_1000097254959">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1938</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="is">Tímarit.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">December 8, 1938</dc:description>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://timarit.is/view_page_init.jsp?issId=299950</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">is</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Serials</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Vikan, 1. árgangur 1938, 4. Tölublað</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Issue</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">series</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/2000081742634"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0277"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1938-12-08</dcterms:issued>
+            <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/1000097254962"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92012/BibliographicResource_1000097254959"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92012/BibliographicResource_1000097254959"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92012/BibliographicResource_1000097254959">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/1938"/>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx_2_third"/>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1938</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92012/BibliographicResource_1000097254959"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92012/BibliographicResource_1000097254959"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92012/BibliographicResource_1000097254959">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92012/BibliographicResource_1000097254959"/>
+            <edm:collectionName>92012_Ag_EU_TEL_a0277_Newspapers_Iceland</edm:collectionName>
+            <edm:country>Iceland</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92012/BibliographicResource_1000097254959.html"/>
+            <edm:language>is</edm:language>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

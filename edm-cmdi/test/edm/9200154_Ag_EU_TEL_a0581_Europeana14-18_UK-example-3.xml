@@ -1,0 +1,234 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200154/IOR_L_MIL_17_5_2313"/>
+          <edm:WebResource rdf:about="http://www.bl.uk/manuscripts/Viewer.aspx?ref=ior!l!mil!17!5!2313_f001r"/>
+          <edm:WebResource rdf:about="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=ior/l/mil/17/5/2313"/>
+          <edm:WebResource rdf:about="http://www.bl.uk/manuscripts/Proxy.ashx?src=ior!l!mil!17!5!2313_f001r_files/7/0_0.jpg"/>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/959">
+            <skos:prefLabel xml:lang="sl">knjiga</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">kniha</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">liburu</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">bog</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">carte</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">libro</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">kitap</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">ktieb</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">bok</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">könyv</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">grāmata</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">كتاب</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">knyga</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">kniha</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Buch</skos:prefLabel>
+            <skos:prefLabel>book</skos:prefLabel>
+            <skos:prefLabel>书</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">βιβλίο</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">kirja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">książka</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">livros</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">livre</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">bok</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Книга</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">book</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">книга</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">raamat</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">libro</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">boek</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2286"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2286">
+            <skos:prefLabel xml:lang="sl">vrsta dokumenta</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">typ dokumentu</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">dokumenttype</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">dokumentu-mota; agiri-mota</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">tip de document</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">tipo di documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">doküman türü</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">tip ta' dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">dokumenttype</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">dokumentumfajta</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">dokumenta tips</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">نوعية الوثيقة</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">dokumento tipas</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">typ dokumentu</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Dokumenttyp</skos:prefLabel>
+            <skos:prefLabel>document type</skos:prefLabel>
+            <skos:prefLabel>文件类型</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">τύπος εγγράφου</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">asiakirjatyyppi</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">rodzaj dokumentu</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">tipos de documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">type de document</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">dokumenttyp</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Вид документ</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">document type</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">тип документа</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">dokumenditüüp</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">tipo de documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">soort document</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2282"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2282">
+            <skos:prefLabel xml:lang="sl">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">dokumentu; agiri</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">document</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">doküman, belge</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">dokumentum</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">dokuments</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">وثيقة</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">dokumentas</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Dokument</skos:prefLabel>
+            <skos:prefLabel>document</skos:prefLabel>
+            <skos:prefLabel>文件</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">έγγραφο/τίτλος/τεκμήριο</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">asiakirja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">documentos</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">dokument; handling</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">document</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Документ</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">document</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">документ</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">document</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2284"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2284">
+            <skos:prefLabel xml:lang="sl">dokumentacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">dokumentácia</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">dokumentatze; dokumentazio</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">dokumentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">documentaţie</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">documentazione</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">dokümantasyon</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">dokumentazzjoni</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">dokumentasjon</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">dokumentálás</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">dokumentācija</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">توثيق</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">dokumentacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">dokumentace</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Dokumentation</skos:prefLabel>
+            <skos:prefLabel>documentation</skos:prefLabel>
+            <skos:prefLabel>文档化</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">τεκμηρίωση</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">dokumentointi, asiakirja-aineisto</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">dokumentacja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">documentação</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">dokumentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">documentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Документиране</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">documentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">документация</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">dokumentatsioon</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">documentación</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">documentatie</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/4303"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/4303">
+            <skos:prefLabel xml:lang="sl">informacija, informacije, podatki</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">informácia</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">informazio</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">informaţie</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">informazione</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">bilgi</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">informazzjoni</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">informasjon</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">információ</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">informācija</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">المعلومات</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">informacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">informace</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Information</skos:prefLabel>
+            <skos:prefLabel>information</skos:prefLabel>
+            <skos:prefLabel>信息</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">πληροφορία(ίες)/πληροφόρηση/στοιχεία/ενημέρωση</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">tieto</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">informacja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">informação</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Информация</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">информация</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">teave, info[rmatsioon]</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">información</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">informatie</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200154/IOR_L_MIL_17_5_2313">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200154/IOR_L_MIL_17_5_2313"/>
+            <edm:dataProvider>The British Library</edm:dataProvider>
+            <edm:hasView rdf:resource="http://www.bl.uk/manuscripts/Viewer.aspx?ref=ior!l!mil!17!5!2313_f001r"/>
+            <edm:isShownAt rdf:resource="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=ior/l/mil/17/5/2313"/>
+            <edm:object rdf:resource="http://www.bl.uk/manuscripts/Proxy.ashx?src=ior!l!mil!17!5!2313_f001r_files/7/0_0.jpg"/>
+            <edm:provider>The European Library</edm:provider>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">In Copyright</dc:rights>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200154/IOR_L_MIL_17_5_2313">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">illustrations</dc:description>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">IOR/L/MIL/17/5/2313</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">eng
+</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Collections 1914-1918</dc:relation>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">World War, 1914-1918--Medical care</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="eng">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">A short history in English, Gurmukhi &amp; Urdu of the Royal Pavilion Brighton and a description of it as a hospital for Indian soldiers, 1915. Brighton Corporation, 1915.</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Book</dc:type>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1915</dcterms:created>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">120p, 8x25cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/">India Office Records
+</dcterms:isPartOf>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200154/IOR_L_MIL_17_5_2313"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200154/IOR_L_MIL_17_5_2313"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200154/IOR_L_MIL_17_5_2313">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/959"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1915</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200154/IOR_L_MIL_17_5_2313"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200154/IOR_L_MIL_17_5_2313"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200154/IOR_L_MIL_17_5_2313">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200154/IOR_L_MIL_17_5_2313"/>
+            <edm:collectionName>9200154_Ag_EU_TEL_a0581_Europeana14-18_UK</edm:collectionName>
+            <edm:country>United Kingdom</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200154/IOR_L_MIL_17_5_2313.html"/>
+            <edm:language>en</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/3.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

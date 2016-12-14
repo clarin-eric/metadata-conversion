@@ -1,0 +1,131 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200238/BibliographicResource_3000055520191"/>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/items/show/4625">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/archive/square_thumbnails/8b93d6f1a59a2c15539c1f11aa9ec7db.jpg">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1917">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1917</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_1_third"/>
+            <edm:begin>Mon Jan 01 00:19:32 CET 1917</edm:begin>
+            <edm:end>Mon Dec 31 00:19:32 CET 1917</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_1_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 20-го века</skos:prefLabel>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 00:19:32 CET 1933</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://data.europeana.eu/concept/loc/sh2008113856">
+            <skos:prefLabel xml:lang="de">Erster Weltkrieg, 1914-1918 -- Serbien</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">1. Verdenskrig, 1914-1918 -- Serbien</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Guerra mondiale 1914-1918 -- Serbia</skos:prefLabel>
+            <skos:prefLabel xml:lang="sr">Prvi svetski rat, 1914 -1918 -- Srbija</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Guerra mondiale 1914-1918 -- Serbie</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War, 1914-1918 -- Serbia</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Wereldoorlog, 1914-1918 --  Servië</skos:prefLabel>
+            <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh2008113856"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200238/BibliographicResource_3000055520191">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200238/BibliographicResource_3000055520191"/>
+            <edm:dataProvider>National Library of Serbia</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://velikirat.nb.rs/items/show/4625"/>
+            <edm:object rdf:resource="http://velikirat.nb.rs/archive/square_thumbnails/8b93d6f1a59a2c15539c1f11aa9ec7db.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200238/BibliographicResource_3000055520191">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Павловић, Милорад - Крпа, 1865-1957</dc:creator>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Са насловне стране:
+У Ваљеву
+Писма
+Покретан џбун
+Пример
+Топ код Тополе
+Крађа топа
+Зарађено осуство</dc:description>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://velikirat.nb.rs/items/show/4625</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sr</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.europeana.eu/concept/loc/sh2008113856"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">World War, 1914-1918--Serbia</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Дневник Милорада Павловића-Крпе, свеска 28</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Diary</dc:type>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">Diary of Milorad Pavlović-Krpa, book 28</dcterms:alternative>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1917</dcterms:created>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/">Заоставштина Милорада Павловића- Крпе</dcterms:isPartOf>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0569"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200238/BibliographicResource_3000055520191"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200238/BibliographicResource_3000055520191"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200238/BibliographicResource_3000055520191">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1917</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200238/BibliographicResource_3000055520191"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200238/BibliographicResource_3000055520191"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200238/BibliographicResource_3000055520191">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200238/BibliographicResource_3000055520191"/>
+            <edm:collectionName>9200238_Ag_EU_TEL_a0569_Collections1914-1918</edm:collectionName>
+            <edm:country>Serbia</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200238/BibliographicResource_3000055520191.html"/>
+            <edm:language>sr</edm:language>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

@@ -1,0 +1,132 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200237/BibliographicResource_3000055520352"/>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/items/show/1177">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/archive/square_thumbnails/8c0df29c1b69e3d2fd2e0f65b5974528.jpg">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/193x">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1930s</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">193?</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">193x</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">4th decade of the 20th century</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_1_half"/>
+            <edm:begin>Thu Jan 01 00:19:32 CET 1931</edm:begin>
+            <edm:end>Tue Dec 31 02:00:00 CEST 1940</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_1_half">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e (début)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">First half of the 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Первая половниа 20-го века</skos:prefLabel>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Mon Dec 31 01:00:00 CET 1951</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://data.europeana.eu/concept/loc/sh99002819">
+            <skos:prefLabel xml:lang="de">Erster Weltkrieg 1914-1918 -- Denkmäler</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">1. Verdenskrig -- Monumenter</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Guerra mondiale 1914-1918 -- Monumenti</skos:prefLabel>
+            <skos:prefLabel xml:lang="sr">Prvi svetski rat, 1914-1918 -- Spomenici</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Guerre mondiale (1914-1918) 
+-- Monuments</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War, 1914-1918 -- Monuments</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Wereldoorlog, 1914-1918 --  Monumenten</skos:prefLabel>
+            <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh99002819"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200237/BibliographicResource_3000055520352">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200237/BibliographicResource_3000055520352"/>
+            <edm:dataProvider>National Library of Serbia</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://velikirat.nb.rs/items/show/1177"/>
+            <edm:object rdf:resource="http://velikirat.nb.rs/archive/square_thumbnails/8c0df29c1b69e3d2fd2e0f65b5974528.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200237/BibliographicResource_3000055520352">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">193?</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Споменик подигнут надомак Биљаниних извора поред Охрида, за 400 ђака избеглих из Србије 1915., које су на том месту стрељали бугарски окупатори. Споменик је порушен у току Другог светског рата.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">13 x 18 cm</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://velikirat.nb.rs/items/show/1177</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sr</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Први светски рат 1914-1918 - Споменици - Фотографије</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Охрид - Споменици - Фотографије</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.europeana.eu/concept/loc/sh99002819"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">World War, 1914-1918--Monuments</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Споменик 400 ђака убијених од Бугара у Охриду</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">artifact</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Still image</dc:type>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">Monument for 400 pupils killed by Bulgarian in Ohrid</dcterms:alternative>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0571"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://www.geonames.org/787487/ohrid.html"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200237/BibliographicResource_3000055520352"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200237/BibliographicResource_3000055520352"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200237/BibliographicResource_3000055520352">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/193x"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200237/BibliographicResource_3000055520352"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200237/BibliographicResource_3000055520352"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200237/BibliographicResource_3000055520352">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200237/BibliographicResource_3000055520352"/>
+            <edm:collectionName>9200237_Ag_EU_TEL_a0571_Collections1914-1918</edm:collectionName>
+            <edm:country>Serbia</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200237/BibliographicResource_3000055520352.html"/>
+            <edm:language>sr</edm:language>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

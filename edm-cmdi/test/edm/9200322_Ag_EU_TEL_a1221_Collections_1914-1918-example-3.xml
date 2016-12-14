@@ -1,0 +1,386 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656968"/>
+          <edm:WebResource rdf:about="http://digicontent.snk.sk/content/journals/Robotnicke_noviny/">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/3060972/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">48.14816</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">17.10674</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tg">Братислава</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="br">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">An Bhratasláiv</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">บราติสลาวา</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Братислава</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">ბრატისლავა</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Prešporok</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Братислава</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Bratisllava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">브라티슬라바</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">ברטיסלאבה</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sh">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Bratysława</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Братислава</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">布拉迪斯拉发</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ht">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Pozsony</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Pressburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Preßburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Presburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pressburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Preszburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Prešpurk</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Բրատիսլավա</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Bratislawa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Братислава</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Братіслава</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">براتیسلاو</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">براتیسلاوا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">براتيسلافا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Μπρατισλάβα</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Bratislavo</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">ブラチスラヴァ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Bratislava</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Bratislava</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/3057568/"/>
+          </edm:Place>
+          <edm:Place rdf:about="http://sws.geonames.org/3057568/">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tl">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Eslovàquia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Slovakya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fy">Slowakije</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tg">Словакия</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Slovačka</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="br">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">An tSlóvaic</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ประเทศสโลวาเกีย</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">สโลวะเกีย</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">สโลวาเกีย</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bn">শ্লোভাকিয়া</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bn">স্লোভাকিয়া</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bo">ས་ལཽ་ཝཀྱ།</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">Eslovaquia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ta">ஸ்லோவாகியா</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Slovakien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">სლოვაკეთი</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">République slovaque</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Slovaquie</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Словакия</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fo">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sw">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Славакія</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Славаччына</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kw">Slovaki</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Slovaška</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="os">Словаки</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Slovensko</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Slovenská republika</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Slovakiet</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Slovakiet (Den Slovakiske Republik)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ku">Slovakya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Словачка</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Sllovaki</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Sllovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">슬로바키아</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Slofacia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">סלובקיה</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="se">Šlovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sh">Slovačka</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="km">ស្លូវ៉ាគី</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Slovensko</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="li">Slowakieë</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Eslovaquia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Eslovaquia - Slovensko</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sa">स्लोवाकिया</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Słowacja</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Slovacia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Slowakei</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Словакия</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Словацкая республика</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lo">ສະໂລວາເກຍ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Slovačka</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">斯洛伐克</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">斯洛伐克共和国</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Slovacia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Xlô-va-ki-a</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Xlô-va-ki-a (Slovakia)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Szlovákia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Slovākija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hi">स्लोवाकिया</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Slovakija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vo">Slovakän</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Slowakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Slowakei</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Slowakei (Slowakische Republik)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ia">Slovachia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">SK</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Slovak Republic</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Isluwakya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Սլովակիա</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mk">Словачка</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ml">സ്ലോവാക്യ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Словакія</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Словаччина</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Slóvakía</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Eslobakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Eslovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mo">Словачия</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Slovacchia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Slovacchia (Repubblica Slovacca)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mt">Slovakkja</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ug">سلوۋاكىيە</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ms">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ur">سلوواکیہ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">اسلواکی</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">اسلوواکی</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">سلوفاكيا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="na">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Σλοβακία</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nb">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nb">Slovakia (Den slovakiske republikk)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ስሎቫኪያ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="an">Eslobaquia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ne">स्लोभाकिया</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Eslováquia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Eslováquia (República Eslovaca)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Slovakio</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Slovakujo</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Slovakia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Slovakkia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Eslovaquia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Eslovaquia (República Eslovaca)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">スロバキア</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">スロバキア (スロバキア共和国)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Slowakije</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Slowakije (Slowaakse Republiek)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Slowakye</skos:prefLabel>
+          </edm:Place>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/6370">
+            <skos:prefLabel xml:lang="sl">politika, usmeritev, strategija</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">politika</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">politik</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">politika</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">politică</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">politica gestionale</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">politika</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">politika</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">politikk (strategi)</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">politika (gyakorlat)</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">politika</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">سياسة</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">politika</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">politika</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Politik</skos:prefLabel>
+            <skos:prefLabel>policy</skos:prefLabel>
+            <skos:prefLabel>政策</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">πολιτική</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">politiikka, menettelytapa, ohjelma</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">polityka</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">política</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">politique</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">politik; policy; strategi</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Политика</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">policy</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">политика (линия поведения)</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">poliitika, strateegia</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">política</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">beleid</skos:prefLabel>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200322/BibliographicResource_3000094656968">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656968"/>
+            <edm:dataProvider>Slovak National Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digicontent.snk.sk/content/journals/Robotnicke_noviny/"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200322/BibliographicResource_3000094656968">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Emanuel Lehotský</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Štefan Príkopa</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Ján Pocisk</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">František Zimák</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Ferdinand Benda</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Edmund Borek</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Ján Čaplovič</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Lehotský, Emanuel</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Kubál, Andrej</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Pocisk, Ján</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Rapek, Bohuslav (Holíč)</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Alkalay, A. a syn (Bratislava)</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Benda, Ferdinand</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Československá soc. dem. strana robotnícka na Slov. výkonný výbor</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Lehocký, Emanuel</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Zimák, František</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Alkalay, A. a syn, nástupca (Bratislava)</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Pocisk, Ján a spol. (Bratislava)</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Slovenská grafia, úč. spol. (Bratislava)</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Wigand, K. F., úč. spol. (Bratislava)</dc:contributor>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Vychádzali v Bratislave každý štvrtok; od 1/XVI 1919 každý utorok a piatok; od 12/XVI (15. febr. 1919) každú stredu a sobotu; od 25/XVI (1. apr. 1919) tri razy do týždňa: v utorok, štvrtok a v sobotu; od 28/XVII (6. marca 1920) denne, vyjmúc v pondelok; od 87/XX (17. apr. 1923) denne od 249/XXXV (4. nov. 1938) týždenne, vo formáte 40 x 27 cm; od (1919) 41 x 29 cm; od 7/I (24. jan. 1919) 40 x 25 cm; od 10/XVI (4. febr. 1919) 40 x 27 cm; od 16/XVI (1. marca 1919) 41 x 29 cm; od 123/XVIII (7. júna 1921) 48 x 34 cm; od 87/XX (17. apr. 1923) 42 x 29 cm; od 1/XXXIII (1. jan. 1936) 50 x 35 cm; od 55/XXXIV (7. marca 1937) 48 x 35 cm; od 60/XXXIV (13. marca 1937) 50 x 35 cm</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Hlav. red. od 120/XVII (2. júla 1920) František Zimák. Zodp. red. Emanuel Lehocký, od čís. 12 roč. VIII (28. marca 1911) zodp. red. Štefan Príkopa, od čís. 1 roč. XIII (7. januára 1916) zodp. red. Ján Pocisk, od čís. 24 roč. XIII (17. júna 1916) zodp. red. Emanuel Lehocký; od 1/XVI 1919 Ferdinand Benda; od 28/XVII (6. marca 1920) Edmund Borek; od 120/XVII (2. júla 1920) bez red. údajov; od 239/XVII (24. nov. 1920) František Zimák; od 1/XIX (3. jan. 1922) Ferdinand Benda; od 173/XX (2. aug. 1923) František Zimák; od 247/XXXV (30. okt. 1938) Ján Čaplovič</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Vyd. Emanuel Lehocký, od čís. 3 roč. IX (18. januára 1912) vyd. Andrej Kubál, od čís. 1 roč. XIII. (7. januára 1916) vyd. Ján Pocisk, od čís. 24 roč. XIII. (17. júna 1916) vyd. Emanuel Lehocký; od 1/XVI 1919 Ferdinand Benda; od 28/XVII (6. marca 1920) Emanuel Lehocký; od 239/XVI1 (24. nov. 1920) Ferdinand Benda; od 1/XIX (3. jan. 1922) v zastúpení výk. výb. čsl. soc. dem. strany robotníckej Fr. Zimák; od 173/XX (2. aug. 1923) v zastúpení výkonného výboru čsl. soc. dem. strany robotníckej Ferdinand Benda</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Tlač. T. Alkalay a syn v Bratislave, od čís. 19 roč. X. (8. mája 1913) B. Rapek v Holiči, od roč. XV. (1918) A. Alkalay a syn v Bratislave; od 1/XVI 1919 Adolf Alkalay a syn, nástupca; od 28/XVII (6. marca 1920) Kníhtlač. K. F. Wigand; od 123/XVIII (7. júna 1921) Slovenská Grafia, úč. spol; od 87/XX (17. apr. 1923) Kníhtlač. J. Pocisk a spol.; od 1/XXXIII (1. jan. 1936) Slovenská Grafia, úč. spol.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Od 11.3.1917 do 4.10.1917 nevychádzali. Spracované sú do 18. novembra 1938</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Zmena podnázvu: od 1/XVI (1919) Časopis slovenskej sociálno-demokratickej strany v Československej republike; od 2/XVI (8. jan. 1919) Orgán slovenskej sociálno-demokratickej strany v Československej republike; od 13/XVI (19. febr. 1919) Ústredný orgán slovenskej soc. dem. strany rob. v Československej republike; od 25/XVI (1. apr. 1919) Ústredný časopis československej soc.-dem. strany robotníckej na Slovensku; od 123/XVIII (7. júna 1921) Denník, ústredný orgán československej sociálne demokratickej strany robotníckej na Slovensku; od 87/XX (17. apr. 1923) Časopis československej sociálne demokratickej strany robotníckej na Slovensku; od 116/XXIV (21. mája 1927) Denník československej sociálne demokratickej strany robotníckej na Slovensku; od 99/XXXI (1. mája 1934) Orgán československej sociálne demokratickej strany robotníckej na Slovensku; od 247/XXXV (30. okt. 1938) bez podtitulu; od 249/XXXV (4. nov. 1938) Časopis slovenského pracujúceho ľudu; od 250/XXXV (11. nov. 1938) bez podtitulu</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Mali prílohy Naše právo a Robotnícka besiedka</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">V roč. VIII 1911 sa č. 1 omylom uvádza rokom 1910. Roč. XIV 1917 boli čísla označené ako 1-52. V roč. XV 1918 bolo č. 34 skonfiškované, nevyšlo. Vychádzali s pokračujúcim číslovaním ročníkov</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Uverejňovali aj romány na pokračovanie: od 1/XXII (1. jan. 1925) Pflégr-Moravský, Gustáv: Z malého sveta; od 222/XXII (1. okt. 1925) Gergely, Alexander: Mier; od 125/XXV11 (1. júna 1930) Ford, Gregor: Cowboyka; od 164/XXVII (20. júla 1930) Crane, Rudyard: Obvinenie a pravda; od 211/XXVII (14. sept. 1930) Eichler, Johann: V juhoamerickom tropu; od 281/XXIX (10. dec. 1932) Rohmer, Sax: Doktor Fu Manchu; od 99/XXX (1. mája 1933) Harmattan, H. W.: Seria H. 18; od 199/XXX (5 sept 1933) Kovania, Viliam: Ľudia živých rúk; od 153/XXXII (5. júla 1935) Kaverin, Benjamin: Devať desatín osudu. Od 124/XXXI (3. júna 1934) vychádzala na pokračovanie brožúra Dérer, Ivan: Prečo sme proti autonomii? a od 198/XXXII (30. aug. 1935) Benau, Dezider: O socialistickom sjednotení</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">V čís. 29/XVI (10. apr. 1919) bol priložený Program českoslov. soc.-dem. strany robotníckej a v čís. 237/XVII (21. nov. 1920) Proti pomluvám našich osvoboditelů</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Dostupné aj na mikrofilme</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Illustrations: Illuminations</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">vtls010298503</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Emanuel Lehocký</dc:publisher>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Andrej Kubál</dc:publisher>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Ján Pocisk</dc:publisher>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Emanuel Lehocký</dc:publisher>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Ferdinand Benda</dc:publisher>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Emanuel Lehocký</dc:publisher>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Ferdinand Benda</dc:publisher>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">v zastúpení výk. výb. čsl. soc. dem. strany robotníckej Fr. Zimák</dc:publisher>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">v zastúpení výkonného výboru čsl. soc. dem. strany robotníckej Ferdinand Benda</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sk</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Sú pokračovaním Slovenských robotníckych novín s pokračujúcim číslovaním ročníkov</dc:relation>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Naše právo</dc:relation>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Robotnícka besiedka</dc:relation>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Slovenské robotnícke noviny</dc:relation>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 32</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 394</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 070.489</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">politika</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">spoločenský život</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">politicko-spoločenské časopisy</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Robotnícke noviny slovenský orgán Sociálnodemokratickej strany Uhorska</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Title</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Analytic</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Newspaper</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">35 roč.</dcterms:extent>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">40 x 27 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1221"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1909 - 1938</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1909 - 1918</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI, č. 1 (1909)-roč. XXXV, č. 251 (18.11.1938)</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI, č. 1 (1909)-roč. XXXV, č. 251 (18.11.1938)</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI, č. 1 (1909)-roč. XXXV, č. 251 (18.11.1938)</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI, č. 1 (1909)-roč. XXXV, č. 251 (18.11.1938)</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI, č. 1 (1909)-roč. XXXV, č. 251 (18.11.1938)</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI, č. 1 (1909)-roč. XXXV, č. 251 (18.11.1938)</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI, č. 1 (1909)-roč. XXXV, č. 251 (18.11.1938)</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI, č. 1 (1909)-roč. XXXV, č. 251 (18.11.1938)</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI, č. 1 (1909)-roč. XXXV, č. 251 (18.11.1938)</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/3060972/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/xo"/>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI. 1909 5-40 čís. po 6-8 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. VII. 1910 52 čís. po 4-6-8 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. VIII. 1911 52 čís. po 4-6-8 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. IX. 1912 52 čís. po 4-8 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. X. 1913 52 čís. po 6-8 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XI. 1914 52 čís. po 4-8 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">.Roč. XII. 1915 52 čís. po 4 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XIII. 1916 52 čís. po 4 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XIV. 1917 23 čís.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XV. 1918 52 čís. po 4 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XVI. 1919 138 čís. po 4-10 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XVII. 1920 268 čís. po 4-10 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XVIII. 1921 285 čís. po 4-12 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XIX. 1922 290 čís. po 4-10 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XX. 1923 295 čís. po 4-14 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXI. 1924 297 čís. po 4-40 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXII. 1925 296 čís. po 6-32 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXIII. 1926 295 čís. po 4-16 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXIV. 1927 294 čís. po 6-24 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXV. 1928 294 čís. po 4-24 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXVI. 1929 297 čís. po 4-32 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXVII. 1930 297 čís. po 4-52 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXVIII. 1931 296 čís. po 6-54 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXIX. 1932 296 čís. po 6-40 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXX. 1933 292 čís. po 6-40 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXXI. 1934 294 čís. po 6-64 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXXII. 1935 298 čís. po 8-40 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXXIII. 1936 296 čís. po 6-24 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXXIV. 1937 295 čís. po 4-36 s.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXXV. 1938 251 čís. po 4-36 s.</dcterms:tableOfContents>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656968"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200322/BibliographicResource_3000094656968"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200322/BibliographicResource_3000094656968">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/6370"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/3060972/"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656968"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200322/BibliographicResource_3000094656968"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200322/BibliographicResource_3000094656968">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656968"/>
+            <edm:collectionName>9200322_Ag_EU_TEL_a1221_Collections_1914-1918</edm:collectionName>
+            <edm:country>Slovakia</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200322/BibliographicResource_3000094656968.html"/>
+            <edm:language>sk</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

@@ -1,0 +1,60 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703109">
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="a0590:30e23d1b-f561-4d9f-ba02-d5edb14af790"/>
+          </edm:ProvidedCHO>
+          <edm:WebResource rdf:about="http://193.200.14.178/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=7d133cfe-0af4-4959-8d7b-202f7d2cfd04&amp;did=169&amp;culture=en">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/nbkm/S_38.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200136/BibliographicResource_2000064703109">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703109"/>
+            <edm:dataProvider>National Library of Bulgaria</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://193.200.14.178/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=7d133cfe-0af4-4959-8d7b-202f7d2cfd04&amp;did=169&amp;culture=en"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/S_38.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200136/BibliographicResource_2000064703109">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Мустафа бин Йусуф</dc:creator>
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mustafa bin Yusuf</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">най-ранната дата: 1 шабан 1115 (10.ХІІ.1703)</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">Earliest date: 3 shaban 1115 (12.ХІІ.1703)</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">крайна дата: 11-20 ребиюлевел 1124 (18-27.ІV.1712)</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">Final date: 11-20 rebiyulevel 1124 (18-27.ІV.1712)</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Листове 20б, 70а, 84а, 85а, 93б и 100а са незапълнени. Зачертавани документи върху л. 103б-105а. Документи са изписани и върху вътрешната страна на двете корици. 
+След Мустафа бин Юсуф кадия на Видин става ел-хаджж Юмер (1 джемазиюлевел 1116/1.ІХ.1704 г.) (л. 3 б), след него - Хафъз Мехмед ефенди (1 шевал 1117/16.І.1706 г.) (л. 25 б), след него - Ахмед бин Ахмед ел-Едирневи (1 ребиюлевел 1119/2.VІ.1707 г.) (л. 47 б), следва Хюсейин (1 зилкаде 1120/12.І.1709 г.) (л. 67а), после Мевляна Хасан (1 ребиюлахър 1122/30.V.1710 г.) (л. 77 б) и отново Хюсейин (1 ребиюлахър 1123/19.V.1711 г.) (л. 105б).
+Между изброените документи има доста преписи на султански документи, една част от които са до войводата на Влашко (Ифляк) Костантин.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="bg">39,5-40 х 14,8-15 см</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">30e23d1b-f561-4d9f-ba02-d5edb14af790</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">ota</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджили / Sijills</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Национална библиотека Св. Св. Кирил и Методий / St. St. Cyril and Methodius National Library</dc:rights>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджил - Видин</dc:title>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Sijill - Vidin</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджил / Sijill</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">128</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0590"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1914</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703109"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200136/BibliographicResource_2000064703109"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200136/BibliographicResource_2000064703109">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1914</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703109"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200136/BibliographicResource_2000064703109"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200136/BibliographicResource_2000064703109">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703109"/>
+            <edm:collectionName>9200136_Ag_EU_TEL_a0590_Bulgaria</edm:collectionName>
+            <edm:country>Bulgaria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200136/BibliographicResource_2000064703109.html"/>
+            <edm:language>bg</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

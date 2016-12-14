@@ -1,0 +1,67 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92099/BibliographicResource_1000157170636"/>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b8447870r/f1.zoom">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b8447870r/texteBrut">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b8447870r.swf">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b8447870r">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b8447870r.thumbnail.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92099/BibliographicResource_1000157170636">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170636"/>
+            <edm:dataProvider>National Library of France</edm:dataProvider>
+            <edm:hasView rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b8447870r/f1.zoom"/>
+            <edm:hasView rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b8447870r/texteBrut"/>
+            <edm:hasView rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b8447870r.swf"/>
+            <edm:isShownAt rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b8447870r"/>
+            <edm:object rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b8447870r.thumbnail.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92099/BibliographicResource_1000157170636">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Justinianus I (empereur de Byzance ; 0482-0565). Auteur du texte</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1300 - 1320</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Ce manuscrit, qui avait échappé à Léopold Delisle ( Recherches , 1907), a été récemment identifié par Marie-Hélène Tesnière comme ayant appartenu au roi Charles V . Il est répertorié dans tous les inventaires de la Librairie du Louvre établis entre 1380 et 1424 : 1° inventaire de Gilles Malet établi en 1373 et récolé en 1380 par Jean Blanchet, BnF., Français 2700 [Inv. A], f. 5, n° 54 : « Code, couvert de cuir a queue » ; copie du même inventaire, 1380, Bnf., Baluze 397 [Inv. B], f. 2, n° 54 : même description ; 2° inventaire de 1411, BnF., Français 2700 [Inv. D], f. 55, n° 25 : « Item un livre de Code, couvert de cuir a queue, escript de lettre de forme, en françois, a deux coulombes, commençant ou second fueillet : gens pour ce que , et ou derrenier : tres pour aucune besongne , ouquel livre est l’Institute au commencement, a quatre fermouers de cuivre » ; 3° inventaire de 1413, BnF., Français 9430 [inv. E], f. 2v, n° 24 : même description que D ; 4° inventaire de 1424, Bibliothèque Sainte-Geneviève, ms. 964 [Inv. F], f. 5v, n° 14 : « Item ung autre petit volume en françois, contenant Institute, les Collections et .IIII. Livres de Code, en ung livre couvert de cuir rouge à queues, escript de lettre de forme, en françois, à deux colomnes, à deux fermouers de cuivre ». Le manuscrit fut alors prisé 40 sous parisis. L’identification des incipit confirme que le Français 498 peut être identifié au manuscrit décrit dans les inventaires : Le f. 2 commence par les mots : genz. Pour ce que [toute gent…] ». Les mots-repère du dernier feuillet figurent à la première ligne du f. 289 : « - trees pour aucune besoigne [il face…] ». Les collections de Charles V comptaient plusieurs exemplaires de la traduction française des textes de lois de Justinien. Six d’entre eux sont actuellement conservés à la Bibliothèque nationale : Français 495, Français 498, Français 1064, Français 20118, Français 20120, Français 22970. Le contenu du ms. Français 22970 est identique à celui du Français 498. Le manuscrit faisait partie au XVII e siècle des collections du cardinal de Richelieu dont il porte les armes sur les plats et au dos de la reliure (« d’argent à trois chevrons de gueules ») : cf. Olivier, Hermal, Roton, Manuel de l’amateur de reliures armoriées françaises , 4 ème Série, Paris, 1925, pl. 405). Il est répertorié dans les catalogues rédigés du vivant de Richelieu (avant 1643): cf. Catalogus Bibliothecae cardinalis Richelii : « 132. Les Instituts de Justinian, avec les livres du Code, fol., sur velin, sans couverture. X4.29 » (Bnf., Latin 10384, f. 50v, n° 132).La cote inscrite dans la marge supérieure du f. 2 est accompagnée du titre : « Institutes de Justinien ». Le volume porte au verso du f. 1 la signature du libraire Blaise qui, assisté de Vitré, parapha les livres du cardinal, en 1643 et 1644, et en dressa un inventaire (n° 2773) avec les prix d’estimation. En 1660, à la suite d’un arrêt du Parlement du 14 février, la collection du Richelieu fut transférée à la Bibliothèque de la Sorbonne dont le manuscrit porte l’estampille aux f. 2 et 289v. Le volume est répertorié sous le n° 401 dans la Catalogi altera pars continens codices manuscriptos e bibliotheca Richeliana in Sorbonicam translatos : « 401. codex gallicus mermbr. In-fol. 1° Les Instituts de Justinien : 2° Les Authentiques ; 3° Le trois livres du Code » (Bnf., NAL 100, f. 288v). La bibliothèque de la Sorbonne fut confisquée en 1791. Une partie des collections entra en 1796 à la Bibliothèque nationale. Anciennes cotes inscrites au f. 1v : [Sorbonne] « 401 ; au f. 2 : [Richelieu] « 132 ». au f. 1v: paraphe du libraire Blaise, accompagné du n° 2773.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">F. 2-70. Justinien, Institutes (Livre I : ff. 2-13 ; Livre II : ff. 13-34v ; Livre III : ff. 34v-53 ; Livre IV : ff. 53-70), traduction française. Il aurait existé deux rédactions différentes des Institutes en prose, mais une seule nous en est parvenue. Composée vers 1220-1230, cette traduction a été transmise par quatorze manuscrits complets et trois fragments : cf. Translations médiévales , n° 356, p. 638-639. L’édition d’Olivier-Martin est basée sur le ms. BnF., Français 1064 (cf. notice du ms.). F. 71-222. Justinien, Authentiques , traduction française. Les Novellae ou Authentiques furent traduites en prose française vers 1220-1230. Le texte nous a été transmis par seulement trois manuscrits complets et un fragment : cf. Translations médiévales , n° 357, p. 640. F. 223-289. Justinien, Code (Livres X : ff. 223-246v ; XI : ff.247-260v ; XII : ff. 261-289). Le Codex constitutionum fut traduit en prose française au XIII e siècle. Les dix manuscrits conservés ne contiennent qu’une partie de l’ouvrage. Cette traduction est inédite.</dc:description>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://gallica.bnf.fr/ark:/12148/btv1b8447870r</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">Europeana Regia. Bibliothèque de Charles V et sa famille</dc:relation>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Europeana Regia. Library of Charles V and Family</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">domaine public</dc:rights>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">public domain</dc:rights>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">Bibliothèque nationale de France, Département des Manuscrits, Français 22970</dc:source>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.bnf.fr"/>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://gallica.bnf.fr"/>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.europeanaregia.eu"/>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Justinien , Institutes [Institutiones] ; Authentiques [Novellae] , Code [Codex constitutionum] (livres X, XI, XII) , traduction en français. [Paris, BnF, MSS Français 22970]</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">manuscrit</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">manuscript</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1080"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170636"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92099/BibliographicResource_1000157170636"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92099/BibliographicResource_1000157170636">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170636"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92099/BibliographicResource_1000157170636"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92099/BibliographicResource_1000157170636">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170636"/>
+            <edm:collectionName>92099_Ag_EU_TEL_a1080_Europeana_Regia_France</edm:collectionName>
+            <edm:country>France</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92099/BibliographicResource_1000157170636.html"/>
+            <edm:language>fr</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

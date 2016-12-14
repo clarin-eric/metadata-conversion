@@ -1,0 +1,92 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200368/BibliographicResource_3000113715940"/>
+          <edm:WebResource rdf:about="http://digital.nationallibrary.bg/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ2&amp;p=V&amp;fc=4c09f48b-bcc1-4b8f-831a-723f3c35105b&amp;did=64&amp;culture=en">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/nbkm/a1229/64.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1936">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1936</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_2_third"/>
+            <edm:begin>Wed Jan 01 00:19:32 CET 1936</edm:begin>
+            <edm:end>Thu Dec 31 00:19:32 CET 1936</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_2_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mid 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Середина 20-го века</skos:prefLabel>
+            <edm:begin>Mon Jan 01 00:19:32 CET 1934</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 1966</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200368/BibliographicResource_3000113715940">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200368/BibliographicResource_3000113715940"/>
+            <edm:dataProvider>National Library of Bulgaria</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digital.nationallibrary.bg/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ2&amp;p=V&amp;fc=4c09f48b-bcc1-4b8f-831a-723f3c35105b&amp;did=64&amp;culture=en"/>
+            <edm:isShownBy rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/a1229/64.jpg"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/a1229/64.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200368/BibliographicResource_3000113715940">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Чипев, Филип</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1936</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Биографични бележки със спомени за творчеството на Гео Милев.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">33,5 x 20,5 см</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">НБКМ-БИА, ф. 26, оп. 1, а. е. 3, л. 4</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">bg</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">БИА Документи / BHA Documents</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Attribution to SS. Cyril and Methodius National Library of Bulgaria is recommended</dc:rights>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Милев, Гео</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Мецгер, Макс</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Няколко думи за Гео Милев и неговата антология на българската поезия</dc:title>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1229"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1914</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200368/BibliographicResource_3000113715940"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200368/BibliographicResource_3000113715940"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200368/BibliographicResource_3000113715940">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/1936"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1936</edm:year>
+            <edm:year>1914</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200368/BibliographicResource_3000113715940"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200368/BibliographicResource_3000113715940"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200368/BibliographicResource_3000113715940">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200368/BibliographicResource_3000113715940"/>
+            <edm:collectionName>9200368_Ag_EU_TEL_a1229_NationalLibraryBulgaria</edm:collectionName>
+            <edm:country>Bulgaria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200368/BibliographicResource_3000113715940.html"/>
+            <edm:language>bg</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>
