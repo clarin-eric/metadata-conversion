@@ -113,6 +113,7 @@
             <cmd:ResourceProxyList>
                 <xsl:apply-templates select="edm:EuropeanaAggregation/edm:landingPage" mode="resources" />
                 <xsl:apply-templates select="edm:WebResource" mode="resources" />
+                <xsl:apply-templates select="//(edm:object|edm:isShownAt|edm:isShownBy|edm:hasView)[@rdf:resource != //edm:WebResource/@rdf:about]" mode="resources"/>
             </cmd:ResourceProxyList>
             <cmd:JournalFileProxyList>
             </cmd:JournalFileProxyList>
@@ -140,6 +141,15 @@
             <cmd:ResourceProxy id="{func:webResourceProxyId(.)}">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
                 <cmd:ResourceRef><xsl:value-of select="@rdf:about"/></cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="edm:object|edm:isShownAt|edm:isShownBy|edm:hasView" mode="resources">
+        <xsl:if test="normalize-space(@rdf:resource) != ''">
+            <cmd:ResourceProxy id="{func:nodeResourceProxyId(.)}">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef><xsl:value-of select="@rdf:resource"/></cmd:ResourceRef>
             </cmd:ResourceProxy>
         </xsl:if>
     </xsl:template>
@@ -273,7 +283,15 @@
     <xsl:template match="edm:hasView|edm:isShownAt|edm:isShownBy|edm:object">
         <xsl:variable name="targetWebResource" select="@rdf:resource"/>
         <xsl:element name="{func:get-cmd-name(.)}">
-            <xsl:apply-templates select="//edm:WebResource[@rdf:about = $targetWebResource]" />
+            <xsl:choose>
+                <xsl:when test="//edm:WebResource[@rdf:about = $targetWebResource]">
+                    <!-- a webresource exists -->
+                    <xsl:apply-templates select="//edm:WebResource[@rdf:about = $targetWebResource]" />                    
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="cmd:ref" select="func:nodeResourceProxyId(.)" />
+                </xsl:otherwise>
+            </xsl:choose>
         </xsl:element>
     </xsl:template>
     
@@ -507,5 +525,11 @@
         <xsl:param name="webResouce" />
         <xsl:value-of select="concat('webResource_', generate-id($webResouce))"/>
     </xsl:function>
+
+    <xsl:function name="func:nodeResourceProxyId">
+        <xsl:param name="node" />
+        <xsl:value-of select="concat($node/local-name(), '_', generate-id($node))"/>
+    </xsl:function>
     
+
 </xsl:stylesheet>
