@@ -1,0 +1,118 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065016"/>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/issue.vm?id=0003653912">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/details.vm?q=id:0003653912">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/images/items/0003653913/low.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1934">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1934</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_2_third"/>
+            <edm:begin>Mon Jan 01 00:19:32 CET 1934</edm:begin>
+            <edm:end>Mon Dec 31 00:19:32 CET 1934</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_2_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mid 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Середина 20-го века</skos:prefLabel>
+            <edm:begin>Mon Jan 01 00:19:32 CET 1934</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 1966</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://vocab.getty.edu/aat/300026656">
+            <skos:altLabel xml:lang="de">Tageszeitung</skos:altLabel>
+            <skos:altLabel xml:lang="it">giornale (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="fr">journal (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="sv">tidning</skos:altLabel>
+            <skos:altLabel xml:lang="en">newspaper</skos:altLabel>
+            <skos:altLabel xml:lang="es">diario (noticias)</skos:altLabel>
+            <skos:altLabel xml:lang="nl">nieuwsbladen</skos:altLabel>
+            <skos:prefLabel xml:lang="en">newspapers</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">diarios (noticias)</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">kranten</skos:prefLabel>
+            <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+            <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+            <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_2000092065016">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065016"/>
+            <edm:dataProvider>National Library of Spain</edm:dataProvider>
+            <edm:hasView rdf:resource="http://hemerotecadigital.bne.es/issue.vm?id=0003653912"/>
+            <edm:isShownAt rdf:resource="http://hemerotecadigital.bne.es/details.vm?q=id:0003653912"/>
+            <edm:object rdf:resource="http://hemerotecadigital.bne.es/images/items/0003653913/low.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200302/BibliographicResource_2000092065016">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1934</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Del Anuario del Cuerpo Facultativo de Archiveros, Bibliotecarios y Arqueólogos se publicaron tres volúmenes correspondientes a los años 1934 (número doble) y 1935, que recogieron valiosos estudios en memoria del ilustre arqueólogo José Ramón Mélida, director del Museo Arqueológico y activo colaborador de la Revista de archivos, bibliotecas y museos..</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://hemerotecadigital.bne.es/details.vm?q=id%3A0003653912</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Madrid</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">es</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Anuario del Cuerpo Facultativo de Archiveros, Bibliotecarios y Anticuarios</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Biblioteca Nacional de España</dc:rights>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">1136-4610</dc:source>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Cuerpo Facultativo de Archiveros, Bibliotecarios y Arqueólogos</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Del 1934 al 1935. Del n. 1 al n. 2</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Anuario del Cuerpo Facultativo de Archiveros, Bibliotecarios y Arqueólogos</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Title</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Serial</dc:type>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059363899"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059363928"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364069"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0597"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1934-01-01 - 1935-01-01</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065016"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_2000092065016"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200302/BibliographicResource_2000092065016">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx"/>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx_2_third"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1934</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065016"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_2000092065016"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_2000092065016">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065016"/>
+            <edm:collectionName>9200302_Ag_EU_TEL_a0597_Newspapers_Spain</edm:collectionName>
+            <edm:country>Spain</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200302/BibliographicResource_2000092065016.html"/>
+            <edm:language>es</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

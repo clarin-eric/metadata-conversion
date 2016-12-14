@@ -1,0 +1,125 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200334/BibliographicResource_3000095232233"/>
+          <edm:WebResource rdf:about="http://digicontent.snk.sk/content/manuscripts/_Krvave_sonety__Hviezdoslav/">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/3060405/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">49.2</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">19.3</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Dolný Kubín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Dolný Kubín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Dolný Kubín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Alsókubin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Dolní Kubín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Dolný Kubín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Alsókubin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Dolný Kubín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Dolný Kubín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Долны Кубин</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/3057568/"/>
+          </edm:Place>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200334/BibliographicResource_3000095232233">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200334/BibliographicResource_3000095232233"/>
+            <edm:dataProvider>Slovak National Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digicontent.snk.sk/content/manuscripts/_Krvave_sonety__Hviezdoslav/"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200334/BibliographicResource_3000095232233">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pavol Országh Hviezdoslav</dc:creator>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Pavol Országh Hviezdoslav</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Autorom 32 sonetov je Pavol Országh Hviezdoslav, slovenský básnik, spisovateľ a advokát, jedna z vedúcich osobností slovenskej literatúry a kultúry na prelome 19. a 20. storočia a najvýznamnejšia osobnosť celej slovenskej literatúry. Cyklus básní je protestom básnika proti prvej svetovej vojne. Reaguje v ňom na pošliapanú a poníženú ľudskosť.  Dielo je zhrnutím jeho sociálnych, filozofických a mravných názorov. V záverečných sonetoch vyslovuje túžbu po mieri a vieru v spravodlivejšie usporiadanie sveta. Básnický cyklus napísal autor krátko po vypuknutí prvej svetovej vojny, publikovaný mohol byť až v roku 1919.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">The author of 32 sonnets is Pavol Országh Hviezdoslav, Slovak poet, writer, and lawyer, one of the leading personalities of Slovak literature and culture at the turn of the 19th and 20th centuries and the most prominent personality of the Slovak literature. The cycle of poems is a poet’s protest against the World War I. It reacts to trampled and humiliated humanity. The work is a summary of his social, philosophical, and moral views. In the final sonnets he expresses the desire for peace and belief in the fairer world order. Author wrote the poetic cycle shortly after the outbreak of the World War I, but it could be published only in 1919.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Manuscript</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">vtls010564405</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sk</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">slovenská poézia</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">sonety</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">rukopisy</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Slovak poetry</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Sonnets</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Manuscripts</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Krvavé sonety</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Monograph</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">1 jd., 16 s.</dcterms:extent>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">23 x 15 cm</dcterms:extent>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">1 document, 16 handwritten pages</dcterms:extent>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">23 x 15 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1223"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1914</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/3060405/"/>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/">20. stor.</dcterms:temporal>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/">20th century</dcterms:temporal>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200334/BibliographicResource_3000095232233"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200334/BibliographicResource_3000095232233"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200334/BibliographicResource_3000095232233">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200334/BibliographicResource_3000095232233"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200334/BibliographicResource_3000095232233"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200334/BibliographicResource_3000095232233">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200334/BibliographicResource_3000095232233"/>
+            <edm:collectionName>9200334_Ag_EU_TEL_a1223_EC1914_Slovak</edm:collectionName>
+            <edm:country>Slovakia</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200334/BibliographicResource_3000095232233.html"/>
+            <edm:language>sk</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

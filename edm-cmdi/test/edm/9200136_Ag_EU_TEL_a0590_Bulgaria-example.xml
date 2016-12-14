@@ -1,0 +1,58 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703107">
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="a0590:4788411a-d3c7-410a-9288-cbd539710045"/>
+          </edm:ProvidedCHO>
+          <edm:WebResource rdf:about="http://193.200.14.178/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=7d133cfe-0af4-4959-8d7b-202f7d2cfd04&amp;did=61&amp;culture=en">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/nbkm/S_16.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200136/BibliographicResource_2000064703107">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703107"/>
+            <edm:dataProvider>National Library of Bulgaria</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://193.200.14.178/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=7d133cfe-0af4-4959-8d7b-202f7d2cfd04&amp;did=61&amp;culture=en"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/S_16.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200136/BibliographicResource_2000064703107">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Чешми заде Яхия eфенди</dc:creator>
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Зeюmi zade Yahya Efendi</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">най-ранната дата: 1 реджеб 1170 (22 март 1757)</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">Earliest date: 1 Recep 1170 (22 Mart 1757)</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">крайна дата: 22 джемазиелахър 1171 (3 март 1758)</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">Final date: 22 Cemaziyelahir 1171 (3 Mart 1758)</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджилът е разделен на две части. Първата съдържа фермани, берати, буюрултии, илями, писма (мектуб), тевзи, терике и др. описи. Сред документите се открояват няколко нареждания за проверки на манастири и черкви дали имат разрешения за ремонт и разширение. Други засягат събирането на различни данъци, определяне на средства за издръжка на държавната кухня, ремонт на фурните във видинската крепост, заповед да не се събират от населението повече данъци от определените и др. Във втората част преобладават хюджети и наследствени описи.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="bg">43,2 х 16</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">4788411a-d3c7-410a-9288-cbd539710045</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">ota</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджили / Sijills</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Национална библиотека Св. Св. Кирил и Методий / St. St. Cyril and Methodius National Library</dc:rights>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджил - София</dc:title>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Sijill - Sofia</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджил / Sijill</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">58</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0590"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1914</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703107"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200136/BibliographicResource_2000064703107"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200136/BibliographicResource_2000064703107">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1914</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703107"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200136/BibliographicResource_2000064703107"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200136/BibliographicResource_2000064703107">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703107"/>
+            <edm:collectionName>9200136_Ag_EU_TEL_a0590_Bulgaria</edm:collectionName>
+            <edm:country>Bulgaria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200136/BibliographicResource_2000064703107.html"/>
+            <edm:language>bg</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

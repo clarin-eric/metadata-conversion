@@ -1,0 +1,75 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200280/BibliographicResource_3000061612772"/>
+          <edm:WebResource rdf:about="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Loan_96_RLF_3/20&amp;index=0">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/bl/loan_96_rlf_3!20.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
+          </edm:WebResource>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200280/BibliographicResource_3000061612772">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200280/BibliographicResource_3000061612772"/>
+            <edm:dataProvider>The British Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Loan_96_RLF_3/20&amp;index=0"/>
+            <edm:isShownBy rdf:resource="http://www.theeuropeanlibrary.org/content/bl/loan_96_rlf_3!20.jpg"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/bl/loan_96_rlf_3!20.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200280/BibliographicResource_3000061612772">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Bound volume containing the annual reports for 1915-1920 inclusive.The documents for each year contain a History of the Fund, a list of the officers of the corporation (Patron, President, Vice-Presidents, Council, Committee, Registrars, Treasurers, Auditors, honorary officers, Bankers, Secretary and Collector), and lists of Members of the Corporation with details of their donations, Donors and Subscribers not yet qualified as members, miscellaneous benefactions, 'Deceased Benefactors of Twenty Pounds and Upwards,' 'Officers of the Corporation, Deceased' and 'Chairmen of the Anniversaries.' For each year there are also Auditors' reports, Treasurers' reports and a Registrars' report for the previous year and an updated table of grants made in previous years, as well as details of the stewards of and donations made at the Anniversary dinners. For each year, there are also varying records as described below:1915 (54 pp.): Report on the Special Appeal launched to raise funds in place of the Anniversary Dinner, which was thought to be inappropriate during the war, including letter dated Apr 1915, with list of contributors1916 (52 pp.): Report on the Special Appeal launched to raise funds in place of the Anniversary Dinner, which was thought to be inappropriate during the war, including letter dated Mar 1916, with list of contributors1917 (54 pp.): Report on the Special Appeal launched to raise funds in place of the Anniversary Dinner, which was thought to be inappropriate during the war, including letters dated May 1917 and Jun 1917, with list of contributors1918 (50 pp.): Report on the Special Appeal launched to raise funds in place of the Anniversary Dinner, which was thought to be inappropriate during the war, including letter dated Jun 1918, with list of contributors1919 (50 pp.): Appreciation of Arthur Llewelyn Roberts, the Secretary of the Literary Fund, who died 17 Oct 1919, with plate; Report on the Special Appeal launched to raise funds in place of the Anniversary Dinner, which was still thought to be inappropriate, including letter dated Apr 1919, with list of contributors; Hugh John Cole Marshall appointed Secretary1920 (66 pp.): 'The Anniversary Meeting', 3 Jun 1920, with transcript of speeches (chair: Edmund Gosse; principal speakers: Godfrey Rathbone Benson, Baron Charnwood; John Collings Squire; Sir Valentine Chirol)</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">1 file</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">loan_96_rlf_3!20</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Collections 1914-1918</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">|| Some items listed in the catalogue description were not digitised for the Europeana Collections 1914-1918 project due to copyright restrictions||© The Royal Literary Fund | Usage Terms: Non-Commercial Licence</dc:rights>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">sh2008113365</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Royal Literary Fund Annual Reports Vol. XX</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Archives and Manuscripts</dc:type>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1915 - 1920</dcterms:created>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0558"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200280/BibliographicResource_3000061612772"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200280/BibliographicResource_3000061612772"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200280/BibliographicResource_3000061612772">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200280/BibliographicResource_3000061612772"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200280/BibliographicResource_3000061612772"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200280/BibliographicResource_3000061612772">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200280/BibliographicResource_3000061612772"/>
+            <edm:collectionName>9200280_Ag_EU_TEL_Collections_1914-1918_BL_a0558</edm:collectionName>
+            <edm:country>United Kingdom</edm:country>
+            <edm:preview rdf:resource="http://www.theeuropeanlibrary.org/content/bl/loan_96_rlf_3!20.jpg"/>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200280/BibliographicResource_3000061612772.html"/>
+            <edm:language>en</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

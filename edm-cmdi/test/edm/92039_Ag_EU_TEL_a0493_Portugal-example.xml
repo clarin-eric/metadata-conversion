@@ -1,0 +1,59 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92039/BibliographicResource_1000126237512"/>
+          <edm:WebResource rdf:about="http://purl.pt/11629">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://purl.pt/11629/cover.get">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92039/BibliographicResource_1000126237512">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237512"/>
+            <edm:dataProvider>National Library of Portugal</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://purl.pt/11629"/>
+            <edm:object rdf:resource="http://purl.pt/11629/cover.get"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92039/BibliographicResource_1000126237512">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Rolland Lefévre</dc:contributor>
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoît Audran</dc:creator>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Le Febvre effigiem pinxit</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Benedictus Audran sculp.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Data provável baseada na actividade do gravador</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Audience: Adult general</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">1 gravura</dc:format>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">buril e água-forte, p&amp;b</dc:format>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">Dim. da comp. com letra: 50,5x36,5 cm</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:oai.bn.pt:bndlivre/bnp919413</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">s.n.</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pt">Universal Decimal Classification: 342.5Colbert, Jean Baptiste(084.1)</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pt">Universal Decimal Classification: 762(=1:44)"16/17"(084.1)</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pt">Universal Decimal Classification: 929Colbert, Jean Baptiste(084.1)</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Joannes Baptista Colbert</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Monograph</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0493"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1680? - 1720?</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">entre 1680 e 1720?]</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/">S.l.</dcterms:spatial>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/fr"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237512"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92039/BibliographicResource_1000126237512"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92039/BibliographicResource_1000126237512">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237512"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92039/BibliographicResource_1000126237512"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92039/BibliographicResource_1000126237512">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237512"/>
+            <edm:collectionName>92039_Ag_EU_TEL_a0493_Portugal</edm:collectionName>
+            <edm:country>Portugal</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92039/BibliographicResource_1000126237512.html"/>
+            <edm:language>pt</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

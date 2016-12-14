@@ -1,0 +1,59 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92004/BibliographicResource_2000059192462"/>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/mns_direct.php?docId=set20100108_182_50">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/en/index.php?request=show_tei_digidoc&amp;docId=set20100108_182_50">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/wtis_lq.php?strFolder=P/EUC___XXIII_WW_1_52_42LRP/P0/XXIII_WW_1_52_42LRPP00001P.JPG">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92004/BibliographicResource_2000059192462">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192462"/>
+            <edm:dataProvider>National Library of Czech Republic</edm:dataProvider>
+            <edm:hasView rdf:resource="http://www.manuscriptorium.com/apps/main/en/index.php?request=show_tei_digidoc&amp;docId=set20100108_182_50"/>
+            <edm:isShownAt rdf:resource="http://www.manuscriptorium.com/apps/main/mns_direct.php?docId=set20100108_182_50"/>
+            <edm:object rdf:resource="http://www.manuscriptorium.com/apps/main/wtis_lq.php?strFolder=P/EUC___XXIII_WW_1_52_42LRP/P0/XXIII_WW_1_52_42LRPP00001P.JPG"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92004/BibliographicResource_2000059192462">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1770 - 1815</dc:date>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">other</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:test.manuscriptorium.cz:set20100108_182_50</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">mul</dc:language>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">Etnologický ústav AV ČR, v.v.i.</dc:source>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">duchovní písně</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">kramářské tisky</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Ježíš Kristus (ukřižovaný)</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Panna Marie</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">láska mateřská</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Nábožná píseň o Bolestné Matce boží pod křížem stojící</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">kramářské tisky</dc:type>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1770 - 1815</dcterms:created>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">100 x 75 mm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0588"/>
+            <dcterms:medium xmlns:dcterms="http://purl.org/dc/terms/">chart</dcterms:medium>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Maria pod křížem stála (text prvního verše v moderním pravopisu)</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Marya pod křjžem stála, (text prvního verše v původním pravopisu)</dcterms:tableOfContents>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192462"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92004/BibliographicResource_2000059192462"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92004/BibliographicResource_2000059192462">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192462"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92004/BibliographicResource_2000059192462"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92004/BibliographicResource_2000059192462">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192462"/>
+            <edm:collectionName>92004_Ag_EU_TEL_a0588_TEL_NKP_manuscriptorium</edm:collectionName>
+            <edm:country>Czech Republic</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92004/BibliographicResource_2000059192462.html"/>
+            <edm:language>cs</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>
