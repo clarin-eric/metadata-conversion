@@ -190,6 +190,9 @@
                 rdf-about="{@rdf:about}"
                 proxyFor="{ore:proxyFor/@rdf:resource}" 
                 proxyIn="{ore:proxyIn/@rdf:resource}">
+                <xsl:if test="normalize-space(edm:europeanaProxy) = 'true'">
+                    <xsl:attribute name="edm-europeanaProxy">true</xsl:attribute>
+                </xsl:if>
                 <edm-ProvidedCHO>
                     <xsl:apply-templates select="." mode="cho-props" />
                 </edm-ProvidedCHO>
