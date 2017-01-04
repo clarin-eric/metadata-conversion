@@ -121,7 +121,7 @@
             <cmd:ResourceProxyList>
                 <xsl:apply-templates select="edm:EuropeanaAggregation/edm:landingPage" mode="resources" />
                 <xsl:apply-templates select="edm:WebResource" mode="resources" />
-                <xsl:apply-templates select="//(edm:object|edm:isShownAt|edm:isShownBy|edm:hasView)[@rdf:resource != //edm:WebResource/@rdf:about]" mode="resources"/>
+                <xsl:apply-templates select="//(edm:object|edm:isShownAt|edm:isShownBy|edm:hasView|edm:preview)[@rdf:resource != //edm:WebResource/@rdf:about]" mode="resources"/>
             </cmd:ResourceProxyList>
             <cmd:JournalFileProxyList>
             </cmd:JournalFileProxyList>
@@ -153,7 +153,7 @@
         </xsl:if>
     </xsl:template>
     
-    <xsl:template match="edm:object|edm:isShownAt|edm:isShownBy|edm:hasView" mode="resources">
+    <xsl:template match="edm:object|edm:isShownAt|edm:isShownBy|edm:hasView|edm:preview" mode="resources">
         <xsl:if test="normalize-space(@rdf:resource) != ''">
             <cmd:ResourceProxy id="{func:nodeResourceProxyId(.)}">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
@@ -292,10 +292,11 @@
     </xsl:template>
     
     <xsl:template match="edm:hasView|edm:isShownAt|edm:isShownBy|edm:object|edm:preview">
+        <xsl:param name="forceRef" select="'no'" />
         <xsl:variable name="targetWebResource" select="@rdf:resource"/>
         <xsl:element name="{func:get-cmd-name(.)}">
             <xsl:choose>
-                <xsl:when test="//edm:WebResource[@rdf:about = $targetWebResource]">
+                <xsl:when test="$forceRef != 'yes' and //edm:WebResource[@rdf:about = $targetWebResource]">
                     <!-- a webresource exists -->
                     <xsl:apply-templates select="//edm:WebResource[@rdf:about = $targetWebResource]" />                    
                 </xsl:when>
@@ -351,6 +352,11 @@
             <xsl:apply-templates select="dc:creator" mode="component-prop" />
             <xsl:apply-templates select="dc:created" mode="component-prop" />
             <xsl:apply-templates select="dcterms:issued" mode="component-prop" />            
+            
+            <xsl:apply-templates select="edm:preview">
+                <!-- WebResource cannot be contained in itself, so force a resource proxy ref -->
+                <xsl:with-param name="forceRef" select="'yes'" /> 
+            </xsl:apply-templates>
 
             <xsl:apply-templates select="edm:rights" />
         </edm-WebResource>
