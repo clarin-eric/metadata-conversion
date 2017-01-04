@@ -1203,6 +1203,41 @@
                             <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
                         </AttributeList>
                     </Element>
+                    <Element name="edm-codecName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-hasMimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-fileByteSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="ebucore-duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-width" ConceptLink="http://hdl.handle.net/11459/CCR_C-4106_25268491-df0a-2e66-b87b-6a67a76086c1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-height" ConceptLink="http://hdl.handle.net/11459/CCR_C-4107_34c4a1b8-a555-0a17-57b8-02c98b6fc1c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="edm-spatialResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-sampleSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The size of an audio sample in bits. Also called bit depth.</Documentation>
+                    </Element>
+                    <Element name="ebucore-sampleRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frequency at which audio is sampled per second.</Documentation>
+                    </Element>
+                    <Element name="ebucore-bitRate" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#bitRate" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>To provide the bitrate at which the MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.</Documentation>
+                    </Element>
+                    <Element name="ebucore-frameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frame rate of the video signal in frame per second</Documentation>
+                    </Element>
+                    <Element name="edm-hasColorSpace" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#ColourSpace" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The color space of an image resource i.e. "grayscale" or "sRGB"</Documentation>
+                    </Element>
+                    <Element name="edm-componentColor" ValueScheme="string" CardinalityMin="0" CardinalityMax="6">
+                        <Documentation>A significant color present in an image. The colors must be taken from the CSS3 standard color palette5 and are expressed as a hexadecimal binary value.</Documentation>
+                    </Element>
+                    <Element name="ebucore-orientation" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The orientation of a Document or an Image i.e. landscape or portrait.</Documentation>
+                    </Element>
+                    <Element name="ebucore-audiochannelNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>he total number of audio channels contained in the MediaResource.</Documentation>
+                    </Element>
                     <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Creator of the web resource</Documentation>
                         <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
@@ -3384,6 +3419,41 @@
                                 <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
                             </AttributeList>
                         </Element>
+                        <Element name="edm-codecName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <Element name="ebucore-hasMimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <Element name="ebucore-fileByteSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string"/>
+                            </AttributeList>
+                        </Element>
+                        <Element name="ebucore-duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <Element name="ebucore-width" ConceptLink="http://hdl.handle.net/11459/CCR_C-4106_25268491-df0a-2e66-b87b-6a67a76086c1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <Element name="ebucore-height" ConceptLink="http://hdl.handle.net/11459/CCR_C-4107_34c4a1b8-a555-0a17-57b8-02c98b6fc1c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <Element name="edm-spatialResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <Element name="ebucore-sampleSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Documentation>The size of an audio sample in bits. Also called bit depth.</Documentation>
+                        </Element>
+                        <Element name="ebucore-sampleRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Documentation>The frequency at which audio is sampled per second.</Documentation>
+                        </Element>
+                        <Element name="ebucore-bitRate" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#bitRate" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Documentation>To provide the bitrate at which the MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.</Documentation>
+                        </Element>
+                        <Element name="ebucore-frameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Documentation>The frame rate of the video signal in frame per second</Documentation>
+                        </Element>
+                        <Element name="edm-hasColorSpace" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#ColourSpace" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Documentation>The color space of an image resource i.e. "grayscale" or "sRGB"</Documentation>
+                        </Element>
+                        <Element name="edm-componentColor" ValueScheme="string" CardinalityMin="0" CardinalityMax="6">
+                            <Documentation>A significant color present in an image. The colors must be taken from the CSS3 standard color palette5 and are expressed as a hexadecimal binary value.</Documentation>
+                        </Element>
+                        <Element name="ebucore-orientation" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Documentation>The orientation of a Document or an Image i.e. landscape or portrait.</Documentation>
+                        </Element>
+                        <Element name="ebucore-audiochannelNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Documentation>he total number of audio channels contained in the MediaResource.</Documentation>
+                        </Element>
                         <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                             <Documentation>Creator of the web resource</Documentation>
                             <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
@@ -4432,6 +4502,41 @@
                             <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
                         </AttributeList>
                     </Element>
+                    <Element name="edm-codecName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-hasMimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-fileByteSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="ebucore-duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-width" ConceptLink="http://hdl.handle.net/11459/CCR_C-4106_25268491-df0a-2e66-b87b-6a67a76086c1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-height" ConceptLink="http://hdl.handle.net/11459/CCR_C-4107_34c4a1b8-a555-0a17-57b8-02c98b6fc1c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="edm-spatialResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-sampleSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The size of an audio sample in bits. Also called bit depth.</Documentation>
+                    </Element>
+                    <Element name="ebucore-sampleRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frequency at which audio is sampled per second.</Documentation>
+                    </Element>
+                    <Element name="ebucore-bitRate" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#bitRate" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>To provide the bitrate at which the MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.</Documentation>
+                    </Element>
+                    <Element name="ebucore-frameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frame rate of the video signal in frame per second</Documentation>
+                    </Element>
+                    <Element name="edm-hasColorSpace" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#ColourSpace" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The color space of an image resource i.e. "grayscale" or "sRGB"</Documentation>
+                    </Element>
+                    <Element name="edm-componentColor" ValueScheme="string" CardinalityMin="0" CardinalityMax="6">
+                        <Documentation>A significant color present in an image. The colors must be taken from the CSS3 standard color palette5 and are expressed as a hexadecimal binary value.</Documentation>
+                    </Element>
+                    <Element name="ebucore-orientation" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The orientation of a Document or an Image i.e. landscape or portrait.</Documentation>
+                    </Element>
+                    <Element name="ebucore-audiochannelNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>he total number of audio channels contained in the MediaResource.</Documentation>
+                    </Element>
                     <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Creator of the web resource</Documentation>
                         <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
@@ -4826,6 +4931,41 @@
                         <AttributeList>
                             <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
                         </AttributeList>
+                    </Element>
+                    <Element name="edm-codecName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-hasMimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-fileByteSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="ebucore-duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-width" ConceptLink="http://hdl.handle.net/11459/CCR_C-4106_25268491-df0a-2e66-b87b-6a67a76086c1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-height" ConceptLink="http://hdl.handle.net/11459/CCR_C-4107_34c4a1b8-a555-0a17-57b8-02c98b6fc1c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="edm-spatialResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-sampleSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The size of an audio sample in bits. Also called bit depth.</Documentation>
+                    </Element>
+                    <Element name="ebucore-sampleRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frequency at which audio is sampled per second.</Documentation>
+                    </Element>
+                    <Element name="ebucore-bitRate" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#bitRate" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>To provide the bitrate at which the MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.</Documentation>
+                    </Element>
+                    <Element name="ebucore-frameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frame rate of the video signal in frame per second</Documentation>
+                    </Element>
+                    <Element name="edm-hasColorSpace" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#ColourSpace" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The color space of an image resource i.e. "grayscale" or "sRGB"</Documentation>
+                    </Element>
+                    <Element name="edm-componentColor" ValueScheme="string" CardinalityMin="0" CardinalityMax="6">
+                        <Documentation>A significant color present in an image. The colors must be taken from the CSS3 standard color palette5 and are expressed as a hexadecimal binary value.</Documentation>
+                    </Element>
+                    <Element name="ebucore-orientation" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The orientation of a Document or an Image i.e. landscape or portrait.</Documentation>
+                    </Element>
+                    <Element name="ebucore-audiochannelNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>he total number of audio channels contained in the MediaResource.</Documentation>
                     </Element>
                     <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Creator of the web resource</Documentation>
@@ -5222,6 +5362,41 @@
                             <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
                         </AttributeList>
                     </Element>
+                    <Element name="edm-codecName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-hasMimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-fileByteSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="ebucore-duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-width" ConceptLink="http://hdl.handle.net/11459/CCR_C-4106_25268491-df0a-2e66-b87b-6a67a76086c1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-height" ConceptLink="http://hdl.handle.net/11459/CCR_C-4107_34c4a1b8-a555-0a17-57b8-02c98b6fc1c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="edm-spatialResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-sampleSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The size of an audio sample in bits. Also called bit depth.</Documentation>
+                    </Element>
+                    <Element name="ebucore-sampleRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frequency at which audio is sampled per second.</Documentation>
+                    </Element>
+                    <Element name="ebucore-bitRate" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#bitRate" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>To provide the bitrate at which the MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.</Documentation>
+                    </Element>
+                    <Element name="ebucore-frameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frame rate of the video signal in frame per second</Documentation>
+                    </Element>
+                    <Element name="edm-hasColorSpace" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#ColourSpace" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The color space of an image resource i.e. "grayscale" or "sRGB"</Documentation>
+                    </Element>
+                    <Element name="edm-componentColor" ValueScheme="string" CardinalityMin="0" CardinalityMax="6">
+                        <Documentation>A significant color present in an image. The colors must be taken from the CSS3 standard color palette5 and are expressed as a hexadecimal binary value.</Documentation>
+                    </Element>
+                    <Element name="ebucore-orientation" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The orientation of a Document or an Image i.e. landscape or portrait.</Documentation>
+                    </Element>
+                    <Element name="ebucore-audiochannelNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>he total number of audio channels contained in the MediaResource.</Documentation>
+                    </Element>
                     <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Creator of the web resource</Documentation>
                         <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
@@ -5616,6 +5791,41 @@
                         <AttributeList>
                             <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
                         </AttributeList>
+                    </Element>
+                    <Element name="edm-codecName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-hasMimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-fileByteSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="ebucore-duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-width" ConceptLink="http://hdl.handle.net/11459/CCR_C-4106_25268491-df0a-2e66-b87b-6a67a76086c1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-height" ConceptLink="http://hdl.handle.net/11459/CCR_C-4107_34c4a1b8-a555-0a17-57b8-02c98b6fc1c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="edm-spatialResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-sampleSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The size of an audio sample in bits. Also called bit depth.</Documentation>
+                    </Element>
+                    <Element name="ebucore-sampleRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frequency at which audio is sampled per second.</Documentation>
+                    </Element>
+                    <Element name="ebucore-bitRate" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#bitRate" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>To provide the bitrate at which the MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.</Documentation>
+                    </Element>
+                    <Element name="ebucore-frameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frame rate of the video signal in frame per second</Documentation>
+                    </Element>
+                    <Element name="edm-hasColorSpace" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#ColourSpace" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The color space of an image resource i.e. "grayscale" or "sRGB"</Documentation>
+                    </Element>
+                    <Element name="edm-componentColor" ValueScheme="string" CardinalityMin="0" CardinalityMax="6">
+                        <Documentation>A significant color present in an image. The colors must be taken from the CSS3 standard color palette5 and are expressed as a hexadecimal binary value.</Documentation>
+                    </Element>
+                    <Element name="ebucore-orientation" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The orientation of a Document or an Image i.e. landscape or portrait.</Documentation>
+                    </Element>
+                    <Element name="ebucore-audiochannelNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>he total number of audio channels contained in the MediaResource.</Documentation>
                     </Element>
                     <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Creator of the web resource</Documentation>
@@ -6272,6 +6482,41 @@
                             <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
                         </AttributeList>
                     </Element>
+                    <Element name="edm-codecName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-hasMimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-fileByteSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="ebucore-duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-width" ConceptLink="http://hdl.handle.net/11459/CCR_C-4106_25268491-df0a-2e66-b87b-6a67a76086c1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-height" ConceptLink="http://hdl.handle.net/11459/CCR_C-4107_34c4a1b8-a555-0a17-57b8-02c98b6fc1c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="edm-spatialResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-sampleSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The size of an audio sample in bits. Also called bit depth.</Documentation>
+                    </Element>
+                    <Element name="ebucore-sampleRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frequency at which audio is sampled per second.</Documentation>
+                    </Element>
+                    <Element name="ebucore-bitRate" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#bitRate" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>To provide the bitrate at which the MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.</Documentation>
+                    </Element>
+                    <Element name="ebucore-frameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frame rate of the video signal in frame per second</Documentation>
+                    </Element>
+                    <Element name="edm-hasColorSpace" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#ColourSpace" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The color space of an image resource i.e. "grayscale" or "sRGB"</Documentation>
+                    </Element>
+                    <Element name="edm-componentColor" ValueScheme="string" CardinalityMin="0" CardinalityMax="6">
+                        <Documentation>A significant color present in an image. The colors must be taken from the CSS3 standard color palette5 and are expressed as a hexadecimal binary value.</Documentation>
+                    </Element>
+                    <Element name="ebucore-orientation" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The orientation of a Document or an Image i.e. landscape or portrait.</Documentation>
+                    </Element>
+                    <Element name="ebucore-audiochannelNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>he total number of audio channels contained in the MediaResource.</Documentation>
+                    </Element>
                     <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Creator of the web resource</Documentation>
                         <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
@@ -6666,6 +6911,41 @@
                         <AttributeList>
                             <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
                         </AttributeList>
+                    </Element>
+                    <Element name="edm-codecName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-hasMimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-fileByteSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="ebucore-duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-width" ConceptLink="http://hdl.handle.net/11459/CCR_C-4106_25268491-df0a-2e66-b87b-6a67a76086c1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-height" ConceptLink="http://hdl.handle.net/11459/CCR_C-4107_34c4a1b8-a555-0a17-57b8-02c98b6fc1c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="edm-spatialResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-sampleSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The size of an audio sample in bits. Also called bit depth.</Documentation>
+                    </Element>
+                    <Element name="ebucore-sampleRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frequency at which audio is sampled per second.</Documentation>
+                    </Element>
+                    <Element name="ebucore-bitRate" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#bitRate" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>To provide the bitrate at which the MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.</Documentation>
+                    </Element>
+                    <Element name="ebucore-frameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frame rate of the video signal in frame per second</Documentation>
+                    </Element>
+                    <Element name="edm-hasColorSpace" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#ColourSpace" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The color space of an image resource i.e. "grayscale" or "sRGB"</Documentation>
+                    </Element>
+                    <Element name="edm-componentColor" ValueScheme="string" CardinalityMin="0" CardinalityMax="6">
+                        <Documentation>A significant color present in an image. The colors must be taken from the CSS3 standard color palette5 and are expressed as a hexadecimal binary value.</Documentation>
+                    </Element>
+                    <Element name="ebucore-orientation" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The orientation of a Document or an Image i.e. landscape or portrait.</Documentation>
+                    </Element>
+                    <Element name="ebucore-audiochannelNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>he total number of audio channels contained in the MediaResource.</Documentation>
                     </Element>
                     <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Creator of the web resource</Documentation>
@@ -7062,6 +7342,41 @@
                             <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
                         </AttributeList>
                     </Element>
+                    <Element name="edm-codecName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-hasMimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-fileByteSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="ebucore-duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-width" ConceptLink="http://hdl.handle.net/11459/CCR_C-4106_25268491-df0a-2e66-b87b-6a67a76086c1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-height" ConceptLink="http://hdl.handle.net/11459/CCR_C-4107_34c4a1b8-a555-0a17-57b8-02c98b6fc1c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="edm-spatialResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-sampleSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The size of an audio sample in bits. Also called bit depth.</Documentation>
+                    </Element>
+                    <Element name="ebucore-sampleRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frequency at which audio is sampled per second.</Documentation>
+                    </Element>
+                    <Element name="ebucore-bitRate" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#bitRate" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>To provide the bitrate at which the MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.</Documentation>
+                    </Element>
+                    <Element name="ebucore-frameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frame rate of the video signal in frame per second</Documentation>
+                    </Element>
+                    <Element name="edm-hasColorSpace" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#ColourSpace" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The color space of an image resource i.e. "grayscale" or "sRGB"</Documentation>
+                    </Element>
+                    <Element name="edm-componentColor" ValueScheme="string" CardinalityMin="0" CardinalityMax="6">
+                        <Documentation>A significant color present in an image. The colors must be taken from the CSS3 standard color palette5 and are expressed as a hexadecimal binary value.</Documentation>
+                    </Element>
+                    <Element name="ebucore-orientation" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The orientation of a Document or an Image i.e. landscape or portrait.</Documentation>
+                    </Element>
+                    <Element name="ebucore-audiochannelNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>he total number of audio channels contained in the MediaResource.</Documentation>
+                    </Element>
                     <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Creator of the web resource</Documentation>
                         <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
@@ -7456,6 +7771,41 @@
                         <AttributeList>
                             <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
                         </AttributeList>
+                    </Element>
+                    <Element name="edm-codecName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-hasMimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-fileByteSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="unit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="ebucore-duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-width" ConceptLink="http://hdl.handle.net/11459/CCR_C-4106_25268491-df0a-2e66-b87b-6a67a76086c1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-height" ConceptLink="http://hdl.handle.net/11459/CCR_C-4107_34c4a1b8-a555-0a17-57b8-02c98b6fc1c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="edm-spatialResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="ebucore-sampleSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The size of an audio sample in bits. Also called bit depth.</Documentation>
+                    </Element>
+                    <Element name="ebucore-sampleRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frequency at which audio is sampled per second.</Documentation>
+                    </Element>
+                    <Element name="ebucore-bitRate" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#bitRate" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>To provide the bitrate at which the MediaResource can be played in bits/second. Current bitrate if constant, and average bitrate if variable.</Documentation>
+                    </Element>
+                    <Element name="ebucore-frameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The frame rate of the video signal in frame per second</Documentation>
+                    </Element>
+                    <Element name="edm-hasColorSpace" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#ColourSpace" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The color space of an image resource i.e. "grayscale" or "sRGB"</Documentation>
+                    </Element>
+                    <Element name="edm-componentColor" ValueScheme="string" CardinalityMin="0" CardinalityMax="6">
+                        <Documentation>A significant color present in an image. The colors must be taken from the CSS3 standard color palette5 and are expressed as a hexadecimal binary value.</Documentation>
+                    </Element>
+                    <Element name="ebucore-orientation" ConceptLink="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#orientation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The orientation of a Document or an Image i.e. landscape or portrait.</Documentation>
+                    </Element>
+                    <Element name="ebucore-audiochannelNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>he total number of audio channels contained in the MediaResource.</Documentation>
                     </Element>
                     <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Creator of the web resource</Documentation>

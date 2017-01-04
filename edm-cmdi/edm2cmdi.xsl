@@ -348,6 +348,22 @@
             <xsl:apply-templates select="dcterms:isReferencedBy" mode="element-prop" />
             <xsl:apply-templates select="edm:isNextInSequence" mode="element-prop" />
             <xsl:apply-templates select="owl:sameAs" mode="element-prop" />
+            
+            <xsl:apply-templates select="edm:codecName" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:hasMimeType" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:fileByteSize" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:duration" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:width" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:height" mode="element-prop" />
+            <xsl:apply-templates select="edm:spatialResolution" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:sampleSize" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:sampleRate" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:bitRate" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:frameRate" mode="element-prop" />
+            <xsl:apply-templates select="edm:hasColorSpace" mode="element-prop" />
+            <xsl:apply-templates select="edm:componentColor" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:orientation" mode="element-prop" />
+            <xsl:apply-templates select="ebucore:audiochannelNumber" mode="element-prop" />
 
             <xsl:apply-templates select="dc:creator" mode="component-prop" />
             <xsl:apply-templates select="dc:created" mode="component-prop" />
@@ -391,6 +407,13 @@
             </xsl:if>
             <xsl:value-of select="."/>
         </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="ebucore:fileByteSize" mode="element-prop">
+        <ebucore-fileByteSize>
+            <xsl:attribute name="unit">bytes</xsl:attribute>
+            <xsl:value-of select="."/>
+        </ebucore-fileByteSize>
     </xsl:template>
     
     <!--
