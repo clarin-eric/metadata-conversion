@@ -34,12 +34,16 @@
     xmlns:ore="http://www.openarchives.org/ore/terms/"
     xmlns:cc="http://creativecommons.org/ns#"
     xmlns:odrl="http://www.w3.org/ns/odrl/2/"
+    xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/"
+    xmlns:svcs="http://rdfs.org/sioc/services#"
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
     xmlns:cmd="http://www.clarin.eu/cmd/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:func="http://www.clarin.eu/cmd/conversion/edm-cmd"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
-    exclude-result-prefixes="xs owl rdf skos wgs84_pos dc dcterms ore cc odrl edm func"
+    exclude-result-prefixes="xs owl rdf skos wgs84_pos dc dcterms ore cc odrl ebucore foaf rdaGr2 svcs edm func"
     version="2.0">
     
     <xsl:output method="xml" indent="yes" />
@@ -511,6 +515,10 @@
             <func:entry key="http://www.openarchives.org/ore/terms/">ore</func:entry>
             <func:entry key="http://creativecommons.org/ns#">cc</func:entry>
             <func:entry key="http://www.w3.org/ns/odrl/2/">odrl</func:entry>
+            <func:entry key="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#">ebucore</func:entry>
+            <func:entry key="http://xmlns.com/foaf/0.1/">foaf</func:entry>
+            <func:entry key="http://rdvocab.info/ElementsGr2/">rdaGr2</func:entry>
+            <func:entry key="http://rdfs.org/sioc/services#">svcs</func:entry>            
         </xsl:variable>
         
         <xsl:variable name="prefix" select="$ns-prefix-map/func:entry[@key = string($ns)]"/>
