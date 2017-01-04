@@ -2179,6 +2179,9 @@
                 <Attribute name="proxyIn" ValueScheme="anyURI" Required="true">
                     <Documentation>Identifier of the Aggregation object this proxy belongs to</Documentation>
                 </Attribute>
+                <Attribute name="edm-europeanaProxy" ValueScheme="boolean">
+                    <Documentation>This property serves only as a flag to indicate that a proxy is a Europeana proxy (as opposed to a provider proxy). It is for internal use only.</Documentation>
+                </Attribute>
             </AttributeList>
             <Component name="edm-ProvidedCHO" ComponentRef="clarin.eu:cr1:c_1475136016211" ConceptLink="http://hdl.handle.net/11459/CCR_C-6248_a1248ec1-67d5-6424-4c70-eb78d2b6c133" CardinalityMin="1" CardinalityMax="1">
                 <AttributeList>
@@ -5951,11 +5954,1798 @@
                     <Documentation>The identifier of the source object</Documentation>
                 </Attribute>
             </AttributeList>
-            <Element name="edm-collectionName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6832_3f1d39bf-ed03-4f05-6b6c-f28cc0e268ed" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+            <Element name="edm-collectionName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5178_36271765-7197-42fe-807c-ee32e8be8819" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                <Documentation>This property holds the collection identifier given to the dataset in Europeana (DEPRECATED)</Documentation>
+            </Element>
+            <Element name="edm-datasetName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5178_36271765-7197-42fe-807c-ee32e8be8819" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                <Documentation>This property holds the identifier given to the dataset in Europeana</Documentation>
+            </Element>
             <Element name="edm-country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                 <Documentation></Documentation>
             </Element>
             <Element name="edm-language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <Component name="dc-creator" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                    <Documentation>dc-creator literal</Documentation>
+                </Element>
+                <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                    <AttributeList>
+                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                    </AttributeList>
+                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>The preferred form of the name of the agent</Documentation>
+                    </Element>
+                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>Alternative forms of the name of the agent</Documentation>
+                    </Element>
+                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                    <Element name="dc-identifier" ConceptLink="http://purl.org/dc/elements/1.1/identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>An identifier of the agent.</Documentation>
+                    </Element>
+                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                <Documentation>Reference to an Agent that is part of the Agent being described (e.g. a part of a corporation).</Documentation>
+                            </Attribute>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ConceptLink="" ValueScheme="string">
+                                <Documentation>Reference to an agent that the described agent is part of. </Documentation>
+                            </Attribute>
+                        </AttributeList>
+                    </Element>
+                    <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The date the agent was born/established.</Documentation>
+                    </Element>
+                    <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The date the agent died/terminated. </Documentation>
+                    </Element>
+                    <Element name="edm-isRelatedTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                <Documentation>Reference to other entities, particularly other agents, with whom the agent is related in a generic sense. </Documentation>
+                            </Attribute>
+                        </AttributeList>
+                    </Element>
+                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Component name="dc-date" ConceptLink="http://purl.org/dc/elements/1.1/date" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>dc:date container</Documentation>
+                        <Element name="dc-date" ConceptLink="http://purl.org/dc/elements/1.1/date" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dc:date literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Information relating to the timespan or period.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan started.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan finished.</Documentation>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a timespan</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="edm-hasMet" CardinalityMin="0" CardinalityMax="unbounded">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
+                        <Component name="edm-Place" ComponentRef="clarin.eu:cr1:c_1475136016213" ConceptLink="http://hdl.handle.net/11459/CCR_C-6255_bbbfe10d-83d1-185c-ec65-3e8ed033af02" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="wgs84_pos-lat" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The latitude of a spatial thing (decimal degrees).</Documentation>
+                            </Element>
+                            <Element name="wgs84_pos-long" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The longitude of a spatial thing (decimal degrees).</Documentation>
+                            </Element>
+                            <Element name="wgs84_pos-alt" ConceptLink="http://hdl.handle.net/11459/CCR_C-6831_b35d8a30-b199-f4a5-b0ef-c3dfa2ba1d59" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The altitude of a spatial thing (decimal metres above the reference)</Documentation>
+                            </Element>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the place</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the place</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a place that is part of the place being described.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a place that the described place is part of.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Information relating to the timespan or period.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan started.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan finished.</Documentation>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a timespan</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                        <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the concept</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the concept</Documentation>
+                            </Element>
+                            <Element name="skos-broader" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ConceptLink="" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The identifier of a broader concept in the same thesaurus or controlled vocabulary. </Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="skos-narrower" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation></Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The identifier of a narrower concept.</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="skos-related" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>The identifier of a related concept.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                            <Element name="skos-notation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                                <Documentation>The notation in which the concept is represented.</Documentation>
+                            </Element>
+                            <Element name="skos-inScheme" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a concept scheme</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="edm-hasView" CardinalityMin="0" CardinalityMax="unbounded">
+                <Documentation>A web resource which is a digital representation of the CHO. This may be the source object itself in the case of a born digital cultural heritage object</Documentation>
+                <Component name="edm-WebResource" ComponentRef="clarin.eu:cr1:c_1475136016216" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:description literal</Documentation>
+                    </Element>
+                    <Element name="dc-format" ConceptLink="http://purl.org/dc/elements/1.1/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:format literal (e.g. mime type; use the value "3D-PDF" if appropriate)</Documentation>
+                    </Element>
+                    <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:rights literal</Documentation>
+                    </Element>
+                    <Element name="dc-source" ConceptLink="http://purl.org/dc/elements/1.1/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:source literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:conformsTo literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:extent literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A resource that is included either physically or logically in the web resource. </Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="string" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isFormatOf" ConceptLink="http://purl.org/dc/terms/isFormatOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Another resource that is substantially the same as the web resource but in another format. </Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A resource in which the WebResource is physically or logically included.</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="edm-isNextInSequence" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Where one CHO has several web resources, shown by multiple instances of the edm:hasView property on the  ore:Aggregation this property can be used to show the sequence of the objects.</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Another web representation of the same resource</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Creator of the web resource</Documentation>
+                        <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dc-creator literal</Documentation>
+                        </Element>
+                        <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                            <Element name="dc-identifier" ConceptLink="http://purl.org/dc/elements/1.1/identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>An identifier of the agent.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>Reference to an Agent that is part of the Agent being described (e.g. a part of a corporation).</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ConceptLink="" ValueScheme="string">
+                                        <Documentation>Reference to an agent that the described agent is part of. </Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The date the agent was born/established.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The date the agent died/terminated. </Documentation>
+                            </Element>
+                            <Element name="edm-isRelatedTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>Reference to other entities, particularly other agents, with whom the agent is related in a generic sense. </Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Component name="dc-date" ConceptLink="http://purl.org/dc/elements/1.1/date" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>dc:date container</Documentation>
+                                <Element name="dc-date" ConceptLink="http://purl.org/dc/elements/1.1/date" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                    <Documentation>dc:date literal</Documentation>
+                                </Element>
+                                <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Information relating to the timespan or period.</Documentation>
+                                    </Element>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan started.</Documentation>
+                                    </Element>
+                                    <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan finished.</Documentation>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a timespan</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                            </Component>
+                            <Component name="edm-hasMet" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
+                                <Component name="edm-Place" ComponentRef="clarin.eu:cr1:c_1475136016213" ConceptLink="http://hdl.handle.net/11459/CCR_C-6255_bbbfe10d-83d1-185c-ec65-3e8ed033af02" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="wgs84_pos-lat" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The latitude of a spatial thing (decimal degrees).</Documentation>
+                                    </Element>
+                                    <Element name="wgs84_pos-long" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The longitude of a spatial thing (decimal degrees).</Documentation>
+                                    </Element>
+                                    <Element name="wgs84_pos-alt" ConceptLink="http://hdl.handle.net/11459/CCR_C-6831_b35d8a30-b199-f4a5-b0ef-c3dfa2ba1d59" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The altitude of a spatial thing (decimal metres above the reference)</Documentation>
+                                    </Element>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the place</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the place</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a place that is part of the place being described.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a place that the described place is part of.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                                <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Information relating to the timespan or period.</Documentation>
+                                    </Element>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan started.</Documentation>
+                                    </Element>
+                                    <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan finished.</Documentation>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a timespan</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                                <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the concept</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the concept</Documentation>
+                                    </Element>
+                                    <Element name="skos-broader" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ConceptLink="" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The identifier of a broader concept in the same thesaurus or controlled vocabulary. </Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-narrower" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation></Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The identifier of a narrower concept.</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-related" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>The identifier of a related concept.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                                    <Element name="skos-notation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                                        <Documentation>The notation in which the concept is represented.</Documentation>
+                                    </Element>
+                                    <Element name="skos-inScheme" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a concept scheme</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:created literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Information relating to the timespan or period.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan started.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan finished.</Documentation>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a timespan</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>dcterms:issued container</Documentation>
+                        <Element name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:issued literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Information relating to the timespan or period.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan started.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan finished.</Documentation>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a timespan</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="edm-rights" ComponentRef="clarin.eu:cr1:c_1475136016220" ConceptLink="http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                        <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="odrl-inheritFrom" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation></Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation></Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="edm-isShownBy" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>A web view of the object on the provider’s web site in the best available resolution/quality</Documentation>
+                <Component name="edm-WebResource" ComponentRef="clarin.eu:cr1:c_1475136016216" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:description literal</Documentation>
+                    </Element>
+                    <Element name="dc-format" ConceptLink="http://purl.org/dc/elements/1.1/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:format literal (e.g. mime type; use the value "3D-PDF" if appropriate)</Documentation>
+                    </Element>
+                    <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:rights literal</Documentation>
+                    </Element>
+                    <Element name="dc-source" ConceptLink="http://purl.org/dc/elements/1.1/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:source literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:conformsTo literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:extent literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A resource that is included either physically or logically in the web resource. </Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="string" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isFormatOf" ConceptLink="http://purl.org/dc/terms/isFormatOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Another resource that is substantially the same as the web resource but in another format. </Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A resource in which the WebResource is physically or logically included.</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="edm-isNextInSequence" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Where one CHO has several web resources, shown by multiple instances of the edm:hasView property on the  ore:Aggregation this property can be used to show the sequence of the objects.</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Another web representation of the same resource</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Creator of the web resource</Documentation>
+                        <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dc-creator literal</Documentation>
+                        </Element>
+                        <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                            <Element name="dc-identifier" ConceptLink="http://purl.org/dc/elements/1.1/identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>An identifier of the agent.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>Reference to an Agent that is part of the Agent being described (e.g. a part of a corporation).</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ConceptLink="" ValueScheme="string">
+                                        <Documentation>Reference to an agent that the described agent is part of. </Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The date the agent was born/established.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The date the agent died/terminated. </Documentation>
+                            </Element>
+                            <Element name="edm-isRelatedTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>Reference to other entities, particularly other agents, with whom the agent is related in a generic sense. </Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Component name="dc-date" ConceptLink="http://purl.org/dc/elements/1.1/date" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>dc:date container</Documentation>
+                                <Element name="dc-date" ConceptLink="http://purl.org/dc/elements/1.1/date" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                    <Documentation>dc:date literal</Documentation>
+                                </Element>
+                                <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Information relating to the timespan or period.</Documentation>
+                                    </Element>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan started.</Documentation>
+                                    </Element>
+                                    <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan finished.</Documentation>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a timespan</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                            </Component>
+                            <Component name="edm-hasMet" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
+                                <Component name="edm-Place" ComponentRef="clarin.eu:cr1:c_1475136016213" ConceptLink="http://hdl.handle.net/11459/CCR_C-6255_bbbfe10d-83d1-185c-ec65-3e8ed033af02" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="wgs84_pos-lat" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The latitude of a spatial thing (decimal degrees).</Documentation>
+                                    </Element>
+                                    <Element name="wgs84_pos-long" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The longitude of a spatial thing (decimal degrees).</Documentation>
+                                    </Element>
+                                    <Element name="wgs84_pos-alt" ConceptLink="http://hdl.handle.net/11459/CCR_C-6831_b35d8a30-b199-f4a5-b0ef-c3dfa2ba1d59" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The altitude of a spatial thing (decimal metres above the reference)</Documentation>
+                                    </Element>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the place</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the place</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a place that is part of the place being described.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a place that the described place is part of.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                                <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Information relating to the timespan or period.</Documentation>
+                                    </Element>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan started.</Documentation>
+                                    </Element>
+                                    <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan finished.</Documentation>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a timespan</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                                <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the concept</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the concept</Documentation>
+                                    </Element>
+                                    <Element name="skos-broader" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ConceptLink="" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The identifier of a broader concept in the same thesaurus or controlled vocabulary. </Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-narrower" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation></Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The identifier of a narrower concept.</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-related" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>The identifier of a related concept.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                                    <Element name="skos-notation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                                        <Documentation>The notation in which the concept is represented.</Documentation>
+                                    </Element>
+                                    <Element name="skos-inScheme" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a concept scheme</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:created literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Information relating to the timespan or period.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan started.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan finished.</Documentation>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a timespan</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>dcterms:issued container</Documentation>
+                        <Element name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:issued literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Information relating to the timespan or period.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan started.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan finished.</Documentation>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a timespan</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="edm-rights" ComponentRef="clarin.eu:cr1:c_1475136016220" ConceptLink="http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                        <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="odrl-inheritFrom" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation></Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation></Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="edm-landingPage" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>Web resource giving access to the object</Documentation>
+                <Component name="edm-WebResource" ComponentRef="clarin.eu:cr1:c_1475136016216" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:description literal</Documentation>
+                    </Element>
+                    <Element name="dc-format" ConceptLink="http://purl.org/dc/elements/1.1/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:format literal (e.g. mime type; use the value "3D-PDF" if appropriate)</Documentation>
+                    </Element>
+                    <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:rights literal</Documentation>
+                    </Element>
+                    <Element name="dc-source" ConceptLink="http://purl.org/dc/elements/1.1/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:source literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:conformsTo literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:extent literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A resource that is included either physically or logically in the web resource. </Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="string" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isFormatOf" ConceptLink="http://purl.org/dc/terms/isFormatOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Another resource that is substantially the same as the web resource but in another format. </Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A resource in which the WebResource is physically or logically included.</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="edm-isNextInSequence" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Where one CHO has several web resources, shown by multiple instances of the edm:hasView property on the  ore:Aggregation this property can be used to show the sequence of the objects.</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Another web representation of the same resource</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Creator of the web resource</Documentation>
+                        <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dc-creator literal</Documentation>
+                        </Element>
+                        <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                            <Element name="dc-identifier" ConceptLink="http://purl.org/dc/elements/1.1/identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>An identifier of the agent.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>Reference to an Agent that is part of the Agent being described (e.g. a part of a corporation).</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ConceptLink="" ValueScheme="string">
+                                        <Documentation>Reference to an agent that the described agent is part of. </Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The date the agent was born/established.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The date the agent died/terminated. </Documentation>
+                            </Element>
+                            <Element name="edm-isRelatedTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>Reference to other entities, particularly other agents, with whom the agent is related in a generic sense. </Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Component name="dc-date" ConceptLink="http://purl.org/dc/elements/1.1/date" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>dc:date container</Documentation>
+                                <Element name="dc-date" ConceptLink="http://purl.org/dc/elements/1.1/date" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                    <Documentation>dc:date literal</Documentation>
+                                </Element>
+                                <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Information relating to the timespan or period.</Documentation>
+                                    </Element>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan started.</Documentation>
+                                    </Element>
+                                    <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan finished.</Documentation>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a timespan</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                            </Component>
+                            <Component name="edm-hasMet" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
+                                <Component name="edm-Place" ComponentRef="clarin.eu:cr1:c_1475136016213" ConceptLink="http://hdl.handle.net/11459/CCR_C-6255_bbbfe10d-83d1-185c-ec65-3e8ed033af02" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="wgs84_pos-lat" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The latitude of a spatial thing (decimal degrees).</Documentation>
+                                    </Element>
+                                    <Element name="wgs84_pos-long" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The longitude of a spatial thing (decimal degrees).</Documentation>
+                                    </Element>
+                                    <Element name="wgs84_pos-alt" ConceptLink="http://hdl.handle.net/11459/CCR_C-6831_b35d8a30-b199-f4a5-b0ef-c3dfa2ba1d59" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The altitude of a spatial thing (decimal metres above the reference)</Documentation>
+                                    </Element>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the place</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the place</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a place that is part of the place being described.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a place that the described place is part of.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                                <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Information relating to the timespan or period.</Documentation>
+                                    </Element>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan started.</Documentation>
+                                    </Element>
+                                    <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan finished.</Documentation>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a timespan</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                                <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the concept</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the concept</Documentation>
+                                    </Element>
+                                    <Element name="skos-broader" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ConceptLink="" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The identifier of a broader concept in the same thesaurus or controlled vocabulary. </Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-narrower" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation></Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The identifier of a narrower concept.</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-related" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>The identifier of a related concept.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                                    <Element name="skos-notation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                                        <Documentation>The notation in which the concept is represented.</Documentation>
+                                    </Element>
+                                    <Element name="skos-inScheme" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a concept scheme</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:created literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Information relating to the timespan or period.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan started.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan finished.</Documentation>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a timespan</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>dcterms:issued container</Documentation>
+                        <Element name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:issued literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Information relating to the timespan or period.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan started.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan finished.</Documentation>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a timespan</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="edm-rights" ComponentRef="clarin.eu:cr1:c_1475136016220" ConceptLink="http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                        <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="odrl-inheritFrom" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation></Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation></Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="edm-preview" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>A thumbnail representing the digital object</Documentation>
+                <Component name="edm-WebResource" ComponentRef="clarin.eu:cr1:c_1475136016216" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:description literal</Documentation>
+                    </Element>
+                    <Element name="dc-format" ConceptLink="http://purl.org/dc/elements/1.1/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                        <Documentation>dc:format literal (e.g. mime type; use the value "3D-PDF" if appropriate)</Documentation>
+                    </Element>
+                    <Element name="dc-rights" ConceptLink="http://purl.org/dc/elements/1.1/rights" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:rights literal</Documentation>
+                    </Element>
+                    <Element name="dc-source" ConceptLink="http://purl.org/dc/elements/1.1/source" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dc:source literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:conformsTo literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                        <Documentation>dcterms:extent literal</Documentation>
+                    </Element>
+                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A resource that is included either physically or logically in the web resource. </Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="string" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isFormatOf" ConceptLink="http://purl.org/dc/terms/isFormatOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Another resource that is substantially the same as the web resource but in another format. </Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A resource in which the WebResource is physically or logically included.</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="dcterms-isReferencedBy" ConceptLink="http://purl.org/dc/terms/isReferencedBy" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="edm-isNextInSequence" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Where one CHO has several web resources, shown by multiple instances of the edm:hasView property on the  ore:Aggregation this property can be used to show the sequence of the objects.</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Another web representation of the same resource</Documentation>
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6843_719d5da1-33c6-2f1c-6a61-3f5b260dcfae" ValueScheme="anyURI" Required="true"/>
+                        </AttributeList>
+                    </Element>
+                    <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Creator of the web resource</Documentation>
+                        <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dc-creator literal</Documentation>
+                        </Element>
+                        <Component name="edm-Agent" ComponentRef="clarin.eu:cr1:c_1475136016212" ConceptLink="http://hdl.handle.net/11459/CCR_C-5446_9ea1ba83-090b-451e-3ee7-6a81ecaf07ac" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the agent</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                            <Element name="dc-identifier" ConceptLink="http://purl.org/dc/elements/1.1/identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>An identifier of the agent.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>Reference to an Agent that is part of the Agent being described (e.g. a part of a corporation).</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ConceptLink="" ValueScheme="string">
+                                        <Documentation>Reference to an agent that the described agent is part of. </Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The date the agent was born/established.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The date the agent died/terminated. </Documentation>
+                            </Element>
+                            <Element name="edm-isRelatedTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>Reference to other entities, particularly other agents, with whom the agent is related in a generic sense. </Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Component name="dc-date" ConceptLink="http://purl.org/dc/elements/1.1/date" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>dc:date container</Documentation>
+                                <Element name="dc-date" ConceptLink="http://purl.org/dc/elements/1.1/date" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                    <Documentation>dc:date literal</Documentation>
+                                </Element>
+                                <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Information relating to the timespan or period.</Documentation>
+                                    </Element>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan started.</Documentation>
+                                    </Element>
+                                    <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan finished.</Documentation>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a timespan</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                            </Component>
+                            <Component name="edm-hasMet" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
+                                <Component name="edm-Place" ComponentRef="clarin.eu:cr1:c_1475136016213" ConceptLink="http://hdl.handle.net/11459/CCR_C-6255_bbbfe10d-83d1-185c-ec65-3e8ed033af02" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="wgs84_pos-lat" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The latitude of a spatial thing (decimal degrees).</Documentation>
+                                    </Element>
+                                    <Element name="wgs84_pos-long" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The longitude of a spatial thing (decimal degrees).</Documentation>
+                                    </Element>
+                                    <Element name="wgs84_pos-alt" ConceptLink="http://hdl.handle.net/11459/CCR_C-6831_b35d8a30-b199-f4a5-b0ef-c3dfa2ba1d59" ValueScheme="float" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The altitude of a spatial thing (decimal metres above the reference)</Documentation>
+                                    </Element>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the place</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the place</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a place that is part of the place being described.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a place that the described place is part of.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                                <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Information relating to the timespan or period.</Documentation>
+                                    </Element>
+                                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan started.</Documentation>
+                                    </Element>
+                                    <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The date the timespan finished.</Documentation>
+                                    </Element>
+                                    <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a timespan</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                                <Component name="skos-Concept" ComponentRef="clarin.eu:cr1:c_1475136016215" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                                    </AttributeList>
+                                    <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>The preferred form of the name of the concept</Documentation>
+                                    </Element>
+                                    <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                        <Documentation>Alternative forms of the name of the concept</Documentation>
+                                    </Element>
+                                    <Element name="skos-broader" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ConceptLink="" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The identifier of a broader concept in the same thesaurus or controlled vocabulary. </Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-narrower" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation></Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The identifier of a narrower concept.</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-related" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>The identifier of a related concept.</Documentation>
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                        </AttributeList>
+                                    </Element>
+                                    <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                                    <Element name="skos-notation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                                        <Documentation>The notation in which the concept is represented.</Documentation>
+                                    </Element>
+                                    <Element name="skos-inScheme" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <AttributeList>
+                                            <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                                <Documentation>The URI of a concept scheme</Documentation>
+                                            </Attribute>
+                                        </AttributeList>
+                                    </Element>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="dcterms-created" ConceptLink="http://purl.org/dc/terms/created" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:created literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Information relating to the timespan or period.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan started.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan finished.</Documentation>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a timespan</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>dcterms:issued container</Documentation>
+                        <Element name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>dcterms:issued literal</Documentation>
+                        </Element>
+                        <Component name="edm-TimeSpan" ComponentRef="clarin.eu:cr1:c_1475136016214" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="skos-prefLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>The preferred form of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-altLabel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Alternative forms of the name of the timespan or period</Documentation>
+                            </Element>
+                            <Element name="skos-note" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>Information relating to the timespan or period.</Documentation>
+                            </Element>
+                            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan which is part of the described timespan.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="dcterms-isPartOf" ConceptLink="http://purl.org/dc/terms/isPartOf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>Reference to a timespan of which the described timespan is a part.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="edm-begin" ConceptLink="http://hdl.handle.net/11459/CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan started.</Documentation>
+                            </Element>
+                            <Element name="edm-end" ConceptLink="http://hdl.handle.net/11459/CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The date the timespan finished.</Documentation>
+                            </Element>
+                            <Element name="owl-sameAs" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true">
+                                        <Documentation>The URI of a timespan</Documentation>
+                                    </Attribute>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="edm-rights" ComponentRef="clarin.eu:cr1:c_1475136016220" ConceptLink="http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
+                        <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-about" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI"/>
+                            </AttributeList>
+                            <Element name="odrl-inheritFrom" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation></Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="cc-deprecatedOn" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation></Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-datatype" ValueScheme="anyURI"/>
+                                </AttributeList>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
             <Component name="edm-rights" ComponentRef="clarin.eu:cr1:c_1475136016220" ConceptLink="http://hdl.handle.net/11459/CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3" CardinalityMin="0" CardinalityMax="unbounded">
                 <Element name="rightsURI" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1"/>
                 <Component name="cc-License" ComponentRef="clarin.eu:cr1:c_1475136016218" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">

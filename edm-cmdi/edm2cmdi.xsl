@@ -84,6 +84,9 @@
                 <xsl:when test="ore:Proxy/dcterms:isPartOf[normalize-space(.) != '']">
                     <xsl:value-of select="ore:Proxy/dcterms:isPartOf[normalize-space(.) != ''][1]"/>
                 </xsl:when>
+                <xsl:when test="//edm:EuropeanaAggregation/edm:datasetName">
+                    <xsl:value-of select="//edm:EuropeanaAggregation/edm:datasetName"/>
+                </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of  select="//edm:EuropeanaAggregation/edm:collectionName" />
                 </xsl:otherwise>
@@ -134,7 +137,7 @@
     
     <xsl:template match="edm:landingPage" mode="resources">
         <xsl:if test="normalize-space(@rdf:resource) != ''">
-            <cmd:ResourceProxy id="{concat('landingPage_', generate-id(.))}">
+            <cmd:ResourceProxy id="{func:landingPageProxyId(.)}">
                 <cmd:ResourceType>LandingPage</cmd:ResourceType>
                 <cmd:ResourceRef><xsl:value-of select="@rdf:resource"/></cmd:ResourceRef>
             </cmd:ResourceProxy>
@@ -288,7 +291,7 @@
         </edm-Aggregation>
     </xsl:template>
     
-    <xsl:template match="edm:hasView|edm:isShownAt|edm:isShownBy|edm:object">
+    <xsl:template match="edm:hasView|edm:isShownAt|edm:isShownBy|edm:object|edm:preview">
         <xsl:variable name="targetWebResource" select="@rdf:resource"/>
         <xsl:element name="{func:get-cmd-name(.)}">
             <xsl:choose>
@@ -303,11 +306,25 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="edm:landingPage">
+        <xsl:element name="edm-landingPage">
+            <xsl:attribute name="cmd:ref" select="func:landingPageProxyId(.)" />
+        </xsl:element>
+    </xsl:template>
+    
     <xsl:template match="edm:EuropeanaAggregation">
         <edm-EuropeanaAggregation  rdf-about="{@rdf:about}" aggregatedCHO="{edm:aggregatedCHO/@rdf:resource}">
             <xsl:apply-templates select="edm:collectionName" mode="element-prop" />
+            <xsl:apply-templates select="edm:datasetName" mode="element-prop" />
             <xsl:apply-templates select="edm:country" mode="element-prop" />
             <xsl:apply-templates select="edm:language" mode="element-prop" />
+            <xsl:apply-templates select="dc:creator"  mode="component-prop" />
+            
+            <xsl:apply-templates select="edm:hasView" />
+            <xsl:apply-templates select="edm:isShownBy" />
+            <xsl:apply-templates select="edm:landingPage" />
+            <xsl:apply-templates select="edm:preview" />
+            
             <xsl:apply-templates select="edm:rights" />
         </edm-EuropeanaAggregation>
     </xsl:template>
@@ -533,10 +550,15 @@
         </xsl:choose>
         
     </xsl:function>
-
+    
     <xsl:function name="func:webResourceProxyId">
         <xsl:param name="webResouce" />
         <xsl:value-of select="concat('webResource_', generate-id($webResouce))"/>
+    </xsl:function>
+    
+    <xsl:function name="func:landingPageProxyId">
+        <xsl:param name="webResouce" />
+        <xsl:value-of select="concat('landingPage_', generate-id($webResouce))"/>
     </xsl:function>
 
     <xsl:function name="func:nodeResourceProxyId">
