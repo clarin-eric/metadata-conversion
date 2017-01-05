@@ -15,9 +15,15 @@
             </AttributeList>
             <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                 <Documentation>A description of the CHO</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
             </Element>
             <Element name="dc-format" ConceptLink="http://purl.org/dc/elements/1.1/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                 <Documentation>Use for the terms generally applied to indicate the format of the cultural heritage object or the file format of  a born digital object. Use the value “3DVPDF” if appropriate.</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
             </Element>
             <Element name="dc-identifier" ConceptLink="http://purl.org/dc/elements/1.1/identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                 <Documentation>An identifier of the original CHO</Documentation>
@@ -57,6 +63,9 @@
             </Element>
             <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                 <Documentation>The size or duration of the CHO.</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
             </Element>
             <Element name="dcterms-hasVersion" ConceptLink="http://purl.org/dc/terms/hasVersion" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                 <Documentation>Another, later resource that is a version, edition or adaptation of the CHO demonstrating substantive changes  in content rather than format. </Documentation>
@@ -102,12 +111,21 @@
             </Element>
             <Element name="dcterms-medium" ConceptLink="http://purl.org/dc/terms/medium" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                 <Documentation>The material or physical carrier of the CHO</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
             </Element>
             <Element name="dcterms-provenance" ConceptLink="http://purl.org/dc/terms/provenance" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                 <Documentation>A statement of changes in ownership and custody of the CHO since its creation. Significant for authenticity,  integrity and interpretation. </Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
             </Element>
             <Element name="dcterms-references" ConceptLink="http://purl.org/dc/terms/references" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                 <Documentation>Other resources referenced, cited or otherwise pointed to by the CHO.</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
             </Element>
             <Element name="dcterms-replaces" ConceptLink="http://purl.org/dc/terms/replaces" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                 <Documentation>A related resource that is supplanted, displaced, or superseded by the CHO. </Documentation>
@@ -123,6 +141,9 @@
             </Element>
             <Element name="dcterms-tableOfContents" ConceptLink="http://purl.org/dc/terms/tableOfContents" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                 <Documentation>A list of sub-units of the CHO. </Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
             </Element>
             <Element name="edm-incorporates" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>The identifier of another resource that is incorporated in the described CHO.</Documentation>
@@ -431,6 +452,9 @@
                         </Component>
                     </Component>
                     <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
                         <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                         </Element>
@@ -474,6 +498,9 @@
                         </Component>
                     </Component>
                     <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
                         <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                         </Element>
@@ -831,6 +858,9 @@
                         </Component>
                     </Component>
                     <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
                         <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                         </Element>
@@ -874,6 +904,9 @@
                         </Component>
                     </Component>
                     <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
                         <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                         </Element>
@@ -1193,6 +1226,9 @@
                         </Component>
                     </Component>
                     <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
                         <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                         </Element>
@@ -1236,6 +1272,9 @@
                         </Component>
                     </Component>
                     <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
                         <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                         </Element>
@@ -1750,6 +1789,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                                 </Element>
@@ -1793,6 +1835,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                                 </Element>
@@ -2387,6 +2432,9 @@
                         </Component>
                     </Component>
                     <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
                         <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                         </Element>
@@ -2430,6 +2478,9 @@
                         </Component>
                     </Component>
                     <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
                         <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                         </Element>
@@ -2715,9 +2766,15 @@
                 </AttributeList>
                 <Element name="dc-description" ConceptLink="http://purl.org/dc/elements/1.1/description" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                     <Documentation>A description of the CHO</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
                 </Element>
                 <Element name="dc-format" ConceptLink="http://purl.org/dc/elements/1.1/format" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                     <Documentation>Use for the terms generally applied to indicate the format of the cultural heritage object or the file format of  a born digital object. Use the value “3DVPDF” if appropriate.</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
                 </Element>
                 <Element name="dc-identifier" ConceptLink="http://purl.org/dc/elements/1.1/identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                     <Documentation>An identifier of the original CHO</Documentation>
@@ -2757,6 +2814,9 @@
                 </Element>
                 <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                     <Documentation>The size or duration of the CHO.</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
                 </Element>
                 <Element name="dcterms-hasVersion" ConceptLink="http://purl.org/dc/terms/hasVersion" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                     <Documentation>Another, later resource that is a version, edition or adaptation of the CHO demonstrating substantive changes  in content rather than format. </Documentation>
@@ -2802,12 +2862,21 @@
                 </Element>
                 <Element name="dcterms-medium" ConceptLink="http://purl.org/dc/terms/medium" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                     <Documentation>The material or physical carrier of the CHO</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
                 </Element>
                 <Element name="dcterms-provenance" ConceptLink="http://purl.org/dc/terms/provenance" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                     <Documentation>A statement of changes in ownership and custody of the CHO since its creation. Significant for authenticity,  integrity and interpretation. </Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
                 </Element>
                 <Element name="dcterms-references" ConceptLink="http://purl.org/dc/terms/references" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                     <Documentation>Other resources referenced, cited or otherwise pointed to by the CHO.</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
                 </Element>
                 <Element name="dcterms-replaces" ConceptLink="http://purl.org/dc/terms/replaces" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                     <Documentation>A related resource that is supplanted, displaced, or superseded by the CHO. </Documentation>
@@ -2823,6 +2892,9 @@
                 </Element>
                 <Element name="dcterms-tableOfContents" ConceptLink="http://purl.org/dc/terms/tableOfContents" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                     <Documentation>A list of sub-units of the CHO. </Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
                 </Element>
                 <Element name="edm-incorporates" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                     <Documentation>The identifier of another resource that is incorporated in the described CHO.</Documentation>
@@ -3131,6 +3203,9 @@
                             </Component>
                         </Component>
                         <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                            </AttributeList>
                             <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                             </Element>
@@ -3174,6 +3249,9 @@
                             </Component>
                         </Component>
                         <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                            </AttributeList>
                             <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                             </Element>
@@ -3531,6 +3609,9 @@
                             </Component>
                         </Component>
                         <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                            </AttributeList>
                             <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                             </Element>
@@ -3574,6 +3655,9 @@
                             </Component>
                         </Component>
                         <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                            </AttributeList>
                             <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                             </Element>
@@ -3893,6 +3977,9 @@
                             </Component>
                         </Component>
                         <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                            </AttributeList>
                             <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                             </Element>
@@ -3936,6 +4023,9 @@
                             </Component>
                         </Component>
                         <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                            </AttributeList>
                             <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                             </Element>
@@ -4450,6 +4540,9 @@
                                     </Component>
                                 </Component>
                                 <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                    </AttributeList>
                                     <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                         <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                                     </Element>
@@ -4493,6 +4586,9 @@
                                     </Component>
                                 </Component>
                                 <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                    <AttributeList>
+                                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                    </AttributeList>
                                     <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                         <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                                     </Element>
@@ -5087,6 +5183,9 @@
                             </Component>
                         </Component>
                         <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                            </AttributeList>
                             <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                             </Element>
@@ -5130,6 +5229,9 @@
                             </Component>
                         </Component>
                         <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                            </AttributeList>
                             <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                 <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                             </Element>
@@ -5735,6 +5837,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                                 </Element>
@@ -5778,6 +5883,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                                 </Element>
@@ -6273,6 +6381,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                                 </Element>
@@ -6316,6 +6427,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                                 </Element>
@@ -6811,6 +6925,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                                 </Element>
@@ -6854,6 +6971,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                                 </Element>
@@ -7349,6 +7469,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                                 </Element>
@@ -7392,6 +7515,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                                 </Element>
@@ -7833,6 +7959,9 @@
                         </Component>
                     </Component>
                     <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
                         <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                         </Element>
@@ -7876,6 +8005,9 @@
                         </Component>
                     </Component>
                     <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                        <AttributeList>
+                            <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                        </AttributeList>
                         <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                             <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                         </Element>
@@ -8241,6 +8373,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                                 </Element>
@@ -8284,6 +8419,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                                 </Element>
@@ -8779,6 +8917,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                                 </Element>
@@ -8822,6 +8963,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                                 </Element>
@@ -9317,6 +9461,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                                 </Element>
@@ -9360,6 +9507,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                                 </Element>
@@ -9855,6 +10005,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfBirth" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfBirth" ConceptLink="http://hdl.handle.net/11459/CCR_C-6268_30619261-84c3-331e-216c-fa9db668badc" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfBirth literal</Documentation>
                                 </Element>
@@ -9898,6 +10051,9 @@
                                 </Component>
                             </Component>
                             <Component name="rdaGr2-placeOfDeath" ConceptLink="" CardinalityMin="0" CardinalityMax="1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                                </AttributeList>
                                 <Element name="rdaGr2-placeOfDeath" ConceptLink="http://hdl.handle.net/11459/CCR_C-5543_8dceaef3-1489-ed9a-3bab-9459ed8ac96c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                                     <Documentation>rdaGr2:placeOfDeath literal</Documentation>
                                 </Element>
