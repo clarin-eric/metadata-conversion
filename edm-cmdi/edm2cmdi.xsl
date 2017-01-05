@@ -147,7 +147,12 @@
     <xsl:template match="edm:WebResource" mode="resources">
         <xsl:if test="normalize-space(@rdf:about) != ''">
             <cmd:ResourceProxy id="{func:webResourceProxyId(.)}">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceType>
+                    <xsl:if test="ebucore:hasMimeType">
+                        <xsl:attribute name="mimetype" select="ebucore:hasMimeType" />
+                    </xsl:if>
+                    <xsl:text>Resource</xsl:text>
+                </cmd:ResourceType> 
                 <cmd:ResourceRef><xsl:value-of select="@rdf:about"/></cmd:ResourceRef>
             </cmd:ResourceProxy>
         </xsl:if>
