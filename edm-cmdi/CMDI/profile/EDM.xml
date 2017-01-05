@@ -1575,6 +1575,20 @@
                             </Element>
                         </Component>
                     </Component>
+                    <Component name="svcs-Service" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A Service is web service associated with a Site or part of it. The Service class is used to flag a service requiring a specific protocol and profile to be consumed.</Documentation>
+                        <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                        <Element name="doap-implements" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>A specification that a project implements.</Documentation>
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                    </Component>
                 </Component>
             </Component>
             <Component name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" CardinalityMin="0" CardinalityMax="unbounded">
@@ -3791,6 +3805,20 @@
                                 </Element>
                             </Component>
                         </Component>
+                        <Component name="svcs-Service" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Documentation>A Service is web service associated with a Site or part of it. The Service class is used to flag a service requiring a specific protocol and profile to be consumed.</Documentation>
+                            <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                            <Element name="doap-implements" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                                <Documentation>A specification that a project implements.</Documentation>
+                                <AttributeList>
+                                    <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                                </AttributeList>
+                            </Element>
+                        </Component>
                     </Component>
                 </Component>
                 <Component name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" CardinalityMin="0" CardinalityMax="unbounded">
@@ -4874,6 +4902,20 @@
                             </Element>
                         </Component>
                     </Component>
+                    <Component name="svcs-Service" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A Service is web service associated with a Site or part of it. The Service class is used to flag a service requiring a specific protocol and profile to be consumed.</Documentation>
+                        <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                        <Element name="doap-implements" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>A specification that a project implements.</Documentation>
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                    </Component>
                 </Component>
             </Component>
             <Component name="edm-isShownAt" CardinalityMin="0" CardinalityMax="1">
@@ -5303,6 +5345,20 @@
                                 </AttributeList>
                             </Element>
                         </Component>
+                    </Component>
+                    <Component name="svcs-Service" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A Service is web service associated with a Site or part of it. The Service class is used to flag a service requiring a specific protocol and profile to be consumed.</Documentation>
+                        <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                        <Element name="doap-implements" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>A specification that a project implements.</Documentation>
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
                     </Component>
                 </Component>
             </Component>
@@ -5734,6 +5790,20 @@
                             </Element>
                         </Component>
                     </Component>
+                    <Component name="svcs-Service" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A Service is web service associated with a Site or part of it. The Service class is used to flag a service requiring a specific protocol and profile to be consumed.</Documentation>
+                        <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                        <Element name="doap-implements" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>A specification that a project implements.</Documentation>
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                    </Component>
                 </Component>
             </Component>
             <Component name="edm-object" CardinalityMin="0" CardinalityMax="1">
@@ -6163,6 +6233,20 @@
                                 </AttributeList>
                             </Element>
                         </Component>
+                    </Component>
+                    <Component name="svcs-Service" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A Service is web service associated with a Site or part of it. The Service class is used to flag a service requiring a specific protocol and profile to be consumed.</Documentation>
+                        <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                        <Element name="doap-implements" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>A specification that a project implements.</Documentation>
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
                     </Component>
                 </Component>
             </Component>
@@ -6854,6 +6938,20 @@
                             </Element>
                         </Component>
                     </Component>
+                    <Component name="svcs-Service" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A Service is web service associated with a Site or part of it. The Service class is used to flag a service requiring a specific protocol and profile to be consumed.</Documentation>
+                        <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                        <Element name="doap-implements" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>A specification that a project implements.</Documentation>
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                    </Component>
                 </Component>
             </Component>
             <Component name="edm-isShownBy" CardinalityMin="0" CardinalityMax="1">
@@ -7283,6 +7381,20 @@
                                 </AttributeList>
                             </Element>
                         </Component>
+                    </Component>
+                    <Component name="svcs-Service" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A Service is web service associated with a Site or part of it. The Service class is used to flag a service requiring a specific protocol and profile to be consumed.</Documentation>
+                        <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                        <Element name="doap-implements" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>A specification that a project implements.</Documentation>
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
                     </Component>
                 </Component>
             </Component>
@@ -7714,6 +7826,20 @@
                             </Element>
                         </Component>
                     </Component>
+                    <Component name="svcs-Service" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A Service is web service associated with a Site or part of it. The Service class is used to flag a service requiring a specific protocol and profile to be consumed.</Documentation>
+                        <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                        <Element name="doap-implements" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>A specification that a project implements.</Documentation>
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                    </Component>
                 </Component>
             </Component>
             <Component name="edm-preview" CardinalityMin="0" CardinalityMax="1">
@@ -8143,6 +8269,20 @@
                                 </AttributeList>
                             </Element>
                         </Component>
+                    </Component>
+                    <Component name="svcs-Service" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>A Service is web service associated with a Site or part of it. The Service class is used to flag a service requiring a specific protocol and profile to be consumed.</Documentation>
+                        <Element name="dcterms-conformsTo" ConceptLink="http://purl.org/dc/terms/conformsTo" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
+                        <Element name="doap-implements" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+                            <Documentation>A specification that a project implements.</Documentation>
+                            <AttributeList>
+                                <Attribute name="rdf-resource" ValueScheme="anyURI" Required="true"/>
+                            </AttributeList>
+                        </Element>
                     </Component>
                 </Component>
             </Component>

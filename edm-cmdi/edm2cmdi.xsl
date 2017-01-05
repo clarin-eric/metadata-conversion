@@ -38,12 +38,13 @@
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
     xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/"
     xmlns:svcs="http://rdfs.org/sioc/services#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
     xmlns:cmd="http://www.clarin.eu/cmd/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:func="http://www.clarin.eu/cmd/conversion/edm-cmd"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208"
-    exclude-result-prefixes="xs owl rdf skos wgs84_pos dc dcterms ore cc odrl ebucore foaf rdaGr2 svcs edm func"
+    exclude-result-prefixes="xs owl rdf skos wgs84_pos dc dcterms ore cc odrl ebucore foaf rdaGr2 svcs doap edm func"
     version="2.0">
     
     <xsl:output method="xml" indent="yes" />
@@ -380,7 +381,16 @@
             </xsl:apply-templates>
 
             <xsl:apply-templates select="edm:rights" />
+            <xsl:apply-templates select="svcs:Service" />
         </edm-WebResource>
+    </xsl:template>
+    
+    <xsl:template match="edm:WebResource/svcs:Service">
+        <xsl:variable name="serviceResource" select="//svcs:Service[@rdf:about = current()/@rdf:resource]" />
+        <svcs-Service>
+            <xsl:apply-templates select="$serviceResource/dcterms:conformsTo" mode="element-prop" />
+            <xsl:apply-templates select="$serviceResource/doap:implements" mode="element-prop" />
+        </svcs-Service>
     </xsl:template>
     
     <xsl:template match="edm:rights">
@@ -573,6 +583,7 @@
             <func:entry key="http://xmlns.com/foaf/0.1/">foaf</func:entry>
             <func:entry key="http://rdvocab.info/ElementsGr2/">rdaGr2</func:entry>
             <func:entry key="http://rdfs.org/sioc/services#">svcs</func:entry>            
+            <func:entry key="http://usefulinc.com/ns/doap#">doap</func:entry>
         </xsl:variable>
         
         <xsl:variable name="prefix" select="$ns-prefix-map/func:entry[@key = string($ns)]"/>
