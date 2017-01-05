@@ -527,10 +527,22 @@
             <xsl:apply-templates select="edm:begin" mode="element-prop" />
             <xsl:apply-templates select="edm:end" mode="element-prop" />
             <xsl:apply-templates select="edm:isRelatedTo" mode="element-prop" />
+            
+            <xsl:apply-templates select="foaf:name" mode="element-prop" />
+            <xsl:apply-templates select="rdaGr2:biographicalInformation" mode="element-prop" />
+            <xsl:apply-templates select="rdaGr2:dateOfBirth" mode="element-prop" />
+            <xsl:apply-templates select="rdaGr2:dateOfDeath" mode="element-prop" />
+            <xsl:apply-templates select="rdaGr2:dateOfEstablishment" mode="element-prop" />
+            <xsl:apply-templates select="rdaGr2:dateOfTermination" mode="element-prop" />
+            <xsl:apply-templates select="rdaGr2:gender" mode="element-prop" />
+            <xsl:apply-templates select="rdaGr2:professionOrOccupation" mode="element-prop" />
+            
             <xsl:apply-templates select="owl:sameAs" mode="element-prop" />
             
             <xsl:apply-templates select="dc:date" mode="component-prop" />
             <xsl:apply-templates select="edm:hasMet" mode="component-prop" />            
+            <xsl:apply-templates select="rdaGr2:placeOfBirth" mode="component-prop" />            
+            <xsl:apply-templates select="rdaGr2:placeOfDeath" mode="component-prop" />            
         </edm-Agent>
     </xsl:template>
     
