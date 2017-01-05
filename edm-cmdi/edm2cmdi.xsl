@@ -113,7 +113,7 @@
     
     <!--
         *****************************************************************
-        * RESOURCES SECTION                                             *
+        * RESOURCES SECTION (RESOURCE PROXIES)                          *
         *****************************************************************
     -->
     
@@ -123,7 +123,12 @@
                 <!-- create optional resource proxy for the landing page -->
                 <xsl:apply-templates select="edm:EuropeanaAggregation/edm:landingPage" mode="resources" />
                 <!-- create resource proxies for all WebResources -->
-                <xsl:apply-templates select="edm:WebResource" mode="resources" />
+                <!--    edm:object first -->
+                <xsl:apply-templates select="edm:WebResource[@rdf:about = //edm:object/@rdf:resource]" mode="resources" />
+                <!--    then edm:isShownBy -->
+                <xsl:apply-templates select="edm:WebResource[@rdf:about = //edm:isShownBy/@rdf:resource]" mode="resources" />
+                <!--    others... -->
+                <xsl:apply-templates select="edm:WebResource[not(@rdf:about = (//edm:object|//edm:isShownBy)/@rdf:resource)]" mode="resources" />
                 <!-- create resource proxies based on other resource references that do not reference locally available WebResources (in preferred order) -->
                 <xsl:apply-templates select="//(edm:object)[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
                 <xsl:apply-templates select="//(edm:isShownBy)[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
