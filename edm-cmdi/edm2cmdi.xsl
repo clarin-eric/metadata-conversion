@@ -119,20 +119,29 @@
     
     <xsl:template match="rdf:RDF" mode="resources">
         <cmd:Resources>
+            <!-- Mapping of WebResources and other types of resource references to resource proxies -->
             <cmd:ResourceProxyList>
                 <!-- create optional resource proxy for the landing page -->
                 <xsl:apply-templates select="edm:EuropeanaAggregation/edm:landingPage" mode="resources" />
-                <!-- create resource proxies for all WebResources -->
+                
+                <!-- create resource proxies for WebResources -->
                 <!--    edm:object first -->
                 <xsl:apply-templates select="edm:WebResource[@rdf:about = //edm:object/@rdf:resource]" mode="resources" />
-                <!--    then edm:isShownBy -->
-                <xsl:apply-templates select="edm:WebResource[@rdf:about = //edm:isShownBy/@rdf:resource]" mode="resources" />
+                <!--        cases without local edm:WebResource -->
+                <xsl:apply-templates select="//(edm:object)[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
+                
+                <!--    then edm:isShownBy (exclude those already mapped through edm:object) -->
+                <xsl:apply-templates select="edm:WebResource[@rdf:about = //edm:isShownBy/@rdf:resource and not(@rdf:about = //edm:object/@rdf:resource)]" mode="resources" />
+                <!--        cases without local edm:WebResource -->
+                <xsl:apply-templates select="//(edm:isShownBy)[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
+                
                 <!--    others... -->
                 <xsl:apply-templates select="edm:WebResource[not(@rdf:about = (//edm:object|//edm:isShownBy)/@rdf:resource)]" mode="resources" />
-                <!-- create resource proxies based on other resource references that do not reference locally available WebResources (in preferred order) -->
-                <xsl:apply-templates select="//(edm:object)[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
-                <xsl:apply-templates select="//(edm:isShownBy)[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
-                <xsl:apply-templates select="//(edm:isShownAt|edm:hasView|edm:preview)[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
+                
+                <!-- all the rest: remaining types of resource references that do not reference locally available WebResources (in preferred order) -->
+                <xsl:apply-templates select="//edm:isShownAt[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
+                <xsl:apply-templates select="//edm:hasView[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
+                <xsl:apply-templates select="//edm:preview[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
             </cmd:ResourceProxyList>
             <cmd:JournalFileProxyList>
             </cmd:JournalFileProxyList>
