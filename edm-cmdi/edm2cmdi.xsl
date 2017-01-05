@@ -125,9 +125,9 @@
                 <!-- create resource proxies for all WebResources -->
                 <xsl:apply-templates select="edm:WebResource" mode="resources" />
                 <!-- create resource proxies based on other resource references that do not reference locally available WebResources (in preferred order) -->
-                <xsl:apply-templates select="//(edm:object)[@rdf:resource != //edm:WebResource/@rdf:about]" mode="resources"/>
-                <xsl:apply-templates select="//(edm:isShownBy)[@rdf:resource != //edm:WebResource/@rdf:about]" mode="resources"/>
-                <xsl:apply-templates select="//(edm:isShownAt|edm:hasView|edm:preview)[@rdf:resource != //edm:WebResource/@rdf:about]" mode="resources"/>
+                <xsl:apply-templates select="//(edm:object)[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
+                <xsl:apply-templates select="//(edm:isShownBy)[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
+                <xsl:apply-templates select="//(edm:isShownAt|edm:hasView|edm:preview)[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
             </cmd:ResourceProxyList>
             <cmd:JournalFileProxyList>
             </cmd:JournalFileProxyList>
