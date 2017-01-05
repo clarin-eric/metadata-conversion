@@ -105,7 +105,7 @@
             <cmd:MdProfile>clarin.eu:cr1:p_1475136016208</cmd:MdProfile>
             <xsl:if test="normalize-space($collectionName) != ''">
                 <cmd:MdCollectionDisplayName>
-                    <xsl:value-of select="$collectionName"/>
+                    <xsl:value-of select="func:sanitiseCollectionName($collectionName/text())"/>
                 </cmd:MdCollectionDisplayName>
             </xsl:if>
         </cmd:Header>
@@ -621,6 +621,20 @@
     <xsl:function name="func:nodeResourceProxyId">
         <xsl:param name="node" />
         <xsl:value-of select="concat($node/local-name(), '_', generate-id($node))"/>
+    </xsl:function>
+    
+    <xsl:function name="func:sanitiseCollectionName">
+        <xsl:param name="collectionName" />
+        
+        <!-- TEL collections have collection names like 92004_Ag_EU_TEL_a0588_TEL_NKP_manuscriptorium" -->
+        <xsl:analyze-string select="$collectionName" regex="^([^-]+_)Ag_EU_TEL_(a[^_]+_)?(.*)$">
+            <xsl:matching-substring>
+                <xsl:value-of select="concat('The European Library: ', replace(regex-group(3), '_', ' '))"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring>
+                <xsl:value-of select="$collectionName" />
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
     </xsl:function>
     
 
