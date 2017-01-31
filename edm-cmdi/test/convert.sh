@@ -10,6 +10,11 @@ IN_DIR="${SCRIPT_DIR}/edm"
 OUT_DIR="${SCRIPT_DIR}/target/edm-cmdi"
 STYLESHEET="${SCRIPT_DIR}/../edm2cmdi.xsl"
 
+if [ -z "$SAXON_OPTS" ]
+then
+	SAXON_OPTS="!indent=no"
+fi
+
 if [ ! -d "$SAXON_DIR" ]
 then
 	TMP_DIR="/tmp/edm-cmdi"
@@ -44,5 +49,4 @@ else
 	mkdir -p "${OUT_DIR}"
 fi
 
-java -jar "${SAXON}" -s:"${IN_DIR}" -o:"${OUT_DIR}" -xsl:"${STYLESHEET}"
-echo "Done!"
+java -jar "${SAXON}" -s:"${IN_DIR}" -o:"${OUT_DIR}" -xsl:"${STYLESHEET}" ${SAXON_OPTS} $@
