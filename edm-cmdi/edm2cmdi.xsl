@@ -245,6 +245,7 @@
         <xsl:apply-templates select="dcterms:alternative" mode="element-prop" />
         <xsl:apply-templates select="dcterms:conformsTo" mode="element-prop" />
         <xsl:apply-templates select="dcterms:extent" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:hasFormat" mode="element-prop" />
         <xsl:apply-templates select="dcterms:hasPart" mode="element-prop" />
         <xsl:apply-templates select="dcterms:hasVersion" mode="element-prop" />
         <xsl:apply-templates select="dcterms:isFormatOf" mode="element-prop" />
@@ -280,10 +281,6 @@
         <xsl:apply-templates select="dc:subject" mode="component-prop" />
         <xsl:apply-templates select="dc:type" mode="component-prop" />
         <xsl:apply-templates select="dcterms:created" mode="component-prop" />
-        <!--
-            TODO: includes a webresource!
-            <xsl:apply-templates select="dcterms:hasFormat" mode="component-prop" />
-        -->
         <xsl:apply-templates select="dcterms:issued" mode="component-prop" />
         <xsl:apply-templates select="dcterms:spatial" mode="component-prop" />
         <xsl:apply-templates select="dcterms:temporal" mode="component-prop" />
