@@ -67,6 +67,11 @@
                     <Attribute name="rdf-resource" ValueScheme="anyURI"/>
                 </AttributeList>
             </Element>
+            <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
+            </Element>
             <Element name="dcterms-hasVersion" ConceptLink="http://purl.org/dc/terms/hasVersion" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                 <Documentation>Another, later resource that is a version, edition or adaptation of the CHO demonstrating substantive changes  in content rather than format. </Documentation>
                 <AttributeList>
@@ -2015,12 +2020,6 @@
                     </Component>
                 </Component>
             </Component>
-            <Component name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" CardinalityMin="0" CardinalityMax="unbounded">
-                <Documentation>dcterms:hasPart container</Documentation>
-                <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
-                    <Documentation>dcterms:hasPart literal</Documentation>
-                </Element>
-            </Component>
             <Component name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>dcterms:issued container</Documentation>
                 <Element name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
@@ -2817,6 +2816,11 @@
                 </Element>
                 <Element name="dcterms-extent" ConceptLink="http://purl.org/dc/terms/extent" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                     <Documentation>The size or duration of the CHO.</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
+                </Element>
+                <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
                     <AttributeList>
                         <Attribute name="rdf-resource" ValueScheme="anyURI"/>
                     </AttributeList>
@@ -4768,12 +4772,6 @@
                             </Element>
                         </Component>
                     </Component>
-                </Component>
-                <Component name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Documentation>dcterms:hasPart container</Documentation>
-                    <Element name="dcterms-hasPart" ConceptLink="http://purl.org/dc/terms/hasPart" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
-                        <Documentation>dcterms:hasPart literal</Documentation>
-                    </Element>
                 </Component>
                 <Component name="dcterms-issued" ConceptLink="http://purl.org/dc/terms/issued" CardinalityMin="0" CardinalityMax="unbounded">
                     <Documentation>dcterms:issued container</Documentation>

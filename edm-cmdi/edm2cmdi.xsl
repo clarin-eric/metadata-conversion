@@ -245,6 +245,7 @@
         <xsl:apply-templates select="dcterms:alternative" mode="element-prop" />
         <xsl:apply-templates select="dcterms:conformsTo" mode="element-prop" />
         <xsl:apply-templates select="dcterms:extent" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:hasPart" mode="element-prop" />
         <xsl:apply-templates select="dcterms:hasVersion" mode="element-prop" />
         <xsl:apply-templates select="dcterms:isFormatOf" mode="element-prop" />
         <xsl:apply-templates select="dcterms:isPartOf" mode="element-prop" />
@@ -282,8 +283,6 @@
         <!--
             TODO: includes a webresource!
             <xsl:apply-templates select="dcterms:hasFormat" mode="component-prop" />
-            and decide on this one... make element instead?
-            <xsl:apply-templates select="dcterms:hasPart" mode="component-prop" />
         -->
         <xsl:apply-templates select="dcterms:issued" mode="component-prop" />
         <xsl:apply-templates select="dcterms:spatial" mode="component-prop" />
