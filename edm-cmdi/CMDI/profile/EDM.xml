@@ -630,6 +630,9 @@
             </Component>
             <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                 <Documentation>dc:creator container</Documentation>
+                <AttributeList>
+                    <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                </AttributeList>
                 <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                     <Documentation>dc:creator literal</Documentation>
                 </Element>
@@ -3381,6 +3384,9 @@
                 </Component>
                 <Component name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" CardinalityMin="0" CardinalityMax="unbounded">
                     <Documentation>dc:creator container</Documentation>
+                    <AttributeList>
+                        <Attribute name="rdf-resource" ValueScheme="anyURI"/>
+                    </AttributeList>
                     <Element name="dc-creator" ConceptLink="http://purl.org/dc/elements/1.1/creator" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
                         <Documentation>dc:creator literal</Documentation>
                     </Element>
