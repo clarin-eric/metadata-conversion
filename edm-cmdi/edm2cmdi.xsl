@@ -168,9 +168,15 @@
         <xsl:if test="normalize-space(@rdf:about) != ''">
             <cmd:ResourceProxy id="{func:webResourceProxyId(.)}">
                 <cmd:ResourceType>
-                    <xsl:if test="ebucore:hasMimeType">
-                        <xsl:attribute name="mimetype" select="ebucore:hasMimeType" />
-                    </xsl:if>
+                    <xsl:choose>                        
+                        <xsl:when test="ebucore:hasMimeType">
+                            <xsl:attribute name="mimetype" select="ebucore:hasMimeType" />
+                        </xsl:when>
+                        <xsl:when test="matches(dc:format, '^(image|application|audio|video)/[-+\w]+$')">
+                            <xsl:attribute name="mimetype" select="dc:format" />
+                        </xsl:when>
+                        <!-- TODO: fall back to guessing based on file name -->
+                    </xsl:choose>
                     <xsl:text>Resource</xsl:text>
                 </cmd:ResourceType> 
                 <cmd:ResourceRef><xsl:value-of select="@rdf:about"/></cmd:ResourceRef>

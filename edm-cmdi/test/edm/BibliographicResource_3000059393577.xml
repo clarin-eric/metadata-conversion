@@ -3,6 +3,8 @@
   <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200302/BibliographicResource_3000059393577"/>
   <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/issue.vm?id=0004076552">
     <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+    <ebucore:hasMimeType xmlns:ebucore="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#">image/png</ebucore:hasMimeType>
+    <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
   </edm:WebResource>
   <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/details.vm?q=id:0004076552">
     <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
