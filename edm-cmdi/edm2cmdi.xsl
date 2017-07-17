@@ -172,10 +172,14 @@
                         <xsl:when test="ebucore:hasMimeType">
                             <xsl:attribute name="mimetype" select="ebucore:hasMimeType" />
                         </xsl:when>
+                        <!-- dc:format may be present and contain a mime type (check) -->
                         <xsl:when test="matches(dc:format, '^(image|application|audio|video)/[-+\w]+$')">
                             <xsl:attribute name="mimetype" select="dc:format" />
                         </xsl:when>
-                        <!-- TODO: fall back to guessing based on file name -->
+                        <!-- last resort: guess mime type based on URI -->
+                        <xsl:otherwise>
+                            <xsl:apply-templates select="@rdf:about" mode="guessMimeTypeFromUri" />
+                        </xsl:otherwise>
                     </xsl:choose>
                     <xsl:text>Resource</xsl:text>
                 </cmd:ResourceType> 
@@ -657,6 +661,39 @@
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:function>
+
+    <!--
+        *****************************************************************
+        * MIMETYPE 'GUESSING' BASED ON RESOURCE URI                     *
+        *****************************************************************
+    -->
+
+    <xsl:template match="@rdf:about[matches(., '.*\.jpg$', 'i')]" mode="guessMimeTypeFromUri">
+        <xsl:attribute name="mimetype">image/jpeg</xsl:attribute>
+    </xsl:template>
     
+    <xsl:template match="@rdf:about[matches(., '.*\.gif$', 'i')]" mode="guessMimeTypeFromUri">
+        <xsl:attribute name="mimetype">image/gif</xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@rdf:about[matches(., '(.*\.html?$)|(.*/HTML$)', 'i')]" mode="guessMimeTypeFromUri">
+        <xsl:attribute name="mimetype">text/html</xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@rdf:about[matches(., '(.*\.txt$)|(.*/TEXT$)', 'i')]" mode="guessMimeTypeFromUri">
+        <xsl:attribute name="mimetype">text/plain</xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@rdf:about[matches(., '(.*[:\.]pdf$)|(.*/PDF$)', 'i')]" mode="guessMimeTypeFromUri">
+        <xsl:attribute name="mimetype">application/pdf</xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@rdf:about[matches(., '.*\.mp3', 'i')]" mode="guessMimeTypeFromUri">
+        <xsl:attribute name="mimetype">audio/mpeg</xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="*|@*" mode="guessMimeTypeFromUri">
+        <!-- no matching mimetype, produce no value -->
+    </xsl:template>
 
 </xsl:stylesheet>
