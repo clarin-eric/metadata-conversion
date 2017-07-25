@@ -1,0 +1,90 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200280/BibliographicResource_3000061612786"/>
+          <edm:WebResource rdf:about="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_89029/1/50&amp;index=0">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/bl/add_ms_89029!1!50.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+          </edm:WebResource>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200280/BibliographicResource_3000061612786">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200280/BibliographicResource_3000061612786"/>
+            <edm:dataProvider>The British Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_89029/1/50&amp;index=0"/>
+            <edm:isShownBy rdf:resource="http://www.theeuropeanlibrary.org/content/bl/add_ms_89029!1!50.jpg"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/bl/add_ms_89029!1!50.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200280/BibliographicResource_3000061612786">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Catalogued by surname: 
+&gt; Fédé MacKenzie 1914-1915 (3 letters)  
+&gt; Elkin Matthews, 1919 (1 letter)  
+&gt; Alice Meynell, 1915 (1 letter)  
+&gt; Madeline (Dimpling) Meynell, 1914-1915 (2 letters)  
+&gt; Noël Olivier 1914-1916 (8 letters)  
+&gt; Ester Ricardo, 1914 (1 letter)  
+&gt; Zoë Richmond, 1916 (1 letter)  
+&gt; Ellis Roberts, 1918 (1 letter)  
+&gt; Grace and Bryan Rhys 1917, (2 letters)  
+&gt; Catherine Ry (Staff Sister) 1915-1916 (4 letters)  
+&gt; P. Hall Smith, 1920-1921 (2 letters)  
+&gt; Barbara Tchaykovski 1914-1918 (5 letters and 2 publications concerning Wealdstone Babies’ Home)  
+&gt; Edward Thomas 1915 (1 letter)  
+&gt; Bill Thompson, undated (1 letter)  
+&gt; Jo Tompson?, 1886, (1 letter)  
+&gt; Dolly Thornycroft 1915 (3 letters)</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">1 file</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">add_ms_89029!1!50</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Collections 1914-1918</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">|| Some items listed in the catalogue description were not digitised for the Europeana Collections 1914-1918 project due to copyright restrictions||ff 6 | © Estate of Wilfred and Alice Meynell | Usage Terms: Creative Commons Attribution; ff 10-24 | © Noel Olivier | Usage Terms: Creative Commons Attribution</dc:rights>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">sh2008113365</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Letters to Maitland Radford from friends M-T</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Archives and Manuscripts</dc:type>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1914 - 1921</dcterms:created>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0558"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200280/BibliographicResource_3000061612786"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200280/BibliographicResource_3000061612786"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200280/BibliographicResource_3000061612786">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200280/BibliographicResource_3000061612786"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200280/BibliographicResource_3000061612786"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200280/BibliographicResource_3000061612786">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200280/BibliographicResource_3000061612786"/>
+            <edm:collectionName>9200280_Ag_EU_TEL_Collections_1914-1918_BL_a0558</edm:collectionName>
+            <edm:country>United Kingdom</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200280/BibliographicResource_3000061612786.html"/>
+            <edm:language>en</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

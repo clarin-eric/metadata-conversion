@@ -1,0 +1,52 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92033/BibliographicResource_3000053528363"/>
+          <edm:WebResource rdf:about="http://polona.pl/item/6845742/">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.polona.pl/resources/item/6845742/thumbnail/large/">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92033/BibliographicResource_3000053528363">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92033/BibliographicResource_3000053528363"/>
+            <edm:dataProvider>National Library of Poland</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://polona.pl/item/6845742/"/>
+            <edm:object rdf:resource="http://www.polona.pl/resources/item/6845742/thumbnail/large/"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92033/BibliographicResource_3000053528363">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1918 - 2011</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">wydawnictwa urzędowe polskie</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Tyt. wg nagł.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Od R. 1, nr 204 (1918) podtyt.: dziennik urzędowy Republiki Polskiej.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Od R. 2, nr 1 (1919): tłoczono w Drukarni Państwowej.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Od R. 2, nr 60 (1919) podtyt.: dziennik urzędowy Rzeczypospolitej Polskiej.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">image/text</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://polona.pl/item/6845742/</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Warszawa : [s.n.], 1918-2011 ([Warszawa] : tłoczono w drukarni Państwowej Królestwa Polskiego).</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">pl</dc:language>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Domena publiczna</dc:rights>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Biblioteka Narodowa</dc:source>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Monitor Polski : wychodzi codziennie z wyjątkiem niedziel i świąt., R.9, nr 216 (21 września 1926)</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl">Czasopisma</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0245"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92033/BibliographicResource_3000053528363"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92033/BibliographicResource_3000053528363"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92033/BibliographicResource_3000053528363">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92033/BibliographicResource_3000053528363"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92033/BibliographicResource_3000053528363"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92033/BibliographicResource_3000053528363">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92033/BibliographicResource_3000053528363"/>
+            <edm:collectionName>92033_Ag_EU_TEL_a0245</edm:collectionName>
+            <edm:country>Poland</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92033/BibliographicResource_3000053528363.html"/>
+            <edm:language>pl</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

@@ -1,0 +1,77 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037"/>
+          <edm:WebResource rdf:about="http://digital-library.ulbsibiu.ro/dspace/handle/123456789/236"/>
+          <edm:WebResource rdf:about="http://digital-library.ulbsibiu.ro/dspace/bitstream/123456789/236/1/BUSibiu_Iorga_Istoria_Romanilor_Biserica_Stavropoleos.jpg"/>
+          <edm:TimeSpan rdf:about="http://semium.org/time/20xx_1_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 21th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 21-го века</skos:prefLabel>
+            <edm:begin>Mon Jan 01 01:00:00 CET 2001</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 2033</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/2012">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">2012</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/20xx_1_third"/>
+            <edm:begin>Sun Jan 01 01:00:00 CET 2012</edm:begin>
+            <edm:end>Mon Dec 31 01:00:00 CET 2012</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_1_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 20-го века</skos:prefLabel>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 00:19:32 CET 1933</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1905">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1905</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_1_third"/>
+            <edm:begin>Sun Jan 01 00:19:32 CET 1905</edm:begin>
+            <edm:end>Sun Dec 31 00:19:32 CET 1905</edm:end>
+          </edm:TimeSpan>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037"/>
+            <edm:dataProvider>Library of the "Lucian Blaga" University of Sibiu</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digital-library.ulbsibiu.ro/dspace/handle/123456789/236"/>
+            <edm:isShownBy rdf:resource="http://digital-library.ulbsibiu.ro/dspace/bitstream/123456789/236/1/BUSibiu_Iorga_Istoria_Romanilor_Biserica_Stavropoleos.jpg"/>
+            <edm:object rdf:resource="http://digital-library.ulbsibiu.ro/dspace/bitstream/123456789/236/1/BUSibiu_Iorga_Istoria_Romanilor_Biserica_Stavropoleos.jpg"/>
+            <edm:provider>The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iorga, Nicolae</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">[2012]</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">[1905]</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">[2012]</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">[1905]</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Biserica Stavropoleos - ilustratie (dupa Gion - Istoria Bucurestilor) din lucrarea lui Nicolae Iorga, "Istoria Romanilor in Chipuri si Icoane” vol.2</dc:description>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://digital-library.ulbsibiu.ro/dspace/handle/123456789/236</dc:identifier>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Stavropoleos</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">biserica</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Biserica Stavropoleos - ilustratie din “Istoria Romanilor in Chipuri si Icoane”</dc:title>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Church Stavropoleos - illustration</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Image</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://digital-library.ulbsibiu.ro/dspace/bitstream/123456789/202"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>2012</edm:year>
+            <edm:year>1905</edm:year>
+            <edm:year>2012</edm:year>
+            <edm:year>1905</edm:year>
+            <edm:year>http://semium.org/time/2012</edm:year>
+            <edm:year>http://semium.org/time/1905</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037"/>
+            <edm:collectionName>9200165_Ag_EU_TEL_a1055b_Eu_Libraries_Sibiu</edm:collectionName>
+            <edm:country>Romania</edm:country>
+            <edm:preview rdf:resource="http://europeanastatic.eu/api/image?uri=http://digital-library.ulbsibiu.ro/dspace/bitstream/123456789/236/1/BUSibiu_Iorga_Istoria_Romanilor_Biserica_Stavropoleos.jpg&amp;size=LARGE&amp;type=TEXT"/>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200165/9AFF4484EEA6C206308ECFF1E4597E2342786037.html"/>
+            <edm:language>ro</edm:language>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

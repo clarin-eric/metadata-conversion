@@ -1,0 +1,187 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92039/BibliographicResource_1000126237513"/>
+          <edm:WebResource rdf:about="http://purl.pt/6684">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://purl.pt/6684/cover.get">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/2267057/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">38.71667</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">-9.13333</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Lisboa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Lisbon</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Lisboa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Lisbon</skos:prefLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Lizbon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tg">Лиссабон</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gd">Lisbon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Lisabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="br">Lisbon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">Liospóin</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ลิสบอน</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">Lisbona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="arc">ܠܫܒܘܢܐ</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Lissabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Lissabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">ლისაბონი</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Лисабон</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Lisbonne</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Лісабон</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Lizbona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Lisabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Lissabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nds">Lissabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Лисабон</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">리스본</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Lisbon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sc">Lisbona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">ליסבון</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Lisabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hbs">Lisabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="co">Lisbona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sa">लिस्बन</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Lizbona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Lisbonum</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Felicitas Julia Olissipo</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Felicitas Julia</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Olisipo</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Olissipo</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Lissabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Лиссабон</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tet">Lizboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="scn">Lisbona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Lisabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Lisabona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Lisszabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ast">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Lisabona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hi">लिस्बन</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Lisabona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Lissabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Felicitas Julia</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Olisipo</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mh">Lisbon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Լիսբոնա</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Lissabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Lisbona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mr">लिस्बन</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ug">لىسابون</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ms">Lisbon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">لیسبون</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">لشبونة</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ty">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Λισαβώνα</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="frp">Lisbona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ሊዝቦን</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Lisbono</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Lissabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Lisboa</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">リスボン</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Lissabon</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Lissabon</skos:altLabel>
+            <skos:note xmlns:skos="http://www.w3.org/2004/02/skos/core#">http://en.wikipedia.org/wiki/Lisbon</skos:note>
+            <skos:note xmlns:skos="http://www.w3.org/2004/02/skos/core#">http://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%81%D1%81%D0%B0%D0%B1%D0%BE%D0%BD</skos:note>
+          </edm:Place>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1829">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1829</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/18xx_2_quarter"/>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1829</edm:begin>
+            <edm:end>Thu Dec 31 01:00:00 CET 1829</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx_2_quarter">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e quart 19e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">2 quarter of the 19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">2-я четверть 19-го века</skos:prefLabel>
+            <edm:begin>Sun Jan 01 01:00:00 CET 1826</edm:begin>
+            <edm:end>Tue Dec 31 01:00:00 CET 1850</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx_1_half">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">19e (début)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">First half of the 19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Первая половниа 19-го века</skos:prefLabel>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1801</edm:begin>
+            <edm:end>Wed Dec 31 01:00:00 CET 1851</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">19e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">19й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">19de eeuw</skos:prefLabel>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1801</edm:begin>
+            <edm:end>Mon Dec 31 00:19:32 CET 1900</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92039/BibliographicResource_1000126237513">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237513"/>
+            <edm:dataProvider>National Library of Portugal</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://purl.pt/6684"/>
+            <edm:object rdf:resource="http://purl.pt/6684/cover.get"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92039/BibliographicResource_1000126237513">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Audience: Adult general</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">66 p.</dc:format>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:oai.bn.pt:bndlivre/bnp178509</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Na Typ. de Bulhões</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">pt</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pt">Universal Decimal Classification: 946.9 "1822/1834"</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Resposta de hum amigo a outro, que lhe tinha mandado hum folheto, que ha pouco se imprimio em Lisboa, com o título Legitimidade da feliz regeneração política de Portugal na successão do grande, e immortal Rei, o senhor D. Pedro IV..</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Monograph</dc:type>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">Resposta de um amigo a outro, que lhe tinha mandado um folheto que a pouco se imprimiu em Lisboa, com o título Legitimidade da feliz regeneração política de Portugal na sucessão do grande, e imortal Rei, o senhor Dom Pedro IV.....</dcterms:alternative>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">20 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0493"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1829</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2267057/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/po"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237513"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92039/BibliographicResource_1000126237513"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92039/BibliographicResource_1000126237513">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/18xx"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/1829"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1829</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237513"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92039/BibliographicResource_1000126237513"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92039/BibliographicResource_1000126237513">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237513"/>
+            <edm:collectionName>92039_Ag_EU_TEL_a0493_Portugal</edm:collectionName>
+            <edm:country>Portugal</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92039/BibliographicResource_1000126237513.html"/>
+            <edm:language>pt</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

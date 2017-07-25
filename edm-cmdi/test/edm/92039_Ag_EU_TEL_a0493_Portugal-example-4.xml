@@ -1,0 +1,106 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92039/BibliographicResource_1000126237542"/>
+          <edm:WebResource rdf:about="http://purl.pt/12762">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://purl.pt/12762/cover.get">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1987">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1987</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_4_quarter"/>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1987</edm:begin>
+            <edm:end>Thu Dec 31 01:00:00 CET 1987</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_4_quarter">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">4e quart 20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">4 quarter of the 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">4-я четверть 20-го века</skos:prefLabel>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1976</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_2_half">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e (fin)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second half of the 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Вторая половина 20-го века</skos:prefLabel>
+            <edm:begin>Mon Jan 01 01:00:00 CET 1951</edm:begin>
+            <edm:end>Mon Dec 31 01:00:00 CET 2001</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92039/BibliographicResource_1000126237542">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237542"/>
+            <edm:dataProvider>National Library of Portugal</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://purl.pt/12762"/>
+            <edm:object rdf:resource="http://purl.pt/12762/cover.get"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92039/BibliographicResource_1000126237542">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Rep. de gravura em madeira séc. XIX</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Grande plano da estátua na Praça L. de Camões em Lisboa, vendo-se vários populares à volta do gradeamento</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Audience: Juvenile</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Audience: Adult general</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">1 rep. de obra de arte</dc:format>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">p&amp;b</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:oai.bn.pt:bndlivre/bnp105196</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">s.n.</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">pt</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pt">Universal Decimal Classification: 725.94(469.411.16)"1867"(084.1)</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pt">Universal Decimal Classification: 908(469.411Lisboa)"18"(084.1)</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Estatua de Luiz de Camões</dc:title>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">Estátua de Luís de Camões</dcterms:alternative>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">23x18 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0493"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1987</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">D.L. 1987]</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/">S.l.</dcterms:spatial>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/po"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237542"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92039/BibliographicResource_1000126237542"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92039/BibliographicResource_1000126237542">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx_2_half"/>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/1987"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1987</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237542"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92039/BibliographicResource_1000126237542"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92039/BibliographicResource_1000126237542">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237542"/>
+            <edm:collectionName>92039_Ag_EU_TEL_a0493_Portugal</edm:collectionName>
+            <edm:country>Portugal</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92039/BibliographicResource_1000126237542.html"/>
+            <edm:language>pt</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

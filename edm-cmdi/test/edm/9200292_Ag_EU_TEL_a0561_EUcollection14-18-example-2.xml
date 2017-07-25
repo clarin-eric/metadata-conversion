@@ -1,0 +1,465 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200292/BibliographicResource_3000073610094"/>
+          <edm:WebResource rdf:about="http://data.onb.ac.at/dtl/4419848">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://data.onb.ac.at/dtlthmb/4419848">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/2950159/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">52.52437</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">13.41053</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="jv">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Berlín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Estat de Berlín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gd">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">Beirlín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">เบอร์ลิน</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bn">বার্লিন</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Berliini</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ta">பெர்லின்</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">ბერლინი</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Берлин</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fo">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sw">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Берлін</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Бэрлін</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kw">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Berlín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ku">Berlîn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Берлин</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Berlini</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">베를린</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">ברלין</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cv">Берлин</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sh">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Berlín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="li">Berlien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Berlín - Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Berolinum</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Берлин</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">柏林</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Berlīne</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Berlynas</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vo">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ia">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Berlín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Բերլին</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mk">Берлин</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Berlín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Берлін</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Berlino</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mr">बर्लिन</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ug">بېرلىن</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ms">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">برلین</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">برلين</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ty">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Βερολίνο</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="an">Berlín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Berlim</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Berlino</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Berlin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Berliin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Berlín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">ベルリン</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Berlijn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Berlyn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="yi">בערלין</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2921044/"/>
+          </edm:Place>
+          <edm:Place rdf:about="http://sws.geonames.org/2921044/">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Tyskland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fy">Dútslân</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Tyskland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gd">A' Ghearmailt</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">An Ghearmáin</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">Alemanha</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Saksa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="om">Germany</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Allemagne</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fo">Týskland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="os">Герман</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">גרמניה</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gn">Alemaña</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Alemaña</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Alemaña - Deutschland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Niemcy</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gv">Yn Ghermaan</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gu">જમિની</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lo">ເຢຍລະມັນ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ln">Alémani</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ln">Alémanyi</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Đức</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="dz">ཇཱར་མ་ནི</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Vācija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Vokietija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vo">Deutän</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Bundesrepublik Deutschland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Deutschland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uz">Olmoniya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uz">Олмония</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">DE</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Duitschland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Federal Republic of Germany</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mk">Германија</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ml">ജര്‍മനി</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ml">ജര്‍മ്മനി</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mi">Tiamana</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mn">Герман</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Німеччина</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Alemania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mo">Ӂермания</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mr">जमिन</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mr">जर्मनी</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ug">گېرمانىيە</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mt">Ġermanja</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ms">Jerman</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">آلمان</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ur">جرمنی</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ty">Heremani</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="na">Germany</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nb">Tyskland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Γερμανία</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ne">जर्मनी</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Germanio</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Germanujo</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Federal Republic of Germany</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Germany</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Saksamaa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Alemania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Duitsland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="to">Siamane</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="jv">Jerman</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Alemanya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tl">Alemanya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Almanya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tg">Олмон</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="te">ఙర్మని</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Njemačka</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="br">Alamagn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ประเทศเยอรมนี</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">สหพันธ์สาธารณรัฐเยอรมนี</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">เยอรมนี</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">เยอรมัน</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bn">জার্মানি</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bo">འཇར་མནི།</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ta">ஜெர்மனி</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ta">ஜெர்மன்</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="su">Jėrman</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">გერმანია</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Германия</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Tyskland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="st">Tôitšhi</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sw">Udachi</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sw">Ujerumani</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Германія</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Нямеччына</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Nemčija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kw">Almayn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Nemecko</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Tyskland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="so">Jarmal</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="so">Jarmalka</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Немачка</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ku">Almanya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Gjermani</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Gjermania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">독일</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sc">Germània</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Yr Almaen</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="se">Duiska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="se">Duiskka</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kk">Алмания</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sh">Nemačka</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cv">Германи</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="km">អាល្លឺម៉ង់</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kn">ಜರ್ಮನಿ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Německo</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="li">Duutsjlandj</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lg">Girimane</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Germania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Германия</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Däitschland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Njemačka</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Germania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">德国</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="rm">Germania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Németország</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hi">जर्मनी</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Jerman</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ia">Germania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ig">Germany</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zu">IJalimani</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Գերմանիա</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Alimaniya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Alimanya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="az">Almaniya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Þýskaland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Germania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ii">ꄓꇩ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">ألمانيا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">المانيا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Germania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ጀርመን</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="an">Alemaña</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Alemanha</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="yo">Jámánì</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="aa">Germany</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">ドイツ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">ドイツ連邦共和国</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="yi">דייטשלאנד</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ps">المان</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ps">جرمني/آلمان</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Duitsland</skos:prefLabel>
+          </edm:Place>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/959">
+            <skos:prefLabel xml:lang="sl">knjiga</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">kniha</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">liburu</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">bog</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">carte</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">libro</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">kitap</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">ktieb</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">bok</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">könyv</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">grāmata</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">كتاب</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">knyga</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">kniha</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Buch</skos:prefLabel>
+            <skos:prefLabel>book</skos:prefLabel>
+            <skos:prefLabel>书</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">βιβλίο</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">kirja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">książka</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">livros</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">livre</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">bok</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Книга</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">book</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">книга</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">raamat</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">libro</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">boek</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2286"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2286">
+            <skos:prefLabel xml:lang="sl">vrsta dokumenta</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">typ dokumentu</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">dokumenttype</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">dokumentu-mota; agiri-mota</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">tip de document</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">tipo di documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">doküman türü</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">tip ta' dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">dokumenttype</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">dokumentumfajta</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">dokumenta tips</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">نوعية الوثيقة</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">dokumento tipas</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">typ dokumentu</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Dokumenttyp</skos:prefLabel>
+            <skos:prefLabel>document type</skos:prefLabel>
+            <skos:prefLabel>文件类型</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">τύπος εγγράφου</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">asiakirjatyyppi</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">rodzaj dokumentu</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">tipos de documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">type de document</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">dokumenttyp</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Вид документ</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">document type</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">тип документа</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">dokumenditüüp</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">tipo de documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">soort document</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2282"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2282">
+            <skos:prefLabel xml:lang="sl">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">dokumentu; agiri</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">document</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">doküman, belge</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">dokumentum</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">dokuments</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">وثيقة</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">dokumentas</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Dokument</skos:prefLabel>
+            <skos:prefLabel>document</skos:prefLabel>
+            <skos:prefLabel>文件</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">έγγραφο/τίτλος/τεκμήριο</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">asiakirja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">documentos</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">dokument; handling</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">document</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Документ</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">document</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">документ</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">document</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2284"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2284">
+            <skos:prefLabel xml:lang="sl">dokumentacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">dokumentácia</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">dokumentatze; dokumentazio</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">dokumentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">documentaţie</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">documentazione</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">dokümantasyon</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">dokumentazzjoni</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">dokumentasjon</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">dokumentálás</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">dokumentācija</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">توثيق</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">dokumentacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">dokumentace</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Dokumentation</skos:prefLabel>
+            <skos:prefLabel>documentation</skos:prefLabel>
+            <skos:prefLabel>文档化</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">τεκμηρίωση</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">dokumentointi, asiakirja-aineisto</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">dokumentacja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">documentação</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">dokumentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">documentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Документиране</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">documentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">документация</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">dokumentatsioon</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">documentación</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">documentatie</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/4303"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/4303">
+            <skos:prefLabel xml:lang="sl">informacija, informacije, podatki</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">informácia</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">informazio</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">informaţie</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">informazione</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">bilgi</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">informazzjoni</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">informasjon</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">információ</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">informācija</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">المعلومات</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">informacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">informace</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Information</skos:prefLabel>
+            <skos:prefLabel>information</skos:prefLabel>
+            <skos:prefLabel>信息</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">πληροφορία(ίες)/πληροφόρηση/στοιχεία/ενημέρωση</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">tieto</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">informacja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">informação</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Информация</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">информация</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">teave, info[rmatsioon]</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">información</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">informatie</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200292/BibliographicResource_3000073610094">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200292/BibliographicResource_3000073610094"/>
+            <edm:dataProvider>Österreichische Nationalbibliothek - Austrian National Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://data.onb.ac.at/dtl/4419848"/>
+            <edm:object rdf:resource="http://data.onb.ac.at/dtlthmb/4419848"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200292/BibliographicResource_3000073610094">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eld. de Deutscher Esperanto-Dienst</dc:creator>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">konciza resumo kunmetita el oficiala materialo</dc:description>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:fue.onb.at:e1418ESP:5d96b303-d61b-4475-a9e0-b831d044c655</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Ellersiek</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">pl</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="de">Erster Weltkrieg</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">La kulpo de Entente</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">book</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">32 S.</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/">Nova Esperanto-biblioteko ; 1</dcterms:isPartOf>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0561"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2950159/"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200292/BibliographicResource_3000073610094"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200292/BibliographicResource_3000073610094"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200292/BibliographicResource_3000073610094">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/959"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2950159/"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200292/BibliographicResource_3000073610094"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200292/BibliographicResource_3000073610094"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200292/BibliographicResource_3000073610094">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200292/BibliographicResource_3000073610094"/>
+            <edm:collectionName>9200292_Ag_EU_TEL_a0561_EUcollection14-18</edm:collectionName>
+            <edm:country>Austria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200292/BibliographicResource_3000073610094.html"/>
+            <edm:language>de</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

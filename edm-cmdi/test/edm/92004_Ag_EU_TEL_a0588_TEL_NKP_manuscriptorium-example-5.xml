@@ -1,0 +1,164 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92004/BibliographicResource_2000059192473"/>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/mns_direct.php?docId=set20100108_182_38">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/en/index.php?request=show_tei_digidoc&amp;docId=set20100108_182_38">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/wtis_lq.php?strFolder=K/NKCR__XIII_A_5C______00PK/P0/XIII_A_5C______00PKP00001R.JPG">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Agent rdf:about="http://dbpedia.org/resource/Jan_of_Jenštejn">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Johann von Jenstein</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Ян Єнштейн</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Jan z Jenštejna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Jan of Jenštejn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Jan z Jenštejna</skos:prefLabel>
+            <rdaGr2:biographicalInformation xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xml:lang="de">Johann von Jenstein (nach der Bischofsliste von Meißen: Johann II. von Jenstein; nach der Bischofsliste von Prag: Johannes VI. von Jenstein; manchmal auch: Johann von Jenzenstein; Johann von Genzenstein; tschechisch: Jan z Jenštejna; * 27. Dezember zwischen 1347 und 1350 in Prag; † 17. Juni 1400 in Rom) war Bischof von Meißen, Erzbischof von Prag und Patriarch von Alexandria. Zudem war er Kanzler des böhmischen Königs Wenzel IV. und Verfasser religiöser Schriften.</rdaGr2:biographicalInformation>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://wikidata.dbpedia.org/resource/Q468193"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://uk.dbpedia.org/resource/Ян_Єнштейн"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://fr.dbpedia.org/resource/Jan_z_Jenštejna"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://wikidata.org/entity/Q468193"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://de.dbpedia.org/resource/Johann_von_Jenstein"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://cs.dbpedia.org/resource/Jan_z_Jenštejna"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://eo.dbpedia.org/resource/Jan_z_Jenštejna"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://pl.dbpedia.org/resource/Jan_z_Jenštejna"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://rdf.freebase.com/ns/m.0gsl29"/>
+          </edm:Agent>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1494">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1494</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/14xx_4_quarter"/>
+            <edm:begin>Wed Jan 01 01:00:00 CET 1494</edm:begin>
+            <edm:end>Wed Dec 31 01:00:00 CET 1494</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/14xx_4_quarter">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">4e quart 15e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">4 quarter of the 15th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">4-я четверть 15-го века</skos:prefLabel>
+            <edm:begin>Mon Jan 01 01:00:00 CET 1476</edm:begin>
+            <edm:end>Thu Dec 31 01:00:00 CET 1500</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/14xx_2_half">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">15e (fin)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second half of the 15th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Вторая половина 15-го века</skos:prefLabel>
+            <edm:begin>Fri Jan 01 01:00:00 CET 1451</edm:begin>
+            <edm:end>Fri Dec 31 01:00:00 CET 1501</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/14xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">15..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">15??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">15e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">15e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">15-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">15th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">15th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">15й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">15de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Sat Jan 01 01:00:00 CET 1401</edm:begin>
+            <edm:end>Thu Dec 31 01:00:00 CET 1500</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1605">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1605</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/16xx_1_third"/>
+            <edm:begin>Sat Jan 01 01:00:00 CET 1605</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 1605</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/16xx_1_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 17th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 17-го века</skos:prefLabel>
+            <edm:begin>Mon Jan 01 01:00:00 CET 1601</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 1633</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/16xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">17..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">17??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">17e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">17e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">17-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">17th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">17th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">17й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">17de eeuw</skos:prefLabel>
+            <edm:begin>Mon Jan 01 01:00:00 CET 1601</edm:begin>
+            <edm:end>Fri Dec 31 01:00:00 CET 1700</edm:end>
+          </edm:TimeSpan>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92004/BibliographicResource_2000059192473">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192473"/>
+            <edm:dataProvider>National Library of Czech Republic</edm:dataProvider>
+            <edm:hasView rdf:resource="http://www.manuscriptorium.com/apps/main/en/index.php?request=show_tei_digidoc&amp;docId=set20100108_182_38"/>
+            <edm:isShownAt rdf:resource="http://www.manuscriptorium.com/apps/main/mns_direct.php?docId=set20100108_182_38"/>
+            <edm:object rdf:resource="http://www.manuscriptorium.com/apps/main/wtis_lq.php?strFolder=K/NKCR__XIII_A_5C______00PK/P0/XIII_A_5C______00PKP00001R.JPG"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92004/BibliographicResource_2000059192473">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Jan z Jenštejna</dc:contributor>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1465 - 1494</dc:date>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">codex</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:test.manuscriptorium.cz:set20100108_182_38</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">la</dc:language>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">Národní knihovna České republiky</dc:source>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Graduale</dc:title>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1465 - 1494</dcterms:created>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">30 cm x 41,5 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0588"/>
+            <dcterms:isReferencedBy xmlns:dcterms="http://purl.org/dc/terms/">J. Truhlář. Catalogus codicum manu scriptorum latinorum, qui in c. r. bibliotheca publica atque Universitatis Pragensis asservantur, tomus II. Pragae. 1906. pagesč. 2250, s. 213</dcterms:isReferencedBy>
+            <dcterms:isReferencedBy xmlns:dcterms="http://purl.org/dc/terms/">V. Plocek. Catalogus codicum notis musicis instructorum, qui in Bibliotheca publica rei publicae Bohemicae socialisticae in Bibliotheca universitatis Pragensis servantur, tomus II. Pragae. 1973. pagesč. 142, s. 508-516</dcterms:isReferencedBy>
+            <dcterms:isReferencedBy xmlns:dcterms="http://purl.org/dc/terms/">B. F. H. Graham. Bohemian and Moravian Graduals 1420-1620. Turnhout. 2006. pagesč. 67, s. 356-359</dcterms:isReferencedBy>
+            <dcterms:medium xmlns:dcterms="http://purl.org/dc/terms/">mixed</dcterms:medium>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/">1494</dcterms:temporal>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/">1605</dcterms:temporal>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Svatý Václave, vévodo české země, knieže náš, pros za ny boha</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Tantam exequi tardi humilitatem forma sit nobis eius genitrix</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Dicit dominus sermones meos, quos dedi in os tuum</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Imperatrix virgo gloriosa pia mater dulcis o Maria</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Et nota quod de martyre et in octavis prescriptis canitur cum maiori Gloria, de confessoribus et aliis festis cum minori</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Alleluja. Caritate vulneratus, castitate deallatus, verbo vite laureatus est Bernhardus sublimatus in gloria</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Stabat mater dolorosa iuxta crucem lacrimosa dum pendebat filius</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Hanc dieculam orbi cuncto colendam atque festivam agminibus angelorum</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Exurgat deus et dissipentur inimici eius et fugiant qui oderunt eum</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Laus tibi Criste filio Marie</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Iocundare plebs fidelis cuius pater est in celis recolens Ezechielis prophete preconia</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Alleluja. O felix Anna, per te nobis detur manna</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Ave ierarchia celestis et pia dei monarchia respice nos dya ut erigamur errantes in via</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Fontes aquarum sanctificati sunt Cristo apparenti</dcterms:tableOfContents>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192473"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92004/BibliographicResource_2000059192473"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92004/BibliographicResource_2000059192473">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/resource/Jan_of_Jenštejn"/>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/14xx"/>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/16xx"/>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/1494"/>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/1605"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192473"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92004/BibliographicResource_2000059192473"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92004/BibliographicResource_2000059192473">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192473"/>
+            <edm:collectionName>92004_Ag_EU_TEL_a0588_TEL_NKP_manuscriptorium</edm:collectionName>
+            <edm:country>Czech Republic</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92004/BibliographicResource_2000059192473.html"/>
+            <edm:language>cs</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

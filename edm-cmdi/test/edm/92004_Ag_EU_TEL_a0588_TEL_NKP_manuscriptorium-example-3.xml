@@ -1,0 +1,110 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92004/BibliographicResource_2000059192455"/>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/mns_direct.php?docId=set20100108_182_45">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/en/index.php?request=show_tei_digidoc&amp;docId=set20100108_182_45">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/wtis_lq.php?strFolder=O/NKCR__XXIII_F_197____0S2O/P0/XXIII_F_197____0S2OP00001R.JPG">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1648">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1648</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/16xx_2_third"/>
+            <edm:begin>Wed Jan 01 01:00:00 CET 1648</edm:begin>
+            <edm:end>Thu Dec 31 01:00:00 CET 1648</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/16xx_2_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mid 17th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Середина 17-го века</skos:prefLabel>
+            <edm:begin>Sun Jan 01 01:00:00 CET 1634</edm:begin>
+            <edm:end>Fri Dec 31 01:00:00 CET 1666</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/16xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">17..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">17??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">17e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">17e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">17-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">17th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">17th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">17й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">17de eeuw</skos:prefLabel>
+            <edm:begin>Mon Jan 01 01:00:00 CET 1601</edm:begin>
+            <edm:end>Fri Dec 31 01:00:00 CET 1700</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92004/BibliographicResource_2000059192455">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192455"/>
+            <edm:dataProvider>National Library of Czech Republic</edm:dataProvider>
+            <edm:hasView rdf:resource="http://www.manuscriptorium.com/apps/main/en/index.php?request=show_tei_digidoc&amp;docId=set20100108_182_45"/>
+            <edm:isShownAt rdf:resource="http://www.manuscriptorium.com/apps/main/mns_direct.php?docId=set20100108_182_45"/>
+            <edm:object rdf:resource="http://www.manuscriptorium.com/apps/main/wtis_lq.php?strFolder=O/NKCR__XXIII_F_197____0S2O/P0/XXIII_F_197____0S2OP00001R.JPG"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92004/BibliographicResource_2000059192455">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1400 - 1500</dc:date>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">codex</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:test.manuscriptorium.cz:set20100108_182_45</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">la</dc:language>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">Národní knihovna České republiky</dc:source>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Horae beatae Mariae virginis</dc:title>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1400 - 1500</dcterms:created>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">13,5 cm x 19,5 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0588"/>
+            <dcterms:isReferencedBy xmlns:dcterms="http://purl.org/dc/terms/">E. Urbánková. Rukopisy a vzácné tisky pražské Universitní knihovny. Praha. 1957. pagesč. 116, s. 26</dcterms:isReferencedBy>
+            <dcterms:medium xmlns:dcterms="http://purl.org/dc/terms/">perg</dcterms:medium>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/">1648</dcterms:temporal>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">O Ihesu Christe eterna dulcedo te amancium iubilus excedens omne gaudium</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">13r O Ihesu vitis vera et fecunda memento super effluencium et habundanciam effusionum sanguinis tui</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Gaude Johannes Baptista qui in ventris clausu cista</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Gaude virgo Margareta que nutricis gregem leta minabas ad pascua</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Deprecacionem nostram quesumus domine benignus intende preces nostras clementer exaudi</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">/// est mare et ipse fecit illud et aridam fundaverunt manus eius</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Converte nos deus salutaris noster</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">57r Omnipotens sempiterne deus qui gloriose virginis et matris Marie corpus et animam</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Ne reminiscaris</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Domine ne in furore tuo arguas me</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Pietate tua quesumus domine nostrorum solve vincula omnium delictorum</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Placebo</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Dilexi quoniam exaudiet dominus vocem oracionis mee</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Fidelium deus omnium</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Beati immaculati in via ambulant in lege domini</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Misericordiam tuam domine sancte pater omnipotens eterne deus</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Deus deus meus respice in me quare me dereliquisti longe</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">112r In te domine speravi non confundar in eternum in iusticia tua libera me</dcterms:tableOfContents>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192455"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92004/BibliographicResource_2000059192455"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92004/BibliographicResource_2000059192455">
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/1648"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1648</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192455"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92004/BibliographicResource_2000059192455"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92004/BibliographicResource_2000059192455">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192455"/>
+            <edm:collectionName>92004_Ag_EU_TEL_a0588_TEL_NKP_manuscriptorium</edm:collectionName>
+            <edm:country>Czech Republic</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92004/BibliographicResource_2000059192455.html"/>
+            <edm:language>cs</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

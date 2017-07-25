@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+  <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92076/BibliographicResource_1000056588419"/>
+  <edm:WebResource rdf:about="http://www.earlydutchbooksonline.nl/nl/view/info/id/dpo:11005:mpeg21">
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://resolver.kb.nl/resolvedpo:11005:mpeg21:0001:image">
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://resolver.kb.nl/resolve?urn=stcn:315649291:01">
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://resolver.kb.nl/resolve?urn=dpo:11005:mpeg21">
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://resolver.kb.nl/resolve?urn=dpo:11005:mpeg21:pdf">
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://imageviewer.kb.nl/ImagingService/imagingService?id=dpo:11005:mpeg21:0003:image">
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </edm:WebResource>
+  <edm:TimeSpan rdf:about="http://semium.org/time/1790">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1790</skos:prefLabel>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/17xx_4_quarter"/>
+    <edm:begin>Fri Jan 01 01:00:00 CET 1790</edm:begin>
+    <edm:end>Fri Dec 31 01:00:00 CET 1790</edm:end>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/17xx_4_quarter">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">4e quart 18e si&#xE8;cle</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">4 quarter of the 18th century</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">4-&#x44F; &#x447;&#x435;&#x442;&#x432;&#x435;&#x440;&#x442;&#x44C; 18-&#x433;&#x43E; &#x432;&#x435;&#x43A;&#x430;</skos:prefLabel>
+    <edm:begin>Mon Jan 01 01:00:00 CET 1776</edm:begin>
+    <edm:end>Wed Dec 31 01:00:00 CET 1800</edm:end>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/17xx_2_half">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">18e (fin)</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second half of the 18th century</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">&#x412;&#x442;&#x43E;&#x440;&#x430;&#x44F; &#x43F;&#x43E;&#x43B;&#x43E;&#x432;&#x438;&#x43D;&#x430; 18-&#x433;&#x43E; &#x432;&#x435;&#x43A;&#x430;</skos:prefLabel>
+    <edm:begin>Fri Jan 01 01:00:00 CET 1751</edm:begin>
+    <edm:end>Thu Dec 31 01:00:00 CET 1801</edm:end>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/17xx">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">18..</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">18??</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">18e</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">18e si&#xE8;cle</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">18-th</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">18th</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">18th century</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">18&#x439; &#x432;&#x435;&#x43A;</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">18de eeuw</skos:prefLabel>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+    <edm:begin>Sat Jan 01 01:00:00 CET 1701</edm:begin>
+    <edm:end>Wed Dec 31 01:00:00 CET 1800</edm:end>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e mill&#xE9;naire apr&#xE8;s J.-C.</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+  </edm:TimeSpan>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/959">
+    <skos:prefLabel xml:lang="sl">knjiga</skos:prefLabel>
+    <skos:prefLabel xml:lang="sk">kniha</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">liburu</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">bog</skos:prefLabel>
+    <skos:prefLabel xml:lang="ro">carte</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">libro</skos:prefLabel>
+    <skos:prefLabel xml:lang="tr">kitap</skos:prefLabel>
+    <skos:prefLabel xml:lang="mt">ktieb</skos:prefLabel>
+    <skos:prefLabel xml:lang="no">bok</skos:prefLabel>
+    <skos:prefLabel xml:lang="hu">k&#xF6;nyv</skos:prefLabel>
+    <skos:prefLabel xml:lang="lv">gr&#x101;mata</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">&#x643;&#x62A;&#x627;&#x628;</skos:prefLabel>
+    <skos:prefLabel xml:lang="lt">knyga</skos:prefLabel>
+    <skos:prefLabel xml:lang="cs">kniha</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Buch</skos:prefLabel>
+    <skos:prefLabel>book</skos:prefLabel>
+    <skos:prefLabel>&#x4E66;</skos:prefLabel>
+    <skos:prefLabel xml:lang="el">&#x3B2;&#x3B9;&#x3B2;&#x3BB;&#x3AF;&#x3BF;</skos:prefLabel>
+    <skos:prefLabel xml:lang="fi">kirja</skos:prefLabel>
+    <skos:prefLabel xml:lang="pl">ksi&#x105;&#x17C;ka</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">livros</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">livre</skos:prefLabel>
+    <skos:prefLabel xml:lang="sv">bok</skos:prefLabel>
+    <skos:prefLabel xml:lang="bg">&#x41A;&#x43D;&#x438;&#x433;&#x430;</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">book</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">&#x43A;&#x43D;&#x438;&#x433;&#x430;</skos:prefLabel>
+    <skos:prefLabel xml:lang="et">raamat</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">libro</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">boek</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2286"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2286">
+    <skos:prefLabel xml:lang="sl">vrsta dokumenta</skos:prefLabel>
+    <skos:prefLabel xml:lang="sk">typ dokumentu</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">dokumenttype</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">dokumentu-mota; agiri-mota</skos:prefLabel>
+    <skos:prefLabel xml:lang="ro">tip de document</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">tipo di documento</skos:prefLabel>
+    <skos:prefLabel xml:lang="tr">dok&#xFC;man t&#xFC;r&#xFC;</skos:prefLabel>
+    <skos:prefLabel xml:lang="mt">tip ta' dokument</skos:prefLabel>
+    <skos:prefLabel xml:lang="no">dokumenttype</skos:prefLabel>
+    <skos:prefLabel xml:lang="hu">dokumentumfajta</skos:prefLabel>
+    <skos:prefLabel xml:lang="lv">dokumenta tips</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">&#x646;&#x648;&#x639;&#x64A;&#x629; &#x627;&#x644;&#x648;&#x62B;&#x64A;&#x642;&#x629;</skos:prefLabel>
+    <skos:prefLabel xml:lang="lt">dokumento tipas</skos:prefLabel>
+    <skos:prefLabel xml:lang="cs">typ dokumentu</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Dokumenttyp</skos:prefLabel>
+    <skos:prefLabel>document type</skos:prefLabel>
+    <skos:prefLabel>&#x6587;&#x4EF6;&#x7C7B;&#x578B;</skos:prefLabel>
+    <skos:prefLabel xml:lang="el">&#x3C4;&#x3CD;&#x3C0;&#x3BF;&#x3C2; &#x3B5;&#x3B3;&#x3B3;&#x3C1;&#x3AC;&#x3C6;&#x3BF;&#x3C5;</skos:prefLabel>
+    <skos:prefLabel xml:lang="fi">asiakirjatyyppi</skos:prefLabel>
+    <skos:prefLabel xml:lang="pl">rodzaj dokumentu</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">tipos de documento</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">type de document</skos:prefLabel>
+    <skos:prefLabel xml:lang="sv">dokumenttyp</skos:prefLabel>
+    <skos:prefLabel xml:lang="bg">&#x412;&#x438;&#x434; &#x434;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">document type</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">&#x442;&#x438;&#x43F; &#x434;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x430;</skos:prefLabel>
+    <skos:prefLabel xml:lang="et">dokumendit&#xFC;&#xFC;p</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">tipo de documento</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">soort document</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2282"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2282">
+    <skos:prefLabel xml:lang="sl">dokument</skos:prefLabel>
+    <skos:prefLabel xml:lang="sk">dokument</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">dokumentu; agiri</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">dokument</skos:prefLabel>
+    <skos:prefLabel xml:lang="ro">document</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">documento</skos:prefLabel>
+    <skos:prefLabel xml:lang="tr">dok&#xFC;man, belge</skos:prefLabel>
+    <skos:prefLabel xml:lang="mt">dokument</skos:prefLabel>
+    <skos:prefLabel xml:lang="no">dokument</skos:prefLabel>
+    <skos:prefLabel xml:lang="hu">dokumentum</skos:prefLabel>
+    <skos:prefLabel xml:lang="lv">dokuments</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">&#x648;&#x62B;&#x64A;&#x642;&#x629;</skos:prefLabel>
+    <skos:prefLabel xml:lang="lt">dokumentas</skos:prefLabel>
+    <skos:prefLabel xml:lang="cs">dokument</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Dokument</skos:prefLabel>
+    <skos:prefLabel>document</skos:prefLabel>
+    <skos:prefLabel>&#x6587;&#x4EF6;</skos:prefLabel>
+    <skos:prefLabel xml:lang="el">&#x3AD;&#x3B3;&#x3B3;&#x3C1;&#x3B1;&#x3C6;&#x3BF;/&#x3C4;&#x3AF;&#x3C4;&#x3BB;&#x3BF;&#x3C2;/&#x3C4;&#x3B5;&#x3BA;&#x3BC;&#x3AE;&#x3C1;&#x3B9;&#x3BF;</skos:prefLabel>
+    <skos:prefLabel xml:lang="fi">asiakirja</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">documentos</skos:prefLabel>
+    <skos:prefLabel xml:lang="pl">dokument</skos:prefLabel>
+    <skos:prefLabel xml:lang="sv">dokument; handling</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">document</skos:prefLabel>
+    <skos:prefLabel xml:lang="bg">&#x414;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">document</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">&#x434;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;</skos:prefLabel>
+    <skos:prefLabel xml:lang="et">dokument</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">documento</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">document</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2284"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2284">
+    <skos:prefLabel xml:lang="sl">dokumentacija</skos:prefLabel>
+    <skos:prefLabel xml:lang="sk">dokument&#xE1;cia</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">dokumentatze; dokumentazio</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">dokumentation</skos:prefLabel>
+    <skos:prefLabel xml:lang="ro">documenta&#x163;ie</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">documentazione</skos:prefLabel>
+    <skos:prefLabel xml:lang="tr">dok&#xFC;mantasyon</skos:prefLabel>
+    <skos:prefLabel xml:lang="mt">dokumentazzjoni</skos:prefLabel>
+    <skos:prefLabel xml:lang="no">dokumentasjon</skos:prefLabel>
+    <skos:prefLabel xml:lang="hu">dokument&#xE1;l&#xE1;s</skos:prefLabel>
+    <skos:prefLabel xml:lang="lv">dokument&#x101;cija</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">&#x62A;&#x648;&#x62B;&#x64A;&#x642;</skos:prefLabel>
+    <skos:prefLabel xml:lang="lt">dokumentacija</skos:prefLabel>
+    <skos:prefLabel xml:lang="cs">dokumentace</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Dokumentation</skos:prefLabel>
+    <skos:prefLabel>documentation</skos:prefLabel>
+    <skos:prefLabel>&#x6587;&#x6863;&#x5316;</skos:prefLabel>
+    <skos:prefLabel xml:lang="el">&#x3C4;&#x3B5;&#x3BA;&#x3BC;&#x3B7;&#x3C1;&#x3AF;&#x3C9;&#x3C3;&#x3B7;</skos:prefLabel>
+    <skos:prefLabel xml:lang="fi">dokumentointi, asiakirja-aineisto</skos:prefLabel>
+    <skos:prefLabel xml:lang="pl">dokumentacja</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">documenta&#xE7;&#xE3;o</skos:prefLabel>
+    <skos:prefLabel xml:lang="sv">dokumentation</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">documentation</skos:prefLabel>
+    <skos:prefLabel xml:lang="bg">&#x414;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x438;&#x440;&#x430;&#x43D;&#x435;</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">documentation</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">&#x434;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x430;&#x446;&#x438;&#x44F;</skos:prefLabel>
+    <skos:prefLabel xml:lang="et">dokumentatsioon</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">documentaci&#xF3;n</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">documentatie</skos:prefLabel>
+    <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/4303"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/4303">
+    <skos:prefLabel xml:lang="sl">informacija, informacije, podatki</skos:prefLabel>
+    <skos:prefLabel xml:lang="sk">inform&#xE1;cia</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">informazio</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">information</skos:prefLabel>
+    <skos:prefLabel xml:lang="ro">informa&#x163;ie</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">informazione</skos:prefLabel>
+    <skos:prefLabel xml:lang="tr">bilgi</skos:prefLabel>
+    <skos:prefLabel xml:lang="mt">informazzjoni</skos:prefLabel>
+    <skos:prefLabel xml:lang="no">informasjon</skos:prefLabel>
+    <skos:prefLabel xml:lang="hu">inform&#xE1;ci&#xF3;</skos:prefLabel>
+    <skos:prefLabel xml:lang="lv">inform&#x101;cija</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">&#x627;&#x644;&#x645;&#x639;&#x644;&#x648;&#x645;&#x627;&#x62A;</skos:prefLabel>
+    <skos:prefLabel xml:lang="lt">informacija</skos:prefLabel>
+    <skos:prefLabel xml:lang="cs">informace</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Information</skos:prefLabel>
+    <skos:prefLabel>information</skos:prefLabel>
+    <skos:prefLabel>&#x4FE1;&#x606F;</skos:prefLabel>
+    <skos:prefLabel xml:lang="el">&#x3C0;&#x3BB;&#x3B7;&#x3C1;&#x3BF;&#x3C6;&#x3BF;&#x3C1;&#x3AF;&#x3B1;(&#x3AF;&#x3B5;&#x3C2;)/&#x3C0;&#x3BB;&#x3B7;&#x3C1;&#x3BF;&#x3C6;&#x3CC;&#x3C1;&#x3B7;&#x3C3;&#x3B7;/&#x3C3;&#x3C4;&#x3BF;&#x3B9;&#x3C7;&#x3B5;&#x3AF;&#x3B1;/&#x3B5;&#x3BD;&#x3B7;&#x3BC;&#x3AD;&#x3C1;&#x3C9;&#x3C3;&#x3B7;</skos:prefLabel>
+    <skos:prefLabel xml:lang="fi">tieto</skos:prefLabel>
+    <skos:prefLabel xml:lang="pl">informacja</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">informa&#xE7;&#xE3;o</skos:prefLabel>
+    <skos:prefLabel xml:lang="sv">information</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">information</skos:prefLabel>
+    <skos:prefLabel xml:lang="bg">&#x418;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44F;</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">information</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">&#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44F;</skos:prefLabel>
+    <skos:prefLabel xml:lang="et">teave, info[rmatsioon]</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">informaci&#xF3;n</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">informatie</skos:prefLabel>
+  </skos:Concept>
+  <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92076/BibliographicResource_1000056588419">
+    <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92076/BibliographicResource_1000056588419"/>
+    <edm:dataProvider>National Library of the Netherlands</edm:dataProvider>
+    <edm:hasView rdf:resource="http://www.earlydutchbooksonline.nl/nl/view/info/id/dpo:11005:mpeg21"/>
+    <edm:hasView rdf:resource="http://resolver.kb.nl/resolve?urn=stcn:315649291:01"/>
+    <edm:isShownAt rdf:resource="http://resolver.kb.nl/resolve?urn=dpo:11005:mpeg21"/>
+    <edm:isShownBy rdf:resource="http://resolver.kb.nl/resolve?urn=dpo:11005:mpeg21:pdf"/>
+    <edm:object rdf:resource="http://imageviewer.kb.nl/ImagingService/imagingService?id=dpo:11005:mpeg21:0003:image"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </ore:Aggregation>
+  <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92076/BibliographicResource_1000056588419">
+    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Purgold, D.H.</dc:creator>
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1790</dc:date>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://resolver.kb.nl/resolve?urn=dpo:11005:mpeg21</dc:identifier>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">R&#xF6;der Wesel, 1778, 1790, 1800</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Huisingh, Lubbartus Groningen, 1758-1794</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Cahais, Gerardus Magnus Leeuwarden, 1779-1801</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Romar, Dionysius Franeker, 1768-1800</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Brouwer, Gerrit Deventer, 1782-1802</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Troost, Wouter Arnhem, 1764-1796</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Troost, Jan Arnhem, 1790-1807</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Keyzer, Harmanus Amsterdam, 1769-1799</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Holtrop, Willem Amsterdam, 1776-1805</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Kroe, Albert van der Amsterdam, 1758-1803</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Wijnands, Wijnand Amsterdam, 1780-1802</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Bruyn, Martinus de Amsterdam, 1769-1804</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Vliet, Willem van Amsterdam, 1782-1802</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Warnars, Gerrit Amsterdam, 1768-1804</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Schalekamp, Matthijs Amsterdam, 1774-1803</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Burgh, Jacobus van der Amsterdam, 1783-1800</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Tol, Dirk Amsterdam, 1783-1799</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Tol, Jacobus Amsterdam, 1783-1799</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Gulik, Jan van Amsterdam, 1776-1800</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Mens Jansz, Anthony Amsterdam, 1772-1798</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Saakes, Anthony Bernard Amsterdam, 1788-1803</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Loosjes Pz, Adriaan Haarlem, 1783-1803</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Bohn, Franc&#x327;ois Haarlem, 1781-1814</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Plaat, Christiaan Haarlem, 1789-1798</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Herdingh, Leendert Leiden, 1774-1801</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Roelofswaert, Mattheus Delft, 1789-1801</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Leeuwestijn, Johannes Coenradus 's-Gravenhage, 1789-1803</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Wynants, Jacobus Pieter 's-Gravenhage, 1769-1797</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Cleef, Isaac van 's-Gravenhage, 1778-1803</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Vis, Dirk (II) Rotterdam, 1758-1801</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Meyer, Jan Rotterdam, 1786-1800</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Pols, Johannes Rotterdam, 1779-1802</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Arrenberg, Gerard Abraham Rotterdam, 1786-1800</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Blusse&#x301;, Abraham Dordrecht, 1748-1806</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Blusse&#x301;, Pieter Dordrecht, 1769-1806</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Wanner, Frederik Dordrecht, 1774-1799</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Vermande, Lodewijk Hoorn, 1767-1802</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Breebaart, Jan Hoorn, 1762-1808</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Franx, Gerrit Enkhuizen, 1775, 1778-1800</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Keel, Willem Alexander Middelburg, 1780-1800</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Abrahams, Johannes (wed.) Middelburg, 1790-1800</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Abrahams, Willem (wed.) Middelburg, 1790-1802</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Daalen Wetters, Melis van 'sGravenhage, 1774-1800</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Wetter, Frederik Lehard Middelburg, 1783-1797</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Setten, Adriaan van Zierikzee, 1780-1802</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Huysman, Jacobus Goes, 1752-1801</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Corbelijn, Johannes Isaac Vlissingen, 1784-1802</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Corbelijn, Thomas Vlissingen, 1763-1791</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Visch, Justus Utrecht, 1770-1802</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Paddenburg, G&#x133;sbert Tieme van Utrecht, 1746-1804</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Wild, Bartholomeus Utrecht, 1772-1803</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Palier, Hendrik (II) 's-Hertogenbosch, 1766-1796</dc:publisher>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Oukoop, Albert Breda, 1782-1790</dc:publisher>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">nl</dc:language>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">n&#xE9;erlandais; flamand</dc:language>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Dutch; Flemish</dc:language>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="nl">nederlands</dc:language>
+    <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Theology (Christian doctrine)</dc:subject>
+    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="nl">Resultaat van mijne meer dan vijftigjaarige overdenkingen over den godsdienst van Jezus, benevens een bijvoegzel tot de geschiedenis onzer eerste ouderen.</dc:title>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="nl">boek</dc:type>
+    <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">[*]{8} A-T{8}</dcterms:extent>
+    <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">8&#x2DA;</dcterms:extent>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/">Dutch Prints Online</dcterms:isPartOf>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/">Early Dutch Books Online</dcterms:isPartOf>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0497"/>
+    <edm:europeanaProxy>false</edm:europeanaProxy>
+    <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92076/BibliographicResource_1000056588419"/>
+    <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92076/BibliographicResource_1000056588419"/>
+    <edm:type>TEXT</edm:type>
+  </ore:Proxy>
+  <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92076/BibliographicResource_1000056588419">
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/1790"/>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/959"/>
+    <edm:europeanaProxy>true</edm:europeanaProxy>
+    <edm:year xml:lang="eur">1790</edm:year>
+    <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92076/BibliographicResource_1000056588419"/>
+    <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92076/BibliographicResource_1000056588419"/>
+    <edm:type>TEXT</edm:type>
+  </ore:Proxy>
+  <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92076/BibliographicResource_1000056588419">
+    <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92076/BibliographicResource_1000056588419"/>
+    <edm:collectionName>92076_Ag_EU_TEL_a0497_DutchBooksOnline</edm:collectionName>
+    <edm:country>Netherlands</edm:country>
+    <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92076/BibliographicResource_1000056588419.html"/>
+    <edm:language>nl</edm:language>
+    <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+  </edm:EuropeanaAggregation>
+</rdf:RDF>

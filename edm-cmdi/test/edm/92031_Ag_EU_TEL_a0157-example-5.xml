@@ -1,0 +1,53 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92031/BibliographicResource_1000128561233"/>
+          <edm:WebResource rdf:about="http://molcat1.bl.uk/treasures/gutenberg/search.asp">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92031/BibliographicResource_1000128561233">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92031/BibliographicResource_1000128561233"/>
+            <edm:dataProvider>The British Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://molcat1.bl.uk/treasures/gutenberg/search.asp"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92031/BibliographicResource_1000128561233">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Jerome, Saint. Præfationes in Biblia Sacra</dc:contributor>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Known as the Gutenberg Bible, the Mazarine Bible and the 42-line Bible. 643 leaves, the last two blank. Without signatures. From the Library of Thomas Grenville</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">On vellum. Double columns, 42 lines to a column, except on ff. 129-132 recto, 40 lines. Ff. 1-20 are of the second of three recorded settings-up. Ff. 21-32 recto, 129-158, and 325-340 are of the second of two recorded settings-up. Ff. 129-132 have 42 lines to a column. The headings are supplied throughout by hand.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">jpeg</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">6b843711-0ed1-492e-9d22-6081e07ab192</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Mainz: Printer of the 42-line Bible, i.e. Johann Gutenberg, Johann Fust and Peter Schoeffer</dc:publisher>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">C.9.d.3,4.</dc:relation>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">British Library</dc:source>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Begin. [fol. 1 recto:] [F]Rater ambrosius tua michi munuscula perferens. detulit siml[ul] [et] suauissimas litteras, etc. [fol. 5 recto:] [I]N principio creauit deus celu[m] et terram, etc. End. [fol. 641 verso:] Gratia d[omi]n[i] n[ost]r[i] ihesu cristi tu[m] [sic] omnib[us] vobis ame[n]. G.L.</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Still image</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">text</dc:type>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">Bible. Latin</dcterms:alternative>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">Gutenberg Bible</dcterms:alternative>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1455</dcterms:created>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">2 v.</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0157"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Gutenberg Bible Collection</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">2000</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92031/BibliographicResource_1000128561233"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92031/BibliographicResource_1000128561233"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92031/BibliographicResource_1000128561233">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1455</edm:year>
+            <edm:year xml:lang="eur">2000</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92031/BibliographicResource_1000128561233"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92031/BibliographicResource_1000128561233"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92031/BibliographicResource_1000128561233">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92031/BibliographicResource_1000128561233"/>
+            <edm:collectionName>92031_Ag_EU_TEL_a0157</edm:collectionName>
+            <edm:country>United Kingdom</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92031/BibliographicResource_1000128561233.html"/>
+            <edm:language>en</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

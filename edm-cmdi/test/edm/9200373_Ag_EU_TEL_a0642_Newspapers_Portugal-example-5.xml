@@ -1,0 +1,156 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200373/BibliographicResource_3000115253214"/>
+          <edm:WebResource rdf:about="http://purl.pt/24366">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://purl.pt/24366/cover.get">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/2742032/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">41.55032</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">-8.42005</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Braga</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Braga</skos:prefLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">براگا</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Μπράγκα</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Bracara Augusta</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Брага</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tet">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Braga</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">ブラガ</skos:altLabel>
+            <skos:note xmlns:skos="http://www.w3.org/2004/02/skos/core#">http://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D0%B3%D0%B0_%28%D0%B3%D0%BE%D1%80%D0%BE%D0%B4_%D0%B2_%D0%9F%D0%BE%D1%80%D1%82%D1%83%D0%B3%D0%B0%D0%BB%D0%B8%D0%B8%29</skos:note>
+          </edm:Place>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1896">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1896</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/18xx_4_quarter"/>
+            <edm:begin>Wed Jan 01 01:00:00 CET 1896</edm:begin>
+            <edm:end>Thu Dec 31 01:00:00 CET 1896</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx_4_quarter">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">4e quart 19e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">4 quarter of the 19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">4-я четверть 19-го века</skos:prefLabel>
+            <edm:begin>Sat Jan 01 01:00:00 CET 1876</edm:begin>
+            <edm:end>Mon Dec 31 00:19:32 CET 1900</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx_2_half">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">19e (fin)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second half of the 19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Вторая половина 19-го века</skos:prefLabel>
+            <edm:begin>Wed Jan 01 01:00:00 CET 1851</edm:begin>
+            <edm:end>Tue Dec 31 00:19:32 CET 1901</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">19e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">19й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">19de eeuw</skos:prefLabel>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1801</edm:begin>
+            <edm:end>Mon Dec 31 00:19:32 CET 1900</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://vocab.getty.edu/aat/300026656">
+            <skos:altLabel xml:lang="de">Tageszeitung</skos:altLabel>
+            <skos:altLabel xml:lang="it">giornale (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="fr">journal (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="sv">tidning</skos:altLabel>
+            <skos:altLabel xml:lang="en">newspaper</skos:altLabel>
+            <skos:altLabel xml:lang="es">diario (noticias)</skos:altLabel>
+            <skos:altLabel xml:lang="nl">nieuwsbladen</skos:altLabel>
+            <skos:prefLabel xml:lang="en">newspapers</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">diarios (noticias)</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">kranten</skos:prefLabel>
+            <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+            <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+            <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200373/BibliographicResource_3000115253214">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200373/BibliographicResource_3000115253214"/>
+            <edm:dataProvider>National Library of Portugal</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://purl.pt/24366"/>
+            <edm:object rdf:resource="http://purl.pt/24366/cover.get"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200373/BibliographicResource_3000115253214">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">J. M. da Cunha</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">M. J. da Rocha</dc:contributor>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1896</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">propr. adm. J. M. da Cunha</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">red. e dir. M. J. da Rocha</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">A. 1, nº 1 (16 out. 1896) - nº 12 (1 jan. 1897)</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Publica-se às sextas feiras</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Audience: Adult general</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:oai.bn.pt:jornais/507590</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Manuel Antonio de Paiva</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">pt</dc:language>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">A gazeta de Braga semanario independente, commercial, litterario e noticioso</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Title</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Analytic</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">45 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0642"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1896 - 1897</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2742032/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/po"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200373/BibliographicResource_3000115253214"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200373/BibliographicResource_3000115253214"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200373/BibliographicResource_3000115253214">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/1896"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1896</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200373/BibliographicResource_3000115253214"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200373/BibliographicResource_3000115253214"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200373/BibliographicResource_3000115253214">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200373/BibliographicResource_3000115253214"/>
+            <edm:collectionName>9200373_Ag_EU_TEL_a0642_Newspapers_Portugal</edm:collectionName>
+            <edm:country>Portugal</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200373/BibliographicResource_3000115253214.html"/>
+            <edm:language>pt</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

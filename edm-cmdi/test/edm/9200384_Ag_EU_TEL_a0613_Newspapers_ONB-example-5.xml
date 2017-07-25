@@ -1,0 +1,204 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200384/BibliographicResource_3000116405545"/>
+          <edm:WebResource rdf:about="http://anno.onb.ac.at/cgi-content/anno?apm=0&amp;aid=aiz&amp;datum=19190617">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/unknown/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://anno.onb.ac.at/cgi-content/annoshow?iiif=aiz|19190617|1|full|full|0|70">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/unknown/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/2761369/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">48.20849</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">16.37208</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Beč</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Viena</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Viyana</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Bécs</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">เวียนนา</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Viena</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Vindobona</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vienna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Vienne</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Виена</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Dunaj</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Vín</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Vínarborg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Vienna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Беч</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">빈</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Vídeň</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Βιέννη</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ቪየና</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Wiedeń</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Vindobona</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Viena</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Vieno</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Vienna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Вена</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Viena</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Wenen</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2782113/"/>
+          </edm:Place>
+          <edm:Place rdf:about="http://d-nb.info/gnd/4066009-6">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Wien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Wien (Stadt)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Wien (Stadt)</skos:prefLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Beč</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bécs</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Biennē</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bundeshauptstadt Wien</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bundesland Wien</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bundesunmittelbare Stadt Wien</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Gemeinde Wien</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">K.K. Reichshaupt- und Residenzstadt Wien</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Kaiserlich-Königliche Reichshaupt- und Residenzstadt Wien</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Land Wien</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Reichsgau Wien</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Reichshaupt- und Residenzstadt Wien</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stadt Wien</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vena</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Viedeň</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Viena</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vienna</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vienna (Austriae)</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vienna Fluviorum</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vienna Pannoniae</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vienne</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vienne (Österreich)</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Viennē</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vin</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vindobona</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vindobona (Wien)</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vinna</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Vjenë</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Wenia</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Wiedeń (Wien)</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Wienn</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Wienna</skos:altLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Wīn</skos:altLabel>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="(DE-588)1012345-3"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="(DE-588c)4066009-6"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://d-nb.info/gnd/1012345-3"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://sws.geonames.org/2761367"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="(DE-588b)1012345-3"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="4066009-6"/>
+          </edm:Place>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1919">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1919</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_1_third"/>
+            <edm:begin>Wed Jan 01 00:19:32 CET 1919</edm:begin>
+            <edm:end>Wed Dec 31 00:19:32 CET 1919</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_1_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 20-го века</skos:prefLabel>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 00:19:32 CET 1933</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://d-nb.info/gnd/4018202-2">
+            <skos:altLabel>Weibliche Erwachsene</skos:altLabel>
+            <skos:prefLabel xml:lang="de">Anatomie Frau Drüse Gebärmutter</skos:prefLabel>
+            <skos:prefLabel>Frau</skos:prefLabel>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://d-nb.info/gnd/4112560-5">
+            <skos:altLabel>Industriearbeiter</skos:altLabel>
+            <skos:prefLabel>Arbeiter</skos:prefLabel>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://vocab.getty.edu/aat/300026656">
+            <skos:altLabel xml:lang="de">Tageszeitung</skos:altLabel>
+            <skos:altLabel xml:lang="it">giornale (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="fr">journal (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="sv">tidning</skos:altLabel>
+            <skos:altLabel xml:lang="en">newspaper</skos:altLabel>
+            <skos:altLabel xml:lang="es">diario (noticias)</skos:altLabel>
+            <skos:altLabel xml:lang="nl">nieuwsbladen</skos:altLabel>
+            <skos:prefLabel xml:lang="en">newspapers</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">diarios (noticias)</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">kranten</skos:prefLabel>
+            <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+            <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+            <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200384/BibliographicResource_3000116405545">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200384/BibliographicResource_3000116405545"/>
+            <edm:dataProvider>Österreichische Nationalbibliothek - Austrian National Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://anno.onb.ac.at/cgi-content/anno?apm=0&amp;aid=aiz&amp;datum=19190617"/>
+            <edm:object rdf:resource="http://anno.onb.ac.at/cgi-content/annoshow?iiif=aiz|19190617|1|full|full|0|70"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/unknown/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200384/BibliographicResource_3000116405545">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1919</dc:date>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://anno.onb.ac.at/cgi-content/anno?apm=0&amp;aid=aiz&amp;datum=19190617</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">de</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Frauen</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://d-nb.info/gnd/4018202-2"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Arbeiter</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://d-nb.info/gnd/4112560-5"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">sh85073639</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">sh85147274</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">sh85147333</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Arbeiterinnen-Zeitung - 1919-06-17</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">newspaper</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Issue</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Analytic serial</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000117070010"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0613"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1919-06-17</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2761369/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://d-nb.info/gnd/4066009-6"/>
+            <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000116405488"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200384/BibliographicResource_3000116405545"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200384/BibliographicResource_3000116405545"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200384/BibliographicResource_3000116405545">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/1919"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1919</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200384/BibliographicResource_3000116405545"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200384/BibliographicResource_3000116405545"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200384/BibliographicResource_3000116405545">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200384/BibliographicResource_3000116405545"/>
+            <edm:collectionName>9200384_Ag_EU_TEL_a0613_Newspapers_ONB</edm:collectionName>
+            <edm:country>Austria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200384/BibliographicResource_3000116405545.html"/>
+            <edm:language>de</edm:language>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/unknown/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

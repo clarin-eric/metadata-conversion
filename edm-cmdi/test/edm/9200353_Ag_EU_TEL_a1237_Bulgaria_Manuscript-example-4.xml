@@ -1,0 +1,53 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072605">
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="a1237:НБКМ 289"/>
+          </edm:ProvidedCHO>
+          <edm:WebResource rdf:about="http://digital.nationallibrary.bg/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=71306f5b-d32d-4328-968c-3043dab885fe&amp;did=55&amp;culture=en">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/nbkm/SL_2/55.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200353/BibliographicResource_3000096072605">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072605"/>
+            <edm:dataProvider>National Library of Bulgaria</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digital.nationallibrary.bg/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=71306f5b-d32d-4328-968c-3043dab885fe&amp;did=55&amp;culture=en"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/SL_2/55.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200353/BibliographicResource_3000096072605">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">поп Герасим</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">XІV век</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Трима писачи: търновски устав с наклонено вдясно писмо, л. 1а-62б, 21 реда на страница; полуустав, попгерасимово писмо, л. 63а–102б, 21 реда на страница; гръцки минускул, л. 103а–118б, 21 реда на страница; хартия;дъски с орнаментирана кожа; орнаментика със сляп отпечатък; подвързията е свалена при реставрацията;тъмно и светлокафяво мастило за основния текст, червено за рубриките и инициалите; скромна украса от заставки, оформени от графични знаци на л. 53а, 85б, 118а и неовизантийски инициали с растителен орнамент на л. 43а, 45б, 48б, 50а, 51а, 52а, 55б, 56б, 58а, 61б, 63а; търновски, двуеров, двуюсов правопис; кирилски приписки: върху вътрешната страна на горния капак – с изгубеното начало на Синодика; л. 13а, 29а, 33б, 38б, 40а, 40б, 96б и др., от различно време; гръцки приписки, вер. от ХVІІІ в., л. 36б, 37а, 37б, 38а, 38б, 42б, 62б, 80б, 102б, 117б; мястото на написване не е посочено, но най-вероятно то е в някой от манастирите около Търново, по времето на цар Йоан Шишман; ръкописът е намерен през 1845 г. у Стоянчо Ахтар от Търново от Николай Хр. Палаузов</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">210 x 140 мм</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">НБКМ 289</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">cu</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Българският ХІV век / The Bulgarian Fourteenth Century</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Национална библиотека Св. Св. Кирил и Методий / St. St. Cyril and Methodius National Library</dc:rights>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Синодик (Борилов синодик, Палаузов препис)</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Славянски ръкопис / Slavonic Manuscript</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">118 л.</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1237"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1914</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072605"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200353/BibliographicResource_3000096072605"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200353/BibliographicResource_3000096072605">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1914</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072605"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200353/BibliographicResource_3000096072605"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200353/BibliographicResource_3000096072605">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072605"/>
+            <edm:collectionName>9200353_Ag_EU_TEL_a1237_Bulgaria_Manuscript</edm:collectionName>
+            <edm:country>Bulgaria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200353/BibliographicResource_3000096072605.html"/>
+            <edm:language>bg</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

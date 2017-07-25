@@ -1,0 +1,67 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92099/BibliographicResource_1000157170646"/>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b84478715/f1.zoom">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b84478715/texteBrut">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b84478715.swf">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b84478715">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b84478715.thumbnail.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92099/BibliographicResource_1000157170646">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170646"/>
+            <edm:dataProvider>National Library of France</edm:dataProvider>
+            <edm:hasView rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b84478715/f1.zoom"/>
+            <edm:hasView rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b84478715/texteBrut"/>
+            <edm:hasView rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b84478715.swf"/>
+            <edm:isShownAt rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b84478715"/>
+            <edm:object rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b84478715.thumbnail.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92099/BibliographicResource_1000157170646">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Maître de Fauvel. Enlumineur</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1325 - 1350</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Le volume est entré dans la Librairie du Louvre sous le règne de Charles VI . Il ne figure pas dans les premiers inventaires de 1380 (BnF., Français 2700, f. 2-37 [Inv. A] ; ibid ., Baluze 397 [Inv. B]). Il est catalogué dans l’inventaire de 1411 (BnF., Français 2700, f. 129, n° 898 [Inv. D]) « Item le Romans Artus le restoré, en un grant volume plat, de grosse lettre de forme, en françois, a trois coulombes, commençant ou .II. e foillet sien tout et le sa femme , et ou derrenier Quant Tixelius fu , couvert de cuir rouge a empraint, a groz bouillons et quatre fermoirs de laton » ; dans l’inventaire de 1413 ( ibid . Français 9430, f. 15v, n° 202 [Inv. E]) : même description ; dans l’inventaire de 1424 (Bibl. Sainte-Geneviève, ms. 964, f. 24v, n° 176 [inv. F]), où il est prisé 4 livres parisis. On perd sa trace après la dispersion de la librairie du Louvre, bien que le f. 144 r porte une marque de possesseur (écriture du XV e s.) : « Bouchain » avec, au bas du feuillet, la devise « ensemble ». Le manuscrit appartint vraisemblablement à l’un des seigneurs du comté qui était uni à celui du Hainaut. Il entre à une date indéterminée dans la collection de Louis de Bruges dont l’emblème, recouvert par les armes de Louis XII , est visible par transparence au f. 1 (cf. Manuscrits enluminés des anciens Pays-Bas méridionaux . I : Manuscrits de Louis de Bruges , 2009, 15). Il revient, sans doute lors de la cession de la bibliothèque de son père à Louis XII par Jean de Bruges , dans la librairie royale (ibid., 11). Sa présence dans la Librairie royale de Blois est attestée par une mention au dos du premier feuillet de garde de parchemin : « Des histoires et livres en françoys, pulpito .I.°, / entre la premiere et seconde croysees / contre la muraille vers les fossés / Bloys ». Deux lignes indiquant précédemment leur classement dans la bibliothèque ont été grattées : on déchiffre à la lampe de Wood la première ligne : « Des histoires et livres en françoys, pulpito .I.°, entre la premiere [2] […] (cf. U. Baurmeister et M.-P. Laffitte, « La bibliothèque des rois de France », dans Des livres et des rois …, 24). Il est, à partir de cette époque, répertorié dans les différents inventaires de la Bibliothèque du roi : catalogue de Guillaume Petit de 1518 (Omont, Anciens inventaires …, I, 3, n° 7), inventaire de 1544 ( ibid ., 217, n° 1272), catalogue de la bibliothèque du roi à Paris, XVI e siècle ( ibid ., n° 2487). Trois cotes sont inscrites dans la marge supérieure du fol. 1 : [Rigault II] « cent cinquante » (cancellé), [Dupuy] 202, [Regius] 7180.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">F. 1ra-143vb, Artus de Bretagne : « Aprez la mort le bon roy Artu qui tant fu nobles roys et gentilz, et entour qui fu et regna toute la noblece de toute la chevalerie …-… si furent tuit esbahis dont ce venoit, et ainsi se departirent cil du pays ». « Explicit le roumans d’Artus le Restoré ». Le manuscrit, doté du sigle A par B. Woledge, présente la version ancienne du roman s’arrêtant au tournoi qui suit le mariage d’Artus et de Florence, rédigée, selon l'auteur, entre 1320 et 1340 (cf. Woledge (« Les manuscrits du petit Artus de Bretagne », Romania , 63, 393-397). Titre de l’œuvre au verso du premier feuillet de garde : « Le rommans de Artus le Restoré » (XVI e s.).</dc:description>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://gallica.bnf.fr/ark:/12148/btv1b84478715</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">Europeana Regia. Bibliothèque de Charles V et sa famille</dc:relation>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Europeana Regia. Library of Charles V and Family</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">domaine public</dc:rights>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">public domain</dc:rights>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">Bibliothèque nationale de France, Département des manuscrits, Français 761</dc:source>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.bnf.fr"/>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://gallica.bnf.fr"/>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.europeanaregia.eu"/>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Artus le Restauré [ Artus de Bretagne ]. [Paris, BnF, MSS Français 761]</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">manuscrit</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">manuscript</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1080"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170646"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92099/BibliographicResource_1000157170646"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92099/BibliographicResource_1000157170646">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170646"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92099/BibliographicResource_1000157170646"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92099/BibliographicResource_1000157170646">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170646"/>
+            <edm:collectionName>92099_Ag_EU_TEL_a1080_Europeana_Regia_France</edm:collectionName>
+            <edm:country>France</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92099/BibliographicResource_1000157170646.html"/>
+            <edm:language>fr</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>
