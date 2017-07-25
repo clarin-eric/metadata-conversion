@@ -42,12 +42,10 @@ URIs for properties from the DC and DCMI Metadata Terms vocabularies, and
 hand-picked URIs of matching concepts registered in the CLARIN Concept Registry
 (CCR) in all other cases.
 
- 
-
 **CMDI records** (as of CMDI version 1.2) are governed by
 two XML schemas: one that defines an ‘envelope’ common to all CMDI instances,
 and a second one that is specific to a profile and defines the structure of the
-‘payload’. The CMDI** envelope** wraps around the payload, and at its
+‘payload’. The CMDI **envelope** wraps around the payload, and at its
 highest level contains header information such as creation date, name of the
 collection a record is part of, and a resolvable identifier of the document
 (‘self link’); it has an adjacent section for ‘resource proxies’, which are
@@ -69,7 +67,7 @@ media type (also known as “MIME type” and labeled as such in the resource pr
 definition) is obtained from the `ebucore:hasMimeType` property if
 present.
 
-The record’s** payload** is produced mostly by means of a
+The record’s **payload** is produced mostly by means of a
 straightforward crosswalk where the namespace bound properties in the RDF/XML
 document are mapped to CMD components or  elements of an equivalent name
 consisting of a concatenation of the common namespace prefix and the property’s
