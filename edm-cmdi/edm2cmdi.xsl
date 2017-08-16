@@ -173,8 +173,8 @@
                             <xsl:attribute name="mimetype" select="ebucore:hasMimeType" />
                         </xsl:when>
                         <!-- dc:format may be present and contain a mime type (check) -->
-                        <xsl:when test="matches(dc:format, '^(image|application|audio|video)/[-+\w]+$')">
-                            <xsl:attribute name="mimetype" select="dc:format" />
+                        <xsl:when test="dc:format[matches(., '^(image|application|audio|video)/[-+\w]+$')]">
+                            <xsl:attribute name="mimetype" select="dc:format[matches(., '^(image|application|audio|video)/[-+\w]+$')][1]" />
                         </xsl:when>
                         <!-- last resort: guess mime type based on URI -->
                         <xsl:otherwise>
