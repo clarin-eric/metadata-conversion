@@ -6,9 +6,36 @@ SAXON_DISTR_URL="https://netcologne.dl.sourceforge.net/project/saxon/Saxon-HE/9.
 SCRIPT_DIR="$(dirname "$0")"
 SAXON_DIR="${SCRIPT_DIR}/target/saxon"
 SAXON="${SAXON_DIR}/saxon9he.jar"
-IN_DIR="${SCRIPT_DIR}/edm"
-OUT_DIR="${SCRIPT_DIR}/target/edm-cmdi"
 STYLESHEET="${SCRIPT_DIR}/../edm2cmdi.xsl"
+
+# Determine input directory
+IN_DIR=$1
+if [ -z "$IN_DIR" ]
+then
+	IN_DIR="${SCRIPT_DIR}/edm"
+	echo "Using default input directory $IN_DIR"
+else
+	echo "Using custom input directory $IN_DIR"
+	shift
+fi
+
+# Check existence of input directory
+if [ ! -d $IN_DIR ]
+then
+	echo "Input directory does not exist"
+	exit 1
+fi
+
+# Determine output directory
+OUT_DIR=$1
+if [ -z "$OUT_DIR" ]
+then
+	OUT_DIR="${SCRIPT_DIR}/target/edm-cmdi"
+	echo "Using default output directory $OUT_DIR"
+else
+	echo "Using custom output directory $OUT_DIR"
+	shift
+fi
 
 if [ -z "$SAXON_OPTS" ]
 then
