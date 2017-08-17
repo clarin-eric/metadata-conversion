@@ -668,27 +668,27 @@
         *****************************************************************
     -->
 
-    <xsl:template match="@rdf:about[matches(., '.*\.jpg$', 'i')]" mode="guessMimeTypeFromUri">
+    <xsl:template match="@rdf:about[matches(., '.*\.jpg(\?.*)?$', 'i')]" mode="guessMimeTypeFromUri">
         <xsl:attribute name="mimetype">image/jpeg</xsl:attribute>
     </xsl:template>
     
-    <xsl:template match="@rdf:about[matches(., '.*\.gif$', 'i')]" mode="guessMimeTypeFromUri">
+    <xsl:template match="@rdf:about[matches(., '.*\.gif(\?.*)?$', 'i')]" mode="guessMimeTypeFromUri">
         <xsl:attribute name="mimetype">image/gif</xsl:attribute>
     </xsl:template>
     
-    <xsl:template match="@rdf:about[matches(., '(.*\.html?$)|(.*/HTML$)', 'i')]" mode="guessMimeTypeFromUri">
+    <xsl:template match="@rdf:about[matches(., '(.*\.html?(\?.*)$)|(.*/HTML$)', 'i')]" mode="guessMimeTypeFromUri">
         <xsl:attribute name="mimetype">text/html</xsl:attribute>
     </xsl:template>
     
-    <xsl:template match="@rdf:about[matches(., '(.*\.txt$)|(.*/TEXT$)', 'i')]" mode="guessMimeTypeFromUri">
+    <xsl:template match="@rdf:about[matches(., '(.*\.txt(\?.*)?$)|(.*/TEXT$)', 'i')]" mode="guessMimeTypeFromUri">
         <xsl:attribute name="mimetype">text/plain</xsl:attribute>
     </xsl:template>
     
-    <xsl:template match="@rdf:about[matches(., '(.*[:\.]pdf$)|(.*/PDF$)', 'i')]" mode="guessMimeTypeFromUri">
+    <xsl:template match="@rdf:about[matches(., '(.*[:\.]pdf(\?.*)?$)|(.*/PDF$)', 'i')]" mode="guessMimeTypeFromUri">
         <xsl:attribute name="mimetype">application/pdf</xsl:attribute>
     </xsl:template>
     
-    <xsl:template match="@rdf:about[matches(., '.*\.mp3', 'i')]" mode="guessMimeTypeFromUri">
+    <xsl:template match="@rdf:about[matches(., '.*\.mp3(\?.*)?$', 'i')]" mode="guessMimeTypeFromUri">
         <xsl:attribute name="mimetype">audio/mpeg</xsl:attribute>
     </xsl:template>
 
