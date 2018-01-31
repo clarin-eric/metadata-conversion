@@ -1,0 +1,65 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703111">
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="a0590:a5a1f8ee-ec92-4575-abd8-1246547239b1"/>
+          </edm:ProvidedCHO>
+          <edm:WebResource rdf:about="http://193.200.14.178/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=7d133cfe-0af4-4959-8d7b-202f7d2cfd04&amp;did=95&amp;culture=en">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/nbkm/S_59.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200136/BibliographicResource_2000064703111">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703111"/>
+            <edm:dataProvider>National Library of Bulgaria</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://193.200.14.178/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=7d133cfe-0af4-4959-8d7b-202f7d2cfd04&amp;did=95&amp;culture=en"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/S_59.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200136/BibliographicResource_2000064703111">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Мустафа</dc:creator>
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mustafa</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">най-ранната дата: 1-10 мухаррем 1202 (13-22.Х.1787) г. ( (л. 5б-6а)</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">Earliest date: 1-10 muharrem 1202 (13-22.Х.1787), fol. 5b-6а</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">крайна дата: 20 джемазиюл ахър 1203 (18.ІІІ.1789), л. 86а-І</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">Final date: 20 cemaziyul ahir 1203 (18.ІІІ.1789), fol. 86а-І</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Листове 6б, 8а, 9а и 41б са празни.
+Посоченият по-горе кадия е назначен от 1 джемазиюл ахър 1202 (9.ІІІ.1788) г. (л.26а-І). От своя страна той назначава за изпълняващ длъжността кадия Ахмед Нури ефенди. 
+Под този текст е налице препис на берат от 29 реджеб 1202 (5.V.1788) г., с който, на основание на молба, изпратена от страна на наиба Мехмед Рашид, Ахмед Садък Халифе бива назначен за кятиб (секретар) в съда.
+Заверка на изпълняващия длъжността кадия (мувалля хиляфетен) Ахмед Нури фигурира на л. 41а под писмо от 30 мухаррем 1203 (31.V.1788 г.). Също негова заверка с печат откриваме и на л. 53б под наследствен опис от същата дата. 
+От 1 сафер 1203 (1.ХІ.1788 г.) кадията на каза Bидин Мустафа назначава като изпълняващ длъжността мевляна мюдеррис Мюфти-заде Сеййид Ахмед (л. 53б, непосредствено под кадийската заверка на Ахмед Нури).
+Сиджилът включва наследствени описи, хюджети, султански документи и др. Между тях: препис на емр-и шериф от 20 ребиюл еввел 1203 (19.ХІІ.1788) г. (л. 68а-б) във връзка с построяването на голям мост във Видин, за което е необходимо да бъдат доставени топази и дървен материал; опис (л. 88б-І) на топено масло (руган-и саде), лой за свещи (руган-и шем') и мед, пристигнали през месец мухаррем 1202 (октомври-ноември 1787) г. от Влашко (Ефляк).
+Тевзи дефтер (л. 38б-40а), анализиран многократно от Хр.Атанасов в изследването "В османската периферия: общество и икономика във Видин и околността през ХVІІІ век". София, 2008.
+В три документа на л. 43а-б става въпрос за смъртта на Пазвандоглу Юмер ага, баща на Осман Пазвантоглу; посочват се неговите наследнници и се споменава, че има дългове към държавата; изисква се описание на наследството му. Тези и някои други документи от същия сиджил, които имат отношение към обстановката във Видин по това време, са коментирани в труда на проф. В.Мутафчиева "Кърджалийско време". София, 1977, стр. 72-76; За публикация на тевзи дефтер, вж Атанасов, Хр. Тевзи дефтер на Видинските вилаетски разходи от 7 май-4 юни 1788 г. - В: Етнически и културни пространства на Балканите. Сб. В чест на проф. дин Цв. Георгиева. Част І. С., 2008, с. 516-548.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="bg">45 х 16 см</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">a5a1f8ee-ec92-4575-abd8-1246547239b1</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">ota</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджили / Sijills</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Национална библиотека Св. Св. Кирил и Методий / St. St. Cyril and Methodius National Library</dc:rights>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджил - Видин</dc:title>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Sijill - Vidin</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Сиджил / Sijill</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">90</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0590"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1914</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703111"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200136/BibliographicResource_2000064703111"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200136/BibliographicResource_2000064703111">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1914</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703111"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200136/BibliographicResource_2000064703111"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200136/BibliographicResource_2000064703111">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200136/BibliographicResource_2000064703111"/>
+            <edm:collectionName>9200136_Ag_EU_TEL_a0590_Bulgaria</edm:collectionName>
+            <edm:country>Bulgaria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200136/BibliographicResource_2000064703111.html"/>
+            <edm:language>bg</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

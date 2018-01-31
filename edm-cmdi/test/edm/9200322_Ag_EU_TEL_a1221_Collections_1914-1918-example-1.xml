@@ -1,0 +1,73 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656964"/>
+          <edm:WebResource rdf:about="http://digicontent.snk.sk/content/journals/Rarasek/">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200322/BibliographicResource_3000094656964">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656964"/>
+            <edm:dataProvider>Slovak National Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digicontent.snk.sk/content/journals/Rarasek/"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200322/BibliographicResource_3000094656964">
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">vtls001325822</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">A. Černiansky</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sk</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">A</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Rarášek humoristicko-satyrický mesačník k obveseleniu a zábave</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Title</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Analytic</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Newspaper</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1221"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1908 - 1914</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/">Turč. Sv. Martin</dcterms:spatial>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/xo"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656964"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200322/BibliographicResource_3000094656964"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200322/BibliographicResource_3000094656964">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656964"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200322/BibliographicResource_3000094656964"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200322/BibliographicResource_3000094656964">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656964"/>
+            <edm:collectionName>9200322_Ag_EU_TEL_a1221_Collections_1914-1918</edm:collectionName>
+            <edm:country>Slovakia</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200322/BibliographicResource_3000094656964.html"/>
+            <edm:language>sk</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

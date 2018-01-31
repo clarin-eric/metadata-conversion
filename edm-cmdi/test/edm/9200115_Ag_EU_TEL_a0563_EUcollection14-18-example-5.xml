@@ -1,0 +1,70 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200115/BibliographicResource_3000093764963"/>
+          <edm:WebResource rdf:about="http://anno.onb.ac.at/cgi-content/anno?apm=0&amp;aid=rus&amp;datum=19161205">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/unknown"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://anno.onb.ac.at/preview/rus/1916/19161205/00000001.png">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/unknown"/>
+          </edm:WebResource>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200115/BibliographicResource_3000093764963">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200115/BibliographicResource_3000093764963"/>
+            <edm:dataProvider>Österreichische Nationalbibliothek - Austrian National Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://anno.onb.ac.at/cgi-content/anno?apm=0&amp;aid=rus&amp;datum=19161205"/>
+            <edm:object rdf:resource="http://anno.onb.ac.at/preview/rus/1916/19161205/00000001.png"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/unknown/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200115/BibliographicResource_3000093764963">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1916-12-05</dc:date>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:fue.onb.at:a0563:64cd6023-4a54-4e28-a1fb-034ec2aa883c</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">de</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Russische Rundschau</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">newspaper</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0563"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/">1908 - 1918</dcterms:temporal>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200115/BibliographicResource_3000093764963"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200115/BibliographicResource_3000093764963"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200115/BibliographicResource_3000093764963">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200115/BibliographicResource_3000093764963"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200115/BibliographicResource_3000093764963"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200115/BibliographicResource_3000093764963">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200115/BibliographicResource_3000093764963"/>
+            <edm:collectionName>9200115_Ag_EU_TEL_a0563_EUcollection14-18</edm:collectionName>
+            <edm:country>Austria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200115/BibliographicResource_3000093764963.html"/>
+            <edm:language>de</edm:language>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/unknown/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

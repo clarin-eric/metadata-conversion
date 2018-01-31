@@ -1,0 +1,155 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065014"/>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/issue.vm?id=0003639566">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/details.vm?q=id:0003639566">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/images/items/0003639567/low.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_2_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Mid 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Середина 20-го века</skos:prefLabel>
+            <edm:begin>Mon Jan 01 00:19:32 CET 1934</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 1966</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1935">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1935</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_2_third"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1935</edm:begin>
+            <edm:end>Tue Dec 31 00:19:32 CET 1935</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://vocab.getty.edu/aat/300026656">
+            <skos:altLabel xml:lang="de">Tageszeitung</skos:altLabel>
+            <skos:altLabel xml:lang="it">giornale (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="fr">journal (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="sv">tidning</skos:altLabel>
+            <skos:altLabel xml:lang="en">newspaper</skos:altLabel>
+            <skos:altLabel xml:lang="es">diario (noticias)</skos:altLabel>
+            <skos:altLabel xml:lang="nl">nieuwsbladen</skos:altLabel>
+            <skos:prefLabel xml:lang="en">newspapers</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">diarios (noticias)</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">kranten</skos:prefLabel>
+            <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+            <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+            <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/4850">
+            <skos:prefLabel xml:lang="sl">književnost, literatura</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">literatúra</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">litteratur</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">literatura</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">literatură</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">letteratura</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">edebiyat</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">litteratura</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">litteratur</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">irodalom</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">literatūra</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">الأدب</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">literatūra</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">literatura</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Literatur</skos:prefLabel>
+            <skos:prefLabel>literature</skos:prefLabel>
+            <skos:prefLabel>文学</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">έντυπο υλικό/κείμενα/λογοτεχνία/φιλολογία</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">kirjallisuus</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">literatura</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">literatura</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">littérature</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">litteratur</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Литература</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">literature</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">литература</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">kirjandus</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">literatura</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">letterkunde</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/1912"/>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_2000092065014">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065014"/>
+            <edm:dataProvider>National Library of Spain</edm:dataProvider>
+            <edm:hasView rdf:resource="http://hemerotecadigital.bne.es/issue.vm?id=0003639566"/>
+            <edm:isShownAt rdf:resource="http://hemerotecadigital.bne.es/details.vm?q=id:0003639566"/>
+            <edm:object rdf:resource="http://hemerotecadigital.bne.es/images/items/0003639567/low.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200302/BibliographicResource_2000092065014">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Torre, Guillermo de</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Pérez Ferrero, Miguel</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Salazar Chapela, Esteban</dc:contributor>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1935</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Publicado por Guillermo de Torre, Miguel Pérez Ferrero y E. Salazar y Chapela, siendo la portada y su confección obra de Mauricio Amster y con el propósito de seguir siendo editado en años posteriores (cosa que no ocurrió al estallar la guerra civil), contiene trabajos originales que ofrecen un registro anual de la vida literaria e intelectual del año anterior: 1934. La publicación quiere ser como una “revista extraordinaria y a la vez magazine” crítico y literario, con el deseo de que desfilen por sus páginas todas las figuras y todas las realizaciones elaboradas por los intelectuales españoles en su condición de “escritores militantes, de críticos o comentaristas” de periódicos y revistas, tal como señalan sus editores en el frontispicio de la publicación. Se trata de un proyecto enraizado en la vieja tradición “almanaquista”, pero contrario al “hibridismo políticoliterario”, que quiere dar cabida a la “totalidad de las letras españolas, sin exclusiones ni sectarismos”, en unos momentos especiales para la vida intelectual del país.
+
+Junto a los textos, aparecen los grabados de Norah Borges de Torre y alguno de Maruja Mallo. Federico García Lorca será el único que publique composiciones en verso. Comienza con un calendario y efemérides literarias y continúa con un balance literario tanto de España en general y por sus regiones como del extranjero, en concreto de los países europeos e hispanoaméricanos. Sus artículos versarán también sobre los libros publicados en torno a la música, arquitectura, cinematografía, universidad, ciencia, medicina, educación y pedagogía e historia. También sobre la literatura en revistas y en la radio, el movimiento editorial, las Misiones Pedagógicas y la compañía teatral La Barraca. Otras páginas estarán dedicadas a textos sobre conmemoraciones y homenajes.
+
+Los autores de sus textos componen una larga nómina: José F. Montesinos, José Camón Aznar, Enrique Díez-Canedo, Bernardo G. de Candamo, Juan Chabás, José Bergamín, María Zambrano… Incluye tres encuestas a las que contestan una larga lista de personalidades de la cultura española: Juan Ramón Jiménez, Pío Baroja, José Solana, Ramón Pérez de Ayala, Ramón Gómez de la Serna, Antonio Machado, Eugenio D’Ors... Al final del volumen, que supera las 300 páginas, ofrece un índice general.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://hemerotecadigital.bne.es/details.vm?q=id%3A0003639566</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Madrid</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">es</dc:language>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Biblioteca Nacional de España</dc:rights>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">2171-5246</dc:source>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Literatura</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Almanaque literario (Madrid. 1935)</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Title</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Serial</dc:type>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059363571"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0597"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1935-01-01 - 1935-01-01</dcterms:issued>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/">1935</dcterms:temporal>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065014"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_2000092065014"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200302/BibliographicResource_2000092065014">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx"/>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/19xx_2_third"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/4850"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1935</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065014"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_2000092065014"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_2000092065014">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065014"/>
+            <edm:collectionName>9200302_Ag_EU_TEL_a0597_Newspapers_Spain</edm:collectionName>
+            <edm:country>Spain</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200302/BibliographicResource_2000092065014.html"/>
+            <edm:language>es</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

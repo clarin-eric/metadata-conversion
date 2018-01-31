@@ -1,0 +1,52 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072601">
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="a1237:НБКМ 896"/>
+          </edm:ProvidedCHO>
+          <edm:WebResource rdf:about="http://digital.nationallibrary.bg/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=71306f5b-d32d-4328-968c-3043dab885fe&amp;did=54&amp;culture=en">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/nbkm/SL_2/54.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200353/BibliographicResource_3000096072601">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072601"/>
+            <edm:dataProvider>National Library of Bulgaria</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digital.nationallibrary.bg/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ&amp;p=V&amp;rl=71306f5b-d32d-4328-968c-3043dab885fe&amp;did=54&amp;culture=en"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/SL_2/54.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200353/BibliographicResource_3000096072601">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">XІV век</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Дребен полуустав с курсивни елементи, вкл. попгерасимово писмо, 2-3 мм, 30 реда на страница; в оригиналната част един основен и още петима писачи; в добавените през ХVІ в. листове разреден полуустав, 3 мм, между 24 и 27 реда от една ръка; хартия; добавени листове хартия от 50-те–60-те години на XVІ век; дъски с орнаментирана кожа; орнаментика със сляп отпечатък; дъските са свалени през 2010/2011 г. и заменени с реставрирана подвързия от картон и апликирана кожа от оригиналната подвързия; черно мастило за основния текст, червено за рубриките и инициалите; плетенична неоцветена заставка на л. 1а; еднолинейни инициали с опростена растителна орнаментика; по-богата украса на инициали пред на библейските и проложните четива; двуеров, двуюсов правопис; по-късни, почти нечетливи приписки на л. 9б, 47б, 78а, 171б, 194б, 195а, 220б (силно обрязана); в Народната библиотека ръкописът е постъпил от Археологическия музей, София</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">270 x 185 мм</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">НБКМ 896</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">cu</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Българският ХІV век / The Bulgarian Fourteenth Century</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Национална библиотека Св. Св. Кирил и Методий / St. St. Cyril and Methodius National Library</dc:rights>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Миней, празничен, с проложни четива</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Славянски ръкопис / Slavonic Manuscript</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">252 л.</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1237"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1914</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072601"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200353/BibliographicResource_3000096072601"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200353/BibliographicResource_3000096072601">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1914</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072601"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200353/BibliographicResource_3000096072601"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200353/BibliographicResource_3000096072601">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200353/BibliographicResource_3000096072601"/>
+            <edm:collectionName>9200353_Ag_EU_TEL_a1237_Bulgaria_Manuscript</edm:collectionName>
+            <edm:country>Bulgaria</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200353/BibliographicResource_3000096072601.html"/>
+            <edm:language>bg</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

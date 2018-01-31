@@ -1,0 +1,150 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92039/BibliographicResource_1000126237541"/>
+          <edm:WebResource rdf:about="http://purl.pt/3605/cover.get">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/2988507/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">48.85341</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">2.3488</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tl">Lungsod ng Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tl">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">París</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fy">Parys</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tg">Париж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gd">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="br">Pariz</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">Páras</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ปารีส</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">París</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Pariisi</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ta">பாரிஸ்</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">პარიზი</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Париж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Lutece</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Paname</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Pantruche</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Ville-Lumière</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sw">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Парыж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kw">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Pariz</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="os">Париж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Paríž</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ku">Parîs</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Париз</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Parisi</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">파리 시</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">פריז</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Paříž</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kn">ಪ್ಯಾರಿಸ್</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="li">Paries</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">París - Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Paryż</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Lutetia Parisorum</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gv">Paarys</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Paräis</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Париж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Pariz</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ln">Pari</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">巴黎</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Pa-ri</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Párizs</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Parīze</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Paryžius</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ia">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">75091</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mg">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Փարիզ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mk">Париз</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">París</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Париж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Parigi</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mr">पॅरिस</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ug">پارىژ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ms">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ur">پیرس</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">پاریس</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">باريس</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ty">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="na">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Παρίσι</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ፓሪስ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="an">París</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Parizo</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Pariis</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">París</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">パリ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Parijs</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Parys</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/3017382/"/>
+          </edm:Place>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92039/BibliographicResource_1000126237541">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237541"/>
+            <edm:dataProvider>National Library of Portugal</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://purl.pt/3605/cover.get"/>
+            <edm:object rdf:resource="http://purl.pt/3605/cover.get"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92039/BibliographicResource_1000126237541">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexandre Aimée Vuillemin</dc:creator>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">par A. Vuillemin</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Escala 1:925500</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Data de publicação atribuída cf. data do acontecimento representado e data de actividade do autor, até 1874, cf. Tooley's</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Tooley's dictionary of mapmakers, ed. rev. 2004, p.338</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Audience: Adult general</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">1 mapa</dc:format>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">litografia, color.</dc:format>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">Contém escalas gráficas de: "25 kilométres" e "4 milles d'Allemagne"</dc:format>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:oai.bn.pt:bndlivre/bnp279511</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Garnier Fréres, Editeurs</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pt">Universal Decimal Classification: 355.4(431:44)"1870"(084.3)</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pt">Universal Decimal Classification: 914.31(084.3)</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pt">Universal Decimal Classification: 912"18"(084.3)</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Guerre de Prusse 1870 : le Rhin et les pays voisins</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Monograph</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">62,00x43,50 cm, em folha de 53,60x72,00 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0493"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1870? - 1874?</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">[ca 1871]</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2988507/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/fr"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237541"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92039/BibliographicResource_1000126237541"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92039/BibliographicResource_1000126237541">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237541"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92039/BibliographicResource_1000126237541"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92039/BibliographicResource_1000126237541">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92039/BibliographicResource_1000126237541"/>
+            <edm:collectionName>92039_Ag_EU_TEL_a0493_Portugal</edm:collectionName>
+            <edm:country>Portugal</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92039/BibliographicResource_1000126237541.html"/>
+            <edm:language>pt</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

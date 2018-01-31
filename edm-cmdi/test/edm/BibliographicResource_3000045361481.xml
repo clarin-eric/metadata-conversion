@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+    <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200386/BibliographicResource_3000045361481"/>
+    <edm:WebResource rdf:about="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10898083-9"/>
+    <edm:WebResource rdf:about="http://bsb0mdz-upload.bsb.lrz.de/~europeana/bsb10898083/download/thumbs/bsb10898083_00003.jpg"/>
+    <edm:Place rdf:about="http://sws.geonames.org/2879139/">
+        <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">51.33962</wgs84:lat>
+        <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">12.37129</wgs84:long>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ไลป์ซิก</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ไลพ์ซิก</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bn">লাইপ্‌ৎসিশ</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Лайпциг</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Lipsko</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Лајпциг</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">라이프치히</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">לייפציג</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cv">Лейпциг</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Lipsko</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Lipsk</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Lipsia</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Лейпциг</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Lipsca</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">萊比錫</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Lipcse</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Leipciga</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Leipcigas</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vo">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Lipsk</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Lipsia</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">لایپزیگ</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">لايبزغ</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Λειψία</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">ライプツィヒ</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Leipzig</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Leipzig</skos:prefLabel>
+        <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2921044/"/>
+    </edm:Place>
+    <edm:Place rdf:about="http://lod.b3kat.de/bib/DE-12"/>
+    <edm:TimeSpan rdf:about="http://semium.org/time/1721">
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1721</skos:prefLabel>
+        <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/17xx_1_third"/>
+        <edm:begin>Wed Jan 01 01:00:00 CET
+            1721</edm:begin>
+        <edm:end>Wed Dec 31 01:00:00 CET
+            1721</edm:end>
+    </edm:TimeSpan>
+    <edm:TimeSpan rdf:about="http://semium.org/time/17xx_1_third">
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early
+            18th century</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 18-го
+            века</skos:prefLabel>
+        <edm:begin>Sat Jan 01 01:00:00 CET 1701</edm:begin>
+        <edm:end>Thu Dec
+            31 01:00:00 CET 1733</edm:end>
+    </edm:TimeSpan>
+    <edm:TimeSpan rdf:about="http://semium.org/time/17xx">
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">18..</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">18??</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">18e</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">18e
+            siècle</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">18-th</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">18th</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">18th century</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">18й
+            век</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">18de eeuw</skos:prefLabel>
+        <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+        <edm:begin>Sat Jan 01 01:00:00 CET 1701</edm:begin>
+        <edm:end>Wed Dec 31 01:00:00 CET
+            1800</edm:end>
+    </edm:TimeSpan>
+    <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e
+            millénaire après J.-C.</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium
+            AD</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years
+            1001-2000</skos:prefLabel>
+    </edm:TimeSpan>
+    <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological
+            period</skos:prefLabel>
+        <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+    </edm:TimeSpan>
+    <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+    </edm:TimeSpan>
+    <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200386/BibliographicResource_3000045361481">
+        <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000045361481"/>
+        <edm:dataProvider>Bavarian State Library</edm:dataProvider>
+        <edm:isShownAt rdf:resource="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10898083-9"/>
+        <edm:object rdf:resource="http://bsb0mdz-upload.bsb.lrz.de/~europeana/bsb10898083/download/thumbs/bsb10898083_00003.jpg"/>
+        <edm:provider xml:lang="en">The European Library</edm:provider>
+        <edm:rights rdf:resource="http://www.europeana.eu/rights/out-of-copyright-non-commercial/"/>
+    </ore:Aggregation>
+    <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200386/BibliographicResource_3000045361481">
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">1720. und wieder aufgeleget
+            1721.</dc:description>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Gespräche in dem Reiche derer Todten ; 16</dc:description>
+        <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Besitzer: München, Bayerische
+            Staatsbibliothek -- Res/4 H.misc. 83-9/16</dc:description>
+        <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+        <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">BDR-BV022426338-31619</dc:identifier>
+        <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Cörner</dc:publisher>
+        <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">de</dc:language>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Gespräche In Dem Reiche derer Todten,
+            Sechzehende Entrevuë, Zwischen Olivier Cromwel, nachmaligen Protectore von Engeland, Und
+            Seinem Sohn, Richardo ..</dc:title>
+        <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Monograph</dc:type>
+        <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">[2] Bl., S. 1216 - 1314 :
+            Ill.</dcterms:extent>
+        <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/">Gespräche in dem Reiche derer Todten</dcterms:isPartOf>
+        <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1194"/>
+        <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1721</dcterms:issued>
+        <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2879139/"/>
+        <edm:currentLocation rdf:resource="http://lod.b3kat.de/bib/DE-12"/>
+        <edm:isSimilarTo rdf:resource="http://lod.b3kat.de/title/BV022426338"/>
+        <edm:europeanaProxy>false</edm:europeanaProxy>
+        <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000045361481"/>
+        <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200386/BibliographicResource_3000045361481"/>
+        <edm:type>TEXT</edm:type>
+    </ore:Proxy>
+    <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200386/BibliographicResource_3000045361481">
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/17xx_1_third"/>
+        <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/17xx"/>
+        <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/1721"/>
+        <edm:europeanaProxy>true</edm:europeanaProxy>
+        <edm:year>1721</edm:year>
+        <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000045361481"/>
+        <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200386/BibliographicResource_3000045361481"/>
+        <edm:type>TEXT</edm:type>
+    </ore:Proxy>
+    <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200386/BibliographicResource_3000045361481">
+        <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200386/BibliographicResource_3000045361481"/>
+        <edm:collectionName>9200386_Ag_EU_TEL_a1194_BSB</edm:collectionName>
+        <edm:country>Germany</edm:country>
+        <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200386/BibliographicResource_3000045361481.html"/>
+        <edm:language>de</edm:language>
+        <edm:rights rdf:resource="http://www.europeana.eu/rights/out-of-copyright-non-commercial/"/>
+    </edm:EuropeanaAggregation>
+</rdf:RDF>

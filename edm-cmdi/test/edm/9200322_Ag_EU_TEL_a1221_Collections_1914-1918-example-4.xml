@@ -1,0 +1,335 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656969"/>
+          <edm:WebResource rdf:about="http://digicontent.snk.sk/content/journals/Vlast%20a%20svet/">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/3054643/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">47.49801</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">19.03991</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Budapeşte</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tg">Будапешт</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gd">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Budimpešta</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="br">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">Búdaipeist</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">บูดาเปสต์</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">Budapèst</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Будапеща</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">ბუდაპეშტი</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fo">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Будапэшт</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kw">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Budimpešta</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="os">Будапешт</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Budapešť</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Будимпешта</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Budapesti</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">부다페스트</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">בודפשט</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cv">Будапешт</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sh">Budimpešta</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Budapešť</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Budapeszt</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Будапешт</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Budimpešta</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">布达佩斯</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Budapesta</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="rm">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Budapešta</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Budapeštas</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Բուդապեշտ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Búdapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mr">बुडापेस्ट</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ug">بۇداپېشت</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">بوداپست</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">بودابست</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Βουδαπέστη</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="an">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Budapeste</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Budapeŝto</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Budapest</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">ブダペスト</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Boedapest</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/719819/"/>
+          </edm:Place>
+          <edm:Place rdf:about="http://sws.geonames.org/719819/">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Ungarn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Ungarn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fy">Hongarije</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gd">An Ungair</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">An Ungáir</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">Ongria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Unkari</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Hongrie</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fo">Ungarn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="os">Венгри</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">הונגריה</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Hungría</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Hungría - Magyarország</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Węgry</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gv">Yn Ungaar</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lo">ຮົງກາຣີ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Hung-ga-ri</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Hung-ga-ri (Hungary)</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Hungary</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Ungārija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Vengrija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vo">Macarän</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Ungarn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uz">Vengriya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">HU</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Hongrie</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Madjarska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Maďarsko</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Republic of Hungary</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ungaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ungarn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ungheria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Wegry</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mk">Унгарија</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ml">ഹംഗറി</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Угорщина</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Hungaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mo">Унгария</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mr">हंगेरी</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ug">ۋېنگرىيە</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mt">Ungerija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ms">Hungari</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ms">Hungary</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ur">ہنگری</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">مجارستان</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="na">Ungari</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Ουγγαρία</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nb">Ungarn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ne">हंगेरी</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Hungario</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Hungarujo</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Hungary</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Republic of Hungary</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Ungari</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Hungría</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Hongarije</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Hongria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tl">Hungary</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Macaristan</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tg">Маҷористон</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Mađarska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="br">Hungaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ประเทศฮังการี</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ฮังการี</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bn">হাঙ্গেরি</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bn">হাঙ্গেরী</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bo">ཧངྒ་རི།</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ta">ஹங்கேரி</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Ungern</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">უნგრეთი</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Унгария</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sw">Hungaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Венгрыя</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Вугоршчына</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kw">Hungari</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Madžarska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Maďarsko</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ky">Венгрия</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Ungarn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="so">Hangeri</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ku">Macaristan</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Мађарска</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Hungari</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Hungaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">헝가리</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Hwngari</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="se">Ungár</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sh">Mađarska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cv">Венгри</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="km">ហុងគ្រី</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Maďarsko</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="li">Hongarieë</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sa">हंगरी</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Hungaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Венгрия</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Ungarn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Mađarska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">匈牙利</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Ungaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ht">Ongri</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">A Magyar Köztársaság</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">A Magyar Népköztársaság</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Magyar Köztársaság</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Magyar Népköztársaság</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Magyarország</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hi">हंगरी</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Hongaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Hungaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ia">Hungaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Magyarsuyu</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Հունգարիա</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Ungverjaland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="az">Macarıstan</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Ungheria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">المجر</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">مجر</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">هنغاريا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Hungaria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ሀንጋሪ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="an">Ongría</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Hungria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">ハンガリー</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">ハンガリー共和国</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="yi">אונגארן</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ps">مجارستان</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ps">هنګري</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Hongarye</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/719819/"/>
+          </edm:Place>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200322/BibliographicResource_3000094656969">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656969"/>
+            <edm:dataProvider>Slovak National Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digicontent.snk.sk/content/journals/Vlast%20a%20svet/"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200322/BibliographicResource_3000094656969">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Jozef Hoblík</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Ludvig Janovec</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Pavel Štiasny</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Desider Rombay</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Karol Čečotka</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Uhorsko-krajinský vzdelávací spolok slovenský (Budapešť, Maďarsko)</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Rózsa, Koloman a manželka (Budapešť, Maďarsko)</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Hazánk kníhtlač. úč. spol. (Budapešť, Maďarsko)</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Országgyülési értesíto kníhtlač. úč. spol. (Budapešť, Maďarsko)</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Franklinova spoločnosť, kníhtlač. spol. (Budapešť, Maďarsko)</dc:contributor>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Vychádzal mesačne dvakrát 1. a 15. v Budapešti, formát 18 x 26 cm. Od roč. II (1887) vychádzal raz týždenne v piatok, od roč. III (1888) dvakrát mesačne, 1. a 15., od roč. IX. (1894) vychádzal raz týždenne v nedeľu, formát 23 x 31 cm</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Zodp. red. Jozef Hoblík, od čís. 5 roč. I (1. marca 1886) Ludvig Janovec, od čís. 8 roč. VII (15. marca 1892) Pavel Štiasny, od roč. IX (1894) hlav. red. Desider Rombay, zodp. red. Pavel Štiasny, od čís. 7 roč. IX (18. februára 1894) zodp. red. Štefan Gazda [Karol Csecsotka]</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Vyd. a maj. Uhorsko-krajinský vzdelávací spolok slovenský v Budapešti</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Tlač Koloman Rózsa a manželka v Budapešti, od čís. 7 roč. IX (18. februára 1894) „Hazánk" Kníhtlač. úč. spol. v Budapešti, od roč. X (1895) „Országgyülési értesíto", Kníhtlač. úč. spol. v Budapešti, od roč. XIII (1898) Franklinova spoločnosť, kníhtlač. spol. v Budapešti</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Ukážkové číslo vyšlo 19. decembra 1885</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Zmena podnázvu: Od roč. IX(1894) poučno-zábavný obrázkový časopis</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Posledné známe číslo je z 8. decembra 1918</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Illustrations: Illuminations</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">vtls010502082</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Uhorsko-krajinský vzdelávací spolok slovenský</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sk</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 379.8</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 79</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 374</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 64</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 070.489</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">zábava</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">poučenie</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">domáce hospodárstvo</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">poučno-zábavné časopisy</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">hospodárske časopisy</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Vlasť a svet poučno-zábavný a hospodársky časopis</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Title</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Analytic</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Newspaper</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">34 roč.</dcterms:extent>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">18 x 26 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1221"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1886 - 1919</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">Roč. I, č. 1 (1886)-roč. XXXIV, č. 15 (1919)</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/3054643/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/hu"/>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. I. 1886 24 čís. 384 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. II. 1887 52 čís. 628 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. III. 1888 24 čís. 384 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. IV. 1889 24 čís. 384 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. V. 1890 24 čís. 384 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. VI. 1891 24 čís. 384 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. VII. 1892 24 čís. 384 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. VIII. 1893 24 čís. 384 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. IX. 1894 52 čís. po 8-12 a 16 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. X. 1895 52 čís. po 8-12 a 16 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XI. 1896 52 čís. po 8-12 a 16 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XII. 1897 51 čís. 816 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XIII. 1898 52 čís. 828 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XIV. 1899 51 čís. 816 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XV. 1900 52 čís. 828 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XVI. 1901 52 čís. 828 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XVII. 1902 52 čís. 828 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XVIII. 1903 52 čís. 828 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XIX. 1904 52 čís. 832 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XX. 1905 52 čís. 832 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXI. 1906 52 čís. 832 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXII. 1907 52 čís. 832 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXIII. 1908 52 čís. 832 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXIV. 1909 52 čís. 832 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXV. 1910 52 čís. 832 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXVI. 1911 53 čís. 848 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXVII. 1912 52 čís. 832 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXVIII. 1913 52 čís. 846 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXIX. 1914 52 čís. 832 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXX. 1915 52 čís. 832 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXXI. 1916 53 čís. 844 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXXII. 1917 52 čís. 416 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXXIII. 1918 49 čís. 384 str.</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Roč. XXXIV. 1919 15 čís. 120 str.</dcterms:tableOfContents>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656969"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200322/BibliographicResource_3000094656969"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200322/BibliographicResource_3000094656969">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/3054643/"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656969"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200322/BibliographicResource_3000094656969"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200322/BibliographicResource_3000094656969">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200322/BibliographicResource_3000094656969"/>
+            <edm:collectionName>9200322_Ag_EU_TEL_a1221_Collections_1914-1918</edm:collectionName>
+            <edm:country>Slovakia</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200322/BibliographicResource_3000094656969.html"/>
+            <edm:language>sk</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

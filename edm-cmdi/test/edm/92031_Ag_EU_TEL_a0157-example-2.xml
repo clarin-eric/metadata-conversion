@@ -1,0 +1,53 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92031/BibliographicResource_1000128561238"/>
+          <edm:WebResource rdf:about="http://www.bl.uk/treasures/malory/samples.html">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.bl.uk/onlinegallery/onlineex/englit/malory/mortesml.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92031/BibliographicResource_1000128561238">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92031/BibliographicResource_1000128561238"/>
+            <edm:dataProvider>The British Library</edm:dataProvider>
+            <edm:isShownBy rdf:resource="http://www.bl.uk/treasures/malory/samples.html"/>
+            <edm:object rdf:resource="http://www.bl.uk/onlinegallery/onlineex/englit/malory/mortesml.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92031/BibliographicResource_1000128561238">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Malory, Thomas, Sir, 15th cent.</dc:creator>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">These are sample pages from the British Library's manuscript of Sir Thomas Malory's stories about King Arthur, known as the Winchester Manuscript, later printed by William Caxton as Le Morte Darthur.  The sole surviving manuscript of Malory’s Morte d’Arthur, completed by two scribes between 1471 and 1483.  Until 1934, the earliest surviving version of the text was believed to be the edition printed by William Caxton in 1485.  The present manuscript was discovered in a safe at Winchester College by Walter Oakeshott in 1934.  It is a paper manuscript including 473 pages, each 287 by 205 mm. It contains one column of text per page, each column with between 28 and 33 lines of text.  Chapter and section headings are rubricated, located either within the columns, or in the margins.  The marginal headings are sometimes bound by a thin line in the shape of an escutcheon.  Proper nouns are rubricated, and new sections begin with a two- or three-line red initial.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">jpeg</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://www.bl.uk/treasures/malory/samples.html</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">enm</dc:language>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">Add. MS 59678</dc:source>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">The British Library</dc:source>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Arthur, King</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Knights and knighthood</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Chivalry</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">[Sample pages from Malory's "Le Morte Darthur"]</dc:title>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1469</dcterms:created>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0157"/>
+            <dcterms:medium xmlns:dcterms="http://purl.org/dc/terms/">paper</dcterms:medium>
+            <dcterms:temporal xmlns:dcterms="http://purl.org/dc/terms/">Middle Ages</dcterms:temporal>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92031/BibliographicResource_1000128561238"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92031/BibliographicResource_1000128561238"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92031/BibliographicResource_1000128561238">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1469</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92031/BibliographicResource_1000128561238"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92031/BibliographicResource_1000128561238"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92031/BibliographicResource_1000128561238">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92031/BibliographicResource_1000128561238"/>
+            <edm:collectionName>92031_Ag_EU_TEL_a0157</edm:collectionName>
+            <edm:country>United Kingdom</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92031/BibliographicResource_1000128561238.html"/>
+            <edm:language>en</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

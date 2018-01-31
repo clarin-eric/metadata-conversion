@@ -1,0 +1,1278 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200320/BibliographicResource_3000073608284"/>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555808.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555811.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555814.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555832.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555835.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555838.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555841.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555845.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555848.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555851.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555854.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555857.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555860.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555864.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555867.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555870.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555873.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555876.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555879.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555882.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555885.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555888.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555891.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555817.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555820.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555823.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555826.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555829.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555894.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555897.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555900.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558684.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558687.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558690.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558693.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558696.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558699.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558702.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558705.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558714.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558711.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558717.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558720.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558723.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558726.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558732.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558729.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558735.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558739.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558742.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558745.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558748.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558751.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558754.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558757.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558760.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558763.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558766.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558769.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558772.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558775.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558778.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558781.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558784.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558787.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558790.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558793.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558796.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558799.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558802.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558805.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558708.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558808.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558811.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558814.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558817.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558820.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558823.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558826.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558829.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558832.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558835.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558838.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558841.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558844.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558847.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558850.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558853.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558856.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558859.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558862.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558866.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558869.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558872.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558941.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558875.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558878.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558881.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558884.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558887.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558890.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558893.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558896.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558899.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558902.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558905.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558908.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558911.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558914.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558917.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558920.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558923.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558926.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558929.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558932.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558935.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558938.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558944.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558947.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558950.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559257.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559262.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559272.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559278.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559284.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559290.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559297.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559303.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559313.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559319.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559325.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559331.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559338.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559344.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559351.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559360.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559367.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559373.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559379.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558977.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558953.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558956.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558959.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558962.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558965.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558968.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558971.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558974.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559016.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558980.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558983.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558986.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558989.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558992.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559019.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558995.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558998.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559001.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559022.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559004.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559007.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559010.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559013.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559025.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559028.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559031.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559034.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559037.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559040.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559130.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559043.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559046.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559049.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559052.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559055.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559058.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559061.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559064.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559067.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559070.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559073.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559076.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559079.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559082.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559085.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559088.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559091.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559385.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559391.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559402.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559408.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559414.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559422.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559428.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559433.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559439.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559449.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559455.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559488.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559494.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559500.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559507.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559512.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559515.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559518.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559521.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559524.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559527.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559094.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559097.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559100.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559103.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559106.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559109.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559112.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559115.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559118.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559121.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559124.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559127.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559133.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559136.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559139.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559142.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559148.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559145.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559151.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559213.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559530.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559533.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559536.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559539.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559542.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559545.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559548.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559561.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559552.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559555.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559558.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555805.0x000002">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://access.bl.uk/IIIFImageService/ark:/81055/vdc_100022556640.0x000001/full/600,/0/native.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200320/BibliographicResource_3000073608284">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200320/BibliographicResource_3000073608284"/>
+            <edm:dataProvider>The British Library</edm:dataProvider>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555808.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555811.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555814.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555832.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555835.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555838.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555841.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555845.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555848.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555851.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555854.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555857.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555860.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555864.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555867.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555870.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555873.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555876.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555879.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555882.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555885.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555888.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555891.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555817.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555820.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555823.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555826.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555829.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555894.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555897.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555900.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558684.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558687.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558690.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558693.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558696.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558699.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558702.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558705.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558714.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558711.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558717.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558720.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558723.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558726.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558732.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558729.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558735.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558739.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558742.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558745.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558748.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558751.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558754.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558757.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558760.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558763.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558766.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558769.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558772.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558775.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558778.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558781.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558784.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558787.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558790.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558793.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558796.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558799.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558802.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558805.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558708.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558808.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558811.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558814.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558817.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558820.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558823.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558826.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558829.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558832.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558835.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558838.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558841.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558844.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558847.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558850.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558853.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558856.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558859.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558862.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558866.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558869.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558872.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558941.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558875.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558878.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558881.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558884.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558887.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558890.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558893.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558896.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558899.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558902.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558905.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558908.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558911.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558914.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558917.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558920.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558923.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558926.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558929.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558932.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558935.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558938.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558944.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558947.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558950.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559257.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559262.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559272.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559278.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559284.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559290.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559297.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559303.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559313.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559319.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559325.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559331.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559338.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559344.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559351.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559360.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559367.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559373.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559379.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558977.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558953.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558956.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558959.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558962.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558965.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558968.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558971.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558974.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559016.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558980.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558983.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558986.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558989.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558992.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559019.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558995.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558998.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559001.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559022.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559004.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559007.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559010.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559013.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559025.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559028.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559031.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559034.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559037.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559040.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559130.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559043.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559046.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559049.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559052.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559055.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559058.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559061.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559064.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559067.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559070.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559073.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559076.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559079.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559082.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559085.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559088.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559091.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559385.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559391.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559402.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559408.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559414.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559422.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559428.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559433.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559439.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559449.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559455.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559488.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559494.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559500.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559507.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559512.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559515.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559518.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559521.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559524.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559527.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559094.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559097.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559100.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559103.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559106.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559109.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559112.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559115.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559118.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559121.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559124.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559127.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559133.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559136.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559139.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559142.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559148.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559145.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559151.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559213.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559530.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559533.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559536.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559539.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559542.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559545.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559548.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559561.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559552.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559555.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559558.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555805.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555811.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555814.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555832.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555835.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555838.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555841.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555845.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555848.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555851.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555854.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555857.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555860.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555864.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555867.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555870.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555873.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555876.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555879.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555882.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555885.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555888.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555891.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555817.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555820.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555823.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555826.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555829.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555894.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555897.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555900.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558684.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558687.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558690.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558693.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558696.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558699.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558702.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558705.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558714.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558711.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558717.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558720.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558723.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558726.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558732.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558729.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558735.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558739.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558742.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558745.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558748.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558751.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558754.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558757.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558760.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558763.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558766.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558769.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558772.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558775.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558778.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558781.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558784.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558787.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558790.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558793.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558796.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558799.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558802.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558805.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558708.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558808.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558811.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558814.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558817.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558820.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558823.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558826.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558829.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558832.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558835.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558838.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558841.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558844.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558847.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558850.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558853.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558856.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558859.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558862.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558866.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558869.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558872.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558941.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558875.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558878.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558881.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558884.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558887.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558890.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558893.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558896.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558899.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558902.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558905.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558908.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558911.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558914.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558917.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558920.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558923.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558926.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558929.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558932.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558935.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558938.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558944.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558947.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558950.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559257.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559262.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559272.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559278.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559284.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559290.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559297.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559303.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559313.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559319.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559325.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559331.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559338.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559344.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559351.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559360.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559367.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559373.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559379.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558977.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558953.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558956.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558959.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558962.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558965.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558968.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558971.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558974.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559016.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558980.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558983.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558986.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558989.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558992.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559019.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558995.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022558998.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559001.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559022.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559004.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559007.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559010.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559013.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559025.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559028.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559031.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559034.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559037.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559040.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559130.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559043.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559046.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559049.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559052.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559055.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559058.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559061.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559064.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559067.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559070.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559073.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559076.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559079.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559082.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559085.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559088.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559091.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559385.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559391.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559402.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559408.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559414.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559422.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559428.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559433.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559439.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559449.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559455.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559488.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559494.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559500.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559507.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559512.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559515.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559518.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559521.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559524.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559527.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559094.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559097.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559100.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559103.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559106.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559109.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559112.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559115.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559118.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559121.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559124.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559127.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559133.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559136.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559139.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559142.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559148.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559145.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559151.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559213.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559530.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559533.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559536.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559539.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559542.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559545.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559548.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559561.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559552.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559555.0x000002"/>
+            <edm:hasView rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022559558.0x000002"/>
+            <edm:isShownAt rdf:resource="http://access.bl.uk/item/viewer/ark:/81055/vdc_100022555805.0x000002"/>
+            <edm:object rdf:resource="http://access.bl.uk/IIIFImageService/ark:/81055/vdc_100022556640.0x000001/full/600,/0/native.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200320/BibliographicResource_3000073608284">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Prisoner of war camp (Coal Aston, England)</dc:contributor>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Cyclostyled.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">The magazine of the German prison-camp at Coal Aston.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Illustrations: Illuminations</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">016606558</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">German Prison-Camp</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">PUBLICVIEW</dc:rights>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">World War, 1914-1918, Propaganda.</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Trench journal</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">L.Z</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Serial</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">v. ;</dcterms:extent>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">fol.</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0625"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1917 - 1918</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">No. 1 (20 Apr. 1917)-no. 251 (24 Jan. 1918)</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/">Coal Aston</dcterms:spatial>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/uk"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200320/BibliographicResource_3000073608284"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200320/BibliographicResource_3000073608284"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200320/BibliographicResource_3000073608284">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200320/BibliographicResource_3000073608284"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200320/BibliographicResource_3000073608284"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200320/BibliographicResource_3000073608284">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200320/BibliographicResource_3000073608284"/>
+            <edm:collectionName>9200320_Ag_EU_TEL_a0625_Collections_1914-1918</edm:collectionName>
+            <edm:country>United Kingdom</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200320/BibliographicResource_3000073608284.html"/>
+            <edm:language>en</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

@@ -1,0 +1,201 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200376/BibliographicResource_3000100170036"/>
+          <edm:WebResource rdf:about="http://bdh-rd.bne.es/viewer.vm?id=0000099566&amp;page=1">
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://bdh-rd.bne.es/viewer.vm?id=0000099566&amp;page=100">
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.bne.es/es/Micrositios/Guias/Inventario_Manuscritos/resources/docs/invgenmss06x1x.pdf#page=304">
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://bdh-rd.bne.es/low.raw?id=0000099566&amp;name=00000001.jpg">
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/2510769/">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Spania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fy">Spanje</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Spania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gd">An Spàinn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">An Spáinn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">Espanha</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Espanja</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Espagne</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fo">Spania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="os">Испани</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">ספרד</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gn">Epaña</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">España</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Hiszpania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gv">Yn Spaainey</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gu">સ્પેઇન</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lo">ສະເປນ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ln">Espania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Tây Ban Nha</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="dz">Spain</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="dz">སིཔཱེན</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Spānija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Ispanija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vo">Spanyän</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Spanien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ES</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Espagne</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Espanha</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Kingdom of Spain</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Spagna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Spain</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Spanien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mg">Espaina</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mk">Шпанија</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ml">സ്പെയ്ന്‍</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mi">Pāniora</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Іспанія</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Espainia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mr">स्पेन</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ug">ئىسپانىيە</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mt">Spanja</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ms">Sepanyol</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ur">اسپین</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ur">سپین</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">اسپانیا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ty">Paniora</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="na">Pain</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Ισπανία</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nb">Spania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ne">स्पेन</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Hispanio</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Hispanujo</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Kingdom of Spain</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Spain</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Spanish State</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Hispaania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">España</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Estado Español</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">La piel de toro</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Reino de España</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">la Madre Patria</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Spanje</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="to">Sepeni</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Espanya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Regne d'Espanya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">la pell de brau</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tl">Espanya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">İspanya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tg">Испониё</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Španija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="br">Spagn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ประเทศสเปน</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">สเปน</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bn">স্পেন</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bo">སི་པན།</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ta">ஸ்பெயின்</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Spanien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">ესპანეთი</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Испания</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="st">Spain</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sw">Hispania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sw">Uhispania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Іспанія</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Гішпанія</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Španija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kw">Spayn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Španielsko</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Spanien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ks">Spēna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="so">Isbeyn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ku">Spanya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Шпанија</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Spanja</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Spanjë</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">스페인</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">에스파냐</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sc">Ispagna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Sbaen</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="se">Espánjja</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="se">Spánia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sh">Španija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cv">Испани</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="km">អេស្ប៉ាញ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Španělsko</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="li">Spanje</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="co">Spagna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Hesperia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Hispania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Испания</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Spuenien</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Španjolska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">西班牙</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Spania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="rm">Spagna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ht">Espay</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Spanyolország</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hi">स्पेन</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Spanyol</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ia">Espania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Ispaña</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Իսպանիա</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Spánn</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="az">İspaniya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Spagna</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">أسبانيا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">إسبانيا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">اسبانيا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Hispania</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ስፔን</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">እስፓንያ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="an">España</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Espanha</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">スペイン</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="yi">שפאניע</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ps">اسپانيا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ps">هسپانیه</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Spanje</skos:prefLabel>
+          </edm:Place>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200376/BibliographicResource_3000100170036">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200376/BibliographicResource_3000100170036"/>
+            <edm:dataProvider>National Library of Spain</edm:dataProvider>
+            <edm:hasView rdf:resource="http://bdh-rd.bne.es/viewer.vm?id=0000099566&amp;page=1"/>
+            <edm:hasView rdf:resource="http://bdh-rd.bne.es/viewer.vm?id=0000099566&amp;page=100"/>
+            <edm:isShownAt rdf:resource="http://www.bne.es/es/Micrositios/Guias/Inventario_Manuscritos/resources/docs/invgenmss06x1x.pdf#page=304"/>
+            <edm:object rdf:resource="http://bdh-rd.bne.es/low.raw?id=0000099566&amp;name=00000001.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200376/BibliographicResource_3000100170036">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">recogidas por Joaquín de Casas Fernández de Heredia, Contador de Su Majestad y de su Consejo Real de las Órdenes</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">V.a. Mss/2329 y Mss/2330-Mss/2335</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Manuscript</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">pandora:0000099566</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">es</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.bne.es/es/Micrositios/Guias/Inventario_Manuscritos/resources/docs/invgenmss06x1x.pdf#page=304"/>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Guerras de Cataluña y curiosidades - Tomo VII</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Monograph</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">193 h. ; 32 x 22 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1226"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1601? - 1700?</dcterms:issued>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/">Cataluña, , Fuentes, Historia, 1640-1652 (Revolución)</dcterms:spatial>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2510769/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/">Francia, , Fuentes, Relaciones, España</dcterms:spatial>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/">España, , Fuentes, Relaciones, Francia</dcterms:spatial>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/">S.XVII</dcterms:spatial>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://id.loc.gov/vocabulary/countries/sp"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200376/BibliographicResource_3000100170036"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200376/BibliographicResource_3000100170036"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200376/BibliographicResource_3000100170036">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200376/BibliographicResource_3000100170036"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200376/BibliographicResource_3000100170036"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200376/BibliographicResource_3000100170036">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200376/BibliographicResource_3000100170036"/>
+            <edm:collectionName>9200376_Ag_EU_TEL_a1226_NationalLibrarySpain</edm:collectionName>
+            <edm:country>Spain</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200376/BibliographicResource_3000100170036.html"/>
+            <edm:language>mul</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

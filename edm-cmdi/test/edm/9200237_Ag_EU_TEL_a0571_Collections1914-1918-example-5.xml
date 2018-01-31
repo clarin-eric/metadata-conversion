@@ -1,0 +1,238 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200237/BibliographicResource_3000055520349"/>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/items/show/1172">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/archive/square_thumbnails/3eb131f3f654d3b74963d12201073fc5.jpg">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1917">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1917</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_1_third"/>
+            <edm:begin>Mon Jan 01 00:19:32 CET 1917</edm:begin>
+            <edm:end>Mon Dec 31 00:19:32 CET 1917</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_1_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 20-го века</skos:prefLabel>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 00:19:32 CET 1933</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://data.europeana.eu/concept/loc/sh85148271">
+            <skos:prefLabel xml:lang="de">Erster Weltkrieg, 1914-1918 -- Frankreich</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">1. Verdenskrig, 1914-1918 -- Frankrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Guerra mondiale 1914-1918 -- Francia</skos:prefLabel>
+            <skos:prefLabel xml:lang="sr">Prvi svetski rat, 1914-1918 -- Francuska</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Guerre mondiale, 1914-1918 --  France</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War, 1914-1918 -- France</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Wereldoorlog, 1914-1918 --  Frankrijk</skos:prefLabel>
+            <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85148271"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://data.europeana.eu/concept/loc/sh85145155">
+            <skos:prefLabel xml:lang="de">Krieg und Gesellschaft</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">Krig og samfund</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Società -- Effetti [della] Guerra mondiale 1914-1918</skos:prefLabel>
+            <skos:prefLabel xml:lang="sr">Rat i društvo</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Guerre mondiale (1914-1918) -- Aspect social</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">War and society</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Oorlog en maatschappij</skos:prefLabel>
+            <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85145155"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/6205">
+            <skos:prefLabel xml:lang="sl">fotografija</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">fotografia</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">fotografi</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">fotografia; argazki</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">fotograf</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">fotografia (immagine)</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">fotoğraf</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">ritratt</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">fotografi (bilde)</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">fénykép</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">fotogrāfs</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">صورة فوتوغرافية</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">nuotrauka</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">fotografie</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Photo</skos:prefLabel>
+            <skos:prefLabel>photograph</skos:prefLabel>
+            <skos:prefLabel>照片</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">φωτογραφία</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">valokuva</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">fotografia (imagem)</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">fotografia</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">photo</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">fotografi</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Фотография, фотографско изображение, снимка</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">photograph</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">фотография</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">foto</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">fotografía</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">foto</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2284"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2284">
+            <skos:prefLabel xml:lang="sl">dokumentacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">dokumentácia</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">dokumentatze; dokumentazio</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">dokumentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">documentaţie</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">documentazione</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">dokümantasyon</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">dokumentazzjoni</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">dokumentasjon</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">dokumentálás</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">dokumentācija</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">توثيق</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">dokumentacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">dokumentace</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Dokumentation</skos:prefLabel>
+            <skos:prefLabel>documentation</skos:prefLabel>
+            <skos:prefLabel>文档化</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">τεκμηρίωση</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">dokumentointi, asiakirja-aineisto</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">dokumentacja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">documentação</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">dokumentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">documentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Документиране</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">documentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">документация</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">dokumentatsioon</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">documentación</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">documentatie</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/4303"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/4303">
+            <skos:prefLabel xml:lang="sl">informacija, informacije, podatki</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">informácia</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">informazio</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">informaţie</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">informazione</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">bilgi</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">informazzjoni</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">informasjon</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">információ</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">informācija</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">المعلومات</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">informacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">informace</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Information</skos:prefLabel>
+            <skos:prefLabel>information</skos:prefLabel>
+            <skos:prefLabel>信息</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">πληροφορία(ίες)/πληροφόρηση/στοιχεία/ενημέρωση</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">tieto</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">informacja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">informação</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Информация</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">информация</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">teave, info[rmatsioon]</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">información</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">informatie</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200237/BibliographicResource_3000055520349">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200237/BibliographicResource_3000055520349"/>
+            <edm:dataProvider>National Library of Serbia</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://velikirat.nb.rs/items/show/1172"/>
+            <edm:object rdf:resource="http://velikirat.nb.rs/archive/square_thumbnails/3eb131f3f654d3b74963d12201073fc5.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200237/BibliographicResource_3000055520349">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1917</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Албум садржи фотографије из српско-америчког сиротишта у Ници за време Првог светског рата, посвећен је престолонаследнику Александру: "Његовом краљевском височанству наследнику престола Александру за успомену српска деца Орфелината српско-американског 1. септембра 1917. Ница".</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">1 албум (16 фотографија) ; 15 x 20 cm.</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://velikirat.nb.rs/items/show/1172</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Ница : с. н.</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sr</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Деца - Друштвено старање - Ница - Први светски рат 1914-1918 - Албуми - Фотографије</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.europeana.eu/concept/loc/sh85148271"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">World War, 1914-1918--France</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.europeana.eu/concept/loc/sh85145155"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">war and society</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Српско-американски орфелинат у Ници</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">photograph</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Album</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Still image</dc:type>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">Serbo-American Orphanage in Nice</dcterms:alternative>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0571"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://www.geonames.org/2990440/nice.html"/>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Г-ђица Елизабета Фродингам добротворка орфелината ; Учитељ и учитељице основне школе орфелината, г-дин Крста Спасић, г-ђице Катарина Милојковић и Цвета Карањчева ; Секретар орфелината мис Канзих са учитељицама енглеског језика ; Дечије забавиште орфелината ; Орфелинатске бебе ; Мала деца у спаваћој соби ; Деца о белим покладама ; Деца за време одмора ; Деца за време учења ; Св. Сава благосиља српску децу ; Дочек приспелих инвалида у Француској ; Дочек приспелих инвалида у Француској ; Заједнићки ручак инвалида и деце у орфелинату ; Заједнички ручак инвладиа и деце у орфелинату ; Свршене ученице IV разреда орфелината ; Свршени ученици IV разр. орфелината</dcterms:tableOfContents>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200237/BibliographicResource_3000055520349"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200237/BibliographicResource_3000055520349"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200237/BibliographicResource_3000055520349">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/1917"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/6205"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1917</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200237/BibliographicResource_3000055520349"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200237/BibliographicResource_3000055520349"/>
+            <edm:type>IMAGE</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200237/BibliographicResource_3000055520349">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200237/BibliographicResource_3000055520349"/>
+            <edm:collectionName>9200237_Ag_EU_TEL_a0571_Collections1914-1918</edm:collectionName>
+            <edm:country>Serbia</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200237/BibliographicResource_3000055520349.html"/>
+            <edm:language>sr</edm:language>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

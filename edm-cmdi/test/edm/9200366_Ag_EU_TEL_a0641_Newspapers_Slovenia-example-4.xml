@@ -1,0 +1,77 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200366/BibliographicResource_3000112670646"/>
+          <edm:WebResource rdf:about="http://www.dlib.si/details/URN:NBN:SI:doc-477ON6J7">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.dlib.si/streamdb/URN:NBN:SI:doc-477ON6J7">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://vocab.getty.edu/aat/300026656">
+            <skos:altLabel xml:lang="de">Tageszeitung</skos:altLabel>
+            <skos:altLabel xml:lang="it">giornale (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="fr">journal (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="sv">tidning</skos:altLabel>
+            <skos:altLabel xml:lang="en">newspaper</skos:altLabel>
+            <skos:altLabel xml:lang="es">diario (noticias)</skos:altLabel>
+            <skos:altLabel xml:lang="nl">nieuwsbladen</skos:altLabel>
+            <skos:prefLabel xml:lang="en">newspapers</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">diarios (noticias)</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">kranten</skos:prefLabel>
+            <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+            <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+            <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200366/BibliographicResource_3000112670646">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200366/BibliographicResource_3000112670646"/>
+            <edm:dataProvider>National and University Library of Slovenia</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://www.dlib.si/details/URN:NBN:SI:doc-477ON6J7"/>
+            <edm:isShownBy rdf:resource="http://www.dlib.si/streamdb/URN:NBN:SI:doc-477ON6J7"/>
+            <edm:object rdf:resource="http://www.dlib.si/streamdb/URN:NBN:SI:doc-477ON6J7"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200366/BibliographicResource_3000112670646">
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">4 strani</dc:format>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">6</dc:format>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">61</dc:format>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">newspaper</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:nukoai.uni-lj.siEuropeana_Newspapers_Clevelandska_Amerika:23b066b7-4f43-47d1-b8e0-541447944d16</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Edward Kalish</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">sl</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.dlib.si/?URN=URN:NBN:SI:doc-477ON6J7"/>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Public domain mark</dc:rights>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">Clevelandska Amerika</dc:source>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Clevelandska Amerika - 1913-08-01</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">newspaper</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Issue</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Analytic serial</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000115182503"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0641"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1913-08-01</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1913-08-01</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1913-08-01</dcterms:issued>
+            <edm:isNextInSequence rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000112671033"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200366/BibliographicResource_3000112670646"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200366/BibliographicResource_3000112670646"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200366/BibliographicResource_3000112670646">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200366/BibliographicResource_3000112670646"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200366/BibliographicResource_3000112670646"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200366/BibliographicResource_3000112670646">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200366/BibliographicResource_3000112670646"/>
+            <edm:collectionName>9200366_Ag_EU_TEL_a0641_Newspapers_Slovenia</edm:collectionName>
+            <edm:country>Slovenia</edm:country>
+            <edm:preview rdf:resource="http://www.dlib.si/streamdb/URN:NBN:SI:doc-477ON6J7"/>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200366/BibliographicResource_3000112670646.html"/>
+            <edm:language>sl</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

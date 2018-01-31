@@ -1,0 +1,54 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200377/BibliographicResource_3000115528924"/>
+          <edm:WebResource rdf:about="http://digital.nationallibrary.bg/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ2&amp;p=V&amp;rl=8a205fc3-43e2-4e8c-a0ad-df869af48bf8&amp;did=219&amp;culture=en">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/nbkm/a1228/219.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200377/BibliographicResource_3000115528924">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200377/BibliographicResource_3000115528924"/>
+            <edm:dataProvider>National Library of Bulgaria</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digital.nationallibrary.bg/DWWebClient/Integration.aspx?i=General&amp;lc=VXNlcj1mcmVlXG5Qd2Q9ZnJlZQ2&amp;p=V&amp;rl=8a205fc3-43e2-4e8c-a0ad-df869af48bf8&amp;did=219&amp;culture=en"/>
+            <edm:isShownBy rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/a1228/219.jpg"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/a1228/219.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200377/BibliographicResource_3000115528924">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Васил Левски</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1872-12-12</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Васил Левски. Документи. Т. 1. 2000, с. 622, Т. 2. 2009, с. 155.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">21,9 х 32 см</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">НБКМ-БИА, ф. 85, ІІ А 8084</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">България</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">bg</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">БИА Кореспонденция / BHA Correspondence</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Attribution to SS. Cyril and Methodius National Library of Bulgaria is recommended</dc:rights>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Иванов-Големия, Христо</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Милев, Гео</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">писмо</dc:title>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1228"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1914</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200377/BibliographicResource_3000115528924"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200377/BibliographicResource_3000115528924"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200377/BibliographicResource_3000115528924">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1914</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200377/BibliographicResource_3000115528924"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200377/BibliographicResource_3000115528924"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200377/BibliographicResource_3000115528924">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200377/BibliographicResource_3000115528924"/>
+            <edm:collectionName>9200377_Ag_EU_TEL_a1228_NationalLibraryBulgaria</edm:collectionName>
+            <edm:country>Bulgaria</edm:country>
+            <edm:preview rdf:resource="http://www.theeuropeanlibrary.org/content/nbkm/a1228/219.jpg"/>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200377/BibliographicResource_3000115528924.html"/>
+            <edm:language>bg</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

@@ -1,0 +1,537 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200228/BibliographicResource_3000006325022_source">
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="4422663"/>
+          </edm:ProvidedCHO>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/items/show/287">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/archive/fullsize/a15315002241156465c4ce8662c86d83.jpg">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://velikirat.nb.rs/archive/square_thumbnails/a15315002241156465c4ce8662c86d83.jpg">
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/2988507/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">48.85341</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">2.3488</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tl">Lungsod ng Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tl">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">París</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fy">Parys</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tg">Париж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gd">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="br">Pariz</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">Páras</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ปารีส</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">París</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Pariisi</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ta">பாரிஸ்</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">პარიზი</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Париж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Lutece</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Paname</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Pantruche</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Ville-Lumière</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sw">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Парыж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kw">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Pariz</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="os">Париж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Paríž</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ku">Parîs</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Париз</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Parisi</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">파리 시</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">פריז</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Paříž</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kn">ಪ್ಯಾರಿಸ್</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="li">Paries</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">París - Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Paryż</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Lutetia Parisorum</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gv">Paarys</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Paräis</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Париж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Pariz</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ln">Pari</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">巴黎</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Pa-ri</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Párizs</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Parīze</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Paryžius</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ia">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">75091</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mg">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Փարիզ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mk">Париз</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">París</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Париж</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Parigi</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mr">पॅरिस</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ug">پارىژ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ms">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ur">پیرس</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">پاریس</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">باريس</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ty">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="na">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Παρίσι</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ፓሪስ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="an">París</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Parizo</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Paris</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Pariis</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">París</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">パリ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Parijs</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Parys</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/3017382/"/>
+          </edm:Place>
+          <edm:Place rdf:about="http://sws.geonames.org/3017382/">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Frankrike</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fy">Frankryk</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nn">Frankrike</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gd">An Fhraing</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ga">An Fhrainc</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="oc">França</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Ranska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="om">France</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">France</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">République Française</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fo">Frakland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="os">Франц</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">צרפת</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Francia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Francja</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gv">Yn Rank</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gu">ફ્રાઁસ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lo">ຝລັ່ງ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ln">Falansia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="dv">ފަރަންސޭސިވިލާތް</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vi">Pháp</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="dz">ཕརཱནསི</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Francija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lt">Prancūzija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="vo">Fransän</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Frankreich</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uz">Франция</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">FR</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">France</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Republic of France</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mg">Frantsa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mk">Франција</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ml">ഫ്രാന്‍സ്</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mn">Франц</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mn">Франц улс</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="uk">Франція</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Frantzia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mr">फ्रान्स</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ug">فرانسىيە</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="mt">Franza</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ms">Perancis</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fa">فرانسه</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ur">فرانس</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ty">Farāni</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="na">France</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="el">Γαλλία</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nb">Frankrike</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ne">फ्रान्स</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Francio</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Francujo</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">France</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Prantsusmaa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Francia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Frankrijk</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="to">Falanisē</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">França</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tl">Pransya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Fransa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tg">Фаронса</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="te">ఫ్రాన్స్‌</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bs">Francuska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="br">Bro-C'hall</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ประเทศฝรั่งเศส</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="th">ฝรั่งเศส</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bn">ফ্রান্স</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bo">ཕ་རཱན་སི།</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ta">பிரான்ஸ்</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Frankrike</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ka">საფრანგეთი</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Франция</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="st">France</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sw">Ufaransa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="be">Францыя</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sl">Francija</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kw">Pow Frynk</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sk">Francúzsko</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da">Frankrig</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ks">फ्रांस</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="so">Faransiis</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="so">Faransiiska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Француска</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ku">Fransa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Franca</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sq">Francë</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">프랑스</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sc">Frantza</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cy">Ffrainc</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="se">Fránkriika</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sh">Francuska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cv">Франци</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="km">បារាំង</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="kn">ಫ್ರಾನ್ಸ್</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Francie</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="li">Frankriek</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="co">Francia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sa">फ्रांस</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Francia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="la">Francogallia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Франция</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lb">Frankräich</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Francuska</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Franţa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="zh">法国</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="rm">Frantscha</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ht">Frans</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hu">Franciaország</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hi">फ़्राँस</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hi">फ़्रांस</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hi">फ्रांस</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Perancis</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="id">Prancis</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ia">Francia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Ֆրանսիա</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Fransiya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="qu">Fransya</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="is">Frakkland</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="az">Fransa</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Francia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ii">ꃔꇩ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">فرنسا</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="io">Francia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ፈረንሣይ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="am">ፈረንሳይ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="an">Franzia</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">França</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="aa">France</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">フランス</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">フランス共和国</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ps">فرانسه</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="af">Frankryk</skos:prefLabel>
+          </edm:Place>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1916">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1916</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/19xx_1_third"/>
+            <edm:begin>Sat Jan 01 00:19:32 CET 1916</edm:begin>
+            <edm:end>Sun Dec 31 00:19:32 CET 1916</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx_1_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 20-го века</skos:prefLabel>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 00:19:32 CET 1933</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/19xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">20e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">20e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">20th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">20й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">20de eeuw</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/AD2xxx"/>
+            <edm:begin>Tue Jan 01 00:19:32 CET 1901</edm:begin>
+            <edm:end>Sun Dec 31 01:00:00 CET 2000</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://data.theeuropeanlibrary.org/Context/1000000086576">
+            <skos:prefLabel xml:lang="de">Weltkrieg (1914-1918)</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Guerre mondiale (1914-1918)</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War, 1914-1918</skos:prefLabel>
+            <skos:note>Same as: http://id.loc.gov/authorities/subjects/sh85148236</skos:note>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/959">
+            <skos:prefLabel xml:lang="sl">knjiga</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">kniha</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">liburu</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">bog</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">carte</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">libro</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">kitap</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">ktieb</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">bok</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">könyv</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">grāmata</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">كتاب</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">knyga</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">kniha</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Buch</skos:prefLabel>
+            <skos:prefLabel>book</skos:prefLabel>
+            <skos:prefLabel>书</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">βιβλίο</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">kirja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">książka</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">livros</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">livre</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">bok</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Книга</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">book</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">книга</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">raamat</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">libro</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">boek</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2286"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2286">
+            <skos:prefLabel xml:lang="sl">vrsta dokumenta</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">typ dokumentu</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">dokumenttype</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">dokumentu-mota; agiri-mota</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">tip de document</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">tipo di documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">doküman türü</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">tip ta' dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">dokumenttype</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">dokumentumfajta</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">dokumenta tips</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">نوعية الوثيقة</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">dokumento tipas</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">typ dokumentu</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Dokumenttyp</skos:prefLabel>
+            <skos:prefLabel>document type</skos:prefLabel>
+            <skos:prefLabel>文件类型</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">τύπος εγγράφου</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">asiakirjatyyppi</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">rodzaj dokumentu</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">tipos de documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">type de document</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">dokumenttyp</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Вид документ</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">document type</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">тип документа</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">dokumenditüüp</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">tipo de documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">soort document</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2282"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2282">
+            <skos:prefLabel xml:lang="sl">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">dokumentu; agiri</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">document</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">doküman, belge</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">dokumentum</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">dokuments</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">وثيقة</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">dokumentas</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Dokument</skos:prefLabel>
+            <skos:prefLabel>document</skos:prefLabel>
+            <skos:prefLabel>文件</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">έγγραφο/τίτλος/τεκμήριο</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">asiakirja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">documentos</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">dokument; handling</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">document</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Документ</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">document</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">документ</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">dokument</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">documento</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">document</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/2284"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/2284">
+            <skos:prefLabel xml:lang="sl">dokumentacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">dokumentácia</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">dokumentatze; dokumentazio</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">dokumentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">documentaţie</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">documentazione</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">dokümantasyon</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">dokumentazzjoni</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">dokumentasjon</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">dokumentálás</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">dokumentācija</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">توثيق</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">dokumentacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">dokumentace</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Dokumentation</skos:prefLabel>
+            <skos:prefLabel>documentation</skos:prefLabel>
+            <skos:prefLabel>文档化</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">τεκμηρίωση</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">dokumentointi, asiakirja-aineisto</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">dokumentacja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">documentação</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">dokumentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">documentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Документиране</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">documentation</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">документация</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">dokumentatsioon</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">documentación</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">documentatie</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/4303"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/4303">
+            <skos:prefLabel xml:lang="sl">informacija, informacije, podatki</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">informácia</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">informazio</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">informaţie</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">informazione</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">bilgi</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">informazzjoni</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">informasjon</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">információ</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">informācija</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">المعلومات</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">informacija</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">informace</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Information</skos:prefLabel>
+            <skos:prefLabel>information</skos:prefLabel>
+            <skos:prefLabel>信息</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">πληροφορία(ίες)/πληροφόρηση/στοιχεία/ενημέρωση</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">tieto</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">informacja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">informação</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Информация</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">information</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">информация</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">teave, info[rmatsioon]</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">información</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">informatie</skos:prefLabel>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200228/BibliographicResource_3000006325022_source">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200228/BibliographicResource_3000006325022_source"/>
+            <edm:dataProvider>National Library of Serbia</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://velikirat.nb.rs/items/show/287"/>
+            <edm:isShownBy rdf:resource="http://velikirat.nb.rs/archive/fullsize/a15315002241156465c4ce8662c86d83.jpg"/>
+            <edm:object rdf:resource="http://velikirat.nb.rs/archive/fullsize/a15315002241156465c4ce8662c86d83.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200228/BibliographicResource_3000006325022_source">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1916?</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1916</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Tekst na više jezika.</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Illustrations: Illustrations</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">4422663</dc:identifier>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">a0565 - 4422663</dc:identifier>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">National Bibliography Number: srb2052</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Librairie Bernard Grasset</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr</dc:language>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">de</dc:language>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Universal Decimal Classification: 94(100)</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">book</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://id.loc.gov/authorities/subjects/sh85148238"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://id.loc.gov/authorities/subjects/sh200811382"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://id.loc.gov/authorities/subjects/sh2008113801"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://id.loc.gov/authorities/subjects/sh2008113856"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://data.theeuropeanlibrary.org/Context/1000000086576"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War I</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War, 1914-1918--Atrocities</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War, 1914-1918--Propaganda</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War, 1914-1918 Austria</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">World War, 1914-1918--Serbia</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Les Austro-bulgaro-allemands en Serbie envahie documents de l'ennemi</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Monograph</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Text</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">book</dc:type>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">The Austrio-Bulgarian-German invasion of Serbia: enemy documents</dcterms:alternative>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">ilustr. ;</dcterms:extent>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">[24] str. :</dcterms:extent>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">25 x 33 cm.</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0565"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Collections 1914-1918</dcterms:isPartOf>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2988507/"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/">Србија</dcterms:spatial>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/">Paris</dcterms:spatial>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200228/BibliographicResource_3000006325022_source"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200228/BibliographicResource_3000006325022_source"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200228/BibliographicResource_3000006325022_source">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/1916"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/959"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/959"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2988507/"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year xml:lang="eur">1916</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200228/BibliographicResource_3000006325022_source"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200228/BibliographicResource_3000006325022_source"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200228/BibliographicResource_3000006325022_source">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200228/BibliographicResource_3000006325022_source"/>
+            <edm:collectionName>9200228_Ag_EU_TEL_a0565_Collections_1914-1918</edm:collectionName>
+            <edm:country>Serbia</edm:country>
+            <edm:preview rdf:resource="http://velikirat.nb.rs/archive/fullsize/a15315002241156465c4ce8662c86d83.jpg"/>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200228/BibliographicResource_3000006325022_source.html"/>
+            <edm:language>mul</edm:language>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

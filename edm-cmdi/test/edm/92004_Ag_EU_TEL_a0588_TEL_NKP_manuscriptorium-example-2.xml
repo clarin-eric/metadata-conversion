@@ -1,0 +1,82 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92004/BibliographicResource_2000059192467"/>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/mns_direct.php?docId=set20100108_182_6">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/en/index.php?request=show_tei_digidoc&amp;docId=set20100108_182_6">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://www.manuscriptorium.com/apps/main/wtis_lq.php?strFolder=K/NLOTRO1______________0STK/P0/1______________0STKP00002P.JPG">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:Place rdf:about="http://sws.geonames.org/515003/">
+            <wgs84:lat xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">51.7727</wgs84:lat>
+            <wgs84:long xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#">55.0988</wgs84:long>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="os">Оренбург</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Оренбург</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ko">오렌부르크</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">أورنبرغ</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">شكالوف</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he">אורנבורג</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Chkalov</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Tschkalow</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Оренбург</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Orenbourg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eo">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Оренбург</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Чкалов</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="et">Orenburg</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">オレンブルク</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Orenburg</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/2017370/"/>
+          </edm:Place>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92004/BibliographicResource_2000059192467">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192467"/>
+            <edm:dataProvider>National Library of Czech Republic</edm:dataProvider>
+            <edm:hasView rdf:resource="http://www.manuscriptorium.com/apps/main/en/index.php?request=show_tei_digidoc&amp;docId=set20100108_182_6"/>
+            <edm:isShownAt rdf:resource="http://www.manuscriptorium.com/apps/main/mns_direct.php?docId=set20100108_182_6"/>
+            <edm:object rdf:resource="http://www.manuscriptorium.com/apps/main/wtis_lq.php?strFolder=K/NLOTRO1______________0STK/P0/1______________0STKP00002P.JPG"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92004/BibliographicResource_2000059192467">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1913-1913</dc:date>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">oai:test.manuscriptorium.cz:set20100108_182_6</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">mul</dc:language>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">National Library of the Republic of Kazakhstan</dc:source>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">the newspaper “Kazak”</dc:title>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1913-1913</dcterms:created>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0588"/>
+            <dcterms:spatial xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://sws.geonames.org/515003/"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192467"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92004/BibliographicResource_2000059192467"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92004/BibliographicResource_2000059192467">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192467"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92004/BibliographicResource_2000059192467"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92004/BibliographicResource_2000059192467">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92004/BibliographicResource_2000059192467"/>
+            <edm:collectionName>92004_Ag_EU_TEL_a0588_TEL_NKP_manuscriptorium</edm:collectionName>
+            <edm:country>Czech Republic</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92004/BibliographicResource_2000059192467.html"/>
+            <edm:language>cs</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

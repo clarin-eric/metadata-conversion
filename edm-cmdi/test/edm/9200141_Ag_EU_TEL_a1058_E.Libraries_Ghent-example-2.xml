@@ -1,0 +1,57 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200141/BibliographicResource_3000135581976"/>
+          <edm:WebResource rdf:about="http://adore.ugent.be/OpenURL/app?type=carousel&amp;id=archive.ugent.be:53B92776-82CA-11E3-A7CE-5BE9D43445F2">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://adore.ugent.be/OpenURL/resolve?svc_id=medium&amp;url_ver=Z39.88-2004&amp;rft_id=archive.ugent.be:53B92776-82CA-11E3-A7CE-5BE9D43445F2:1">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200141/BibliographicResource_3000135581976">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200141/BibliographicResource_3000135581976"/>
+            <edm:dataProvider>Ghent University Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://adore.ugent.be/OpenURL/app?type=carousel&amp;id=archive.ugent.be:53B92776-82CA-11E3-A7CE-5BE9D43445F2"/>
+            <edm:object rdf:resource="http://adore.ugent.be/OpenURL/resolve?svc_id=medium&amp;url_ver=Z39.88-2004&amp;rft_id=archive.ugent.be:53B92776-82CA-11E3-A7CE-5BE9D43445F2:1"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200141/BibliographicResource_3000135581976">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Caius Vettius Aquilinus Juvencus</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Joannes Gerson</dc:contributor>
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Coelius Sedulius</dc:creator>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Datum bescherming van 16/04/2013 - Publicatie Belgisch Staatsblad: van 13/05/2013</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Handschrift 15e-16e eeuw</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Printed</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">000955679</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">la</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">De Saint-Genois, J. Catalogue ... des manuscrits de la bibliothèque ... de l'université de Gand; 463</dc:relation>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Derolez, A. The library of Raphael de Marcatellis, abbot of St.Bavon's, Ghent 1437-1508 . - Ghent : Story-scientia, 1979 ; no. 41</dc:relation>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Van Bergen, S. De productie van handschriften rond 1500 bestudeerd aan de hand van twee handschriften vervaardigd voor Raphael Mercatellis, abt van de Sint-Baafsabdij te Gent en nu bewaard als Gent, U.B., HS. 11 en 17. - Dissertatie, 1998</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">CC BY-SA (4.0)</dc:rights>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Carmen paschale. Evangeliorum libri IV. Monotessaron, cum glosa</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Monograph</dc:type>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">282 f. : : initialen, randversiering, miniaturen ; ; 2°.</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1058"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1401? - 1599?</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">15e-16e eeuw.</dcterms:issued>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Carmen paschale / Sedulius</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Evangeliorum libri IV / Juvencus</dcterms:tableOfContents>
+            <dcterms:tableOfContents xmlns:dcterms="http://purl.org/dc/terms/">Monotessaron / Joannes Gerson</dcterms:tableOfContents>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200141/BibliographicResource_3000135581976"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200141/BibliographicResource_3000135581976"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200141/BibliographicResource_3000135581976">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200141/BibliographicResource_3000135581976"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200141/BibliographicResource_3000135581976"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200141/BibliographicResource_3000135581976">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200141/BibliographicResource_3000135581976"/>
+            <edm:collectionName>9200141_Ag_EU_TEL_a1058_E.Libraries_Ghent</edm:collectionName>
+            <edm:country>Belgium</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200141/BibliographicResource_3000135581976.html"/>
+            <edm:language>mul</edm:language>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

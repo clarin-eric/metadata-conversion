@@ -1,0 +1,143 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394"/>
+          <edm:WebResource rdf:about="http://digital-library.ulbsibiu.ro/dspace/handle/123456789/252"/>
+          <edm:WebResource rdf:about="http://digital-library.ulbsibiu.ro/dspace/bitstream/123456789/252/1/BUSibiu_Diaconovich_Enciclopedia_Romana_Asia.jpg"/>
+          <edm:TimeSpan rdf:about="http://semium.org/time/20xx_1_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 21th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 21-го века</skos:prefLabel>
+            <edm:begin>Mon Jan 01 01:00:00 CET 2001</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 2033</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/2012">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">2012</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/20xx_1_third"/>
+            <edm:begin>Sun Jan 01 01:00:00 CET 2012</edm:begin>
+            <edm:end>Mon Dec 31 01:00:00 CET 2012</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx_4_quarter">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">4e quart 19e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">4 quarter of the 19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">4-я четверть 19-го века</skos:prefLabel>
+            <edm:begin>Sat Jan 01 01:00:00 CET 1876</edm:begin>
+            <edm:end>Mon Dec 31 00:19:32 CET 1900</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1898">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1898</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/18xx_4_quarter"/>
+            <edm:begin>Sat Jan 01 01:00:00 CET 1898</edm:begin>
+            <edm:end>Sat Dec 31 01:00:00 CET 1898</edm:end>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/9380">
+            <skos:prefLabel xml:lang="sl">svet</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">svet</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">verden</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">mundu</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">lume</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">mondo</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">dünya</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">dinja</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">verden</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">világ</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">pasaule</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">عالم</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">pasaulis</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">svět</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Welt</skos:prefLabel>
+            <skos:prefLabel>world</skos:prefLabel>
+            <skos:prefLabel>世界</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">κόσμος/πλανήτης/παγκόσμιος (-α, -ο)</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">maailma</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">mundo</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">świat</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">värld</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">monde</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Свят</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">world</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">мир</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">maailm</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">mundo</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">wereld</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/4599"/>
+          </skos:Concept>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://www.eionet.europa.eu/gemet/concept/598">
+            <skos:prefLabel xml:lang="sl">Azija</skos:prefLabel>
+            <skos:prefLabel xml:lang="sk">Ázia</skos:prefLabel>
+            <skos:prefLabel xml:lang="eu">Asia</skos:prefLabel>
+            <skos:prefLabel xml:lang="da">Asien</skos:prefLabel>
+            <skos:prefLabel xml:lang="ro">Asia</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Asia</skos:prefLabel>
+            <skos:prefLabel xml:lang="tr">Asya</skos:prefLabel>
+            <skos:prefLabel xml:lang="mt">Asja</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Asia</skos:prefLabel>
+            <skos:prefLabel xml:lang="hu">Ázsia</skos:prefLabel>
+            <skos:prefLabel xml:lang="lv">Āzija</skos:prefLabel>
+            <skos:prefLabel xml:lang="ar">آسيا</skos:prefLabel>
+            <skos:prefLabel xml:lang="lt">Azija</skos:prefLabel>
+            <skos:prefLabel xml:lang="cs">Asie</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Asien</skos:prefLabel>
+            <skos:prefLabel>Asia</skos:prefLabel>
+            <skos:prefLabel>亚洲</skos:prefLabel>
+            <skos:prefLabel xml:lang="el">Ασία</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Aasia</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">Azja</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Ásia</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Asien</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Asie</skos:prefLabel>
+            <skos:prefLabel xml:lang="bg">Азия</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Asia</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Азия</skos:prefLabel>
+            <skos:prefLabel xml:lang="et">Aasia</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Asia</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Azië</skos:prefLabel>
+            <skos:broader rdf:resource="http://www.eionet.europa.eu/gemet/concept/9380"/>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394"/>
+            <edm:dataProvider>Library of the "Lucian Blaga" University of Sibiu</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://digital-library.ulbsibiu.ro/dspace/handle/123456789/252"/>
+            <edm:isShownBy rdf:resource="http://digital-library.ulbsibiu.ro/dspace/bitstream/123456789/252/1/BUSibiu_Diaconovich_Enciclopedia_Romana_Asia.jpg"/>
+            <edm:object rdf:resource="http://digital-library.ulbsibiu.ro/dspace/bitstream/123456789/252/1/BUSibiu_Diaconovich_Enciclopedia_Romana_Asia.jpg"/>
+            <edm:provider>The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Diaconovich, C.</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">[2012]</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">[1898]</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">[2012]</dc:date>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">[1898]</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Asia - harta color, ilustratie din lucrarea lui Diaconovich, Dr.C. – Enciclopedia Romana, tomul 1, 1898</dc:description>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://digital-library.ulbsibiu.ro/dspace/handle/123456789/252</dc:identifier>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Asia</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">enciclopedia romana</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Asia - harta color din lucrarea "Enciclopedia Romana"</dc:title>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Asia - color map</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Image</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://digital-library.ulbsibiu.ro/dspace/bitstream/123456789/192"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.eionet.europa.eu/gemet/concept/598"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>2012</edm:year>
+            <edm:year>1898</edm:year>
+            <edm:year>2012</edm:year>
+            <edm:year>1898</edm:year>
+            <edm:year>http://semium.org/time/2012</edm:year>
+            <edm:year>http://semium.org/time/1898</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394"/>
+            <edm:collectionName>9200165_Ag_EU_TEL_a1055b_Eu_Libraries_Sibiu</edm:collectionName>
+            <edm:country>Romania</edm:country>
+            <edm:preview rdf:resource="http://europeanastatic.eu/api/image?uri=http://digital-library.ulbsibiu.ro/dspace/bitstream/123456789/252/1/BUSibiu_Diaconovich_Enciclopedia_Romana_Asia.jpg&amp;size=LARGE&amp;type=TEXT"/>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200165/99FC830A470990AE652F4EDD86BA125B89BDB394.html"/>
+            <edm:language>ro</edm:language>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

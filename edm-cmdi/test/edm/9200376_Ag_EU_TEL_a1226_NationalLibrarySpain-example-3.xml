@@ -1,0 +1,97 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200376/BibliographicResource_3000100170040"/>
+          <edm:WebResource rdf:about="http://bdh-rd.bne.es/viewer.vm?id=0000099498&amp;page=51">
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://bdh-rd.bne.es/viewer.vm?id=0000099498&amp;page=101">
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://bdh-rd.bne.es/viewer.vm?id=0000099498&amp;page=1">
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://bdh-rd.bne.es/low.raw?id=0000099498&amp;name=00000001.jpg">
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:Agent rdf:about="http://dbpedia.org/resource/Ruperto_Chapí">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Ruperto Chapí y Lorente</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Ruperto Chapí</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Ruperto Chapí</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Ruperto Chapí Lorente</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fi">Ruperto Chapí</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Ruperto Chapí</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Ruperto Chapí</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Чапи, Руперто</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Ruperto Chapí</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Ruperto Chapí y Lorente</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">ルペルト・チャピ</skos:prefLabel>
+            <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Ruperto Chapi</skos:altLabel>
+            <edm:end>1909-03-25</edm:end>
+            <rdaGr2:biographicalInformation xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xml:lang="de">Ruperto Chapí y Lorente (* 27. März 1851 in Villena, Provinz Alicante; † 25. März 1909 in Madrid) war ein spanischer Komponist.Bereits im Alter von sieben Jahren erhielt er Unterricht für Flöte und Klarinette. Später spielte er Kornett im Blasorchester seiner Stadt. Die Banda Municipal de Alicante dirigierte er mit 15 Jahren. Im Alter von 16 Jahren ging er zum Studium an das Konservatorium nach Madrid, wo er bei Miguel Galiana Harmonielehre und bei Emilio Arrieta Komposition studierte. Danach wurde er zunächst Dirigent eines Blasorchesters eines Artillerie Regiments. Dann studierte er in Paris am Konservatorium. Einige Jahre später ging er nach Rom, um seine musikalische Ausbildung zu vervollständigen. 1878 kehrte er nach Spanien zurück. Obwohl seine erste Zarzuela schon 1867 entstand, feierte er nach seiner Rückkehr aus Rom große Erfolge mit dieser besonderen Form der Bühnenmusik in Spanien. In der Folge erschienen jährlich ein bis zwei Zarzuelas von ihm, die ihm großen Ruhm einbrachten. In seinem Œuvre befinden sich daneben auch Opern, Orchesterwerke, Blasorchesterwerke und Kammermusik.</rdaGr2:biographicalInformation>
+            <rdaGr2:dateOfBirth xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/">1851-03-27</rdaGr2:dateOfBirth>
+            <rdaGr2:dateOfDeath xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/">1909-03-25</rdaGr2:dateOfDeath>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://rdf.freebase.com/ns/m.0f5lqq"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://es.dbpedia.org/resource/Ruperto_Chapí"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://rdf.freebase.com/ns/m.0sd1ksw"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://fr.dbpedia.org/resource/Ruperto_Chapí"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://gl.dbpedia.org/resource/Ruperto_Chapí"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://pl.dbpedia.org/resource/Ruperto_Chapí"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://de.dbpedia.org/resource/Ruperto_Chapí_y_Lorente"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://ja.dbpedia.org/resource/ルペルト・チャピ"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://ru.dbpedia.org/resource/Чапи,_Руперто"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://wikidata.dbpedia.org/resource/Q964682"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://fi.dbpedia.org/resource/Ruperto_Chapí"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://it.dbpedia.org/resource/Ruperto_Chapí"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://nl.dbpedia.org/resource/Ruperto_Chapí_y_Lorente"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://wikidata.org/entity/Q964682"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://eo.dbpedia.org/resource/Ruperto_Chapí"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://br.dbpedia.org/resource/Ruperto_Chapí"/>
+            <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://ca.dbpedia.org/resource/Ruperto_Chapí_Lorente"/>
+          </edm:Agent>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200376/BibliographicResource_3000100170040">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200376/BibliographicResource_3000100170040"/>
+            <edm:dataProvider>National Library of Spain</edm:dataProvider>
+            <edm:hasView rdf:resource="http://bdh-rd.bne.es/viewer.vm?id=0000099498&amp;page=51"/>
+            <edm:hasView rdf:resource="http://bdh-rd.bne.es/viewer.vm?id=0000099498&amp;page=101"/>
+            <edm:isShownAt rdf:resource="http://bdh-rd.bne.es/viewer.vm?id=0000099498&amp;page=1"/>
+            <edm:object rdf:resource="http://bdh-rd.bne.es/low.raw?id=0000099498&amp;name=00000001.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200376/BibliographicResource_3000100170040">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ruperto Chapí</dc:creator>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Chapí</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Partitura de orquesta original</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Ruperto Chapí de Luis G. Iberni. p. 547, nº 138</dc:description>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Ruperto Chapí y su obra lírica. p. 114, 126, 129</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Manuscript</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">pandora:0000099498</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">es</dc:language>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Zarzuelas, Partituras -- Manuscritos</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Academia militar zarzuela en un acto</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Monograph</dc:type>
+            <dcterms:alternative xmlns:dcterms="http://purl.org/dc/terms/">Academia militar (Manuscrito original)</dcterms:alternative>
+            <dcterms:extent xmlns:dcterms="http://purl.org/dc/terms/">1 partitura ([72] h.) ; 38 X 28 cm</dcterms:extent>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1226"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1901?</dcterms:issued>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">[1901?]</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200376/BibliographicResource_3000100170040"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200376/BibliographicResource_3000100170040"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200376/BibliographicResource_3000100170040">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/resource/Ruperto_Chapí"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200376/BibliographicResource_3000100170040"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200376/BibliographicResource_3000100170040"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200376/BibliographicResource_3000100170040">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200376/BibliographicResource_3000100170040"/>
+            <edm:collectionName>9200376_Ag_EU_TEL_a1226_NationalLibrarySpain</edm:collectionName>
+            <edm:country>Spain</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200376/BibliographicResource_3000100170040.html"/>
+            <edm:language>mul</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

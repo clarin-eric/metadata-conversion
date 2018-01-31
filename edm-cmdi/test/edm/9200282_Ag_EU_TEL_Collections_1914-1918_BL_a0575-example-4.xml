@@ -1,0 +1,72 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200282/ior_l_mil_7_17347"/>
+          <edm:WebResource rdf:about="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=IOR/L/MIL/7/17347&amp;index=0"/>
+          <edm:WebResource rdf:about="http://www.theeuropeanlibrary.org/content/bl/ior!l!mil!7!17347.jpg"/>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/page/World_War_I">
+            <skos:prefLabel xml:lang="zh">第一次世界大战</skos:prefLabel>
+            <skos:prefLabel xml:lang="uk">Перша світова війна</skos:prefLabel>
+            <skos:prefLabel xml:lang="it">Prima guerra mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="no">Første verdenskrig</skos:prefLabel>
+            <skos:prefLabel xml:lang="de">Erste Weltkrieg</skos:prefLabel>
+            <skos:prefLabel xml:lang="fi">Ensimmäinen maailmansota</skos:prefLabel>
+            <skos:prefLabel xml:lang="pl">I wojna światowa</skos:prefLabel>
+            <skos:prefLabel xml:lang="pt">Primeira Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="sv">Första världskriget</skos:prefLabel>
+            <skos:prefLabel xml:lang="fr">Première Guerre mondiale</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">First World War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Great War</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WW1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">WWI</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War 1</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War I</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">World War One</skos:prefLabel>
+            <skos:prefLabel xml:lang="ru">Первая мировая война</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">Primera Guerra Mundial</skos:prefLabel>
+            <skos:prefLabel xml:lang="ja">第一次世界大戦</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">Eerste Wereldoorlog</skos:prefLabel>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200282/ior_l_mil_7_17347">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200282/ior_l_mil_7_17347"/>
+            <edm:dataProvider>The British Library</edm:dataProvider>
+            <edm:isShownAt rdf:resource="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=IOR/L/MIL/7/17347&amp;index=0"/>
+            <edm:isShownBy rdf:resource="http://www.theeuropeanlibrary.org/content/bl/ior!l!mil!7!17347.jpg"/>
+            <edm:object rdf:resource="http://www.theeuropeanlibrary.org/content/bl/ior!l!mil!7!17347.jpg"/>
+            <edm:provider>The European Library</edm:provider>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200282/ior_l_mil_7_17347">
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Includes extracts from letters of Indian soldiers in France forwarded to the censor and correspondence regarding the impact of German propaganda about the treatment of Indian prisoners of war</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">1 file</dc:format>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="eng">English</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana Collections 1914-1918</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Crown Copyright and provided under an Open Government Licence.</dc:rights>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">World War, 1914-1918--Campaigns--
+Asia</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="eng">World War I</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Collection 425/188 Censorship of correspondence to and from Indian Expeditionary Force in France.</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Archives and manuscripts</dc:type>
+            <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/">1914-1918</dcterms:created>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/">India Office Records and Private Papers</dcterms:isPartOf>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200282/ior_l_mil_7_17347"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200282/ior_l_mil_7_17347"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200282/ior_l_mil_7_17347">
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/page/World_War_I"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200282/ior_l_mil_7_17347"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200282/ior_l_mil_7_17347"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200282/ior_l_mil_7_17347">
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Europeana</dc:creator>
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200282/ior_l_mil_7_17347"/>
+            <edm:collectionName>9200282_Ag_EU_TEL_Collections_1914-1918_BL_a0575</edm:collectionName>
+            <edm:country>United Kingdom</edm:country>
+            <edm:preview rdf:resource="http://www.theeuropeanlibrary.org/content/bl/ior!l!mil!7!17347.jpg"/>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200282/ior_l_mil_7_17347.html"/>
+            <edm:language>en</edm:language>
+            <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

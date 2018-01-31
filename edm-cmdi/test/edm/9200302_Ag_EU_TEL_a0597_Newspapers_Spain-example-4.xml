@@ -1,0 +1,148 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065004"/>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/issue.vm?id=0003749123">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/details.vm?q=id:0003749123">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/images/items/0003749124/low.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+          </edm:WebResource>
+          <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx_1_third">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Early 19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Начало 19-го века</skos:prefLabel>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1801</edm:begin>
+            <edm:end>Tue Dec 31 01:00:00 CET 1833</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/18xx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19..</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19??</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19e</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">19e siècle</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19-th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th century</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">19й век</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">19de eeuw</skos:prefLabel>
+            <edm:begin>Thu Jan 01 01:00:00 CET 1801</edm:begin>
+            <edm:end>Mon Dec 31 00:19:32 CET 1900</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/1822">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1822</skos:prefLabel>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/18xx_1_third"/>
+            <edm:begin>Tue Jan 01 01:00:00 CET 1822</edm:begin>
+            <edm:end>Tue Dec 31 01:00:00 CET 1822</edm:end>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+          </edm:TimeSpan>
+          <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+          </edm:TimeSpan>
+          <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://vocab.getty.edu/aat/300026656">
+            <skos:altLabel xml:lang="de">Tageszeitung</skos:altLabel>
+            <skos:altLabel xml:lang="it">giornale (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="fr">journal (newspaper)</skos:altLabel>
+            <skos:altLabel xml:lang="sv">tidning</skos:altLabel>
+            <skos:altLabel xml:lang="en">newspaper</skos:altLabel>
+            <skos:altLabel xml:lang="es">diario (noticias)</skos:altLabel>
+            <skos:altLabel xml:lang="nl">nieuwsbladen</skos:altLabel>
+            <skos:prefLabel xml:lang="en">newspapers</skos:prefLabel>
+            <skos:prefLabel xml:lang="es">diarios (noticias)</skos:prefLabel>
+            <skos:prefLabel xml:lang="nl">kranten</skos:prefLabel>
+            <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+            <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+            <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+          </skos:Concept>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_2000092065004">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065004"/>
+            <edm:dataProvider>National Library of Spain</edm:dataProvider>
+            <edm:hasView rdf:resource="http://hemerotecadigital.bne.es/issue.vm?id=0003749123"/>
+            <edm:isShownAt rdf:resource="http://hemerotecadigital.bne.es/details.vm?q=id:0003749123"/>
+            <edm:object rdf:resource="http://hemerotecadigital.bne.es/images/items/0003749124/low.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200302/BibliographicResource_2000092065004">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1822</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Al amparo del gobierno moderado de Martínez de la Rosa, comienza a publicarse el 22 de mayo de 1822, contribuyendo directamente Fernando VII en su fundación con 30.000 reales, según señala Pérez de Guzmán en su Bosquejo histórico… Dirigido por Luis de la Torre, su carácter será absolutista y servil, defensor de la unión del altar y del rey.
+
+Se publica sin periodicidad fija en números de cuatro páginas, a dos columnas y foliación seguida, primero de la imprenta madrileña de J. Ramos y Compañía, y después en la de Rosa Sanz, a cargo de su hijo Norberto Llorenci.
+
+La primera parte de cada número es un extenso artículo de carácter doctrinal y político, y la segunda, englobada en una sección que titula “Variedades”, son sueltos o breves en los que comenta la actualidad política y polemiza encarnizadamente con la prensa liberal, en un momento en el que el clero absolutista inicia de nuevo la persecución de los liberales.
+
+Publicó también suplementos y su último número es un Apéndice al número 28, de 26 de noviembre de 1823.</dc:description>
+            <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://hemerotecadigital.bne.es/details.vm?q=id%3A0003749123</dc:identifier>
+            <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Madrid</dc:publisher>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">es</dc:language>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Biblioteca Nacional de España</dc:rights>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">1885-3412</dc:source>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Del 22/05/1822 al 02/04/1823. Del n. 1 al n. 28</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">El Procurador general del rey</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Title</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Serial</dc:type>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462489"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462451"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462474"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462437"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462497"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462439"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462460"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462446"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462482"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462429"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462495"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462488"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462453"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462447"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462433"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462434"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462496"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462486"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462450"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462472"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462473"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462426"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462467"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462409"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462464"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462413"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462484"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462410"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462415"/>
+            <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059462444"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0597"/>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1822-05-22 - 1823-11-15</dcterms:issued>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065004"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_2000092065004"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200302/BibliographicResource_2000092065004">
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/18xx_1_third"/>
+            <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/18xx"/>
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <edm:year>1822</edm:year>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065004"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_2000092065004"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_2000092065004">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065004"/>
+            <edm:collectionName>9200302_Ag_EU_TEL_a0597_Newspapers_Spain</edm:collectionName>
+            <edm:country>Spain</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200302/BibliographicResource_2000092065004.html"/>
+            <edm:language>es</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>

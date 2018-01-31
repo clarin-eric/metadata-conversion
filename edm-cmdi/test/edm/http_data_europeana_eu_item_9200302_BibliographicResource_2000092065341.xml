@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+  <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065341"/>
+  <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/issue.vm?id=0003681380">
+    <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/details.vm?q=id:0003681380">
+    <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+  </edm:WebResource>
+  <edm:WebResource rdf:about="http://hemerotecadigital.bne.es/images/items/0003681381/low.jpg">
+    <edm:rights rdf:resource="http://www.europeana.eu/rights/rr-f/"/>
+  </edm:WebResource>
+  <edm:Agent rdf:about="http://dbpedia.org/resource/Gustavo_Adolfo_Bécquer">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="eu">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ro">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="tr">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sr">Густаво Адолфо Бекер</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv">Gustavo Adolfo Bekers</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar">جوستابو أدولفو بيكر</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="gl">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="bg">Густаво Адолфо Бекер</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hy">Գուստավո Ադոլֆո Բեկկեր</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Беккер, Густаво Адольфо</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja">グスタボ・アドルフォ・ベッケル</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">Gustavo Adolfo Bécquer</skos:prefLabel>
+    <edm:end>1870-12-22</edm:end>
+    <edm:isRelatedTo rdf:resource="http://dbpedia.org/resource/Octavio_Paz"/>
+    <edm:isRelatedTo rdf:resource="http://dbpedia.org/resource/Antonio_Machado"/>
+    <edm:isRelatedTo rdf:resource="http://dbpedia.org/resource/Giannina_Braschi"/>
+    <edm:isRelatedTo rdf:resource="http://dbpedia.org/resource/Luis_Cernuda"/>
+    <edm:isRelatedTo rdf:resource="http://dbpedia.org/resource/Juan_Ramón_Jiménez"/>
+    <rdaGr2:biographicalInformation xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xml:lang="eu">Gustavo Adolfo Bécquer (jaiotzez G. A. Claudio Domínguez Bastida Sevilla, Andaluzia, 1836 - Madril, 1870, Erromantizismoko poeta narratzaile espainiarra izan zen. Jose Dominguez Insausti margolari ospetsuaren semea zen. Txikitatik bere aitaren marrazkiez inguraturik egon zen eta ondorioz, margolanetan interesa hartu egin zuen. Bere ustez margolanek sentimenduak hobeto espresatzen zituzten idatziek baino. Bere barneko mundua islatu egiten du eta bere teknika nabarmendu egiten da. Bere lan gehienetan bizitzari eta bizitzaren zentzuari buruz hitz egiten du. Lan garrantzitsuenak "Las Rimas" eta "Las Leyendas" dira.</rdaGr2:biographicalInformation>
+    <rdaGr2:dateOfBirth xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/">1836-02-17</rdaGr2:dateOfBirth>
+    <rdaGr2:dateOfDeath xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/">1870-12-22</rdaGr2:dateOfDeath>
+    <rdaGr2:placeOfBirth xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" rdf:resource="http://dbpedia.org/resource/Spain"/>
+    <rdaGr2:placeOfDeath xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" rdf:resource="http://dbpedia.org/resource/Madrid"/>
+    <rdaGr2:professionOrOccupation xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" xml:lang="en">Poet, writer, journalist</rdaGr2:professionOrOccupation>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://rdf.freebase.com/ns/m.0t19yth"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://ia.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://oc.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://hy.dbpedia.org/resource/Գուստավո_Ադոլֆո_Բեկկեր"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://br.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://de.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://cs.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://pa.dbpedia.org/resource/ਗੁਸਤਾਵੋ_ਆਦੋਲਫੋ_ਬੈਕੈਰ"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://gl.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://ca.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://wikidata.dbpedia.org/resource/Q203715"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://ro.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://vi.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://fa.dbpedia.org/resource/گوستاو_آدولفو_بکر"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://pms.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://lv.dbpedia.org/resource/Gustavo_Adolfo_Bekers"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://pt.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://simple.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://an.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://it.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://tr.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://ar.dbpedia.org/resource/جوستابو_أدولفو_بيكر"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://rdf.freebase.com/ns/m.03rlzg"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://eo.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://eu.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://pl.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://nl.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://sr.dbpedia.org/resource/Густаво_Адолфо_Бекер"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://fr.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://af.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://wikidata.org/entity/Q203715"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://nap.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://la.dbpedia.org/resource/Gustavus_Adolphus_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://bg.dbpedia.org/resource/Густаво_Адолфо_Бекер"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://es.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://ja.dbpedia.org/resource/グスタボ・アドルフォ・ベッケル"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://io.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://ru.dbpedia.org/resource/Беккер,_Густаво_Адольфо"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://ast.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <owl:sameAs xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://sv.dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+  </edm:Agent>
+  <edm:TimeSpan rdf:about="http://semium.org/time/18xx_3_third">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Late 19th century</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">Конец 19-го века</skos:prefLabel>
+    <edm:begin>Tue Jan 01 01:00:00 CET 1867</edm:begin>
+    <edm:end>Mon Dec 31 00:19:32 CET 1900</edm:end>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/18xx">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19..</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19??</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">19e</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">19e siècle</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19-th</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">19th century</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru">19й век</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl">19de eeuw</skos:prefLabel>
+    <edm:begin>Thu Jan 01 01:00:00 CET 1801</edm:begin>
+    <edm:end>Mon Dec 31 00:19:32 CET 1900</edm:end>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/1870">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">1870</skos:prefLabel>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/18xx_3_third"/>
+    <edm:begin>Sat Jan 01 01:00:00 CET 1870</edm:begin>
+    <edm:end>Sat Dec 31 01:00:00 CET 1870</edm:end>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/Time">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Time</skos:prefLabel>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/ChronologicalPeriod">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Chronological period</skos:prefLabel>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/Time"/>
+  </edm:TimeSpan>
+  <edm:TimeSpan rdf:about="http://semium.org/time/AD2xxx">
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr">2e millénaire après J.-C.</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD</skos:prefLabel>
+    <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en">Second millenium AD, years 1001-2000</skos:prefLabel>
+  </edm:TimeSpan>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://vocab.getty.edu/aat/300026656">
+    <skos:altLabel xml:lang="de">Tageszeitung</skos:altLabel>
+    <skos:altLabel xml:lang="it">giornale (newspaper)</skos:altLabel>
+    <skos:altLabel xml:lang="fr">journal (newspaper)</skos:altLabel>
+    <skos:altLabel xml:lang="sv">tidning</skos:altLabel>
+    <skos:altLabel xml:lang="en">newspaper</skos:altLabel>
+    <skos:altLabel xml:lang="es">diario (noticias)</skos:altLabel>
+    <skos:altLabel xml:lang="nl">nieuwsbladen</skos:altLabel>
+    <skos:prefLabel xml:lang="en">newspapers</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">diarios (noticias)</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">kranten</skos:prefLabel>
+    <skos:note>http://vocab.getty.edu/aat/rev/5002531933</skos:note>
+    <skos:broader rdf:resource="http://vocab.getty.edu/aat/300026642"/>
+    <skos:narrower rdf:resource="http://vocab.getty.edu/aat/300404424"/>
+  </skos:Concept>
+  <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:about="http://dbpedia.org/resource/Theatre">
+    <skos:prefLabel xml:lang="hr">Kazalište</skos:prefLabel>
+    <skos:prefLabel xml:lang="zh">劇場 (藝術)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ro">Teatru</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Teatre</skos:prefLabel>
+    <skos:prefLabel xml:lang="tr">Tiyatro</skos:prefLabel>
+    <skos:prefLabel xml:lang="no">Teater</skos:prefLabel>
+    <skos:prefLabel xml:lang="hu">Színházművészet</skos:prefLabel>
+    <skos:prefLabel xml:lang="lv">Teātris</skos:prefLabel>
+    <skos:prefLabel xml:lang="hi">रंगमंच</skos:prefLabel>
+    <skos:prefLabel xml:lang="lt">Teatras</skos:prefLabel>
+    <skos:prefLabel xml:lang="bs">Pozorište</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Theater</skos:prefLabel>
+    <skos:prefLabel xml:lang="fi">Teatteri</skos:prefLabel>
+    <skos:prefLabel xml:lang="sv">Teater</skos:prefLabel>
+    <skos:prefLabel xml:lang="ka">თეატრი</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Théâtre</skos:prefLabel>
+    <skos:prefLabel xml:lang="bg">Театър</skos:prefLabel>
+    <skos:prefLabel xml:lang="hy">Թատրոն</skos:prefLabel>
+    <skos:prefLabel xml:lang="mk">Драмска уметност</skos:prefLabel>
+    <skos:prefLabel xml:lang="be">Тэатр</skos:prefLabel>
+    <skos:prefLabel xml:lang="sl">Gledališče</skos:prefLabel>
+    <skos:prefLabel xml:lang="sk">Divadlo (umenie)</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">Antzerki</skos:prefLabel>
+    <skos:prefLabel xml:lang="is">Leiklist</skos:prefLabel>
+    <skos:prefLabel xml:lang="uk">Театр</skos:prefLabel>
+    <skos:prefLabel xml:lang="az">Teatr</skos:prefLabel>
+    <skos:prefLabel xml:lang="da">Teater</skos:prefLabel>
+    <skos:prefLabel xml:lang="it">Teatro</skos:prefLabel>
+    <skos:prefLabel xml:lang="sr">Позориште</skos:prefLabel>
+    <skos:prefLabel xml:lang="sq">Teatri</skos:prefLabel>
+    <skos:prefLabel xml:lang="ko">연극</skos:prefLabel>
+    <skos:prefLabel xml:lang="cy">Theatr</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">مسرح</skos:prefLabel>
+    <skos:prefLabel xml:lang="he">תיאטרון</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Teatro</skos:prefLabel>
+    <skos:prefLabel xml:lang="el">Θέατρο</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Teatro</skos:prefLabel>
+    <skos:prefLabel xml:lang="pl">Teatr</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Theatre</skos:prefLabel>
+    <skos:prefLabel xml:lang="ru">Театр</skos:prefLabel>
+    <skos:prefLabel xml:lang="et">Teater</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Teatro</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Theater (kunstvorm)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ja">演劇</skos:prefLabel>
+    <skos:prefLabel xml:lang="yi">טעאטער</skos:prefLabel>
+    <skos:note xml:lang="hr">Kazalište je kulturno umjetnička ustanova, namijenjena održavanju priredbi scenske umjetnosti.Postoji od davnina, kao rezultat ljudske sklonosti pričanju priča. Nastalo je u antičkoj Grčkoj iz rituala koji su se održavali u čast boga Dioniza. Od svog početka, kazalište je imalo mnoge oblike i inačice u kojima su se koristili: govor, geste, glazba, ples i spektakl, kombinirajući više različitih grana umjetnosti u jedan umjetnički oblik.U radu kazališta sudjeluje velik broj djelatnika, koji se dijele na: umjetničko (glumci, redatelji, dramaturzi, kostimografi i dr.) tehničko (rekviziteri, šaptači i dr.) i administrativno (intendant, impresario, blagajnici i dr.) kazališno osoblje.Osnovni tipovi kazališnih predstava su: drame, komedije i mjuzikli. Među klasične drame ubrajaju se antičke drame (grčke i rimske), engleske (npr. Shakespearove drame), francuske (npr. Molierove drame), ruske drame (npr. Čehovljeve drame) i dr. Mjuzikl (eng. musical) je glazbeno – scensko djelo zabavnog karaktera a govorenim dijalozima, glazbenim i plesnim točkama, najčešće u dva čina. Među najpoznatije mjuzikle ubrajaju se: "Priča sa zapadne strane", "Fantom opere", "Chicago", "Mačke" i dr., a od hrvatskih "Jalta, jalta" i "Dundo Maroje". Komedija se odlikuje veselim sadržajem, u prvi plan stavlja smiješne strane ljudskog života, ismijava ljudske nedostatke i mane. Primjer za komediju je Shakespearovo djelo "Na Tri kralja ili kako hoćete".</skos:note>
+    <skos:note xml:lang="zh">劇場（theatre）一字原為theatron，乃是古希臘劇場的階梯觀眾席區域，意為「看的地方」，後來成為整個表演場所的意思。然而，經過多年的演變，theatre一字的意義已不僅是表演場所的稱呼。由於戲劇表演必定在表演場所中進行，而發生戲劇表演的地方便成為表演場所，所以兩者之間關係使其字面意義也變得密不可分；在許多歐美的語文中，「劇場」與「戲劇」也往往對應至同一字彙。今日所稱的劇場藝術，主要指戲劇。中文的戲劇主要對應英文的Drama以及Theatre二字，前者著重於文本與文學，與理論研究較有關聯；後者則著重在實際演出。隨著科技進步，廣播、電影、電視的發明與普及，戲劇已經不只是在表演場所中發生的演出活動，戲劇形式的廣播、電視節目及電影充斥在一般大眾的生活之中；戲劇一詞因為涵蓋了Drama與Theatre兩種涵義，因此在用字上無法輕易將透過媒體轉介的節目排除於戲劇之外；為求語句通順以及避免誤解，有時會以劇場、劇場藝術表示劇場形式的戲劇，以代替戲劇一詞。此外，自從現代舞被發明之後，舞蹈演出脫離了舞劇的範疇，展開了一個新紀元，開始有戲劇形式以外的舞蹈在劇場出現；加上現代劇場設計與現代舞的發展期相當接近，因此在表演藝術中，兩者之間密切的程度往往超越戲劇或其他舞蹈。劇場設計師對戲劇或舞蹈的設計工作雖常有各自的喜好或專長，但並非明確的分野；對於劇場技師而言，兩者之間更是幾無差別。因為種種因素，在討論劇場藝術時，舞蹈表演無法被排除在外；而在學術分科中，舞蹈與戲劇之間的密切關係，更是同為表演藝術的音樂所無法相比。</skos:note>
+    <skos:note xml:lang="ro">Teatrul poate însemna fie arta, fie clădirea în care se desfășoară spectacolele de teatru. 	În sens figurat, teatru reprezintă un loc în care se desfășoară o acțiune importantă. De exemplu: teatrul unei operațiuni (militare).</skos:note>
+    <skos:note xml:lang="ca">El teatre (del grec θέατρον, "lloc per contemplar") és una art escènica relacionada amb l'actuació i la representació d'uns esdeveniments, que consta de representar una història fictícia que protagonitzen un o més personatges en un lloc i un temps concret i davant d'un públic. S'utilitzen elements com els discursos i els diàlegs, els gestos, l'escenografia, la música, el so i l'espectacle. És també el gènere literari que comprèn les obres concebudes en un escenari i davant d'un públic. El Dia del Teatre se celebra el 27 de març.</skos:note>
+    <skos:note xml:lang="tr">Tiyatro, bir sahnede, seyirciler önünde oyuncuların sergilenmesi amacıyla hazırlanmış gösterilerdir.Farklı bir şekilde duyguların ve olayların hareket(jest)ve konuşmalarla anlatılmasıdır. Genel olarak temsil edilen eser anlamında da kullanılır. Tiyatro, bir sahne sanatıdır. Tiyatro eseri, olayları oluş yoluyla gösterir. Bu yönüyle konuşma ve eyleme dayanan bir gösteri sanatı olarak da tanımlanabilir. Yaygın hümanist bir deyişle tiyatro; insanı, insana, insanla, insanca anlatma sanatı olarak ifade edilir.Tiyatro eserinin diğer türlerden en önemli farkı; diğer edebi eserler okumak ve dinlemek için yazılmışken, tiyatro oyununun sahnede seyirci önünde oynanmasıdır. Değer ölçülerini, izleyenin kanaat ve anlayışlarından alır. Göze görünür bir karaktere sahip olması, canlı olarak meydana geliş niteliğiyle toplum psikolojisine hitap eder. Temsil yeri ve eser, tiyatronun edebiyat öğesidir. Bu edebiyat öğesi yanında tiyatro kavramı içinde oyunculuk, sahne düzeni, ışıklandırma, dekor, kostüm, müzik gibi unsurların bütünlüğü söz konusudur.Tiyatro metinlerine "oyun" metinleri yazan kişiye oyun yazarı (müellif) ve oyunu sahnede canlandıran kişilere ”oyuncu” (ya da daha genel olarak tiyatrocu) denir. Ayrıca eserin sahnelenmesinde görev alan sahne amiri, dekor ve kostüm sorumlusu, ışıkçı, suflör gibi diğer yardımcı elemanlar da vardır.</skos:note>
+    <skos:note xml:lang="no">Teater, (fra fransk théâtre via gresk theatron, θέατρον, «skueplass» eller theasthai, θεάομαι, «se (på)») eller drama eller skuespill, er en form for scenekunst hvor hensikten er å framstille eller fortelle en historie, ide eller følelser for et publikum. Et teaterstykke kan bestå av monolog (enetale) eller dialog (samtale). Et mangfold av dramatiske virkemidler kan bidra til en teaterforestilling, blant annet stemmebruk, gestikulering, sang, musikk og dans, men ikke nødvendigvis samtidig. Teater kan samvirke med et antall andre visuelle elementer, slikt som scenografi, lyssetting, scenekulisser, kostymer, sminke, lyd, spesialeffekter og rekvisita for å fremme dramaturgien. Hva som framstilles er som regel innøvd og fastlagt ved hjelp av et ferdig skrevet teatermanuskript, men skuespillere kan også improvisere en forestilling uten fastlagt manus. De bruker da sin erfaring og dyktighet som skuespillere.Selve bygningen eller scenen hvor framføringen av teater skjer eller hvor det holdes en forestilling, kalles også for et teater eller et teaterhus. «Å gå i teateret» henviser til stedet hvor en teaterforstilling blir holdt. Teaterstykket spilles vanligvis på en scene som er en avgrenset plass eller område godt synlig for publikum. Fram til 1500-tallet var en arenalignende scene det vanligste, men senere ble titteskapteateret mest vanlig. I moderne tid kan scenen utformes på ulikt vis og samtidig integrere publikum. Framføring av teater forsøker tradisjonelt å skape en illusjon eller følelse av virkelighet for publikum, selv om man er medvitende at det er på liksom eller et kun spill. Publikum gjør bevisst unntak fra virkelighetsoppfatningen og aksepterer at eksempelvis at skuespillerne snakker høyere enn normalt, at de er sminket, og at sceneriet gjør raske endringer i tid og rom. Det gjelder også den fjerde veggen, det vil si den veggen som mangler i teaterrommets virkelighet og som publikum kan se gjennom.Moderne vestlig teater er i stor grad avledet og utviklet fra antikkens greske teater som dets tekniske terminologi er lånt fra, klassifisering i sjangrer, og mange av temaene, faste karakterer, og handlingsmønstre og intriger. Teaterforskeren Patrice Pavis definerer det teatralske, teaterspråket, sceneskriving, og teaterets særegenheter som felles uttrykk som skiller teateret fra andre former for utøvende kunst, litteratur og kunst generelt.</skos:note>
+    <skos:note xml:lang="hu">A színházművészet az előadóművészetek azon ága, amelynek keretében közönség előtt színjáték útján, beszéddel, mozdulatokkal, zenével, tánccal, hanghatásokkal és látványelemekkel történeteket mutatnak be – gyakran más művészetek eszközeit is felhasználva.</skos:note>
+    <skos:note xml:lang="lv">Teātris (grieķu: théatron - "skatītāju vietas") ir mākslas veids, kas nodarbojas ar dramaturģijas darbu (lugu) vai māksliniecisku ieceru dramatisku realizāciju, tas ir, dramatisko izrāžu radīšanu un publisku izrādīšanu (parasti uz skatuves), izmantojot aktiera tēlojumu, runu, žestus, kustības, mūziku un tā tālak. Teātris ir nesaraujami saistīts ar literatūru, jo īpaši ar dramaturģiju.</skos:note>
+    <skos:note xml:lang="lt">Teatras – (iš pranc. théâtre; lot. theatrum; gr. théatron vieta, skirta parodymui; v. theasthai pasižiūrėti) meninės išraiškos priemonė, išorinio ir vidinio pasaulio įvykių atvaizdavimas scenoje, dalyvaujant artistams (aktoriams) bei publikai.</skos:note>
+    <skos:note xml:lang="hi">रंगमंच (थिएटर) वह स्थान है जहाँ नृत्य, नाटक, खेल आदि हों। रंगमंच शब्द रंग और मंच दो शब्दों के मिलने से बना है। रंग इसलिए प्रयुक्त हुआ है कि दृश्य को आकर्षक बनाने के लिए दीवारों, छतों और पर्दों पर विविध प्रकार की चित्रकारी की जाती है और अभिनेताओं की वेशभूषा तथा सज्जा में भी विविध रंगों का प्रयोग होता है, और मंच इसलिए प्रयुक्त हुआ है कि दर्शकों की सुविधा के लिए रंगमंच का तल फर्श से कुछ ऊँचा रहता है। दर्शकों के बैठने के स्थान को प्रेक्षागार और रंगमंच सहित समूचे भवन को प्रेक्षागृह, रंगशाला, या नाट्यशाला (या नृत्यशाला) कहते हैं। पश्चिमी देशों में इसे थिएटर या ऑपेरा नाम दिया जाता है।</skos:note>
+    <skos:note xml:lang="bs">Pozorište (grč.: theatron izvedeno od riječi theásthai; gledati) ili teatar je skupno ime za sve vrste scenske umjetnosti koje se izvode na pozornici u prisustvu publike.Neophodni elementi bez kojih ne može postojati pozorišna predstava su: glumci scenska radnja publikaKlasična podjela na teatarske forme bila je podjela na: Dramu (komedija, tragedija i drama u užem smislu) Operu BaletSavremenije podjele su nešto fleksibilnije, pa se pod glavnim pozorišnim formama obično podrazumijevaju Dramsko pozorište (zasnovano na dramskom tekstu) Plesno pozorište (plesni teatar, moderni ples; također balet) Muzičko pozorište (musical; također opera i opereta) Lutkarsko pozorište (animacija lutaka ili drugih predmeta)Naravno, bogatstvo i raznolikost pozorišnih formi i tradicija, kako evropskih tako i vanevropskih, savremenom gledaocu nudi ogroman broj formi, stilova i vrsta raznih pozorišnih oblika, njihovih mješavina i hibrida.</skos:note>
+    <skos:note xml:lang="de">Theater (von altgriechisch τό θέατρον théatron „Schaustätte, Theater“; von θεάομαι theaomai „anschauen“) ist die Bezeichnung für eine szenische Darstellung eines inneren und äußeren Geschehens als künstlerische Kommunikation zwischen Akteuren (Darstellern) und dem Publikum. Mit dem Wort Theater kann das Gebäude gemeint sein, in dem Theater gespielt wird (siehe Theaterarchitektur), oder der Prozess des Theater-Spielens oder auch allgemein eine Gruppe von Menschen, die Theater machen, also eine Theatergruppe.</skos:note>
+    <skos:note xml:lang="fi">Teatteri on taidemuoto, jossa näyttelijät esiintyvät yleisön edessä puhetta, musiikkia, tanssia, liikkeitä ja eleitä hyödyntäen. Tavanomaisen kerronnan lisäksi teatterilla on useita eri muotoja, kuten ooppera, operetti, baletti, pantomiimi, kiinalainen ooppera ja kabuki.</skos:note>
+    <skos:note xml:lang="ka">ტერმინი თეატრი (ბერძნულად θέατρον (theatron) – სანახაობების ადგილი) ორი მნიშვნელობით გამოიყენება: თეატრი, როგორც ხელოვნების დარგი. თეატრის გამოხატვის სპეციფიკური საშუალებაა სცენური მოქმედებები, რომლებიც სრულდება პუბლიკის წინაშე მსახიობთა გამოსვლის (თამაშის, როლის შესრულების) დროს. თეატრი, როგორც შენობა, სასცენო ადგილი, სადაც ტრადიციულად ხდება თეატრალური ხელოვნების ნაწარმოების წარმოდგენა. შესაძლებელია სცენის გამართვა ღია ცის ქვეშ, პარკში, ძველ ტაძარში ან ამფითეატრში. თეატრის ფესვები უძველეს სასოფლო–სამეურნეო და სამონადირეო თამაშებში და მასობრივ სახალხო რიტუალებშია. ძველ საბერძნეთში არსებობდა თეატრის სხვადასხვა სახეობები თავისი ტრადიციებით, სცენური ტექნიკით. მდიდარი და მრავალფეროვანი სანახაობრივი ფორმები შექმნეს აღმოსავლეთის ხალხებმა ინდოეთში, ჩინეთში, იაპონიაში, ინდონეზიაში და სხვაგან. შუა საუკუნეების ევროპაში თეატრალური შემოქმედების მატარებლები იყვნენ მოხეტიალე მსახიობები: ჰისტრიონები, ჟონგლიორები და სხვები.აღორძინების ხანის პირველი ევროპული პროფესიული თეატრი იყო იტალიური ნიღბების ხალხური კომედია (კომედია დელ არტე, მე–16-17 სს.). ამ დროიდან თეატრი ხდება ლიტერატურული, ამასთან ნაკლებად მობილური, რომელიც ბინას იდებს საქალაქო კულტურის ცენტრებში.თეატრალური ხელოვნების ნაწარმოები – სპექტაკლი იქმნება დრამატული ან მუსიკალურ–სცენური ნაწარმოების საფუძველზე რეჟისორის ჩანაფიქრის შესაბამისად (ბალეტში – ბალეტმაისტერის და დირიჟორის, ოპერაში – რეჟისორის და დირიჟორის) მსახიობების მონაწილეობით.თეატრის ძველი ქართული სახელწოდებაა სახილველი.</skos:note>
+    <skos:note xml:lang="bg">Театърът (от гръцки θέατρον - място за зрелища) е вид сценично изкуство, което се състои от изиграване на сценарии или истории пред публика, при което се използва съчетание от реч, жестове, музика, танц, звук и зрелище. В допълнение към стандартния разказвателен диалог, театърът може да се види под формата на опера, балет, мимика, кабуки, китайска опера, куклен театър и пантомима. В основата на драматичното действие стои конфликт, чието разрешение или неразрешение провокира размисъл. Целта на театъра е да предизвика у зрителите катарзис. Като всяко изкуство, той представлява покана за разговор — елемент от един безкраен диалог.</skos:note>
+    <skos:note xml:lang="sv">För andra betydelser, se Teater (olika betydelser).Teater, ibland drama eller skådespel, är en typ av scenkonst, som syftar till att agera, berätta, framställa eller förevisa historier, idéer eller känslor inför en publik. Detta sker vanligtvis genom dialog, det vill säga tal och gester mellan olika rollfigurer, spelade, eller agerade av skådespelare. Dessa måste kunna uttrycka alternativa personligheter, åldrar, röster, kön, och kroppshållningar. Skådespeleriet i en teaterföreställning samverkar med ett antal andra visuella element, såsom scenografi, ljussättning, kostymering och smink. Ofta används ljud, specialeffekter och rekvisita för att förhöja verklighetsintrycket.Nedskrivna teaterstycken kallas för pjäser. Det finns även former av improviserad teater i varierande utsträckning. En person som skriver pjäser kallas för dramatiker.Teaterstycken spelas vanligen på en scen, som är en avgränsad plats väl synlig för publiken. Fram till 1500-talet var arenaliknande scener vanligast, men senare blev tittskåpsteatern den vanligaste. Idag har de flesta teaterscener möjlighet att integrera publiken.Teaterstycken försöker traditionellt skapa en illusion eller känsla av verklighet för publiken, härav ordet föreställning. Publiken bildar då undermedvetna undantag från verklighetsuppfattningen, och accepterar till exempel att skådespelare talar högre än normalt, att de är sminkade, och att scenerier gör snabba förändringar i tid och rum. Detta gäller även den fjärde väggen, alltså den vägg som "saknas" i teaterrummets verklighet och som publiken kan "se igenom".</skos:note>
+    <skos:note xml:lang="fr">Le théâtre, ou genre dramatique, est à la fois l'art de la représentation d'un drame, un genre littéraire particulier, et l'édifice dans lequel se déroulent les spectacles de théâtre.Jadis, le mot désignait également la scène ou le plateau, c'est-à-dire toute la partie cachée du public par le rideau.Au sens figuré, « théâtre » désigne un lieu où se déroule une action importante (par exemple, un théâtre d'opérations militaires).Aujourd'hui, à l'heure des arts dits pluridisciplinaires, la définition de l'art du théâtre est de plus en plus large (jusqu'à se confondre avec l'expression spectacle vivant), si bien que certains grands metteurs en scène n'hésitent pas à dire que pour qu'il y ait théâtre, il suffit d'avoir un lieu, un temps, un acte et un public.[réf. souhaitée]&lt;span /&gt;Il s'agit de spectacles dans lesquels des comédiens/acteurs, mis dans les circonstances et les situations créées par un texte et la vision d'un metteur en scène/réalisateur, incarnent des personnages pour un regard extérieur (le public), dans un temps et un espace limités. Les dialogues écrits sont appelés pièces de théâtre, mais il peut y avoir également du théâtre sans texte écrit ou même sans aucune parole. Dans la création contemporaine, les frontières entre les différents arts de la scène (théâtre, mime, cirque, danse...) sont de plus en plus ténues, si bien que certains professionnels n'hésitent pas à remplacer le mot théâtre par les mots spectacle pluridisciplinaire ou spectacle vivant, mettant ainsi l'accent sur le métissage des disciplines.Il est apparu pour la première fois en Irlande.</skos:note>
+    <skos:note xml:lang="fr">Le théâtre, ou genre dramatique, est à la fois l'art de la représentation d'un drame, un genre littéraire particulier, et l'édifice dans lequel se déroulent les spectacles de théâtre.Jadis, le mot désignait également la scène ou le plateau, c'est-à-dire toute la partie cachée du public par le rideau.Au sens figuré, « théâtre » désigne un lieu où se déroule une action importante (par exemple, un théâtre d'opérations militaires).Aujourd'hui, à l'heure des arts dits pluridisciplinaires, la définition de l'art du théâtre est de plus en plus large (jusqu'à se confondre avec l'expression spectacle vivant), si bien que certains grands metteurs en scène n'hésitent pas à dire que pour qu'il y ait théâtre, il suffit d'avoir un lieu, un temps, un acte et un public.[réf. souhaitée]Il s'agit de spectacles dans lesquels des comédiens/acteurs, mis dans les circonstances et les situations créées par un texte et la vision d'un metteur en scène/réalisateur, incarnent des personnages pour un regard extérieur (le public), dans un temps et un espace limités. Les dialogues écrits sont appelés pièces de théâtre, mais il peut y avoir également du théâtre sans texte écrit ou même sans aucune parole. Dans la création contemporaine, les frontières entre les différents arts de la scène (théâtre, mime, cirque, danse...) sont de plus en plus ténues, si bien que certains professionnels n'hésitent pas à remplacer le mot théâtre par les mots spectacle pluridisciplinaire ou spectacle vivant, mettant ainsi l'accent sur le métissage des disciplines.Il est apparu pour la première fois en Irlande.</skos:note>
+    <skos:note xml:lang="hy">Թատրոնը (հուն.՝ θέατρον, թարգմ. տեսարանների վայր, տեսարան) արվեստի ճյուղ է, որտեղ արտահայտման հիմնական միջոցը դերասանն է, ով կիրառելով թատերական տարբեր հնարքներ, գործողությունների միջոցով հանդիսատեսին է հասցնում այն, ինչ կատարվում է բեմի վրա։ Որպես դերասան կարող է հանդես գալ ինչպես մարդը, այնպես էլ օրինակ տիկնիկը, կամ էլ ինչ-որ առարկա, որին ղեկավարում է մարդը։ Թատրոնը համարվում է ամենաազդեցիկ գործիքը, որով կարելի է ներգործել մարդու վրա, քանի որ հանդիսատեսը, տեսնելով այն, ինչ կատարվում է բեմի վրա, նույնացնում է իրեն այս կամ այն կերպարի հետ, որի արդյունքում էլ տեղի է ունենում ինքնամաքրում՝ կատարսիս։Թատրոնի հիմնական անձնակազմի մեջ մտնում են ռեժիսորը, դերասանները, դիմահարդարները, լուսավորողները, հսկիչները, բեմանկարիչները և այլն։</skos:note>
+    <skos:note xml:lang="mk">Театар е гранка на сценските уметности што се занимава со изведба на приказни пред публика комбинирајќи инструменти како говор, гест, музика, звук и спектакл. Во продолжение на стандардниот наративен дијалог, театарот завзима такви форми како опера, балет, пантомима, кабуки, класични индиски танци и кинеска опера.</skos:note>
+    <skos:note xml:lang="be">Тэатр (грэч.: θέατρον — «месца для відовішчаў», потым — «відовішча», ад грэч.: θεάομαι — гляджу, бачу) — род мастацтва, спецыфічным сродкам выражэння якога з'яўляецца сцэнічнае дзеянне, што ўзнікае ў працэсе гульні акцёра перад публікай.</skos:note>
+    <skos:note xml:lang="sl">Gledališče je področje igralskih umetnosti, ki se ukvarja z igranjem zgodb pred občinstvom s pomočjo govora, giba, glasbe, plesa, zvoka in z razkošno predstavo oziroma z enim ali več elementi drugih igralskih umetnosti. Poleg standardnega pogovornega sloga se lahko gledališče izvaja tudi v drugačnih oblikah, kot so opera, balet, mimika, kabuki, kitajska opera, lutkovno gledališče, glumaška igra, improvizacijsko gledališče, kabaret ali pantomima.</skos:note>
+    <skos:note xml:lang="sk">Divadlo alebo divadelné umenie je najstarší druh dramatického umenia, realizujúci sa v živej interakcii herca a diváka. Divadelné umenie je kolektívnej povahy, vysoko syntetické, časopriestorové, audio-vizuálne, pokiaľ je jeho základom dráma reprodukčno-interpretačné. Divadelné umenie je predmetom teatrológie. Je to špecifická ľudská činnosť odvodená od hry. Semantika tohto pojmu intergruje zrak, miesto a hru.</skos:note>
+    <skos:note xml:lang="is">Leiklist er sú listgrein sem felur í sér að „leika sögur“ eða merkingarleysur, herma eftir látbragði annarra persóna (hluta eða dýra) fyrir framan áhorfendur. Oftast er sagan merkingarbær og skrifuð fyrirfram. Handrit að slíkum gangi verks - með sviðslýsingum, texta persóna o.s.frv. - nefnist leikrit. Yfirleitt fer leiksýning fram í leikhúsi, og er oftast notast við ýmsar samsetningar tals, látbragðs, svipbrigða, tónlistar, dans og annarra hluta til að gera söguna ljóslifandi fyrir augum áhorfenda.Til viðbótar við hefðbundna leiklist, þar sem sagan er sögð í óbundnu máli og reynt er eftir fremsta megni að líkja eftir raunveruleika sögunnar, eru til ýmis stílfærð afbrigði leiklistar, svo sem ópera, ballett, og fleiri sýningarform.</skos:note>
+    <skos:note xml:lang="az">Teatr (yunanca: τό θέατρον théatron „tamaşa yeri"; və θεάομαι theaomai „tamaşa etmək sözündəndir") — incəsənətin bir növü olub, hiss, fikir və emosiyaları tamaşaçı və ya tamaşaçılar qrupuna bir və ya bir qrup aktyor tərəfindən ötürülməsini əks etdirir. Teatr tamaşası nümayiş olunan bina da teatr adlanır.</skos:note>
+    <skos:note xml:lang="uk">Теа́тр (від грец. θέατρον — місце видовища) — вид сценічного мистецтва, що відображає життя в сценічній дії, яку виконують актори перед глядачами, а також установа, що здійснює сценічні вистави певним колективом артистів і приміщення, будинок, у якому відбуваються вистави. Театр як мистецтво називають також й театральним мистецтвом, а наука, що вивчає теорію та практику театрального мистецтва називається театрознавство. Окрім театрів, ролі в яких люди виконують безпосередньо, існує ляльковий театр, де головні герої - іграшки, якими керують.Законодавство України визначає театр яка театральне мистецтво, як:</skos:note>
+    <skos:note xml:lang="eu">Antzerkia (greziera klasikoz "theatron", θέατρον, edo "ikusteko lekua") arte eszenikoa da non publikoaren gainean istorioak kontatzen diren antzezpen baten bidez, hau da, hitzez eta imintzioz egindako ikuskizunaren bidez, batzuetan musikaz eta dantzaz lagunduta edo txotxongilo bezalako osagaiekin. Antzezlanak arlo honetako egintzak dira eta zatika banatuta daude normalean, zati horietako bakoitzak ekitaldi, ekinaldi edo gertaldi izena hartzen duelarik.Azkenik, antzokiak dira arte mota hau eskaintzeko leku fisikoak, kalean ere emankizunak burutzen diren arren.</skos:note>
+    <skos:note xml:lang="da">Teater er 1) En kunstart2) Den bygning hvor dramatiske værker opføres3) Synonym for skuespil eller forstillelse i hverdagen ('det rene teater')Teater er en 2500 år gammel kunstart, der i sin vestlige udgave har sin oprindelse i oldtidens Grækenland, hvor skuespillere på en scene fremstiller begivenheder i dialog, kropssprog og handlinger foran et publikum. Den sceniske fortælling hedder drama, et ord der har sin rod i verbet 'at handle'.En forestilling kan også indeholde eller helt bestå af sang, dans, pantomime, tableauer, video- og filmindslag mm.Mange af teatrets dramatiske værker er litteratur, men et teaterstykker er ikke primært skrevet for at læses, men for at ses. Først med levende skuespillere, kostumer, scenografi, lyde, lys osv. kan dramatikerens hensigt anes.Teaterkunsten har som anden kunst været igennem en konstant udvikling de sidste 2.500 år. I dag betragtes teater som underholdning, og det er ikke kun for professionelle skuespillere, men også en hobby for hundredvis af amatørskuespillere. Teatrets funktion i det 21. århundrede er en frit tilgængelig legeplads end en flere tusinde år gammel kult.Der stilles i dag store krav til de statsstøttede teatres repertoire, der er grundlag for kunstens videre udvikling og inspirationskilde for landets amatørteatre og teaterforeninger. Der lægges vægt på, at dokumentation i form af manuskripter og notater er offentligt tilgængelige. Det og instruktions- og undervisningsbøger findes i Dramatisk Bibliotek på Det Kongelige Bibliotek.</skos:note>
+    <skos:note xml:lang="it">Il teatro è un insieme di differenti discipline, che si uniscono e concretizzano l'esecuzione di un evento spettacolare dal vivo.La parola deriva dal greco θέατρον (théatron, che significa "spettacolo"), dal verbo θεαομαι (théaomai, ossia "vedo"), comprende le arti tramite cui viene rappresentata, sotto forma di testo recitato o drammatizzazione scenica, una storia (un dramma, parola derivante dal verbo greco δραω drao = agisco). Una rappresentazione teatrale si svolge davanti ad un pubblico utilizzando una combinazione variabile di parola, gestualità, musica, danza, vocalità, suono e, potenzialmente, ogni altro elemento proveniente dalle altre arti performative. Non sempre è necessaria la presenza di un testo: il movimento del corpo in uno spazio con fini artistici ed illustrativi, eseguito di fronte ad uno spettatore, è definito di per sé teatro.Oltre al teatro di prosa in cui la parola (scritta o improvvisata) è l'elemento più importante, il teatro può avere forme diverse, come l'opera lirica, il teatro-danza, il kabuki, la danza katakali, l'opera cinese, il teatro dei burattini, la pantomima, che differiscono non solo per area di nascita, ma per il differente utilizzo sia delle componenti che costituiscono la rappresentazione, sia per i fini artistici che esse definiscono.La particolare arte del rappresentare una storia tramite un testo o azioni sceniche è la recitazione, o arte drammatica.In molte lingue come il francese (jouer), l'inglese (to play), il russo (играть - pron. igrat'), il tedesco (spielen), l'ungherese (játszik) il verbo "recitare" coincide col verbo "giocare". Il termine italiano, invece, pone l'accento sulla finzione, sulla ripetizione del gesto o della parola ("citare due volte").Come qualsiasi altra forma artistica e culturale anche il teatro si è evoluto dalle origini ad oggi, nelle diverse epoche e luoghi. La storia del teatro occidentale pone come origine di questa disciplina la rappresentazione teatrale nella cultura dell'antica Grecia: i precedenti esempi teatrali (Egitto, Etruria ed altri) ci aiutano a comprendere la nascita di questo genere, ma non vi sono sufficienti fonti per delinearne le caratteristiche.</skos:note>
+    <skos:note xml:lang="sr">Позориште или театар (ст. гр. θέατρον - театрон, од θεάομαι - посматрати) је сценска уметничка манифестација у којој се одвија комуникација између глумаца и публике. За разлику од уметности као што су сликарство, филм или скулптура, које поседују своју материјалну форму независно од времена и простора, позориште је уско везано за простор и време у којем се изводи одређени позоришни комад. Због тога се реч позориште идентификује како са простором или зградом у којој изводе представе (види: Архитектура позоришта), тако и са групом људи који чине позоришну трупу. Позоришна уметност је драмска уметност која се обично изводи по сценарију и у којој је акција детаљно планирана у циљу стварања кохерентног драмског доживљаја. Позорница на којој ће се изводити позоришни комад се унапријед детаљно припрема, како би сваки њен део био у служби импресије која се жели проузроковати код публике. Глума је основни елеменат у позоришном делу, а чине је гест, покрет и говор.</skos:note>
+    <skos:note xml:lang="sq">Teatri (greqisht: τό θέατρον, Theatron 'vendi për shikim' dhe θεάομαι theaomai „të shikosh“) është nocion që nënkupton rrëfimin e një ngjarjeje të skenuar, që e realizojnë artistët, aktorët, komunikimi i të cilëve bartet te publiku. Mirëpo, për shkak të kompleksitetit të tij, teatri vështirë mund të përthekohet me një definicion të vetëm: vetë nocioni teatër njëkohësisht nënkupton edhe artin teatror, edhe vendin ku realizohet ai, edhe aktin shoqëror të pranisë dhe të përcjelljes së shfaqjes.Fjala greke theatron (latinisht: theatrum) rrjedh nga folja “shikoj”, andaj para së gjithash tërheq vëmendjen në këtë aspekt.Definicioni i Aristotelit për teatrin në të sheh pikë së pari veprimin (gr.dromenon), prej nga rrjedh fjala dramë, mirëpo, siç e thotë edhe vetë etimologjia e kësaj fjale, këtu më shumë mendohet në veprimin dramatik, në thurrjen e tij, se sa në ngjarjet fizike në skenë.Teatri ose aktrimi Sipas definicioneve të kohëve më moderne mund të konstatohet se teatri është një art kompleks, që në vete ngërthen elemente të të gjitha llojeve të tjera të artit: letërsisë, muzikës, pikturës, skulpturës dhe arkitekturës, si dhe artin e aktrimit, që është veçori specifike e teatrit.</skos:note>
+    <skos:note xml:lang="ko">연극(演劇) 또는 극(劇)은 배우가 무대 장치 · 조명 · 음악 등의 도움을 받아, 연출자의 지도 아래 각본에 의해서 연기를 하여 관객에게 보이는 종합예술이다.연기의 내용은 액션(인물에 의해서 연기되는 사건)으로서 통일되며, 액션은 몇 개의 막(幕)으로 구분되고, 막은 다시 몇 개의 장(場)으로 세분되어 하나의 극을 형성하고 있다. 구성으로서는 발단 · 상승부 · 정점 · 하강부 · 종결(또는 파국)의 5부로 이루는 것이 일반적인데, 옛날에는 아리스토텔레스의 삼일치의 설이 취해져서 시간 · 장소 · 플롯의 통일이 필수조건으로 되어 있었다.극은 비극 · 희극으로 대별되고, 이와는 달리 비희극(悲喜劇) · 사극(史劇) · 시극(詩劇)으로 구분하기도 한다. 비극은 후에 표현형식은 변했으나 항상 영원적인 것, 즉 생사 · 자유 · 필연 · 죄 · 신 등을 테마로 하고 있다. 희극은 비극의 영원적 · 근원적인 것에 대해서 일시적 · 현세(現世)적인 것, 즉 인간의 성정(性情)이나 행위의 모순 · 약점 또는 사회의 병폐 등을 테마로 하고, 전체적으로 명랑 경쾌한 기분이 충만하고 있다. 희극 중 단순한 것은 보드빌(대중연극)이나 파르스(笑劇)라 불린다.</skos:note>
+    <skos:note xml:lang="cy">Y gelfyddyd o actio a pherfformio straeon o flaen cynulleidfa yw theatr, trwy ddefnyddio technegau megis lleferydd, ystumiau, cerddoriaeth, dawns, meim, ac ati. Gall y gair "theatr" hefyd gyfeirio at adeilad sy'n cynnal perfformiadau.</skos:note>
+    <skos:note xml:lang="ar">المسرح هو أبو الفنون وأولها منذ أيام الإغريق والرومان وقدرته على الموالفة بين عناصر فنية متعددة حيث كانت المسارح هي الوسيلة الوحيدة للتعبير الفني بعد حلبات المصارعين والسباقات.</skos:note>
+    <skos:note xml:lang="he">תיאטרון (מיוונית עתיקה: θέατρον - "מקום מושב הצופים", ברבים: תיאטראות) הוא ענף של אמנויות הבמה, שעניינו הצגת סיפורים (נרטיב) בפני קהל, בעזרת שילוב אמצעי תקשורת כדיבור, תנועה, שפת גוף, מוזיקה, קול, תאורה או מיצג חזותי - למעשה, כל אחד מהאמצעים המקובלים באמנויות הבמה משמש בתיאטרון, בהגדרתו הרחבה. הופעה על בימת-תיאטרון נקראת משחק.בנוסף לסגנון המוכר של הצגת עלילה באמצעות דו-שיח על הבמה, תיאטרון עשוי ללבוש גם צורות אחרות, כדוגמת אופרה, בלט, פנטומימה, מחזמר, תיאטרון בובות, קבוקי ואופרה סינית.מלבד השחקנים, בהפקה לוקחים חלק גם במאי תיאטרון (אשר אמון על הניהול האמנותי של כלל ההפקה), המפיק (אשר מנהל את הפן הטכני של ההפקה), מעצבי התפאורה, התלבושות והתאורה, ולעתים אף דרמטורג, וכן המחזאי או המעבד הטקסטואלי.ערך זה עוסק בעיקר בתיאטרון בהגדרתו המצומצמת, כלומר, הצגתם של מחזות עלילתיים כאוסף תמונות (סצנות) עוקבות של דו-שיח, רב-שיח או מונולוג, שהשחקנים מנהלים על הבמה.</skos:note>
+    <skos:note xml:lang="cs">Divadlo je výkonné čili múzické umění, při němž herci (případně zpěváci a tanečníci) na jevišti předvádějí divadelní hru. Diváci při tom obvykle sedí v hledišti kryté nebo otevřené divadelní budovy. Divadlem se zabývá divadelní věda čili teatrologie.</skos:note>
+    <skos:note xml:lang="gl">O teatro é un espectáculo baseado na representación da conduta do ser humano. Esta conduta representada, chamada actuación, é realizada por actores.Por extensión tamén se chama teatro ao edificio onde se realizan representacións teatrais e espectáculos afíns, así como ao repertorio (conxunto de creacións teatrais que se consideran propias dun autor: "o teatro de Vidal Bolaño"), época ("o teatro das Irmandades da Fala) ou país ("o teatro francés").O termo provén do grego theatron, nome que recibían as bancadas en forma de hemiciclo desde onde os espectadores contemplaban as representacións teatrais nos anfiteatros gregos. Theatron viría a ser, logo, o "lugar desde onde se mira". Posteriormente pasou a designar tamén ó espectáculo mesmo e ó lugar destinado a tales espectáculos.</skos:note>
+    <skos:note xml:lang="el">Το θέατρο είναι ο κλάδος της τέχνης που αναφέρεται στην απόδοση ιστοριών μπροστά σε κοινό, με τη χρήση κυρίως του λόγου, αλλά και της μουσικής και του χορού. Το θέατρο μπορεί να έχει διάφορες μορφές, όπως είναι ο μονόλογος, η όπερα, το μπαλέτο, η παντομίμα κ.ά. Το θέατρο δημιουργήθηκε για πρώτη φορά στην Αρχαία Αθήνα, σαν μια εξέλιξη του διθυράμβου. Οι πρώτες μορφές του θεάτρου σε όλη τη διάρκεια της ελληνικής αρχαιότητας ήταν η τραγωδία, η κωμωδία και το σατυρικό δράμα. Στο αρχαίο ελληνικό θέατρο πρωταγωνιστούσαν μονάχα άντρες και ακόμη και σε γυναικείους ρόλους ντύνονταν οι ίδιοι γυναίκες.Το 1962, από το Διεθνές Ινστιτούτο Θεάτρου, καθιερώθηκε η 27η Μαρτίου ως Παγκόσμια Ημέρα Θεάτρου.Υπαρχουν περιπου 220 θεατρα στην Ελλαδα.</skos:note>
+    <skos:note xml:lang="pl">Teatr – rodzaj sztuki widowiskowej, w której aktor lub grupa aktorów na żywo daje przedstawienie dla zgromadzonej publiczności. Terminem teatr określa się też sam spektakl teatralny lub też budynek, w którym jest grany.</skos:note>
+    <skos:note xml:lang="pt">Teatro, do grego θέατρον (théatron), é uma forma de arte em que um ator ou conjunto de atores, interpreta uma história ou atividades para o público em um determinado lugar. Com o auxílio de dramaturgos ou de situações improvisadas, de diretores e técnicos, o espetáculo tem como objetivo apresentar uma situação e despertar sentimentos no público. Também denomina-se teatro o local apropriado para esta forma de arte.</skos:note>
+    <skos:note xml:lang="en">Theatre or theater is a collaborative form of fine art that uses live performers to present the experience of a real or imagined event before a live audience in a specific place. The performers may communicate this experience to the audience through combinations of gesture, speech, song, music, and dance. Elements of design and stagecraft are used to enhance the physicality, presence and immediacy of the experience. The specific place of the performance is also named by the word "theatre" as derived from the Ancient Greek θέατρον (théatron, "a place for viewing"), itself from θεάομαι (theáomai, "to see", "to watch", "to observe").Modern Western theatre derives in large measure from ancient Greek drama, from which it borrows technical terminology, classification into genres, and many of its themes, stock characters, and plot elements. Theatre scholar Patrice Pavis defines theatricality, theatrical language, stage writing, and the specificity of theatre as synonymous expressions that differentiate theatre from the other performing arts, literature, and the arts in general.Theatre today, broadly defined, includes performances of plays and musicals, ballets, operas and various other forms.</skos:note>
+    <skos:note xml:lang="ru">Теа́тр (греч. θέατρον — основное значение — место для зрелищ, затем — зрелище, от θεάομαι — смотрю, вижу) — зрелищный вид искусства, представляющий собой синтез различных искусств — литературы, музыки, хореографии, вокала, изобразительного искусства и других и обладающий собственной спецификой: отражение действительности, конфликтов, характеров, а также их трактовка и оценка, утверждение тех или иных идей здесь происходит посредством драматического действия, главным носителем которого является актёрРодовое понятие «театр» включает в себя различные его виды: драматический театр, оперный, балетный, кукольный, театр пантомимы и др..Во все времена театр представлял собой искусство коллективное; в современном театре в создании спектакля, помимо актёров и режиссёра (дирижёра, балетмейстера), участвуют художник-сценограф, композитор, хореограф, а также бутафоры, костюмеры, гримёры, рабочие сцены, осветители.Развитие театра всегда было неотделимо от развития общества и состояния культуры в целом, — с особенностями общественного развития были связаны его расцвет или упадок, преобладание в театре тех или иных художественных тенденций и его роль в духовной жизни страны.</skos:note>
+    <skos:note xml:lang="et">Teater on mitmetähenduslik sõna.Teater (kreeka keelest theatron "vaatemängupaik") on sõna-, muusika-, tantsulavastusi esitav kunstiasutus, kus etendatakse näidendeid, oopereid, operette ja ballette.Teater on koht teatrietenduste andmiseks – teatrihoone, kultuurimaja, tänav (tanavateater).Teater on kunstiliik (lavakunst, teatrikunst).Teatrietendus sünnib näitekirjaniku, näitlejate, lavastaja ning kujundaja (teatrikunstniku) koostöös. Neil on rohkesti abilisi: valgustajad, helitehnikud, rätsepad, riieturid, jumestajad ehk grimeerijad ja lavatöölised.Näitekunsti sugemeid leidus juba loodusrahvaste tavades, näiteks enne jahile minekut korraldati maagilisi mänge, millega paluti jumalailt head saaki. Mänguõnn pidi tooma õnne ka tegelikku ellu.Aastatuhandete jooksul arenes sellistest kombetalitustest näitekunst. Eri rahvail on see isesugune. Teater kui meelelahutusasutus tekkis Vana-Kreekas. Etendused toimusid amfiteatris. On teada, et 534 e. m. a. korraldati esimene tragöödiate võistlus. Etendati ka komöödiaid. Kreeklasi jäljendasid roomlased: ka nemad hakkasid etendama näidendeid, sealhulgas palju kreeka omi. Roomas etendati areenil ka veriseid vaatemänge, trikke loomadega jms., millest on hiljem arenenud tsirkus.Keskajal paikset ja püsivat teatrit polnud, esinesid rändnäitlejad (miimid) ja žonglöörid. 10. sajandil hakkas katoliku kirik korraldama pühade ajal kirikus või kiriku ees väljakul piibliainelisi vaatemänge. 13. sajandil osales piiblit seletavais või usuimesid kujutavais müsteeriumides ja miraaklites arvukas tegelaskond. Neile hiigeletendustele, kus mängiti korraga mitmel sõõrjalt püstitatud laval, kogunes terve linn. Etendati ka moraliteesid – mängulisi lugusid pahede ja vooruste võitlusest. Kunstide üldine elavnemine renessansi ajal virgutas ka teatrit. Jõudsasti hakkasid edenema teatriehitus ja lavakujundus. Sellest ajast pärineb Euroopas tavapäraseks jäänud nn. karplava.Rämekoomiline laadateater (commedia dell'arte) mängis põhiliselt väljas; rändnäitlejad, kellest igaüks kehastas üht kindlat tüüpi, improviseerisid: mõtlesid teksti välja etenduse jooksul. Inglise teater puhkes õitsele William Shakespeare'i eluajal. Prantslast Molière'i peetakse tänini üheks säravaimaks komöödiate autoriks. Hispaania näitekirjanduse tipp on Lope de Vega ja Pedro Calderón de la Barca looming. Prantsusmaal kujunesid lõplikult klassitsismile omased aja, koha ja tegevuse ühtsuse reeglid (Pierre Corneille' ja Jean Racine'i loomingus). 18. sajandil valgustusaja suurimad näitekirjanikud olid Denis Diderot, Voltaire ja Gotthold Ephraim Lessing. Friedrich Schiller andis kaaluka panuse kodanliku draama arendusse, ta mõjutas ka romantikuid (Johann Wolfgang von Goethe). 19. sajandi alguses oligi valitsev romantiline suund (Victor Hugo, Alfred de Musset jt.). 19. sajandi lõpus seadis naturalism eesmärgiks argise tõetruuduse. Perekonnaelu vastuolude kirjeldamisega ning ühiskonnakriitilise realismiga tõusid esile Henrik Ibsen, August Strindberg ja Gerhart Hauptmann. Psühholoogilise realismi suurmeister teatris oli Anton Tšehhov. Maurice Maeterlinck oli sümbolismi meister. Isiksuse ja hulga konflikti käsitlesid pärast I maailmasõda ekspressionistid Georg Kaiser ja Ernst Toller.Poliitilise teatri lipukandja Bertolt Brecht arendas eepilise teatri teooria. Pärast II maailmasõda olid mõjukad eksistentsialism (Jean-Paul Sartre) ja absurditeater (Samuel Beckett ja Eugène Ionesco).</skos:note>
+    <skos:note xml:lang="es">El teatro (del griego θέατρον, theatrón o «lugar para contemplar») es la rama del arte escénico relacionada con la actuación, que representa historias frente a una audiencia usando una combinación de discurso, gestos, escenografía, música, sonido y espectáculo. Es también el género literario que comprende las obras concebidas para un escenario, ante un público. El Día del Teatro se celebra el 27 de marzo.En adición a la narrativa común, el estilo de diálogo, el teatro también toma otras formas como la ópera, el ballet, la ópera china y la pantomima.</skos:note>
+    <skos:note xml:lang="nl">Theater is een verzamelnaam voor kunstvormen waarbij acteurs levende voorstellingen maken voor een publiek. Wanneer met deze kunstvorm wordt opgetreden op een toneelvloer gaat het soms om een toneelvoorstelling. Voorbeelden zijn:</skos:note>
+    <skos:note xml:lang="ja">演劇（えんげき、英語：theater）とは、主として生身の俳優による演技を通し、何らかのストーリーやテーマなどを、同じ場にいる観客に対しリアルタイムに提示する表現活動を言う。</skos:note>
+    <skos:note xml:lang="yi">טעאַטער (פון אוראלט גריכיש: θέατρον טהעאַטראן) איז א קונסט ווו עס ווערט געשפילט פארשטעלונגען מיט לעבעדיקע אקטיארן. דער פלאץ וואו די פארשטעלונגען קומען פאר הייסט א טעאטער. געוויינלעך שפילט מען די פארשטעלונג אויף א בינע.איינער וואס שרייבט פארשטעלונגען צום טעאטער הייסט א דראמאטורג.</skos:note>
+    <skos:exactMatch rdf:resource="http://fy.dbpedia.org/resource/Teäter_(keunstfoarm)"/>
+    <skos:exactMatch rdf:resource="http://pl.dbpedia.org/resource/Teatr"/>
+    <skos:exactMatch rdf:resource="http://si.dbpedia.org/resource/නාට්‍ය_කලාව"/>
+    <skos:exactMatch rdf:resource="http://rdf.freebase.com/ns/m.03qsdpk"/>
+    <skos:exactMatch rdf:resource="http://fr.dbpedia.org/resource/Théâtre"/>
+    <skos:exactMatch rdf:resource="http://ia.dbpedia.org/resource/Theatro"/>
+    <skos:exactMatch rdf:resource="http://ba.dbpedia.org/resource/Театр"/>
+    <skos:exactMatch rdf:resource="http://ka.dbpedia.org/resource/თეატრი"/>
+    <skos:exactMatch rdf:resource="http://simple.dbpedia.org/resource/Theatre"/>
+    <skos:exactMatch rdf:resource="http://nds.dbpedia.org/resource/Theater"/>
+    <skos:exactMatch rdf:resource="http://sv.dbpedia.org/resource/Teater"/>
+    <skos:exactMatch rdf:resource="http://qu.dbpedia.org/resource/Aranwa"/>
+    <skos:exactMatch rdf:resource="http://ku.dbpedia.org/resource/Şano"/>
+    <skos:exactMatch rdf:resource="http://de.dbpedia.org/resource/Theater"/>
+    <skos:exactMatch rdf:resource="http://lb.dbpedia.org/resource/Theater"/>
+    <skos:exactMatch rdf:resource="http://ta.dbpedia.org/resource/அரங்கு"/>
+    <skos:exactMatch rdf:resource="http://ky.dbpedia.org/resource/Театр"/>
+    <skos:exactMatch rdf:resource="http://it.dbpedia.org/resource/Teatro"/>
+    <skos:exactMatch rdf:resource="http://pt.dbpedia.org/resource/Teatro"/>
+    <skos:exactMatch rdf:resource="http://hi.dbpedia.org/resource/रंगमंच"/>
+    <skos:exactMatch rdf:resource="http://uz.dbpedia.org/resource/Teatr"/>
+    <skos:exactMatch rdf:resource="http://ml.dbpedia.org/resource/രംഗകല"/>
+    <skos:exactMatch rdf:resource="http://ms.dbpedia.org/resource/Teater"/>
+    <skos:exactMatch rdf:resource="http://jv.dbpedia.org/resource/Téater"/>
+    <skos:exactMatch rdf:resource="http://be.dbpedia.org/resource/Тэатр"/>
+    <skos:exactMatch rdf:resource="http://ja.dbpedia.org/resource/演劇"/>
+    <skos:exactMatch rdf:resource="http://kk.dbpedia.org/resource/Театр"/>
+    <skos:exactMatch rdf:resource="http://ckb.dbpedia.org/resource/شانۆ"/>
+    <skos:exactMatch rdf:resource="http://hy.dbpedia.org/resource/Թատրոն"/>
+    <skos:exactMatch rdf:resource="http://sk.dbpedia.org/resource/Divadlo_(umenie)"/>
+    <skos:exactMatch rdf:resource="http://ru.dbpedia.org/resource/Театр"/>
+    <skos:exactMatch rdf:resource="http://tg.dbpedia.org/resource/Театр"/>
+    <skos:exactMatch rdf:resource="http://nn.dbpedia.org/resource/Teater"/>
+    <skos:exactMatch rdf:resource="http://la.dbpedia.org/resource/Ars_scaenica"/>
+    <skos:exactMatch rdf:resource="http://th.dbpedia.org/resource/ละคร"/>
+    <skos:exactMatch rdf:resource="http://tr.dbpedia.org/resource/Tiyatro"/>
+    <skos:exactMatch rdf:resource="http://eu.dbpedia.org/resource/Antzerki"/>
+    <skos:exactMatch rdf:resource="http://kn.dbpedia.org/resource/ರಂಗಮಂಟಪ"/>
+    <skos:exactMatch rdf:resource="http://su.dbpedia.org/resource/Téater"/>
+    <skos:exactMatch rdf:resource="http://et.dbpedia.org/resource/Teater"/>
+    <skos:exactMatch rdf:resource="http://bg.dbpedia.org/resource/Театър"/>
+    <skos:exactMatch rdf:resource="http://nap.dbpedia.org/resource/Tiatro"/>
+    <skos:exactMatch rdf:resource="http://sco.dbpedia.org/resource/Theatre"/>
+    <skos:exactMatch rdf:resource="http://wikidata.org/entity/Q11635"/>
+    <skos:exactMatch rdf:resource="http://io.dbpedia.org/resource/Teatro"/>
+    <skos:exactMatch rdf:resource="http://hu.dbpedia.org/resource/Színházművészet"/>
+    <skos:exactMatch rdf:resource="http://oc.dbpedia.org/resource/Teatre"/>
+    <skos:exactMatch rdf:resource="http://mk.dbpedia.org/resource/Драмска_уметност"/>
+    <skos:exactMatch rdf:resource="http://wikidata.dbpedia.org/resource/Q11635"/>
+    <skos:exactMatch rdf:resource="http://az.dbpedia.org/resource/Teatr"/>
+    <skos:exactMatch rdf:resource="http://sq.dbpedia.org/resource/Teatri"/>
+    <skos:exactMatch rdf:resource="http://ar.dbpedia.org/resource/مسرح"/>
+    <skos:exactMatch rdf:resource="http://es.dbpedia.org/resource/Teatro"/>
+    <skos:exactMatch rdf:resource="http://vec.dbpedia.org/resource/Teatro"/>
+    <skos:exactMatch rdf:resource="http://yi.dbpedia.org/resource/טעאטער"/>
+    <skos:exactMatch rdf:resource="http://ast.dbpedia.org/resource/Teatru"/>
+    <skos:exactMatch rdf:resource="http://is.dbpedia.org/resource/Leiklist"/>
+    <skos:exactMatch rdf:resource="http://war.dbpedia.org/resource/Tyatro"/>
+    <skos:exactMatch rdf:resource="http://ro.dbpedia.org/resource/Teatru"/>
+    <skos:exactMatch rdf:resource="http://no.dbpedia.org/resource/Teater"/>
+    <skos:exactMatch rdf:resource="http://ur.dbpedia.org/resource/جلوہ_گاہ"/>
+    <skos:exactMatch rdf:resource="http://lt.dbpedia.org/resource/Teatras"/>
+    <skos:exactMatch rdf:resource="http://sh.dbpedia.org/resource/Teatar"/>
+    <skos:exactMatch rdf:resource="http://fi.dbpedia.org/resource/Teatteri"/>
+    <skos:exactMatch rdf:resource="http://bs.dbpedia.org/resource/Pozorište"/>
+    <skos:exactMatch rdf:resource="http://el.dbpedia.org/resource/Θέατρο"/>
+    <skos:exactMatch rdf:resource="http://zh.dbpedia.org/resource/劇場_(藝術)"/>
+    <skos:exactMatch rdf:resource="http://arz.dbpedia.org/resource/مسرح"/>
+    <skos:exactMatch rdf:resource="http://yo.dbpedia.org/resource/Tíátà"/>
+    <skos:exactMatch rdf:resource="http://ko.dbpedia.org/resource/연극"/>
+    <skos:exactMatch rdf:resource="http://sl.dbpedia.org/resource/Gledališče"/>
+    <skos:exactMatch rdf:resource="http://lv.dbpedia.org/resource/Teātris"/>
+    <skos:exactMatch rdf:resource="http://wa.dbpedia.org/resource/Teyåte"/>
+    <skos:exactMatch rdf:resource="http://vi.dbpedia.org/resource/Sân_khấu"/>
+    <skos:exactMatch rdf:resource="http://scn.dbpedia.org/resource/Tiatru"/>
+    <skos:exactMatch rdf:resource="http://nl.dbpedia.org/resource/Theater_(kunstvorm)"/>
+    <skos:exactMatch rdf:resource="http://cv.dbpedia.org/resource/Театр"/>
+    <skos:exactMatch rdf:resource="http://fa.dbpedia.org/resource/تئاتر"/>
+    <skos:exactMatch rdf:resource="http://tt.dbpedia.org/resource/Театр"/>
+    <skos:exactMatch rdf:resource="http://gl.dbpedia.org/resource/Teatro"/>
+    <skos:exactMatch rdf:resource="http://am.dbpedia.org/resource/ቴያትር"/>
+    <skos:exactMatch rdf:resource="http://eo.dbpedia.org/resource/Teatro"/>
+    <skos:exactMatch rdf:resource="http://uk.dbpedia.org/resource/Театр"/>
+    <skos:exactMatch rdf:resource="http://an.dbpedia.org/resource/Teatro"/>
+    <skos:exactMatch rdf:resource="http://he.dbpedia.org/resource/תיאטרון"/>
+    <skos:exactMatch rdf:resource="http://pnb.dbpedia.org/resource/تھیٹر"/>
+    <skos:exactMatch rdf:resource="http://da.dbpedia.org/resource/Teater"/>
+    <skos:exactMatch rdf:resource="http://ca.dbpedia.org/resource/Teatre"/>
+    <skos:exactMatch rdf:resource="http://cs.dbpedia.org/resource/Divadlo"/>
+    <skos:exactMatch rdf:resource="http://pa.dbpedia.org/resource/ਥੀਏਟਰ"/>
+    <skos:exactMatch rdf:resource="http://ce.dbpedia.org/resource/Театр"/>
+    <skos:exactMatch rdf:resource="http://hr.dbpedia.org/resource/Kazalište"/>
+    <skos:exactMatch rdf:resource="http://tl.dbpedia.org/resource/Tanghalan"/>
+    <skos:exactMatch rdf:resource="http://cy.dbpedia.org/resource/Theatr"/>
+    <skos:exactMatch rdf:resource="http://id.dbpedia.org/resource/Teater"/>
+    <skos:exactMatch rdf:resource="http://br.dbpedia.org/resource/C'hoariva"/>
+    <skos:exactMatch rdf:resource="http://new.dbpedia.org/resource/दबू_प्याखं"/>
+    <skos:exactMatch rdf:resource="http://sr.dbpedia.org/resource/Позориште"/>
+    <skos:exactMatch rdf:resource="http://bn.dbpedia.org/resource/মঞ্চনাটক"/>
+    <skos:related rdf:resource="http://dbpedia.org/resource/Category:Performing_arts"/>
+    <skos:related rdf:resource="http://dbpedia.org/resource/Category:Theatre"/>
+    <skos:related rdf:resource="http://dbpedia.org/resource/Category:Stage_terminology"/>
+  </skos:Concept>
+  <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_2000092065341">
+    <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065341"/>
+    <edm:dataProvider>National Library of Spain</edm:dataProvider>
+    <edm:hasView rdf:resource="http://hemerotecadigital.bne.es/issue.vm?id=0003681380"/>
+    <edm:isShownAt rdf:resource="http://hemerotecadigital.bne.es/details.vm?q=id:0003681380"/>
+    <edm:object rdf:resource="http://hemerotecadigital.bne.es/images/items/0003681381/low.jpg"/>
+    <edm:provider xml:lang="en">The European Library</edm:provider>
+    <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </ore:Aggregation>
+  <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/9200302/BibliographicResource_2000092065341">
+    <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Bécquer, Gustavo Adolfo</dc:contributor>
+    <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Agencia de Teatros</dc:contributor>
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1870</dc:date>
+    <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Subtitulado como “periódico cómico-teatral con agencia de teatros” es el semanario cuya dirección ostentó el poeta Gustavo Adolfo Bécquer (1836-1870) pocos días antes de fallecer, y en cuyo primer número, de tres de diciembre, publicó como folletín su último trabajo, “Una tragedia y un ángel”, que no llegó a terminar, al caer enfermo siete días después y fallecer el 20 de ese mes. La noticia de su muerte la dará este periódico en su número cuatro. Era el órgano de la Agencia de Teatros, centro administrativo de obras dramáticas y literarias y de contratación de actores y artistas. Su cabecera está bellamente orlada con dibujos alusivos al arte de la representación que envuelve también todo el contenido de la primera página. Incluye artículos y noticias del movimiento artístico de España, sus provincias y del extranjero, incluida América. Asimismo, publica una galería de artistas, una especie de apuntes biográficos, acompañados de grabados (retratos y caricaturas), crónicas y revistas teatrales, tanto de provincias como del extranjero, y de los de Madrid, principalmente del Teatro Nacional de la Ópera, así como un folletín y anuncios al final de su última página. Publicó textos tanto en prosa como en verso. Dedicó especial interés a la música, especialmente a ópera y zarzuela, y publicó una serie de artículos sobre la música en diferentes países (Japón, Persia, China, Patagonia, etc.). Pudo ser fundado por Vicente Cuenca Lucherini, y colaboraron en sus páginas Manuel de Palacio y Antonio San Martín, entre otros. En números de cuatro páginas, editó hasta un total de 35 durante la temporada teatral de 1870-1871, y el 20 de julio de este año anuncia su suspensión y la mejora de su edición para la nueva temporada teatral, sin que volviera de nuevo a imprimirse. Durante su publicación había absorbido a la revista El teatro, en febrero de 1871.</dc:description>
+    <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://hemerotecadigital.bne.es/details.vm?q=id%3A0003681380</dc:identifier>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Madrid</dc:publisher>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">es</dc:language>
+    <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/">Teatro (Madrid. 1870)</dc:relation>
+    <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Biblioteca Nacional de España</dc:rights>
+    <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">2171-6773</dc:source>
+    <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Teatro</dc:subject>
+    <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Del 03/12/1870 al 29/07/1871. Del n. 1 al n. 35</dc:subject>
+    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">El Entreacto (Madrid. 1870)</dc:title>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://vocab.getty.edu/aat/300026656"/>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Newspaper Title</dc:type>
+    <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Serial</dc:type>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364471"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364419"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364496"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364441"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364423"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364427"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364486"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364440"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364439"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364414"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364447"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364438"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364492"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364473"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364487"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364497"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364475"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364469"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364499"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364410"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364505"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364411"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364483"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364493"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364478"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364462"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364491"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364502"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364465"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364416"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364412"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364430"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364428"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364470"/>
+    <dcterms:hasPart xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/BibliographicResource/3000059364498"/>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a0597"/>
+    <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" xml:lang="en">Europeana Newspapers</dcterms:isPartOf>
+    <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/">1870-12-03 - 1871-07-29</dcterms:issued>
+    <edm:europeanaProxy>false</edm:europeanaProxy>
+    <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065341"/>
+    <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/9200302/BibliographicResource_2000092065341"/>
+    <edm:type>TEXT</edm:type>
+  </ore:Proxy>
+  <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/9200302/BibliographicResource_2000092065341">
+    <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/resource/Gustavo_Adolfo_Bécquer"/>
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://semium.org/time/18xx_3_third"/>
+    <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://dbpedia.org/resource/Theatre"/>
+    <dcterms:issued xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://semium.org/time/18xx"/>
+    <edm:europeanaProxy>true</edm:europeanaProxy>
+    <edm:year>1870</edm:year>
+    <ore:proxyFor rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065341"/>
+    <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_2000092065341"/>
+    <edm:type>TEXT</edm:type>
+  </ore:Proxy>
+  <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/9200302/BibliographicResource_2000092065341">
+    <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/9200302/BibliographicResource_2000092065341"/>
+    <edm:collectionName>9200302_Ag_EU_TEL_a0597_Newspapers_Spain</edm:collectionName>
+    <edm:country>Spain</edm:country>
+    <edm:landingPage rdf:resource="http://europeana.eu/portal/record/9200302/BibliographicResource_2000092065341.html"/>
+    <edm:language>es</edm:language>
+    <edm:rights rdf:resource="https://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+  </edm:EuropeanaAggregation>
+</rdf:RDF>

@@ -1,0 +1,71 @@
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <edm:ProvidedCHO rdf:about="http://data.europeana.eu/item/92099/BibliographicResource_1000157170635"/>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b6000526n/f1.zoom">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b6000526n/texteBrut">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b6000526n.swf">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b6000526n">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <edm:WebResource rdf:about="http://gallica.bnf.fr/ark:/12148/btv1b6000526n.thumbnail.jpg">
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:WebResource>
+          <ore:Aggregation xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/aggregation/provider/92099/BibliographicResource_1000157170635">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170635"/>
+            <edm:dataProvider>National Library of France</edm:dataProvider>
+            <edm:hasView rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b6000526n/f1.zoom"/>
+            <edm:hasView rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b6000526n/texteBrut"/>
+            <edm:hasView rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b6000526n.swf"/>
+            <edm:isShownAt rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b6000526n"/>
+            <edm:object rdf:resource="http://gallica.bnf.fr/ark:/12148/btv1b6000526n.thumbnail.jpg"/>
+            <edm:provider xml:lang="en">The European Library</edm:provider>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </ore:Aggregation>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/provider/92099/BibliographicResource_1000157170635">
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">La Baume, G. de</dc:contributor>
+            <dc:contributor xmlns:dc="http://purl.org/dc/elements/1.1/">Image du monde</dc:contributor>
+            <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Gautier de Metz</dc:creator>
+            <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1301 - 1400</dc:date>
+            <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Début : « Cest livre de clergie que l'en apele l'ymage du monde, qui est translatez de latin en roumanz, contient LV chapistres... » Miniatures. — A la fin (fol. 131), la signature de « G. de La Baume. »</dc:description>
+            <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">http://gallica.bnf.fr/ark:/12148/btv1b6000526n</dc:identifier>
+            <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">fr</dc:language>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">Europeana Regia. Bibliothèque de Charles V et sa famille</dc:relation>
+            <dc:relation xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Europeana Regia. Library of Charles V and Family</dc:relation>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">domaine public</dc:rights>
+            <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">public domain</dc:rights>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/">Bibliothèque nationale de France, Département des manuscrits, Français 25344</dc:source>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.bnf.fr"/>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://gallica.bnf.fr"/>
+            <dc:source xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://www.europeanaregia.eu"/>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Gautier de Metz</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">La Baume, G. de</dc:subject>
+            <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Image du monde</dc:subject>
+            <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">« Romanz maistre Gossouin, qui est apeléz Ymage du monde, » par Gautier de Metz. [Paris, BnF, MSS Français 25344]</dc:title>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr">manuscrit</dc:type>
+            <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">manuscript</dc:type>
+            <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/" rdf:resource="http://data.theeuropeanlibrary.org/Collection/a1080"/>
+            <edm:europeanaProxy>false</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170635"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/provider/92099/BibliographicResource_1000157170635"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <ore:Proxy xmlns:ore="http://www.openarchives.org/ore/terms/" rdf:about="http://data.europeana.eu/proxy/europeana/92099/BibliographicResource_1000157170635">
+            <edm:europeanaProxy>true</edm:europeanaProxy>
+            <ore:proxyFor rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170635"/>
+            <ore:proxyIn rdf:resource="http://data.europeana.eu/aggregation/europeana/92099/BibliographicResource_1000157170635"/>
+            <edm:type>TEXT</edm:type>
+          </ore:Proxy>
+          <edm:EuropeanaAggregation rdf:about="http://data.europeana.eu/aggregation/europeana/92099/BibliographicResource_1000157170635">
+            <edm:aggregatedCHO rdf:resource="http://data.europeana.eu/item/92099/BibliographicResource_1000157170635"/>
+            <edm:collectionName>92099_Ag_EU_TEL_a1080_Europeana_Regia_France</edm:collectionName>
+            <edm:country>France</edm:country>
+            <edm:landingPage rdf:resource="http://europeana.eu/portal/record/92099/BibliographicResource_1000157170635.html"/>
+            <edm:language>fr</edm:language>
+            <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+          </edm:EuropeanaAggregation>
+        </rdf:RDF>
