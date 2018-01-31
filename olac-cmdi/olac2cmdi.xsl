@@ -329,14 +329,21 @@
         </type>
     </xsl:template>
 
-
-    <xsl:template match="//dc:type" priority="1" mode="cmd">
+    <xsl:template match="//dc:type[normalize-space(@xsi:type)!='']" priority="1" mode="cmd">
         <type>
             <xsl:apply-templates select="@xsi:type" mode="#current"/>
             <xsl:value-of select="."/>
         </type>
     </xsl:template>
 
+    <xsl:template match="//dc:type" priority="0" mode="cmd">
+        <xsl:if test="empty(../dc:type[normalize-space(@xsi:type)!=''])">
+            <type>
+                <xsl:value-of select="."/>
+            </type>
+        </xsl:if>
+    </xsl:template>
+    
     <xsl:template match="@xml:lang" mode="cmd">
         <xsl:attribute name="xml:lang">
             <xsl:value-of select="."/>
