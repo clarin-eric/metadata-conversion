@@ -49,6 +49,8 @@
     
     <xsl:output method="xml" indent="yes" />
     
+    <xsl:param name="preferredSkosPropertyLanguages">en</xsl:param>
+    
     <xsl:template match="/rdf:RDF">
         <cmd:CMD
             xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1475136016208 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1475136016208/xsd"
@@ -498,16 +500,51 @@
         * CONTEXTUAL CLASSES                                            *
         *****************************************************************
     -->
+    
+    <!-- Deal with multilingual skos properties: limit to preferred language content if available -->
+    <xsl:template match="*" mode="skosProperty">
+        <xsl:param name="name" />
+        
+        <xsl:choose>
+            <!-- is content available in preferred language(s)? --> 
+            <xsl:when test="skos:*[local-name() = $name and func:isAllowedElementLanguage(@xml:lang, $preferredSkosPropertyLanguages)]">
+                <xsl:apply-templates select="skos:*[local-name() = $name and func:isAllowedElementLanguage(@xml:lang, $preferredSkosPropertyLanguages)]" mode="element-prop" />
+            </xsl:when>
+            <xsl:otherwise>
+                <!-- is content available with specified language? --> 
+                <xsl:choose>
+                    <xsl:when test="skos:*[local-name() = $name and not(@xml:lang)]">
+                        <xsl:apply-templates select="skos:*[local-name() = $name and not(@xml:lang)]" mode="element-prop" />
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <!-- last resort: convert all matching elements --> 
+                        <xsl:apply-templates select="skos:*[local-name() = $name]" mode="element-prop" />
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
 
     <xsl:template match="skos:Concept" mode="contextual">
         <skos-Concept>
             <xsl:attribute name="rdf-about" select="@rdf:about" />
-            <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
-            <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
+            
+            <xsl:apply-templates select="." mode="skosProperty">
+                <xsl:with-param name="name">prefLabel</xsl:with-param>
+            </xsl:apply-templates>
+            
+            <xsl:apply-templates select="." mode="skosProperty">
+                <xsl:with-param name="name">altLabel</xsl:with-param>
+            </xsl:apply-templates>
+            
             <xsl:apply-templates select="skos:broader" mode="element-prop" />
             <xsl:apply-templates select="skos:narrower" mode="element-prop" />
             <xsl:apply-templates select="skos:related" mode="element-prop" />
-            <xsl:apply-templates select="skos:note" mode="element-prop" />
+            
+            <xsl:apply-templates select="." mode="skosProperty">
+                <xsl:with-param name="name">note</xsl:with-param>
+            </xsl:apply-templates>
+            
             <xsl:apply-templates select="skos:notation" mode="element-prop" />
             <xsl:apply-templates select="skos:inScheme" mode="element-prop" />
         </skos-Concept>
@@ -516,8 +553,15 @@
     <xsl:template match="edm:TimeSpan" mode="contextual">
         <edm-TimeSpan>
             <xsl:attribute name="rdf-about" select="@rdf:about" />
-            <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
-            <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
+            
+            <xsl:apply-templates select="." mode="skosProperty">
+                <xsl:with-param name="name">prefLabel</xsl:with-param>
+            </xsl:apply-templates>
+            
+            <xsl:apply-templates select="." mode="skosProperty">
+                <xsl:with-param name="name">altLabel</xsl:with-param>
+            </xsl:apply-templates>
+            
             <xsl:apply-templates select="dcterms:hasPart" mode="element-prop" />
             <xsl:apply-templates select="dcterms:isPartOf" mode="element-prop" />
             <xsl:apply-templates select="edm:begin" mode="element-prop" />
@@ -532,9 +576,19 @@
             <xsl:apply-templates select="wgs84_pos:lat" mode="element-prop" />
             <xsl:apply-templates select="wgs84_pos:long" mode="element-prop" />
             <xsl:apply-templates select="wgs84_pos:alt" mode="element-prop" />
-            <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
-            <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
-            <xsl:apply-templates select="skos:note" mode="element-prop" />
+            
+            <xsl:apply-templates select="." mode="skosProperty">
+                <xsl:with-param name="name">prefLabel</xsl:with-param>
+            </xsl:apply-templates>
+            
+            <xsl:apply-templates select="." mode="skosProperty">
+                <xsl:with-param name="name">altLabel</xsl:with-param>
+            </xsl:apply-templates>
+            
+            <xsl:apply-templates select="." mode="skosProperty">
+                <xsl:with-param name="name">note</xsl:with-param>
+            </xsl:apply-templates>
+            
             <xsl:apply-templates select="dcterms:hasPart" mode="element-prop" />
             <xsl:apply-templates select="dcterms:isPartOf" mode="element-prop" />
             <xsl:apply-templates select="owl:sameAs" mode="element-prop" />
@@ -544,9 +598,12 @@
     <xsl:template match="edm:Agent" mode="contextual">
         <edm-Agent>
             <xsl:attribute name="rdf-about" select="@rdf:about" />
-            <xsl:apply-templates select="skos:prefLabel" mode="element-prop" />
-            <xsl:apply-templates select="skos:altLabel" mode="element-prop" />
-            <xsl:apply-templates select="skos:note" mode="element-prop" />
+            <xsl:apply-templates select="." mode="skosProperty" />
+            
+            <xsl:apply-templates select="." mode="skosProperty">
+                <xsl:with-param name="name">note</xsl:with-param>
+            </xsl:apply-templates>
+            
             <xsl:apply-templates select="dcterms:hasPart" mode="element-prop" />
             <xsl:apply-templates select="dcterms:isPartOf" mode="element-prop" />
             <xsl:apply-templates select="edm:begin" mode="element-prop" />
@@ -669,6 +726,14 @@
             </xsl:otherwise>
         </xsl:choose>        
         
+    </xsl:function>
+    
+    <xsl:function name="func:isAllowedElementLanguage">
+        <xsl:param name="languageCode" />
+        <xsl:param name="acceptedLanguages" />
+        <xsl:choose>
+            <xsl:when test="contains(concat(' ',$acceptedLanguages,' '), concat(' ',$languageCode,' '))">true</xsl:when>
+        </xsl:choose>
     </xsl:function>
 
     <!--
