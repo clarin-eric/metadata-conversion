@@ -651,15 +651,24 @@
     <xsl:function name="func:sanitiseCollectionName">
         <xsl:param name="collectionName" />
         
-        <!-- TEL collections have collection names like 92004_Ag_EU_TEL_a0588_TEL_NKP_manuscriptorium" -->
-        <xsl:analyze-string select="$collectionName" regex="^([^-]+_)Ag_EU_TEL_(a[^_]+_)?(.*)$">
-            <xsl:matching-substring>
-                <xsl:value-of select="concat('The European Library: ', replace(regex-group(3), '_', ' '))"/>
-            </xsl:matching-substring>
-            <xsl:non-matching-substring>
-                <xsl:value-of select="$collectionName" />
-            </xsl:non-matching-substring>
-        </xsl:analyze-string>
+        <xsl:variable name="normalisedName" select="$collectionNames/func:entry[@key=$collectionName]"/>
+        <xsl:choose>
+            <xsl:when test="normalize-space($normalisedName) != ''">
+                <xsl:value-of select="$normalisedName" />
+            </xsl:when>
+            <xsl:otherwise>
+                <!-- TEL collections have collection names like 92004_Ag_EU_TEL_a0588_TEL_NKP_manuscriptorium" -->
+                <xsl:analyze-string select="$collectionName" regex="^([^-]+_)Ag_EU_TEL_(a[^_]+_)?(.*)$">
+                    <xsl:matching-substring>
+                        <xsl:value-of select="concat('The European Library: ', replace(regex-group(3), '_', ' '))"/>
+                    </xsl:matching-substring>
+                    <xsl:non-matching-substring>
+                        <xsl:value-of select="$collectionName" />
+                    </xsl:non-matching-substring>
+                </xsl:analyze-string>
+            </xsl:otherwise>
+        </xsl:choose>        
+        
     </xsl:function>
 
     <!--
@@ -695,5 +704,16 @@
     <xsl:template match="*|@*" mode="guessMimeTypeFromUri">
         <!-- no matching mimetype, produce no value -->
     </xsl:template>
+    
+    <!--
+        *****************************************************************
+        * COLLECTION NAMES MAP                                          *
+        *****************************************************************
+    -->
+    
+    <xsl:variable name="collectionNames">
+        <func:entry key="92068_Ag_Slovenia_ETravel">EuropeanaTravel: The Digital Library of Slovenia</func:entry>
+        <func:entry key="08804_Ag_EU_ETravel_DebBooks">EuropeanaTravel: University of Debrecen Electronic Archive</func:entry>
+    </xsl:variable>
 
 </xsl:stylesheet>
