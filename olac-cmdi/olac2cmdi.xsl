@@ -202,26 +202,40 @@
     </xsl:template>
 
     <xsl:template match="dc:language[@xsi:type = 'olac:language']" priority="3" mode="cmd">
-        <language>
-            <xsl:if test="@*:code">
-                <xsl:attribute name="olac-language">
-                    <!-- can be enabled when there is a 1-to-1 mapping in sil_to_iso6393.xml           -->
-                    <xsl:choose>
-                        <xsl:when test="contains(@*:code, 'x-sil-')">
-                            <xsl:apply-templates select="$lang-top" mode="#current">
-                                <xsl:with-param name="curr-label" select="."/>
-                            </xsl:apply-templates>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of select="@*:code"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:attribute>
-            </xsl:if>
-            <xsl:value-of select="."/>
-        </language>
+        <xsl:if test="empty(preceding::dc:language[@xsi:type = 'olac:language'][@*:code=current()/@*:code])">
+            <language>
+                <xsl:if test="@*:code">
+                    <xsl:attribute name="olac-language">
+                        <!-- can be enabled when there is a 1-to-1 mapping in sil_to_iso6393.xml           -->
+                        <xsl:choose>
+                            <xsl:when test="contains(@*:code, 'x-sil-')">
+                                <xsl:apply-templates select="$lang-top" mode="#current">
+                                    <xsl:with-param name="curr-label" select="."/>
+                                </xsl:apply-templates>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="@*:code"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:attribute>
+                </xsl:if>
+            </language>
+        </xsl:if>
     </xsl:template>
-
+ 
+    <xsl:template match="dc:language" priority="1" mode="cmd">
+        <xsl:choose>
+            <xsl:when test="matches(normalize-space(.),'^[a-z]{3}$')">
+                <language olac-language="{normalize-space(.)}"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <language>
+                    <xsl:value-of select="."/>
+                </language>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
     <xsl:template match="languages" mode="cmd">
         <xsl:param name="curr-label"/>
         <xsl:variable name="silcode">
@@ -247,24 +261,26 @@
 
 
     <xsl:template match="dc:subject[@xsi:type = 'olac:language']" priority="3" mode="cmd">
-        <subject>
-            <!-- can be enabled when there is a 1-to-1 mapping in sil_to_iso6393.xml           -->
-            <xsl:if test="@*:code">
-                <xsl:attribute name="olac-language">
-                    <xsl:choose>
-                        <xsl:when test="contains(@*:code, 'x-sil-')">
-                            <xsl:apply-templates select="$lang-top" mode="#current">
-                                <xsl:with-param name="curr-label" select="."/>
-                            </xsl:apply-templates>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of select="@*:code"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:attribute>
-            </xsl:if>
-            <xsl:value-of select="."/>
-        </subject>
+        <xsl:if test="empty(preceding::dc:subject[@xsi:type = 'olac:language'][@*:code=current()/@*:code])">
+            <subject>
+                <!-- can be enabled when there is a 1-to-1 mapping in sil_to_iso6393.xml           -->
+                <xsl:if test="@*:code">
+                    <xsl:attribute name="olac-language">
+                        <xsl:choose>
+                            <xsl:when test="contains(@*:code, 'x-sil-')">
+                                <xsl:apply-templates select="$lang-top" mode="#current">
+                                    <xsl:with-param name="curr-label" select="."/>
+                                </xsl:apply-templates>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="@*:code"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:attribute>
+                </xsl:if>
+                <xsl:value-of select="."/>
+            </subject>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="//dc:subject[@xsi:type = 'olac:linguistic-field']" priority="3" mode="cmd">
