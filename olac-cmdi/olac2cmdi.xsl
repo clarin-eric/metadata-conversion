@@ -246,14 +246,24 @@
 
 
     <xsl:template match="dc:identifier" mode="preprocess">
-        <xsl:if test="contains(., 'http://') or contains(., 'https://') or contains(., 'urn:nbn') or contains(., 'hdl:')">
+        <xsl:if test="contains(., 'http://') or contains(., 'https://') or contains(., 'urn:nbn') or contains(., 'hdl:') or contains(., 'doi:')">
             <ResourceProxy>
                 <xsl:attribute name="id">
                     <xsl:value-of select="generate-id()"/>
                 </xsl:attribute>
                 <ResourceType>Resource</ResourceType>
                 <ResourceRef>
-                    <xsl:value-of select="."/>
+                    <xsl:choose>
+                        <!--<xsl:when test="contains(., 'hdl:')">
+                            <xsl:value-of select="replace(.,'hdl:','https://hdl.handle.net/')"/>
+                        </xsl:when>-->
+                        <xsl:when test="contains(., 'doi:')">
+                            <xsl:value-of select="replace(.,'doi:','https://dx.doi.org/')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </ResourceRef>
             </ResourceProxy>
         </xsl:if>
