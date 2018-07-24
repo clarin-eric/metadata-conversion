@@ -71,10 +71,10 @@
         <xsl:variable name="selfLink">
             <xsl:choose>
                 <xsl:when test="edm:EuropeanaAggregation">
-                    <xsl:value-of select="replace(edm:EuropeanaAggregation/@rdf:about, '^.*://(data.europeana.eu/)?', 'europeana:')"/>
+                    <xsl:value-of select="func:selfLinkForRecord(edm:EuropeanaAggregation/@rdf:about)"/>
                 </xsl:when>
                 <xsl:when test="edm:ProvidedCHO">
-                    <xsl:value-of select="replace(edm:ProvidedCHO/@rdf:about, '^.*://(data.europeana.eu/)?', 'europeana:')"/>
+                    <xsl:value-of select="func:selfLinkForRecord(edm:ProvidedCHO/@rdf:about)"/>
                 </xsl:when>
             </xsl:choose>
         </xsl:variable>
@@ -703,6 +703,11 @@
     <xsl:function name="func:nodeResourceProxyId">
         <xsl:param name="node" />
         <xsl:value-of select="concat($node/local-name(), '_', generate-id($node))"/>
+    </xsl:function>
+    
+    <xsl:function name="func:selfLinkForRecord">
+        <xsl:param name="id" />
+        <xsl:value-of select="replace($id, '^.*://(data.europeana.eu/)?', 'europeana:')"/>
     </xsl:function>
     
     <xsl:function name="func:sanitiseCollectionName">
