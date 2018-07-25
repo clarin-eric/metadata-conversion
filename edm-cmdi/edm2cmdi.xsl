@@ -70,11 +70,11 @@
     <xsl:template match="rdf:RDF" mode="header">
         <xsl:variable name="selfLink">
             <xsl:choose>
-                <xsl:when test="edm:EuropeanaAggregation">
-                    <xsl:value-of select="func:selfLinkForRecord(edm:EuropeanaAggregation/@rdf:about)"/>
-                </xsl:when>
                 <xsl:when test="edm:ProvidedCHO">
                     <xsl:value-of select="func:selfLinkForRecord(edm:ProvidedCHO/@rdf:about)"/>
+                </xsl:when>
+                <xsl:when test="edm:EuropeanaAggregation">
+                    <xsl:value-of select="func:selfLinkForRecord(edm:EuropeanaAggregation/@rdf:about)"/>
                 </xsl:when>
             </xsl:choose>
         </xsl:variable>
@@ -144,6 +144,7 @@
                 <xsl:apply-templates select="//edm:isShownAt[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
                 <xsl:apply-templates select="//edm:hasView[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
                 <xsl:apply-templates select="//edm:preview[not(@rdf:resource = //edm:WebResource/@rdf:about)]" mode="resources"/>
+                <xsl:apply-templates select="(edm:ProvidedCHO|ore:Proxy)/dcterms:hasPart[normalize-space(@rdf:resource) != '']" mode="resources" />
             </cmd:ResourceProxyList>
             <cmd:JournalFileProxyList>
             </cmd:JournalFileProxyList>
@@ -197,6 +198,13 @@
                 <cmd:ResourceRef><xsl:value-of select="@rdf:resource"/></cmd:ResourceRef>
             </cmd:ResourceProxy>
         </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="dcterms:hasPart" mode="resources">
+        <cmd:ResourceProxy id="{func:nodeResourceProxyId(.)}">
+            <cmd:ResourceType>Metadata</cmd:ResourceType>
+            <cmd:ResourceRef><xsl:value-of select="func:selfLinkForRecord(@rdf:resource)"/></cmd:ResourceRef>
+        </cmd:ResourceProxy>
     </xsl:template>
     
     <!--
@@ -258,7 +266,7 @@
         <xsl:apply-templates select="dcterms:conformsTo" mode="element-prop" />
         <xsl:apply-templates select="dcterms:extent" mode="element-prop" />
         <xsl:apply-templates select="dcterms:hasFormat" mode="element-prop" />
-        <xsl:apply-templates select="dcterms:hasPart" mode="element-prop" />
+        <xsl:apply-templates select="dcterms:hasPart[normalize-space(@rdf:resource) = '']" mode="element-prop" /> <!-- those with resource ref are already transformed into 'Metadata' type resource proxies -->
         <xsl:apply-templates select="dcterms:hasVersion" mode="element-prop" />
         <xsl:apply-templates select="dcterms:isFormatOf" mode="element-prop" />
         <xsl:apply-templates select="dcterms:isPartOf" mode="element-prop" />
