@@ -445,18 +445,21 @@
     <xsl:template match="*" mode="element-prop">
         <xsl:param name="cmd-name" select="func:get-cmd-name(.)" />
         <xsl:param name="allow-xml-lang" select="true()" />
-        <xsl:element name="{$cmd-name}">
-            <xsl:if test="$allow-xml-lang">
-                <xsl:copy-of select="@xml:lang" />
-            </xsl:if>
-            <xsl:if test="normalize-space(@rdf:about)">
-                <xsl:attribute name="rdf-about" select="@rdf:about" />
-            </xsl:if>
-            <xsl:if test="normalize-space(@rdf:resource)">
-                <xsl:attribute name="rdf-resource" select="@rdf:resource" />
-            </xsl:if>
-            <xsl:value-of select="."/>
-        </xsl:element>
+        
+        <xsl:if test="func:isPreferredSibling(., $preferredLanguages)">
+            <xsl:element name="{$cmd-name}">
+                <xsl:if test="$allow-xml-lang">
+                    <xsl:copy-of select="@xml:lang" />
+                </xsl:if>
+                <xsl:if test="normalize-space(@rdf:about)">
+                    <xsl:attribute name="rdf-about" select="@rdf:about" />
+                </xsl:if>
+                <xsl:if test="normalize-space(@rdf:resource)">
+                    <xsl:attribute name="rdf-resource" select="@rdf:resource" />
+                </xsl:if>
+                <xsl:value-of select="."/>
+            </xsl:element>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="ebucore:fileByteSize" mode="element-prop">
@@ -475,8 +478,6 @@
     <xsl:template match="*" mode="component-prop">
         <xsl:param name="cmd-outer-name" select="func:get-cmd-name(.)" />
         <xsl:param name="cmd-inner-name" select="$cmd-outer-name" />
-        
-        <xsl:variable name="current" select="."/>
         
         <xsl:if test="func:isPreferredSibling(., $preferredLanguages)">
             <xsl:element name="{$cmd-outer-name}">
@@ -759,10 +760,10 @@
      -->
     <xsl:function name="func:isPreferredSibling">
         <xsl:param name="current" />
-        <xsl:param name="acceptedLanguages" />
-        <xsl:if test="normalize-space($current/@xml:lang) != '' and func:isAllowedElementLanguage($current/@xml:lang, $acceptedLanguages) = 'true'
-            or not(exists($current//parent::*/*[local-name() = $current/local-name() and namespace-uri() = $current/namespace-uri() and (normalize-space(@xml:lang) = '' or func:isAllowedElementLanguage(@xml:lang, $acceptedLanguages))]))
-            or (normalize-space($current/@xml:lang) = '' and not(exists($current//parent::*/*[local-name() = $current/local-name() and namespace-uri() = $current/namespace-uri() and func:isAllowedElementLanguage(@xml:lang, $acceptedLanguages)])))">true</xsl:if>
+        <xsl:param name="preferredLangs" />
+        <xsl:if test="normalize-space($current/@xml:lang) != '' and func:isAllowedElementLanguage($current/@xml:lang, $preferredLangs) = 'true'
+            or not(exists($current//parent::*/*[local-name() = $current/local-name() and namespace-uri() = $current/namespace-uri() and (normalize-space(@xml:lang) = '' or func:isAllowedElementLanguage(@xml:lang, $preferredLangs))]))
+            or (normalize-space($current/@xml:lang) = '' and not(exists($current//parent::*/*[local-name() = $current/local-name() and namespace-uri() = $current/namespace-uri() and func:isAllowedElementLanguage(@xml:lang, $preferredLangs)])))">true</xsl:if>
     </xsl:function>
 
     <!--
