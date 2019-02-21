@@ -475,32 +475,44 @@
     <xsl:template match="*" mode="component-prop">
         <xsl:param name="cmd-outer-name" select="func:get-cmd-name(.)" />
         <xsl:param name="cmd-inner-name" select="$cmd-outer-name" />
-        <xsl:element name="{$cmd-outer-name}">
-            <xsl:choose>
-                <xsl:when test="@rdf:resource">
-                    <!-- reference -->
-                    <xsl:variable name="refId" select="@rdf:resource"/>
-                    <xsl:variable name="refTarget" select="//*[@rdf:about = $refId]"/>
-                    <xsl:choose>
-                        <xsl:when test="$refTarget">
-                            <!-- Matching target in document -->
-                            <xsl:apply-templates select="$refTarget" mode="contextual" />
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <!-- No matching target in document -->
-                            <xsl:attribute name="rdf-resource" select="$refId" />
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:when>
-                <xsl:otherwise>
-                    <!-- literal -->
-                    <xsl:element name="{$cmd-inner-name}">
-                        <xsl:copy-of select="@xml:lang" />
-                        <xsl:value-of select="."/>
-                    </xsl:element>
-                </xsl:otherwise>
-            </xsl:choose>
-        </xsl:element>
+        
+        <xsl:variable name="current" select="."/>
+        
+        <xsl:variable name="local-name" select="local-name(.)"/>
+        <xsl:variable name="namespace-uri" select=" namespace-uri(.)"/>
+        
+        <xsl:if test="
+            normalize-space(@xml:lang) != '' and func:isAllowedElementLanguage(@xml:lang, $preferredLanguages) = 'true'
+            or not(exists(parent::*/*[local-name() = $current/local-name() and namespace-uri() = $current/namespace-uri() and (normalize-space(@xml:lang) = '' or func:isAllowedElementLanguage(@xml:lang, $preferredLanguages))]))
+            or (normalize-space(@xml:lang) = '' and not(exists(parent::*/*[local-name() = $current/local-name() and namespace-uri() = $current/namespace-uri() and func:isAllowedElementLanguage(@xml:lang, $preferredLanguages)])))
+            ">
+            <xsl:element name="{$cmd-outer-name}">
+                <xsl:choose>
+                    <xsl:when test="@rdf:resource">
+                        <!-- reference -->
+                        <xsl:variable name="refId" select="@rdf:resource"/>
+                        <xsl:variable name="refTarget" select="//*[@rdf:about = $refId]"/>
+                        <xsl:choose>
+                            <xsl:when test="$refTarget">
+                                <!-- Matching target in document -->
+                                <xsl:apply-templates select="$refTarget" mode="contextual" />
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <!-- No matching target in document -->
+                                <xsl:attribute name="rdf-resource" select="$refId" />
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <!-- literal -->
+                        <xsl:element name="{$cmd-inner-name}">
+                            <xsl:copy-of select="@xml:lang" />
+                            <xsl:value-of select="."/>
+                        </xsl:element>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:element>
+        </xsl:if>
     </xsl:template>
 
     <!--
