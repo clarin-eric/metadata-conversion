@@ -478,14 +478,7 @@
         
         <xsl:variable name="current" select="."/>
         
-        <xsl:variable name="local-name" select="local-name(.)"/>
-        <xsl:variable name="namespace-uri" select=" namespace-uri(.)"/>
-        
-        <xsl:if test="
-            normalize-space(@xml:lang) != '' and func:isAllowedElementLanguage(@xml:lang, $preferredLanguages) = 'true'
-            or not(exists(parent::*/*[local-name() = $current/local-name() and namespace-uri() = $current/namespace-uri() and (normalize-space(@xml:lang) = '' or func:isAllowedElementLanguage(@xml:lang, $preferredLanguages))]))
-            or (normalize-space(@xml:lang) = '' and not(exists(parent::*/*[local-name() = $current/local-name() and namespace-uri() = $current/namespace-uri() and func:isAllowedElementLanguage(@xml:lang, $preferredLanguages)])))
-            ">
+        <xsl:if test="func:isPreferredSibling(., $preferredLanguages)">
             <xsl:element name="{$cmd-outer-name}">
                 <xsl:choose>
                     <xsl:when test="@rdf:resource">
@@ -759,6 +752,17 @@
         <xsl:choose>
             <xsl:when test="contains(concat(' ',$acceptedLanguages,' '), concat(' ',$languageCode,' '))">true</xsl:when>
         </xsl:choose>
+    </xsl:function>
+    
+    <!--
+        Function to determine whether the current node is a preferred one among its siblings in terms of prefered languages   
+     -->
+    <xsl:function name="func:isPreferredSibling">
+        <xsl:param name="current" />
+        <xsl:param name="acceptedLanguages" />
+        <xsl:if test="normalize-space($current/@xml:lang) != '' and func:isAllowedElementLanguage($current/@xml:lang, $acceptedLanguages) = 'true'
+            or not(exists($current//parent::*/*[local-name() = $current/local-name() and namespace-uri() = $current/namespace-uri() and (normalize-space(@xml:lang) = '' or func:isAllowedElementLanguage(@xml:lang, $acceptedLanguages))]))
+            or (normalize-space($current/@xml:lang) = '' and not(exists($current//parent::*/*[local-name() = $current/local-name() and namespace-uri() = $current/namespace-uri() and func:isAllowedElementLanguage(@xml:lang, $acceptedLanguages)])))">true</xsl:if>
     </xsl:function>
 
     <!--
