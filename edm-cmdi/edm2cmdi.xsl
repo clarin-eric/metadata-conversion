@@ -49,7 +49,7 @@
     
     <xsl:output method="xml" indent="yes" />
     
-    <xsl:param name="preferredSkosPropertyLanguages">en</xsl:param>
+    <xsl:param name="preferredLanguages">en</xsl:param>
     
     <xsl:template match="/rdf:RDF">
         <cmd:CMD
@@ -515,8 +515,8 @@
         
         <xsl:choose>
             <!-- is content available in preferred language(s)? --> 
-            <xsl:when test="skos:*[local-name() = $name and func:isAllowedElementLanguage(@xml:lang, $preferredSkosPropertyLanguages)]">
-                <xsl:apply-templates select="skos:*[local-name() = $name and func:isAllowedElementLanguage(@xml:lang, $preferredSkosPropertyLanguages)]" mode="element-prop" />
+            <xsl:when test="skos:*[local-name() = $name and func:isAllowedElementLanguage(@xml:lang, $preferredLanguages)]">
+                <xsl:apply-templates select="skos:*[local-name() = $name and func:isAllowedElementLanguage(@xml:lang, $preferredLanguages)]" mode="element-prop" />
             </xsl:when>
             <xsl:otherwise>
                 <!-- is content available with specified language? --> 
