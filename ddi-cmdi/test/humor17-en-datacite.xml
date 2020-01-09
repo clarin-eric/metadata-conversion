@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://datacite.org/schema/kernel-4"
+ xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+<!-- 
+        <cmd:Header>
+            <cmd:MdCreator>{{//docDscr/citation/verStmt/verResp}} Sergeja Masten, ADP</cmd:MdCreator>
+            <cmd:MdCreationDate>{{//docDscr/citation/prodStmt/prodDate/@date}}2018-06</cmd:MdCreationDate>
+            <cmd:MdSelfLink>?????</cmd:MdSelfLink>
+            <cmd:MdProfile>clarin.eu:cr1:p_xxxxxxxx</cmd:MdProfile>
+            <cmd:MdCollectionDisplayName>????</cmd:MdCollectionDisplayName>
+        </cmd:Header>
+        <cmd:Resources>
+            <cmd:ResourceProxyList>
+               <cmd:ResourceProxy id="">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>{//stdyDscr/dataAccs/setAvail/accsPlac/@URI} http://www.adp.fdv.uni-lj.si/podatki/</cmd:ResourceRef>
+               </cmd:ResourceProxy>
+               <cmd:ResourceProxy id="F1">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>{//fileDscr/@URI} ../podatki/humor17/humor17_p196_sl_v2_r2.txt</cmd:ResourceRef>
+               </cmd:ResourceProxy>
+               <cmd:ResourceProxy id="F1">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>{//fileDscr/@URI} ../podatki/humor17/humor17_om1_sl_v1_r1.zip</cmd:ResourceRef>
+               </cmd:ResourceProxy>
+            </cmd:ResourceProxyList>
+        </cmd:Resources>
+-->
+
+    <identifier identifierType="codeBook">{//codeBook/@ID} HUMOR17</identifier>
+    <creators>
+        <creator>
+            <creatorName>{//stdyDscr/citation/rspStmt/AuthEntity}Mlačnik, Primož</creatorName>
+            <affiliation>{//stdyDscr/citation/rspStmt/AuthEntity/@affiliation}Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+        </creator>
+        <creator>
+            <creatorName>{//stdyDscr/citation/rspStmt/AuthEntity}Stanković, Peter</creatorName>
+            <affiliation>{//stdyDscr/citation/rspStmt/AuthEntity/@affiliation}Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+        </creator>
+    </creators>
+    <titles>
+        <title xml:lang="en-GB">{//stdyDscr/citation/titlStmt/titl}Political Jokes in Post-socialist Slovenia, 2017</title>
+        <title titleType="TranslatedTitle" xml:lang="sl-SI">{//stdyDscr/citation/titlStmt/parTitl}Politične šale v postsocialistični Sloveniji, 2017</title>
+    </titles>
+    <publisher>{//stdyDscr/citation/distStmt/distrbtr} Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
+    <publicationYear>2018</publicationYear> <!-- extracted from {//stdyDscr/distStmt/distDate/@date} -->
+    <resourceType resourceTypeGeneral="Dataset">{//stdyDscr/stdInfo/sumDscr/dataKind}Still image.</resourceType>
+    <subjects>
+        <subject>{//stdyDscr/stdInfo/subject/keyword} political jokes</subject>
+        <subject>{//stdyDscr/stdInfo/subject/keyword} Slovenia</subject>
+        <subject>{//stdyDscr/stdInfo/subject/keyword} post-socialism</subject>
+        <subject>{//stdyDscr/stdInfo/subject/keyword} politicians</subject>
+        <subject>{//stdyDscr/stdInfo/subject/keyword} Facebook</subject>
+        <subject schemeURI="http://sicris.izum.si/">{stdyDscr/stdInfo/subject/topClas} Sociology</subject>
+    </subjects>
+    <contributors>
+        <contributor contributorType="Other"> <!-- metadata producer -->
+            <contributorName>{//docDscr/citation/prodStmt/producer} Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
+        </contributor>
+        <contributor contributorType="Other"> <!-- metadata version responsible -->
+            <contributorName>{//docDscr/citation/verStmt/verResp} Sergeja Masten, ADP</contributorName>
+        </contributor>
+        <contributor contributorType="DataManager"> <!-- study producer (financially/administratively responsible) -->
+            <contributorName>{//stdyDscr/citation/prodStmt/producer} Fakulteta za družbene vede = Faculty of Social Sciences</contributorName>
+        </contributor>
+        <contributor contributorType="DataCurator"> <!-- depositor -->
+            <contributorName>{//stdyDscr/citation/distStmt/dpositr} Mlačnik, Primož</contributorName>
+        </contributor>
+        <contributor contributorType="RightsHolder"> <!-- depositor -->
+            <contributorName>{{//stdyDscr/dataAccs/useStmt/contact} Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
+            <affiliation>{//stdyDscr/dataAccs/useStmt/contact/@affiliation} ADP</affiliation>
+        </contributor>
+    </contributors>
+    <dates>
+        <date dateType="Submitted">{//stdyDscr/distStmt/depDate} 15. December 2017</date>
+        <date dateType="Issued">{//stdyDscr/distStmt/distDate} June 2018</date>
+        <date dateType="Collected">{//stdyDscr/stdInfo/sumDscr/colDate}19. January 2017</date>
+    </dates>
+    <relatedIdentifiers>
+        <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata">{DDI record URL} humor17-en.xml</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">{//stdyDscr/dataAccs/setAvail/accsPlac/@URI} http://www.adp.fdv.uni-lj.si/podatki/</relatedIdentifier> <!-- Landing page in CMDI -->
+<!--  <fileDscr URI="../podatki/humor17/humor17_p196_sl_v2_r2.txt" ID="F1" source="producer"></fileDscr> -->    
+        <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">{//fileDscr/@URI} ../podatki/humor17/humor17_p196_sl_v2_r2.txt</relatedIdentifier> <!-- Resource proxy in CMDI -->
+ <!--   <otherMat URI="../podatki/humor17/humor17_om1_sl_v1_r1.zip" level="study" type="OTHER" ID="HUMOR17_OM1_SL_V1_R1" source="producer">  </otherMat>-->
+        <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">{//otherMat/@URI} ../podatki/humor17/humor17_om1_sl_v1_r1.zip</relatedIdentifier> <!-- Resource proxy in CMDI -->
+    </relatedIdentifiers>
+    <sizes>
+        <size>{//fileDscr/dimensns/caseQnty} 200 cases</size>
+        <size>{//fileDscr/dimensns/varQnty} 11 variables</size>
+    </sizes>
+    <formats>
+        <format>{//fileDescr/fileTxt/fileType} *.txt - TEXT</format>
+    </formats>
+    <version>{//fileDscr/fileTxt/verStmt/version} June 2018</version> <!-- of the file -->
+    <rightsList>
+        <rights rightsIdentifier="{//stdyDscr/dataAccs/useStmt/restrctn/ID} cc0">{//stdyDscr/dataAccs/useStmt/restrctn} License Creative Commons 0</rights>
+        <rights>{//stdyDscr/dataAccs/useStmt/citreq} The users should acknowledge in any publication both the original depositors and the Archive.</rights>
+        <rights>{//stdyDscr/dataAccs/useStmt/deposReq} Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</rights>
+        <rights>{//stdyDscr/dataAccs/useStmt/conditions} In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</rights>
+    </rightsList>
+    <descriptions>
+        <description descriptionType="Abstract" xml:lang="en-GB">
+            {//stdyDscr/stdInfo/abstract}As in all Eastern European countries, political jokes were very popular in Slovenia during the socialist era. 
+            In the decades after the fall of socialism, however, political jokes seem to have lost their previous significance. 
+            In order to understand what has happened to the political jokes in Slovenia, an analysis of two hundred jokes shared on the five most popular Slovenian Facebook groups has been conducted. 
+            The collection consists of classical jokes and nonclassical jokes (anecdotes, witty wisdom, memes). Our goal was to identify the nature of the most frequent targets of jokes and which jokes are the most popular. 
+            The data file includes 194 posts, videos (n=6) were not deposited in the archive. Information regarding videos can be found in the codebook.
+        </description>
+        <description descriptionType="Methods">
+            <![CDATA[
+            {//stdyDscr/method}
+              <method source="producer">
+                <dataColl source="producer">
+                  <timeMeth xml:lang="en-GB" source="producer">Cross-section. One-time data collection.</timeMeth>
+                  <dataCollector abbr="FDV" xml:lang="sl-SI" source="producer">Fakulteta za družbene vede = Faculty of Social Sciences</dataCollector>
+                  <sampProc xml:lang="sl-SI" source="producer">Non-probability: Purposive</sampProc>
+                  <collMode xml:lang="sl-SI" source="producer">Content coding</collMode>
+                  <resInstru xml:lang="sl-SI" source="producer">Data collection guidelines: Secondary data collection guide</resInstru>
+                  <collSitu source="producer">In each Facebook group there were 40 posts chosen on 19th of January 2017, from the most recent to the oldest. Posts were collected with footages of the screen 
+                (screenshots) where each footage represents one unit - joke. 
+                Time between posts can vary from few days to even a year. The frequency of posts differs from group to group. The oldest joke was posted on 18th of March 2015. 
+               </collSitu>
+                  <weight xml:lang="en-GB" source="producer">No.</weight>
+                  <cleanOps xml:lang="en-GB" source="producer">The data were cleaned for out of range values before deposited.</cleanOps>
+                </dataColl>
+                <anlyInfo source="producer">
+                  <respRate xml:lang="en-GB" source="producer">/</respRate>
+                </anlyInfo>
+                <stdyClas xml:lang="en-GB" type="ADP" source="producer">6: methodological and substantive excellent studies without many implication for a wide range of problems</stdyClas>
+              </method>
+            ]]>
+        </description>
+    </descriptions>
+    <geoLocations>
+        <geoLocation>
+            <geoLocationPlace>{//stdyDscr/stdInfo/sumDscr/nation}Slovenia</geoLocationPlace>
+        </geoLocation>
+        <!-- note: as there are duplicate version, should be conflated -->
+<!--
+        <geoLocation>
+            <geoLocationPlace>{//stdyDscr/stdInfo/sumDscr/geogCover}Slovenia</geoLocationPlace>
+        </geoLocation>
+ -->
+    </geoLocations>
+    <fundingReferences>
+        <fundingReference>
+            <funderName>{/stdyDscr/prodStmt/fundAg}Javna agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</funderName>
+            <awardNumber>{/stdyDscr/prodStmt/grantNo}39176 (young researcher)</awardNumber>
+        </fundingReference>
+    </fundingReferences>
+</resource>

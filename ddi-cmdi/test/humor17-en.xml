@@ -1,0 +1,3530 @@
+<?xml version='1.0' encoding='utf-8'?>
+<codeBook version="1.2.2" ID="HUMOR17">
+  <docDscr source="producer">
+    <citation source="producer">
+      <titlStmt source="producer">
+        <titl xml:lang="en-GB" source="producer"> Political Jokes in Post-socialist Slovenia, 2017</titl>
+        <parTitl xml:lang="sl-SI" source="producer"> Politične šale v postsocialistični Sloveniji, 2017</parTitl>
+        <IDNo agency="ADP" source="producer">HUMOR17</IDNo>
+      </titlStmt>
+      <rspStmt source="producer">
+        <AuthEnty affiliation="Fakulteta za družbene vede = Faculty of Social Sciences" source="producer">Mlačnik, Primož</AuthEnty>
+        <AuthEnty affiliation="Fakulteta za družbene vede = Faculty of Social Sciences" source="producer">Stanković, Peter</AuthEnty>
+      </rspStmt>
+      <prodStmt source="producer">
+        <producer abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" source="producer">Arhiv družboslovnih podatkov = Social Science Data Archives</producer>
+        <copyright source="producer">ADP, 2018</copyright>
+        <prodDate date="2018-06" xml:lang="en-GB" source="producer">June 2018</prodDate>
+        <prodPlac xml:lang="en-GB" source="producer">Ljubljana, Slovenia</prodPlac>
+        <software version="17.1" source="producer">&lt;oXygen/&gt; - XML editor</software>
+        <fundAg abbr="ARRS" xml:lang="en-GB" source="producer">Javna agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</fundAg>
+        <grantNo agency="ARRS" source="producer">1000-15-0510 (IRC)</grantNo>
+      </prodStmt>
+      <distStmt source="producer">
+        <distrbtr abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" xml:lang="en-GB" source="producer">Arhiv družboslovnih podatkov = Social Science Data Archives</distrbtr>
+        <distDate date="2018-06" source="producer">June 2018</distDate>
+      </distStmt>
+      <verStmt source="producer">
+        <version type="version" xml:lang="en-GB" source="producer">ADP XML codebook file</version>
+        <verResp source="producer">Sergeja Masten, ADP</verResp>
+        <notes xml:lang="en-GB" source="producer">Primož Mlačnik, FDV and Sergeja Masten, ADP prepared survey description. Document description is authorized.</notes>
+      </verStmt>
+      <biblCit source="producer">Mlačnik, Primož and Peter Stanković.  Political Jokes in Post-socialist Slovenia, 2017 [codebook file]. Slovenia, Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives [production, distribution], 2018.</biblCit>
+      <holdings URI="http://www.adp.fdv.uni-lj.si/opisi/" source="producer">ADP DDI</holdings>
+    </citation>
+    <docStatus xml:lang="en-GB" source="producer">3 - Full Study description and XML DDI Codebook Data description generated from SPSS data file.</docStatus>
+  </docDscr>
+  <stdyDscr source="producer">
+    <citation source="producer">
+      <titlStmt source="producer">
+        <titl xml:lang="en-GB" source="producer"> Political Jokes in Post-socialist Slovenia, 2017</titl>
+        <parTitl xml:lang="sl-SI" source="producer"> Politične šale v postsocialistični Sloveniji, 2017</parTitl>
+        <IDNo agency="ADP" source="producer">HUMOR17</IDNo>
+      </titlStmt>
+      <rspStmt source="producer">
+        <AuthEnty affiliation="Fakulteta za družbene vede = Faculty of Social Sciences" source="producer">Mlačnik, Primož</AuthEnty>
+        <AuthEnty affiliation="Fakulteta za družbene vede = Faculty of Social Sciences" source="producer">Stanković, Peter</AuthEnty>
+      </rspStmt>
+      <prodStmt source="producer">
+        <producer abbr="FDV" xml:lang="sl-SI" source="producer">Fakulteta za družbene vede = Faculty of Social Sciences</producer>
+        <prodDate date="2017" source="producer">2017</prodDate>
+        <prodPlac source="producer">Ljubljana, Slovenia</prodPlac>
+        <software source="producer">Microsoft Office - Excel, Windows 10 (screen shot).</software>
+        <fundAg xml:lang="en-GB" source="producer">Javna agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</fundAg>
+        <grantNo agency="ARRS" source="producer">39176 (young researcher)</grantNo>
+      </prodStmt>
+      <distStmt source="producer">
+        <distrbtr abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" source="producer">Arhiv družboslovnih podatkov = Social Science Data Archives</distrbtr>
+        <depositr abbr="FDV" source="producer">Mlačnik, Primož</depositr>
+        <depDate date="2017-12-15" source="producer">15. December 2017</depDate>
+        <distDate date="2018-06" xml:lang="en-GB" source="producer">June 2018</distDate>
+      </distStmt>
+      <biblCit source="producer">Mlačnik, Primož and Peter Stanković.  Political Jokes in Post-socialist Slovenia, 2017 [data file]. Slovenia, Ljubljana: Primož Mlačnik [production], 2017. Slovenia, Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives [distribution], 2018.</biblCit>
+    </citation>
+    <stdyInfo source="producer">
+      <subject source="producer">
+        <keyword xml:lang="en-GB" source="producer">political jokes</keyword>
+        <keyword xml:lang="en-GB" source="producer">Slovenia</keyword>
+        <keyword xml:lang="en-GB" source="producer">post-socialism</keyword>
+        <keyword xml:lang="en-GB" source="producer">politicians</keyword>
+        <keyword xml:lang="en-GB" source="producer">Facebook</keyword>
+        <topcClas vocab="ADP_Sc" vocabURI="http://www.adp.fdv.uni-lj.si//dokumenti/ADP_Sc.xml" source="producer">POLITICS - mass political behaviour, attitudes/opinion</topcClas>
+        <topcClas vocab="CERIF" vocabURI="http://sicris.izum.si/" source="producer">Sociology</topcClas>
+      </subject>
+      <abstract source="archive" xml:lang="en-GB">As in all Eastern European countries, political jokes were very popular in Slovenia during the socialist era. 
+        In the decades after the fall of socialism, however, political jokes seem to have lost their previous significance. 
+        In order to understand what has happened to the political jokes in Slovenia, an analysis of two hundred jokes shared on the five most popular Slovenian Facebook groups has been conducted. 
+        The collection consists of classical jokes and nonclassical jokes (anecdotes, witty wisdom, memes). Our goal was to identify the nature of the most frequent targets of jokes and which jokes are the most popular. 
+        The data file includes 194 posts, videos (n=6) were not deposited in the archive. Information regarding videos can be found in the codebook.
+        </abstract>
+      <sumDscr source="producer">
+        <timePrd event="start" date="2015-03-18" xml:lang="sl-SI" source="producer">18. March 2015</timePrd>
+        <timePrd date="2017-01-19" event="end" xml:lang="sl-SI" source="producer">19. January 2017</timePrd>
+        <collDate date="2017-01-19" event="single" xml:lang="sl-SI" source="producer"></collDate>
+        <nation abbr="SI" xml:lang="en-GB" source="producer">Slovenia</nation>
+        <geogCover source="producer">Slovenia</geogCover>
+        <geogUnit xml:lang="en-GB" source="producer">Spatial units are not specified.</geogUnit>
+        <anlyUnit source="producer">Other. A joke.</anlyUnit>
+        <universe clusion="I" xml:lang="en-GB" source="producer">Facebook pages: Vici in šale, 6945 likes in 6905 followers; 
+          Jokes – Šale – Vici, 6942 likes in 6907 followers; Zajebancija in smeh, 6355 likes in 6405 followers; 
+          Šale stare in nove, 611 likes in 609 followers; Vici za crknet, 602 likes in 602 followers. The number of likes and followers refers to the date of collection - 19 January 2017.</universe>
+        <universe clusion="E" xml:lang="en-GB" source="producer">Non-slovenian Facebook groups, groups that were not very popular and groups that did not have 40 posts.</universe>
+        <dataKind xml:lang="en-GB" source="producer">Still image.</dataKind>
+      </sumDscr>
+    </stdyInfo>
+    <method source="producer">
+      <dataColl source="producer">
+        <timeMeth xml:lang="en-GB" source="producer">Cross-section. One-time data collection.</timeMeth>
+        <dataCollector abbr="FDV" xml:lang="sl-SI" source="producer">Fakulteta za družbene vede = Faculty of Social Sciences</dataCollector>
+        <sampProc xml:lang="sl-SI" source="producer">Non-probability: Purposive</sampProc>
+        <collMode xml:lang="sl-SI" source="producer">Content coding</collMode>
+        <resInstru xml:lang="sl-SI" source="producer">Data collection guidelines: Secondary data collection guide</resInstru>
+        <collSitu source="producer">In each Facebook group there were 40 posts chosen on 19th of January 2017, from the most recent to the oldest. Posts were collected with footages of the screen 
+      (screenshots) where each footage represents one unit - joke. 
+      Time between posts can vary from few days to even a year. The frequency of posts differs from group to group. The oldest joke was posted on 18th of March 2015. 
+     </collSitu>
+        <weight xml:lang="en-GB" source="producer">No.</weight>
+        <cleanOps xml:lang="en-GB" source="producer">The data were cleaned for out of range values before deposited.</cleanOps>
+      </dataColl>
+      <anlyInfo source="producer">
+        <respRate xml:lang="en-GB" source="producer">/</respRate>
+      </anlyInfo>
+      <stdyClas xml:lang="en-GB" type="ADP" source="producer">6: methodological and substantive excellent studies without many implication for a wide range of problems</stdyClas>
+    </method>
+    <dataAccs source="producer">
+      <setAvail source="producer">
+        <accsPlac URI="http://www.adp.fdv.uni-lj.si/podatki/ " source="producer">Arhiv družboslovnih podatkov = Social Science Data Archives</accsPlac>
+        <!-- <collSize>1 &dat;.</collSize>
+        <fileQnty>1</fileQnty> -->
+      </setAvail>
+      <useStmt source="producer">
+        <restrctn xml:lang="en-GB" ID="cc0" source="producer">License Creative Commons 0</restrctn>
+        <contact affiliation="ADP" email="arhiv.podatkov@fdv.uni-lj.si" source="producer">Arhiv družboslovnih podatkov = Social Science Data Archives</contact>
+        <citReq xml:lang="en-GB" source="producer">The users should acknowledge in any publication both the original depositors and the Archive.</citReq>
+        <deposReq xml:lang="en-GB" source="producer">Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</deposReq>
+        <conditions xml:lang="en-GB" source="producer">In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</conditions>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat source="producer">
+      <!-- &rM;
+      &rP; -->
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr URI="../podatki/humor17/humor17_p196_sl_v2_r2.txt" ID="F1" source="producer">
+    <fileTxt source="producer">
+      <fileName xml:lang="sl-SI" ID="HUMOR17_P196_SL_V2_R2" source="producer">HUMOR17 - Politične šale v postsocialistični Sloveniji, 2017 - kodirna knjiga [data file]</fileName>
+      <dimensns source="producer">
+        <caseQnty source="producer">200</caseQnty>
+        <varQnty source="producer">11</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI" source="producer">*.txt - TEXT</fileType>
+      <filePlac source="producer">Arhiv družboslovnih podatkov = Social Science Data Archives </filePlac>
+      <verStmt source="producer">
+        <version date="2018-06-13" source="producer">June 2018</version>
+        <verResp source="producer">Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes source="producer"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr source="producer">
+    <varGrp ID="VG1" type="subject" var="V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11" source="producer">
+      <labl source="producer">
+        Vse spremenljivke
+      </labl>
+    </varGrp>
+    <var ID="V1" name="ID" files="F1" dcml="0" intrvl="contin" source="producer" wgt="not-wgt">
+      <location width="12" source="producer"/>
+      <labl source="producer">
+        ID šale
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          ID šale
+        </qstnLit></qstn>
+      <valrng source="producer">
+        <range UNITS="REAL" min="1" max="200" source="producer"/>
+      </valrng>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        200
+      </sumStat>
+      <sumStat type="invd" source="producer" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <sumStat type="min" source="producer" wgtd="not-wgtd">
+        1
+      </sumStat>
+      <sumStat type="max" source="producer" wgtd="not-wgtd">
+        200
+      </sumStat>
+      <sumStat type="mean" source="producer" wgtd="not-wgtd">
+        100.5
+      </sumStat>
+      <sumStat type="stdev" source="producer" wgtd="not-wgtd">
+        57.879
+      </sumStat>
+      <varFormat type="numeric" schema="other" source="producer" category="other"/>
+    </var>
+    <var ID="V2" name="tip" files="F1" dcml="0" intrvl="discrete" source="producer" wgt="not-wgt">
+      <location width="8" source="producer"/>
+      <labl source="producer">
+        tip šale
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          Tip objave
+        </qstnLit></qstn>
+      <valrng source="producer">
+        <range UNITS="REAL" min="1" max="10" source="producer"/>
+      </valrng>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        200
+      </sumStat>
+      <sumStat type="invd" source="producer" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          1
+        </catValu>
+        <labl source="producer">
+          šala
+        </labl>
+        <catStat type="freq" source="producer">
+          115
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2
+        </catValu>
+        <labl source="producer">
+          duhovita modrost
+        </labl>
+        <catStat type="freq" source="producer">
+          7
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          3
+        </catValu>
+        <labl source="producer">
+          duhovita pripoved
+        </labl>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          4
+        </catValu>
+        <labl source="producer">
+          duhovičenje
+        </labl>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          5
+        </catValu>
+        <labl source="producer">
+          meme
+        </labl>
+        <catStat type="freq" source="producer">
+          49
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          6
+        </catValu>
+        <labl source="producer">
+          modrost
+        </labl>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          7
+        </catValu>
+        <labl source="producer">
+          opolzka poezija
+        </labl>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          8
+        </catValu>
+        <labl source="producer">
+          anekdota
+        </labl>
+        <catStat type="freq" source="producer">
+          14
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          9
+        </catValu>
+        <labl source="producer">
+          strip
+        </labl>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          10
+        </catValu>
+        <labl source="producer">
+          video
+        </labl>
+        <catStat type="freq" source="producer">
+          6
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" source="producer" category="other"/>
+    </var>
+    <var ID="V3" name="tarca" files="F1" intrvl="discrete" source="producer" wgt="not-wgt">
+      <location width="60" source="producer"/>
+      <labl source="producer">
+        tarča
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          Tarča v objavi
+        </qstnLit></qstn>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        196
+      </sumStat>
+      <sumStat type="invd" source="producer" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          /
+        </catValu>
+        <catStat type="freq" source="producer">
+          10
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Adam/Eva nelagodje v kult.
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Franca/moški/nebogljen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Hillary Clinton
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Janez
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Janezek
+        </catValu>
+        <catStat type="freq" source="producer">
+          6
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Janezek in oče/ opolzkost/šola
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Janezek/Janša
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Janezek/oče/mama
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Janezek/tašča
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Janezkov oče
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Joža/moški/novi Janezek?
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Mujo in Haso
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Otrok-nesreča z utežmi
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Oče/moški
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Shaq in mačka
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Trump in Clintova-parodična predelava[https://bit.ly/2sSddA3
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Trump/Melanija
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Uroš
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Vdova
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Verniki
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Z. Zahovič
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Zlatan Ibrahimovič
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          balkan
+        </catValu>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          bes. Igra
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          biokmet
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          bivša
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          blodninke
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          blondinec neumen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          blondinka
+        </catValu>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          blondinka neumna
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          blondinka/policist
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          blondinke
+        </catValu>
+        <catStat type="freq" source="producer">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          bosanec/slovenec
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          bosanska družina'
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          dedek
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          delavec
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          doktor/žena
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          dolenjec
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          dr. spremembe
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          država
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          duhovnik
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          fant/moški
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          fata
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          gasilec/moški
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          gastarbajter'
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          geji
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          golob/ljudje
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          gorenjci
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          igralec?
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          inženir/zdravnik
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ironija časa
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          islam/Janezek
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          janezek
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          kandidat za službo
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          kmet
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          kmečka ženska
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          kristijani
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mama
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          matematik
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          migrant/sestra
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mlada mama
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          moški
+        </catValu>
+        <catStat type="freq" source="producer">
+          8
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          moški (slovenci)
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          moški/mož
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mož
+        </catValu>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mož in žena
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mož/oče
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mož/žena
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mujo in fata
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mujo in haso
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mujo in haso/žena
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          najstnici
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nekoč/danes
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nematematiki
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neumni ljudje
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nokia mobilnik
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          obliž
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          odvetnik
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          odvetniki
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          otroci
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          otroci/ženske?
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          oče in mama
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          oče/punca
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          oče/sin
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          panker
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          penis/m
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pohlep
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          policist
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          policisti
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          policisti/geji?
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          politika
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          politiki
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          poslanci/odveč
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          preteklost
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pripovedovalec
+        </catValu>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          prostitutka in policist
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          radiator
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          sestra-ponesrečenec
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          sin
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          sin in oče?
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          slon/kamela
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          sošolec
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          stara ženska/oportunistična
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          starke/internet
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          starost
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          starši
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          tarča pripovedovalec
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          tarča sta pijana voznika
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          tašča
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          tri ženske
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          turist
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          virtualna resničnost  [https://bit.ly/2JMGgyS]
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          zakon
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          zaljubljenci
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          zaporniki
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          zdravnica
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          zdravnica/fant
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          čas (ironija)
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          črnogorci
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Štajerca - pijana
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          šala - tarča?
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          študent/moški
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          študent/profesor
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          študenti
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          švedinje/američani
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ž. spodnjice, se manjšajo,
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          žaba
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          žena
+        </catValu>
+        <catStat type="freq" source="producer">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          žena/in mož?/ nezvesta
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          žena/mama/mož/oče
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          žena/mož
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ženska
+        </catValu>
+        <catStat type="freq" source="producer">
+          6
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ženska nimfomanka
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ženska/pes – situacijski humor [https://bit.ly/2l7H9nO]
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ženska/zdravnik
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ženska?
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ženske
+        </catValu>
+        <catStat type="freq" source="producer">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ženske      muhaste
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          žirafa
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          župnik
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          župnik/FB
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other" source="producer" category="other"/>
+    </var>
+    <var ID="V4" name="konotac" files="F1" intrvl="discrete" source="producer" wgt="not-wgt">
+      <location width="45" source="producer"/>
+      <labl source="producer">
+        konotacija šale
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          Konotacija
+        </qstnLit></qstn>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        94
+      </sumStat>
+      <sumStat type="invd" source="producer" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          /
+        </catValu>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Chaplin
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ameriška šala
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ameriški vic
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ateist
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          bes. Igra
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          bolniščnica
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          cenen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          cigani
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          dolg vrat
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          gluha in slepa
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          grda, debela
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          grda,debela
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          greh
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          hladno
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          igra  besed
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          igralka
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          impotenca
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          impotenten
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          inferiorne
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          jeza
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          kanibalistična
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          lahke
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          leni
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mafija
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mama/luknje v siru
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          mož/žena
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neciviliziran
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nemočen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nenačelen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nepotešen/ gej
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nepošteni
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nerazumljivo
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nespametni
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nesposobni
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nesreča
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neumen
+        </catValu>
+        <catStat type="freq" source="producer">
+          6
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neumna
+        </catValu>
+        <catStat type="freq" source="producer">
+          4
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neumne
+        </catValu>
+        <catStat type="freq" source="producer">
+          4
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neumne, debele
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neumni
+        </catValu>
+        <catStat type="freq" source="producer">
+          4
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nezgoda
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nezvest
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          omejeni
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          opolzkost
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          oportunist
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          parkiranje
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pekel
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          petek
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pijana-neumna
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pijača
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pisoar
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pohlepen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pohota
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pohotna
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          policija /sodna med.
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          promiskui.
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          promiskuitetna
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          razuzdani
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          seks
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          seksualen/omejen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          sekundarni
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          skopuhi
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          slo. Ceste
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          star
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          strahopetec
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          terorist
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          utrujajoče
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          učiteljica
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          v dreku'
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          valec/spol. Nevzdržen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          vlačuge
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          vojaški rok
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          zaposleni
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          zapravljiva
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          čez praznike
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          živalski vrt
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other" source="producer" category="other"/>
+    </var>
+    <var ID="V5" name="razlog" files="F1" intrvl="discrete" source="producer" wgt="not-wgt">
+      <location width="23" source="producer"/>
+      <labl source="producer">
+        razlog v šali
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          Razlog v šali
+        </qstnLit></qstn>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        47
+      </sumStat>
+      <sumStat type="invd" source="producer" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          /
+        </catValu>
+        <catStat type="freq" source="producer">
+          4
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          H&amp;M
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          Post. Jama
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          alko
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          barbarski
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          bogaboječ
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          cerkev
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          glava
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          impotent.
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          je
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          karikatur.
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nadut
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          narcis
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nebogljeni
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neizkušen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neumen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neumna
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          neumni
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nezvesta
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          nosečnost
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          odveč
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          opolzkost
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pedofilija
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pes
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pijanec
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pohoten
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          pohotna
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          politika
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          poroka
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          predrzen
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          primit.
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          promiskui.
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          sadistično
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          sex
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          sex revol.
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          vlačuga
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          voajer
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          voda
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          vojna
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          črn humor
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          špageti
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          ženska
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="character" schema="other" source="producer" category="other"/>
+    </var>
+    <var ID="V6" name="vsecki" files="F1" dcml="0" intrvl="contin" source="producer" wgt="not-wgt">
+      <location width="12" source="producer"/>
+      <labl source="producer">
+        število všečkov šale
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          Število všečkov objave
+        </qstnLit></qstn>
+      <valrng source="producer">
+        <range UNITS="REAL" min="0" max="413" source="producer"/>
+      </valrng>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        195
+      </sumStat>
+      <sumStat type="invd" source="producer" wgtd="not-wgtd">
+        5
+      </sumStat>
+      <sumStat type="min" source="producer" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <sumStat type="max" source="producer" wgtd="not-wgtd">
+        413
+      </sumStat>
+      <sumStat type="mean" source="producer" wgtd="not-wgtd">
+        40.703
+      </sumStat>
+      <sumStat type="stdev" source="producer" wgtd="not-wgtd">
+        55.458
+      </sumStat>
+      <varFormat type="numeric" schema="other" source="producer" category="other"/>
+    </var>
+    <var ID="V7" name="delitve" files="F1" dcml="0" intrvl="contin" source="producer" wgt="not-wgt">
+      <location width="12" source="producer"/>
+      <labl source="producer">
+        število delitev šale
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          Število delitev objave
+        </qstnLit></qstn>
+      <valrng source="producer">
+        <range UNITS="REAL" min="0" max="401" source="producer"/>
+      </valrng>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        188
+      </sumStat>
+      <sumStat type="invd" source="producer" wgtd="not-wgtd">
+        12
+      </sumStat>
+      <sumStat type="min" source="producer" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <sumStat type="max" source="producer" wgtd="not-wgtd">
+        401
+      </sumStat>
+      <sumStat type="mean" source="producer" wgtd="not-wgtd">
+        7.846
+      </sumStat>
+      <sumStat type="stdev" source="producer" wgtd="not-wgtd">
+        30.726
+      </sumStat>
+      <varFormat type="numeric" schema="other" source="producer" category="other"/>
+    </var>
+    <var ID="V8" name="FB_sk" files="F1" dcml="0" intrvl="discrete" source="producer" wgt="not-wgt">
+      <location width="1" source="producer"/>
+      <labl source="producer">
+        ime Facebook skupine
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          Ime Facebook skupine
+        </qstnLit></qstn>
+      <valrng source="producer">
+        <range UNITS="REAL" min="1" max="5" source="producer"/>
+      </valrng>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        200
+      </sumStat>
+      <sumStat type="invd" source="producer" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          1
+        </catValu>
+        <labl source="producer">
+          Jokes šale vici
+        </labl>
+        <catStat type="freq" source="producer">
+          40
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2
+        </catValu>
+        <labl source="producer">
+          Šale, stare in nove
+        </labl>
+        <catStat type="freq" source="producer">
+          40
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          3
+        </catValu>
+        <labl source="producer">
+          Vici in šale
+        </labl>
+        <catStat type="freq" source="producer">
+          40
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          4
+        </catValu>
+        <labl source="producer">
+          Vici za crknet
+        </labl>
+        <catStat type="freq" source="producer">
+          40
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          5
+        </catValu>
+        <labl source="producer">
+          Zajebancija in smeh
+        </labl>
+        <catStat type="freq" source="producer">
+          40
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" source="producer" category="other"/>
+    </var>
+    <var ID="V9" name="vsecki_F" files="F1" dcml="0" intrvl="contin" source="producer" wgt="not-wgt">
+      <location width="12" source="producer"/>
+      <labl source="producer">
+        število všečkov Facebook strani
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          Število všečkov Facebook strani
+        </qstnLit></qstn>
+      <valrng source="producer">
+        <range UNITS="REAL" min="602" max="6945" source="producer"/>
+      </valrng>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        200
+      </sumStat>
+      <sumStat type="invd" source="producer" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <sumStat type="min" source="producer" wgtd="not-wgtd">
+        602
+      </sumStat>
+      <sumStat type="max" source="producer" wgtd="not-wgtd">
+        6945
+      </sumStat>
+      <sumStat type="mean" source="producer" wgtd="not-wgtd">
+        4291
+      </sumStat>
+      <sumStat type="stdev" source="producer" wgtd="not-wgtd">
+        3023.617
+      </sumStat>
+      <varFormat type="numeric" schema="other" source="producer" category="other"/>
+    </var>
+    <var ID="V10" name="sledilci" files="F1" dcml="0" intrvl="contin" source="producer" wgt="not-wgt">
+      <location width="12" source="producer"/>
+      <labl source="producer">
+        število sledilcev Facebook strani
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          Število sledilcev Facebook strani
+        </qstnLit></qstn>
+      <valrng source="producer">
+        <range UNITS="REAL" min="602" max="6907" source="producer"/>
+      </valrng>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        200
+      </sumStat>
+      <sumStat type="invd" source="producer" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <sumStat type="min" source="producer" wgtd="not-wgtd">
+        602
+      </sumStat>
+      <sumStat type="max" source="producer" wgtd="not-wgtd">
+        6907
+      </sumStat>
+      <sumStat type="mean" source="producer" wgtd="not-wgtd">
+        4285.6
+      </sumStat>
+      <sumStat type="stdev" source="producer" wgtd="not-wgtd">
+        3017.908
+      </sumStat>
+      <varFormat type="numeric" schema="other" source="producer" category="other"/>
+    </var>
+    <var ID="V11" name="datum" files="F1" intrvl="discrete" source="producer" wgt="not-wgt">
+      <location width="11" source="producer"/>
+      <labl source="producer">
+        datum objave šale na Facebook strani
+      </labl>
+      <qstn source="producer">
+        <qstnLit source="producer">
+          datum objave šale na Facebook strani
+        </qstnLit></qstn>
+      <sumStat type="vald" source="producer" wgtd="not-wgtd">
+        200
+      </sumStat>
+      <sumStat type="min" source="producer" wgtd="not-wgtd">
+        2015-03-18
+      </sumStat>
+      <sumStat type="max" source="producer" wgtd="not-wgtd">
+        2017-01-19
+      </sumStat>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-03-18
+        </catValu>
+        <catStat type="freq" source="producer">
+          7
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-03-19
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-03-23
+        </catValu>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-03-24
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-03-25
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-03-26
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-06-25
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-06-29
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-07-12
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-07-13
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-07-22
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-09-12
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-10-09
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-11-21
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2015-12-29
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-01-17
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-04-13
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-04-25
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-04-28
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-05-04
+        </catValu>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-05-19
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-05-23
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-05-25
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-05-31
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-06-01
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-06-03
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-06-04
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-06-23
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-07-01
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-07-04
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-07-24
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-08-01
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-08-02
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-08-17
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-08-26
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-08-29
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-08-31
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-07
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-11
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-13
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-16
+        </catValu>
+        <catStat type="freq" source="producer">
+          4
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-21
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-23
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-26
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-27
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-28
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-29
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-09-30
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-01
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-03
+        </catValu>
+        <catStat type="freq" source="producer">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-11
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-20
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-22
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-24
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-25
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-26
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-27
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-28
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-10-31
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-02
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-03
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-04
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-07
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-08
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-09
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-14
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-16
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-24
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-25
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-28
+        </catValu>
+        <catStat type="freq" source="producer">
+          4
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-29
+        </catValu>
+        <catStat type="freq" source="producer">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-11-30
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-01
+        </catValu>
+        <catStat type="freq" source="producer">
+          8
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-05
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-06
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-07
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-08
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-09
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-11
+        </catValu>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-12
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-13
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-14
+        </catValu>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-15
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-16
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-19
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-20
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-21
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-22
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-23
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-24
+        </catValu>
+        <catStat type="freq" source="producer">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-25
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-28
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2016-12-31
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-04
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-10
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-11
+        </catValu>
+        <catStat type="freq" source="producer">
+          9
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-12
+        </catValu>
+        <catStat type="freq" source="producer">
+          7
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-13
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-14
+        </catValu>
+        <catStat type="freq" source="producer">
+          4
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-15
+        </catValu>
+        <catStat type="freq" source="producer">
+          8
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-16
+        </catValu>
+        <catStat type="freq" source="producer">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-17
+        </catValu>
+        <catStat type="freq" source="producer">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-18
+        </catValu>
+        <catStat type="freq" source="producer">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N" source="producer">
+        <catValu source="producer">
+          2017-01-19
+        </catValu>
+        <catStat type="freq" source="producer">
+          8
+        </catStat>
+      </catgry>
+      <varFormat type="character" formatname="Nesstar.date" schema="other" category="date" source="producer"/>
+    </var>
+  </dataDscr>
+  <otherMat URI="../podatki/humor17/humor17_om1_sl_v1_r1.zip" level="study" type="OTHER" ID="HUMOR17_OM1_SL_V1_R1" source="producer">
+    <citation source="producer">
+      <titlStmt source="producer">
+        <titl source="producer">HUMOR17 - Politične šale v postsocialistični Sloveniji, 2017 - slike 194 objav na Facebooku [data file]</titl>
+        <IDNo agency="ADP" source="producer">HUMOR17_OM1_SL_V1_R1</IDNo>
+      </titlStmt>
+      <rspStmt source="producer">
+        <AuthEnty source="producer">Mlačnik, Primož</AuthEnty>
+      </rspStmt>
+      <prodStmt source="producer">
+        <producer source="producer">Mlačnik, Primož</producer>
+        <prodDate source="producer">2017</prodDate>
+        <prodPlac source="producer">Ljubljana</prodPlac>
+        <software source="producer">OTHER</software>
+      </prodStmt>
+      <holdings URI="../podatki/humor17/humor17_om1_sl_v1_r1.zip" source="producer">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+    </citation>
+  </otherMat>
+</codeBook>
