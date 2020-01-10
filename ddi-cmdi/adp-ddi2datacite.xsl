@@ -8,7 +8,13 @@
     exclude-result-prefixes="xs"
     xpath-default-namespace=""
     version="2.0">
-    
+
+    <!--
+        DDI 1.2.2 to DataCite Kernel 4.3 conversion stylesheet
+        Made for ADP use cases (Arhiv družboslovnih podatkov / Social Science Data Archives, Ljubljana, SI)
+        Author: Twan Goosen (CLARIN ERIC) <twan@clarin.eu>
+    -->
+
     <xsl:output indent="yes"></xsl:output>
     
     <xsl:template match="/codeBook">
