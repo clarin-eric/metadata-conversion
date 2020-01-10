@@ -27,16 +27,16 @@
     <identifier identifierType="codeBook">{/codeBook/@ID} DOP14</identifier>
     <creators>
         <creator>
-            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEntity}Slaček Brlek, Sašo</creatorName>
-            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEntity/@affiliation}Center za raziskovanje družbenega komuniciranja = Social Communication Research Centre, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty}Slaček Brlek, Sašo</creatorName>
+            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty/@affiliation}Center za raziskovanje družbenega komuniciranja = Social Communication Research Centre, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
         </creator>
         <creator>
-            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEntity}Vobič, Igor</creatorName>
-            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEntity/@affiliation}Center za raziskovanje družbenega komuniciranja = Social Communication Research Centre, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty}Vobič, Igor</creatorName>
+            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty/@affiliation}Center za raziskovanje družbenega komuniciranja = Social Communication Research Centre, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
         </creator>
         <creator>
-            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEntity}Amon Prodnik, Jernej</creatorName>
-            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEntity/@affiliation}Center za raziskovanje družbenega komuniciranja = Social Communication Research Centre, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty}Amon Prodnik, Jernej</creatorName>
+            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty/@affiliation}Center za raziskovanje družbenega komuniciranja = Social Communication Research Centre, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
         </creator>
     </creators>
     <titles>
@@ -45,7 +45,7 @@
     </titles>
     <publisher>{/codeBook/stdyDscr/citation/distStmt/distrbtr} Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
     <publicationYear>2017</publicationYear> <!-- extracted from {/codeBook/stdyDscr/distStmt/distDate/@date} -->
-    <resourceType resourceTypeGeneral="Dataset">{/codeBook/stdyDscr/stdInfo/sumDscr/dataKind}Text.</resourceType>
+    <resourceType resourceTypeGeneral="Dataset">{/codeBook/stdyDscr/stdyInfo/sumDscr/dataKind}Text.</resourceType>
     <subjects>
         <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} newswork</subject>
         <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} newspaper delivery</subject>
@@ -102,7 +102,7 @@
         <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">{/codeBook/otherMat/@URI ../podatki/dop14/dop14_vp5_sl_v1_r1.pdf</relatedIdentifier> <!-- Resource proxy in CMDI -->
         <relatedIdentifier relatedIdentifierType="DOI" relationType="References">{/codeBook/stdyDscr/othrStdyMat/relPubl/citation/titlStmt/IDNo} 10.22572/mi.23.2.5</relatedIdentifier>
         <relatedIdentifier relatedIdentifierType="URL" relationType="References">{/codeBook/stdyDscr/othrStdyMat/relPubl/citation/titlStmt/holdings@URI} https://www.dnevnik.si/1042646186/slovenija/za-raznasalce-se-isce-resitev</relatedIdentifier>
-        <relatedIdentifier relatedIdentifierType="DOI" relationType="References">{/codeBook/stdyDscr/othrStdyMat/relPubl/citation/titlStmt/holdings@URI} ../podatki/dop14/dop14_rp3_sl_v1_r1.pdf</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="URL" relationType="References">{/codeBook/stdyDscr/othrStdyMat/relPubl/citation/titlStmt/holdings@URI} ../podatki/dop14/dop14_rp3_sl_v1_r1.pdf</relatedIdentifier>
     </relatedIdentifiers>
     <sizes>
         <size>{/codeBook/fileDscr/dimensns/caseQnty} 13 cases</size>

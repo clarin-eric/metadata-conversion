@@ -31,12 +31,12 @@
     <identifier identifierType="codeBook">{/codeBook/@ID} HUMOR17</identifier>
     <creators>
         <creator>
-            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEntity}Mlačnik, Primož</creatorName>
-            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEntity/@affiliation}Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty}Mlačnik, Primož</creatorName>
+            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty/@affiliation}Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
         </creator>
         <creator>
-            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEntity}Stanković, Peter</creatorName>
-            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEntity/@affiliation}Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty}Stanković, Peter</creatorName>
+            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty/@affiliation}Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
         </creator>
     </creators>
     <titles>
@@ -45,14 +45,14 @@
     </titles>
     <publisher>{/codeBook/stdyDscr/citation/distStmt/distrbtr} Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
     <publicationYear>2018</publicationYear> <!-- extracted from {/codeBook/stdyDscr/distStmt/distDate/@date} -->
-    <resourceType resourceTypeGeneral="Dataset">{/codeBook/stdyDscr/stdInfo/sumDscr/dataKind}Still image.</resourceType>
+    <resourceType resourceTypeGeneral="Dataset">{/codeBook/stdyDscr/stdyInfo/sumDscr/dataKind}Still image.</resourceType>
     <subjects>
         <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} political jokes</subject>
         <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} Slovenia</subject>
         <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} post-socialism</subject>
         <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} politicians</subject>
         <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} Facebook</subject>
-        <subject schemeURI="http://sicris.izum.si/">{stdyDscr/stdInfo/subject/topClas} Sociology</subject>
+        <subject schemeURI="http://sicris.izum.si/">{/codeBook/stdyDscr/stdInfo/subject/topClas} Sociology</subject>
     </subjects>
     <contributors>
         <contributor contributorType="Other"> <!-- metadata producer -->
@@ -68,7 +68,7 @@
             <contributorName>{/codeBook/stdyDscr/citation/distStmt/dpositr} Mlačnik, Primož</contributorName>
         </contributor>
         <contributor contributorType="RightsHolder"> <!-- depositor -->
-            <contributorName>{{/codeBook/stdyDscr/dataAccs/useStmt/contact} Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
+            <contributorName>{/codeBook/stdyDscr/dataAccs/useStmt/contact} Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
             <affiliation>{/codeBook/stdyDscr/dataAccs/useStmt/contact/@affiliation} ADP</affiliation>
         </contributor>
     </contributors>
