@@ -43,7 +43,7 @@
         <xsl:apply-templates select="stdyDscr/citation/distStmt/distrbtr" />
 
         <!-- <publicationYear/> -->
-        <xsl:apply-templates select="stdyDscr/citation/distStmt/distDate" />
+        <xsl:apply-templates select="stdyDscr/citation/distStmt/distDate" mode="publication-year" />
         
         <!-- <resourceType/> -->
         <xsl:apply-templates select="stdyDscr/stdyInfo/sumDscr/dataKind" />
@@ -182,7 +182,7 @@
         <publisher><xsl:value-of select="."/></publisher>
     </xsl:template>
     
-    <xsl:template match="stdyDscr/citation/distStmt/distDate">
+    <xsl:template match="stdyDscr/citation/distStmt/distDate" mode="publication-year">
         <!-- value for <publicationYear> -->
         <xsl:choose>
             <xsl:when test="@date and matches(normalize-space(@date),'^\d{4}(-.+)*$')">
