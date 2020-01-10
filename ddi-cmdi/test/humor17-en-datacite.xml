@@ -4,8 +4,8 @@
  xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
 <!-- 
         <cmd:Header>
-            <cmd:MdCreator>{{/codeBook/docDscr/citation/verStmt/verResp}} Sergeja Masten, ADP</cmd:MdCreator>
-            <cmd:MdCreationDate>{{/codeBook/docDscr/citation/prodStmt/prodDate/@date}}2018-06</cmd:MdCreationDate>
+            <cmd:MdCreator>Sergeja Masten, ADP</cmd:MdCreator>
+            <cmd:MdCreationDate>2018-06</cmd:MdCreationDate>
             <cmd:MdSelfLink>?????</cmd:MdSelfLink>
             <cmd:MdProfile>clarin.eu:cr1:p_xxxxxxxx</cmd:MdProfile>
             <cmd:MdCollectionDisplayName>????</cmd:MdCollectionDisplayName>
@@ -14,94 +14,94 @@
             <cmd:ResourceProxyList>
                <cmd:ResourceProxy id="">
                 <cmd:ResourceType>LandingPage</cmd:ResourceType>
-                <cmd:ResourceRef>{/codeBook/stdyDscr/dataAccs/setAvail/accsPlac/@URI} http://www.adp.fdv.uni-lj.si/podatki/</cmd:ResourceRef>
+                <cmd:ResourceRef>http://www.adp.fdv.uni-lj.si/podatki/</cmd:ResourceRef>
                </cmd:ResourceProxy>
                <cmd:ResourceProxy id="F1">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>{/codeBook/fileDscr/@URI} ../podatki/humor17/humor17_p196_sl_v2_r2.txt</cmd:ResourceRef>
+                <cmd:ResourceRef>../podatki/humor17/humor17_p196_sl_v2_r2.txt</cmd:ResourceRef>
                </cmd:ResourceProxy>
                <cmd:ResourceProxy id="F1">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>{/codeBook/fileDscr/@URI} ../podatki/humor17/humor17_om1_sl_v1_r1.zip</cmd:ResourceRef>
+                <cmd:ResourceRef>../podatki/humor17/humor17_om1_sl_v1_r1.zip</cmd:ResourceRef>
                </cmd:ResourceProxy>
             </cmd:ResourceProxyList>
         </cmd:Resources>
 -->
 
-    <identifier identifierType="codeBook">{/codeBook/@ID} HUMOR17</identifier>
+    <identifier identifierType="codeBook">HUMOR17</identifier>
     <creators>
         <creator>
-            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty}Mlačnik, Primož</creatorName>
-            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty/@affiliation}Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+            <creatorName>Mlačnik, Primož</creatorName>
+            <affiliation>Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
         </creator>
         <creator>
-            <creatorName>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty}Stanković, Peter</creatorName>
-            <affiliation>{/codeBook/stdyDscr/citation/rspStmt/AuthEnty/@affiliation}Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+            <creatorName>Stanković, Peter</creatorName>
+            <affiliation>Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
         </creator>
     </creators>
     <titles>
-        <title xml:lang="en-GB">{/codeBook/stdyDscr/citation/titlStmt/titl}Political Jokes in Post-socialist Slovenia, 2017</title>
-        <title titleType="TranslatedTitle" xml:lang="sl-SI">{/codeBook/stdyDscr/citation/titlStmt/parTitl}Politične šale v postsocialistični Sloveniji, 2017</title>
+        <title xml:lang="en-GB">Political Jokes in Post-socialist Slovenia, 2017</title>
+        <title titleType="TranslatedTitle" xml:lang="sl-SI">Politične šale v postsocialistični Sloveniji, 2017</title>
     </titles>
-    <publisher>{/codeBook/stdyDscr/citation/distStmt/distrbtr} Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
-    <publicationYear>2018</publicationYear> <!-- extracted from {/codeBook/stdyDscr/distStmt/distDate/@date} -->
-    <resourceType resourceTypeGeneral="Dataset">{/codeBook/stdyDscr/stdyInfo/sumDscr/dataKind}Still image.</resourceType>
+    <publisher>Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
+    <publicationYear>2018</publicationYear> <!-- extracted from -->
+    <resourceType resourceTypeGeneral="Dataset">Still image.</resourceType>
     <subjects>
-        <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} political jokes</subject>
-        <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} Slovenia</subject>
-        <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} post-socialism</subject>
-        <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} politicians</subject>
-        <subject>{/codeBook/stdyDscr/stdInfo/subject/keyword} Facebook</subject>
-        <subject schemeURI="http://sicris.izum.si/">{/codeBook/stdyDscr/stdInfo/subject/topClas} Sociology</subject>
+        <subject>political jokes</subject>
+        <subject>Slovenia</subject>
+        <subject>post-socialism</subject>
+        <subject>politicians</subject>
+        <subject>Facebook</subject>
+        <subject schemeURI="http://sicris.izum.si/">Sociology</subject>
     </subjects>
     <contributors>
         <contributor contributorType="Other"> <!-- metadata producer -->
-            <contributorName>{/codeBook/docDscr/citation/prodStmt/producer} Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
+            <contributorName>Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
         </contributor>
         <contributor contributorType="Other"> <!-- metadata version responsible -->
-            <contributorName>{/codeBook/docDscr/citation/verStmt/verResp} Sergeja Masten, ADP</contributorName>
+            <contributorName>Sergeja Masten, ADP</contributorName>
         </contributor>
         <contributor contributorType="DataManager"> <!-- study producer (financially/administratively responsible) -->
-            <contributorName>{/codeBook/stdyDscr/citation/prodStmt/producer} Fakulteta za družbene vede = Faculty of Social Sciences</contributorName>
+            <contributorName>Fakulteta za družbene vede = Faculty of Social Sciences</contributorName>
         </contributor>
         <contributor contributorType="DataCurator"> <!-- depositor -->
-            <contributorName>{/codeBook/stdyDscr/citation/distStmt/dpositr} Mlačnik, Primož</contributorName>
+            <contributorName>Mlačnik, Primož</contributorName>
         </contributor>
         <contributor contributorType="RightsHolder"> <!-- depositor -->
-            <contributorName>{/codeBook/stdyDscr/dataAccs/useStmt/contact} Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
-            <affiliation>{/codeBook/stdyDscr/dataAccs/useStmt/contact/@affiliation} ADP</affiliation>
+            <contributorName>Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
+            <affiliation>ADP</affiliation>
         </contributor>
     </contributors>
     <dates>
-        <date dateType="Submitted">{/codeBook/stdyDscr/distStmt/depDate} 15. December 2017</date>
-        <date dateType="Issued">{/codeBook/stdyDscr/distStmt/distDate} June 2018</date>
-        <date dateType="Collected">{/codeBook/stdyDscr/stdInfo/sumDscr/colDate}19. January 2017</date>
+        <date dateType="Submitted">15. December 2017</date>
+        <date dateType="Issued">June 2018</date>
+        <date dateType="Collected">19. January 2017</date>
     </dates>
     <relatedIdentifiers>
         <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata">{DDI record URL} humor17-en.xml</relatedIdentifier>
-        <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">{/codeBook/stdyDscr/dataAccs/setAvail/accsPlac/@URI} http://www.adp.fdv.uni-lj.si/podatki/</relatedIdentifier> <!-- Landing page in CMDI -->
+        <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.adp.fdv.uni-lj.si/podatki/</relatedIdentifier> <!-- Landing page in CMDI -->
 <!--  </codeBook/fileDscr URI="../podatki/humor17/humor17_p196_sl_v2_r2.txt" ID="F1" source="producer"></codeBook/fileDscr> -->    
-        <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">{/codeBook/fileDscr/@URI} ../podatki/humor17/humor17_p196_sl_v2_r2.txt</relatedIdentifier> <!-- Resource proxy in CMDI -->
+        <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/humor17/humor17_p196_sl_v2_r2.txt</relatedIdentifier> <!-- Resource proxy in CMDI -->
  <!--   <otherMat URI="../podatki/humor17/humor17_om1_sl_v1_r1.zip" level="study" type="OTHER" ID="HUMOR17_OM1_SL_V1_R1" source="producer">  </otherMat>-->
-        <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">{/codeBook/otherMat/@URI} ../podatki/humor17/humor17_om1_sl_v1_r1.zip</relatedIdentifier> <!-- Resource proxy in CMDI -->
+        <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/humor17/humor17_om1_sl_v1_r1.zip</relatedIdentifier> <!-- Resource proxy in CMDI -->
     </relatedIdentifiers>
     <sizes>
-        <size>{/codeBook/fileDscr/dimensns/caseQnty} 200 cases</size>
-        <size>{/codeBook/fileDscr/dimensns/varQnty} 11 variables</size>
+        <size>200 cases</size>
+        <size>11 variables</size>
     </sizes>
     <formats>
-        <format>{/codeBook/fileDscr/fileTxt/fileType} *.txt - TEXT</format>
+        <format>*.txt - TEXT</format>
     </formats>
-    <version>{/codeBook/fileDscr/fileTxt/verStmt/version} June 2018</version> <!-- of the file -->
+    <version>June 2018</version> <!-- of the file -->
     <rightsList>
-        <rights rightsIdentifier="{/codeBook/stdyDscr/dataAccs/useStmt/restrctn/ID} cc0">{/codeBook/stdyDscr/dataAccs/useStmt/restrctn} License Creative Commons 0</rights>
-        <rights>{/codeBook/stdyDscr/dataAccs/useStmt/citreq} The users should acknowledge in any publication both the original depositors and the Archive.</rights>
-        <rights>{/codeBook/stdyDscr/dataAccs/useStmt/deposReq} Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</rights>
-        <rights>{/codeBook/stdyDscr/dataAccs/useStmt/conditions} In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</rights>
+        <rights rightsIdentifier="cc0">License Creative Commons 0</rights>
+        <rights>The users should acknowledge in any publication both the original depositors and the Archive.</rights>
+        <rights>Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</rights>
+        <rights>In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</rights>
     </rightsList>
     <descriptions>
         <description descriptionType="Abstract" xml:lang="en-GB">
-            {/codeBook/stdyDscr/stdInfo/abstract}As in all Eastern European countries, political jokes were very popular in Slovenia during the socialist era. 
+            As in all Eastern European countries, political jokes were very popular in Slovenia during the socialist era. 
             In the decades after the fall of socialism, however, political jokes seem to have lost their previous significance. 
             In order to understand what has happened to the political jokes in Slovenia, an analysis of two hundred jokes shared on the five most popular Slovenian Facebook groups has been conducted. 
             The collection consists of classical jokes and nonclassical jokes (anecdotes, witty wisdom, memes). Our goal was to identify the nature of the most frequent targets of jokes and which jokes are the most popular. 
@@ -109,7 +109,7 @@
         </description>
         <description descriptionType="Methods">
             <![CDATA[
-            {/codeBook/stdyDscr/method}
+            
               <method source="producer">
                 <dataColl source="producer">
                   <timeMeth xml:lang="en-GB" source="producer">Cross-section. One-time data collection.</timeMeth>
@@ -134,19 +134,19 @@
     </descriptions>
     <geoLocations>
         <geoLocation>
-            <geoLocationPlace>{/codeBook/stdyDscr/stdInfo/sumDscr/nation}Slovenia</geoLocationPlace>
+            <geoLocationPlace>Slovenia</geoLocationPlace>
         </geoLocation>
         <!-- note: as there are duplicate version, should be conflated -->
 <!--
         <geoLocation>
-            <geoLocationPlace>{/codeBook/stdyDscr/stdInfo/sumDscr/geogCover}Slovenia</geoLocationPlace>
+            <geoLocationPlace>Slovenia</geoLocationPlace>
         </geoLocation>
  -->
     </geoLocations>
     <fundingReferences>
         <fundingReference>
-            <funderName>{/codeBook/stdyDscr/prodStmt/fundAg}Javna agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</funderName>
-            <awardNumber>{/codeBook/stdyDscr/prodStmt/grantNo}39176 (young researcher)</awardNumber>
+            <funderName>Javna agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</funderName>
+            <awardNumber>39176 (young researcher)</awardNumber>
         </fundingReference>
     </fundingReferences>
 </resource>
