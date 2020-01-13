@@ -24,6 +24,7 @@
         xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
                 
         <!-- <identifier/> -->
+        <!-- TODO: AlternateIdentifier ?? -->
         <identifier identifierType="codeBook"><xsl:value-of select="@ID"/></identifier>
         
         <!-- <creators/> -->

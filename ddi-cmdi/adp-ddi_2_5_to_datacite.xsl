@@ -24,6 +24,7 @@
         xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
                 
         <!-- <identifier/> -->
+        <!-- TODO: AlternateIdentifier ?? -->
         <xsl:choose>
             <xsl:when test="stdyDscr/citation/titlStmt/IDNo[contains(.,'doi.org')]">
                 <identifier identifierType="DOI"><xsl:value-of select="stdyDscr/citation/titlStmt/IDNo[contains(.,'doi.org')][1]"/></identifier>
