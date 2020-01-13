@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://datacite.org/schema/kernel-4"
+          xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+   <identifier identifierType="DOI">https://doi.org/10.17898/ADP_NJPS13_V1</identifier>
+   <creators>
+      <creator>
+         <creatorName>Velikonja, Mitja</creatorName>
+         <affiliation>Center za preučevanje kulture in religije = Centre for Cultural and Religious Studies, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
+      </creator>
+   </creators>
+   <titles>
+      <title xml:lang="en-GB">Yugoslovenia: Celebrating former Yugoslav Holidays in Contemporary Slovenia, 2013</title>
+      <title titleType="TranslatedTitle" xml:lang="sl-SI">Jugoslovenija: Slavljenje nekdanjih jugoslovanskih praznikov v sodobni Sloveniji, 2013</title>
+   </titles>
+   <publisher>Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
+   <publicationYear>2018</publicationYear>
+   <resourceType resourceTypeGeneral="Dataset">Still imageStillImage;TextText</resourceType>
+   <subjects>
+      <subject>holidays</subject>
+      <subject>yugonostalgia</subject>
+      <subject>Slovenia</subject>
+      <subject>Yugoslavia</subject>
+      <subject>CULTURAL VALUES</subject>
+      <subject>CULTURAL IDENTITY</subject>
+      <subject schemeURI="urn:ddi:int.cessda.cv:TopicClassification:3.0">SOCIETY AND CULTURE - Cultural and national identity</subject>
+      <subject schemeURI="http://sicris.izum.si/">Sociology</subject>
+   </subjects>
+   <contributors>
+      <contributor contributorType="Other">
+         <contributorName nameType="Organizational">Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
+      </contributor>
+      <contributor contributorType="Other">
+         <contributorName>Sergeja Masten, ADP</contributorName>
+      </contributor>
+      <contributor contributorType="DataManager">
+         <contributorName>Center za preučevanje kulture in religije = Centre for Cultural and Religious Studies</contributorName>
+      </contributor>
+      <contributor contributorType="DataCurator">
+         <contributorName nameType="Organizational">Center za preučevanje kulture in religije = Centre for Cultural and Religious Studies, Fakulteta za družbene vede = Faculty of Social Sciences, Univerza v Ljubljani = University of Ljubljana</contributorName>
+      </contributor>
+   </contributors>
+   <dates>
+      <date dateType="Submitted">2018-08-28</date>
+      <date dateType="Issued">2018</date>
+      <date dateType="Collected" dateInformation="start">2013</date>
+      <date dateType="Collected" dateInformation="end">2013</date>
+   </dates>
+   <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata"/>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.adp.fdv.uni-lj.si/podatki/</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p1_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p2_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p3_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p4_sl_v1_r0.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p5_sl_v1_r0.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p6_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p7_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p8_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p9_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p10_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p11_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p12_sl_v1_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p13_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p14_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p15_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p16_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p17_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.24ur.com/ekskluziv/glasba/z-anko-partizanko-na-barikade.html</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.youtube.com/watch?v=7LuRz30ngI8</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.facebook.com/events/408078655879092/</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.24ur.com/novice/slovenija/z-okroznico-svarijo-sole-pred-povelicevanjem-tita.html</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.24ur.com/novice/slovenija/z-okroznico-svarijo-sole-pred-povelicevanjem-tita.html</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.24ur.com/novice/slovenija/z-okroznico-svarijo-sole-pred-povelicevanjem-tita.html</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p24_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p25_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p26_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p27_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">..podatki/njps13/njps13_p28_sl_v1_r0.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p29_sl_v1_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">http://www.had.si/blog/2008/11/29/cestitam-za-dan-republike-29-november/</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">http://seks.blog.siol.net/2006/11/29/29-november/</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.tomazgorec.si/tag/29-november/</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/njps13/njps13_p33_sl_v1_r1.jpg</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">http://crnkovic.blog.siol.net/2010/05/14/ne-cakaj-na-4-maj/</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.mojvideo.com/video-smrt-josipa-broza-tita-4-maj/2da3a11d6837a79028b6</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">http://www.pesnik.net/content/view/5501/44/</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.rtvslo.si/svet/spomin-na-tita-se-vedno-ziv/70535</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.rtvslo.si/svet/foto-med-titovimi-privrzenci-v-hisi-cvetja-najvec-slovencev/282392</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/njps13/njps13_om1_sl_v1_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="References">https://plus.si.cobiss.net/opac7/bib/31945309</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="References">https://plus.si.cobiss.net/opac7/bib/31911773</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="References">https://plus.si.cobiss.net/opac7/bib/32430429</relatedIdentifier>
+   </relatedIdentifiers>
+   <sizes>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+      <size>1 cases</size>
+   </sizes>
+   <formats>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.jpg - IMAGE</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+      <format>*.jpg - IMAGE</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+      <format>OTHER</format>
+   </formats>
+   <rightsList>
+      <rights rightsIdentifier="ccbync">The data are unrestricted for academic purposes only and licensed under a Creative Commons Attribution + NonCommercial 4.0 International License. The users should use the materials only for the purposes specified in Ordering form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials.</rights>
+      <rights>The users should acknowledge in any publication both the original depositors and the Archive.</rights>
+      <rights>Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</rights>
+      <rights>In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</rights>
+   </rightsList>
+   <descriptions>
+      <description descriptionType="Abstract" xml:lang="en-GB">The study deals with cultural practices, dimensions, and ideological meanings of the three most popular former Yugoslav holidays in contemporary Slovenia. These are the Youth Day (25 May), the Day of the Republic (29 November) and the Anniversary of the Death of Josip Broz Tito (4 May). The purpose of the study was to determine, in what form these three former holidays are being celebrated today, and what kind of meanings and political consequences they have in the contemporary Slovene society. Within the study description, only a few pictures (n=9) and textual materials (n=29) that were used by the author in his research as a supplement to an in-depth analysis of other content regarding holidays mentioned by the author within the article »Jugoslovenija: Slavljenje nekdanjih jugoslovanskih praznikov v sodobni Sloveniji«, where he thoroughly presents the occurrence of events in Slovenia after its independence, are available.</description>
+      <!--
+            <description descriptionType="Methods">
+                 
+      
+        Cross-sectionCrossSection
+        Center za preučevanje kulture in religije = Centre for Cultural and Religious Studies
+        One-time data collection
+        Non-probability: AvailabilityNonprobability.Availability
+        Field observationObservation.Field
+        Content codingContentCoding
+        Data collection guidelines: Secondary data collection guideDataCollectionGuidelines.SecondaryDataCollectionGuide
+        Collecting pictures and text materials referred to mentioned holidays: 
+       media messages, articles, online greetings, circulars, blogs, comments on the websites, listening to music, taking part in events in Slovenia and in the countries of former Yugoslavia, photograph products of street culture.
+     
+        No.
+        Data was cleaned.
+      
+      
+        Not applicable
+      
+      5 - pilot studies that create or improve the instrument and conceptualisation of a new area
+     
+            </description>
+        -->
+   </descriptions>
+   <geoLocations>
+      <geoLocation>
+         <geoLocationPlace xml:lang="en-GB">Slovenia</geoLocationPlace>
+      </geoLocation>
+      <geoLocation>
+         <geoLocationPlace xml:lang="en-GB">Slovenia</geoLocationPlace>
+      </geoLocation>
+   </geoLocations>
+   <fundingReferences>
+      <fundingReference>
+         <funderName>Javna agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</funderName>
+         <awardNumber>J6-4007 (B)</awardNumber>
+      </fundingReference>
+   </fundingReferences>
+</resource>

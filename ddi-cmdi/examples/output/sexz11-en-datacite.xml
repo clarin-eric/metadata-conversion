@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://datacite.org/schema/kernel-4"
+          xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+   <identifier identifierType="DOI">https://doi.org/10.17898/ADP_SEXZ11_V1</identifier>
+   <creators>
+      <creator>
+         <creatorName>Simetinger, Gabrijela</creatorName>
+         <affiliation/>
+      </creator>
+   </creators>
+   <titles>
+      <title xml:lang="en-GB">Use of contraception and sexuality among women in Slovenia, 2011</title>
+      <title titleType="TranslatedTitle" xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011</title>
+   </titles>
+   <publisher>Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
+   <publicationYear>2019</publicationYear>
+   <resourceType resourceTypeGeneral="Dataset">TextText</resourceType>
+   <subjects>
+      <subject>first intercourse</subject>
+      <subject>contraception</subject>
+      <subject>coitus interruptus</subject>
+      <subject>sexual intercourse</subject>
+      <subject>female sexuality</subject>
+      <subject>SEXUALITY</subject>
+      <subject>SAFE SEX</subject>
+      <subject>REPRODUCTIVE HEALTH</subject>
+      <subject>WOMEN</subject>
+      <subject>SEXUAL INTIMACY</subject>
+      <subject>SEXUAL AWARENESS</subject>
+      <subject schemeURI="urn:ddi:int.cessda.cv:TopicClassification:3.0">HEALTH - Reproductive health</subject>
+      <subject schemeURI="http://sicris.izum.si/">Sociology</subject>
+   </subjects>
+   <contributors>
+      <contributor contributorType="Other">
+         <contributorName nameType="Organizational">Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
+      </contributor>
+      <contributor contributorType="Other">
+         <contributorName>Sergeja Masten, ADP</contributorName>
+      </contributor>
+      <contributor contributorType="DataManager">
+         <contributorName>Simetinger, Gabrijela</contributorName>
+      </contributor>
+      <contributor contributorType="DataCurator">
+         <contributorName nameType="Organizational">Simetinger, Gabrijela</contributorName>
+      </contributor>
+      <contributor contributorType="RightsHolder">
+         <contributorName nameType="Organizational">Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
+         <affiliation>ADP</affiliation>
+      </contributor>
+   </contributors>
+   <dates>
+      <date dateType="Submitted">2018-08-28</date>
+      <date dateType="Issued">2019-07</date>
+      <date dateType="Collected" dateInformation="start">2010-12-31</date>
+      <date dateType="Collected" dateInformation="end">2011-05-25</date>
+   </dates>
+   <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata"/>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.adp.fdv.uni-lj.si/podatki/</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p1_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p2_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p3_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p4_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p5_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p6_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p7_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p8_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p9_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p10_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p11_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p12_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p13_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p14_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p15_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p16_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p17_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p18_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p19_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p20_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p21_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p22_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p23_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p24_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p25_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p26_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p27_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p28_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p29_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p30_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p31_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p32_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p33_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p34_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p35_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p36_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p37_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p38_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p39_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p40_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p41_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p42_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p43_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p44_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p45_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p46_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p47_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p48_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p49_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p50_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p51_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/sexz11/sex11_p52_sl_v2_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/sexz11/sexz11_vp1_sl_v1_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/sexz11/sexz11_vp2_sl_v1_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/sexz11/sexz11_om1_sl_v1_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="References">http://dk.fdv.uni-lj.si/doktorska_dela/pdfs/dr_simetinger-gabrijela.pdf</relatedIdentifier>
+   </relatedIdentifiers>
+   <sizes>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+      <size>1 cases</size>
+      <size>61 variables</size>
+   </sizes>
+   <formats>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+      <format>*.pdf - GRAPHIC</format>
+   </formats>
+   <rightsList>
+      <rights rightsIdentifier="ccbync">The data are unrestricted for academic purposes only and licensed under a Creative Commons Attribution + NonCommercial 4.0 International License. The users should use the materials only for the purposes specified in Ordering form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials. ACCESS UPON REQUEST.</rights>
+      <rights>The users should acknowledge in any publication both the original depositors and the Archive.</rights>
+      <rights>Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</rights>
+      <rights>In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</rights>
+   </rightsList>
+   <descriptions>
+      <description descriptionType="Abstract" xml:lang="en-GB">The starting point of the research was to determine the presence of coitus interruptus as a form of contraception in Slovenia in two theoretical frames, ie. a medical view of the body and sexuality and a feminist critique of the medical discourse of contraception. The main objectives of the study were to research and define the role of the coitus interruptus in the construction of female and male sexuality, to find out its position in Slovenian sexual culture and from a feminist perspective assess its impact on the sexual reproductive health of women. The additional objective was to establish why despite many other methods of birth control, coitus interruptus is still advised and very commonly used and find out why Slovenian gynaecologists still promote it as a form of contraception. For this reason, 52 interviews with birth control users and 27 interviews with gynaecologists from Slovenia were conducted. Due to sensitivity of the data, only interviews with birth control users are available at the ADP.</description>
+      <!--
+            <description descriptionType="Methods">
+                 
+      
+        Cross-sectionCrossSection
+        Simetinger, Gabrijela
+        One-time data collection
+        Non-probability: PurposiveNonprobability.Purposive
+        Respondents were recruited in Slovenian gynecological clinics with the help of gynecologists who with an agreement with a researcher, invited candidates to participate in the study. 
+          The criterion for participating in the research was, not only their willingness but their hetero or bisexual identity. 
+          Purposely, 4 respondents, who use natural birth control methods, were invited to participate in the survey (a researcher contacted a gynaecologist that promotes natural contraception). 
+        
+        Face-to-face interviewInterview.FaceToFace
+        Semi-structured questionnaireQuestionnaire.Semistructured
+        52 interviews were conducted. 
+          First three were pilot, designed for testing the questonnaire. They were carried out at respondents home (n=2) and at their workplace (n=1). 
+        Based on these interviews the researcher made minor changes and additions to the questionnaire. After that, respondents from pilot research were interview additionally, so that all interviews covered all questions. 
+        Further interviews were carried out in gynaecological clinics (n = 42), in public spaces, for example cafes (n = 5) and at the workplace of respondents (n = 2).
+          On average, interviews lasted 40 minutes; the shortest 24 minutes and the longest 77 minutes.
+        The researcher raised sub-questions and encouraged the respondents to continue.
+        No.
+        Data was cleaned.
+        Interviews are anonymised.
+      
+      
+        Not applicable.
+      
+      9 - highest range, comparative or continuous research, influential populations, with methodological excellence
+     
+            </description>
+        -->
+   </descriptions>
+   <geoLocations>
+      <geoLocation>
+         <geoLocationPlace xml:lang="en-GB">Slovenia</geoLocationPlace>
+      </geoLocation>
+      <geoLocation>
+         <geoLocationPlace xml:lang="en-GB">Slovenia</geoLocationPlace>
+      </geoLocation>
+   </geoLocations>
+   <fundingReferences>
+      <fundingReference>
+         <funderName>Financed by own funds.</funderName>
+         <awardNumber/>
+      </fundingReference>
+   </fundingReferences>
+</resource>

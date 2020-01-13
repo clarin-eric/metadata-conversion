@@ -1,0 +1,1450 @@
+<?xml version='1.0' encoding='utf-8'?>
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5" xml:lang="en-GB">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">Use of contraception and sexuality among women in Slovenia, 2011</titl>
+        <parTitl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011</parTitl>
+        <IDNo agency="ADP">SEXZ11</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</producer>
+        <copyright>ADP, 2019</copyright>
+        <prodDate date="2019-07" xml:lang="en-GB">July 2019</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana, Slovenia</prodPlac>
+        <software version="18.0" ID="Oxygen" xml:lang="en-GB">Oxygen</software>
+        <fundAg abbr="ARRS" xml:lang="en-GB">Javna agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</fundAg>
+        <grantNo agency="ARRS">1000-15-0510 (IRC)</grantNo>
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" xml:lang="en-GB" URI="http://www.adp.fdv.uni-lj.si/">Arhiv družboslovnih podatkov = Social Science Data Archives</distrbtr>
+        <distDate date="2019-07" xml:lang="en-GB">July 2019</distDate>
+      </distStmt>
+      <verStmt>
+        <version type="version" xml:lang="en-GB">ADP XML Codebook file</version>
+        <verResp>Sergeja Masten, ADP</verResp>
+        <notes ID="Authorized" xml:lang="en-GB" type="Avtorizacija">Simetinger, Gabrijela and Sergeja Masten, ADP, prepared survey description. Study Description is authorized.</notes>
+      </verStmt>
+      <biblCit>Simetinger, G. (2019). Use of contraception and sexuality among women in Slovenia, 2011 [Codebook file]. Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives. ADP - IDNo: SEXZ11. Retrieved from: https://www.adp.fdv.uni-lj.si/opisi/sexz11/</biblCit>
+      <holdings URI="http://www.adp.fdv.uni-lj.si/opisi/">ADP DDI</holdings>
+    </citation>
+    <docStatus xml:lang="en-GB">4 - Full Study description and XML DDI Codebook Data description with full questions text.</docStatus>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">Use of contraception and sexuality among women in Slovenia, 2011</titl>
+        <parTitl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011</parTitl>
+        <IDNo agency="ADP">SEXZ11</IDNo>
+        <IDNo agency="dara">https://doi.org/10.17898/ADP_SEXZ11_V1</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer xml:lang="en-GB">Simetinger, Gabrijela</producer>
+        <prodDate date="2011" xml:lang="en-GB">2011</prodDate>
+        <prodPlac xml:lang="en-GB">Slovenia</prodPlac>
+        <software ID="MicrosoftWord" xml:lang="en-GB">Microsoft Word</software>
+        <fundAg xml:lang="en-GB">Financed by own funds.</fundAg>
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" URI="http://www.adp.fdv.uni-lj.si/">Arhiv družboslovnih podatkov = Social Science Data Archives</distrbtr>
+        <depositr>Simetinger, Gabrijela</depositr>
+        <depDate date="2018-08-28" xml:lang="en-GB">28. August 2018</depDate>
+        <distDate date="2019-07" xml:lang="en-GB">July 2019</distDate>
+      </distStmt>
+      <biblCit>Simetinger, G. (2019). Use of contraception and sexuality among women in Slovenia, 2011 [Data file]. Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives. ADP - IDNo: SEXZ11. Retrieved from: https://www.adp.fdv.uni-lj.si/opisi/sexz11/</biblCit>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword xml:lang="en-GB" vocab="ADP">first intercourse</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">contraception</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">coitus interruptus</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">sexual intercourse</keyword>
+        <keyword xml:lang="sl-SI" vocab="ADP">female sexuality</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_4fefe95c-aeff-475c-b8c3-19f2fe6d59f3" vocab="ELSST" vocabURI="">SEXUALITY</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_6a23bc5c-311b-4d62-803d-2f0dba788255" vocab="ELSST" vocabURI="">SAFE SEX</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_969d049b-3d1f-421e-9b40-0f77aac039f6" vocab="ELSST" vocabURI="">REPRODUCTIVE HEALTH</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_3634c29c-6ddd-472d-9262-01153e31fe6a" vocab="ELSST" vocabURI="">WOMEN</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_33d1b3ad-7bd4-4c9a-a339-46c836a2f592" vocab="ELSST" vocabURI="">SEXUAL INTIMACY</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_e391d4a5-bec7-4d5a-8977-f18149beb909" vocab="ELSST" vocabURI="">SEXUAL AWARENESS</keyword>
+        <topcClas xml:lang="en-GB" ID="Health.Reproductive" vocab="CESSDA Topic Classification" vocabURI="urn:ddi:int.cessda.cv:TopicClassification:3.0">HEALTH - Reproductive health</topcClas>
+        <topcClas xml:lang="en-GB" ID="S210" vocab="CERIF" vocabURI="http://sicris.izum.si/">Sociology</topcClas>
+      </subject>
+      <abstract xml:lang="en-GB">The starting point of the research was to determine the presence of coitus interruptus as a form of contraception in Slovenia in two theoretical frames, ie. a medical view of the body and sexuality and a 
+        feminist critique of the medical discourse of contraception.
+        The main objectives of the study were to research and define the role of the coitus interruptus in the construction of female and male sexuality, to find out its position in Slovenian sexual culture and from a feminist perspective 
+        assess its impact on the sexual reproductive health of women.
+        The additional objective was to establish why despite many other methods of birth control, coitus interruptus is still advised and very commonly used and find out why Slovenian gynaecologists still promote it as a form of contraception. 
+        For this reason, 52 interviews with birth control users and 27 interviews with gynaecologists from Slovenia were conducted. Due to sensitivity of the data, only interviews with birth control users are available at the ADP.  
+      </abstract>
+      <sumDscr>
+        <timePrd event="start" date="2010-12" xml:lang="en-GB">December 2010</timePrd>
+        <timePrd date="2011-05" event="end" xml:lang="en-GB">May 2011</timePrd>
+        <collDate event="start" date="2010-12-31" xml:lang="en-GB">31 December 2010</collDate>
+        <collDate date="2011-05-25" event="end" xml:lang="en-GB">25 May 2011</collDate>
+        <nation xml:lang="en-GB" abbr="SI">Slovenia</nation>
+        <geogCover xml:lang="en-GB">Slovenia</geogCover>
+        <geogUnit xml:lang="en-GB">Geographic units are not determined<concept vocab="ADP-GeogUnit">GeographicUnitNotDetermined</concept></geogUnit>
+        <anlyUnit xml:lang="en-GB">Individual<concept vocab="DDI Analysis Unit" vocabURI="urn:ddi-cv:AnalysisUnit:1.0">Individual</concept></anlyUnit>
+        <universe clusion="I" xml:lang="en-GB">Women, who have had sexual intercourse and have used any kind of birth control in any part of their lives.
+          Women who never had sexual intercourse.
+        </universe>
+        <universe clusion="E" xml:lang="en-GB">Women who never had sexual intercourse.</universe>
+        <dataKind xml:lang="en-GB">Text<concept vocab="DDI General Data Format" vocabURI="urn:ddi-cv:GeneralDataFormat:2.0">Text</concept></dataKind>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <timeMeth xml:lang="en-GB">Cross-section<concept vocab="DDI Time Method" vocabURI="urn:ddi-cv:TimeMethod:1.2">CrossSection</concept></timeMeth>
+        <dataCollector xml:lang="en-GB">Simetinger, Gabrijela</dataCollector>
+        <frequenc ID="OneTime" xml:lang="en-GB">One-time data collection</frequenc>
+        <sampProc xml:lang="en-GB">Non-probability: Purposive<concept vocab="DDI Sampling Procedure" vocabURI="urn:ddi-cv:SamplingProcedure:1.1">Nonprobability.Purposive</concept></sampProc>
+        <sampProc xml:lang="en-GB">Respondents were recruited in Slovenian gynecological clinics with the help of gynecologists who with an agreement with a researcher, invited candidates to participate in the study. 
+          The criterion for participating in the research was, not only their willingness but their hetero or bisexual identity. 
+          Purposely, 4 respondents, who use natural birth control methods, were invited to participate in the survey (a researcher contacted a gynaecologist that promotes natural contraception). 
+        </sampProc>
+        <collMode xml:lang="en-GB">Face-to-face interview<concept vocab="DDI Mode of Collection" vocabURI="urn:ddi-cv:ModeOfCollection:3.0">Interview.FaceToFace</concept></collMode>
+        <resInstru xml:lang="en-GB">Semi-structured questionnaire<concept vocab="DDI Type of Instrument" vocabURI="urn:ddi-cv:TypeOfInstrument:1.1">Questionnaire.Semistructured</concept></resInstru>
+        <collSitu xml:lang="sl-SI">52 interviews were conducted. 
+          First three were pilot, designed for testing the questonnaire. They were carried out at respondents home (n=2) and at their workplace (n=1). 
+        Based on these interviews the researcher made minor changes and additions to the questionnaire. After that, respondents from pilot research were interview additionally, so that all interviews covered all questions. 
+        Further interviews were carried out in gynaecological clinics (n = 42), in public spaces, for example cafes (n = 5) and at the workplace of respondents (n = 2).
+          On average, interviews lasted 40 minutes; the shortest 24 minutes and the longest 77 minutes.</collSitu>
+        <actMin>The researcher raised sub-questions and encouraged the respondents to continue.</actMin>
+        <weight xml:lang="sl-SI">No.</weight>
+        <cleanOps ID="DataCleaned" xml:lang="sl-SI">Data was cleaned.</cleanOps>
+        <cleanOps xml:lang="en-GB">Interviews are anonymised.</cleanOps>
+      </dataColl>
+      <anlyInfo>
+        <respRate xml:lang="sl-SI">Not applicable.</respRate>
+      </anlyInfo>
+      <stdyClas ID="oc9" xml:lang="sl-SI" type="ADP">9 - highest range, comparative or continuous research, influential populations, with methodological excellence</stdyClas>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <accsPlac URI="http://www.adp.fdv.uni-lj.si/podatki/" xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</accsPlac>
+        <collSize xml:lang="en-GB">52 interviews</collSize>
+        <fileQnty>52</fileQnty>
+      </setAvail>
+      <useStmt>
+        <restrctn xml:lang="en-GB" ID="ccbync">The data are unrestricted for academic purposes only and licensed under a Creative Commons Attribution + NonCommercial 4.0 International License. The users should use the materials only for the purposes specified in Ordering form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials.  ACCESS UPON REQUEST.</restrctn>
+        <contact affiliation="ADP" email="arhiv.podatkov@fdv.uni-lj.si" xml:lang="en-GB" URI="http://www.adp.fdv.uni-lj.si/">Arhiv družboslovnih podatkov = Social Science Data Archives</contact>
+        <citReq xml:lang="en-GB">The users should acknowledge in any publication both the original depositors and the Archive.</citReq>
+        <deposReq xml:lang="en-GB">Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</deposReq>
+        <conditions xml:lang="en-GB">In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</conditions>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <!-- &rM; -->
+      <relPubl ID="SEXZ11_RP1_SL_V1_R0">
+  <citation><titlStmt><titl xml:lang="en-GB">Družbena in medicinska konstrukcija kontracepcije: primer prekinjenega spolnega odnosa</titl><IDNo agency="COBISS-ID">278218240</IDNo></titlStmt><rspStmt><AuthEnty>Simetinger, Gabrijela</AuthEnty></rspStmt><prodStmt><producer xml:lang="en-GB">Simetinger, Gabrijela</producer><prodDate date="2015" xml:lang="en-GB">2015</prodDate><prodPlac xml:lang="en-GB">Ljubljana</prodPlac></prodStmt><holdings URI="http://dk.fdv.uni-lj.si/doktorska_dela/pdfs/dr_simetinger-gabrijela.pdf">FDV</holdings></citation></relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr ID="F1" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p1_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P1_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 1 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 1 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F2" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p2_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P2_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 2 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 2 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F3" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p3_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P3_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 3 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 3 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23 " xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F4" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p4_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P4_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 4 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 4 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F5" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p5_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P5_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 5 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 5 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F6" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p6_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P6_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 6 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 6 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F7" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p7_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P7_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 7 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 7 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>ADP</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F8" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p8_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P8_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 8 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 8 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F9" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p9_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P9_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 9 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 9 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <verStmt>
+        <version date="2019-07-23 " xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F10" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p10_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P10_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 10 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 10 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23 " xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F11" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p11_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P11_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 11 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 11 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23 " xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F12" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p12_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P12_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 12 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 12 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23 " xml:lang="sl-SI">July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F13" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p13_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P13_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 13 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 13 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F14" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p14_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P14_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 14 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 14 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F15" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p15_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P15_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 15 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 15 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F16" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p16_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P16_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 16 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 16 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F17" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p17_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P17_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 17 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 17 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23 " xml:lang="sl-SI">July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F18" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p18_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P18_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 18 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 18 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F19" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p19_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P19_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 19 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 19 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F20" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p20_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P20_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 20 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 20 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F21" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p21_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P21_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 21 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 21 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F22" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p22_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P22_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 22 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 22 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F23" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p23_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P23_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 23 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 23 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F24" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p24_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P24_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 24 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 24 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23 " xml:lang="sl-SI">July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F25" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p25_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P25_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 25 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 25 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F26" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p26_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P26_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 26 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 26 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F27" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p27_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P27_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 27 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 27 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>ADP</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F28" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p28_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P28_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 28 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 28 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F29" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p29_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P29_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 29 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 29 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F30" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p30_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P30_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 30 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 30 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F31" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p31_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P31_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 31 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 31 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F32" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p32_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P32_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 32 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 32 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F33" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p33_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P33_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 33 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 33 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F34" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p34_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P34_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 34 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 34 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F35" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p35_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P35_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 35 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 35 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F36" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p36_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P36_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 36 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 36 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F37" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p37_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P37_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 37 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 37 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F38" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p38_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P38_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 38 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 38 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F39" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p39_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P39_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 39 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 39 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F40" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p40_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P40_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 40 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 40 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F41" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p41_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P41_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 41 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 41 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F42" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p42_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P42_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 42 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 42 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F43" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p43_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P43_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 43 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 43 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F44" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p44_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P44_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 44 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 44 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F45" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p45_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P45_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 45 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 45 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F46" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p46_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P46_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 46 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 46 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F47" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p47_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P47_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 47 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 47 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F48" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p48_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P48_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 48 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 48 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F49" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p49_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P49_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 49 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 49 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F50" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p50_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P50_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 50 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 50 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F51" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p51_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P51_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 51 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 51 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F52" xml:lang="sl-SI" URI="../podatki/sexz11/sex11_p52_sl_v2_r1.pdf" access="ccbync">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="SEXZ11_P52_SL_V2_R1">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 52 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Uporaba kontracepcije in spolnost pri ženskah v Sloveniji, 2011. Intervju 52 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>61</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2019-07-23" xml:lang="sl-SI">23. July 2019</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <!-- &dD; -->
+  <otherMat URI="../podatki/sexz11/sexz11_vp1_sl_v1_r1.pdf" level="study" type="*.pdf - GRAPHIC" ID="SEXZ11_VP1_SL_V1_R1">
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">SEXZ11 - Družbena in medicinska konstrukcija kontracepcije: primer prekinjenega spolnega odnosa. Vprašalnik [Questionnaire]</titl>
+        <IDNo agency="ADP">SEXZ11_VP1_SL_V1_R1</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer xml:lang="en-GB">Simetinger, Gabrijela</producer>
+        <prodDate xml:lang="en-GB">2010</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
+        <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
+      </prodStmt>
+      <holdings URI="../podatki/sexz11/sexz11_vp1_sl_v1_r1.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+    </citation>
+  </otherMat>
+  <otherMat URI="../podatki/sexz11/sexz11_vp2_sl_v1_r1.pdf" level="study" type="*.pdf - GRAPHIC" ID="SEXZ11_VP2_SL_V1_R1">
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">SEXZ11 - Demografski podatki žensk, vprašalnik [Questionnaire]</titl>
+        <IDNo agency="ADP">SEXZ11_VP2_SL_V1_R1</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer xml:lang="en-GB">Simetinger, Gabrijela</producer>
+        <prodDate xml:lang="en-GB">2010</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
+        <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
+      </prodStmt>
+      <holdings URI="../podatki/sexz11/sexz11_vp2_sl_v1_r1.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+    </citation>
+  </otherMat>
+  <otherMat URI="../podatki/sexz11/sexz11_om1_sl_v1_r1.pdf" level="study" type="*.pdf - GRAPHIC" ID="SEXZ11_OM1_SL_V1_R1">
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">SEXZ11 - Prošnja za posredovanje informacije o raziskavi ženskam v ginekološkem dispanzerju [Other material]</titl>
+        <IDNo agency="ADP">SEXZ11_OM1_SL_V1_R1</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Simetinger, Gabrijela</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer xml:lang="en-GB">Simetinger, Gabrijela</producer>
+        <prodDate xml:lang="en-GB">2011</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
+        <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
+      </prodStmt>
+      <holdings URI="../podatki/sexz11/sexz11_om1_sl_v1_r1.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+    </citation>
+  </otherMat>
+</codeBook>
