@@ -46,7 +46,16 @@
         <xsl:apply-templates select="stdyDscr/citation/distStmt/distDate" mode="publication-year" />
         
         <!-- <resourceType/> -->
-        <xsl:apply-templates select="stdyDscr/stdyInfo/sumDscr/dataKind" />
+        <xsl:choose>
+            <xsl:when test="count(stdyDscr/stdyInfo/sumDscr/dataKind) = 1">
+                <xsl:apply-templates select="stdyDscr/stdyInfo/sumDscr/dataKind" />
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates select="stdyDscr/stdyInfo/sumDscr/dataKind[1]">
+                    <xsl:with-param name="concatenated"  select="string-join(stdyDscr/stdyInfo/sumDscr/dataKind, ';')" />
+                </xsl:apply-templates>
+            </xsl:otherwise>
+        </xsl:choose>
         
         <!-- <subjects/> -->
         <xsl:if test="stdyDscr/stdyInfo/subject">
@@ -199,7 +208,15 @@
     </xsl:template>
     
     <xsl:template match="stdyDscr/stdyInfo/sumDscr/dataKind">
-        <resourceType resourceTypeGeneral="Dataset"><xsl:value-of select="."/></resourceType>
+        <xsl:param name="concatenated" />
+        <xsl:choose>
+            <xsl:when test="normalize-space($concatenated) != ''">
+                <resourceType resourceTypeGeneral="Dataset"><xsl:value-of select="$concatenated"/></resourceType>        
+            </xsl:when>
+            <xsl:otherwise>
+                <resourceType resourceTypeGeneral="Dataset"><xsl:value-of select="."/></resourceType>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <xsl:template match="stdyDscr/stdyInfo/subject/keyword">
