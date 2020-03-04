@@ -2,11 +2,11 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns="http://datacite.org/schema/kernel-4"
           xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
-   <identifier identifierType="codeBook">JEK12</identifier>
+   <identifier identifierType="DOI">https://doi.org/10.17898/ADP_JEK12_V1</identifier>
    <creators>
       <creator>
          <creatorName>Malešič, Marjan</creatorName>
-         <affiliation>Obramboslovni raziskovalni center = Defence Studies Research Centre</affiliation>
+         <affiliation>Obramboslovni raziskovalni center = Defence Studies Research Centre, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
       </creator>
       <creator>
          <creatorName>Polič, Marko</creatorName>
@@ -14,15 +14,15 @@
       </creator>
       <creator>
          <creatorName>Uhan, Samo</creatorName>
-         <affiliation>Center za raziskovanje javnega mnenja in množičnih komunikacij = Public Opinion and Mass Communication Research Centre</affiliation>
+         <affiliation>Center za raziskovanje javnega mnenja in množičnih komunikacij = Public Opinion and Mass Communication Research Centre, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
       </creator>
       <creator>
          <creatorName>Prezelj, Iztok</creatorName>
-         <affiliation>Obramboslovni raziskovalni center = Defence Studies Research Centre</affiliation>
+         <affiliation>Obramboslovni raziskovalni center = Defence Studies Research Centre, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
       </creator>
       <creator>
          <creatorName>Juvan, Jelena</creatorName>
-         <affiliation>Obramboslovni raziskovalni center = Defence Studies Research Centre</affiliation>
+         <affiliation>Obramboslovni raziskovalni center = Defence Studies Research Centre, Fakulteta za družbene vede = Faculty of Social Sciences</affiliation>
       </creator>
       <creator>
          <creatorName>Bajec, Boštjan</creatorName>
@@ -31,37 +31,37 @@
    </creators>
    <titles>
       <title xml:lang="en-GB">Evacuation Preparedness in Nuclear Disaster, 2012</title>
-      <title titleType="TranslatedTitle" xml:lang="en-GB">Pripravljenost na evakuacijo v primeru jedrske nesreče, 2012</title>
+      <title titleType="TranslatedTitle" xml:lang="sl-SI">Pripravljenost na evakuacijo v primeru jedrske nesreče, 2012</title>
    </titles>
    <publisher>Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
    <publicationYear>2017</publicationYear>
-   <resourceType resourceTypeGeneral="Dataset">(1) Numeric.;(2) Text.</resourceType>
+   <resourceType resourceTypeGeneral="Dataset">Numeric1) Numeric;Text2) Text</resourceType>
    <subjects>
       <subject>safety</subject>
       <subject>preparedness for evacuation</subject>
-      <subject>nuclear energy</subject>
       <subject>nuclear safety</subject>
       <subject>protective measures</subject>
-      <subject>trust</subject>
       <subject>risk</subject>
       <subject>nuclear accident</subject>
       <subject>Krško</subject>
-      <subject schemeURI="http://www.adp.fdv.uni-lj.si//dokumenti/ADP_Sc.xml">POLITICS - conflict, security and peace</subject>
+      <subject>NUCLEAR ENERGY</subject>
+      <subject>TRUST</subject>
+      <subject schemeURI="urn:ddi:int.cessda.cv:TopicClassification:3.0">POLITICS - Conflict, security and peace</subject>
       <subject schemeURI="http://sicris.izum.si/">Political and administrative sciences</subject>
-      <subject>PERCEPTION OF ENDANGERMENT</subject>
-      <subject>AWARENESS OF THE PREVENTIVE ACTIONS</subject>
-      <subject>PREPAREDNESS FOR EVACUATION</subject>
-      <subject>RESPONSE TO THE ANNOUNCEMENT OF EVACUATION</subject>
-      <subject>TEMPORARY ACCOMMODATION</subject>
-      <subject>TRUST IN INSTITUTIONS</subject>
-      <subject>DEMOGRAPHY</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">PERCEPTION OF ENDANGERMENT</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">AWARENESS OF THE PREVENTIVE ACTIONS</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">PREPAREDNESS FOR EVACUATION</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">RESPONSE TO THE ANNOUNCEMENT OF EVACUATION</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">TEMPORARY ACCOMMODATION</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">TRUST IN INSTITUTIONS</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">DEMOGRAPHY</subject>
    </subjects>
    <contributors>
       <contributor contributorType="Other">
          <contributorName nameType="Organizational">Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
       </contributor>
       <contributor contributorType="Other">
-         <contributorName>Ana Slavec, ADP and Jelena Juvan, ORC.</contributorName>
+         <contributorName>Ana Slavec, ADP</contributorName>
       </contributor>
       <contributor contributorType="DataManager">
          <contributorName>Obramboslovni raziskovalni center = Defence Studies Research Centre</contributorName>
@@ -77,15 +77,16 @@
    <dates>
       <date dateType="Submitted">2017-06-12</date>
       <date dateType="Issued">2017-10</date>
-      <date dateType="Collected" dateInformation="start">2012-09;</date>
-      <date dateType="Collected" dateInformation="end">2012-10;</date>
+      <date dateType="Collected" dateInformation="start">2012-09</date>
+      <date dateType="Collected" dateInformation="end">2012-10</date>
    </dates>
    <relatedIdentifiers>
       <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata"/>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.adp.fdv.uni-lj.si/podatki/</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/jek12/jek12_p1_sl_v1_r3.txt</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/jek12/jek12_p14_sl_v1_r1.pdf</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/jek12/jek12_vp1_sl_v1_r1.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/jek12/jek12_p14_sl_v1_r1.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/opisi/dostop/</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="ISSN" relationType="References">1848-9486</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="ISSN" relationType="References">2212-4209</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="ISSN" relationType="References">0353-085X</relatedIdentifier>
@@ -97,11 +98,12 @@
    <sizes>
       <size>502 cases</size>
       <size>117 variables</size>
+      <size>12 cases</size>
    </sizes>
    <formats>
       <format>*.txt - TEXT</format>
+      <format>*.pdf - GRAPHIC</format>
    </formats>
-   <version>October 2017</version>
    <rightsList>
       <rights rightsIdentifier="ccby">Data and materials are licensed under a Creative Commons Attribution 4.0 International License. The users should use the materials only for the purposes specified in Registration form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials.</rights>
       <rights>The users should acknowledge in any publication both the original depositors and the Archive.</rights>
@@ -114,30 +116,32 @@
             <description descriptionType="Methods">
                  
       
-        Cross-section. Single event.
+        Cross-sectionCrossSection
         Obramboslovni raziskovalni center = Defence Studies Research Centre
-        1) Probability: Simple random.
-        2) Non-probability: Purposive.
-        1) Face-to-face interview: PAPI.
-        2) Face-to-face interview.
-        1) Structured questionnaire.
-        2) Interview scheme and/or themes.
+        One-time data collection
+        Probability: Simple random1) Probability.SimpleRandom
+        Non-probability: Purposive2) Nonprobability.Purposive
+        1) Sampling was carried out by the Statistical Office of the Republic of Slovenia. The statistical characteristics of the realized sample match the characteristics 
+          of a simple random sample of N = 1,000 persons, aged eighteen and over.
+        Face-to-face interview: PAPI1) Interview.FaceToFace.PAPI
+        Interview2)Interview
+        Structured questionnaire1) Structured
+        Interview scheme and/or themes2) InterviewSchemeAndThemes
         (1) Data collection was carried out using the method of personal interview using a standardized survey instrument. In the framework of preparations for the 
           implementation of the research, the research group has set up procedures for the execution and supervision of fieldwork. The method of carrying out the survey was determined, 
           including the uniform phase of the field phase, the method of survey and the manner of surveillance of the interviewer's work. All potential respondents included in the sample 
           were previously informed that there is a possibility that they will be visited by the interviewer, as well as the essential objectives of the study. At the end of the fieldwork, 
-          on the basis of random selection of a certain number of respondents, it was verified that they were actually surveyed. All participation in the survey was confirmed. 
-        
+          on the basis of random selection of a certain number of respondents, it was verified that they were actually surveyed. All participation in the survey was confirmed.
         (2) 12 in-depth interviews with leaders in twelve major companies and institutions operating in the area of the municipality of Krško were carried out. Interviews were 
           conducted with principals of schools and kindergarten, company directors or a person in the company responsable for protection and rescue. The average interview lasted 30 minutes.
         No.
-        The data were partially cleaned for out of range values before deposited.
+        Data was cleaned.
       
       
         1) The number of completed questionnaires is 502 and the number of units in the sample is 1000. Thus, the response rate is 50.2%.
         2) For each of the selected organisations there was one respondent.
       
-      8: theoretically or practically important studies, studies that fill the research gap or have many implications for a wide range of practical problems, long term scholarly value
+      8 - theoretically or practically important studies, studies that fill the research gap or have many implications for a wide range of practical problems, long term scholarly value
      
             </description>
         -->
@@ -147,7 +151,7 @@
          <geoLocationPlace xml:lang="en-GB">Slovenia</geoLocationPlace>
       </geoLocation>
       <geoLocation>
-         <geoLocationPlace>Municipality of Krško</geoLocationPlace>
+         <geoLocationPlace xml:lang="en-GB">Municipality of Krško</geoLocationPlace>
       </geoLocation>
    </geoLocations>
    <fundingReferences>

@@ -2,7 +2,7 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns="http://datacite.org/schema/kernel-4"
           xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
-   <identifier identifierType="codeBook">HUMOR17</identifier>
+   <identifier identifierType="DOI">https://doi.org/10.17898/ADP_HUMOR17_V1</identifier>
    <creators>
       <creator>
          <creatorName>Mlačnik, Primož</creatorName>
@@ -19,14 +19,14 @@
    </titles>
    <publisher>Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
    <publicationYear>2018</publicationYear>
-   <resourceType resourceTypeGeneral="Dataset">Still image.</resourceType>
+   <resourceType resourceTypeGeneral="Dataset">Still imageStillImage</resourceType>
    <subjects>
       <subject>political jokes</subject>
       <subject>Slovenia</subject>
       <subject>post-socialism</subject>
       <subject>politicians</subject>
       <subject>Facebook</subject>
-      <subject schemeURI="http://www.adp.fdv.uni-lj.si//dokumenti/ADP_Sc.xml">POLITICS - mass political behaviour, attitudes/opinion</subject>
+      <subject schemeURI="urn:ddi:int.cessda.cv:TopicClassification:3.0">POLITICS - Political behaviour and attitudes</subject>
       <subject schemeURI="http://sicris.izum.si/">Sociology</subject>
    </subjects>
    <contributors>
@@ -54,7 +54,6 @@
    </dates>
    <relatedIdentifiers>
       <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata"/>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.adp.fdv.uni-lj.si/podatki/ </relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/humor17/humor17_p196_sl_v2_r2.txt</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/humor17/humor17_om1_sl_v1_r1.zip</relatedIdentifier>
    </relatedIdentifiers>
@@ -67,7 +66,7 @@
    </formats>
    <version>June 2018</version>
    <rightsList>
-      <rights rightsIdentifier="cc0">License Creative Commons 0</rights>
+      <rights rightsIdentifier="cc0">License Creative Commons 0.</rights>
       <rights>The users should acknowledge in any publication both the original depositors and the Archive.</rights>
       <rights>Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</rights>
       <rights>In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</rights>
@@ -78,22 +77,23 @@
             <description descriptionType="Methods">
                  
       
-        Cross-section. One-time data collection.
+        Cross-sectionCrossSection
         Fakulteta za družbene vede = Faculty of Social Sciences
-        Non-probability: Purposive
-        Content coding
-        Data collection guidelines: Secondary data collection guide
+        One-time data collection
+        Non-probability: PurposiveNonprobability.Purposive
+        
+        Content codingContentCoding
+        Data collection guidelines: Secondary data collection guideDataCollectionGuidelines.SecondaryDataCollectionGuide
         In each Facebook group there were 40 posts chosen on 19th of January 2017, from the most recent to the oldest. Posts were collected with footages of the screen 
-      (screenshots) where each footage represents one unit - joke. 
-      Time between posts can vary from few days to even a year. The frequency of posts differs from group to group. The oldest joke was posted on 18th of March 2015. 
-     
+          (screenshots) where each footage represents one unit - joke. 
+          Time between posts can vary from few days to even a year. The frequency of posts differs from group to group. The oldest joke was posted on 18th of March 2015.
         No.
-        The data were cleaned for out of range values before deposited.
+        Data was cleaned.
       
       
-        /
+        
       
-      6: methodological and substantive excellent studies without many implication for a wide range of problems
+      6 - methodological and substantive excellent studies without many implication for a wide range of problems
      
             </description>
         -->
@@ -103,12 +103,12 @@
          <geoLocationPlace xml:lang="en-GB">Slovenia</geoLocationPlace>
       </geoLocation>
       <geoLocation>
-         <geoLocationPlace>Slovenia</geoLocationPlace>
+         <geoLocationPlace xml:lang="en-GB">Slovenia</geoLocationPlace>
       </geoLocation>
    </geoLocations>
    <fundingReferences>
       <fundingReference>
-         <funderName>Javna agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</funderName>
+         <funderName>Javna agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</funderName>
          <awardNumber>39176 (young researcher)</awardNumber>
       </fundingReference>
    </fundingReferences>

@@ -2,7 +2,7 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns="http://datacite.org/schema/kernel-4"
           xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
-   <identifier identifierType="codeBook">FEMAKT16</identifier>
+   <identifier identifierType="DOI">https://doi.org/10.17898/ADP_FEMAKT16_V1</identifier>
    <creators>
       <creator>
          <creatorName>Ferko, Tajda</creatorName>
@@ -15,13 +15,13 @@
    </titles>
    <publisher>Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
    <publicationYear>2017</publicationYear>
-   <resourceType resourceTypeGeneral="Dataset">1, 2) Text.;3) Numeric.</resourceType>
+   <resourceType resourceTypeGeneral="Dataset">1, 2) TextText;3) NumericNumeric</resourceType>
    <subjects>
       <subject>third wave feminism</subject>
       <subject>intersectionality</subject>
       <subject>student feminist societies</subject>
       <subject>minority groups</subject>
-      <subject schemeURI="http://www.adp.fdv.uni-lj.si//dokumenti/ADP_Sc.xml">SOCIAL STRATIFICATION AND GROUPINGS - gender and gender roles</subject>
+      <subject schemeURI="urn:ddi:int.cessda.cv:TopicClassification:3.0">SOCIAL STRATIFICATION AND GROUPINGS - Gender and gender roles</subject>
       <subject schemeURI="http://sicris.izum.si/">Sociology</subject>
    </subjects>
    <contributors>
@@ -45,13 +45,15 @@
    <dates>
       <date dateType="Submitted">2018-01-19</date>
       <date dateType="Issued">2017-12</date>
-      <date dateType="Collected" dateInformation="single">2016</date>
-      <date dateType="Collected" dateInformation="single">2016</date>
+      <date dateType="Collected" dateInformation="start">2016-02-13</date>
+      <date dateType="Collected" dateInformation="end">2016-02-19</date>
+      <date dateType="Collected" dateInformation="start">2016-04-26</date>
+      <date dateType="Collected" dateInformation="end">2016-05-18</date>
    </dates>
    <relatedIdentifiers>
       <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata"/>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.adp.fdv.uni-lj.si/podatki/</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/femakt16/femakt16_p1_en_v2_r2.txt</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/femakt16/femakt16_p2_en_v2_r2.xml</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/femakt16/femakt16_vp1_en_v1_r1.pdf</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/femakt16/femakt16_p2_en_v1_r1.pdf</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="References">http://cobiss4.izum.si/scripts/cobiss?command=DISPLAY&amp;base=99999&amp;rid=34287965&amp;fmt=11&amp;lani=si</relatedIdentifier>
@@ -77,31 +79,30 @@
             <description descriptionType="Methods">
                  
       
-        Cross-section.
+        Cross-sectionCrossSection
         Ferko, Tajda
-        1, 2) Total universe/Complete enumeration.
-          In the first phase, student feminist societies within universities in the United Kingdom were identified (N = 84). 
+        One-time data collection
+        1, 2) Total universe/Complete enumerationTotalUniverseCompleteEnumeration
+        3) OtherOther
+        1, 2) In the first phase, student feminist societies within universities in the United Kingdom were identified (N = 84). 
           Through websites and Facebook groups, contact information from leading members of 70 societies was collected and an invitation to participate was sent via e-mail. 7 societies responded.
-        
-        3) The researcher sent an invitation to participate in the survey to all 20 closed FS Facebook groups.
-        
-        1) Face-to-face interview.
-        2)  E-mail interview.
-        3) Self-administered questionnaire: Web-based.
-        Structured questionnaire.
+        3) The researcher sent an invitation to participate in the survey to all 20 closed FS Facebook groups. 
+        1) Face-to-face interviewInterview.FaceToFace
+        2) E-mail interviewInterview.Email
+        3) Self-administered questionnaire: Web-basedSelfAdministeredQuestionnaire.WebBased
+        Structured questionnaireQuestionnaire.Structured
         1) Two interviews with leading members of FS were conducted: 1 via Skype call and another in person.
         2) Four questionnaires were sent in an e-mail attachment to the leading members of FS. Questionnaires were completed in the Microsoft Office Word document by respondents and sent back to the
           researcher.
-        
         3) The link to the survey on the Survey Planet portal was sent to all members of feminist societies within 20 Facebook groups that previously responded for co-operation. 
           152 respondents filled in the survey.  
         
-        Transcipts were proofread.
+        Data was cleaned.
       
       
         /
       
-      4: studies of limited conceptual extent and methodological sophistication
+      4 - studies of limited conceptual extent and methodological sophistication
      
             </description>
         -->
@@ -111,7 +112,7 @@
          <geoLocationPlace xml:lang="en-GB">United Kingdom of Great Britain and Northern Ireland</geoLocationPlace>
       </geoLocation>
       <geoLocation>
-         <geoLocationPlace>United Kingdom of Great Britain and Northern Ireland</geoLocationPlace>
+         <geoLocationPlace xml:lang="en-GB">United Kingdom of Great Britain and Northern Ireland</geoLocationPlace>
       </geoLocation>
    </geoLocations>
    <fundingReferences>
