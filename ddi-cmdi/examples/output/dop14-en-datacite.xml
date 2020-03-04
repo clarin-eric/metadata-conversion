@@ -2,7 +2,7 @@
 <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns="http://datacite.org/schema/kernel-4"
           xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
-   <identifier identifierType="codeBook">DOP14</identifier>
+   <identifier identifierType="DOI">https://doi.org/10.17898/ADP_DOP14_V1</identifier>
    <creators>
       <creator>
          <creatorName>Slaček Brlek, Sašo</creatorName>
@@ -22,14 +22,14 @@
       <title titleType="TranslatedTitle" xml:lang="sl-SI">Delovni odnosi in pogoji raznašalcev časopisov v Sloveniji, 2014</title>
    </titles>
    <publisher>Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
-   <publicationYear>2017</publicationYear>
-   <resourceType resourceTypeGeneral="Dataset">Text.</resourceType>
+   <!--<publicationYear><distDate date="201712">December 2017</distDate></publicationYear>-->
+   <resourceType resourceTypeGeneral="Dataset">TextText</resourceType>
    <subjects>
       <subject>newswork</subject>
       <subject>newspaper delivery</subject>
       <subject>management control</subject>
       <subject>collective bargaining</subject>
-      <subject schemeURI="http://www.adp.fdv.uni-lj.si//dokumenti/ADP_Sc.xml">LABOUR AND EMPLOYMENT - working conditions</subject>
+      <subject schemeURI="urn:ddi:int.cessda.cv:TopicClassification:3.0">LABOUR AND EMPLOYMENT - Working conditions</subject>
       <subject schemeURI="http://sicris.izum.si/">Sociology of labour, sociology of enterprise</subject>
    </subjects>
    <contributors>
@@ -40,10 +40,10 @@
          <contributorName>Sergeja Masten, ADP</contributorName>
       </contributor>
       <contributor contributorType="DataManager">
-         <contributorName>Center za raziskovanje družbenega komuniciranja = Social Communication Research Centre</contributorName>
+         <contributorName>Fakulteta za družbene vede = Faculty of Social Sciences</contributorName>
       </contributor>
       <contributor contributorType="DataCurator">
-         <contributorName nameType="Organizational">Center za raziskovanje družbenega komuniciranja = Social Communication Research Centre</contributorName>
+         <contributorName nameType="Organizational">Fakulteta za družbene vede = Faculty of Social Sciences</contributorName>
       </contributor>
       <contributor contributorType="RightsHolder">
          <contributorName nameType="Organizational">Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
@@ -52,14 +52,14 @@
    </contributors>
    <dates>
       <date dateType="Submitted">2017-12-21</date>
-      <date dateType="Issued">2017-12</date>
+      <date dateType="Issued">201712</date>
       <date dateType="Collected" dateInformation="start">2014-08-25</date>
       <date dateType="Collected" dateInformation="end">2014-09-16</date>
    </dates>
    <relatedIdentifiers>
       <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata"/>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.adp.fdv.uni-lj.si/podatki/</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.adp.fdv.uni-lj.si/opisi/dostop/</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/dop14/dop14_p1_sl_v1_r2.pdf</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/opisi/dostop/</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/dop14/dop14_vp1_sl_v1_r1.pdf</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/dop14/dop14_vp2_sl_v1_r1.pdf</relatedIdentifier>
@@ -89,37 +89,40 @@
             <description descriptionType="Methods">
                  
       
-        Cross-section. One-time data collection.
+        Cross-sectionCrossSection
         Center za raziskovanje družbenega komuniciranja = Social Communication Research Centre
-        Non-probability: Purposive. Non-probability: Respondent-assisted. Newspaper deliverers were included by the snowball method. Other respondents were invited according to their function in Dnevnik, d.d. and Izberi, d.o.o.
-        Face-to-face interview.
-        Semi-structured questionnaire.
+        One-time data collection
+        Non-probability: Purposive Nonprobability.Purposive
+        Non-probability: Respondent-assistedNonprobability.RespondentAssisted
+        Newspaper deliverers were included by the snowball method. Other respondents were invited according to their function in Dnevnik, d.d. and Izberi, d.o.o.
+        Face-to-face interviewInterview.FaceToFace
+        Semi-structured questionnaireQuestionnaire.Semistructured
         First contacts of newspaper deliverers were provided by a representative of the Association of Free Trade Unions of Slovenia, who helped in organizing collective action (resistance of newspaper deliverers).  
           Sampling continued on by using the snowball method. Interviewees that were sampled purposively (representatives of trade unions of the media company Dnevnik, representatives of the media companies Dnevnik, d.d., and Izberi, d.o.o), 
           were contacted by using publicly accessible contacts (e-mail, telephone). The willingness to cooperate of all of the interviewees to cooperate was high. On average, the interviews lasted a good hour.
         
         No.
-        The data were cleaned for out of range values before deposited.
+        Data was cleaned.
       
       
         /
       
-      7: studies that permits theoretical generalisations or relates on a practical problem, less influential
+      7 - studies that permits theoretical generalisations or relates on a practical problem, less influential
      
             </description>
         -->
    </descriptions>
    <geoLocations>
       <geoLocation>
-         <geoLocationPlace xml:lang="en-GB">Slovenia.</geoLocationPlace>
+         <geoLocationPlace xml:lang="en-GB">Slovenia</geoLocationPlace>
       </geoLocation>
       <geoLocation>
-         <geoLocationPlace>Slovenia.</geoLocationPlace>
+         <geoLocationPlace xml:lang="en-GB">Slovenia</geoLocationPlace>
       </geoLocation>
    </geoLocations>
    <fundingReferences>
       <fundingReference>
-         <funderName>Javna agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</funderName>
+         <funderName>Javna agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</funderName>
          <awardNumber>P5-0051</awardNumber>
       </fundingReference>
    </fundingReferences>
