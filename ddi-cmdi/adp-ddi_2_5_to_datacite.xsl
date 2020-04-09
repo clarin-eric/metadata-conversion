@@ -10,7 +10,7 @@
     version="2.0">
 
     <!--
-        DDI 1.2.2 to DataCite Kernel 4.3 conversion stylesheet
+        DDI 2.5 to DataCite Kernel 4.3 conversion stylesheet
         Made for ADP use cases (Arhiv družboslovnih podatkov / Social Science Data Archives, Ljubljana, SI)
         Author: Twan Goosen (CLARIN ERIC) <twan@clarin.eu>
     -->
