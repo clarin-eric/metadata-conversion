@@ -139,9 +139,17 @@
         
         <!-- <formats/> -->
         <xsl:if test="fileDscr/fileTxt/fileType">
-            <formats>
+            <xsl:variable name="formats">
                 <xsl:apply-templates select="fileDscr/fileTxt/fileType" />
-            </formats>
+            </xsl:variable>
+            
+            <xsl:if test="count($formats/datacite:format) > 0">
+                <formats>                    
+                    <xsl:for-each-group select="$formats/datacite:format" group-by="text()">
+                        <xsl:sequence select="."/>
+                    </xsl:for-each-group>
+                </formats>
+            </xsl:if>
         </xsl:if>
 
         <!-- <version/> -->
