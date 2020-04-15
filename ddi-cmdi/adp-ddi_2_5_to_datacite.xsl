@@ -3,6 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:datacite="http://datacite.org/schema/kernel-4"
     xmlns="http://datacite.org/schema/kernel-4"
     xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd"
     exclude-result-prefixes="xs"
@@ -164,14 +165,17 @@
         </xsl:if>
         
         <!-- <geoLocations /> -->
+            
         <xsl:variable name="geoLocations">
             <xsl:apply-templates select="stdyDscr/stdyInfo/sumDscr/nation" />
             <xsl:apply-templates select="stdyDscr/stdyInfo/sumDscr/geogCover" />
         </xsl:variable>
         
-        <xsl:if test="normalize-space($geoLocations) != ''">
+        <xsl:if test="count($geoLocations/datacite:geoLocation) > 0">
             <geoLocations>
-                <xsl:copy-of select="$geoLocations" />
+                <xsl:for-each-group select="$geoLocations/datacite:geoLocation" group-by="concat(datacite:geoLocationPlace/@xml:lang, datacite:geoLocationPlace)">
+                    <xsl:sequence select="."/>
+                </xsl:for-each-group>
             </geoLocations>
         </xsl:if>
 
@@ -186,7 +190,7 @@
         </xsl:if>       
     </resource>
     </xsl:template>
-    
+
     <xsl:template match="stdyDscr/citation/rspStmt/AuthEnty">
         <creator>
             <creatorName><xsl:value-of select="."/></creatorName>
@@ -394,7 +398,7 @@
             &lt;/description&gt;
         </xsl:comment>
     </xsl:template>
-    
+
     <xsl:template match="stdyInfo/sumDscr/nation|stdyInfo/sumDscr/geogCover">
         <geoLocation>
             <geoLocationPlace>
