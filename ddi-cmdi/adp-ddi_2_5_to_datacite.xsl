@@ -187,14 +187,22 @@
         <xsl:if test="stdyDscr/citation/prodStmt/fundAg|stdyDscr/citation/prodStmt/grantNo">
             <fundingReferences>
                 <fundingReference>
-                    <funderName><xsl:value-of select="normalize-space(stdyDscr/citation/prodStmt/fundAg)"/></funderName>
-                    <awardNumber><xsl:value-of select="normalize-space(stdyDscr/citation/prodStmt/grantNo)"/></awardNumber>
+                    <xsl:apply-templates select="stdyDscr/citation/prodStmt/fundAg" />
+                    <xsl:apply-templates select="stdyDscr/citation/prodStmt/grantNo" />
                 </fundingReference>
             </fundingReferences>
         </xsl:if>       
     </resource>
     </xsl:template>
-
+    
+    <xsl:template match="stdyDscr/citation/prodStmt/fundAg">
+        <funderName><xsl:value-of select="normalize-space(.)"/></funderName>
+    </xsl:template>
+    
+    <xsl:template match="stdyDscr/citation/prodStmt/grantNo">
+        <awardNumber><xsl:value-of select="normalize-space(.)"/></awardNumber>
+    </xsl:template>
+    
     <xsl:template match="stdyDscr/citation/rspStmt/AuthEnty">
         <creator>
             <creatorName><xsl:value-of select="."/></creatorName>
