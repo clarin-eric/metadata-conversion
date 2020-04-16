@@ -138,18 +138,13 @@
         </xsl:if>
         
         <!-- <formats/> -->
-        <xsl:if test="fileDscr/fileTxt/fileType">
-            <xsl:variable name="formats">
-                <xsl:apply-templates select="fileDscr/fileTxt/fileType" />
-            </xsl:variable>
-            
-            <xsl:if test="count($formats/datacite:format) > 0">
-                <formats>                    
-                    <xsl:for-each-group select="$formats/datacite:format" group-by="text()">
-                        <xsl:sequence select="."/>
-                    </xsl:for-each-group>
-                </formats>
-            </xsl:if>
+        <xsl:if test="count(fileDscr/fileTxt/fileType) > 0">
+            <formats>
+                <!-- only output distinct values, therefore group by value -->
+                <xsl:for-each-group select="fileDscr/fileTxt/fileType" group-by="text()">
+                    <format><xsl:value-of select="current-grouping-key()"/></format>
+                </xsl:for-each-group>
+            </formats>
         </xsl:if>
 
         <!-- <version/> -->
@@ -181,6 +176,7 @@
         
         <xsl:if test="count($geoLocations/datacite:geoLocation) > 0">
             <geoLocations>
+                <!-- only output distinct values, therefore group by value -->
                 <xsl:for-each-group select="$geoLocations/datacite:geoLocation" group-by="concat(datacite:geoLocationPlace/@xml:lang, datacite:geoLocationPlace)">
                     <xsl:sequence select="."/>
                 </xsl:for-each-group>
@@ -365,10 +361,6 @@
         <xsl:if test="varQnty and number(varQnty)">
             <size><xsl:value-of select="varQnty"/> variables</size>
         </xsl:if>
-    </xsl:template>
-    
-    <xsl:template match="fileTxt/fileType">
-        <format><xsl:value-of select="."/></format>
     </xsl:template>
     
     <xsl:template match="stdyDscr/dataAccs/useStmt">
