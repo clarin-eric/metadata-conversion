@@ -1,16 +1,40 @@
 #!/bin/bash
-echo "DDI conversion test"
 
 BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 TEST_OUT_DIR="test/out"
 
 SAXON_IMAGE='klakegg/saxon:9.9.1-7-he@sha256:18bd88758073d37fe5798dde9cb0aed91c1874957c0d03575d585ec977835012'
-XSLT_FILE='adp-ddi_2_5_to_datacite.xsl'
-SOURCE_RECORD='test/razjed10-en.xml'
-TARGET_RECORD='test/razjed10-en-datacite.xml'
 
-main() {
+main() {	
+	echo "============ DDI conversion test ============"
+
 	init
+	
+	if (
+		test_conversion 'adp-ddi_2_5_to_datacite.xsl' 'test/razjed10-en.xml' 'test/razjed10-en-datacite.xml' 
+		# && test_conversion 'adp-ddi_2_5_to_datacite.xsl' 'test/razjed10-en.xml' 'test/razjed10-en-cmdi.xml'
+		)
+	then
+		echo "Done. SUCCESS!"
+		exit 0
+	else
+		echo "One or more tests failed."
+		exit 1
+	fi
+}
+
+test_conversion() {
+	XSLT_FILE="${1}"
+	SOURCE_RECORD="${2}"
+	TARGET_RECORD="${3}"
+	
+	if ! ( [ -e "${BASE_DIR}/${SOURCE_RECORD}" ] \
+		&& [ -e "${BASE_DIR}/${TARGET_RECORD}" ] \
+		&& [ -e "${BASE_DIR}/${XSLT_FILE}" ] ); then
+		echo "ERROR: Source file, target file and/or XSLT file does not exist: " \
+			"${SOURCE_RECORD}" "${TARGET_RECORD}" "${XSLT_FILE}"
+		return 1
+	fi
 
 	CONVERSION_OUT="$(mktemp "${TEST_OUT_DIR}/converted.xml.XXXX")"
 	if run_xslt "${XSLT_FILE}" "${SOURCE_RECORD}" "${CONVERSION_OUT}" \
@@ -21,41 +45,38 @@ main() {
 			echo "Conversion output and target file comparison succeeded"
 		else
 			echo "FAILED: conversion output and target file comparison failed"
-			cleanup "${CONVERSION_OUT}"; exit 1
+			cleanup "${BASE_DIR}/${CONVERSION_OUT}"; return 1
 		fi
 		
 	else
 		echo "FAILED: conversion did not finish successfully!"
-		cleanup "${CONVERSION_OUT}"; exit 1
+		cleanup "${BASE_DIR}/${CONVERSION_OUT}"; return 1
 	fi
 
-	cleanup "${CONVERSION_OUT}"	
+	cleanup "${BASE_DIR}/${CONVERSION_OUT}"	
 	
-	echo "Done. SUCCESS!"
-	exit 0
+	return 0
 }
 
 init() {
-	echo "------ Init -----"
+	echo "------ Init ------"
+	echo "Current directory: $(pwd)"
+	echo "Base directory: ${BASE_DIR}"
+	echo "Test output directory: ${TEST_OUT_DIR}"
 	mkdir -p "${TEST_OUT_DIR}"
 	docker pull "${SAXON_IMAGE}"
-	
-	if ! ( [ -e "${SOURCE_RECORD}" ] && [ -e "${TARGET_RECORD}" ] && [ -e "${XSLT_FILE}" ] ); then
-		echo "ERROR: Source file and/or target file and/or XSLT file does not exist"
-		exit 1
-	fi
-	echo "-----------------"
+	echo "------------------"
 }
 
 cleanup() {
-	echo "------ Cleanup -------"
+	echo "------- Cleanup -------"
 	for f in "$@"; do
 		if [ -e "$f" ]; then
 			echo "- $f"
 			rm "$f"
 		fi
 	done
-	echo "----------------------"
+	echo "-----------------------"
 }
 
 run_xslt() {
@@ -63,6 +84,7 @@ run_xslt() {
 	SRC="$2"
 	OUT="$3"
 	
+	echo "-------- Running XSLT -------"
 	echo "Converting '${SRC}' with '${XSLT}'. Output file: '${OUT}'"
 
 	docker run --rm -i \
@@ -70,16 +92,17 @@ run_xslt() {
     -v "${BASE_DIR}:/src" \
     "${SAXON_IMAGE}" \
     xslt -s:"$SRC" -xsl:"${XSLT}" -o:"${OUT}"    
+	echo "-----------------------------"
 }
 
 compare_xml() {
-	SRC="$1"
-	TARGET="$2"	
+	SRC="${BASE_DIR}/$1"
+	TARGET="${BASE_DIR}/$2"	
 	
-	SRC_NORMALIZED="$(mktemp "${TEST_OUT_DIR}/src_normalized.xml.XXXX")"
-	OUT_NORMALIZED="$(mktemp "${TEST_OUT_DIR}/target_normalized.xml.XXXX")"
+	SRC_NORMALIZED="$(mktemp "${BASE_DIR}/${TEST_OUT_DIR}/src_normalized.xml.XXXX")"
+	OUT_NORMALIZED="$(mktemp "${BASE_DIR}/${TEST_OUT_DIR}/target_normalized.xml.XXXX")"
 	
-	echo "------ Comparing -----"
+	echo "-------- Comparing -------"
 	[ -e "${SRC}" ] && xmllint "${SRC}" > "${SRC_NORMALIZED}"
 	[ -e "${TARGET}" ] && xmllint "${TARGET}" > "${OUT_NORMALIZED}"
 	
@@ -87,7 +110,7 @@ compare_xml() {
 	SUCCESS="$?"
 	
 	echo "Diff exit code: ${SUCCESS}"
-	echo "----------------------"
+	echo "--------------------------"
 	
 	cleanup "${SRC_NORMALIZED}" "${OUT_NORMALIZED}"
 	
