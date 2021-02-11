@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://datacite.org/schema/kernel-4"
+          xmlns:datacite="http://datacite.org/schema/kernel-4"
+          xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+   <identifier identifierType="DOI">https://doi.org/10.17898/ADP_RAZJED10_V1</identifier>
+   <creators>
+      <creator>
+         <creatorName>Adam, Frane</creatorName>
+         <affiliation>Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</affiliation>
+      </creator>
+   </creators>
+   <titles>
+      <title xml:lang="en-GB">Local and regional developmental cores</title>
+      <title titleType="TranslatedTitle" xml:lang="sl-SI">Lokalna in regionalna razvojna jedra</title>
+   </titles>
+   <publisher>Arhiv družboslovnih podatkov = Social Science Data Archives</publisher>
+   <publicationYear>2010</publicationYear>
+   <resourceType resourceTypeGeneral="Dataset">TextText</resourceType>
+   <subjects>
+      <subject>regional development</subject>
+      <subject>innovative cores</subject>
+      <subject>support institutions</subject>
+      <subject>application of economic knowledge</subject>
+      <subject>civil society</subject>
+      <subject>non-governmental organizations</subject>
+      <subject>DEVELOPMENT</subject>
+      <subject>DEVELOPMENT PROGRAMMES</subject>
+      <subject>REGIONAL DEVELOPMENT</subject>
+      <subject>INFORMATION TRANSFER</subject>
+      <subject>COMMUNITY DEVELOPMENT</subject>
+      <subject>INNOVATION</subject>
+      <subject>SOCIAL CAPITAL</subject>
+      <subject schemeURI="urn:ddi:int.cessda.cv:TopicClassification:3.0">OTHER</subject>
+      <subject schemeURI="http://sicris.izum.si/">Development cooperation</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">ORGANISATIONAL CULTURE OF ENTERPRISES AND INSTITUTIONS</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">INNOVATIVE ENVIRONMENT</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">COMMUNICATION PROCESSES WITHIN ENTERPRISES AND INSTITUTIONS</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">COMMUNICATION TO OTHER RELEVANT ACTORS</subject>
+      <subject schemeURI="http://www.adp.fdv.uni-lj.si">LOCAL AND REGIONAL LEVEL</subject>
+   </subjects>
+   <contributors>
+      <contributor contributorType="Other">
+         <contributorName nameType="Organizational">Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
+      </contributor>
+      <contributor contributorType="Other">
+         <contributorName>Sanja Lužar, ADP</contributorName>
+      </contributor>
+      <contributor contributorType="DataManager">
+         <contributorName>Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</contributorName>
+      </contributor>
+      <contributor contributorType="DataManager">
+         <contributorName>Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica</contributorName>
+      </contributor>
+      <contributor contributorType="DataCurator">
+         <contributorName nameType="Organizational">Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</contributorName>
+      </contributor>
+      <contributor contributorType="RightsHolder">
+         <contributorName nameType="Organizational">Arhiv družboslovnih podatkov = Social Science Data Archives</contributorName>
+         <affiliation>ADP</affiliation>
+      </contributor>
+   </contributors>
+   <dates>
+      <date dateType="Submitted">2010-04-20</date>
+      <date dateType="Issued">2010-05</date>
+      <date dateType="Collected" dateInformation="single">2008-11</date>
+      <date dateType="Collected" dateInformation="start">2009-01</date>
+      <date dateType="Collected" dateInformation="end">2009-03</date>
+      <date dateType="Collected" dateInformation="single">2009-11</date>
+   </dates>
+   <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata"/>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.adp.fdv.uni-lj.si/podatki/</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/razjed10/razjed10-go-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/razjed10/razjed10-jv-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/razjed10/razjed10-ok-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/razjed10/razjed10-os-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/razjed10/razjed10-po-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-vp.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-go-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-jv-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-ok-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-os-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-po-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-go-p.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-jv-p.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-ok-p.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-os-p.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-po-p.pdf</relatedIdentifier>
+   </relatedIdentifiers>
+   <sizes>
+      <size>9 cases</size>
+      <size>3 cases</size>
+      <size>7 cases</size>
+      <size>7 cases</size>
+      <size>1 cases</size>
+   </sizes>
+   <formats>
+      <format>*.pdf - GRAPHIC</format>
+   </formats>
+   <rightsList>
+      <rights rightsIdentifier="res">The users should use the materials only for the purposes specified in Ordering form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials.</rights>
+      <rights>The users should acknowledge in any publication both the original depositors and the Archive.</rights>
+      <rights>Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</rights>
+      <rights>In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</rights>
+   </rightsList>
+   <descriptions>
+      <description descriptionType="Abstract" xml:lang="en-GB">The survey is focused on developmental potentials, innovative actors and support institutions (incubators and technological parks), their formation, mutual interaction and communication in particular from the perspective of knowledge transfer and on the role of civil society and NGOs in this framework. The hypothesis is that density of these organizations (NGOs) is important for formation and diffusion of social capital. NGOs can be directly or in-directly included in local developmental projects.</description>
+      <!--
+            <description descriptionType="Methods">
+                 
+      
+        Cross-sectionCrossSection
+        Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis
+        Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica
+        One-time data collection
+        Non-probability: Respondent-assistedNonprobability.RespondentAssisted
+        Face-to-face interviewInterview.FaceToFace
+        Focus groupFocusGroup
+        Semi-structured questionnaireQuestionnaire.Semistructured
+        Data was cleaned.
+      
+      
+      8 - theoretically or practically important studies, studies that fill the research gap or have many implications for a wide range of practical problems, long term scholarly value
+     
+            </description>
+        -->
+   </descriptions>
+   <geoLocations>
+      <geoLocation>
+         <geoLocationPlace xml:lang="en-GB">Slovenia</geoLocationPlace>
+      </geoLocation>
+      <geoLocation>
+         <geoLocationPlace xml:lang="en-GB">Central Slovenia</geoLocationPlace>
+      </geoLocation>
+      <geoLocation>
+         <geoLocationPlace xml:lang="en-GB">Goriška region</geoLocationPlace>
+      </geoLocation>
+      <geoLocation>
+         <geoLocationPlace xml:lang="en-GB">Coastal-Carsic region</geoLocationPlace>
+      </geoLocation>
+      <geoLocation>
+         <geoLocationPlace xml:lang="en-GB">Southeastern region</geoLocationPlace>
+      </geoLocation>
+   </geoLocations>
+   <fundingReferences>
+      <fundingReference>
+         <funderName>Agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</funderName>
+         <funderName>Služba Vlade RS za lokalno samoupravo in regionalno politiko = Government Office for Local Self-Government and Regional Policy</funderName>
+         <awardNumber>L5-0654</awardNumber>
+      </fundingReference>
+   </fundingReferences>
+</resource>

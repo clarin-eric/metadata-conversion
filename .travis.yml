@@ -3,4 +3,10 @@ language: minimal
 services:
   - docker
 
+addons:
+  apt:
+    packages:
+      # Needed for `xmllint`.
+      - libxml2-utils
+
 script: bash 'test.sh'
