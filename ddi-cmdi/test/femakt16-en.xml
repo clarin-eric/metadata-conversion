@@ -1,0 +1,1427 @@
+<?xml version='1.0' encoding='utf-8'?>
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5" xml:lang="en-GB">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">Intersectionality and Feminist Activism, 2016</titl>
+        <subTitl xml:lang="en-GB">Student Feminist Societies in the United Kingdom</subTitl>
+        <parTitl xml:lang="sl-SI">Intersekcionalnost in feministični aktivizem, 2016: študentska feministična društva v Združenem Kraljestvu</parTitl>
+        <IDNo agency="ADP">FEMAKT16</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Ferko, Tajda</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</producer>
+        <copyright>ADP, 2017</copyright>
+        <prodDate date="2017-12" xml:lang="en-GB">December 2017</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana, Slovenia</prodPlac>
+        <software version="17.1" ID="Oxygen" xml:lang="en-GB">Oxygen</software>
+        <fundAg abbr="ARRS" xml:lang="en-GB">Javna agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</fundAg>
+        <grantNo agency="ARRS">1000-15-0510 (IRC)</grantNo>
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" xml:lang="en-GB" URI="http://www.adp.fdv.uni-lj.si/">Arhiv družboslovnih podatkov = Social Science Data Archives</distrbtr>
+        <distDate date="2017-12" xml:lang="en-GB">December 2017</distDate>
+      </distStmt>
+      <verStmt>
+        <version type="version" xml:lang="en-GB">ADP XML Codebook file</version>
+        <verResp>Sergeja Masten, ADP</verResp>
+        <notes ID="Authorized" xml:lang="en-GB" type="Avtorizacija">Tajda Ferko in Sergeja Masten, ADP, sta pripravili opis raziskave. Study Description is authorized.</notes>
+      </verStmt>
+      <biblCit>Ferko, T. (2017). Intersectionality and Feminist Activism, 2016: Student Feminist Societies in the United Kingdom [Codebook file]. Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives. ADP - IDNo: FEMAKT16. https://doi.org/10.17898/ADP_FEMAKT16_V1</biblCit>
+      <holdings URI="http://www.adp.fdv.uni-lj.si/opisi/">ADP DDI</holdings>
+    </citation>
+    <docStatus xml:lang="en-GB">4 - Full Study description and XML DDI Codebook Data description with full questions text.</docStatus>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">Intersectionality and Feminist Activism, 2016</titl>
+        <subTitl xml:lang="en-GB">Student Feminist Societies in the United Kingdom</subTitl>
+        <parTitl xml:lang="sl-SI">Intersekcionalnost in feministični aktivizem, 2016: študentska feministična društva v Združenem Kraljestvu</parTitl>
+        <IDNo agency="ADP">FEMAKT16</IDNo>
+        <IDNo agency="dara">https://doi.org/10.17898/ADP_FEMAKT16_V1</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Ferko, Tajda</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer xml:lang="en-GB">Ferko, Tajda</producer>
+        <prodDate date="2016" xml:lang="en-GB">2016</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana, Slovenia</prodPlac>
+        <prodPlac xml:lang="en-GB">Leeds, England</prodPlac>
+        <software version="" ID="MicrosoftWord" xml:lang="en-GB">Microsoft Word</software>
+        <software version="" ID="MicrosoftExcel" xml:lang="en-GB">Microsoft Excel</software>
+        <software version="" ID="Other" xml:lang="en-GB">Other</software>
+        <software version="" xml:lang="en-GB">Survey planet</software>
+        <fundAg xml:lang="en-GB">Financed by own funds.</fundAg>
+        <!-- <grantNo agency=""></grantNo> -->
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" URI="http://www.adp.fdv.uni-lj.si/">Arhiv družboslovnih podatkov = Social Science Data Archives</distrbtr>
+        <depositr abbr="FDV">Ferko, Tajda</depositr>
+        <depDate date="2018-01-19" xml:lang="en-GB">19. January 2018</depDate>
+        <distDate date="2017-12" xml:lang="en-GB">December 2017</distDate>
+      </distStmt>
+      <biblCit>Ferko, T. (2017). Intersectionality and Feminist Activism, 2016: Student Feminist Societies in the United Kingdom [Data file]. Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives. ADP - IDNo: FEMAKT16. https://doi.org/10.17898/ADP_FEMAKT16_V1</biblCit>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword xml:lang="en-GB" vocab="ADP">third wave feminism</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">intersectionality</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">student feminist societies</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">minority groups</keyword>
+        <topcClas xml:lang="en-GB" ID="SocialStratificationAndGroupings.GenderAndGenderRoles" vocab="CESSDA Topic Classification" vocabURI="urn:ddi:int.cessda.cv:TopicClassification:3.0">SOCIAL STRATIFICATION AND GROUPINGS - Gender and gender roles</topcClas>
+        <topcClas xml:lang="en-GB" ID="S210" vocab="CERIF" vocabURI="http://sicris.izum.si/">Sociology</topcClas>
+      </subject>
+      <abstract xml:lang="en-GB">Intersectional perspective underlines the fact that oppression in a society has a number of sources, which interact and overlap one another. 
+        Intersectionality is not only an academic project, but is also part of feminist activism. 
+        In this research, intersectionality is analysed in relation to student feminist societies which operate at 84 universities throughout the United Kingdom. 
+        The study was conducted by using the method of interview – talks with leading members of student feminist societies across the United Kingdom – and survey, 
+        by which we included a larger proportion of members of student feminist societies.</abstract>
+      <sumDscr>
+        <timePrd event="start" date="2016-02" xml:lang="en-GB">February 2016</timePrd>
+        <timePrd date="2016-05" event="end" xml:lang="en-GB">May 2016</timePrd>
+        <collDate event="start" date="2016-02-13" xml:lang="en-GB">1, 2) Interviews: 13. February 2016</collDate>
+        <collDate date="2016-02-19" event="end" xml:lang="en-GB">19. February 2016</collDate>
+        <collDate event="start" date="2016-04-26" xml:lang="en-GB">3) Survey: 26. April 2016</collDate>
+        <collDate date="2016-05-18" event="end" xml:lang="en-GB">18. May 2016</collDate>
+        <nation xml:lang="en-GB" abbr="UK">United Kingdom of Great Britain and Northern Ireland</nation>
+        <geogCover xml:lang="en-GB">United Kingdom of Great Britain and Northern Ireland</geogCover>
+        <geogUnit xml:lang="en-GB">Geographic units are not determined<concept vocab="ADP-GeogUnit">GeographicUnitNotDetermined</concept></geogUnit>
+        <anlyUnit xml:lang="en-GB">Individual<concept vocab="DDI Analysis Unit" vocabURI="urn:ddi-cv:AnalysisUnit:1.0">Individual</concept></anlyUnit>
+        <universe clusion="I" xml:lang="en-GB">Members of 84 student feminist societies in United Kingdom of Great Britain and Northern Ireland.</universe>
+        <!--<universe clusion="E" xml:lang="en-GB"></universe>-->
+        <dataKind xml:lang="en-GB">1, 2) Text<concept vocab="DDI General Data Format" vocabURI="urn:ddi-cv:GeneralDataFormat:2.0">Text</concept></dataKind>
+        <dataKind xml:lang="en-GB">3) Numeric<concept vocab="DDI General Data Format" vocabURI="urn:ddi-cv:GeneralDataFormat:2.0">Numeric</concept></dataKind>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <timeMeth xml:lang="en-GB">Cross-section<concept vocab="DDI Time Method" vocabURI="urn:ddi-cv:TimeMethod:1.2">CrossSection</concept></timeMeth>
+        <dataCollector xml:lang="en-GB">Ferko, Tajda</dataCollector>
+        <frequenc ID="OneTime" xml:lang="en-GB">One-time data collection</frequenc>
+        <sampProc xml:lang="en-GB">1, 2) Total universe/Complete enumeration<concept vocab="DDI Sampling Procedure" vocabURI="urn:ddi-cv:SamplingProcedure:1.1">TotalUniverseCompleteEnumeration</concept></sampProc>
+        <sampProc xml:lang="en-GB">3) Other<concept vocab="DDI Sampling Procedure" vocabURI="urn:ddi-cv:SamplingProcedure:1.1">Other</concept></sampProc>
+        <sampProc xml:lang="en-GB">1, 2) In the first phase, student feminist societies within universities in the United Kingdom were identified (N = 84). 
+          Through websites and Facebook groups, contact information from leading members of 70 societies was collected and an invitation to participate was sent via e-mail. 7 societies responded.</sampProc>
+        <sampProc xml:lang="en-GB">3) The researcher sent an invitation to participate in the survey to all 20 closed FS Facebook groups. </sampProc>
+        <collMode xml:lang="en-GB">1) Face-to-face interview<concept vocab="DDI Mode of Collection" vocabURI="urn:ddi-cv:ModeOfCollection:3.0">Interview.FaceToFace</concept></collMode>
+        <collMode xml:lang="en-GB">2) E-mail interview<concept vocab="DDI Mode of Collection" vocabURI="urn:ddi-cv:ModeOfCollection:3.0">Interview.Email</concept></collMode>
+        <collMode xml:lang="en-GB">3) Self-administered questionnaire: Web-based<concept vocab="DDI Mode of Collection" vocabURI="urn:ddi-cv:ModeOfCollection:3.0">SelfAdministeredQuestionnaire.WebBased</concept></collMode>
+        <resInstru xml:lang="en-GB">Structured questionnaire<concept vocab="DDI Type of Instrument" vocabURI="urn:ddi-cv:TypeOfInstrument:1.1">Questionnaire.Structured</concept></resInstru>
+        <collSitu xml:lang="en-GB">1) Two interviews with leading members of FS were conducted: 1 via Skype call and another in person.</collSitu>
+        <collSitu xml:lang="en-GB">2) Four questionnaires were sent in an e-mail attachment to the leading members of FS. Questionnaires were completed in the Microsoft Office Word document by respondents and sent back to the
+          researcher.</collSitu>
+        <collSitu xml:lang="en-GB">3) The link to the survey on the Survey Planet portal was sent to all members of feminist societies within 20 Facebook groups that previously responded for co-operation. 
+          152 respondents filled in the survey.  <Link refs="FEMAKT16_RP1_SL_V1_R0"/></collSitu>
+        <!--<actMin>Ukrepi za zmanjsevanje ne odgovorov</actMin>
+        <weight xml:lang="en-GB">&w0;</weight>-->
+        <cleanOps ID="DataCleaned" xml:lang="en-GB">Data was cleaned.</cleanOps>
+      </dataColl>
+      <anlyInfo>
+        <respRate xml:lang="en-GB">/</respRate>
+      </anlyInfo>
+      <stdyClas ID="oc4" xml:lang="en-GB" type="ADP">4 - studies of limited conceptual extent and methodological sophistication</stdyClas>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <accsPlac URI="http://www.adp.fdv.uni-lj.si/podatki/" xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</accsPlac>
+        <collSize xml:lang="en-GB">1 Data file and 1 document of transripts.</collSize>
+        <fileQnty>2</fileQnty>
+      </setAvail>
+      <useStmt>
+        <restrctn xml:lang="en-GB" ID="ccby">Data and materials are licensed under a Creative Commons Attribution 4.0 International License. The users should use the materials only for the purposes specified in Registration form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials. </restrctn>
+        <contact affiliation="ADP" email="arhiv.podatkov@fdv.uni-lj.si" xml:lang="en-GB" URI="http://www.adp.fdv.uni-lj.si/">Arhiv družboslovnih podatkov = Social Science Data Archives</contact>
+        <citReq xml:lang="en-GB">The users should acknowledge in any publication both the original depositors and the Archive.</citReq>
+        <deposReq xml:lang="en-GB">Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</deposReq>
+        <conditions xml:lang="en-GB">In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</conditions>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <!-- &rM; -->
+      <relPubl ID="FEMAKT16_RP1_SL_V1_R0">
+  <citation><titlStmt><titl xml:lang="en-GB">Študentska feministična društva v Združenem kraljestvu v povezavi s tretjim valom feminizma</titl><IDNo agency="COBISS-ID">34287965</IDNo></titlStmt><rspStmt><AuthEnty>Ferko, Tajda</AuthEnty></rspStmt><prodStmt><producer xml:lang="en-GB">Fakulteta za družbene vede = Faculty of Social Sciences</producer><prodDate date="2016" xml:lang="en-GB">2016</prodDate><prodPlac xml:lang="en-GB">Ljubljana</prodPlac></prodStmt><holdings URI="http://cobiss4.izum.si/scripts/cobiss?command=DISPLAY&amp;base=99999&amp;rid=34287965&amp;fmt=11&amp;lani=si">FDV</holdings></citation></relPubl>
+      <relPubl ID="FEMAKT16_RP2_EN_V1_R0">
+  <citation><titlStmt><titl xml:lang="en-GB">Intersectionality and Feminist Activism: Student Feminist Societies in the United Kingdom</titl><IDNo agency="COBISS-ID">35391837</IDNo></titlStmt><rspStmt><AuthEnty>Šadl, Zdenka</AuthEnty><AuthEnty>Ferko, Tajda</AuthEnty></rspStmt><prodStmt><producer xml:lang="en-GB">Fakulteta za družbene vede = Faculty of Social Sciences</producer><prodDate date="2017" xml:lang="en-GB">2017</prodDate><prodPlac xml:lang="en-GB">Ljubljana</prodPlac></prodStmt><holdings URI="http://cobiss4.izum.si/scripts/cobiss?command=DISPLAY&amp;base=99999&amp;rid=35391837&amp;fmt=11&amp;lani=si">Tajda Ferko</holdings></citation></relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr ID="F1" xml:lang="en-GB" URI="../podatki/femakt16/femakt16_p2_en_v2_r2.xml" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="en-GB" ID="FEMAKT16_P1_EN_V2_R2">Intersekcionalnost in feministični aktivizem, 2016: študentska feministična društva v Združenem Kraljestvu [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="en-GB">Intersekcionalnost in feministični aktivizem, 2016: študentska feministična društva v Združenem Kraljestvu [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Ferko, Tajda</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>152</caseQnty>
+        <varQnty>13</varQnty>
+      </dimensns>
+      <fileType xml:lang="en-GB">*.txt - TEXT</fileType>
+      <filePlac>ADP</filePlac>
+      <verStmt>
+        <version date="2017-012" xml:lang="en-GB">December 2017</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="V1" name="v1_r" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="8" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        University feminist societies
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          Please name the Student Feminist Society you're a member of:
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="20"/>
+      </valrng>
+      <invalrng>
+        <item UNITS="REAL" VALUE="0"/>
+        <item UNITS="REAL" VALUE="21"/>
+      </invalrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        135
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        17
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Aberdeen
+        </labl>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <labl xml:lang="en-GB">
+          Langton
+        </labl>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <labl xml:lang="en-GB">
+          Kingston
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          4
+        </catValu>
+        <labl xml:lang="en-GB">
+          Lancaster
+        </labl>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          5
+        </catValu>
+        <labl xml:lang="en-GB">
+          Exeter
+        </labl>
+        <catStat type="freq">
+          39
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          6
+        </catValu>
+        <labl xml:lang="en-GB">
+          Leeds
+        </labl>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          7
+        </catValu>
+        <labl xml:lang="en-GB">
+          East Anglia
+        </labl>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          8
+        </catValu>
+        <labl xml:lang="en-GB">
+          Essex
+        </labl>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          9
+        </catValu>
+        <labl xml:lang="en-GB">
+          Royal Halloway (London)
+        </labl>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          10
+        </catValu>
+        <labl xml:lang="en-GB">
+          Edge Hill
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          11
+        </catValu>
+        <labl xml:lang="en-GB">
+          Glasgow
+        </labl>
+        <catStat type="freq">
+          11
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          12
+        </catValu>
+        <labl xml:lang="en-GB">
+          Keele
+        </labl>
+        <catStat type="freq">
+          16
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          13
+        </catValu>
+        <labl xml:lang="en-GB">
+          King's College (London)
+        </labl>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          14
+        </catValu>
+        <labl xml:lang="en-GB">
+          Aberystwyth
+        </labl>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          15
+        </catValu>
+        <labl xml:lang="en-GB">
+          Liverpool
+        </labl>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          16
+        </catValu>
+        <labl xml:lang="en-GB">
+          Bournemouth
+        </labl>
+        <catStat type="freq">
+          6
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          17
+        </catValu>
+        <labl xml:lang="en-GB">
+          Oxford Brookes
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          18
+        </catValu>
+        <labl xml:lang="en-GB">
+          Edingburgh
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          19
+        </catValu>
+        <labl xml:lang="en-GB">
+          Falmouth
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          20
+        </catValu>
+        <labl xml:lang="en-GB">
+          Kent
+        </labl>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          0
+        </catValu>
+        <labl xml:lang="en-GB">
+          n.a.
+        </labl>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          21
+        </catValu>
+        <labl xml:lang="en-GB">
+          Not a member
+        </labl>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V2" name="v2" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="1" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        Currently enrolled at University as:
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          Currently enrolled at University as:
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="3"/>
+      </valrng>
+      <invalrng>
+        <item UNITS="REAL" VALUE="4"/>
+      </invalrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        150
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        2
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Bachelor Student
+        </labl>
+        <catStat type="freq">
+          123
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <labl xml:lang="en-GB">
+          Master Student
+        </labl>
+        <catStat type="freq">
+          18
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <labl xml:lang="en-GB">
+          PhD Student
+        </labl>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V3" name="v3" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="8" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        Gender identity:
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          Which of the following best describes your gender identity?
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="6"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        152
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Male
+        </labl>
+        <catStat type="freq">
+          17
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <labl xml:lang="en-GB">
+          Female
+        </labl>
+        <catStat type="freq">
+          124
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <labl xml:lang="en-GB">
+          Trans male/trans man
+        </labl>
+        <catStat type="freq">
+          0
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          4
+        </catValu>
+        <labl xml:lang="en-GB">
+          Trans female/trans woman
+        </labl>
+        <catStat type="freq">
+          0
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          5
+        </catValu>
+        <labl xml:lang="en-GB">
+          Genderqueer/gender non-conforming
+        </labl>
+        <catStat type="freq">
+          10
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          6
+        </catValu>
+        <labl xml:lang="en-GB">
+          Different identity:Demimale
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V4" name="v4" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="8" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        Sexual identity:
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          Which of the following best describes your sexual identity?
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="9"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        152
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Heterosexual or Straight
+        </labl>
+        <catStat type="freq">
+          85
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <labl xml:lang="en-GB">
+          Gay or Lesbian
+        </labl>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <labl xml:lang="en-GB">
+          Bisexual
+        </labl>
+        <catStat type="freq">
+          40
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          4
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: Celibate
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          5
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: Bicurious
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          6
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: Fluid
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          7
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: Pansexual
+        </labl>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          8
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: Queer
+        </labl>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          9
+        </catValu>
+        <labl xml:lang="en-GB">
+          Prefer not to say
+        </labl>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V5" name="v5" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="8" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        Family's class status:
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          How would you describe your family's social class status?
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="3"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        152
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Working Class
+        </labl>
+        <catStat type="freq">
+          47
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <labl xml:lang="en-GB">
+          Middle Class
+        </labl>
+        <catStat type="freq">
+          102
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <labl xml:lang="en-GB">
+          Upper Class
+        </labl>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V6" name="v6" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="8" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        Ethnic group:
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          What is your ethnic group?
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="8"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        152
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          White British
+        </labl>
+        <catStat type="freq">
+          130
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <labl xml:lang="en-GB">
+          Mixed/Multiple Ethnic Groups
+        </labl>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <labl xml:lang="en-GB">
+          Asian/Asian British
+        </labl>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          4
+        </catValu>
+        <labl xml:lang="en-GB">
+          Black/African/Caribbean/Black British
+        </labl>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          5
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: A
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          6
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: Arab
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          7
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: Ashkenazi
+        </labl>
+        <catStat type="freq">
+          2
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          8
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: Jewish
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V7" name="v7" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="8" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        Religion:
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          What is your religion?
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="13"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        152
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          No religion
+        </labl>
+        <catStat type="freq">
+          110
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <labl xml:lang="en-GB">
+          Christian
+        </labl>
+        <catStat type="freq">
+          27
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <labl xml:lang="en-GB">
+          Buddhist
+        </labl>
+        <catStat type="freq">
+          0
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          4
+        </catValu>
+        <labl xml:lang="en-GB">
+          Hindu
+        </labl>
+        <catStat type="freq">
+          0
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          5
+        </catValu>
+        <labl xml:lang="en-GB">
+          Jewish
+        </labl>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          6
+        </catValu>
+        <labl xml:lang="en-GB">
+          Muslim
+        </labl>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          7
+        </catValu>
+        <labl xml:lang="en-GB">
+          Sikh
+        </labl>
+        <catStat type="freq">
+          0
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          8
+        </catValu>
+        <labl xml:lang="en-GB">
+          Any other religion
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          9
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other:Agnostic
+        </labl>
+        <catStat type="freq">
+          4
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          10
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other:I believe in something, I'm just not sure what
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          11
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: Pagan
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          12
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: The way of the Jedi
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          13
+        </catValu>
+        <labl xml:lang="en-GB">
+          Other: Unitarian
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V8" name="v8" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="8" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        Disability or leaning difficulty?
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          Do you have a disability or learning difficulty?
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="2"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        151
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        1
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Yes
+        </labl>
+        <catStat type="freq">
+          32
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <labl xml:lang="en-GB">
+          No
+        </labl>
+        <catStat type="freq">
+          119
+        </catStat>
+      </catgry>
+      <catgry missing="Y">
+        <catValu>
+          Sysmiss
+        </catValu>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V9" name="v9" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="29" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        I as intersectional feminist
+      </labl>
+      <qstn>
+        <preQTxt>
+          Please indicate your level of agreement with the following statements
+        </preQTxt><qstnLit xml:lang="en-GB">
+          I identify as an intersectional feminist.
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="5"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        152
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Strongly Agree
+        </labl>
+        <catStat type="freq">
+          82
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          49
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <catStat type="freq">
+          13
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          4
+        </catValu>
+        <catStat type="freq">
+          7
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          5
+        </catValu>
+        <labl xml:lang="en-GB">
+          Strongly Disagree
+        </labl>
+        <catStat type="freq">
+          1
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V10" name="v10" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="29" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        FS is intersectional
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          The feminist society I am a member of is intersectional.
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="5"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        152
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Strongly Agree
+        </labl>
+        <catStat type="freq">
+          40
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          66
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <catStat type="freq">
+          33
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          4
+        </catValu>
+        <catStat type="freq">
+          8
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          5
+        </catValu>
+        <labl xml:lang="en-GB">
+          Strongly Disagree
+        </labl>
+        <catStat type="freq">
+          5
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V11" name="v11" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="29" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        The FS I am a member of represents a safe space.
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          The feminist society I am a member of represents a safe space for members of minorities (LGBT, class, ethnic and religious minorities, persons with disabilities).
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="5"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        152
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Strongly Agree
+        </labl>
+        <catStat type="freq">
+          57
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <catStat type="freq">
+          67
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <catStat type="freq">
+          16
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          4
+        </catValu>
+        <catStat type="freq">
+          9
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          5
+        </catValu>
+        <labl xml:lang="en-GB">
+          Strongly Disagree
+        </labl>
+        <catStat type="freq">
+          3
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V12" name="v12" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="8" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        The wave narrative is still relevant today?
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          Do you think that when discussing feminism, the 'wave narrative' (First, Second and Third-Wave Feminisms) is still relevant today?
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="3"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        152
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Yes
+        </labl>
+        <catStat type="freq">
+          67
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <labl xml:lang="en-GB">
+          No
+        </labl>
+        <catStat type="freq">
+          40
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <labl xml:lang="en-GB">
+          I don't know
+        </labl>
+        <catStat type="freq">
+          45
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+    <var ID="V13" name="v13" files="F1" dcml="0" intrvl="discrete" wgt="not-wgt">
+      <location width="8" RecSegNo="1"/>
+      <labl xml:lang="en-GB">
+        Students FS related to third-wave feminism?
+      </labl>
+      <qstn>
+        <qstnLit xml:lang="en-GB">
+          Have you come across Student Feminist Societies being related to third-wave feminism?
+        </qstnLit></qstn>
+      <valrng>
+        <range UNITS="REAL" min="1" max="3"/>
+      </valrng>
+      <sumStat type="vald" wgtd="not-wgtd">
+        152
+      </sumStat>
+      <sumStat type="invd" wgtd="not-wgtd">
+        0
+      </sumStat>
+      <catgry missing="N">
+        <catValu>
+          1
+        </catValu>
+        <labl xml:lang="en-GB">
+          Yes
+        </labl>
+        <catStat type="freq">
+          74
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          2
+        </catValu>
+        <labl xml:lang="en-GB">
+          No
+        </labl>
+        <catStat type="freq">
+          18
+        </catStat>
+      </catgry>
+      <catgry missing="N">
+        <catValu>
+          3
+        </catValu>
+        <labl xml:lang="en-GB">
+          I don't know
+        </labl>
+        <catStat type="freq">
+          60
+        </catStat>
+      </catgry>
+      <varFormat type="numeric" schema="other" category="other"/>
+    </var>
+  </dataDscr>
+  <otherMat URI="../podatki/femakt16/femakt16_vp1_en_v1_r1.pdf" level="study" type="*.pdf - GRAPHIC" ID="FEMAKT16_VP1_EN_VI_R1">
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">FEMAKT16 - Intersekcionalnost in feministični aktivizem, 2016: študentska feministična društva v Združenem Kraljestvu  [Questionnaire]</titl>
+        <IDNo agency="ADP">FEMAKT16_VP1_EN_V1_R1</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Ferko, Tajda</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer xml:lang="en-GB">Ferko, Tajda</producer>
+        <prodDate xml:lang="en-GB">2016</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
+        <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
+      </prodStmt>
+      <holdings URI="../podatki/femakt16/femakt16_vp1_en_v1_r1.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+    </citation>
+  </otherMat>
+  <otherMat URI="../podatki/femakt16/femakt16_p2_en_v1_r1.pdf" level="study" type="*.pdf - GRAPHIC" ID="FEMAKT16_P2_EN_VI_R1">
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">FEMAKT16 - Intersekcionalnost in feministični aktivizem, 2016: študentska feministična društva v Združenem Kraljestvu  [Transkripti]</titl>
+        <IDNo agency="ADP">FEMAKT16_P2_EN_V1_R1</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Ferko, Tajda</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer xml:lang="en-GB">Ferko, Tajda</producer>
+        <prodDate xml:lang="en-GB">2016</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
+        <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
+      </prodStmt>
+      <holdings URI="../podatki/femakt16/femakt16_p2_en_v1_r1.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+    </citation>
+  </otherMat>
+</codeBook>

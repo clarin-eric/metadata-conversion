@@ -1,0 +1,707 @@
+<?xml version='1.0' encoding='utf-8'?>
+<codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" version="2.5" xml:lang="en-GB">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">Open Data</titl>
+        <subTitl xml:lang="en-GB">Situation, Issues and Responsibility for Taking Care of Data</subTitl>
+        <parTitl xml:lang="sl-SI">Odprti podatki: Stanje, problemi in odgovornost za skrb nad podatki</parTitl>
+        <IDNo agency="ADP">ODPP11</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="Arhiv družboslovnih podatkov = Social Science Data Archives">Štebe, Janez</AuthEnty>
+        <AuthEnty affiliation="Arhiv družboslovnih podatkov = Social Science Data Archives">Bezjak, Sonja</AuthEnty>
+        <AuthEnty affiliation="Arhiv družboslovnih podatkov = Social Science Data Archives">Lužar, Sanja</AuthEnty>
+        <AuthEnty affiliation="Arhiv družboslovnih podatkov = Social Science Data Archives">Vipavc Brvar, Irena</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</producer>
+        <copyright>ADP, 2016</copyright>
+        <prodDate date="2016-11" xml:lang="en-GB">November 2016</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana, Slovenia</prodPlac>
+        <software version="17.1" ID="Oxygen" xml:lang="en-GB">Oxygen</software>
+        <fundAg abbr="ARRS" xml:lang="en-GB">Javna agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</fundAg>
+        <grantNo agency="ARRS">1000-15-0510 (IRC)</grantNo>
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" xml:lang="en-GB" URI="http://www.adp.fdv.uni-lj.si/">Arhiv družboslovnih podatkov = Social Science Data Archives</distrbtr>
+        <distDate date="2016-11" xml:lang="en-GB">November 2016</distDate>
+      </distStmt>
+      <verStmt>
+        <version type="version" xml:lang="en-GB">ADP XML Codebook file</version>
+        <verResp>Sergeja Masten, ADP</verResp>
+        <notes ID="Authorized" xml:lang="en-GB" type="Avtorizacija">Sergeja Masten prepared survey description. Study Description is authorized.</notes>
+      </verStmt>
+      <biblCit>Štebe, J., Bezjak, S., Lužar, S. and Vipavc Brvar, I. (2016). Open Data: Situation, Issues and Responsibility for Taking Care of Data [Codebook file]. Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives. ADP - IDNo: ODPP11. https://doi.org/10.17898/ADP_ODPP11_V1</biblCit>
+      <holdings URI="http://www.adp.fdv.uni-lj.si/opisi/">ADP DDI</holdings>
+    </citation>
+    <docStatus xml:lang="en-GB">2 - Full Study description.</docStatus>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">Open Data</titl>
+        <subTitl xml:lang="en-GB">Situation, Issues and Responsibility for Taking Care of Data</subTitl>
+        <parTitl xml:lang="sl-SI">Odprti podatki: Stanje, problemi in odgovornost za skrb nad podatki</parTitl>
+        <IDNo agency="ADP">ODPP11</IDNo>
+        <IDNo agency="dara">https://doi.org/10.17898/ADP_ODPP11_V1</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="Arhiv družboslovnih podatkov = Social Science Data Archives">Štebe, Janez</AuthEnty>
+        <AuthEnty affiliation="Arhiv družboslovnih podatkov = Social Science Data Archives">Bezjak, Sonja</AuthEnty>
+        <AuthEnty affiliation="Arhiv družboslovnih podatkov = Social Science Data Archives">Lužar, Sanja</AuthEnty>
+        <AuthEnty affiliation="Arhiv družboslovnih podatkov = Social Science Data Archives">Vipavc Brvar, Irena</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="ADP" affiliation="Arhiv družboslovnih podatkov = Social Science Data Archives" xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</producer>
+        <prodDate date="2011" xml:lang="en-GB">2011</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana, Slovenia</prodPlac>
+        <!-- <software version="20.0" ID="SPSS" xml:lang="en-GB">&software_SPSS;</software>-->
+        <fundAg abbr="MVZT" xml:lang="en-GB">Ministrstvo za visoko šolstvo, znanost in tehnologijo = Ministry of Higher Education, Science and Technology</fundAg>
+        <fundAg abbr="ARRS" xml:lang="en-GB">Javna agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</fundAg>
+        <grantNo agency="ARRS">V5-1018</grantNo>
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" URI="http://www.adp.fdv.uni-lj.si/">Arhiv družboslovnih podatkov = Social Science Data Archives</distrbtr>
+        <contact xml:lang="en-GB" email="arhiv.podatkovATfdv.uni-lj.si">Arhiv družboslovnih podatkov = Social Science Data Archives</contact>
+        <depositr abbr="ADP">Arhiv družboslovnih podatkov = Social Science Data Archives</depositr>
+        <depDate date="2016-07-14" xml:lang="en-GB">2016-07-14</depDate>
+        <distDate date="2016-11" xml:lang="en-GB">November 2016</distDate>
+      </distStmt>
+      <biblCit>Štebe, J., Bezjak, S., Lužar, S. and Vipavc Brvar, I. (2016). Open Data: Situation, Issues and Responsibility for Taking Care of Data [Data file]. Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives. ADP - IDNo: ODPP11. https://doi.org/10.17898/ADP_ODPP11_V1</biblCit>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword xml:lang="en-GB" vocab="ADP">open access</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">data life cycle</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">research data management</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">data curation</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">reuse</keyword>
+        <keyword xml:lang="en-GB" vocab="ADP">Slovenia</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_380f296b-1eae-42c2-90a4-3fef86b4bad4" vocab="ELSST" vocabURI="https://elsst.ukdataservice.ac.uk">SCIENCE</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_a9855185-7c34-4b2a-a462-5e794783c6df" vocab="ELSST" vocabURI="https://elsst.ukdataservice.ac.uk">DATA</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_c7300364-3f13-49da-8c20-74b85a6c5da4" vocab="ELSST" vocabURI="https://elsst.ukdataservice.ac.uk">MODE OF DATA COLLECTION</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_821f2d62-d674-4e84-9e37-d23b2f0f52c4" vocab="ELSST" vocabURI="https://elsst.ukdataservice.ac.uk">QUALITY</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_d4f1132d-3f6d-4f80-9e67-b2f2b762f11e" vocab="ELSST" vocabURI="https://elsst.ukdataservice.ac.uk">DATA COLLECTION METHODOLOGY</keyword>
+        <keyword xml:lang="en-GB" ID="ELSST_ff58eee4-23e0-43b8-b08a-73141b925f0c" vocab="ELSST" vocabURI="https://elsst.ukdataservice.ac.uk">METHODOLOGY</keyword>
+        <topcClas xml:lang="en-GB" ID="ScienceAndTechnology" vocab="CESSDA Topic Classification" vocabURI="urn:ddi:int.cessda.cv:TopicClassification:3.0">SCIENCE AND TECHNOLOGY</topcClas>
+        <topcClas xml:lang="en-GB" ID="S274" vocab="CERIF" vocabURI="http://sicris.izum.si/">Research methodology in science</topcClas>
+        <topcClas xml:lang="en-GB" vocab="ADP Druga poglavja" vocabURI="http://www.adp.fdv.uni-lj.si">data collection</topcClas>
+        <topcClas xml:lang="en-GB" vocab="ADP Druga poglavja" vocabURI="http://www.adp.fdv.uni-lj.si">added values of data</topcClas>
+        <topcClas xml:lang="en-GB" vocab="ADP Druga poglavja" vocabURI="http://www.adp.fdv.uni-lj.si">data curation</topcClas>
+        <topcClas xml:lang="en-GB" vocab="ADP Druga poglavja" vocabURI="http://www.adp.fdv.uni-lj.si">searching, accessing and reusing the data</topcClas>
+        <topcClas xml:lang="en-GB" vocab="ADP Druga poglavja" vocabURI="http://www.adp.fdv.uni-lj.si">selection, valuation of quality and usability of data</topcClas>
+      </subject>
+      <abstract xml:lang="en-GB">Open data project provided  an overview of situation regarding taking care of research data in Slovenia. 
+        Issues, procedures and solutions were identified in the various phases of data life cycle: creation, evaluation, curation, publication and use of research data. 
+        The experiences and specifics of different actors from various institutions were applied to prepare a national plan and conclusions on this field. 
+        For this purpose 22 interviews were conducted with Slovenian experts from various scientific fields who act as producers, curators or users of the data. 
+        The main focus of interest was to find out what are the potentials for the future. Besides examining current situation in Slovenia, one of the major objectives 
+        in the first phase of this project was an attempt to identify better and upgraded future system for accessing research data.</abstract>
+      <sumDscr>
+        <timePrd event="start" date="2011-03" xml:lang="en-GB">March 2011</timePrd>
+        <timePrd date="2011-07" event="end" xml:lang="en-GB">July 2011</timePrd>
+        <collDate event="start" date="2011-03-31" xml:lang="en-GB">31. March 2011</collDate>
+        <collDate date="2011-07-12" event="end" xml:lang="en-GB">12. July 2011 </collDate>
+        <nation xml:lang="en-GB" abbr="SI">Slovenia</nation>
+        <geogCover xml:lang="en-GB">Ljubljana</geogCover>
+        <geogUnit xml:lang="en-GB">Geographic units are not determined<concept vocab="ADP-GeogUnit">GeographicUnitNotDetermined</concept></geogUnit>
+        <anlyUnit xml:lang="en-GB">Individual<concept vocab="DDI Analysis Unit" vocabURI="urn:ddi-cv:AnalysisUnit:1.0">Individual</concept></anlyUnit>
+        <universe clusion="I" xml:lang="en-GB">Essential requirement was to cover various scientific disciplines and to get acquainted with different phases of research data life cycle. 
+          To achieve this goal, a list of participants from various research fields, including natural sciences, engineering, social sciences and humanities and with different experiences of research data management, 
+          i.e. data creators, curators or users, was created.</universe>
+        <!--<universe clusion="E" xml:lang="en-GB"></universe>-->
+        <dataKind xml:lang="en-GB">Text<concept vocab="DDI General Data Format" vocabURI="urn:ddi-cv:GeneralDataFormat:2.0">Text</concept></dataKind>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <timeMeth xml:lang="en-GB">Cross-section<concept vocab="DDI Time Method" vocabURI="urn:ddi-cv:TimeMethod:1.2">CrossSection</concept></timeMeth>
+        <dataCollector abbr="ADP" affiliation="Univerza v Ljubljani = University of Ljubljana" xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</dataCollector>
+        <frequenc ID="OneTime" xml:lang="en-GB">One-time data collection</frequenc>
+        <sampProc xml:lang="en-GB">Non-probability: Purposive<concept vocab="DDI Sampling Procedure" vocabURI="urn:ddi-cv:SamplingProcedure:1.1">Nonprobability.Purposive</concept></sampProc>
+        <sampProc xml:lang="en-GB">A meeting with representatives of research institutes, which was organized in January 2011 by the Ministry of Higher Education, Science and Technology, was the first
+          step in the selection of the interviewees. All thirty participants of the meeting, left their contact details and were chosen as potential candidates for collaboration in the project. Other 
+          candidates were sought through desk research or through personal acquaintances and the recommendations from others. The list of 85 potential candidates who were interested for collaboration 
+          was formed. In the end 47 candidates, covering  different research areas, were chosen to be contacted. After a written invitation, some of them rejected collaboration, some were left out, 
+          when a quota of representatives of their research field was fulfilled and some participants were additionally included on the basis of recommendations.</sampProc>
+        <collMode xml:lang="en-GB">Face-to-face interview<concept vocab="DDI Mode of Collection" vocabURI="urn:ddi-cv:ModeOfCollection:3.0">Interview.FaceToFace</concept></collMode>
+        <resInstru xml:lang="en-GB">Semi-structured questionnaire<concept vocab="DDI Type of Instrument" vocabURI="urn:ddi-cv:TypeOfInstrument:1.1">Questionnaire.Semistructured</concept></resInstru>
+        <collSitu xml:lang="en-GB">Chosen candidates received written notice about content of Open Data project, about foreseen  survey protocol and about objectives of interviews;
+          recommendation, signed by the Ministry of Higher Education, Science and Technology was also attached. Interviews were conducted by two representatives of ADP. 
+          One had a role of interviewer and the other was committed for technical support. Interviews lasted one hour on average. </collSitu>
+        <weight xml:lang="en-GB">No.</weight>
+        <cleanOps ID="DataCleaned" xml:lang="en-GB">Data was cleaned.. By making transtcripts from audio records, typing errors and basic spelling mistakes were cleaned.</cleanOps>
+      </dataColl>
+      <anlyInfo>
+        <respRate xml:lang="en-GB">Response rate was 46.81 %.</respRate>
+      </anlyInfo>
+      <stdyClas ID="oc5" xml:lang="en-GB" type="ADP">5 - pilot studies that create or improve the instrument and conceptualisation of a new area</stdyClas>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <accsPlac URI="http://www.adp.fdv.uni-lj.si/podatki/" xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</accsPlac>
+        <collSize xml:lang="en-GB">22 Data file.</collSize>
+        <fileQnty>22</fileQnty>
+      </setAvail>
+      <useStmt>
+        <restrctn xml:lang="en-GB" ID="ccby">Data and materials are licensed under a Creative Commons Attribution 4.0 International License. The users should use the materials only for the purposes specified in Registration form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials. </restrctn>
+        <contact affiliation="ADP" email="arhiv.podatkov@fdv.uni-lj.si" xml:lang="en-GB" URI="http://www.adp.fdv.uni-lj.si/">Arhiv družboslovnih podatkov = Social Science Data Archives</contact>
+        <citReq xml:lang="en-GB">The users should acknowledge in any publication both the original depositors and the Archive.</citReq>
+        <deposReq xml:lang="en-GB">Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</deposReq>
+        <conditions xml:lang="en-GB">In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</conditions>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <!-- &rM; -->
+      <relPubl ID="ODPP11_RP1_SL_V1_R0">
+  <citation><titlStmt><titl xml:lang="en-GB">Odprti podatki: načrt za vzpostavitev sistema odprtega dostopa do raziskovalnih podatkov v Sloveniji</titl><IDNo agency="COBISS-ID">269233664</IDNo></titlStmt><rspStmt><AuthEnty>Štebe, Janez, Sonja Bezjak, Sanja Lužar in Irena Vipavc Brvar.</AuthEnty></rspStmt><prodStmt><producer xml:lang="en-GB">Fakulteta za družbene vede = Faculty of Social Sciences</producer><prodDate date="2013" xml:lang="en-GB">2013</prodDate><prodPlac xml:lang="en-GB">Ljubljana</prodPlac></prodStmt><holdings URI="http://www.dlib.si/details/URN:NBN:SI:DOC-US3XRRB2">dLib</holdings></citation></relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+  <fileDscr ID="F1" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p1_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P1_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 1 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 1 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F2" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p2_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P2_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 2 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 2 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F3" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p3_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P3_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 3 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 3 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F4" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p4_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P4_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 4 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 4 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F5" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p5_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P5_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 5 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 5 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F6" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p6_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P6_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 6 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 6 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F7" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p7_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P7_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 7 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 7 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F8" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p8_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P8_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 8 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 8 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F9" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p9_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P9_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 9 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 9 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F10" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p10_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P10_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 10 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 10 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty affiliation="">Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F11" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p11_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P11_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 11 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 11 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F12" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p12_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P12_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 12 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 12 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F13" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p13_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P13_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 13 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 13 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F14" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p14_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P14_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 14 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 14 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>ADP</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F15" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p15_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P15_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 15 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 15 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>ADP</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F16" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p16_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P16_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 16 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 16 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-121" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F17" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p17_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P17_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 17 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 17 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F18" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p18_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P18_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 18 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 18 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F19" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p19_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P19_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 19 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 19 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>ADP</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F20" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p20_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P20_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 20 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 20 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F21" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p21_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P21_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 21 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 21 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>ADP</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <fileDscr ID="F22" xml:lang="sl-SI" URI="../podatki/odpp11/odpp11_p22_sl_v1_r2.pdf" access="ccby">
+    <fileTxt>
+      <fileName xml:lang="sl-SI" ID="ODPP11_P22_SL_V1_R2">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 22 [Data file]</fileName>
+      <fileCitation>
+        <titlStmt>
+          <titl xml:lang="sl-SI">Odprti podatki - Stanje, problemi in odgovornost za skrb nad podatki, intervju 22 [Data file]</titl>
+        </titlStmt>
+        <rspStmt>
+          <AuthEnty>Arhiv družboslovnih podatkov</AuthEnty>
+        </rspStmt>
+      </fileCitation>
+      <dimensns>
+        <caseQnty>1</caseQnty>
+        <varQnty>0</varQnty>
+      </dimensns>
+      <fileType xml:lang="sl-SI">*.pdf - GRAPHIC</fileType>
+      <filePlac>Arhiv družboslovnih podatkov = Social Science Data Archives</filePlac>
+      <verStmt>
+        <version date="2016-07-21" xml:lang="sl-SI">July 2016</version>
+        <verResp>Arhiv družboslovnih podatkov = Social Science Data Archives</verResp>
+        <notes xml:lang="en-GB"/>
+      </verStmt>
+    </fileTxt>
+  </fileDscr>
+  <!-- &dD;-->
+  <otherMat URI="../podatki/odpp11/odpp11_vp1_sl_v1_r1.pdf" level="study" type="*.pdf - GRAPHIC" ID="ODPP11_VP1_SL_V1_R1">
+    <citation>
+      <titlStmt>
+        <titl xml:lang="en-GB">Intervju: stanje, problemi in odgovornost za skrb nad podatki [Questionnaire]</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Arhiv družboslovnih podatkov = Social Science Data Archives</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</producer>
+        <prodDate xml:lang="en-GB">2011</prodDate>
+        <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
+        <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
+      </prodStmt>
+      <holdings URI="../podatki/odpp11/odpp11_vp1_sl_v1_r1.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+    </citation>
+  </otherMat>
+</codeBook>

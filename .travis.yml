@@ -1,4 +1,6 @@
 language: minimal
 
-script: bash test.sh
+services:
+  - docker
 
+script: bash 'test.sh'
