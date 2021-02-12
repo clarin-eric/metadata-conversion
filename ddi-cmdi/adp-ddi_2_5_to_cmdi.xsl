@@ -4,26 +4,48 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:datacite="http://datacite.org/schema/kernel-4"
-    xmlns="http://datacite.org/schema/kernel-4"
-    xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd"
+    xmlns:cue="http://www.clarin.eu/cmdi/cues/1" xmlns:dcr="http://www.isocat.org/ns/dcr"
+    xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762428"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd"
     exclude-result-prefixes="xs"
     xpath-default-namespace="ddi:codebook:2_5"
     version="2.0">
 
     <!--
-        DDI 2.5 to DataCite Kernel 4.3 conversion stylesheet
+        DDI 2.5 to CMDI core components DDI profile conversion stylesheet
         Made for ADP use cases (Arhiv družboslovnih podatkov / Social Science Data Archives, Ljubljana, SI)
         Author: Twan Goosen (CLARIN ERIC) <twan@clarin.eu>
     -->
 
-    <xsl:output indent="yes"></xsl:output>
+    <xsl:output indent="yes" encoding="UTF-8" />
+    
+    <xsl:template mode="header" match="codeBook">
+        <cmd:Header>
+            <!-- TODO: skip fields if no info available --> 
+            <cmd:MdCreator><xsl:value-of select="docDscr/citation/rspStmt/AuthEnty[0]"/></cmd:MdCreator> <!-- TODO: concat multiple creators -->
+            <cmd:MdCreationDate><xsl:value-of select="docDscr/citation/prodStmt/prodDate/@date" /></cmd:MdCreationDate> <!-- TODO: normalize date -->
+            <cmd:MdSelfLink><!-- TODO --></cmd:MdSelfLink>
+            <cmd:MdProfile>clarin.eu:cr1:p_1595321762428</cmd:MdProfile>
+            <!-- <cmd:MdCollectionDisplayName>MdCollectionDisplayName0</cmd:MdCollectionDisplayName> -->
+        </cmd:Header>
+    </xsl:template>
+    
+    <xsl:template mode="resourceProxies" match="codeBook">
+        <cmd:Resources>
+            <cmd:ResourceProxyList>
+            </cmd:ResourceProxyList>
+        </cmd:Resources>
+    </xsl:template>
     
     <xsl:template match="/codeBook">
-    
-    <resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns="http://datacite.org/schema/kernel-4"
-        xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
-                
+        
+    <cmd:CMD CMDVersion="1.2">
+        
+        <xsl:apply-templates mode="header" select="." />
+        
+        <xsl:apply-templates mode="resourceProxies" select="." />
+        
         <!-- <identifier/> -->
         <!-- TODO: AlternateIdentifier ?? -->
         <xsl:choose>
@@ -192,7 +214,7 @@
                 </fundingReference>
             </fundingReferences>
         </xsl:if>       
-    </resource>
+    </cmd:CMD>
     </xsl:template>
     
     <xsl:template match="stdyDscr/citation/prodStmt/fundAg">

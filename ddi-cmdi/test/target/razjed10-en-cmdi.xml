@@ -2,9 +2,12 @@
 
 <!-- Values based on manual crosswalk of https://www.adp.fdv.uni-lj.si/media/raziskave/opisi/razjed10-en.xml --> 
 
-<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762428"
-    xmlns:cue="http://www.clarin.eu/cmdi/cues/1" xmlns:dcr="http://www.isocat.org/ns/dcr"
-    xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+<cmd:CMD
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762428"
+    xmlns:cue="http://www.clarin.eu/cmdi/cues/1" 
+    xmlns:dcr="http://www.isocat.org/ns/dcr"
+    xmlns:cmd="http://www.clarin.eu/cmd/1" 
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd"
     CMDVersion="1.2">
