@@ -49,12 +49,12 @@ test_conversion() {
 		if compare_xml "${CONVERSION_OUT}" "${TARGET_RECORD}"; then
 			echo "Conversion output and target file comparison succeeded"
 		else
-			echo "FAILED: conversion output and target file comparison failed"
+			echo "FAILED: conversion (${XSLT_FILE}) output and target file comparison failed"
 			cleanup "${BASE_DIR}/${CONVERSION_OUT}"; return 1
 		fi
 		
 	else
-		echo "FAILED: conversion did not finish successfully!"
+		echo "FAILED: conversion (${XSLT_FILE}) did not finish successfully!"
 		cleanup "${BASE_DIR}/${CONVERSION_OUT}"; return 1
 	fi
 
