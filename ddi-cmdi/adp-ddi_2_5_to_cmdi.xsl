@@ -3,9 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:cue="http://www.clarin.eu/cmdi/cues/1"
+    xmlns:dcr="http://www.isocat.org/ns/dcr"
+    xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
     xmlns:datacite="http://datacite.org/schema/kernel-4"
-    xmlns:cue="http://www.clarin.eu/cmdi/cues/1" xmlns:dcr="http://www.isocat.org/ns/dcr"
-    xmlns:cmd="http://www.clarin.eu/cmd/1" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762428"
     xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd"
     exclude-result-prefixes="xs"
@@ -16,36 +18,71 @@
         DDI 2.5 to CMDI core components DDI profile conversion stylesheet
         Made for ADP use cases (Arhiv družboslovnih podatkov / Social Science Data Archives, Ljubljana, SI)
         Author: Twan Goosen (CLARIN ERIC) <twan@clarin.eu>
+        
+        Sheet that documents (part of) the mapping: https://docs.google.com/spreadsheets/d/1r-vAxoqoM1iezpc1xp2Y-9mkgh8aZy-2RR_FpJ1ZtQg/edit#gid=562368645
     -->
 
     <xsl:output indent="yes" encoding="UTF-8" />
     
+    <xsl:template match="/*" priority="-1">
+        <cmd:CMD CMDVersion="1.2">
+            <error>Input document is not a DDI 2.5 document</error>
+        </cmd:CMD>
+    </xsl:template>
+    
+    <xsl:template match="/codeBook">
+        <cmd:CMD CMDVersion="1.2" xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd">
+            <xsl:apply-templates mode="header" select="." />
+            <xsl:apply-templates mode="resourceProxies" select="." />
+            <xsl:apply-templates mode="components" select="." />            
+        </cmd:CMD>
+    </xsl:template>
+    
+    <!-- HEADER -->
+    
     <xsl:template mode="header" match="codeBook">
         <cmd:Header>
-            <!-- TODO: skip fields if no info available --> 
-            <cmd:MdCreator><xsl:value-of select="docDscr/citation/rspStmt/AuthEnty[0]"/></cmd:MdCreator> <!-- TODO: concat multiple creators -->
-            <cmd:MdCreationDate><xsl:value-of select="docDscr/citation/prodStmt/prodDate/@date" /></cmd:MdCreationDate> <!-- TODO: normalize date -->
+            <xsl:apply-templates select="docDscr/citation/verStmt/verResp | docDscr/citation/rspStmt/AuthEnty" mode="header.MdCreator" />
+            <xsl:apply-templates select="docDscr/citation/prodStmt/prodDate/@date" mode="header.MdCreationDate" />
             <cmd:MdSelfLink><!-- TODO --></cmd:MdSelfLink>
             <cmd:MdProfile>clarin.eu:cr1:p_1595321762428</cmd:MdProfile>
-            <!-- <cmd:MdCollectionDisplayName>MdCollectionDisplayName0</cmd:MdCollectionDisplayName> -->
+            <cmd:MdCollectionDisplayName><!-- TODO --></cmd:MdCollectionDisplayName>
         </cmd:Header>
     </xsl:template>
+    
+    <xsl:template mode="header.MdCreator" match="verResp|AuthEnty">
+        <cmd:MdCreator><xsl:value-of select="." /></cmd:MdCreator>
+    </xsl:template>
+    
+    <xsl:template mode="header.MdCreationDate" match="@date">
+        <!-- TODO: normalize date -->
+        <cmd:MdCreationDate><xsl:value-of select="." /></cmd:MdCreationDate> 
+    </xsl:template>
+    
+    <!-- RESOURCE PROXIES -->
     
     <xsl:template mode="resourceProxies" match="codeBook">
         <cmd:Resources>
             <cmd:ResourceProxyList>
+                <!-- TODO -->
+                
+               <!--     <cmd:ResourceProxy id="">
+                        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                        <cmd:ResourceRef>{/codeBook/stdyDscr/dataAccs/setAvail/accsPlac/@URI} http://www.adp.fdv.uni-lj.si/podatki/</cmd:ResourceRef>
+                    </cmd:ResourceProxy>
+                    <cmd:ResourceProxy id="F1">
+                        <cmd:ResourceType>Resource</cmd:ResourceType>
+                        <cmd:ResourceRef>{/codeBook/fileDscr/@URI} https://www.adp.fdv.uni-lj.si/opisi/dostop/</cmd:ResourceRef>
+                    </cmd:ResourceProxy>-->
+                
+                
             </cmd:ResourceProxyList>
         </cmd:Resources>
     </xsl:template>
     
-    <xsl:template match="/codeBook">
-        
-    <cmd:CMD CMDVersion="1.2">
-        
-        <xsl:apply-templates mode="header" select="." />
-        
-        <xsl:apply-templates mode="resourceProxies" select="." />
-        
+    <!-- COMPONENT SECTION -->
+    
+    <xsl:template mode="components" match="/codeBook">
         <!-- <identifier/> -->
         <!-- TODO: AlternateIdentifier ?? -->
         <xsl:choose>
@@ -213,8 +250,7 @@
                     <xsl:apply-templates select="stdyDscr/citation/prodStmt/grantNo" />
                 </fundingReference>
             </fundingReferences>
-        </xsl:if>       
-    </cmd:CMD>
+        </xsl:if>      
     </xsl:template>
     
     <xsl:template match="stdyDscr/citation/prodStmt/fundAg">
@@ -435,30 +471,6 @@
                 <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang"><xsl:value-of select="@xml:lang"/></xsl:attribute></xsl:if>
                 <xsl:value-of select="normalize-space(.)"/></geoLocationPlace>
         </geoLocation>
-    </xsl:template>
-
-    <xsl:template match="codeBook" mode="cmd-header">
-    <!-- 
-        <cmd:Header>
-            <cmd:MdCreator>{{/codeBook/docDscr/citation/verStmt/verResp}} Sergeja Masten, ADP</cmd:MdCreator>
-            <cmd:MdCreationDate>{{/codeBook/docDscr/citation/prodStmt/prodDate/@date}}2017-12</cmd:MdCreationDate>
-            <cmd:MdSelfLink>?????</cmd:MdSelfLink>
-            <cmd:MdProfile>clarin.eu:cr1:p_xxxxxxxx</cmd:MdProfile>
-            <cmd:MdCollectionDisplayName>????</cmd:MdCollectionDisplayName>
-        </cmd:Header>
-        <cmd:Resources>
-            <cmd:ResourceProxyList>
-               <cmd:ResourceProxy id="">
-                <cmd:ResourceType>LandingPage</cmd:ResourceType>
-                <cmd:ResourceRef>{/codeBook/stdyDscr/dataAccs/setAvail/accsPlac/@URI} http://www.adp.fdv.uni-lj.si/podatki/</cmd:ResourceRef>
-               </cmd:ResourceProxy>
-               <cmd:ResourceProxy id="F1">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>{/codeBook/fileDscr/@URI} https://www.adp.fdv.uni-lj.si/opisi/dostop/</cmd:ResourceRef>
-               </cmd:ResourceProxy>
-            </cmd:ResourceProxyList>
-        </cmd:Resources>
-    -->
     </xsl:template>
     
 </xsl:stylesheet>
