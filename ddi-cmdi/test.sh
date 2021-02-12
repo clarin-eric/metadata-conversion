@@ -14,8 +14,8 @@ main() {
 	init
 	
 	if (
-		test_conversion 'adp-ddi_2_5_to_datacite.xsl' 'test/razjed10-en.xml' 'test/razjed10-en-datacite.xml' \
-		&& test_conversion 'adp-ddi_2_5_to_cmdi.xsl' 'test/razjed10-en.xml' 'test/razjed10-en-cmdi.xml'
+		test_conversion 'adp-ddi_2_5_to_datacite.xsl' 'test/razjed10-en.xml' 'test/target/razjed10-en-datacite.xml' \
+		&& test_conversion 'adp-ddi_2_5_to_cmdi.xsl' 'test/razjed10-en.xml' 'test/target/razjed10-en-cmdi.xml'
 		)
 	then
 		echo "Done. SUCCESS!"
