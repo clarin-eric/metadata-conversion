@@ -7,18 +7,23 @@ SAXON_IMAGE='klakegg/saxon:9.9.1-7-he@sha256:18bd88758073d37fe5798dde9cb0aed91c1
 
 main() {	
 	echo "============ DDI conversion test ============"
+	
+	OWD="$(pwd)"
+	cd "${BASE_DIR}"
 
 	init
 	
 	if (
-		test_conversion 'adp-ddi_2_5_to_datacite.xsl' 'test/razjed10-en.xml' 'test/razjed10-en-datacite.xml' 
-		# && test_conversion 'adp-ddi_2_5_to_datacite.xsl' 'test/razjed10-en.xml' 'test/razjed10-en-cmdi.xml'
+		test_conversion 'adp-ddi_2_5_to_datacite.xsl' 'test/razjed10-en.xml' 'test/razjed10-en-datacite.xml' \
+		&& test_conversion 'adp-ddi_2_5_to_cmdi.xsl' 'test/razjed10-en.xml' 'test/razjed10-en-cmdi.xml'
 		)
 	then
 		echo "Done. SUCCESS!"
+		cd "${OWD}"
 		exit 0
 	else
 		echo "One or more tests failed."
+		cd "${OWD}"
 		exit 1
 	fi
 }
