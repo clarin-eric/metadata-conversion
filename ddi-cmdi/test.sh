@@ -9,7 +9,7 @@ main() {
 	echo "============ DDI conversion test ============"
 	
 	OWD="$(pwd)"
-	cd "${BASE_DIR}"
+	cd "${BASE_DIR}" || exit 1
 
 	init
 	
@@ -19,11 +19,11 @@ main() {
 		)
 	then
 		echo "Done. SUCCESS!"
-		cd "${OWD}"
+		cd "${OWD}" || exit 0
 		exit 0
 	else
 		echo "One or more tests failed."
-		cd "${OWD}"
+		cd "${OWD}" || exit 1
 		exit 1
 	fi
 }
@@ -33,9 +33,9 @@ test_conversion() {
 	SOURCE_RECORD="${2}"
 	TARGET_RECORD="${3}"
 	
-	if ! ( [ -e "${BASE_DIR}/${SOURCE_RECORD}" ] \
+	if ! [ -e "${BASE_DIR}/${SOURCE_RECORD}" ] \
 		&& [ -e "${BASE_DIR}/${TARGET_RECORD}" ] \
-		&& [ -e "${BASE_DIR}/${XSLT_FILE}" ] ); then
+		&& [ -e "${BASE_DIR}/${XSLT_FILE}" ]; then
 		echo "ERROR: Source file, target file and/or XSLT file does not exist: " \
 			"${SOURCE_RECORD}" "${TARGET_RECORD}" "${XSLT_FILE}"
 		return 1
@@ -108,8 +108,8 @@ compare_xml() {
 	OUT_NORMALIZED="$(mktemp "${BASE_DIR}/${TEST_OUT_DIR}/target_normalized.xml.XXXX")"
 	
 	echo "-------- Comparing -------"
-	[ -e "${SRC}" ] && xmllint "${SRC}" > "${SRC_NORMALIZED}"
-	[ -e "${TARGET}" ] && xmllint "${TARGET}" > "${OUT_NORMALIZED}"
+	[ -e "${SRC}" ] && normalize_xml "${SRC}" > "${SRC_NORMALIZED}"
+	[ -e "${TARGET}" ] && normalize_xml "${TARGET}" > "${OUT_NORMALIZED}"
 	
 	diff "${SRC_NORMALIZED}" "${OUT_NORMALIZED}"
 	SUCCESS="$?"
@@ -120,6 +120,10 @@ compare_xml() {
 	cleanup "${SRC_NORMALIZED}" "${OUT_NORMALIZED}"
 	
 	return "${SUCCESS}"
+}
+
+normalize_xml() {
+	xmllint "$@" | tidy -quiet -utf8 -asxml -xml -indent --hide-comments 1	
 }
 
 main

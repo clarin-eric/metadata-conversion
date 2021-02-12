@@ -8,5 +8,6 @@ addons:
     packages:
       # Needed for `xmllint`.
       - libxml2-utils
+      - tidy
 
 script: bash 'test.sh'
