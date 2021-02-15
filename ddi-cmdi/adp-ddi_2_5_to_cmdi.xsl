@@ -98,36 +98,55 @@
     </xsl:template>
     
     <xsl:template mode="record.Description.description" match="*">
-        <description xml:lang="en-GB">
-            <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang" /></xsl:if>
-            <xsl:value-of select="."/>
-        </description>
+        <Description>
+            <description xml:lang="en-GB">
+                <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang" /></xsl:if>
+                <xsl:value-of select="."/>
+            </description>
+        </Description>
+    </xsl:template>
+    
+    <xsl:template mode="record.ResourceType" match="*">
+        <ResourceType>
+            <label>
+                <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang" /></xsl:if>
+                <xsl:value-of select="."/>
+            </label>
+        </ResourceType>
+    </xsl:template>
+    
+    <xsl:template mode="record.ResourceType" match="dataKind">
+        <!-- TODO -->
+        <!-- example:
+             <dataKind xml:lang="en-GB">Text<concept vocab="DDI General Data Format" vocabURI="urn:ddi-cv:GeneralDataFormat:2.0">Text</concept></dataKind>
+        -->
     </xsl:template>
     
     <xsl:template mode="components" match="/codeBook">
         
         <ADP-DDI>
+            
             <xsl:if test="stdyDscr/citation/titlStmt/IDNo">
                 <IdentificationInfo>
                     <xsl:apply-templates mode="record.IdentificationInfo.identifier" select="stdyDscr/citation/titlStmt/IDNo[contains(text(), '/doi.org/')]" />
                     <xsl:apply-templates mode="record.IdentificationInfo.internalIdentifier" select="stdyDscr/citation/titlStmt/IDNo[not(contains(text(), '/doi.org/'))]" />
                 </IdentificationInfo>
             </xsl:if>
+            
             <xsl:if test="stdyDscr/citation/titlStmt/titl|codeBook/stdyDscr/citation/titlStmt/parTitl">
                <TitleInfo>
                    <xsl:apply-templates mode="record.TitleInfo.title" select="stdyDscr/citation/titlStmt/titl" />
                    <xsl:apply-templates mode="record.TitleInfo.title" select="stdyDscr/citation/titlStmt/parTitl" />
                </TitleInfo>
             </xsl:if>
-            <xsl:if test="stdyDscr/stdyInfo/abstract">
-                <Description>                    
-                    <xsl:apply-templates mode="record.Description.description" select="stdyDscr/stdyInfo/abstract" />
-                </Description>
-            </xsl:if>
-            <ResourceType>
-                <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/dataKind -->
-                <label xml:lang="en-GB">Transcripts of semi-structured interviews and focus groups.</label>
-            </ResourceType>
+            
+            <!-- <Description> -->
+            <xsl:apply-templates mode="record.Description.description" select="stdyDscr/stdyInfo/abstract" />
+             
+             
+            <!-- <ResourceType> -->
+            <xsl:apply-templates mode="record.ResourceType" select="stdyDscr/stdyInfo/sumDscr/dataKind" />
+            
             <Creator>
                 <!-- /codeBook/stdyDscr/citation/rspStmt/AuthEnty -->
                 <label>Adam, Frane</label>
