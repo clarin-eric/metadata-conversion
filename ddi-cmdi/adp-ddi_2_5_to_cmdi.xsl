@@ -105,12 +105,7 @@
                 <xsl:value-of select="."/>
             </description>
         </Description>
-    </xsl:template>
-    
-    <xsl:function name="ddi_cmd:isUri">
-        <xsl:param name="value" />
-        <xsl:sequence select="matches($value,'^(http|https|hdl|doi):.*$')" />
-    </xsl:function>
+    </xsl:template>    
     
     <xsl:template mode="record.ResourceType" match="dataKind">
         <ResourceType>
@@ -161,6 +156,75 @@
         </Contributor>
     </xsl:template>
     
+    <xsl:template mode="ActivityInfo" match="prodStmt">
+        <ActivityInfo>
+            <method>Production</method>
+            <xsl:for-each select="prodPlac">
+                <note>prodPlac = <xsl:value-of select="."/></note>
+            </xsl:for-each>
+            <xsl:if test="count(prodDate) = 1">
+              <When>
+                  <xsl:choose>
+                      <xsl:when test="ddi_cmd:isDate(prodDate/@date)">
+                          <xsl:if test="normalize-space(prodDate) != ''">
+                              <label><xsl:value-of select="prodDate"/></label>
+                          </xsl:if>
+                          <date><xsl:value-of select="prodDate/@date"/></date>
+                      </xsl:when>
+                      <xsl:otherwise>
+                          <label><xsl:value-of select="prodDate"/></label>
+                          <xsl:if test="prodDate/@date">
+                              <label><xsl:value-of select="prodDate/@date"/></label>
+                          </xsl:if>
+                      </xsl:otherwise>
+                  </xsl:choose>
+              </When>
+            </xsl:if>
+            <xsl:for-each select="producer">
+             <Responsible>
+                 <label><xsl:value-of select="."/></label>
+                 <xsl:if test="@abbr">
+                     <label><xsl:value-of select="@abbr"/></label>
+                 </xsl:if>
+             </Responsible>
+            </xsl:for-each>
+        </ActivityInfo>
+    </xsl:template>
+    
+    <xsl:template mode="record.ProvenanceInfo" match="codeBook">
+        <ProvenanceInfo>
+            <xsl:if test="stdyDscr/citation/prodStmt">
+                <Creation>
+                    <xsl:apply-templates mode="ActivityInfo" select="stdyDscr/citation/prodStmt" />
+                </Creation>
+            </xsl:if>
+            <Collection>
+                <ActivityInfo>
+                    <When>
+                        <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
+                        <label>November 2008</label>
+                        <date>2008-11-01</date>
+                    </When>
+                </ActivityInfo>
+                <ActivityInfo>
+                    <When>
+                        <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
+                        <label>January 2009 - March 2009</label>
+                        <start>2009-01-01</start>
+                        <end>2009-03-31</end>
+                    </When>
+                </ActivityInfo>
+                <ActivityInfo>
+                    <When>
+                        <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
+                        <label>November 2009</label>
+                        <date>2009-11-01</date>
+                    </When>
+                </ActivityInfo>
+            </Collection>
+        </ProvenanceInfo>
+    </xsl:template>
+    
     <xsl:template mode="components" match="/codeBook">
         <cmd:Components>
            <ADP-DDI>
@@ -189,9 +253,9 @@
                <xsl:apply-templates mode="record.Creator" select="stdyDscr/citation/rspStmt/AuthEnty" />
                
                <!-- <Contributor> -->
-               <xsl:apply-templates mode="record.Contributor" select="/codeBook/stdyDscr/citation/rspStmt/othId" />
+               <xsl:apply-templates mode="record.Contributor" select="stdyDscr/citation/rspStmt/othId" />
                
-               <Publisher> <!-- ?? -->
+               <Publisher> <!-- ?? TODO -->
                    <identifier>http://www.oxygenxml.com/</identifier>
                    <identifier>http://www.oxygenxml.com/</identifier>
                    <name>name8</name>
@@ -201,58 +265,9 @@
                    </ContactInfo>
                </Publisher>
                
-               <ProvenanceInfo>
-                   <Creation>
-                       <ActivityInfo>
-                           <!-- /codeBook/stdyDscr/citation/prodStmt/prodPlac -->
-                           <method>Production</method>
-                           <note>prodPlac = Ljubljana, Slovenia</note>
-                           <note>prodPlac = Nova Gorica, Slovenia</note>
-                           <When>
-                               <!-- /codeBook/stdyDscr/citation/prodStmt/prodDate/@date -->
-                               <label>2010-01</label>
-                               <!-- /codeBook/stdyDscr/citation/prodStmt/prodDate -->
-                               <label>January 2010</label>
-                           </When>
-                           <Responsible>
-                               <!-- /codeBook/stdyDscr/citation/prodStmt/producer -->
-                               <label>Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</label>
-                               <!-- /codeBook/stdyDscr/citation/prodStmt/producer/@abbr -->
-                               <label>IRSA</label>
-                           </Responsible>
-                           <Responsible>
-                               <!-- /codeBook/stdyDscr/citation/prodStmt/producer -->
-                               <label>Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica</label>
-                               <!-- /codeBook/stdyDscr/citation/prodStmt/producer/@abbr -->
-                               <label>FUDŠ</label>
-                           </Responsible>
-                       </ActivityInfo>
-                   </Creation>
-                   <Collection>
-                       <ActivityInfo>
-                           <When>
-                               <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
-                               <label>November 2008</label>
-                               <date>2008-11-01</date>
-                           </When>
-                       </ActivityInfo>
-                       <ActivityInfo>
-                           <When>
-                               <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
-                               <label>January 2009 - March 2009</label>
-                               <start>2009-01-01</start>
-                               <end>2009-03-31</end>
-                           </When>
-                       </ActivityInfo>
-                       <ActivityInfo>
-                           <When>
-                               <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
-                               <label>November 2009</label>
-                               <date>2009-11-01</date>
-                           </When>
-                       </ActivityInfo>
-                   </Collection>
-               </ProvenanceInfo>
+               <!-- <ProvenanceInfo> -->
+               <xsl:apply-templates mode="record.ProvenanceInfo" select="." />
+               
                <DistributionInfo>
                    <!-- /codeBook/stdyDscr/citation/distStmt/distDate/@date + '-01' -->
                    <distributionDate>2010-05-01</distributionDate>
@@ -940,5 +955,17 @@
                 <xsl:value-of select="normalize-space(.)"/></geoLocationPlace>
         </geoLocation>
     </xsl:template>
+    
+    <!-- Custom functions -->
+    
+    <xsl:function name="ddi_cmd:isUri">
+        <xsl:param name="value" />
+        <xsl:sequence select="matches($value,'^(http|https|hdl|doi):.*$')" />
+    </xsl:function>
+    
+    <xsl:function name="ddi_cmd:isDate">
+        <xsl:param name="value" />
+        <xsl:sequence select="matches($value,'^\d{4}-[0-1]\d-[0-3]\d$')" />
+    </xsl:function>
     
 </xsl:stylesheet>
