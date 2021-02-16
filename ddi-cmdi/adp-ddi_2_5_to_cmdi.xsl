@@ -152,6 +152,15 @@
         </Creator>
     </xsl:template>
     
+    <xsl:template mode="record.Contributor" match="othId">
+        <Contributor>
+            <label><xsl:value-of select="descendant-or-self::text()[normalize-space() != '']"/></label>
+            <xsl:if test="@role">
+                <role><xsl:value-of select="@role"/></role>
+            </xsl:if>
+        </Contributor>
+    </xsl:template>
+    
     <xsl:template mode="components" match="/codeBook">
         <cmd:Components>
            <ADP-DDI>
@@ -179,50 +188,10 @@
                <!-- <Creator> -->
                <xsl:apply-templates mode="record.Creator" select="stdyDscr/citation/rspStmt/AuthEnty" />
                
+               <!-- <Contributor> -->
+               <xsl:apply-templates mode="record.Contributor" select="/codeBook/stdyDscr/citation/rspStmt/othId" />
                
-               <Contributor>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
-                   <label>Kristan, Primož</label>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
-                   <role>conceptualization collaborator</role>
-               </Contributor>
-               <Contributor>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
-                   <label>Vojvodić, Ana</label>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
-                   <role>conceptualization collaborator</role>
-               </Contributor>
-               <Contributor>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
-                   <label>Rončević, Borut</label>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
-                   <role>conceptualization collaborator</role>
-               </Contributor>
-               <Contributor>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
-                   <label>Kalčić, Špela</label>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
-                   <role>conceptualization collaborator</role>
-               </Contributor>
-               <Contributor>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
-                   <label>Podmenik, Dane</label>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
-                   <role>conceptualization collaborator</role>
-               </Contributor>
-               <Contributor>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
-                   <label>Šinkovec, Urša</label>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
-                   <role>conceptualization collaborator</role>
-               </Contributor>
-               <Contributor>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/p -->
-                   <label>Besednjak, Tamara</label>
-                   <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
-                   <role>conceptualization collaborator</role>
-               </Contributor>
-               <Publisher>
+               <Publisher> <!-- ?? -->
                    <identifier>http://www.oxygenxml.com/</identifier>
                    <identifier>http://www.oxygenxml.com/</identifier>
                    <name>name8</name>
@@ -231,6 +200,7 @@
                        <email>email1</email>
                    </ContactInfo>
                </Publisher>
+               
                <ProvenanceInfo>
                    <Creation>
                        <ActivityInfo>
