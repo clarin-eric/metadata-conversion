@@ -156,6 +156,25 @@
         </Contributor>
     </xsl:template>
     
+    <xsl:template mode="ActivityInfo.When" match="*">
+        <When>
+            <xsl:choose>
+                <xsl:when test="ddi_cmd:isDate(@date)">
+                    <xsl:if test="normalize-space(.) != ''">
+                        <label><xsl:value-of select="."/></label>
+                    </xsl:if>
+                    <date><xsl:value-of select="@date"/></date>
+                </xsl:when>
+                <xsl:otherwise>
+                    <label><xsl:value-of select="."/></label>
+                    <xsl:if test="@date">
+                        <label><xsl:value-of select="@date"/></label>
+                    </xsl:if>
+                </xsl:otherwise>
+            </xsl:choose>
+        </When>
+    </xsl:template>
+    
     <xsl:template mode="ActivityInfo" match="prodStmt">
         <ActivityInfo>
             <method>Production</method>
@@ -163,22 +182,7 @@
                 <note>prodPlac = <xsl:value-of select="."/></note>
             </xsl:for-each>
             <xsl:if test="count(prodDate) = 1">
-              <When>
-                  <xsl:choose>
-                      <xsl:when test="ddi_cmd:isDate(prodDate/@date)">
-                          <xsl:if test="normalize-space(prodDate) != ''">
-                              <label><xsl:value-of select="prodDate"/></label>
-                          </xsl:if>
-                          <date><xsl:value-of select="prodDate/@date"/></date>
-                      </xsl:when>
-                      <xsl:otherwise>
-                          <label><xsl:value-of select="prodDate"/></label>
-                          <xsl:if test="prodDate/@date">
-                              <label><xsl:value-of select="prodDate/@date"/></label>
-                          </xsl:if>
-                      </xsl:otherwise>
-                  </xsl:choose>
-              </When>
+              <xsl:apply-templates mode="ActivityInfo.When" select="prodDate" />
             </xsl:if>
             <xsl:for-each select="producer">
              <Responsible>
@@ -191,6 +195,12 @@
         </ActivityInfo>
     </xsl:template>
     
+    <xsl:template mode="ActivityInfo" match="sumDscr/collDate">
+        <ActivityInfo>
+            <xsl:apply-templates mode="ActivityInfo.When" select="." />
+        </ActivityInfo>
+    </xsl:template>
+    
     <xsl:template mode="record.ProvenanceInfo" match="codeBook">
         <ProvenanceInfo>
             <xsl:if test="stdyDscr/citation/prodStmt">
@@ -198,30 +208,11 @@
                     <xsl:apply-templates mode="ActivityInfo" select="stdyDscr/citation/prodStmt" />
                 </Creation>
             </xsl:if>
-            <Collection>
-                <ActivityInfo>
-                    <When>
-                        <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
-                        <label>November 2008</label>
-                        <date>2008-11-01</date>
-                    </When>
-                </ActivityInfo>
-                <ActivityInfo>
-                    <When>
-                        <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
-                        <label>January 2009 - March 2009</label>
-                        <start>2009-01-01</start>
-                        <end>2009-03-31</end>
-                    </When>
-                </ActivityInfo>
-                <ActivityInfo>
-                    <When>
-                        <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
-                        <label>November 2009</label>
-                        <date>2009-11-01</date>
-                    </When>
-                </ActivityInfo>
-            </Collection>
+            <xsl:if test="stdyDscr/stdyInfo/sumDscr/collDate">
+                <Collection>
+                    <xsl:apply-templates mode="ActivityInfo" select="stdyDscr/stdyInfo/sumDscr/collDate" />
+                </Collection>
+            </xsl:if>
         </ProvenanceInfo>
     </xsl:template>
     
