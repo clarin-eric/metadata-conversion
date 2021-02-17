@@ -228,6 +228,40 @@
         </ProvenanceInfo>
     </xsl:template>
     
+    <xsl:template mode="record.DistributionInfo" match="distStmt">
+        <DistributionInfo>
+            <!-- <distributionDate> -->
+            <xsl:apply-templates select="distDate" mode="makeFullDate">
+                <xsl:with-param name="elementName" select="'distributionDate'" />
+            </xsl:apply-templates>
+            
+            <!-- <depositionDate> -->
+            <xsl:apply-templates select="depDate" mode="makeFullDate">
+                <xsl:with-param name="elementName" select="'depositionDate'" />
+            </xsl:apply-templates>
+
+            <xsl:for-each select="distrbtr">
+                <Distributor>
+                    <label><xsl:value-of select="."/></label>
+                    <xsl:if test="@abbr">
+                        <label><xsl:value-of select="@abbr"/></label>
+                    </xsl:if>
+                    <!-- TODO: @affiliation? -->
+                </Distributor>
+            </xsl:for-each>
+            
+            <xsl:for-each select="depositr">
+                <Depositor>
+                    <label><xsl:value-of select="."/></label>
+                    <xsl:if test="@abbr">
+                        <label><xsl:value-of select="@abbr"/></label>
+                    </xsl:if>
+                    <!-- TODO: @affiliation? -->
+                </Depositor>
+            </xsl:for-each>
+        </DistributionInfo>
+    </xsl:template>
+    
     <xsl:template mode="components" match="/codeBook">
         <cmd:Components>
            <ADP-DDI>
@@ -271,23 +305,9 @@
                <!-- <ProvenanceInfo> -->
                <xsl:apply-templates mode="record.ProvenanceInfo" select="." />
                
-               <DistributionInfo>
-                   <!-- /codeBook/stdyDscr/citation/distStmt/distDate/@date + '-01' -->
-                   <distributionDate>2010-05-01</distributionDate>
-                   <!-- /codeBook/stdyDscr/citation/distStmt/depDate/@date + '-01' -->
-                   <depositionDate>2010-04-01</depositionDate>
-                   <Distributor>
-                       <!-- /codeBook/stdyDscr/citation/distStmt/distrbtr -->
-                       <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
-                       <label>ADP</label>
-                   </Distributor>
-                   <Depositor>
-                       <!-- /codeBook/stdyDscr/citation/distStmt/depositr -->
-                       <label>Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</label>
-                       <!-- /codeBook/stdyDscr/citation/distStmt/depositr/@abbr -->
-                       <label>IRSA</label>
-                   </Depositor>
-               </DistributionInfo>
+               <!-- <DistributionInfo -->
+               <xsl:apply-templates mode="record.DistributionInfo" select="stdyDscr/citation/distStmt" />
+               
                <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
                <Subject>
                    <label>OTHER</label>
@@ -960,6 +980,38 @@
     </xsl:template>
     
     <!-- Custom functions -->
+    
+    <xsl:function name="ddi_cmd:toFullDate">
+        <xsl:param name="value" />
+        <xsl:choose>
+            <xsl:when test="ddi_cmd:isDate($value)">
+                <!-- full date, return as is -->
+                <xsl:sequence select="$value" />
+            </xsl:when>
+            <xsl:when test="matches($value, '^\d{4}-[0-1]\d$')">
+                <!-- only month; round to yyyy-mm-01 -->
+                <xsl:sequence select="concat($value,'-01')" />
+            </xsl:when>
+            <xsl:when test="matches($value, '^\d{4}$')">
+                <!-- only year; round to yyyy-01-01 -->
+                <xsl:sequence select="concat($value,'-01-01')" />
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:sequence select="false()" />
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
+    <xsl:template mode="makeFullDate" match="*">
+        <xsl:param name="elementName" />
+        <xsl:variable name="fullDate" select="ddi_cmd:toFullDate(@date)"/>
+        <xsl:if test="$fullDate">
+            <xsl:if test="@date != $fullDate">
+                <xsl:comment>Original: '<xsl:value-of select="@date"/>'</xsl:comment>
+            </xsl:if>
+            <xsl:element name="{$elementName}"><xsl:value-of select="$fullDate"/></xsl:element>
+        </xsl:if>
+    </xsl:template>
     
     <xsl:function name="ddi_cmd:isUri">
         <xsl:param name="value" />
