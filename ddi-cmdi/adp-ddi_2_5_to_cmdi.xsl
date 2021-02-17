@@ -156,7 +156,7 @@
         </Contributor>
     </xsl:template>
     
-    <xsl:template mode="ActivityInfo.When" match="*">
+    <xsl:template mode="ActivityInfo.When" match="*[@event='single' or normalize-space(@event) = '']">
         <When>
             <xsl:choose>
                 <xsl:when test="ddi_cmd:isDate(@date)">
@@ -172,6 +172,18 @@
                     </xsl:if>
                 </xsl:otherwise>
             </xsl:choose>
+        </When>
+    </xsl:template>
+    
+    <xsl:template mode="ActivityInfo.When" match="*[@event='start' or @event='end']">
+        <!-- TODO: support range via <start> and/or <end> of core component -->
+        <When>
+            <xsl:if test="@date">
+                <label><xsl:value-of select="@event"/>: <xsl:value-of select="@date"/></label>
+            </xsl:if>
+            <xsl:if test="normalize-space(.) != ''">
+                <label><xsl:value-of select="@event"/>: <xsl:value-of select="."/></label>
+            </xsl:if>            
         </When>
     </xsl:template>
     
