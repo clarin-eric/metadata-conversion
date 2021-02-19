@@ -57,7 +57,13 @@
     
     <xsl:template mode="header.MdCreationDate" match="@date">
         <!-- TODO: normalize date -->
-        <cmd:MdCreationDate><xsl:value-of select="." /></cmd:MdCreationDate> 
+        <xsl:variable name="fullDate" select="ddi_cmd:toFullDate(.)"/>
+        <xsl:if test="normalize-space($fullDate) != ''">
+            <xsl:if test="normalize-space(.) != $fullDate">
+                <xsl:comment>Derived creation date. Value in original metadata: '<xsl:value-of select="."/>'</xsl:comment>
+            </xsl:if>
+            <cmd:MdCreationDate><xsl:value-of select="$fullDate" /></cmd:MdCreationDate>
+        </xsl:if>
     </xsl:template>
     
     <!-- RESOURCE PROXIES -->
