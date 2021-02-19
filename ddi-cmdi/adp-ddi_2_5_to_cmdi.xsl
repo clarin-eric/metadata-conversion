@@ -115,15 +115,10 @@
     
     <xsl:template mode="record.ResourceType" match="dataKind">
         <ResourceType>
-            <xsl:if test="./concept">
-                <xsl:choose>
-                    <xsl:when test="ddi_cmd:isUri(./concept/text())">
-                        <identifier><xsl:value-of select="./concept/text()"/></identifier>
-                    </xsl:when>
-                    <xsl:when test="./concept/@vocabURI">
-                        <identifier><xsl:value-of select="./concept/@vocabURI"/>:<xsl:value-of select="./concept/text()"/></identifier>
-                    </xsl:when>
-                </xsl:choose>                
+            <xsl:if test="concept">
+                <xsl:apply-templates mode="identifier" select="concept/text()">
+                    <xsl:with-param name="vocabUri" select="concept/@vocabURI" />
+                </xsl:apply-templates>      
             </xsl:if>
             <label>
                 <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang" /></xsl:if>
@@ -268,6 +263,29 @@
         </DistributionInfo>
     </xsl:template>
     
+    <xsl:template mode="record.Subject" match="subject/topcClas">
+        <Subject>
+            <xsl:apply-templates mode="identifier" select="@ID">
+                <xsl:with-param name="vocabUri" select="@vocabURI" />
+            </xsl:apply-templates>
+            <label>
+                <xsl:apply-templates mode="xmlLangAttr" select="@xml:lang" />
+                <xsl:value-of select="."/>
+            </label>
+        </Subject>
+    </xsl:template>
+    <xsl:template mode="record.Keyword" match="subject/keyword">
+        <Keyword>
+            <xsl:apply-templates mode="identifier" select="@ID">
+                <xsl:with-param name="vocabUri" select="@vocabURI" />
+            </xsl:apply-templates>
+            <label>
+                <xsl:apply-templates mode="xmlLangAttr" select="@xml:lang" />
+                <xsl:value-of select="."/>
+            </label>
+        </Keyword>
+    </xsl:template>
+    
     <xsl:template mode="components" match="/codeBook">
         <cmd:Components>
            <ADP-DDI>
@@ -297,8 +315,9 @@
                
                <!-- <Contributor> -->
                <xsl:apply-templates mode="record.Contributor" select="stdyDscr/citation/rspStmt/othId" />
-               
-               <Publisher> <!-- ?? TODO -->
+
+               <!-- TODO: publisher ?? -->
+<!--               <Publisher> 
                    <identifier>http://www.oxygenxml.com/</identifier>
                    <identifier>http://www.oxygenxml.com/</identifier>
                    <name>name8</name>
@@ -306,7 +325,7 @@
                        <email>email0</email>
                        <email>email1</email>
                    </ContactInfo>
-               </Publisher>
+               </Publisher>-->
                
                <!-- <ProvenanceInfo> -->
                <xsl:apply-templates mode="record.ProvenanceInfo" select="." />
@@ -314,51 +333,11 @@
                <!-- <DistributionInfo -->
                <xsl:apply-templates mode="record.DistributionInfo" select="stdyDscr/citation/distStmt" />
                
-               <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
-               <Subject>
-                   <label>OTHER</label>
-               </Subject>
-               <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
-               <Subject>
-                   <label>Development cooperation</label>
-               </Subject>
-               <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
-               <Subject>
-                   <label>ORGANISATIONAL CULTURE OF ENTERPRISES AND INSTITUTIONS</label>
-               </Subject>
-               <!--
-                   ..
-                   some subjects skipped
-                   ..
-               -->
-               <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-               <Keyword>
-                   <label>regional development</label>
-               </Keyword>
-               <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-               <Keyword>
-                   <label>innovative cores</label>
-               </Keyword>
-               <!--
-                   ..
-                   some keywords skipped
-                   ..
-               -->
-               <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-               <Keyword>
-                   <identifier>ELSST_7d7f66dd-f5bb-440e-b1d1-71c9b4c5087c</identifier>
-                   <label xml:lang="en-GB">DEVELOPMENT</label>
-               </Keyword>
-               <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-               <Keyword>
-                   <identifier>ELSST_b43e57e4-e01d-432e-b41b-ecaebbad3f6f</identifier>
-                   <label xml:lang="en-GB">DEVELOPMENT PROGRAMMES</label>
-               </Keyword>
-               <!--
-                   ..
-                   some keywords skipped
-                   ..
-               -->
+               <!-- <Subject> -->
+               
+               <xsl:apply-templates mode="record.Subject" select="stdyDscr/stdyInfo/subject/topcClas" />
+               <xsl:apply-templates mode="record.Keyword" select="stdyDscr/stdyInfo/subject/keyword" />
+               
                <!--
                <VersionInfo>
                    <versionIdentifier>versionIdentifier0</versionIdentifier>
@@ -983,6 +962,24 @@
                 <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang"><xsl:value-of select="@xml:lang"/></xsl:attribute></xsl:if>
                 <xsl:value-of select="normalize-space(.)"/></geoLocationPlace>
         </geoLocation>
+    </xsl:template>
+    
+    <!-- Helper templates -->
+    
+    <xsl:template mode="xmlLangAttr" match="@xml:lang">
+        <xsl:attribute name="xml:lang"><xsl:value-of select="."/></xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template mode="identifier" match="@* | node()">
+        <xsl:param name="vocabUri" />
+        <xsl:choose>
+            <xsl:when test="ddi_cmd:isUri(.)">
+                <identifier><xsl:value-of select="."/></identifier>
+            </xsl:when>
+            <xsl:when test="normalize-space($vocabUri) != ''">
+                <identifier><xsl:value-of select="$vocabUri"/>:<xsl:value-of select="."/></identifier>
+            </xsl:when>
+        </xsl:choose>  
     </xsl:template>
     
     <!-- Custom functions -->
