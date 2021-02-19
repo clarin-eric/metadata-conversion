@@ -99,15 +99,15 @@
     
     <xsl:template mode="record.TitleInfo.title" match="*">
         <title>
-            <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang" /></xsl:if>
+            <xsl:apply-templates mode="xmlLangAttr" select="." />
             <xsl:value-of select="."/>
         </title>
     </xsl:template>
     
     <xsl:template mode="record.Description.description" match="*">
         <Description>
-            <description xml:lang="en-GB">
-                <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang" /></xsl:if>
+            <description>
+                <xsl:apply-templates mode="xmlLangAttr" select="." />
                 <xsl:value-of select="."/>
             </description>
         </Description>
@@ -121,7 +121,7 @@
                 </xsl:apply-templates>      
             </xsl:if>
             <label>
-                <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang" /></xsl:if>
+                <xsl:apply-templates mode="xmlLangAttr" select="." />
                 <xsl:choose>
                     <xsl:when test="./concept">
                         <xsl:value-of select="./child::text()"/>
@@ -269,7 +269,7 @@
                 <xsl:with-param name="vocabUri" select="@vocabURI" />
             </xsl:apply-templates>
             <label>
-                <xsl:apply-templates mode="xmlLangAttr" select="@xml:lang" />
+                <xsl:apply-templates mode="xmlLangAttr" select="."/>
                 <xsl:value-of select="."/>
             </label>
         </Subject>
@@ -280,7 +280,7 @@
                 <xsl:with-param name="vocabUri" select="@vocabURI" />
             </xsl:apply-templates>
             <label>
-                <xsl:apply-templates mode="xmlLangAttr" select="@xml:lang" />
+                <xsl:apply-templates mode="xmlLangAttr" select="." />
                 <xsl:value-of select="."/>
             </label>
         </Keyword>
@@ -968,6 +968,12 @@
     
     <xsl:template mode="xmlLangAttr" match="@xml:lang">
         <xsl:attribute name="xml:lang"><xsl:value-of select="."/></xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template mode="xmlLangAttr" match="node()">
+        <xsl:if test="@xml:lang">
+            <xsl:apply-templates mode="xmlLangAttr" select="@xml:lang" />
+        </xsl:if>
     </xsl:template>
     
     <xsl:template mode="identifier" match="@* | node()">
