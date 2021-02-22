@@ -274,6 +274,7 @@
             </label>
         </Subject>
     </xsl:template>
+    
     <xsl:template mode="record.Keyword" match="subject/keyword">
         <Keyword>
             <xsl:apply-templates mode="identifier" select="@ID">
@@ -285,6 +286,31 @@
             </label>
         </Keyword>
     </xsl:template>
+    
+    
+    <xsl:template mode="record.FundingInfo" match="prodStmt">
+        <FundingInfo>
+            <xsl:for-each select="grantNo">
+            <Funding>
+                <grantNumber><xsl:value-of select="."/></grantNumber>
+            </Funding>
+            </xsl:for-each>
+            <xsl:for-each select="fundAg">
+              <Funding>
+                  <FundingAgency>
+                      <label>
+                          <xsl:apply-templates mode="xmlLangAttr" select="." />
+                          <xsl:value-of select="."/>
+                      </label>
+                      <xsl:if test="@abbr">
+                        <label><xsl:value-of select="@abbr"/></label>
+                      </xsl:if>
+                  </FundingAgency>
+              </Funding>
+            </xsl:for-each>
+        </FundingInfo>
+    </xsl:template>
+    
     
     <xsl:template mode="components" match="/codeBook">
         <cmd:Components>
@@ -338,6 +364,8 @@
                <xsl:apply-templates mode="record.Subject" select="stdyDscr/stdyInfo/subject/topcClas" />
                <xsl:apply-templates mode="record.Keyword" select="stdyDscr/stdyInfo/subject/keyword" />
                
+               <!-- TODO: <VersionInfo> ?? -->
+               
                <!--
                <VersionInfo>
                    <versionIdentifier>versionIdentifier0</versionIdentifier>
@@ -352,26 +380,11 @@
                    </Responsible>
                </VersionInfo>
                -->
-               <FundingInfo>
-                   <Funding>
-                       <!-- /codeBook/stdyDscr/citation/prodStmt/grantNo -->
-                       <grantNumber>L5-0654</grantNumber>
-                   </Funding>
-                   <Funding>
-                       <FundingAgency>
-                           <!-- /codeBook/stdyDscr/citation/prodStmt/fundAg -->
-                           <label xml:lang="en-GB">Agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</label>
-                           <label>ARRS</label>
-                       </FundingAgency>
-                   </Funding>
-                   <Funding>
-                       <FundingAgency>
-                           <!-- /codeBook/stdyDscr/citation/prodStmt/fundAg -->
-                           <label xml:lang="en-GB">Služba Vlade RS za lokalno samoupravo in regionalno politiko = Government Office for Local Self-Government and Regional Policy</label>
-                           <label>SVLR</label>
-                       </FundingAgency>
-                   </Funding>
-               </FundingInfo>
+               
+               <!-- <FundingInfo> -->
+               
+               <xsl:apply-templates mode="record.FundingInfo" select="stdyDscr/citation/prodStmt" />
+               
                <TemporalCoverage>
                    <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd -->
                    <label>November 2008 - November 2009</label>
