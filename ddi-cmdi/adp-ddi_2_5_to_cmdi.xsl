@@ -338,7 +338,10 @@
                     <xsl:if test="normalize-space(string($startDate)) != ''">
                         <date><xsl:value-of select="$startDate"/></date>
                     </xsl:if>
-                    <label><xsl:value-of select="."/></label>
+                    <label>
+                        <xsl:apply-templates mode="xmlLangAttr" select="." />
+                        <xsl:value-of select="."/>
+                    </label>
                 </Start>
             </xsl:for-each>
             <xsl:for-each select="timePrd[@event = 'end']">
@@ -347,10 +350,28 @@
                     <xsl:if test="normalize-space(string($endDate)) != ''">
                         <date><xsl:value-of select="$endDate"/></date>
                     </xsl:if>
-                    <label><xsl:value-of select="."/></label>
+                    <label>
+                        <xsl:apply-templates mode="xmlLangAttr" select="." />
+                        <xsl:value-of select="."/>
+                    </label>
                 </End>
             </xsl:for-each>
         </TemporalCoverage>
+    </xsl:template>
+    
+    <xsl:template mode="record.GeographicCoverage" match="sumDscr">
+        <xsl:if test="geogCover">
+            <GeographicCoverage>
+                <xsl:for-each select="geogCover">
+                    <GeoLocation>
+                        <label>
+                            <xsl:apply-templates mode="xmlLangAttr" select="." />
+                            <xsl:value-of select="."/>
+                        </label>
+                    </GeoLocation>
+                </xsl:for-each>
+            </GeographicCoverage>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template mode="components" match="/codeBook">
@@ -423,30 +444,14 @@
                -->
                
                <!-- <FundingInfo> -->
-               
                <xsl:apply-templates mode="record.FundingInfo" select="stdyDscr/citation/prodStmt" />
                
-               <!-- Temporal coverage -->
+               <!-- <TemporalCoverage> -->
                <xsl:apply-templates mode="record.TemporalCoverage" select="stdyDscr/stdyInfo/sumDscr" />
-
-               <GeographicCoverage>
-                   <GeoLocation>
-                       <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
-                       <label>Central Slovenia</label>
-                   </GeoLocation>
-                   <GeoLocation>
-                       <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
-                       <label>Goriska region</label>
-                   </GeoLocation>
-                   <GeoLocation>
-                       <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
-                       <label>Coastal-Carsic region</label>
-                   </GeoLocation>
-                   <GeoLocation>
-                       <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
-                       <label>Southeastern region</label>
-                   </GeoLocation>
-               </GeographicCoverage>
+               
+               <!-- <GeographicCoverage> -->
+               <xsl:apply-templates mode="record.GeographicCoverage" select="stdyDscr/stdyInfo/sumDscr" />
+               
                <AccessInfo>
                    <!-- /codeBook/stdyDscr/dataAccs/useStmt/citReq -->
                    <condition xml:lang="en-GB">The users should acknowledge in any publication both the original depositors and the Archive.</condition>
