@@ -309,8 +309,36 @@
               </Funding>
             </xsl:for-each>
         </FundingInfo>
-    </xsl:template>
+    </xsl:template>    
     
+    <!-- Temporal coverage -->
+    <xsl:template mode="record.TemporalCoverage" match="sumDscr[timePrd/@event='start' or timePrd/@event='end']">
+        <TemporalCoverage>
+            <!-- TODO: make this nicer for cases where one of the two is missing -->
+            <xsl:for-each select="timePrd[@event]">
+                <label><xsl:value-of select="@event"/>: <xsl:value-of select="."/></label>
+            </xsl:for-each>
+<!--            <label><xsl:value-of select="timePrd[@event='start']"/> - <xsl:value-of select="timePrd[@event='end']"/></label>-->
+            <xsl:for-each select="timePrd[@event = 'start']">
+                <xsl:variable name="startDate" select="ddi_cmd:toFullDate(@date)"/>
+                <Start>
+                    <xsl:if test="normalize-space(string($startDate)) != ''">
+                        <date><xsl:value-of select="$startDate"/></date>
+                    </xsl:if>
+                    <label><xsl:value-of select="."/></label>
+                </Start>
+            </xsl:for-each>
+            <xsl:for-each select="timePrd[@event = 'end']">
+                <xsl:variable name="endDate" select="ddi_cmd:toFullDate(@date)"/>
+                <End>
+                    <xsl:if test="normalize-space(string($endDate)) != ''">
+                        <date><xsl:value-of select="$endDate"/></date>
+                    </xsl:if>
+                    <label><xsl:value-of select="."/></label>
+                </End>
+            </xsl:for-each>
+        </TemporalCoverage>
+    </xsl:template>
     
     <xsl:template mode="components" match="/codeBook">
         <cmd:Components>
@@ -385,22 +413,9 @@
                
                <xsl:apply-templates mode="record.FundingInfo" select="stdyDscr/citation/prodStmt" />
                
-               <TemporalCoverage>
-                   <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd -->
-                   <label>November 2008 - November 2009</label>
-                   <Start>
-                       <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd/@date -->
-                       <date>2008-11-01</date>
-                       <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd -->
-                       <label>November 2008</label>
-                   </Start>
-                   <End>
-                       <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd/@date -->
-                       <date>2009-11-30</date>
-                       <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd -->
-                       <label>November 2009</label>
-                   </End>
-               </TemporalCoverage>
+               <!-- Temporal coverage -->
+               <xsl:apply-templates mode="record.TemporalCoverage" select="stdyDscr/stdyInfo/sumDscr" />
+
                <GeographicCoverage>
                    <GeoLocation>
                        <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
@@ -1010,13 +1025,13 @@
                 <!-- full date, return as is -->
                 <xsl:sequence select="$value" />
             </xsl:when>
-            <xsl:when test="matches($value, '^\d{4}-[0-1]\d$')">
+            <xsl:when test="matches(string($value), '^\d{4}-[0-1]\d$')">
                 <!-- only month; round to yyyy-mm-01 -->
-                <xsl:sequence select="concat($value,'-01')" />
+                <xsl:sequence select="concat(string($value),'-01')" />
             </xsl:when>
-            <xsl:when test="matches($value, '^\d{4}$')">
+            <xsl:when test="matches(string($value), '^\d{4}$')">
                 <!-- only year; round to yyyy-01-01 -->
-                <xsl:sequence select="concat($value,'-01-01')" />
+                <xsl:sequence select="concat(string($value),'-01-01')" />
             </xsl:when>
             <xsl:otherwise>
                 <xsl:sequence select="false()" />
@@ -1042,7 +1057,7 @@
     
     <xsl:function name="ddi_cmd:isDate">
         <xsl:param name="value" />
-        <xsl:sequence select="matches($value,'^\d{4}-[0-1]\d-[0-3]\d$')" />
+        <xsl:sequence select="matches(string($value),'^\d{4}-[0-1]\d-[0-3]\d$')" />        
     </xsl:function>
     
 </xsl:stylesheet>
