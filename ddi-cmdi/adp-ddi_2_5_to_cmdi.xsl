@@ -310,15 +310,28 @@
             </xsl:for-each>
         </FundingInfo>
     </xsl:template>    
-    
+
+    <xsl:template mode="record.TemporalCoverage" match="sumDscr[not(timePrd/@event='start' or timePrd/@event='end')]">
+        <TemporalCoverage>
+            <xsl:for-each select="timePrd">
+                <xsl:choose>
+                    <xsl:when test="@event">
+                        <label><xsl:value-of select="@event"/>: <xsl:value-of select="."/></label>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <label><xsl:value-of select="."/></label>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </TemporalCoverage>
+    </xsl:template>
+
     <!-- Temporal coverage -->
     <xsl:template mode="record.TemporalCoverage" match="sumDscr[timePrd/@event='start' or timePrd/@event='end']">
         <TemporalCoverage>
             <!-- TODO: make this nicer for cases where one of the two is missing -->
-            <xsl:for-each select="timePrd[@event]">
-                <label><xsl:value-of select="@event"/>: <xsl:value-of select="."/></label>
-            </xsl:for-each>
-<!--            <label><xsl:value-of select="timePrd[@event='start']"/> - <xsl:value-of select="timePrd[@event='end']"/></label>-->
+            <xsl:if test="timePrd/@event='start' and timePrd/@event='end'"></xsl:if>
+            <label><xsl:value-of select="timePrd[@event='start']"/> - <xsl:value-of select="timePrd[@event='end']"/></label>
             <xsl:for-each select="timePrd[@event = 'start']">
                 <xsl:variable name="startDate" select="ddi_cmd:toFullDate(@date)"/>
                 <Start>
