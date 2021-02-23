@@ -81,7 +81,9 @@
                 </xsl:for-each>
                 <xsl:for-each select="fileDscr[@URI]">
                     <cmd:ResourceProxy>
-                        <xsl:attribute name="id" select="generate-id(.)" />
+                        <xsl:attribute name="id">
+                            <xsl:apply-templates mode="resourceId" select="." />
+                        </xsl:attribute>
                         <cmd:ResourceType>Resource</cmd:ResourceType>
                         <cmd:ResourceRef><xsl:value-of select="@URI"/></cmd:ResourceRef>
                     </cmd:ResourceProxy>
@@ -92,7 +94,36 @@
         </cmd:Resources>
     </xsl:template>
     
+    <xsl:template mode="resourceId" match="node()">
+        <xsl:choose>
+            <xsl:when test="@ID">
+                <xsl:value-of select="@ID"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="generate-id(.)"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
     <!-- COMPONENT SECTION -->
+    
+    <xsl:template mode="record.Subresource" match="fileDscr">
+        <Subresource>
+            <xsl:attribute name="cmd:ref">
+                <xsl:apply-templates mode="resourceId" select="." />
+            </xsl:attribute>
+            <SubresourceDescription>
+                <label>
+                    <xsl:apply-templates mode="xmlLangAttr" select="fileTxt/fileName" />
+                    <xsl:value-of select="fileTxt/fileName"/>
+                </label>
+                <xsl:for-each select="fileTxt/dimensns/caseQnty">
+                    <description>caseQnty: <xsl:value-of select="."/></description>
+                </xsl:for-each>
+                <!-- TODO: other description aspects? -->
+            </SubresourceDescription>
+        </Subresource>
+    </xsl:template>
     
     <xsl:template mode="record.IdentificationInfo.identifier" match="*">
         <identifier><xsl:value-of select="."/></identifier>
@@ -527,51 +558,7 @@
                <!-- <CitationInfo> -->
                <xsl:apply-templates mode="record.CitationInfo" select="stdyDscr/citation" />
                
-               <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
-               <Subresource> <!--cmd:ref="IDGradiva1874">-->
-                   <SubresourceDescription>
-                       <!-- /codeBook/fileDscr/fileTxt/fileName -->
-                       <label xml:lang="sl-SI">RAZJED10 - Goriška regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
-                       <!-- /codeBook/fileDscr/dimensns/caseQnty -->
-                       <description>caseQnty: 9</description>
-                   </SubresourceDescription>
-               </Subresource>
-               <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
-               <Subresource><!-- cmd:ref="IDGradiva1876">-->
-                   <SubresourceDescription>
-                       <!-- /codeBook/fileDscr/fileTxt/fileName -->
-                       <label xml:lang="sl-SI">RAZJED10 - Jugovzhodna regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
-                       <!-- /codeBook/fileDscr/dimensns/caseQnty -->
-                       <description>caseQnty: 3</description>
-                   </SubresourceDescription>
-               </Subresource>
-               <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
-               <Subresource><!-- cmd:ref="IDGradiva1878">-->
-                   <SubresourceDescription>
-                       <!-- /codeBook/fileDscr/fileTxt/fileName -->
-                       <label xml:lang="sl-SI">RAZJED10 - Obalno-kraška regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
-                       <!-- /codeBook/fileDscr/dimensns/caseQnty -->
-                       <description>caseQnty: 7</description>
-                   </SubresourceDescription>
-               </Subresource>
-               <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
-               <Subresource><!-- cmd:ref="IDGradiva1880">-->
-                   <SubresourceDescription>
-                       <!-- /codeBook/fileDscr/fileTxt/fileName -->
-                       <label xml:lang="sl-SI">RAZJED10 - Osrednjeslovenska regija - transkript (fokusna skupina) [data file], </label>
-                       <!-- /codeBook/fileDscr/dimensns/caseQnty -->
-                       <description>caseQnty: 7</description>
-                   </SubresourceDescription>
-               </Subresource>
-               <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
-               <Subresource><!-- cmd:ref="IDGradiva1882">-->
-                   <SubresourceDescription>
-                       <!-- /codeBook/fileDscr/fileTxt/fileName -->
-                       <label xml:lang="sl-SI">RAZJED10 - Pomurje - transkript (fokusna skupina) [data file], 2010</label>
-                       <!-- /codeBook/fileDscr/dimensns/caseQnty -->
-                       <description>caseQnty: 1</description>
-                   </SubresourceDescription>
-               </Subresource>
+               <xsl:apply-templates mode="record.Subresource" select="fileDscr" />
                
                <RelatedResource>
                    <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/titlStmt/titl -->
