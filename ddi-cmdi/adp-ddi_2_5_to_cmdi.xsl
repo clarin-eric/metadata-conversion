@@ -214,16 +214,16 @@
         </ActivityInfo>
     </xsl:template>
     
-    <xsl:template mode="record.ProvenanceInfo" match="codeBook">
+    <xsl:template mode="record.ProvenanceInfo" match="stdyDscr">
         <ProvenanceInfo>
-            <xsl:if test="stdyDscr/citation/prodStmt">
+            <xsl:if test="citation/prodStmt">
                 <Creation>
-                    <xsl:apply-templates mode="ActivityInfo" select="stdyDscr/citation/prodStmt" />
+                    <xsl:apply-templates mode="ActivityInfo" select="citation/prodStmt" />
                 </Creation>
             </xsl:if>
-            <xsl:if test="stdyDscr/stdyInfo/sumDscr/collDate">
+            <xsl:if test="stdyInfo/sumDscr/collDate">
                 <Collection>
-                    <xsl:apply-templates mode="ActivityInfo" select="stdyDscr/stdyInfo/sumDscr/collDate" />
+                    <xsl:apply-templates mode="ActivityInfo" select="stdyInfo/sumDscr/collDate" />
                 </Collection>
             </xsl:if>
         </ProvenanceInfo>
@@ -374,6 +374,55 @@
         </xsl:if>
     </xsl:template>
     
+    <xsl:template mode="record.AccessInfo.condition" match="*">
+        <condition>
+            <xsl:apply-templates mode="xmlLangAttr" select="." />
+            <xsl:value-of select="."/>
+        </condition>
+    </xsl:template>    
+    
+    <xsl:template mode="record.AccessInfo.condition" match="@*">
+        <condition>
+            <xsl:value-of select="."/>
+        </condition>
+    </xsl:template>
+    
+    <xsl:template mode="record.AccessInfo.Contact" match="accsPlac">
+        <Contact>
+            <label>
+                <xsl:apply-templates mode="xmlLangAttr" select="." />
+                <xsl:value-of select="."/>
+            </label>
+            <Description>
+                <description>Access location</description>
+            </Description>
+            <AgentInfo>
+                <OrganisationInfo>
+                    <name>
+                        <xsl:apply-templates mode="xmlLangAttr" select="." />
+                        <xsl:value-of select="."/>
+                    </name>
+                    <xsl:if test="@URI">
+                    <ContactInfo>
+                        <url><xsl:value-of select="@URI"/></url>
+                    </ContactInfo>
+                    </xsl:if>
+                </OrganisationInfo>
+            </AgentInfo>
+        </Contact>
+    </xsl:template>
+    
+    <xsl:template mode="record.AccessInfo" match="stdyDscr">
+        <AccessInfo>
+            <xsl:apply-templates mode="record.AccessInfo.condition" select="dataAccs/useStmt/citReq" />
+            <xsl:apply-templates mode="record.AccessInfo.condition" select="dataAccs/useStmt/deposReq" />
+            <xsl:apply-templates mode="record.AccessInfo.condition" select="dataAccs/useStmt/conditions" />
+            <xsl:apply-templates mode="record.AccessInfo.condition" select="dataAccs/useStmt/restrctn" />
+            <xsl:apply-templates mode="record.AccessInfo.condition" select="dataAccs/useStmt/restrctn/@ID" />
+            <xsl:apply-templates mode="record.AccessInfo.Contact" select="dataAccs/setAvail/accsPlac" />
+        </AccessInfo>
+    </xsl:template>
+    
     <xsl:template mode="components" match="/codeBook">
         <cmd:Components>
            <ADP-DDI>
@@ -416,7 +465,7 @@
                </Publisher>-->
                
                <!-- <ProvenanceInfo> -->
-               <xsl:apply-templates mode="record.ProvenanceInfo" select="." />
+               <xsl:apply-templates mode="record.ProvenanceInfo" select="stdyDscr" />
                
                <!-- <DistributionInfo -->
                <xsl:apply-templates mode="record.DistributionInfo" select="stdyDscr/citation/distStmt" />
@@ -452,36 +501,9 @@
                <!-- <GeographicCoverage> -->
                <xsl:apply-templates mode="record.GeographicCoverage" select="stdyDscr/stdyInfo/sumDscr" />
                
-               <AccessInfo>
-                   <!-- /codeBook/stdyDscr/dataAccs/useStmt/citReq -->
-                   <condition xml:lang="en-GB">The users should acknowledge in any publication both the original depositors and the Archive.</condition>
-                   <!-- /codeBook/stdyDscr/dataAccs/useStmt/deposReq -->
-                   <condition xml:lang="en-GB">Users are requested to deposit with the Archive two copies of any published work or report based wholly or in part on such materials and to notify the Archive of any errors discovered in the materials.</condition>
-                   <!-- /codeBook/stdyDscr/dataAccs/useStmt/conditions -->
-                   <condition xml:lang="en-GB">In case of ambiguity the users of the data set are advised to contact principal investigators or Archive.</condition>
-                   <!-- /codeBook/stdyDscr/dataAccs/useStmt/restrctn -->
-                   <condition xml:lang="en-GB">The users should use the materials only for the purposes specified in Ordering form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials.</condition>
-                   <!-- /codeBook/stdyDscr/dataAccs/useStmt/restrctn/@ID -->
-                   <condition>ccby</condition>
-                   <Contact>
-                       <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
-                       <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
-                       <Description>
-                           <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
-                           <description>Access location</description>
-                       </Description>
-                       <AgentInfo>
-                           <OrganisationInfo>
-                               <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
-                               <name>Arhiv družboslovnih podatkov = Social Science Data Archive</name>
-                               <ContactInfo>
-                                   <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac/@URI -->
-                                   <url>http://www.adp.fdv.uni-lj.si/podatki/</url>
-                               </ContactInfo>
-                           </OrganisationInfo>
-                       </AgentInfo>
-                   </Contact>
-               </AccessInfo>
+               <!-- <AccessInfo> -->
+               <xsl:apply-templates mode="record.AccessInfo" select="stdyDscr" />
+               
                <CitationInfo>
                    <!-- /codeBook/stdyDscr/citation/biblCit -->
                    <!-- /codeBook/stdyDscr/citation/biblCit/@format -->
