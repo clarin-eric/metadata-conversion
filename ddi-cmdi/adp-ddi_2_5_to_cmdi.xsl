@@ -72,18 +72,23 @@
         <cmd:Resources>
             <cmd:ResourceProxyList>
                 <!-- TODO -->
-                
-               <!--     <cmd:ResourceProxy id="">
+                <xsl:for-each select="stdyDscr/dataAccs/setAvail/accsPlac[@URI]">
+                    <cmd:ResourceProxy>
+                        <xsl:attribute name="id" select="generate-id(.)" />
                         <cmd:ResourceType>LandingPage</cmd:ResourceType>
-                        <cmd:ResourceRef>{/codeBook/stdyDscr/dataAccs/setAvail/accsPlac/@URI} http://www.adp.fdv.uni-lj.si/podatki/</cmd:ResourceRef>
+                        <cmd:ResourceRef><xsl:value-of select="@URI"/></cmd:ResourceRef>
                     </cmd:ResourceProxy>
-                    <cmd:ResourceProxy id="F1">
+                </xsl:for-each>
+                <xsl:for-each select="fileDscr[@URI]">
+                    <cmd:ResourceProxy>
+                        <xsl:attribute name="id" select="generate-id(.)" />
                         <cmd:ResourceType>Resource</cmd:ResourceType>
-                        <cmd:ResourceRef>{/codeBook/fileDscr/@URI} https://www.adp.fdv.uni-lj.si/opisi/dostop/</cmd:ResourceRef>
-                    </cmd:ResourceProxy>-->
-                
-                
+                        <cmd:ResourceRef><xsl:value-of select="@URI"/></cmd:ResourceRef>
+                    </cmd:ResourceProxy>
+                </xsl:for-each>
             </cmd:ResourceProxyList>
+            <cmd:JournalFileProxyList />
+            <cmd:ResourceRelationList />
         </cmd:Resources>
     </xsl:template>
     
