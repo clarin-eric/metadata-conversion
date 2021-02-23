@@ -356,7 +356,7 @@
             <CitationInfo>
                 <!-- /codeBook/stdyDscr/citation/biblCit -->
                 <!-- /codeBook/stdyDscr/citation/biblCit/@format -->
-                <bibliographicCitation format="MRDF">Adam, Frane et al. Local and regional developmental cores [data file]. Slovenia, Ljubljana: Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis / Slovenia, Nova Gorica: Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica [production], 2010. Slovenia, Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archive [distribution], 2010.</bibliographicCitation>
+                <bibliographicCitation format="MRDF">Adam, F. (2010). Local and regional developmental cores [Data file]. Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives. ADP - IDNo: RAZJED10. https://doi.org/10.17898/ADP_RAZJED10_V1</bibliographicCitation>
             </CitationInfo>
             
             <!-- @cmd:ref = /codeBook/fileDscr/@ID -->

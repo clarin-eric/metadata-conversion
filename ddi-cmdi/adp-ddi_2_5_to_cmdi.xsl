@@ -423,6 +423,21 @@
         </AccessInfo>
     </xsl:template>
     
+    <xsl:template mode="record.CitationInfo" match="stdyDscr/citation">
+        <xsl:if test="biblCit">
+            <CitationInfo>
+                <xsl:for-each select="biblCit">
+                <bibliographicCitation>
+                    <xsl:if test="@format">
+                        <xsl:attribute name="format" select="@format" />
+                    </xsl:if>
+                    <xsl:value-of select="."/>
+                </bibliographicCitation>
+                </xsl:for-each>
+            </CitationInfo>
+        </xsl:if>
+    </xsl:template>
+    
     <xsl:template mode="components" match="/codeBook">
         <cmd:Components>
            <ADP-DDI>
@@ -504,11 +519,8 @@
                <!-- <AccessInfo> -->
                <xsl:apply-templates mode="record.AccessInfo" select="stdyDscr" />
                
-               <CitationInfo>
-                   <!-- /codeBook/stdyDscr/citation/biblCit -->
-                   <!-- /codeBook/stdyDscr/citation/biblCit/@format -->
-                   <bibliographicCitation format="MRDF">Adam, Frane et al. Local and regional developmental cores [data file]. Slovenia, Ljubljana: Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis / Slovenia, Nova Gorica: Fakulteta za uporabne družbene študije v Novi Gorici = School of Advanced Social Studies in Nova Gorica [production], 2010. Slovenia, Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archive [distribution], 2010.</bibliographicCitation>
-               </CitationInfo>
+               <!-- <CitationInfo> -->
+               <xsl:apply-templates mode="record.CitationInfo" select="stdyDscr/citation" />
                
                <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
                <Subresource> <!--cmd:ref="IDGradiva1874">-->
