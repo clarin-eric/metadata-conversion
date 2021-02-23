@@ -22,31 +22,31 @@
     <cmd:Resources>
         <cmd:ResourceProxyList>
             <!-- /codeBook/fileDscr/@ID -->
-            <cmd:ResourceProxy id="IDGradiva1874">
+            <cmd:ResourceProxy id="F2">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
                 <!-- /codeBook/fileDscr/@URI -->
                 <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-go-i.pdf</cmd:ResourceRef>
             </cmd:ResourceProxy>
             <!-- /codeBook/fileDscr/@ID -->
-            <cmd:ResourceProxy id="IDGradiva1876">
+            <cmd:ResourceProxy id="F3">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
                 <!-- /codeBook/fileDscr/@URI -->
                 <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-i.pdf</cmd:ResourceRef>
             </cmd:ResourceProxy>
             <!-- /codeBook/fileDscr/@ID -->
-            <cmd:ResourceProxy id="IDGradiva1878">
+            <cmd:ResourceProxy id="F4">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
                 <!-- /codeBook/fileDscr/@URI -->
                 <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-i.pdf</cmd:ResourceRef>
             </cmd:ResourceProxy>
             <!-- /codeBook/fileDscr/@ID -->
-            <cmd:ResourceProxy id="IDGradiva1880">
+            <cmd:ResourceProxy id="F5">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
                 <!-- /codeBook/fileDscr/@URI -->
                 <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-i.pdf</cmd:ResourceRef>
             </cmd:ResourceProxy>
             <!-- /codeBook/fileDscr/@ID -->
-            <cmd:ResourceProxy id="IDGradiva1882">
+            <cmd:ResourceProxy id="F1">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
                 <!-- /codeBook/fileDscr/@URI -->
                 <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-i.pdf</cmd:ResourceRef>
@@ -360,7 +360,7 @@
             </CitationInfo>
             
             <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
-            <Subresource cmd:ref="IDGradiva1874">
+            <Subresource cmd:ref="F2">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
                     <label xml:lang="sl-SI">RAZJED10 - Goriška regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
@@ -369,7 +369,7 @@
                 </SubresourceDescription>
             </Subresource>
             <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
-            <Subresource cmd:ref="IDGradiva1876">
+            <Subresource cmd:ref="F3">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
                     <label xml:lang="sl-SI">RAZJED10 - Jugovzhodna regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
@@ -378,7 +378,7 @@
                 </SubresourceDescription>
             </Subresource>
             <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
-            <Subresource cmd:ref="IDGradiva1878">
+            <Subresource cmd:ref="F4">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
                     <label xml:lang="sl-SI">RAZJED10 - Obalno-kraška regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
@@ -387,7 +387,7 @@
                 </SubresourceDescription>
             </Subresource>
             <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
-            <Subresource cmd:ref="IDGradiva1880">
+            <Subresource cmd:ref="F5">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
                     <label xml:lang="sl-SI">RAZJED10 - Osrednjeslovenska regija - transkript (fokusna skupina) [data file], </label>
@@ -396,7 +396,7 @@
                 </SubresourceDescription>
             </Subresource>
             <!-- @cmd:ref = /codeBook/fileDscr/@ID -->
-            <Subresource cmd:ref="IDGradiva1882">
+            <Subresource cmd:ref="F1">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
                     <label xml:lang="sl-SI">RAZJED10 - Pomurje - transkript (fokusna skupina) [data file], 2010</label>

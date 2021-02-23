@@ -95,8 +95,10 @@
     </xsl:template>
     
     <xsl:template mode="resourceId" match="node()">
+        <xsl:variable name="nodeId" select="@ID"/>
         <xsl:choose>
-            <xsl:when test="@ID">
+            <!-- node ID is available AND unique -->
+            <xsl:when test="$nodeId and count(//node()[@ID=$nodeId]) = 1">
                 <xsl:value-of select="@ID"/>
             </xsl:when>
             <xsl:otherwise>
