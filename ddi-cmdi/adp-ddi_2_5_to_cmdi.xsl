@@ -72,7 +72,6 @@
     <xsl:template mode="resourceProxies" match="codeBook">
         <cmd:Resources>
             <cmd:ResourceProxyList>
-                <!-- TODO -->
                 <xsl:for-each select="stdyDscr/dataAccs/setAvail/accsPlac[@URI]">
                     <cmd:ResourceProxy>
                         <xsl:attribute name="id" select="generate-id(.)" />
@@ -566,22 +565,68 @@
         </AccessInfo>
     </xsl:template>
     
+    <xsl:template mode="CitationInfo" match="citation[biblCit]">
+        <CitationInfo>
+            <xsl:for-each select="biblCit">
+            <bibliographicCitation>
+                <xsl:if test="@format">
+                    <xsl:attribute name="format" select="@format" />
+                </xsl:if>
+                <xsl:value-of select="."/>
+            </bibliographicCitation>
+            </xsl:for-each>
+        </CitationInfo>
+    </xsl:template>
+    
     <xsl:template mode="CitationInfo" match="citation">
-        <xsl:if test="biblCit">
+        <!-- Construct single bibliographic citation from information in citation block -->
+        <xsl:variable name="prodDate">
+            <xsl:if test="prodStmt/prodDate">
+                <xsl:value-of select="concat(normalize-space(prodStmt/prodDate), '. ')"/>
+            </xsl:if>
+        </xsl:variable>
+        
+        <xsl:variable name="prodPlac">
+            <xsl:if test="prodStmt/prodPlac">
+                <xsl:choose>
+                    <xsl:when test="normalize-space($prodDate) != ''">
+                        <xsl:value-of select="concat(normalize-space(prodStmt/prodPlac), ', ')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="concat(normalize-space(prodStmt/prodPlac), '. ')"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:if>
+        </xsl:variable>
+        
+        <xsl:variable name="rsp">
+            <xsl:if test="rspStmt">
+                <xsl:value-of select="concat(normalize-space(rspStmt), '. ')"/>
+            </xsl:if>
+        </xsl:variable>
+        
+        <xsl:variable name="producer">
+            <xsl:if test="prodStmt/producer">
+                <xsl:value-of select="concat(normalize-space(prodStmt/producer), '. ')"/>
+            </xsl:if>
+        </xsl:variable>
+        
+        <xsl:variable name="title">
+            <xsl:if test="count(titlStmt/titl) = 1">
+                <xsl:value-of select="normalize-space(titlStmt/titl)"/>
+            </xsl:if>
+        </xsl:variable>
+        
+        <xsl:variable name="bibliographicCitation" select="normalize-space(concat($rsp, $title, $producer, $prodPlac, $prodDate))"/>
+        
+        <xsl:if test="$bibliographicCitation != ''">
             <CitationInfo>
-                <xsl:for-each select="biblCit">
-                <bibliographicCitation>
-                    <xsl:if test="@format">
-                        <xsl:attribute name="format" select="@format" />
-                    </xsl:if>
-                    <xsl:value-of select="."/>
-                </bibliographicCitation>
-                </xsl:for-each>
+                <bibliographicCitation><xsl:value-of select="$bibliographicCitation"/></bibliographicCitation>
             </CitationInfo>
         </xsl:if>
     </xsl:template>
     
-    <xsl:template mode="record.RelatedResource" match="relMat" >
+    <xsl:template mode="record.RelatedResource" match="relMat|otherMat" >
         <RelatedResource>
             <xsl:if test="@ID">
                 <identifier><xsl:value-of select="@ID"/></identifier>
@@ -592,25 +637,11 @@
                     <xsl:value-of select="."/>
                 </label>
             </xsl:for-each>
-            <!-- TODO -->
-            <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/holdings/@URI -->
-            <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-porocilo.pdf</location>
-        </RelatedResource>
-    </xsl:template>
-    
-    <xsl:template mode="record.RelatedResource" match="otherMat" >
-        <RelatedResource>
-            <!-- TODO -->
-            <!-- /codeBook/otherMat/citation/titlStmt/titl -->
-            <label>RAZJED10 - Lokalna in regionalna razvojna jedra [Questionnaire]</label>
-            <!-- TODO -->
-            <!-- /codeBook/otherMat/@URI + /codeBook/otherMat/citation/holdings -->
-            <location>http://www.adp.fdv.uni-lj.si/podatki/razjed10/razjed10-vp.pdf</location>
-            <CitationInfo>
-                <!-- TODO -->
-                <!-- /codeBook/otherMat/citation/rspStmt + /codeBook/otherMat/citation/prodStmt -->
-                <bibliographicCitation>Adam, Frane. 2010. IRSA, Ljubljana</bibliographicCitation>
-            </CitationInfo>
+            <xsl:if test="citation/holdings[@URI]">
+                <location><xsl:value-of select="citation/holdings/@URI"/></location>
+            </xsl:if>
+            
+            <xsl:apply-templates mode="CitationInfo" select="citation" />
         </RelatedResource>
     </xsl:template>
     
