@@ -71,22 +71,22 @@
    <relatedIdentifiers>
       <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata"/>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">http://www.adp.fdv.uni-lj.si/podatki/</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/razjed10/razjed10-go-i.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/razjed10/razjed10-jv-i.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/razjed10/razjed10-ok-i.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/razjed10/razjed10-os-i.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">../podatki/razjed10/razjed10-po-i.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-vp.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-go-i.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-jv-i.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-ok-i.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-os-i.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-po-i.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-go-p.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-jv-p.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-ok-p.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-os-p.pdf</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">../podatki/razjed10/razjed10-po-p.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-go-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="Describes">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-vp.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-go-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-i.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-go-p.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-p.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-p.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-p.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementedBy">https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-p.pdf</relatedIdentifier>
    </relatedIdentifiers>
    <sizes>
       <size>9 cases</size>

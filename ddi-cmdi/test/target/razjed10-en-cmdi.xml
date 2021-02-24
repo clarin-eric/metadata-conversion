@@ -21,6 +21,11 @@
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
+            <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
+            <cmd:ResourceProxy id="lp1">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>http://www.adp.fdv.uni-lj.si/podatki/</cmd:ResourceRef>
+            </cmd:ResourceProxy>
             <!-- /codeBook/fileDscr/@ID -->
             <cmd:ResourceProxy id="F2">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
@@ -52,10 +57,9 @@
                 <cmd:ResourceRef>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-i.pdf</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
-        <cmd:JournalFileProxyList> </cmd:JournalFileProxyList>
-        <cmd:ResourceRelationList> </cmd:ResourceRelationList>
+        <cmd:JournalFileProxyList /> 
+        <cmd:ResourceRelationList /> 
     </cmd:Resources>
-    <cmd:IsPartOfList> </cmd:IsPartOfList>
     <cmd:Components>
         <ADP-DDI>
             <IdentificationInfo>
@@ -76,7 +80,8 @@
             </Description>
             <ResourceType>
                 <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/dataKind -->
-                <label xml:lang="en-GB">Transcripts of semi-structured interviews and focus groups.</label>
+                <identifier>urn:ddi-cv:GeneralDataFormat:2.0:Text</identifier>
+                <label xml:lang="en-GB">Text</label>
             </ResourceType>
             <Creator>
                 <!-- /codeBook/stdyDscr/citation/rspStmt/AuthEnty -->
@@ -132,6 +137,7 @@
                 <!-- /codeBook/stdyDscr/citation/rspStmt/othId/@role -->
                 <role>conceptualization collaborator</role>
             </Contributor>
+<!--
             <Publisher>
                 <identifier>http://www.oxygenxml.com/</identifier>
                 <identifier>http://www.oxygenxml.com/</identifier>
@@ -141,6 +147,7 @@
                     <email>email1</email>
                 </ContactInfo>
             </Publisher>
+-->
             <ProvenanceInfo>
                 <Creation>
                     <ActivityInfo>
@@ -149,10 +156,10 @@
                         <note>prodPlac = Ljubljana, Slovenia</note>
                         <note>prodPlac = Nova Gorica, Slovenia</note>
                         <When>
-                            <!-- /codeBook/stdyDscr/citation/prodStmt/prodDate/@date -->
-                            <label>2010-01</label>
                             <!-- /codeBook/stdyDscr/citation/prodStmt/prodDate -->
                             <label>January 2010</label>
+                            <!-- /codeBook/stdyDscr/citation/prodStmt/prodDate/@date -->
+                            <label>2010-01</label>
                         </When>
                         <Responsible>
                             <!-- /codeBook/stdyDscr/citation/prodStmt/producer -->
@@ -168,39 +175,41 @@
                         </Responsible>
                     </ActivityInfo>
                 </Creation>
-                <Collection>
+                 <Collection>
                     <ActivityInfo>
-                        <When>
-                            <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
-                            <label>November 2008</label>
-                            <date>2008-11-01</date>
-                        </When>
+                       <When>
+                          <label>November 2008</label>
+                          <label>2008-11</label>
+                       </When>
                     </ActivityInfo>
                     <ActivityInfo>
-                        <When>
-                            <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
-                            <label>January 2009 - March 2009</label>
-                            <start>2009-01-01</start>
-                            <end>2009-03-31</end>
-                        </When>
+                       <When>
+                          <label>start: 2009-01</label>
+                          <label>start: January 2009</label>
+                       </When>
                     </ActivityInfo>
                     <ActivityInfo>
-                        <When>
-                            <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/collDate -->
-                            <label>November 2009</label>
-                            <date>2009-11-01</date>
-                        </When>
+                       <When>
+                          <label>end: 2009-03</label>
+                          <label>end: March 2009</label>
+                       </When>
                     </ActivityInfo>
-                </Collection>
+                    <ActivityInfo>
+                       <When>
+                          <label>November 2009</label>
+                          <label>2009-11</label>
+                       </When>
+                    </ActivityInfo>
+                 </Collection>
             </ProvenanceInfo>
             <DistributionInfo>
                 <!-- /codeBook/stdyDscr/citation/distStmt/distDate/@date + '-01' -->
                 <distributionDate>2010-05-01</distributionDate>
                 <!-- /codeBook/stdyDscr/citation/distStmt/depDate/@date + '-01' -->
-                <depositionDate>2010-04-01</depositionDate>
+                <depositionDate>2010-04-20</depositionDate>
                 <Distributor>
                     <!-- /codeBook/stdyDscr/citation/distStmt/distrbtr -->
-                    <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
+                    <label>Arhiv družboslovnih podatkov = Social Science Data Archives</label>
                     <label>ADP</label>
                 </Distributor>
                 <Depositor>
@@ -211,50 +220,75 @@
                 </Depositor>
             </DistributionInfo>
             <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
-            <Subject>
-                <label>OTHER</label>
-            </Subject>
-            <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
-            <Subject>
-                <label>Development cooperation</label>
-            </Subject>
-            <!-- /codeBook/stdyDscr/stdyInfo/subject/topcClas -->
-            <Subject>
-                <label>ORGANISATIONAL CULTURE OF ENTERPRISES AND INSTITUTIONS</label>
-            </Subject>
-            <!--
-                ..
-                some subjects skipped
-                ..
-            -->
-            <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-            <Keyword>
-                <label>regional development</label>
-            </Keyword>
-            <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-            <Keyword>
-                <label>innovative cores</label>
-            </Keyword>
-            <!--
-                ..
-                some keywords skipped
-                ..
-            -->
-            <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-            <Keyword>
-                <identifier>ELSST_7d7f66dd-f5bb-440e-b1d1-71c9b4c5087c</identifier>
-                <label xml:lang="en-GB">DEVELOPMENT</label>
-            </Keyword>
-            <!-- /codeBook/stdyDscr/stdyInfo/subject/keyword -->
-            <Keyword>
-                <identifier>ELSST_b43e57e4-e01d-432e-b41b-ecaebbad3f6f</identifier>
-                <label xml:lang="en-GB">DEVELOPMENT PROGRAMMES</label>
-            </Keyword>
-            <!--
-                ..
-                some keywords skipped
-                ..
-            -->
+                     <Subject>
+            <identifier>urn:ddi:int.cessda.cv:TopicClassification:3.0:Other</identifier>
+            <label xml:lang="en-GB">OTHER</label>
+         </Subject>
+         <Subject>
+            <identifier>http://sicris.izum.si/:S195</identifier>
+            <label xml:lang="en-GB">Development cooperation</label>
+         </Subject>
+         <Subject>
+            <label xml:lang="en-GB">ORGANISATIONAL CULTURE OF ENTERPRISES AND INSTITUTIONS</label>
+         </Subject>
+         <Subject>
+            <label xml:lang="en-GB">INNOVATIVE ENVIRONMENT</label>
+         </Subject>
+         <Subject>
+            <label xml:lang="en-GB">COMMUNICATION PROCESSES WITHIN ENTERPRISES AND INSTITUTIONS</label>
+         </Subject>
+         <Subject>
+            <label xml:lang="en-GB">COMMUNICATION TO OTHER RELEVANT ACTORS</label>
+         </Subject>
+         <Subject>
+            <label xml:lang="en-GB">LOCAL AND REGIONAL LEVEL</label>
+         </Subject>
+         <Keyword>
+            <label xml:lang="en-GB">regional development</label>
+         </Keyword>
+         <Keyword>
+            <label xml:lang="en-GB">innovative cores</label>
+         </Keyword>
+         <Keyword>
+            <label xml:lang="en-GB">support institutions</label>
+         </Keyword>
+         <Keyword>
+            <label xml:lang="en-GB">application of economic knowledge</label>
+         </Keyword>
+         <Keyword>
+            <label xml:lang="en-GB">civil society</label>
+         </Keyword>
+         <Keyword>
+            <label xml:lang="en-GB">non-governmental organizations</label>
+         </Keyword>
+         <Keyword>
+            <identifier>https://elsst.ukdataservice.ac.uk:ELSST_7d7f66dd-f5bb-440e-b1d1-71c9b4c5087c</identifier>
+            <label xml:lang="en-GB">DEVELOPMENT</label>
+         </Keyword>
+         <Keyword>
+            <identifier>https://elsst.ukdataservice.ac.uk:ELSST_b43e57e4-e01d-432e-b41b-ecaebbad3f6f</identifier>
+            <label xml:lang="en-GB">DEVELOPMENT PROGRAMMES</label>
+         </Keyword>
+         <Keyword>
+            <identifier>https://elsst.ukdataservice.ac.uk:ELSST_d0fcf34d-8b9c-4bf5-871e-449b7517b47e</identifier>
+            <label xml:lang="en-GB">REGIONAL DEVELOPMENT</label>
+         </Keyword>
+         <Keyword>
+            <identifier>https://elsst.ukdataservice.ac.uk:ELSST_b819e7d6-dd13-4b49-9cd8-c42fa305c0ac</identifier>
+            <label xml:lang="en-GB">INFORMATION TRANSFER</label>
+         </Keyword>
+         <Keyword>
+            <identifier>https://elsst.ukdataservice.ac.uk:ELSST_9fb403c6-56f1-4e04-a26b-48016854d0fa</identifier>
+            <label xml:lang="en-GB">COMMUNITY DEVELOPMENT</label>
+         </Keyword>
+         <Keyword>
+            <identifier>https://elsst.ukdataservice.ac.uk:ELSST_2c7545d0-e32a-48cc-a3d0-47fb45bb11a9</identifier>
+            <label xml:lang="en-GB">INNOVATION</label>
+         </Keyword>
+         <Keyword>
+            <identifier>https://elsst.ukdataservice.ac.uk:ELSST_ad557ea9-39e5-4dca-9b15-02ed45473b16</identifier>
+            <label xml:lang="en-GB">SOCIAL CAPITAL</label>
+         </Keyword>
             <!--
             <VersionInfo>
                 <versionIdentifier>versionIdentifier0</versionIdentifier>
@@ -277,7 +311,7 @@
                 <Funding>
                     <FundingAgency>
                         <!-- /codeBook/stdyDscr/citation/prodStmt/fundAg -->
-                        <label xml:lang="en-GB">Agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</label>
+                        <label xml:lang="en-GB">Agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</label>
                         <label>ARRS</label>
                     </FundingAgency>
                 </Funding>
@@ -296,31 +330,31 @@
                     <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd/@date -->
                     <date>2008-11-01</date>
                     <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd -->
-                    <label>November 2008</label>
+                    <label xml:lang="en-GB">November 2008</label>
                 </Start>
                 <End>
                     <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd/@date -->
                     <date>2009-11-30</date>
                     <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd -->
-                    <label>November 2009</label>
+                    <label xml:lang="en-GB">November 2009</label>
                 </End>
             </TemporalCoverage>
             <GeographicCoverage>
                 <GeoLocation>
                     <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
-                    <label>Central Slovenia</label>
+                    <label xml:lang="en-GB">Central Slovenia</label>
                 </GeoLocation>
                 <GeoLocation>
                     <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
-                    <label>Goriska region</label>
+                    <label xml:lang="en-GB">Goriška region</label>
                 </GeoLocation>
                 <GeoLocation>
                     <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
-                    <label>Coastal-Carsic region</label>
+                    <label xml:lang="en-GB">Coastal-Carsic region</label>
                 </GeoLocation>
                 <GeoLocation>
                     <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/geogCover -->
-                    <label>Southeastern region</label>
+                    <label xml:lang="en-GB">Southeastern region</label>
                 </GeoLocation>
             </GeographicCoverage>
             <AccessInfo>

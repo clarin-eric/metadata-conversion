@@ -196,13 +196,13 @@
             <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
             <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
           </prodStmt>
-          <holdings URI="../podatki/razjed10/razjed10-porocilo.pdf">Arhiv družboslovnih podatkov =
+          <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-porocilo.pdf">Arhiv družboslovnih podatkov =
             Social Science Data Archives</holdings>
         </citation></relMat>
       <!--&rP;-->
     </othrStdyMat>
   </stdyDscr>
-  <fileDscr ID="F2" xml:lang="sl-SI" URI="../podatki/razjed10/razjed10-go-i.pdf" access="res">
+  <fileDscr ID="F2" xml:lang="sl-SI" URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-go-i.pdf" access="res">
     <fileTxt>
       <fileName xml:lang="sl-SI" ID="RAZJED10P6">Goriška regija - transkripti (intervjuji, fokusna skupina) [Data file]</fileName>
       <fileCitation>
@@ -226,7 +226,7 @@
       </verStmt>
     </fileTxt>
   </fileDscr>
-  <fileDscr ID="F3" xml:lang="sl-SI" URI="../podatki/razjed10/razjed10-jv-i.pdf" access="res">
+  <fileDscr ID="F3" xml:lang="sl-SI" URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-i.pdf" access="res">
     <fileTxt>
       <fileName xml:lang="sl-SI" ID="RAZJED10P7">Jugovzhodna regija - transkripti (intervjuji, fokusna skupina) [Data file]</fileName>
       <fileCitation>
@@ -250,7 +250,7 @@
       </verStmt>
     </fileTxt>
   </fileDscr>
-  <fileDscr ID="F4" xml:lang="sl-SI" URI="../podatki/razjed10/razjed10-ok-i.pdf" access="res">
+  <fileDscr ID="F4" xml:lang="sl-SI" URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-i.pdf" access="res">
     <fileTxt>
       <fileName xml:lang="sl-SI" ID="RAZJED10P8">Obalno-kraška regija - transkripti (intervjuji, fokusna skupina) [Data file]</fileName>
       <fileCitation>
@@ -274,7 +274,7 @@
       </verStmt>
     </fileTxt>
   </fileDscr>
-  <fileDscr ID="F5" xml:lang="sl-SI" URI="../podatki/razjed10/razjed10-os-i.pdf" access="res">
+  <fileDscr ID="F5" xml:lang="sl-SI" URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-i.pdf" access="res">
     <fileTxt>
       <fileName xml:lang="sl-SI" ID="RAZJED10P9">Osrednjeslovenska regija - transkript (fokusna skupina) [Data file]</fileName>
       <fileCitation>
@@ -298,7 +298,7 @@
       </verStmt>
     </fileTxt>
   </fileDscr>
-  <fileDscr ID="F1" xml:lang="sl-SI" URI="../podatki/razjed10/razjed10-po-i.pdf" access="res">
+  <fileDscr ID="F1" xml:lang="sl-SI" URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-i.pdf" access="res">
     <fileTxt>
       <fileName xml:lang="sl-SI" ID="RAZJED10P10">Pomurje - transkript (fokusna skupina) [Data file]</fileName>
       <fileCitation>
@@ -323,7 +323,7 @@
     </fileTxt>
   </fileDscr>
   <!-- &dD; -->
-  <otherMat URI="../podatki/razjed10/razjed10-vp.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10VP1">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-vp.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10VP1">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Lokalna in regionalna razvojna jedra (vprašalnik) [Questionnaire]</titl>
@@ -338,10 +338,10 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../podatki/razjed10/razjed10-vp.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-vp.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
-  <otherMat URI="../podatki/razjed10/razjed10-go-i.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10P6">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-go-i.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10P6">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Goriška regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]</titl>
@@ -356,10 +356,10 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../podatki/razjed10/razjed10-go-i.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-go-i.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
-  <otherMat URI="../podatki/razjed10/razjed10-jv-i.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10P7">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-i.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10P7">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Jugovzhodna regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]</titl>
@@ -374,10 +374,10 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../podatki/razjed10/razjed10-jv-i.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-i.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
-  <otherMat URI="../podatki/razjed10/razjed10-ok-i.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10P8">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-i.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10P8">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Obalno-kraška regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]</titl>
@@ -392,10 +392,10 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../podatki/razjed10/razjed10-ok-i.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-i.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
-  <otherMat URI="../podatki/razjed10/razjed10-os-i.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10P9">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-i.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10P9">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Osrednjeslovenska regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]</titl>
@@ -410,10 +410,10 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../podatki/razjed10/razjed10-os-i.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-i.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
-  <otherMat URI="../podatki/razjed10/razjed10-po-i.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10P10">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-i.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10P10">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Pomurje - transkript (fokusna skupina) [datoteka podatkov]</titl>
@@ -428,10 +428,10 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../podatki/razjed10/razjed10-po-i.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-i.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
-  <otherMat URI="../podatki/razjed10/razjed10-go-p.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10O7">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-go-p.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10O7">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Goriška regija - povzetki (intervjuji, fokusna skupina) [Other material]</titl>
@@ -446,10 +446,10 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../adp/podatki/razjed10/razjed10-go-p.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/adp/podatki/razjed10/razjed10-go-p.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
-  <otherMat URI="../podatki/razjed10/razjed10-jv-p.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10O8">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-p.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10O8">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Jugovzhodna regija - povzetki (intervjuji, fokusna skupina) [Other material]</titl>
@@ -464,10 +464,10 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../podatki/razjed10/razjed10-jv-p.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-p.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
-  <otherMat URI="../podatki/razjed10/razjed10-ok-p.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10O9">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-p.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10O9">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Obalno-kraška regija - povzetki (intervjuji, fokusna skupina) [Other material]</titl>
@@ -482,10 +482,10 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../podatki/razjed10/razjed10-ok-p.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-p.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
-  <otherMat URI="../podatki/razjed10/razjed10-os-p.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10O10">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-p.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10O10">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Osrednjeslovenska regija - povzetki (intervjuji, fokusna skupina) [Other material]</titl>
@@ -500,10 +500,10 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../podatki/razjed10/razjed10-os-p.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-p.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
-  <otherMat URI="../podatki/razjed10/razjed10-po-p.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10O11">
+  <otherMat URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-p.pdf" level="study" type="*.pdf - GRAPHIC" ID="RAZJED10O11">
     <citation>
       <titlStmt>
         <titl xml:lang="en-GB">RAZJED10 - Pomurje - povzetek (fokusna skupina) [Other material]</titl>
@@ -518,7 +518,7 @@
         <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
         <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
       </prodStmt>
-      <holdings URI="../podatki/razjed10/razjed10-po-p.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
+      <holdings URI="https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-p.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings>
     </citation>
   </otherMat>
 </codeBook>
