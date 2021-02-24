@@ -45,9 +45,11 @@
         <cmd:Header>
             <xsl:apply-templates select="docDscr/citation/verStmt/verResp | docDscr/citation/rspStmt/AuthEnty" mode="header.MdCreator" />
             <xsl:apply-templates select="docDscr/citation/prodStmt/prodDate/@date" mode="header.MdCreationDate" />
-            <cmd:MdSelfLink><!-- TODO --></cmd:MdSelfLink>
+            <!-- TODO -->
+            <!-- <cmd:MdSelfLink />-->
             <cmd:MdProfile>clarin.eu:cr1:p_1595321762428</cmd:MdProfile>
-            <cmd:MdCollectionDisplayName><!-- TODO --></cmd:MdCollectionDisplayName>
+            <!-- TODO -->
+            <!-- <cmd:MdCollectionDisplayName />-->
         </cmd:Header>
     </xsl:template>
     
@@ -56,7 +58,6 @@
     </xsl:template>
     
     <xsl:template mode="header.MdCreationDate" match="@date">
-        <!-- TODO: normalize date -->
         <xsl:variable name="fullDate" select="ddi_cmd:toFullDate(.)"/>
         <xsl:if test="normalize-space($fullDate) != ''">
             <xsl:if test="normalize-space(.) != $fullDate">
@@ -585,13 +586,13 @@
             <xsl:if test="@ID">
                 <identifier><xsl:value-of select="@ID"/></identifier>
             </xsl:if>
-            <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/titlStmt/titl -->
             <xsl:for-each select="citation/titlStmt/titl">
                 <label>
                     <xsl:apply-templates mode="xmlLangAttr" select="." />
                     <xsl:value-of select="."/>
                 </label>
             </xsl:for-each>
+            <!-- TODO -->
             <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/holdings/@URI -->
             <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-porocilo.pdf</location>
         </RelatedResource>
@@ -599,11 +600,14 @@
     
     <xsl:template mode="record.RelatedResource" match="otherMat" >
         <RelatedResource>
+            <!-- TODO -->
             <!-- /codeBook/otherMat/citation/titlStmt/titl -->
             <label>RAZJED10 - Lokalna in regionalna razvojna jedra [Questionnaire]</label>
+            <!-- TODO -->
             <!-- /codeBook/otherMat/@URI + /codeBook/otherMat/citation/holdings -->
             <location>http://www.adp.fdv.uni-lj.si/podatki/razjed10/razjed10-vp.pdf</location>
             <CitationInfo>
+                <!-- TODO -->
                 <!-- /codeBook/otherMat/citation/rspStmt + /codeBook/otherMat/citation/prodStmt -->
                 <bibliographicCitation>Adam, Frane. 2010. IRSA, Ljubljana</bibliographicCitation>
             </CitationInfo>
