@@ -181,7 +181,24 @@
     </dataAccs>
     <othrStdyMat>
       <relMat ID="RAZJED10O12">
-  <citation><titlStmt><titl xml:lang="en-GB">RAZJED10 - Lokalna in regionalna razvojna jedra (poročilo)</titl><IDNo agency="ADP">RAZJED10O12</IDNo></titlStmt><rspStmt><AuthEnty>Adam, Frane</AuthEnty></rspStmt><prodStmt><producer abbr="IRSA" xml:lang="en-GB">Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</producer><prodDate xml:lang="en-GB">2010</prodDate><prodPlac xml:lang="en-GB">Ljubljana</prodPlac><software xml:lang="en-GB">*.pdf - GRAPHIC</software></prodStmt><holdings URI="../podatki/razjed10/razjed10-porocilo.pdf">Arhiv družboslovnih podatkov = Social Science Data Archives</holdings></citation></relMat>
+        <citation>
+          <titlStmt>
+            <titl xml:lang="en-GB">RAZJED10 - Lokalna in regionalna razvojna jedra (poročilo)</titl>
+            <IDNo agency="ADP">RAZJED10O12</IDNo>
+          </titlStmt>
+          <rspStmt>
+            <AuthEnty>Adam, Frane</AuthEnty>
+          </rspStmt>
+          <prodStmt>
+            <producer abbr="IRSA" xml:lang="en-GB">Inštitut za razvojne in strateške analize = The
+              institute for developmental and strategic analysis</producer>
+            <prodDate xml:lang="en-GB">2010</prodDate>
+            <prodPlac xml:lang="en-GB">Ljubljana</prodPlac>
+            <software xml:lang="en-GB">*.pdf - GRAPHIC</software>
+          </prodStmt>
+          <holdings URI="../podatki/razjed10/razjed10-porocilo.pdf">Arhiv družboslovnih podatkov =
+            Social Science Data Archives</holdings>
+        </citation></relMat>
       <!--&rP;-->
     </othrStdyMat>
   </stdyDscr>

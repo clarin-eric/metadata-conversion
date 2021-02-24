@@ -135,7 +135,7 @@
         <internalIdentifier><xsl:value-of select="."/></internalIdentifier>
     </xsl:template>
     
-    <xsl:template mode="record.TitleInfo.title" match="*">
+    <xsl:template mode="TitleInfo.title" match="*">
         <title>
             <xsl:apply-templates mode="xmlLangAttr" select="." />
             <xsl:value-of select="."/>
@@ -172,7 +172,7 @@
         </ResourceType>
     </xsl:template>
     
-    <xsl:template mode="record.Creator" match="AuthEnty">
+    <xsl:template mode="Creator" match="AuthEnty">
         <Creator>
             <label><xsl:value-of select="."/></label>
             <AgentInfo>
@@ -186,12 +186,19 @@
         </Creator>
     </xsl:template>
     
-    <xsl:template mode="record.Contributor" match="othId">
+    <xsl:template mode="Contributor" match="othId|distrbtr">
         <Contributor>
-            <label><xsl:value-of select="descendant-or-self::text()[normalize-space() != '']"/></label>
+            <label>
+                <xsl:apply-templates mode="xmlLangAttr" select="." />
+                <xsl:value-of select="descendant-or-self::text()[normalize-space() != '']"/>
+            </label>
+            <xsl:if test="@abbr">
+                <label><xsl:value-of select="@abbr"/></label>
+            </xsl:if>
             <xsl:if test="@role">
                 <role><xsl:value-of select="@role"/></role>
             </xsl:if>
+            <!-- TODO: @affiliation IFF known if person or organisation -->
         </Contributor>
     </xsl:template>
     
@@ -252,7 +259,7 @@
         </ActivityInfo>
     </xsl:template>
     
-    <xsl:template mode="record.ProvenanceInfo" match="stdyDscr">
+    <xsl:template mode="ProvenanceInfo" match="stdyDscr|docDscr">
         <ProvenanceInfo>
             <xsl:if test="citation/prodStmt">
                 <Creation>
@@ -267,7 +274,7 @@
         </ProvenanceInfo>
     </xsl:template>
     
-    <xsl:template mode="record.DistributionInfo" match="distStmt">
+    <xsl:template mode="DistributionInfo" match="distStmt">
         <DistributionInfo>
             <!-- <distributionDate> -->
             <xsl:apply-templates select="distDate" mode="makeFullDate">
@@ -326,7 +333,7 @@
     </xsl:template>
     
     
-    <xsl:template mode="record.FundingInfo" match="prodStmt">
+    <xsl:template mode="FundingInfo" match="prodStmt">
         <FundingInfo>
             <xsl:for-each select="grantNo">
             <Funding>
@@ -461,7 +468,7 @@
         </AccessInfo>
     </xsl:template>
     
-    <xsl:template mode="record.CitationInfo" match="stdyDscr/citation">
+    <xsl:template mode="CitationInfo" match="citation">
         <xsl:if test="biblCit">
             <CitationInfo>
                 <xsl:for-each select="biblCit">
@@ -474,6 +481,66 @@
                 </xsl:for-each>
             </CitationInfo>
         </xsl:if>
+    </xsl:template>
+    
+    <xsl:template mode="record.RelatedResource" match="relMat" >
+        <RelatedResource>
+            <xsl:if test="@ID">
+                <identifier><xsl:value-of select="@ID"/></identifier>
+            </xsl:if>
+            <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/titlStmt/titl -->
+            <xsl:for-each select="citation/titlStmt/titl">
+                <label>
+                    <xsl:apply-templates mode="xmlLangAttr" select="." />
+                    <xsl:value-of select="."/>
+                </label>
+            </xsl:for-each>
+            <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/holdings/@URI -->
+            <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-porocilo.pdf</location>
+        </RelatedResource>
+    </xsl:template>
+    
+    <xsl:template mode="record.RelatedResource" match="otherMat" >
+        <RelatedResource>
+            <!-- /codeBook/otherMat/citation/titlStmt/titl -->
+            <label>RAZJED10 - Lokalna in regionalna razvojna jedra [Questionnaire]</label>
+            <!-- /codeBook/otherMat/@URI + /codeBook/otherMat/citation/holdings -->
+            <location>http://www.adp.fdv.uni-lj.si/podatki/razjed10/razjed10-vp.pdf</location>
+            <CitationInfo>
+                <!-- /codeBook/otherMat/citation/rspStmt + /codeBook/otherMat/citation/prodStmt -->
+                <bibliographicCitation>Adam, Frane. 2010. IRSA, Ljubljana</bibliographicCitation>
+            </CitationInfo>
+        </RelatedResource>
+    </xsl:template>
+    
+    <xsl:template mode="record.MetadataInfo" match="docDscr">
+        <MetadataInfo>
+            <xsl:if test="citation/titlStmt/IDNo">
+                <IdentificationInfo>
+                    <xsl:for-each select="citation/titlStmt/IDNo">
+                        <identifier><xsl:value-of select="."/></identifier>
+                    </xsl:for-each>
+                </IdentificationInfo>
+            </xsl:if>
+            
+            <xsl:if test="citation/titlStmt/titl | citation/titlStmt/parTitl">
+                <TitleInfo>
+                    <xsl:apply-templates mode="TitleInfo.title" select="citation/titlStmt/titl" />
+                    <xsl:apply-templates mode="TitleInfo.title" select="citation/titlStmt/parTitl" />
+                </TitleInfo>
+            </xsl:if>
+            
+            <xsl:apply-templates mode="Creator" select="citation/rspStmt/AuthEnty" />
+            
+            
+            <xsl:apply-templates mode="Contributor" select="citation/distStmt/distrbtr" />
+            
+            <xsl:apply-templates mode="CitationInfo" select="citation" />
+            
+            <xsl:apply-templates mode="ProvenanceInfo" select="." />
+            
+            <xsl:apply-templates mode="FundingInfo" select="citation/prodStmt" />
+        </MetadataInfo>
     </xsl:template>
     
     <xsl:template mode="components" match="/codeBook">
@@ -489,8 +556,8 @@
                
                <xsl:if test="stdyDscr/citation/titlStmt/titl|codeBook/stdyDscr/citation/titlStmt/parTitl">
                   <TitleInfo>
-                      <xsl:apply-templates mode="record.TitleInfo.title" select="stdyDscr/citation/titlStmt/titl" />
-                      <xsl:apply-templates mode="record.TitleInfo.title" select="stdyDscr/citation/titlStmt/parTitl" />
+                      <xsl:apply-templates mode="TitleInfo.title" select="stdyDscr/citation/titlStmt/titl" />
+                      <xsl:apply-templates mode="TitleInfo.title" select="stdyDscr/citation/titlStmt/parTitl" />
                   </TitleInfo>
                </xsl:if>
                
@@ -501,10 +568,10 @@
                <xsl:apply-templates mode="record.ResourceType" select="stdyDscr/stdyInfo/sumDscr/dataKind" />
                
                <!-- <Creator> -->
-               <xsl:apply-templates mode="record.Creator" select="stdyDscr/citation/rspStmt/AuthEnty" />
+               <xsl:apply-templates mode="Creator" select="stdyDscr/citation/rspStmt/AuthEnty" />
                
                <!-- <Contributor> -->
-               <xsl:apply-templates mode="record.Contributor" select="stdyDscr/citation/rspStmt/othId" />
+               <xsl:apply-templates mode="Contributor" select="stdyDscr/citation/rspStmt/othId" />
 
                <!-- TODO: publisher ?? -->
 <!--               <Publisher> 
@@ -518,10 +585,10 @@
                </Publisher>-->
                
                <!-- <ProvenanceInfo> -->
-               <xsl:apply-templates mode="record.ProvenanceInfo" select="stdyDscr" />
+               <xsl:apply-templates mode="ProvenanceInfo" select="stdyDscr" />
                
                <!-- <DistributionInfo -->
-               <xsl:apply-templates mode="record.DistributionInfo" select="stdyDscr/citation/distStmt" />
+               <xsl:apply-templates mode="DistributionInfo" select="stdyDscr/citation/distStmt" />
                
                <!-- <Subject> -->
                
@@ -546,7 +613,7 @@
                -->
                
                <!-- <FundingInfo> -->
-               <xsl:apply-templates mode="record.FundingInfo" select="stdyDscr/citation/prodStmt" />
+               <xsl:apply-templates mode="FundingInfo" select="stdyDscr/citation/prodStmt" />
                
                <!-- <TemporalCoverage> -->
                <xsl:apply-templates mode="record.TemporalCoverage" select="stdyDscr/stdyInfo/sumDscr" />
@@ -558,89 +625,17 @@
                <xsl:apply-templates mode="record.AccessInfo" select="stdyDscr" />
                
                <!-- <CitationInfo> -->
-               <xsl:apply-templates mode="record.CitationInfo" select="stdyDscr/citation" />
+               <xsl:apply-templates mode="CitationInfo" select="stdyDscr/citation" />
                
+               <!-- <Subresource> -->
                <xsl:apply-templates mode="record.Subresource" select="fileDscr" />
+
+               <!-- <RelatedResource> -->
+               <xsl:apply-templates mode="record.RelatedResource" select="stdyDscr/othrStdyMat/relMat" />
+               <xsl:apply-templates mode="record.RelatedResource" select="otherMat" />
                
-               <RelatedResource>
-                   <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/titlStmt/titl -->
-                   <label>RAZJED10 - Lokalna in regionalna razvojna jedra, poročilo [other documents]</label>
-                   <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/holdings/@URI -->
-                   <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-porocilo.pdf</location>
-               </RelatedResource>
-               <RelatedResource>
-                   <!-- /codeBook/otherMat/citation/titlStmt/titl -->
-                   <label>RAZJED10 - Lokalna in regionalna razvojna jedra [Questionnaire]</label>
-                   <!-- /codeBook/otherMat/@URI + /codeBook/otherMat/citation/holdings -->
-                   <location>http://www.adp.fdv.uni-lj.si/podatki/razjed10/razjed10-vp.pdf</location>
-                   <CitationInfo>
-                       <!-- /codeBook/otherMat/citation/rspStmt + /codeBook/otherMat/citation/prodStmt -->
-                       <bibliographicCitation>Adam, Frane. 2010. IRSA, Ljubljana</bibliographicCitation>
-                   </CitationInfo>
-               </RelatedResource>
-               <!-- Skipped 10 additional related resources from /codeBook/otherMat -->
-               
-               <MetadataInfo>
-                   <IdentificationInfo>
-                       <identifier>RAZJED10</identifier>
-                   </IdentificationInfo>
-                   <TitleInfo>
-                       <!-- /codeBook/docDscr/citation/titlStmt/titl -->
-                       <title xml:lang="en-GB">Local and regional developmental cores</title>
-                       <title xml:lang="sl-SI">Lokalna in regionalna razvojna jedra</title>
-                   </TitleInfo>
-                   <Creator>
-                       <!-- /codeBook/docDscr/citation/rspStmt/AuthEnty -->
-                       <label>Adam, Frane</label>
-                       <AgentInfo>
-                           <PersonInfo>
-                               <!-- /codeBook/docDscr/citation/rspStmt/AuthEnty -->
-                               <name>Adam, Frane</name>
-                               <!-- /codeBook/docDscr/citation/rspStmt/AuthEnty/@affiliation -->
-                               <affiliation>Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis</affiliation>
-                           </PersonInfo>
-                       </AgentInfo>
-                   </Creator>
-                   <Contributor>
-                       <!-- /codeBook/docDscr/citation/distStmt -->
-                       <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
-                       <role>Distributor</role>
-                   </Contributor>
-                   <CitationInfo>
-                       <!-- /codeBook/docDscr/citation/biblCit -->
-                       <!-- @format = /codeBook/docDscr/citation/biblCit/@format -->
-                       <bibliographicCitation format="MRDF">Adam, Frane et al. Local and regional developmental cores [codebook file]. Slovenia, Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archive [production, distribution], 2010.</bibliographicCitation>
-                   </CitationInfo>
-                   <ProvenanceInfo>
-                       <Creation>
-                           <ActivityInfo>
-                               <!-- /codeBook/docDscr/citation/prodStmt/software -->
-                               <method>&lt;oXygen/&gt; - XML edito</method>
-                               <!-- /codeBook/docDscr/citation/prodStmt/copyright -->
-                               <note>Copyright ADP, 2010</note>
-                               <When>
-                                   <!-- /codeBook/docDscr/citation/prodStmt/prodDate -->
-                                   <label>May 2010</label>
-                                   <date>2010-05-01</date>
-                               </When>
-                               <Responsible>
-                                   <!-- /codeBook/docDscr/citation/prodStmt/producer -->
-                                   <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
-                               </Responsible>
-                           </ActivityInfo>
-                       </Creation>
-                   </ProvenanceInfo>
-                   <FundingInfo>
-                       <Funding>
-                           <!-- /codeBook/docDscr/citation/prodStmt/grantNo -->
-                           <grantNumber>1000-09-160510 (IRC)</grantNumber>
-                           <FundingAgency>
-                               <!-- /codeBook/docDscr/citation/prodStmt/fundAg -->
-                               <label>Agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</label>
-                           </FundingAgency>
-                       </Funding>
-                   </FundingInfo>
-               </MetadataInfo>
+               <!-- <MetadataInfo> -->
+               <xsl:apply-templates mode="record.MetadataInfo" select="docDscr" />
            </ADP-DDI>
         </cmd:Components>
     </xsl:template>
