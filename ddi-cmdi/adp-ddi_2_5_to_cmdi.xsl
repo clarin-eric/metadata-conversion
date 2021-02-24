@@ -108,7 +108,104 @@
     </xsl:template>
     
     <!-- COMPONENT SECTION -->
-    
+
+    <xsl:template mode="components" match="/codeBook">
+        <cmd:Components>
+            <ADP-DDI>
+                
+                <xsl:if test="stdyDscr/citation/titlStmt/IDNo">
+                    <IdentificationInfo>
+                        <xsl:apply-templates mode="record.IdentificationInfo.identifier" select="stdyDscr/citation/titlStmt/IDNo[contains(text(), '/doi.org/')]" />
+                        <xsl:apply-templates mode="record.IdentificationInfo.internalIdentifier" select="stdyDscr/citation/titlStmt/IDNo[not(contains(text(), '/doi.org/'))]" />
+                    </IdentificationInfo>
+                </xsl:if>
+                
+                <xsl:if test="stdyDscr/citation/titlStmt/titl|codeBook/stdyDscr/citation/titlStmt/parTitl">
+                    <TitleInfo>
+                        <xsl:apply-templates mode="TitleInfo.title" select="stdyDscr/citation/titlStmt/titl" />
+                        <xsl:apply-templates mode="TitleInfo.title" select="stdyDscr/citation/titlStmt/parTitl" />
+                    </TitleInfo>
+                </xsl:if>
+                
+                <!-- <Description> -->
+                <xsl:apply-templates mode="record.Description.description" select="stdyDscr/stdyInfo/abstract" />
+                
+                <!-- <ResourceType> -->
+                <xsl:apply-templates mode="record.ResourceType" select="stdyDscr/stdyInfo/sumDscr/dataKind" />
+                
+                <!-- <Creator> -->
+                <xsl:apply-templates mode="Creator" select="stdyDscr/citation/rspStmt/AuthEnty" />
+                
+                <!-- <Contributor> -->
+                <xsl:apply-templates mode="Contributor" select="stdyDscr/citation/rspStmt/othId" />
+                
+                <!-- TODO: publisher ?? -->
+                <!--               <Publisher> 
+                   <identifier>http://www.oxygenxml.com/</identifier>
+                   <identifier>http://www.oxygenxml.com/</identifier>
+                   <name>name8</name>
+                   <ContactInfo>
+                       <email>email0</email>
+                       <email>email1</email>
+                   </ContactInfo>
+               </Publisher>-->
+                
+                <!-- <ProvenanceInfo> -->
+                <xsl:apply-templates mode="ProvenanceInfo" select="stdyDscr" />
+                
+                <!-- <DistributionInfo -->
+                <xsl:apply-templates mode="DistributionInfo" select="stdyDscr/citation/distStmt" />
+                
+                <!-- <Subject> -->
+                
+                <xsl:apply-templates mode="record.Subject" select="stdyDscr/stdyInfo/subject/topcClas" />
+                <xsl:apply-templates mode="record.Keyword" select="stdyDscr/stdyInfo/subject/keyword" />
+                
+                <!-- TODO: <VersionInfo> ?? -->
+                
+                <!--
+               <VersionInfo>
+                   <versionIdentifier>versionIdentifier0</versionIdentifier>
+                   <responsible>responsible0</responsible>
+                   <note>note0</note>
+                   <Description>
+                       <description>description3</description>
+                   </Description>
+                   <Responsible>
+                       <identifier>identifier1</identifier>
+                       <label>label21</label>
+                   </Responsible>
+               </VersionInfo>
+               -->
+                
+                <!-- <FundingInfo> -->
+                <xsl:apply-templates mode="FundingInfo" select="stdyDscr/citation/prodStmt" />
+                
+                <!-- <TemporalCoverage> -->
+                <xsl:apply-templates mode="record.TemporalCoverage" select="stdyDscr/stdyInfo/sumDscr" />
+                
+                <!-- <GeographicCoverage> -->
+                <xsl:apply-templates mode="record.GeographicCoverage" select="stdyDscr/stdyInfo/sumDscr" />
+                
+                <!-- <AccessInfo> -->
+                <xsl:apply-templates mode="record.AccessInfo" select="stdyDscr" />
+                
+                <!-- <CitationInfo> -->
+                <xsl:apply-templates mode="CitationInfo" select="stdyDscr/citation" />
+                
+                <!-- <Subresource> -->
+                <xsl:apply-templates mode="record.Subresource" select="fileDscr" />
+                
+                <!-- <RelatedResource> -->
+                <xsl:apply-templates mode="record.RelatedResource" select="stdyDscr/othrStdyMat/relMat" />
+                <xsl:apply-templates mode="record.RelatedResource" select="otherMat" />
+                
+                <!-- <MetadataInfo> -->
+                <xsl:apply-templates mode="record.MetadataInfo" select="docDscr" />
+            </ADP-DDI>
+        </cmd:Components>
+    </xsl:template>
+
     <xsl:template mode="record.Subresource" match="fileDscr">
         <Subresource>
             <xsl:attribute name="cmd:ref">
@@ -540,103 +637,6 @@
             
             <xsl:apply-templates mode="FundingInfo" select="citation/prodStmt" />
         </MetadataInfo>
-    </xsl:template>
-    
-    <xsl:template mode="components" match="/codeBook">
-        <cmd:Components>
-           <ADP-DDI>
-               
-               <xsl:if test="stdyDscr/citation/titlStmt/IDNo">
-                   <IdentificationInfo>
-                       <xsl:apply-templates mode="record.IdentificationInfo.identifier" select="stdyDscr/citation/titlStmt/IDNo[contains(text(), '/doi.org/')]" />
-                       <xsl:apply-templates mode="record.IdentificationInfo.internalIdentifier" select="stdyDscr/citation/titlStmt/IDNo[not(contains(text(), '/doi.org/'))]" />
-                   </IdentificationInfo>
-               </xsl:if>
-               
-               <xsl:if test="stdyDscr/citation/titlStmt/titl|codeBook/stdyDscr/citation/titlStmt/parTitl">
-                  <TitleInfo>
-                      <xsl:apply-templates mode="TitleInfo.title" select="stdyDscr/citation/titlStmt/titl" />
-                      <xsl:apply-templates mode="TitleInfo.title" select="stdyDscr/citation/titlStmt/parTitl" />
-                  </TitleInfo>
-               </xsl:if>
-               
-               <!-- <Description> -->
-               <xsl:apply-templates mode="record.Description.description" select="stdyDscr/stdyInfo/abstract" />
-                
-               <!-- <ResourceType> -->
-               <xsl:apply-templates mode="record.ResourceType" select="stdyDscr/stdyInfo/sumDscr/dataKind" />
-               
-               <!-- <Creator> -->
-               <xsl:apply-templates mode="Creator" select="stdyDscr/citation/rspStmt/AuthEnty" />
-               
-               <!-- <Contributor> -->
-               <xsl:apply-templates mode="Contributor" select="stdyDscr/citation/rspStmt/othId" />
-
-               <!-- TODO: publisher ?? -->
-<!--               <Publisher> 
-                   <identifier>http://www.oxygenxml.com/</identifier>
-                   <identifier>http://www.oxygenxml.com/</identifier>
-                   <name>name8</name>
-                   <ContactInfo>
-                       <email>email0</email>
-                       <email>email1</email>
-                   </ContactInfo>
-               </Publisher>-->
-               
-               <!-- <ProvenanceInfo> -->
-               <xsl:apply-templates mode="ProvenanceInfo" select="stdyDscr" />
-               
-               <!-- <DistributionInfo -->
-               <xsl:apply-templates mode="DistributionInfo" select="stdyDscr/citation/distStmt" />
-               
-               <!-- <Subject> -->
-               
-               <xsl:apply-templates mode="record.Subject" select="stdyDscr/stdyInfo/subject/topcClas" />
-               <xsl:apply-templates mode="record.Keyword" select="stdyDscr/stdyInfo/subject/keyword" />
-               
-               <!-- TODO: <VersionInfo> ?? -->
-               
-               <!--
-               <VersionInfo>
-                   <versionIdentifier>versionIdentifier0</versionIdentifier>
-                   <responsible>responsible0</responsible>
-                   <note>note0</note>
-                   <Description>
-                       <description>description3</description>
-                   </Description>
-                   <Responsible>
-                       <identifier>identifier1</identifier>
-                       <label>label21</label>
-                   </Responsible>
-               </VersionInfo>
-               -->
-               
-               <!-- <FundingInfo> -->
-               <xsl:apply-templates mode="FundingInfo" select="stdyDscr/citation/prodStmt" />
-               
-               <!-- <TemporalCoverage> -->
-               <xsl:apply-templates mode="record.TemporalCoverage" select="stdyDscr/stdyInfo/sumDscr" />
-               
-               <!-- <GeographicCoverage> -->
-               <xsl:apply-templates mode="record.GeographicCoverage" select="stdyDscr/stdyInfo/sumDscr" />
-               
-               <!-- <AccessInfo> -->
-               <xsl:apply-templates mode="record.AccessInfo" select="stdyDscr" />
-               
-               <!-- <CitationInfo> -->
-               <xsl:apply-templates mode="CitationInfo" select="stdyDscr/citation" />
-               
-               <!-- <Subresource> -->
-               <xsl:apply-templates mode="record.Subresource" select="fileDscr" />
-
-               <!-- <RelatedResource> -->
-               <xsl:apply-templates mode="record.RelatedResource" select="stdyDscr/othrStdyMat/relMat" />
-               <xsl:apply-templates mode="record.RelatedResource" select="otherMat" />
-               
-               <!-- <MetadataInfo> -->
-               <xsl:apply-templates mode="record.MetadataInfo" select="docDscr" />
-           </ADP-DDI>
-        </cmd:Components>
     </xsl:template>
     
     <!-- Helper templates -->
