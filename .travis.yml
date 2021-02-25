@@ -9,5 +9,6 @@ addons:
       # Needed for `xmllint`.
       - libxml2-utils
       - tidy
+      - jq
 
 script: bash 'test.sh'

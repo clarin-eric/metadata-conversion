@@ -78,7 +78,7 @@ cleanup() {
 	for f in "$@"; do
 		if [ -e "$f" ]; then
 			echo "- $f"
-			rm "$f"
+			#rm "$f"
 		fi
 	done
 	echo "-----------------------"
@@ -111,6 +111,7 @@ compare_xml() {
 	[ -e "${SRC}" ] && normalize_xml "${SRC}" > "${SRC_NORMALIZED}"
 	[ -e "${TARGET}" ] && normalize_xml "${TARGET}" > "${OUT_NORMALIZED}"
 	
+	echo diff "${SRC_NORMALIZED}" "${OUT_NORMALIZED}"
 	diff "${SRC_NORMALIZED}" "${OUT_NORMALIZED}"
 	SUCCESS="$?"
 	
@@ -123,7 +124,12 @@ compare_xml() {
 }
 
 normalize_xml() {
-	xmllint "$@" | tidy -quiet -utf8 -asxml -xml -indent --hide-comments 1	
+	xmllint "$@"  \
+		| tidy -quiet -utf8 -asxml -xml -indent --hide-comments 1 \
+		| xq --xml-output \
+'.'\
+'|(.["cmd:CMD"]["cmd:Components"]["ADP-DDI"].MetadataInfo.ProvenanceInfo.Activity.ActivityInfo.When.date|="----")'\
+'|(.["cmd:CMD"]["cmd:Resources"]["cmd:ResourceProxyList"]["cmd:ResourceProxy"][0]["@id"]|="lp1")'
 }
 
 main

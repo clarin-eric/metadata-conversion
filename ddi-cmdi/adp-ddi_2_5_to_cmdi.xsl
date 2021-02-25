@@ -3,15 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:cue="http://www.clarin.eu/cmdi/cues/1"
-    xmlns:dcr="http://www.isocat.org/ns/dcr"
     xmlns:cmd="http://www.clarin.eu/cmd/1"
-    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
-    xmlns:datacite="http://datacite.org/schema/kernel-4"
     xmlns:ddi_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1595321762428"
     xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd"
-    exclude-result-prefixes="xs"
+    exclude-result-prefixes="xs ddi_cmd"
     xpath-default-namespace="ddi:codebook:2_5"
     version="2.0">
 
@@ -35,7 +31,7 @@
     </xsl:template>
     
     <xsl:template match="/codeBook">
-        <cmd:CMD CMDVersion="1.2" xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd">
+        <cmd:CMD xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1595321762428/xsd" CMDVersion="1.2">
             <xsl:apply-templates mode="header" select="." />
             <xsl:apply-templates mode="resourceProxies" select="." />
             <xsl:apply-templates mode="components" select="." />            
