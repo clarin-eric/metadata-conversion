@@ -25,6 +25,9 @@
 
     <xsl:output indent="yes" encoding="UTF-8" />
     
+    <xsl:param name="MdSelfLink" required="no" />
+    <xsl:param name="MdCollectionDisplayName" required="no" />
+    
     <xsl:template match="/*" priority="-1">
         <cmd:CMD CMDVersion="1.2">
             <error>Input document is not a DDI 2.5 document</error>
@@ -45,11 +48,13 @@
         <cmd:Header>
             <xsl:apply-templates select="docDscr/citation/verStmt/verResp | docDscr/citation/rspStmt/AuthEnty" mode="header.MdCreator" />
             <xsl:apply-templates select="docDscr/citation/prodStmt/prodDate/@date" mode="header.MdCreationDate" />
-            <!-- TODO -->
-            <!-- <cmd:MdSelfLink />-->
+            <xsl:if test="normalize-space($MdSelfLink) != ''">
+                <cmd:MdSelfLink><xsl:value-of select="$MdSelfLink"/></cmd:MdSelfLink>
+            </xsl:if>
             <cmd:MdProfile>clarin.eu:cr1:p_1595321762428</cmd:MdProfile>
-            <!-- TODO -->
-            <!-- <cmd:MdCollectionDisplayName />-->
+            <xsl:if test="normalize-space($MdCollectionDisplayName) != ''">
+                <cmd:MdCollectionDisplayName><xsl:value-of select="$MdCollectionDisplayName"/></cmd:MdCollectionDisplayName>
+            </xsl:if>
         </cmd:Header>
     </xsl:template>
     
@@ -284,6 +289,7 @@
     </xsl:template>
     
     <xsl:template mode="Contributor" match="othId|distrbtr">
+        <xsl:param name="role" required="no" />
         <Contributor>
             <label>
                 <xsl:apply-templates mode="xmlLangAttr" select="." />
@@ -294,6 +300,9 @@
             </xsl:if>
             <xsl:if test="@role">
                 <role><xsl:value-of select="@role"/></role>
+            </xsl:if>
+            <xsl:if test="normalize-space($role) != ''">
+                <role><xsl:value-of select="$role"/></role>                
             </xsl:if>
             <!-- TODO: @affiliation IFF known if person or organisation -->
         </Contributor>
@@ -355,19 +364,39 @@
             <xsl:apply-templates mode="ActivityInfo.When" select="." />
         </ActivityInfo>
     </xsl:template>
+
+
+    <xsl:template mode="ProvenanceInfo.Creation" match="stdyDscr|docDscr">
+        <xsl:if test="citation/prodStmt">
+            <Creation>
+                <xsl:apply-templates mode="ActivityInfo" select="citation/prodStmt" />
+            </Creation>
+        </xsl:if>
+    </xsl:template>
     
-    <xsl:template mode="ProvenanceInfo" match="stdyDscr|docDscr">
+    <xsl:template mode="ProvenanceInfo" match="stdyDscr">
         <ProvenanceInfo>
-            <xsl:if test="citation/prodStmt">
-                <Creation>
-                    <xsl:apply-templates mode="ActivityInfo" select="citation/prodStmt" />
-                </Creation>
-            </xsl:if>
+            <xsl:apply-templates mode="ProvenanceInfo.Creation" select="." />
             <xsl:if test="stdyInfo/sumDscr/collDate">
                 <Collection>
                     <xsl:apply-templates mode="ActivityInfo" select="stdyInfo/sumDscr/collDate" />
                 </Collection>
             </xsl:if>
+        </ProvenanceInfo>
+    </xsl:template>
+    
+    <xsl:template mode="ProvenanceInfo" match="docDscr">
+        <ProvenanceInfo>
+            <xsl:apply-templates mode="ProvenanceInfo.Creation" select="." />
+            <Activity>
+                <label>Conversion to CMDI</label>
+                <note>Automatic metadata conversion with stylesheet adp-ddi_2_5_to_cmdi.xsl</note>
+                <ActivityInfo>
+                    <When>
+                        <date><xsl:value-of select="adjust-date-to-timezone(current-date(), xs:dayTimeDuration('PT0H'))"/></date>
+                    </When>
+                </ActivityInfo>
+            </Activity>
         </ProvenanceInfo>
     </xsl:template>
     
@@ -664,10 +693,13 @@
             
             <xsl:apply-templates mode="Creator" select="citation/rspStmt/AuthEnty" />
             
-            <xsl:apply-templates mode="Contributor" select="citation/distStmt/distrbtr" />
+            <xsl:apply-templates mode="Contributor" select="citation/distStmt/distrbtr">
+                <xsl:with-param name="role" select="'Distributor'" />
+            </xsl:apply-templates>
             
             <xsl:apply-templates mode="CitationInfo" select="citation" />
             
+            <!-- TODO: add conversion to CMDI activity -->
             <xsl:apply-templates mode="ProvenanceInfo" select="." />
             
             <xsl:apply-templates mode="FundingInfo" select="citation/prodStmt" />
