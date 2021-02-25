@@ -114,12 +114,8 @@
         <cmd:Components>
             <ADP-DDI>
                 
-                <xsl:if test="stdyDscr/citation/titlStmt/IDNo">
-                    <IdentificationInfo>
-                        <xsl:apply-templates mode="record.IdentificationInfo.identifier" select="stdyDscr/citation/titlStmt/IDNo[contains(text(), '/doi.org/')]" />
-                        <xsl:apply-templates mode="record.IdentificationInfo.internalIdentifier" select="stdyDscr/citation/titlStmt/IDNo[not(contains(text(), '/doi.org/'))]" />
-                    </IdentificationInfo>
-                </xsl:if>
+                <!-- <IdentificationInfo> -->
+                <xsl:apply-templates mode="record.IdentificationInfo" select="stdyDscr/citation/titlStmt" />
                 
                 <xsl:if test="stdyDscr/citation/titlStmt/titl|codeBook/stdyDscr/citation/titlStmt/parTitl">
                     <TitleInfo>
@@ -225,12 +221,28 @@
         </Subresource>
     </xsl:template>
     
-    <xsl:template mode="record.IdentificationInfo.identifier" match="*">
-        <identifier><xsl:value-of select="."/></identifier>
-    </xsl:template>
-    
-    <xsl:template mode="record.IdentificationInfo.internalIdentifier" match="*">
-        <internalIdentifier><xsl:value-of select="."/></internalIdentifier>
+    <xsl:template mode="record.IdentificationInfo" match="titlStmt">
+        <xsl:if test="IDNo">
+            <IdentificationInfo>
+                <xsl:choose>
+                    <xsl:when test="IDNo[contains(text(), '/doi.org/')]">
+                        <!-- treat DOI(s) as 'primary' identifier and other IDs as internal identifiers --> 
+                        <xsl:for-each select="IDNo[contains(text(), '/doi.org/')]">
+                            <identifier><xsl:value-of select="."/></identifier>
+                        </xsl:for-each>
+                        <xsl:for-each select="IDNo[not(contains(text(), '/doi.org/'))]">
+                            <internalIdentifier><xsl:value-of select="."/></internalIdentifier>
+                        </xsl:for-each>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <!-- no DOI(s): treat all identifier as 'primary' identifiers --> 
+                        <xsl:for-each select="IDNo">
+                            <identifier><xsl:value-of select="."/></identifier>
+                        </xsl:for-each>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </IdentificationInfo>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template mode="TitleInfo.title" match="*">
