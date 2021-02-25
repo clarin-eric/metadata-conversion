@@ -23,6 +23,7 @@
     
     <xsl:param name="MdSelfLink" required="no" />
     <xsl:param name="MdCollectionDisplayName" required="no" />
+    <xsl:param name="resourceBaseUrl"  required="no" />
     
     <xsl:template match="/*" priority="-1">
         <cmd:CMD CMDVersion="1.2">
@@ -77,7 +78,7 @@
                     <cmd:ResourceProxy>
                         <xsl:attribute name="id" select="generate-id(.)" />
                         <cmd:ResourceType>LandingPage</cmd:ResourceType>
-                        <cmd:ResourceRef><xsl:value-of select="@URI"/></cmd:ResourceRef>
+                        <cmd:ResourceRef><xsl:value-of select="ddi_cmd:resolve-to-base(@URI)"/></cmd:ResourceRef>
                     </cmd:ResourceProxy>
                 </xsl:for-each>
                 <xsl:for-each select="fileDscr[@URI]">
@@ -86,7 +87,7 @@
                             <xsl:apply-templates mode="resourceId" select="." />
                         </xsl:attribute>
                         <cmd:ResourceType>Resource</cmd:ResourceType>
-                        <cmd:ResourceRef><xsl:value-of select="@URI"/></cmd:ResourceRef>
+                        <cmd:ResourceRef><xsl:value-of select="ddi_cmd:resolve-to-base(@URI)"/></cmd:ResourceRef>
                     </cmd:ResourceProxy>
                 </xsl:for-each>
             </cmd:ResourceProxyList>
@@ -675,7 +676,7 @@
                 </label>
             </xsl:for-each>
             <xsl:if test="citation/holdings[@URI]">
-                <location><xsl:value-of select="citation/holdings/@URI"/></location>
+                <location><xsl:value-of select="ddi_cmd:resolve-to-base(citation/holdings/@URI)"/></location>
             </xsl:if>
             
             <xsl:apply-templates mode="CitationInfo" select="citation" />
@@ -729,7 +730,7 @@
     <xsl:template mode="identifier" match="@* | node()">
         <xsl:param name="vocabUri" />
         <xsl:choose>
-            <xsl:when test="ddi_cmd:isUri(.)">
+            <xsl:when test="ddi_cmd:isAbsoluteUri(.)">
                 <identifier><xsl:value-of select="."/></identifier>
             </xsl:when>
             <xsl:when test="normalize-space($vocabUri) != ''">
@@ -772,7 +773,7 @@
         </xsl:if>
     </xsl:template>
     
-    <xsl:function name="ddi_cmd:isUri">
+    <xsl:function name="ddi_cmd:isAbsoluteUri">
         <xsl:param name="value" />
         <xsl:sequence select="matches($value,'^(http|https|hdl|doi):.*$')" />
     </xsl:function>
@@ -780,6 +781,18 @@
     <xsl:function name="ddi_cmd:isDate">
         <xsl:param name="value" />
         <xsl:sequence select="matches(string($value),'^\d{4}-[0-1]\d-[0-3]\d$')" />        
+    </xsl:function>
+    
+    <xsl:function name="ddi_cmd:resolve-to-base">
+        <xsl:param name="uri" required="yes" />
+        <xsl:choose>
+            <xsl:when test="normalize-space($resourceBaseUrl) != '' and not(ddi_cmd:isAbsoluteUri($uri))">
+                <xsl:sequence select="resolve-uri($uri, $resourceBaseUrl)" />
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:sequence select="$uri" />
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:function>
     
 </xsl:stylesheet>
