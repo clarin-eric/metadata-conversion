@@ -14,7 +14,8 @@
     <cmd:Header>
         <!-- /codeBook/docDscr/citation/rspStmt/AuthEnty -->
         <cmd:MdCreator>Adam, Frane</cmd:MdCreator>
-        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <cmd:MdCreator>Sanja Lužar, ADP</cmd:MdCreator>
+        <cmd:MdCreationDate>2010-05-01</cmd:MdCreationDate>
         <!-- <cmd:MdSelfLink>http://www.oxygenxml.com/</cmd:MdSelfLink> -->
         <cmd:MdProfile>clarin.eu:cr1:p_1595321762428</cmd:MdProfile>
         <!-- <cmd:MdCollectionDisplayName>MdCollectionDisplayName0</cmd:MdCollectionDisplayName> -->
@@ -334,7 +335,7 @@
                 </Start>
                 <End>
                     <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd/@date -->
-                    <date>2009-11-30</date>
+                    <date>2009-11-01</date>
                     <!-- /codeBook/stdyDscr/stdyInfo/sumDscr/timePrd -->
                     <label xml:lang="en-GB">November 2009</label>
                 </End>
@@ -367,10 +368,10 @@
                 <!-- /codeBook/stdyDscr/dataAccs/useStmt/restrctn -->
                 <condition xml:lang="en-GB">The users should use the materials only for the purposes specified in Ordering form, to act at all times so as to preserve the confidentiality of individuals and institutions recorded in the materials.</condition>
                 <!-- /codeBook/stdyDscr/dataAccs/useStmt/restrctn/@ID -->
-                <condition>ccby</condition>
+                <condition>res</condition>
                 <Contact>
                     <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
-                    <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
+                    <label xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</label>
                     <Description>
                         <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
                         <description>Access location</description>
@@ -378,7 +379,7 @@
                     <AgentInfo>
                         <OrganisationInfo>
                             <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
-                            <name>Arhiv družboslovnih podatkov = Social Science Data Archive</name>
+                            <name xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</name>
                             <ContactInfo>
                                 <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac/@URI -->
                                 <url>http://www.adp.fdv.uni-lj.si/podatki/</url>
@@ -397,7 +398,7 @@
             <Subresource cmd:ref="F2">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
-                    <label xml:lang="sl-SI">RAZJED10 - Goriška regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
+                    <label xml:lang="sl-SI">Goriška regija - transkripti (intervjuji, fokusna skupina) [Data file]</label>
                     <!-- /codeBook/fileDscr/dimensns/caseQnty -->
                     <description>caseQnty: 9</description>
                 </SubresourceDescription>
@@ -406,7 +407,7 @@
             <Subresource cmd:ref="F3">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
-                    <label xml:lang="sl-SI">RAZJED10 - Jugovzhodna regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
+                    <label xml:lang="sl-SI">Jugovzhodna regija - transkripti (intervjuji, fokusna skupina) [Data file]</label>
                     <!-- /codeBook/fileDscr/dimensns/caseQnty -->
                     <description>caseQnty: 3</description>
                 </SubresourceDescription>
@@ -415,7 +416,7 @@
             <Subresource cmd:ref="F4">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
-                    <label xml:lang="sl-SI">RAZJED10 - Obalno-kraška regija - transkripti (intervjuji, fokusna skupina) [data file], 2010</label>
+                    <label xml:lang="sl-SI">Obalno-kraška regija - transkripti (intervjuji, fokusna skupina) [Data file]</label>
                     <!-- /codeBook/fileDscr/dimensns/caseQnty -->
                     <description>caseQnty: 7</description>
                 </SubresourceDescription>
@@ -424,7 +425,7 @@
             <Subresource cmd:ref="F5">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
-                    <label xml:lang="sl-SI">RAZJED10 - Osrednjeslovenska regija - transkript (fokusna skupina) [data file], </label>
+                    <label xml:lang="sl-SI">Osrednjeslovenska regija - transkript (fokusna skupina) [Data file]</label>
                     <!-- /codeBook/fileDscr/dimensns/caseQnty -->
                     <description>caseQnty: 7</description>
                 </SubresourceDescription>
@@ -433,29 +434,108 @@
             <Subresource cmd:ref="F1">
                 <SubresourceDescription>
                     <!-- /codeBook/fileDscr/fileTxt/fileName -->
-                    <label xml:lang="sl-SI">RAZJED10 - Pomurje - transkript (fokusna skupina) [data file], 2010</label>
+                    <label xml:lang="sl-SI">Pomurje - transkript (fokusna skupina) [Data file]</label>
                     <!-- /codeBook/fileDscr/dimensns/caseQnty -->
                     <description>caseQnty: 1</description>
                 </SubresourceDescription>
             </Subresource>
             
             <RelatedResource>
-                <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/titlStmt/titl -->
-                <label>RAZJED10 - Lokalna in regionalna razvojna jedra, poročilo [other documents]</label>
-                <!-- /codeBook/stdyDscr/othrStdyMat/relMat/citation/holdings/@URI -->
+                <identifier>RAZJED10O12</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Lokalna in regionalna razvojna jedra (poročilo)</label>
                 <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-porocilo.pdf</location>
-            </RelatedResource>
-            <RelatedResource>
-                <!-- /codeBook/otherMat/citation/titlStmt/titl -->
-                <label>RAZJED10 - Lokalna in regionalna razvojna jedra [Questionnaire]</label>
-                <!-- /codeBook/otherMat/@URI + /codeBook/otherMat/citation/holdings -->
-                <location>http://www.adp.fdv.uni-lj.si/podatki/razjed10/razjed10-vp.pdf</location>
                 <CitationInfo>
-                    <!-- /codeBook/otherMat/citation/rspStmt + /codeBook/otherMat/citation/prodStmt -->
-                    <bibliographicCitation>Adam, Frane. 2010. IRSA, Ljubljana</bibliographicCitation>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Lokalna in regionalna razvojna jedra (poročilo)Inštitut za razvojne in strateške analize = The institute for developmental and strategic analysis. Ljubljana, 2010.</bibliographicCitation>
                 </CitationInfo>
-            </RelatedResource>
-            <!-- Skipped 10 additional related resources from /codeBook/otherMat -->
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10VP1</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Lokalna in regionalna razvojna jedra (vprašalnik) [Questionnaire]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-vp.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Lokalna in regionalna razvojna jedra (vprašalnik) [Questionnaire]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10P6</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Goriška regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-go-i.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Goriška regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10P7</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Jugovzhodna regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-i.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Jugovzhodna regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10P8</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Obalno-kraška regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-i.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Obalno-kraška regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10P9</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Osrednjeslovenska regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-i.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Osrednjeslovenska regija - transkripti (intervjuji, fokusna skupina) [datoteka podatkov]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10P10</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Pomurje - transkript (fokusna skupina) [datoteka podatkov]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-i.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Pomurje - transkript (fokusna skupina) [datoteka podatkov]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10O7</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Goriška regija - povzetki (intervjuji, fokusna skupina) [Other material]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/adp/podatki/razjed10/razjed10-go-p.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Goriška regija - povzetki (intervjuji, fokusna skupina) [Other material]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10O8</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Jugovzhodna regija - povzetki (intervjuji, fokusna skupina) [Other material]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-jv-p.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Jugovzhodna regija - povzetki (intervjuji, fokusna skupina) [Other material]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10O9</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Obalno-kraška regija - povzetki (intervjuji, fokusna skupina) [Other material]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-ok-p.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Obalno-kraška regija - povzetki (intervjuji, fokusna skupina) [Other material]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10O10</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Osrednjeslovenska regija - povzetki (intervjuji, fokusna skupina) [Other material]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-os-p.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Osrednjeslovenska regija - povzetki (intervjuji, fokusna skupina) [Other material]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
+             <RelatedResource>
+                <identifier>RAZJED10O11</identifier>
+                <label xml:lang="en-GB">RAZJED10 - Pomurje - povzetek (fokusna skupina) [Other material]</label>
+                <location>https://www.adp.fdv.uni-lj.si/media/podatki/razjed10/razjed10-po-p.pdf</location>
+                <CitationInfo>
+                   <bibliographicCitation>Adam, Frane. RAZJED10 - Pomurje - povzetek (fokusna skupina) [Other material]IRSA. Ljubljana, 2010.</bibliographicCitation>
+                </CitationInfo>
+             </RelatedResource>
             
             <MetadataInfo>
                 <IdentificationInfo>
@@ -480,43 +560,55 @@
                 </Creator>
                 <Contributor>
                     <!-- /codeBook/docDscr/citation/distStmt -->
-                    <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
+                    <label xml:lang="en-GB">Arhiv družboslovnih podatkov = Social Science Data Archives</label>
+                   <label>ADP</label>
                     <role>Distributor</role>
                 </Contributor>
                 <CitationInfo>
                     <!-- /codeBook/docDscr/citation/biblCit -->
                     <!-- @format = /codeBook/docDscr/citation/biblCit/@format -->
-                    <bibliographicCitation format="MRDF">Adam, Frane et al. Local and regional developmental cores [codebook file]. Slovenia, Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archive [production, distribution], 2010.</bibliographicCitation>
+                    <bibliographicCitation>Adam, F. (2010). Local and regional developmental cores [Codebook file]. Ljubljana: Univerza v Ljubljani = University of Ljubljana, Arhiv družboslovnih podatkov = Social Science Data Archives. ADP - IDNo: RAZJED10. https://doi.org/10.17898/ADP_RAZJED10_V1</bibliographicCitation>
                 </CitationInfo>
                 <ProvenanceInfo>
                     <Creation>
                         <ActivityInfo>
                             <!-- /codeBook/docDscr/citation/prodStmt/software -->
-                            <method>&lt;oXygen/&gt; - XML edito</method>
+                            <method>Production</method>
                             <!-- /codeBook/docDscr/citation/prodStmt/copyright -->
-                            <note>Copyright ADP, 2010</note>
+                            <note>prodPlac = Ljubljana, Slovenia</note>
                             <When>
                                 <!-- /codeBook/docDscr/citation/prodStmt/prodDate -->
                                 <label>May 2010</label>
-                                <date>2010-05-01</date>
+                                <label>2010-05</label>
                             </When>
                             <Responsible>
                                 <!-- /codeBook/docDscr/citation/prodStmt/producer -->
-                                <label>Arhiv družboslovnih podatkov = Social Science Data Archive</label>
+                                <label>Arhiv družboslovnih podatkov = Social Science Data Archives</label>
+                                <label>ADP</label>
                             </Responsible>
                         </ActivityInfo>
                     </Creation>
+                    <Activity>
+                        <label>Conversion to CMDI</label>
+                        <note>Automatic metadata conversion with stylesheet adp-ddi_2_5_to_cmdi.xsl</note>
+                        <ActivityInfo>
+                            <When>
+                                <date>{{DATE}}</date>
+                            </When>
+                        </ActivityInfo>
+                    </Activity>
                 </ProvenanceInfo>
                 <FundingInfo>
-                    <Funding>
-                        <!-- /codeBook/docDscr/citation/prodStmt/grantNo -->
-                        <grantNumber>1000-09-160510 (IRC)</grantNumber>
-                        <FundingAgency>
-                            <!-- /codeBook/docDscr/citation/prodStmt/fundAg -->
-                            <label>Agencija za raziskovalno dejavnost Republike Slovenije= Slovenian Research Agency</label>
-                        </FundingAgency>
-                    </Funding>
-                </FundingInfo>
+                  <Funding>
+                     <grantNumber>1000-09-160510 (IRC)</grantNumber>
+                  </Funding>
+                  <Funding>
+                     <FundingAgency>
+                        <label xml:lang="en-GB">Agencija za raziskovalno dejavnost Republike Slovenije = Slovenian Research Agency</label>
+                        <label>ARRS</label>
+                     </FundingAgency>
+                  </Funding>
+            </FundingInfo>
             </MetadataInfo>
         </ADP-DDI>
     </cmd:Components>
