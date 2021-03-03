@@ -692,12 +692,22 @@
             <xsl:if test="@ID">
                 <identifier><xsl:value-of select="@ID"/></identifier>
             </xsl:if>
-            <xsl:for-each select="citation/titlStmt/titl">
-                <label>
-                    <xsl:apply-templates mode="xmlLangAttr" select="." />
-                    <xsl:value-of select="."/>
-                </label>
-            </xsl:for-each>
+            <xsl:choose>
+                <xsl:when test="citation/titlStmt/titl">
+                    <xsl:for-each select="citation/titlStmt/titl">
+                       <label>
+                           <xsl:apply-templates mode="xmlLangAttr" select="." />
+                           <xsl:value-of select="."/>
+                       </label>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:when test="@ID">
+                    <label><xsl:value-of select="@ID"/></label>
+                </xsl:when>
+                <xsl:otherwise>
+                    <label>Unspecified</label>
+                </xsl:otherwise>
+            </xsl:choose>
             <xsl:if test="citation/holdings[@URI]">
                 <location><xsl:value-of select="ddi_cmd:resolve-to-base(citation/holdings/@URI)"/></location>
             </xsl:if>
