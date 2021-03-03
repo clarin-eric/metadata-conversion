@@ -327,10 +327,7 @@
                     <date><xsl:value-of select="@date"/></date>
                 </xsl:when>
                 <xsl:otherwise>
-                    <label><xsl:value-of select="."/></label>
-                    <xsl:if test="@date">
-                        <label><xsl:value-of select="@date"/></label>
-                    </xsl:if>
+                    <xsl:apply-templates mode="ActivityInfo.When.label" select="." />
                 </xsl:otherwise>
             </xsl:choose>
         </When>
@@ -339,14 +336,26 @@
     <xsl:template mode="ActivityInfo.When" match="*[@event='start' or @event='end']">
         <!-- TODO: support range via <start> and/or <end> of core component -->
         <When>
-            <xsl:if test="@date">
-                <label><xsl:value-of select="@event"/>: <xsl:value-of select="@date"/></label>
-            </xsl:if>
-            <xsl:if test="normalize-space(.) != ''">
-                <label><xsl:value-of select="@event"/>: <xsl:value-of select="."/></label>
-            </xsl:if>            
+            <xsl:apply-templates mode="ActivityInfo.When.label" select="." />
         </When>
     </xsl:template>
+    
+    <xsl:template mode="ActivityInfo.When.label" match="*[@event='start' or @event='end']">
+        <xsl:if test="@date">
+            <label><xsl:value-of select="@event"/>: <xsl:value-of select="@date"/></label>
+        </xsl:if>
+        <xsl:if test="normalize-space(.) != ''">
+            <label><xsl:value-of select="@event"/>: <xsl:value-of select="."/></label>
+        </xsl:if>    
+    </xsl:template>
+    
+    <xsl:template mode="ActivityInfo.When.label" match="*">
+        <label><xsl:value-of select="."/></label>
+        <xsl:if test="@date">
+            <label><xsl:value-of select="@date"/></label>
+        </xsl:if>
+    </xsl:template>
+    
     
     <xsl:template mode="ActivityInfo" match="prodStmt">
         <ActivityInfo>
@@ -354,9 +363,21 @@
             <xsl:for-each select="prodPlac">
                 <note>prodPlac = <xsl:value-of select="."/></note>
             </xsl:for-each>
-            <xsl:if test="count(prodDate) = 1">
-              <xsl:apply-templates mode="ActivityInfo.When" select="prodDate" />
-            </xsl:if>
+            <xsl:choose>
+               <xsl:when test="count(prodDate) = 1">
+                 <xsl:apply-templates mode="ActivityInfo.When" select="prodDate" />
+               </xsl:when>
+                <xsl:when test="count(prodDate) > 1">
+                    <When>
+                        <xsl:apply-templates mode="ActivityInfo.When.label" select="prodDate" />
+                    </When>
+                </xsl:when>
+                <xsl:otherwise>
+                    <When>
+                        <label>Unspecified</label>
+                    </When>
+                </xsl:otherwise>
+            </xsl:choose>
             <xsl:for-each select="producer">
              <Responsible>
                  <label><xsl:value-of select="."/></label>
