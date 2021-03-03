@@ -540,31 +540,54 @@
     <xsl:template mode="record.TemporalCoverage" match="sumDscr[timePrd/@event='start' or timePrd/@event='end']">
         <TemporalCoverage>
             <!-- TODO: make this nicer for cases where one of the two is missing -->
-            <xsl:if test="timePrd/@event='start' and timePrd/@event='end'"></xsl:if>
-            <label><xsl:value-of select="timePrd[@event='start']"/> - <xsl:value-of select="timePrd[@event='end']"/></label>
+            <xsl:if test="normalize-space(timePrd[@event='start']) !='' or normalize-space(timePrd[@event='end']) != ''">
+                <label><xsl:value-of select="timePrd[@event='start']"/> - <xsl:value-of select="timePrd[@event='end']"/></label>
+            </xsl:if>
             <xsl:for-each select="timePrd[@event = 'start']">
-                <xsl:variable name="startDate" select="ddi_cmd:toFullDate(@date)"/>
-                <Start>
-                    <xsl:if test="normalize-space(string($startDate)) != ''">
-                        <date><xsl:value-of select="$startDate"/></date>
-                    </xsl:if>
-                    <label>
-                        <xsl:apply-templates mode="xmlLangAttr" select="." />
-                        <xsl:value-of select="."/>
-                    </label>
-                </Start>
+                <xsl:variable name="startDate" select="ddi_cmd:toFullDate(normalize-space(@date))"/>
+                <xsl:choose>
+                    <xsl:when test="ddi_cmd:isDate(normalize-space(string($startDate)))">
+                        <Start>
+                            <date><xsl:value-of select="$startDate"/></date>
+                            <xsl:choose>
+                                <xsl:when test="normalize-space(.) != ''">
+                                    <xsl:apply-templates mode="label" select=".[normalize-space() != '']" />
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <label><xsl:value-of select="$startDate"/></label>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </Start>
+                    </xsl:when>
+                    <xsl:when test="normalize-space(.) != ''">
+                        <Start>
+                            <xsl:apply-templates mode="label" select="." />
+                        </Start>
+                    </xsl:when>
+                </xsl:choose>
             </xsl:for-each>
             <xsl:for-each select="timePrd[@event = 'end']">
-                <xsl:variable name="endDate" select="ddi_cmd:toFullDate(@date)"/>
-                <End>
-                    <xsl:if test="normalize-space(string($endDate)) != ''">
-                        <date><xsl:value-of select="$endDate"/></date>
-                    </xsl:if>
-                    <label>
-                        <xsl:apply-templates mode="xmlLangAttr" select="." />
-                        <xsl:value-of select="."/>
-                    </label>
-                </End>
+                <xsl:variable name="endDate" select="ddi_cmd:toFullDate(normalize-space(@date))"/>
+                <xsl:choose>
+                    <xsl:when test="ddi_cmd:isDate(normalize-space(string($endDate)))">
+                        <End>
+                            <date><xsl:value-of select="$endDate"/></date>
+                            <xsl:choose>
+                                <xsl:when test="normalize-space(.) != ''">
+                                    <xsl:apply-templates mode="label" select=".[normalize-space() != '']" />
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <label><xsl:value-of select="$endDate"/></label>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </End>
+                    </xsl:when>
+                    <xsl:when test="normalize-space(.) != ''">
+                        <End>
+                            <xsl:apply-templates mode="label" select="." />
+                        </End>
+                    </xsl:when>
+                </xsl:choose>
             </xsl:for-each>
         </TemporalCoverage>
     </xsl:template>
@@ -756,6 +779,13 @@
     </xsl:template>
     
     <!-- Helper templates -->
+    
+    <xsl:template mode="label" match="*">
+        <label>
+            <xsl:apply-templates mode="xmlLangAttr" select="." />
+            <xsl:value-of select="."/>
+        </label>
+    </xsl:template>
     
     <xsl:template mode="xmlLangAttr" match="@xml:lang">
         <xsl:attribute name="xml:lang"><xsl:value-of select="."/></xsl:attribute>
