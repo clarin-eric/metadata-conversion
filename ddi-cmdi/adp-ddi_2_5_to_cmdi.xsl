@@ -490,26 +490,28 @@
     
     
     <xsl:template mode="FundingInfo" match="prodStmt">
-        <FundingInfo>
-            <xsl:for-each select="grantNo">
-            <Funding>
-                <grantNumber><xsl:value-of select="."/></grantNumber>
-            </Funding>
-            </xsl:for-each>
-            <xsl:for-each select="fundAg">
-              <Funding>
-                  <FundingAgency>
-                      <label>
-                          <xsl:apply-templates mode="xmlLangAttr" select="." />
-                          <xsl:value-of select="."/>
-                      </label>
-                      <xsl:if test="@abbr">
-                        <label><xsl:value-of select="@abbr"/></label>
-                      </xsl:if>
-                  </FundingAgency>
-              </Funding>
-            </xsl:for-each>
-        </FundingInfo>
+        <xsl:if test="grantNo or fundAg">
+            <FundingInfo>
+                <xsl:for-each select="grantNo">
+                 <Funding>
+                     <grantNumber><xsl:value-of select="."/></grantNumber>
+                 </Funding>
+                </xsl:for-each>
+                <xsl:for-each select="fundAg">
+                     <Funding>
+                         <FundingAgency>
+                             <label>
+                                 <xsl:apply-templates mode="xmlLangAttr" select="." />
+                                 <xsl:value-of select="."/>
+                             </label>
+                             <xsl:if test="@abbr">
+                               <label><xsl:value-of select="@abbr"/></label>
+                             </xsl:if>
+                         </FundingAgency>
+                     </Funding>
+                </xsl:for-each>
+            </FundingInfo>
+        </xsl:if>
     </xsl:template>    
 
     <xsl:template mode="record.TemporalCoverage" match="sumDscr[not(timePrd/@event='start' or timePrd/@event='end')]">
