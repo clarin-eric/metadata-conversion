@@ -78,7 +78,7 @@ cleanup() {
 	for f in "$@"; do
 		if [ -e "$f" ]; then
 			echo "- $f"
-			#rm "$f"
+			rm "$f"
 		fi
 	done
 	echo "-----------------------"
