@@ -59,7 +59,7 @@
         <cmd:ResourceRelationList /> 
     </cmd:Resources>
     <cmd:Components>
-        <ADP-DDI>
+        <DDICodebook>
             <IdentificationInfo>
                 <!-- /codeBook/stdyDscr/citation/titlStmt/IDNo -->
                 <identifier>https://doi.org/10.17898/ADP_RAZJED10_V1</identifier>
@@ -607,7 +607,7 @@
                   </Funding>
             </FundingInfo>
             </MetadataInfo>
-        </ADP-DDI>
+        </DDICodebook>
     </cmd:Components>
 
     <!-- omitted -->

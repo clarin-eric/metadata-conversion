@@ -128,7 +128,7 @@ normalize_xml() {
 		| tidy -quiet -utf8 -asxml -xml -indent --hide-comments 1 \
 		| xq --xml-output \
 '.'\
-'|(.["cmd:CMD"]["cmd:Components"]["ADP-DDI"].MetadataInfo.ProvenanceInfo.Activity.ActivityInfo.When.date|="----")'\
+'|(.["cmd:CMD"]["cmd:Components"]["DDICodebook"].MetadataInfo.ProvenanceInfo.Activity.ActivityInfo.When.date|="----")'\
 '|(.["cmd:CMD"]["cmd:Resources"]["cmd:ResourceProxyList"]["cmd:ResourceProxy"][0]["@id"]|="lp1")'
 }
 

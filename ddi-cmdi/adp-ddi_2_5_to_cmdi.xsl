@@ -113,7 +113,7 @@
 
     <xsl:template mode="components" match="/codeBook">
         <cmd:Components>
-            <ADP-DDI>
+            <DDICodebook>
                 
                 <!-- <IdentificationInfo> -->
                 <xsl:apply-templates mode="record.IdentificationInfo" select="stdyDscr/citation/titlStmt" />
@@ -200,7 +200,7 @@
                 
                 <!-- <MetadataInfo> -->
                 <xsl:apply-templates mode="record.MetadataInfo" select="docDscr" />
-            </ADP-DDI>
+            </DDICodebook>
         </cmd:Components>
     </xsl:template>
 
