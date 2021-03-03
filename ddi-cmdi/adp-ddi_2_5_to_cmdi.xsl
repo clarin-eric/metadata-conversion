@@ -126,7 +126,7 @@
                 </xsl:if>
                 
                 <!-- <Description> -->
-                <xsl:apply-templates mode="record.Description.description" select="stdyDscr/stdyInfo/abstract" />
+                <xsl:apply-templates mode="record.Description" select="stdyDscr/stdyInfo" />
                 
                 <!-- <ResourceType> -->
                 <xsl:apply-templates mode="record.ResourceType" select="stdyDscr/stdyInfo/sumDscr/dataKind" />
@@ -253,13 +253,20 @@
         </title>
     </xsl:template>
     
+    <xsl:template mode="record.Description" match="*">
+        <xsl:if test="abstract">
+            <Description>
+                <xsl:apply-templates mode="record.Description.description" select="abstract[@contentType='abstract']" />
+                <xsl:apply-templates mode="record.Description.description" select="abstract[not(@contentType='abstract')]" />
+            </Description>
+        </xsl:if>
+    </xsl:template>
+    
     <xsl:template mode="record.Description.description" match="*">
-        <Description>
-            <description>
-                <xsl:apply-templates mode="xmlLangAttr" select="." />
-                <xsl:value-of select="."/>
-            </description>
-        </Description>
+        <description>
+            <xsl:apply-templates mode="xmlLangAttr" select="." />
+            <xsl:value-of select="."/>
+        </description>
     </xsl:template>    
     
     <xsl:template mode="record.ResourceType" match="dataKind">
@@ -661,15 +668,15 @@
         </xsl:variable>
         
         <xsl:variable name="rsp">
-            <xsl:if test="rspStmt">
-                <xsl:value-of select="concat(normalize-space(rspStmt), '. ')"/>
-            </xsl:if>
+            <xsl:for-each select="rspStmt">
+                <xsl:value-of select="concat(normalize-space(.), '. ')"/>
+            </xsl:for-each>
         </xsl:variable>
         
         <xsl:variable name="producer">
-            <xsl:if test="prodStmt/producer">
-                <xsl:value-of select="concat(normalize-space(prodStmt/producer), '. ')"/>
-            </xsl:if>
+            <xsl:for-each select="prodStmt/producer">
+                <xsl:value-of select="concat(normalize-space(.), '. ')"/>
+            </xsl:for-each>
         </xsl:variable>
         
         <xsl:variable name="title">
