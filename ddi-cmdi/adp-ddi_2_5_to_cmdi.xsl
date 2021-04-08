@@ -74,13 +74,14 @@
     <xsl:template mode="resourceProxies" match="codeBook">
         <cmd:Resources>
             <cmd:ResourceProxyList>
-                <xsl:for-each select="stdyDscr/dataAccs/setAvail/accsPlac[@URI]">
-                    <cmd:ResourceProxy>
-                        <xsl:attribute name="id" select="generate-id(.)" />
-                        <cmd:ResourceType>LandingPage</cmd:ResourceType>
-                        <cmd:ResourceRef><xsl:value-of select="ddi_cmd:resolve-to-base(@URI)"/></cmd:ResourceRef>
-                    </cmd:ResourceProxy>
-                </xsl:for-each>
+                <xsl:choose>
+                    <xsl:when test="stdyDscr/citation/holdings[@URI]">
+                        <xsl:apply-templates mode="landingPage" select="stdyDscr/citation/holdings[@URI]" />
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates mode="landingPage" select="stdyDscr/dataAccs/setAvail/accsPlac[@URI]" />
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:for-each select="fileDscr[@URI]">
                     <cmd:ResourceProxy>
                         <xsl:attribute name="id">
@@ -94,6 +95,14 @@
             <cmd:JournalFileProxyList />
             <cmd:ResourceRelationList />
         </cmd:Resources>
+    </xsl:template>
+    
+    <xsl:template mode="landingPage" match="*[@URI]">
+        <cmd:ResourceProxy>
+            <xsl:attribute name="id" select="generate-id(.)" />
+            <cmd:ResourceType>LandingPage</cmd:ResourceType>
+            <cmd:ResourceRef><xsl:value-of select="ddi_cmd:resolve-to-base(@URI)"/></cmd:ResourceRef>
+        </cmd:ResourceProxy>
     </xsl:template>
     
     <xsl:template mode="resourceId" match="node()">
@@ -827,7 +836,7 @@
                 <xsl:sequence select="concat(string($value),'-01-01')" />
             </xsl:when>
             <xsl:otherwise>
-                <xsl:sequence select="false()" />
+                <xsl:sequence select="''" />
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
