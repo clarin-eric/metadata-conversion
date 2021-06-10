@@ -75,6 +75,9 @@
         <cmd:Resources>
             <cmd:ResourceProxyList>
                 <xsl:choose>
+                    <xsl:when test="stdyDscr/citation/titlStmt/IDNo[contains(text(),'doi.org')]">
+                        <xsl:apply-templates mode="landingPage" select="stdyDscr/citation/titlStmt/IDNo[contains(text(),'doi.org')]" />
+                    </xsl:when>
                     <xsl:when test="stdyDscr/citation/holdings[@URI]">
                         <xsl:apply-templates mode="landingPage" select="stdyDscr/citation/holdings[@URI]" />
                     </xsl:when>
@@ -95,6 +98,14 @@
             <cmd:JournalFileProxyList />
             <cmd:ResourceRelationList />
         </cmd:Resources>
+    </xsl:template>
+    
+    <xsl:template mode="landingPage" match="IDNo">
+        <cmd:ResourceProxy>
+            <xsl:attribute name="id" select="generate-id(.)" />
+            <cmd:ResourceType>LandingPage</cmd:ResourceType>
+            <cmd:ResourceRef><xsl:value-of select="ddi_cmd:resolve-to-base(text())"/></cmd:ResourceRef>
+        </cmd:ResourceProxy>
     </xsl:template>
     
     <xsl:template mode="landingPage" match="*[@URI]">
