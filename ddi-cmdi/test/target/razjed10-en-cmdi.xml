@@ -22,7 +22,7 @@
             <!-- /codeBook/stdyDscr/dataAccs/setAvail/accsPlac -->
             <cmd:ResourceProxy id="lp1">
                 <cmd:ResourceType>LandingPage</cmd:ResourceType>
-                <cmd:ResourceRef>http://www.adp.fdv.uni-lj.si/podatki/</cmd:ResourceRef>
+                <cmd:ResourceRef>https://doi.org/10.17898/ADP_RAZJED10_V1</cmd:ResourceRef>
             </cmd:ResourceProxy>
             <!-- /codeBook/fileDscr/@ID -->
             <cmd:ResourceProxy id="F2">

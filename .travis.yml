@@ -10,5 +10,13 @@ addons:
       - libxml2-utils
       - tidy
       - jq
+      - libpq-dev
+      - python3-dev
+      - python3-pip
+      - python3-setuptools
+
+install:
+  - pip3 install wheel
+  - pip3 install yq 
 
 script: bash 'test.sh'
