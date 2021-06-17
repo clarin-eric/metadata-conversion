@@ -76,7 +76,7 @@
             <cmd:ResourceProxyList>
                 <xsl:choose>
                     <xsl:when test="stdyDscr/citation/titlStmt/IDNo[contains(text(),'doi.org')]">
-                        <xsl:apply-templates mode="landingPage" select="stdyDscr/citation/titlStmt/IDNo[contains(text(),'doi.org')]" />
+                        <xsl:apply-templates mode="landingPage" select="stdyDscr/citation/titlStmt/IDNo[ddi_cmd:isDOI(text())]" />
                     </xsl:when>
                     <xsl:when test="stdyDscr/citation/holdings[@URI]">
                         <xsl:apply-templates mode="landingPage" select="stdyDscr/citation/holdings[@URI]" />
@@ -104,7 +104,7 @@
         <cmd:ResourceProxy>
             <xsl:attribute name="id" select="generate-id(.)" />
             <cmd:ResourceType>LandingPage</cmd:ResourceType>
-            <cmd:ResourceRef><xsl:value-of select="ddi_cmd:resolve-to-base(text())"/></cmd:ResourceRef>
+            <cmd:ResourceRef><xsl:value-of select="ddi_cmd:normalize_doi(text())"/></cmd:ResourceRef>
         </cmd:ResourceProxy>
     </xsl:template>
     
@@ -246,12 +246,12 @@
         <xsl:if test="IDNo">
             <IdentificationInfo>
                 <xsl:choose>
-                    <xsl:when test="IDNo[contains(text(), '/doi.org/')]">
+                    <xsl:when test="IDNo[ddi_cmd:isDOI(text())]">
                         <!-- treat DOI(s) as 'primary' identifier and other IDs as internal identifiers --> 
-                        <xsl:for-each select="IDNo[contains(text(), '/doi.org/')]">
-                            <identifier><xsl:value-of select="."/></identifier>
+                        <xsl:for-each select="IDNo[ddi_cmd:isDOI(text())]">
+                            <identifier><xsl:value-of select="ddi_cmd:normalize_doi(.)"/></identifier>
                         </xsl:for-each>
-                        <xsl:for-each select="IDNo[not(contains(text(), '/doi.org/'))]">
+                        <xsl:for-each select="IDNo[not(ddi_cmd:isDOI(text()))]">
                             <internalIdentifier><xsl:value-of select="."/></internalIdentifier>
                         </xsl:for-each>
                     </xsl:when>
@@ -878,6 +878,24 @@
         <xsl:choose>
             <xsl:when test="normalize-space($resourceBaseUrl) != '' and not(ddi_cmd:isAbsoluteUri($uri))">
                 <xsl:sequence select="resolve-uri($uri, $resourceBaseUrl)" />
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:sequence select="$uri" />
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
+    <xsl:function name="ddi_cmd:isDOI" as="xs:boolean">
+        <xsl:param name="uri" required="yes" />
+        <xsl:sequence select="contains($uri, 'doi.org/')"/>
+    </xsl:function>
+    
+    <xsl:function name="ddi_cmd:normalize_doi">
+        <xsl:param name="uri" required="yes" />
+        <xsl:variable name="doi" select="replace($uri,'^((doi:|https?://)?([a-z]+\.)?doi.org/)(.*)$' , '$4')"/>
+        <xsl:choose>
+            <xsl:when test="normalize-space($doi) != ''">
+                <xsl:sequence select="concat('https://doi.org/', $doi)" />
             </xsl:when>
             <xsl:otherwise>
                 <xsl:sequence select="$uri" />
