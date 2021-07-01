@@ -25,6 +25,21 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>test/instance1.cmdi</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>test/instance1.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -323,7 +338,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
+                                    <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputFile">
                                     <File>${cfn}.cmdi</File>
@@ -338,7 +353,7 @@
                                     <null/>
                                 </field>
                                 <field name="openInEditor">
-                                    <Boolean>false</Boolean>
+                                    <Boolean>true</Boolean>
                                 </field>
                                 <field name="showInHTMLPane">
                                     <Boolean>false</Boolean>
