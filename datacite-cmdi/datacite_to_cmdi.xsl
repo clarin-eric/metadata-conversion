@@ -63,34 +63,50 @@
         </cmd:Resources>
         <cmd:IsPartOfList/>
     </xsl:template>
-
+    
     <xsl:template match="/resource/identifier" mode="IdentificationInfo.identifier">
-        <xsl:choose>
-            <xsl:when test="@identifierType='DOI'">
-                <identifier type="DOI"><xsl:value-of select="datacite_cmd:normalize_doi(text())"/></identifier>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:element name="identifier">
-                    <xsl:apply-templates select="@identifierType" mode="IdentificationInfo.identifier.type" />
+        <xsl:element name="identifier">
+            <xsl:choose>
+                <xsl:when test="normalize-space(@identifierType|@alternateIdentifierType)='DOI'">
+                    <xsl:attribute name="type">DOI</xsl:attribute>
+                    <xsl:sequence select="datacite_cmd:normalize_doi(text())"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="@identifierType|@alternateIdentifierType" mode="identifier.type" />
                     <xsl:sequence select="text()" />
-                </xsl:element>
-            </xsl:otherwise>
-        </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:element>
     </xsl:template>
     
-    <xsl:template match="@identifierType" mode="IdentificationInfo.identifier.type">
+    <xsl:template match="/resource/alternateIdentifiers/alternateIdentifier" mode="IdentificationInfo.alternativeIdentifier">
+        <xsl:element name="alternativeIdentifier">
+            <xsl:choose>
+                <xsl:when test="normalize-space(@identifierType|@alternateIdentifierType)='DOI'">
+                    <xsl:attribute name="type">DOI</xsl:attribute>
+                    <xsl:sequence select="datacite_cmd:normalize_doi(text())"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="@identifierType|@alternateIdentifierType" mode="identifier.type" />
+                    <xsl:sequence select="text()" />
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="@identifierType" mode="identifier.type">
         <xsl:choose>
             <xsl:when test="normalize-space(.)='DOI'">
                 <xsl:attribute name="type">DOI</xsl:attribute>
             </xsl:when>
+            <!-- TOOD: other supported identifier types -->
         </xsl:choose>
     </xsl:template>
 
     <xsl:template name="component-section">
         <IdentificationInfo>
             <xsl:apply-templates select="./identifier" mode="IdentificationInfo.identifier" />
-            <alternativeIdentifier type="type9">alternativeIdentifier0</alternativeIdentifier>
-            <alternativeIdentifier type="type11">alternativeIdentifier1</alternativeIdentifier>
+            <xsl:apply-templates select="./alternateIdentifiers/alternateIdentifier" mode="IdentificationInfo.alternativeIdentifier" />
         </IdentificationInfo>
         <TitleInfo>
             <title xml:lang="en-US">title0</title>

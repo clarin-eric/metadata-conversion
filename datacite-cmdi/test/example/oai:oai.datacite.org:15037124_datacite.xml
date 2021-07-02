@@ -92,5 +92,8 @@
             <funderName>NWO</funderName>
         </fundingReference>
     </fundingReferences>
+    <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="BLA">abcDEF</alternateIdentifier>
+    </alternateIdentifiers>
 </resource>
 

@@ -23,8 +23,7 @@
       <DataCiteRecord>
          <IdentificationInfo>
             <identifier type="DOI">https://doi.org/10.24416/UU01-S1TZ43</identifier>
-            <alternativeIdentifier type="type9">alternativeIdentifier0</alternativeIdentifier>
-            <alternativeIdentifier type="type11">alternativeIdentifier1</alternativeIdentifier>
+            <alternativeIdentifier>BLAabcDEF</alternativeIdentifier>
          </IdentificationInfo>
          <TitleInfo>
             <title xml:lang="en-US">title0</title>
