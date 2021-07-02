@@ -22,10 +22,7 @@
    <cmd:Components>
       <DataCiteRecord>
          <IdentificationInfo>
-            <identifier type="DOI">http://www.oxygenxml.com/</identifier>
-            <identifier type="DOI">http://www.oxygenxml.com/</identifier>
-            <internalIdentifier type="type5">internalIdentifier0</internalIdentifier>
-            <internalIdentifier type="type7">internalIdentifier1</internalIdentifier>
+            <identifier type="DOI">https://doi.org/10.24416/UU01-S1TZ43</identifier>
             <alternativeIdentifier type="type9">alternativeIdentifier0</alternativeIdentifier>
             <alternativeIdentifier type="type11">alternativeIdentifier1</alternativeIdentifier>
          </IdentificationInfo>

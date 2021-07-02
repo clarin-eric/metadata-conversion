@@ -64,12 +64,31 @@
         <cmd:IsPartOfList/>
     </xsl:template>
 
+    <xsl:template match="/resource/identifier" mode="IdentificationInfo.identifier">
+        <xsl:choose>
+            <xsl:when test="@identifierType='DOI'">
+                <identifier type="DOI"><xsl:value-of select="datacite_cmd:normalize_doi(text())"/></identifier>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:element name="identifier">
+                    <xsl:apply-templates select="@identifierType" mode="IdentificationInfo.identifier.type" />
+                    <xsl:sequence select="text()" />
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="@identifierType" mode="IdentificationInfo.identifier.type">
+        <xsl:choose>
+            <xsl:when test="normalize-space(.)='DOI'">
+                <xsl:attribute name="type">DOI</xsl:attribute>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+
     <xsl:template name="component-section">
         <IdentificationInfo>
-            <identifier type="DOI">http://www.oxygenxml.com/</identifier>
-            <identifier type="DOI">http://www.oxygenxml.com/</identifier>
-            <internalIdentifier type="type5">internalIdentifier0</internalIdentifier>
-            <internalIdentifier type="type7">internalIdentifier1</internalIdentifier>
+            <xsl:apply-templates select="./identifier" mode="IdentificationInfo.identifier" />
             <alternativeIdentifier type="type9">alternativeIdentifier0</alternativeIdentifier>
             <alternativeIdentifier type="type11">alternativeIdentifier1</alternativeIdentifier>
         </IdentificationInfo>
