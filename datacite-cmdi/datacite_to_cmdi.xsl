@@ -104,10 +104,13 @@
     </xsl:template>
 
     <xsl:template name="component-section">
-        <IdentificationInfo>
-            <xsl:apply-templates select="./identifier" mode="IdentificationInfo.identifier" />
-            <xsl:apply-templates select="./alternateIdentifiers/alternateIdentifier" mode="IdentificationInfo.alternativeIdentifier" />
-        </IdentificationInfo>
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'IdentificationInfo'" />
+            <xsl:with-param name="content">
+                <xsl:apply-templates select="./identifier" mode="IdentificationInfo.identifier" />
+                <xsl:apply-templates select="./alternateIdentifiers/alternateIdentifier" mode="IdentificationInfo.alternativeIdentifier" />
+            </xsl:with-param>
+        </xsl:call-template>
         <TitleInfo>
             <title xml:lang="en-US">title0</title>
             <title xml:lang="en-US">title1</title>
@@ -521,7 +524,17 @@
             </Contributor>
         </RelatedResource>
     </xsl:template>
-
+    
+    <xsl:template name="wrapper-component">
+        <xsl:param name="name" />
+        <xsl:param name="content" />
+        <xsl:if test="count($content/*) > 0">
+            <xsl:element name="{$name}">
+                <xsl:sequence select="$content" />
+            </xsl:element>
+        </xsl:if>
+    </xsl:template>
+    
     <xsl:function name="datacite_cmd:isDOI" as="xs:boolean">
         <xsl:param name="uri" required="yes"/>
         <xsl:sequence select="contains($uri, 'doi.org/')"/>
