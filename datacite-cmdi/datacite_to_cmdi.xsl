@@ -40,6 +40,8 @@
         </cmd:CMD>
     </xsl:template>
     
+    <!-- Header section -->
+    
     <xsl:template name="header-section">
         <cmd:Header>
             <!-- Metadata creator not in DataCite model - make this a parameter? -->
@@ -53,6 +55,8 @@
         </cmd:Header>
     </xsl:template>
     
+    <!-- Resources section -->
+    
     <xsl:template name="resource-section">
         <cmd:Resources>
             <cmd:ResourceProxyList>
@@ -63,6 +67,8 @@
         </cmd:Resources>
         <cmd:IsPartOfList/>
     </xsl:template>
+    
+    <!-- Component section -->
     
     <xsl:template match="/resource/identifier" mode="IdentificationInfo.identifier">
         <xsl:element name="identifier">
@@ -102,8 +108,30 @@
             <!-- TOOD: other supported identifier types -->
         </xsl:choose>
     </xsl:template>
+    
+    <xsl:template match="/resource/titles/title" mode="TitleInfo.title">
+        <xsl:variable name="elementName">
+           <xsl:choose>
+               <xsl:when test="normalize-space(@titleType)=''">
+                   <xsl:sequence select="'title'" />
+               </xsl:when>
+               <xsl:when test="@titleType='Subtitle'">
+                   <xsl:sequence select="'subtitle'" />
+               </xsl:when>
+               <xsl:otherwise>
+                   <xsl:sequence select="'alternativeTitle'" />
+               </xsl:otherwise>
+           </xsl:choose>
+        </xsl:variable>
+        <xsl:element name="{$elementName}">
+            <xsl:copy-of select="@xml:lang" />
+            <xsl:value-of select="text()"/>
+        </xsl:element>
+    </xsl:template>
 
     <xsl:template name="component-section">
+        <!-- IdentificationInfo -->
+
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'IdentificationInfo'" />
             <xsl:with-param name="content">
@@ -111,14 +139,21 @@
                 <xsl:apply-templates select="./alternateIdentifiers/alternateIdentifier" mode="IdentificationInfo.alternativeIdentifier" />
             </xsl:with-param>
         </xsl:call-template>
-        <TitleInfo>
-            <title xml:lang="en-US">title0</title>
-            <title xml:lang="en-US">title1</title>
-            <alternativeTitle xml:lang="en-US">alternativeTitle0</alternativeTitle>
-            <alternativeTitle xml:lang="en-US">alternativeTitle1</alternativeTitle>
-            <subtitle xml:lang="en-US">subtitle0</subtitle>
-            <subtitle xml:lang="en-US">subtitle1</subtitle>
-        </TitleInfo>
+        
+        <!-- TitleInfo -->
+        
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'TitleInfo'" />
+            <xsl:with-param name="content">
+                <!-- main title -->
+                <xsl:apply-templates select="./titles/title[not(@titleType)]" mode="TitleInfo.title" />
+                <!-- alternative title -->
+                <xsl:apply-templates select="./titles/title[@titleType='AlternativeTitle' or @titleType='TranslatedTitle'  or @titleType='Other']" mode="TitleInfo.title" />
+                <!-- subtitle -->
+                <xsl:apply-templates select="./titles/title[@titleType='Subtitle']" mode="TitleInfo.title" />
+            </xsl:with-param>
+        </xsl:call-template>
+        
         <Description>
             <description xml:lang="en-US">description0</description>
             <description xml:lang="en-US">description1</description>
