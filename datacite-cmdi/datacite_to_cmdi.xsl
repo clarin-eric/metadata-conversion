@@ -194,6 +194,24 @@
         </VersionInfo>
     </xsl:template>
 
+    <xsl:template match="/resource/language[1]"  mode="Language">
+        <!-- TODO: convert to ISO-639-3 -->
+        <xsl:variable name="iso639-3-code" select="datacite_cmd:toISO693-3(text())"/>
+        
+        <Language>
+            <name>
+                <!-- TODO: language name from vocab -->
+                <xsl:sequence select="$iso639-3-code" />
+            </name>
+            <code>
+                <!-- TODO: @cmd:ValueConceptLink="..." --> 
+                <xsl:sequence select="$iso639-3-code" />
+            </code>
+        </Language>
+    </xsl:template>        
+    
+    
+
     <xsl:template name="component-section">
         <!-- IdentificationInfo -->
 
@@ -233,12 +251,10 @@
         
         <!-- Version info -->
         <xsl:apply-templates select="/resource/version[1]"  mode="VersionInfo" />        
-        
-        <Language>
-            <name xml:lang="en-US">name0</name>
-            <name xml:lang="en-US">name1</name>
-            <code cmd:ValueConceptLink="http://www.oxygenxml.com/">code0</code>
-        </Language>
+
+        <!-- Language -->
+        <xsl:apply-templates select="/resource/language[1]"  mode="Language" />        
+
         <Creator>
             <identifier>http://www.oxygenxml.com/</identifier>
             <identifier>http://www.oxygenxml.com/</identifier>
@@ -626,6 +642,19 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:sequence select="$uri"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
+    <xsl:function name="datacite_cmd:toISO693-3">
+        <xsl:param name="code" required="yes"/>
+        <xsl:choose>
+            <xsl:when test="string-length($code) = 3">
+                <xsl:sequence select="$code" />
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:message terminate="no">WARNING: language code is NOT a valid ISO-639-3 code: '<xsl:value-of select="$code"/>'</xsl:message>
+                <xsl:sequence select="$code" />
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>

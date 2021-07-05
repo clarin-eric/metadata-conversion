@@ -71,9 +71,8 @@
             <versionIdentifier>1.0</versionIdentifier>
          </VersionInfo>
          <Language>
-            <name xml:lang="en-US">name0</name>
-            <name xml:lang="en-US">name1</name>
-            <code cmd:ValueConceptLink="http://www.oxygenxml.com/">code0</code>
+            <name>en</name>
+            <code>en</code>
          </Language>
          <Creator>
             <identifier>http://www.oxygenxml.com/</identifier>
