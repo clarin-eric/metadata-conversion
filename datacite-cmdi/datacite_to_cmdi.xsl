@@ -151,21 +151,27 @@
             <xsl:sequence select="text()" />
         </description>
     </xsl:template>
-        
-    <xsl:template match="/resource/resourceType" mode="ResourceType">
-        <ResourceType>
-            <!-- 
+
+    <xsl:template match="resourceType/@resourceTypeGeneral" mode="ResourceType.identifier">
+        <!-- 
                 The 'dcmitype' ontology is supported/recommended. See https://dublincore.org/specifications/dublin-core/dcmi-terms/#section-7. 
                 See https://sparontologies.github.io/datacite/current/datacite.html and https://databus.dbpedia.org/ontologies/purl.org/spar%2D%2Ddatacite        
-            -->
+        -->
+        
+        <xsl:variable name="resourceTypeGeneral" select="string(.)" />
+        
+        <xsl:variable name="resourceTypeUri" select="$resourceTypeUris/datacite_cmd:entry[@key=$resourceTypeGeneral]" />
+        
+        <xsl:if test="normalize-space($resourceTypeUri) != ''">
+            <identifier><xsl:value-of select="$resourceTypeUri"/></identifier>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="/resource/resourceType" mode="ResourceType">
+        <ResourceType>
             
-            <xsl:variable name="resourceTypeGeneral" select="@resourceTypeGeneral" />
-            
-            <xsl:variable name="resourceTypeUri" select="$resourceTypeUris/datacite_cmd:entry[@key=$resourceTypeGeneral]" />
-            
-            <xsl:if test="normalize-space($resourceTypeUri) != ''">
-                <identifier><xsl:value-of select="$resourceTypeUri"/></identifier>
-            </xsl:if>
+            <!-- Identifier from @resourceTypeGeneral attribute -->
+            <xsl:apply-templates select="@resourceTypeGeneral" mode="ResourceType.identifier" />
             
             <!-- Label from @resourceTypeGeneral attribute -->
             <xsl:if test="@resourceTypeGeneral">

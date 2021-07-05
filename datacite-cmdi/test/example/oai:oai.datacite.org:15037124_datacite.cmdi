@@ -64,6 +64,7 @@
         </description>
          </Description>
          <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
             <label>Dataset</label>
          </ResourceType>
          <VersionInfo>
