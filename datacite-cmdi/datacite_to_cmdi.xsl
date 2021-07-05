@@ -208,51 +208,76 @@
                 <xsl:sequence select="$iso639-3-code" />
             </code>
         </Language>
-    </xsl:template>        
+    </xsl:template>
+    
+    <xsl:template match="creator|contributor" mode="AgentInfo">
+        <xsl:variable name="nameElement" select="(contributorName|creatorName)[1]"/>
+        
+        <AgentInfo>
+            <xsl:choose>
+                <xsl:when test="$nameElement/@nameType = 'Organizational'">
+                    <OrganisationInfo>
+                        <name>
+                            <xsl:copy-of select="@xml:lang" />
+                            <xsl:sequence select="$nameElement/text()" />
+                        </name>
+                        <xsl:for-each select="affiliation">
+                            <affiliation><xsl:sequence select="text()" /></affiliation>
+                        </xsl:for-each>
+                    </OrganisationInfo>
+                </xsl:when>
+                <xsl:otherwise>
+                    <PersonInfo>
+                        <name>
+                            <xsl:copy-of select="@xml:lang" />
+                            <xsl:sequence select="$nameElement/text()" />
+                        </name>
+                        <xsl:for-each select="givenName | familyName">
+                            <alternativeName>
+                                <xsl:copy-of select="@xml:lang" />
+                                <xsl:attribute name="type"><xsl:value-of select="name()"/></xsl:attribute>
+                                <xsl:sequence select="text()" />
+                            </alternativeName>
+                        </xsl:for-each>
+                        <xsl:for-each select="affiliation">
+                            <affiliation><xsl:sequence select="text()" /></affiliation>
+                        </xsl:for-each>
+                    </PersonInfo>                        
+                </xsl:otherwise>
+            </xsl:choose>
+        </AgentInfo>
+    </xsl:template>
+    
+    <xsl:template match="nameIdentifier" mode="CreatorContributor.identifier">
+        <identifier>
+            <!-- TODO: specify scheme in attribute (to be added to component) -->
+            <xsl:sequence select="text()" />
+        </identifier>
+    </xsl:template>
     
     <xsl:template match="creator" mode="Creator">
         <Creator>
-            <xsl:for-each select="nameIdentifier">
-                <identifier>
-                    <!-- TODO: specify scheme in attribute (to be added to component) -->
-                    <xsl:sequence select="text()" />
-                </identifier>
-            </xsl:for-each>
+            <xsl:apply-templates select="nameIdentifier" mode="CreatorContributor.identifier" />
             <label>
                 <xsl:copy-of select="@xml:lang" />
                 <xsl:sequence select="creatorName/text()" />
             </label>
-            <AgentInfo>
-                <xsl:choose>
-                    <xsl:when test="creatorName/@nameType = 'Organizational'">
-                        <OrganisationInfo>
-                            <name>
-                                <xsl:copy-of select="@xml:lang" />
-                                <xsl:sequence select="creatorName/text()" />
-                            </name>
-                        </OrganisationInfo>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <PersonInfo>
-                            <name>
-                                <xsl:copy-of select="@xml:lang" />
-                                <xsl:sequence select="creatorName/text()" />
-                            </name>
-                            <xsl:for-each select="givenName | familyName">
-                                <alternativeName>
-                                    <xsl:copy-of select="@xml:lang" />
-                                    <xsl:attribute name="type"><xsl:value-of select="name()"/></xsl:attribute>
-                                    <xsl:sequence select="text()" />
-                                </alternativeName>
-                            </xsl:for-each>
-                            <xsl:for-each select="affiliation">
-                                <affiliation><xsl:sequence select="text()" /></affiliation>
-                            </xsl:for-each>
-                        </PersonInfo>                        
-                    </xsl:otherwise>
-                </xsl:choose>
-            </AgentInfo>
+            <xsl:apply-templates select="." mode="AgentInfo" />
         </Creator>
+    </xsl:template>
+    
+    <xsl:template match="contributor" mode="Contributor">
+        <Contributor>
+            <xsl:apply-templates select="nameIdentifier" mode="CreatorContributor.identifier" />
+            <label>
+                <xsl:copy-of select="@xml:lang" />
+                <xsl:sequence select="contributorName/text()" />
+            </label>
+            <xsl:for-each select="@contributorType">
+                <role><xsl:sequence select="string()" /></role>
+            </xsl:for-each>
+            <xsl:apply-templates select="." mode="AgentInfo" />
+        </Contributor>
     </xsl:template>
 
     <xsl:template name="component-section">
@@ -301,23 +326,9 @@
         <!-- Creator -->
         <xsl:apply-templates select="/resource/creators/creator" mode="Creator" />
 
-        <Contributor>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <label xml:lang="en-US">label8</label>
-            <label xml:lang="en-US">label9</label>
-            <role>role2</role>
-            <role>role3</role>
-            <AgentInfo>
-                <PersonInfo>
-                    <name>name5</name>
-                </PersonInfo>
-                <OrganisationInfo>
-                    <name xml:lang="en-US">name6</name>
-                    <name xml:lang="en-US">name7</name>
-                </OrganisationInfo>
-            </AgentInfo>
-        </Contributor>
+        <!-- Contributor -->
+        <xsl:apply-templates select="/resource/contributors/contributor" mode="Contributor" />
+        
         <ProvenanceInfo>
             <Creation>
                 <ActivityInfo>

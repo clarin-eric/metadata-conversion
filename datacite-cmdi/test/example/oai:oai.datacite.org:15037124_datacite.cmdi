@@ -86,19 +86,23 @@
             </AgentInfo>
          </Creator>
          <Contributor>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <label xml:lang="en-US">label8</label>
-            <label xml:lang="en-US">label9</label>
-            <role>role2</role>
-            <role>role3</role>
+            <identifier>123</identifier>
+            <label>The Triangle Project - Cape Town</label>
+            <role>HostingInstitution</role>
             <AgentInfo>
-               <PersonInfo>
-                  <name>name5</name>
-               </PersonInfo>
                <OrganisationInfo>
-                  <name xml:lang="en-US">name6</name>
-                  <name xml:lang="en-US">name7</name>
+                  <name>The Triangle Project - Cape Town</name>
+                  <affiliation>The Triangle Project - Cape Town</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Forum for Empowerment of Women - Johannesburg</label>
+            <role>HostingInstitution</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>Forum for Empowerment of Women - Johannesburg</name>
+                  <affiliation>Forum for Empowerment of Women - Johannesburg</affiliation>
                </OrganisationInfo>
             </AgentInfo>
          </Contributor>

@@ -63,11 +63,11 @@
     </creators>
     <contributors>
         <contributor contributorType="HostingInstitution">
-            <contributorName>The Triangle Project - Cape Town</contributorName>
+            <contributorName nameType="Organizational">The Triangle Project - Cape Town</contributorName>
             <affiliation>The Triangle Project - Cape Town</affiliation>
         </contributor>
         <contributor contributorType="HostingInstitution">
-            <contributorName>Forum for Empowerment of Women - Johannesburg</contributorName>
+            <contributorName nameType="Organizational">Forum for Empowerment of Women - Johannesburg</contributorName>
             <affiliation>Forum for Empowerment of Women - Johannesburg</affiliation>
         </contributor>
     </contributors>
