@@ -55,7 +55,7 @@
     </subjects>
     <creators>
         <creator>
-            <creatorName>Phoebe Kisubi Mbasalaki</creatorName>
+            <creatorName nameType="Personal">Phoebe Kisubi Mbasalaki</creatorName>
             <nameIdentifier nameIdentifierScheme="DAI">URN:NBN:NL:UI:10-1874-359562</nameIdentifier>
             <nameIdentifier nameIdentifierScheme="ORCID">0000-0003-2538-8198</nameIdentifier>
             <affiliation>Utrecht University</affiliation>

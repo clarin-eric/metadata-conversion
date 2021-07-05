@@ -210,7 +210,50 @@
         </Language>
     </xsl:template>        
     
-    
+    <xsl:template match="creator" mode="Creator">
+        <Creator>
+            <xsl:for-each select="nameIdentifier">
+                <identifier>
+                    <!-- TODO: specify scheme in attribute (to be added to component) -->
+                    <xsl:sequence select="text()" />
+                </identifier>
+            </xsl:for-each>
+            <label>
+                <xsl:copy-of select="@xml:lang" />
+                <xsl:sequence select="creatorName/text()" />
+            </label>
+            <AgentInfo>
+                <xsl:choose>
+                    <xsl:when test="creatorName/@nameType = 'Organizational'">
+                        <OrganisationInfo>
+                            <name>
+                                <xsl:copy-of select="@xml:lang" />
+                                <xsl:sequence select="creatorName/text()" />
+                            </name>
+                        </OrganisationInfo>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <PersonInfo>
+                            <name>
+                                <xsl:copy-of select="@xml:lang" />
+                                <xsl:sequence select="creatorName/text()" />
+                            </name>
+                            <xsl:for-each select="givenName | familyName">
+                                <alternativeName>
+                                    <xsl:copy-of select="@xml:lang" />
+                                    <xsl:attribute name="type"><xsl:value-of select="name()"/></xsl:attribute>
+                                    <xsl:sequence select="text()" />
+                                </alternativeName>
+                            </xsl:for-each>
+                            <xsl:for-each select="affiliation">
+                                <affiliation><xsl:sequence select="text()" /></affiliation>
+                            </xsl:for-each>
+                        </PersonInfo>                        
+                    </xsl:otherwise>
+                </xsl:choose>
+            </AgentInfo>
+        </Creator>
+    </xsl:template>
 
     <xsl:template name="component-section">
         <!-- IdentificationInfo -->
@@ -254,24 +297,10 @@
 
         <!-- Language -->
         <xsl:apply-templates select="/resource/language[1]"  mode="Language" />        
+        
+        <!-- Creator -->
+        <xsl:apply-templates select="/resource/creators/creator" mode="Creator" />
 
-        <Creator>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <label xml:lang="en-US">label6</label>
-            <label xml:lang="en-US">label7</label>
-            <role>role0</role>
-            <role>role1</role>
-            <AgentInfo>
-                <PersonInfo>
-                    <name>name2</name>
-                </PersonInfo>
-                <OrganisationInfo>
-                    <name xml:lang="en-US">name3</name>
-                    <name xml:lang="en-US">name4</name>
-                </OrganisationInfo>
-            </AgentInfo>
-        </Creator>
         <Contributor>
             <identifier>http://www.oxygenxml.com/</identifier>
             <identifier>http://www.oxygenxml.com/</identifier>

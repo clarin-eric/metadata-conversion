@@ -75,20 +75,14 @@
             <code>en</code>
          </Language>
          <Creator>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <label xml:lang="en-US">label6</label>
-            <label xml:lang="en-US">label7</label>
-            <role>role0</role>
-            <role>role1</role>
+            <identifier>URN:NBN:NL:UI:10-1874-359562</identifier>
+            <identifier>0000-0003-2538-8198</identifier>
+            <label>Phoebe Kisubi Mbasalaki</label>
             <AgentInfo>
                <PersonInfo>
-                  <name>name2</name>
+                  <name>Phoebe Kisubi Mbasalaki</name>
+                  <affiliation>Utrecht University</affiliation>
                </PersonInfo>
-               <OrganisationInfo>
-                  <name xml:lang="en-US">name3</name>
-                  <name xml:lang="en-US">name4</name>
-               </OrganisationInfo>
             </AgentInfo>
          </Creator>
          <Contributor>
