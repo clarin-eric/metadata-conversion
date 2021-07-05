@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:cmd="http://www.clarin.eu/cmd/1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
     xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd"
@@ -9,6 +10,21 @@
     version="2.0">
 
     <xsl:output indent="yes"/>
+
+    <xsl:variable name="resourceTypeUris">
+        <datacite_cmd:entry key="Collection">http://purl.org/dc/dcmitype/Collection</datacite_cmd:entry>
+        <datacite_cmd:entry key="Dataset">http://purl.org/dc/dcmitype/Dataset</datacite_cmd:entry>
+        <datacite_cmd:entry key="Event">http://purl.org/dc/dcmitype/Event</datacite_cmd:entry>
+        <datacite_cmd:entry key="Image">http://purl.org/dc/dcmitype/Image</datacite_cmd:entry>
+        <datacite_cmd:entry key="InteractiveResource">http://purl.org/dc/dcmitype/InteractiveResource</datacite_cmd:entry>
+        <datacite_cmd:entry key="MovingImage">http://purl.org/dc/dcmitype/MovingImage</datacite_cmd:entry>
+        <datacite_cmd:entry key="PhysicalObject">http://purl.org/dc/dcmitype/PhysicalObject</datacite_cmd:entry>
+        <datacite_cmd:entry key="Service">http://purl.org/dc/dcmitype/Service</datacite_cmd:entry>
+        <datacite_cmd:entry key="Software">http://purl.org/dc/dcmitype/Software</datacite_cmd:entry>
+        <datacite_cmd:entry key="Sound">http://purl.org/dc/dcmitype/Sound</datacite_cmd:entry>
+        <datacite_cmd:entry key="StillImage">http://purl.org/dc/dcmitype/StillImage</datacite_cmd:entry>
+        <datacite_cmd:entry key="Text">http://purl.org/dc/dcmitype/Text</datacite_cmd:entry>
+    </xsl:variable>
 
     <xsl:template match="identifier[@identifierType = 'DOI']" mode="ResourceProxy">
         <cmd:ResourceProxy id="ID001">
@@ -135,18 +151,22 @@
             <xsl:sequence select="text()" />
         </description>
     </xsl:template>
-    
+        
     <xsl:template match="/resource/resourceType" mode="ResourceType">
         <ResourceType>
             <!-- 
-                TODO: identifier for DataCite resource type vocab items??
-                
-                See https://sparontologies.github.io/datacite/current/datacite.html
-                    and https://databus.dbpedia.org/ontologies/purl.org/spar%2D%2Ddatacite
-                    
-                The 'dcmitype' ontology is supported/recommended. See https://dublincore.org/specifications/dublin-core/dcmi-terms/#section-7
-            
+                The 'dcmitype' ontology is supported/recommended. See https://dublincore.org/specifications/dublin-core/dcmi-terms/#section-7. 
+                See https://sparontologies.github.io/datacite/current/datacite.html and https://databus.dbpedia.org/ontologies/purl.org/spar%2D%2Ddatacite        
             -->
+            
+            <xsl:variable name="resourceTypeGeneral" select="@resourceTypeGeneral" />
+            
+            <xsl:variable name="resourceTypeUri" select="$resourceTypeUris/datacite_cmd:entry[@key=$resourceTypeGeneral]" />
+            
+            <xsl:if test="normalize-space($resourceTypeUri) != ''">
+                <identifier><xsl:value-of select="$resourceTypeUri"/></identifier>
+            </xsl:if>
+            
             <!-- Label from @resourceTypeGeneral attribute -->
             <xsl:if test="@resourceTypeGeneral">
                 <label><xsl:value-of select="@resourceTypeGeneral" /></label>
