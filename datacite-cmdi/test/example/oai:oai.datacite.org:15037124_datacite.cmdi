@@ -64,10 +64,7 @@
         </description>
          </Description>
          <ResourceType>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <label xml:lang="en-US">label0</label>
-            <label xml:lang="en-US">label1</label>
+            <label>Dataset</label>
          </ResourceType>
          <VersionInfo>
             <versionIdentifier>versionIdentifier0</versionIdentifier>

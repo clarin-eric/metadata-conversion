@@ -135,6 +135,32 @@
             <xsl:sequence select="text()" />
         </description>
     </xsl:template>
+    
+    <xsl:template match="/resource/resourceType" mode="ResourceType">
+        <ResourceType>
+            <!-- 
+                TODO: identifier for DataCite resource type vocab items??
+                
+                See https://sparontologies.github.io/datacite/current/datacite.html
+                    and https://databus.dbpedia.org/ontologies/purl.org/spar%2D%2Ddatacite
+                    
+                The 'dcmitype' ontology is supported/recommended. See https://dublincore.org/specifications/dublin-core/dcmi-terms/#section-7
+            
+            -->
+            <!-- Label from @resourceTypeGeneral attribute -->
+            <xsl:if test="@resourceTypeGeneral">
+                <label><xsl:value-of select="@resourceTypeGeneral" /></label>
+            </xsl:if>
+            
+            <!-- Label from free-text node content -->
+            <xsl:if test="normalize-space(text()) != ''">
+                <!-- Do not duplicate value from @resourceTypeGeneral -->
+                <xsl:if test="normalize-space(text()) != normalize-space(@resourceTypeGeneral)">
+                    <label><xsl:sequence select="text()" /></label>
+                </xsl:if>
+            </xsl:if>
+        </ResourceType>
+    </xsl:template>
 
     <xsl:template name="component-section">
         <!-- IdentificationInfo -->
@@ -170,12 +196,9 @@
             </xsl:with-param>
         </xsl:call-template>
         
-        <ResourceType>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <label xml:lang="en-US">label0</label>
-            <label xml:lang="en-US">label1</label>
-        </ResourceType>
+        <!-- Resource type -->
+        <xsl:apply-templates select="/resource/resourceType" mode="ResourceType" />
+        
         <VersionInfo>
             <versionIdentifier>versionIdentifier0</versionIdentifier>
             <responsible>responsible0</responsible>
