@@ -187,6 +187,12 @@
             </xsl:if>
         </ResourceType>
     </xsl:template>
+    
+    <xsl:template match="/resource/version" mode="VersionInfo">
+        <VersionInfo>
+            <versionIdentifier><xsl:sequence select="text()" /></versionIdentifier>
+        </VersionInfo>
+    </xsl:template>
 
     <xsl:template name="component-section">
         <!-- IdentificationInfo -->
@@ -225,35 +231,9 @@
         <!-- Resource type -->
         <xsl:apply-templates select="/resource/resourceType" mode="ResourceType" />
         
-        <VersionInfo>
-            <versionIdentifier>versionIdentifier0</versionIdentifier>
-            <responsible>responsible0</responsible>
-            <responsible>responsible1</responsible>
-            <note xml:lang="en-US">note0</note>
-            <note xml:lang="en-US">note1</note>
-            <Description>
-                <description xml:lang="en-US">description2</description>
-                <description xml:lang="en-US">description3</description>
-            </Description>
-            <Description>
-                <description xml:lang="en-US">description4</description>
-                <description xml:lang="en-US">description5</description>
-            </Description>
-            <Responsible>
-                <identifier>identifier0</identifier>
-                <identifier>identifier1</identifier>
-                <label xml:lang="en-US">label2</label>
-                <label xml:lang="en-US">label3</label>
-                <AgentInfo> </AgentInfo>
-            </Responsible>
-            <Responsible>
-                <identifier>identifier2</identifier>
-                <identifier>identifier3</identifier>
-                <label xml:lang="en-US">label4</label>
-                <label xml:lang="en-US">label5</label>
-                <AgentInfo> </AgentInfo>
-            </Responsible>
-        </VersionInfo>
+        <!-- Version info -->
+        <xsl:apply-templates select="/resource/version[1]"  mode="VersionInfo" />        
+        
         <Language>
             <name xml:lang="en-US">name0</name>
             <name xml:lang="en-US">name1</name>
