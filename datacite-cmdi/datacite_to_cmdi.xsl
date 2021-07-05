@@ -125,8 +125,15 @@
         </xsl:variable>
         <xsl:element name="{$elementName}">
             <xsl:copy-of select="@xml:lang" />
-            <xsl:value-of select="text()"/>
+            <xsl:sequence select="text()"/>
         </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="/resource/descriptions/description" mode="Description.description">
+        <description>
+            <xsl:copy-of select="@xml:lang" />
+            <xsl:sequence select="text()" />
+        </description>
     </xsl:template>
 
     <xsl:template name="component-section">
@@ -154,10 +161,15 @@
             </xsl:with-param>
         </xsl:call-template>
         
-        <Description>
-            <description xml:lang="en-US">description0</description>
-            <description xml:lang="en-US">description1</description>
-        </Description>
+        <!-- Description -->
+        
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'Description'" />
+            <xsl:with-param name="content">
+                <xsl:apply-templates select="/resource/descriptions/description" mode="Description.description"/>
+            </xsl:with-param>
+        </xsl:call-template>
+        
         <ResourceType>
             <identifier>http://www.oxygenxml.com/</identifier>
             <identifier>http://www.oxygenxml.com/</identifier>
