@@ -3,6 +3,7 @@
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
     xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd"
@@ -27,7 +28,8 @@
     </xsl:variable>
 
     <xsl:template match="identifier[@identifierType = 'DOI']" mode="ResourceProxy">
-        <cmd:ResourceProxy id="ID001">
+        <cmd:ResourceProxy>
+            <xsl:attribute name="id" select="generate-id(.)" />
             <cmd:ResourceType>Resource</cmd:ResourceType>
             <cmd:ResourceRef>
                 <xsl:choose>
@@ -76,7 +78,8 @@
     <xsl:template name="resource-section">
         <cmd:Resources>
             <cmd:ResourceProxyList>
-                <xsl:apply-templates select="identifier" mode="ResourceProxy"/>
+                <!-- there should be only one identifier -->
+                <xsl:apply-templates select="/resource/identifier[1]" mode="ResourceProxy"/>
             </cmd:ResourceProxyList>
             <cmd:JournalFileProxyList/>
             <cmd:ResourceRelationList/>
@@ -338,6 +341,7 @@
             <When>
                 <xsl:choose>
                     <xsl:when test="datacite_cmd:isValidDateRange(text())">
+                        <!-- TODO: also support open ended ranges (only start or end) -->
                         <start><xsl:value-of select="datacite_cmd:getDateFromDateTime(datacite_cmd:getStartDateFromRange(text()))"/></start>
                         <end><xsl:value-of select="datacite_cmd:getDateFromDateTime(datacite_cmd:getEndDateFromRange(text()))"/></end>
                     </xsl:when>
@@ -352,21 +356,21 @@
         </ActivityInfo>
     </xsl:template>
     
-    <!-- Creation -->
+    <!-- Provenance: Creation -->
     <xsl:template match="date[@dateType='Created']" mode="ProvenanceInfo.Creation">
         <Creation>
             <xsl:apply-templates select="." mode="ActivityInfo" />
         </Creation>
     </xsl:template>
     
-    <!-- Collection -->
+    <!-- Provenance: Collection -->
     <xsl:template match="date[@dateType='Collected']" mode="ProvenanceInfo.Collection">
         <Collection>
             <xsl:apply-templates select="." mode="ActivityInfo" />
         </Collection>
     </xsl:template>
     
-    <!-- other activities -->
+    <!-- Provenance: other activities -->
     <xsl:template match="date" mode="ProvenanceInfo.Activity">
         <Activity>
             <label><xsl:value-of select="@dateType" /></label>
@@ -374,7 +378,7 @@
         </Activity>
     </xsl:template>
     
-    <!-- Publication -->
+    <!-- Provenance: Publication -->
     <xsl:template match="/resource/publicationYear" mode="ProvenanceInfo.Publication">
         <Publication>
             <ActivityInfo>
@@ -383,6 +387,41 @@
                 </When>
             </ActivityInfo>
         </Publication>
+    </xsl:template>
+    
+    <xsl:template match="size[matches(lower-case(text()), '^\d+ *kb?$')]" mode="SubresourceTechnicalInfo.size">
+        <size SizeUnit="kilobyte"><xsl:value-of select="replace(text(), '^(\d+).*$', '$1')"/></size>
+    </xsl:template>
+    
+    <xsl:template match="size[matches(lower-case(text()), '^\d+ *mb?$')]" mode="SubresourceTechnicalInfo.size">
+        <size SizeUnit="megabyte"><xsl:value-of select="replace(text(), '^(\d+).*$', '$1')"/></size>
+    </xsl:template>
+    
+    <xsl:template match="size[matches(lower-case(text()), '^\d+ *b(ytes?)?$')]" mode="SubresourceTechnicalInfo.size">
+        <size SizeUnit="byte"><xsl:value-of select="replace(text(), '^(\d+).*$', '$1')"/></size>
+    </xsl:template>
+    
+    <xsl:template match="size" mode="SubresourceTechnicalInfo.size">
+        <!-- Not detected as a file (bitstream) size -->
+        <xsl:comment>Size: <xsl:value-of select="."/></xsl:comment>
+    </xsl:template>
+    
+    <xsl:template match="resource" mode="Subresource">
+        <xsl:variable name="sizes">
+            <xsl:apply-templates select="sizes/size" mode="SubresourceTechnicalInfo.size" />
+        </xsl:variable>        
+        <Subresource>
+            <SubresourceTechnicalInfo>
+                <!-- TODO: mediatype, other type -->
+<!--                <type>type0</type>
+                <type>type1</type>
+                <mediaType>mediaType0</mediaType>-->
+                
+                <!-- Profile only accepts one size -->
+                <xsl:sequence select="$sizes/cmdp:size[1]" />
+                <xsl:copy-of select="$sizes/comment()" />
+            </SubresourceTechnicalInfo>
+        </Subresource>
     </xsl:template>
 
     <xsl:template name="component-section">
@@ -450,65 +489,8 @@
             </xsl:with-param>
         </xsl:call-template>
         
-        <Subresource>
-            <SubresourceDescription>
-                <label xml:lang="en-US">label14</label>
-                <label xml:lang="en-US">label15</label>
-                <description xml:lang="en-US">description6</description>
-                <description xml:lang="en-US">description7</description>
-                <bibliographicCitation>bibliographicCitation0</bibliographicCitation>
-                <IdentificationInfo>
-                    <identifier type="DOI">http://www.oxygenxml.com/</identifier>
-                    <identifier type="DOI">http://www.oxygenxml.com/</identifier>
-                </IdentificationInfo>
-                <Language>
-                    <name xml:lang="en-US">name8</name>
-                    <name xml:lang="en-US">name9</name>
-                    <code cmd:ValueConceptLink="http://www.oxygenxml.com/">code1</code>
-                </Language>
-                <Language>
-                    <name xml:lang="en-US">name10</name>
-                    <name xml:lang="en-US">name11</name>
-                    <code cmd:ValueConceptLink="http://www.oxygenxml.com/">code2</code>
-                </Language>
-                <VersionInfo> </VersionInfo>
-            </SubresourceDescription>
-            <SubresourceTechnicalInfo>
-                <type>type0</type>
-                <type>type1</type>
-                <mediaType>mediaType0</mediaType>
-                <size SizeUnit="byte">0</size>
-                <checksum scheme="scheme1">checksum0</checksum>
-                <checksum scheme="scheme3">checksum1</checksum>
-            </SubresourceTechnicalInfo>
-            <AccessInfo>
-                <accessRights>openAccess</accessRights>
-                <accessRequirement>authenticationRequired</accessRequirement>
-                <accessRequirement>authenticationRequired</accessRequirement>
-                <condition xml:lang="en-US">condition0</condition>
-                <condition xml:lang="en-US">condition1</condition>
-                <disclaimer xml:lang="en-US">disclaimer0</disclaimer>
-                <disclaimer xml:lang="en-US">disclaimer1</disclaimer>
-                <otherAccessInfo type="type17" xml:lang="en-US">otherAccessInfo0</otherAccessInfo>
-                <otherAccessInfo type="type19" xml:lang="en-US">otherAccessInfo1</otherAccessInfo>
-                <Licence>
-                    <label xml:lang="en-US">label16</label>
-                    <label xml:lang="en-US">label17</label>
-                </Licence>
-                <Licence>
-                    <label xml:lang="en-US">label18</label>
-                    <label xml:lang="en-US">label19</label>
-                </Licence>
-                <IntellectualPropertyRightsHolder> </IntellectualPropertyRightsHolder>
-                <IntellectualPropertyRightsHolder> </IntellectualPropertyRightsHolder>
-                <Contact>
-                    <AgentInfo> </AgentInfo>
-                </Contact>
-                <Contact>
-                    <AgentInfo> </AgentInfo>
-                </Contact>
-            </AccessInfo>
-        </Subresource>
+        <xsl:apply-templates select="/resource" mode="Subresource" />
+        
         <AccessInfo>
             <accessRights>openAccess</accessRights>
             <accessRequirement>authenticationRequired</accessRequirement>

@@ -82,6 +82,11 @@
         <rights rightsURI="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons Attribution-ShareAlike 4.0 International Public License</rights>
     </rightsList>
     <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+    <sizes>
+        <size>10 pages b</size>
+        <size>6700k</size>
+        <size>67m</size>
+    </sizes>
     <geoLocations>
         <geoLocation>
             <geoLocationPlace>Cape Town</geoLocationPlace>
