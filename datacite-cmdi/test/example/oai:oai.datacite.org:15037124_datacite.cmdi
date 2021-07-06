@@ -86,7 +86,6 @@
             </AgentInfo>
          </Creator>
          <Contributor>
-            <identifier>123</identifier>
             <label>The Triangle Project - Cape Town</label>
             <role>HostingInstitution</role>
             <AgentInfo>
@@ -109,54 +108,33 @@
          <ProvenanceInfo>
             <Creation>
                <ActivityInfo>
-                  <When/>
-               </ActivityInfo>
-               <ActivityInfo>
-                  <When/>
+                  <When>
+                     <start>2012-01-01</start>
+                     <end>2013-01-06</end>
+                  </When>
                </ActivityInfo>
             </Creation>
             <Collection>
                <ActivityInfo>
-                  <When/>
-               </ActivityInfo>
-               <ActivityInfo>
-                  <When/>
+                  <note>Extra information</note>
+                  <When>
+                     <date>2014-01-06</date>
+                  </When>
                </ActivityInfo>
             </Collection>
             <Publication>
                <ActivityInfo>
-                  <When/>
-               </ActivityInfo>
-               <ActivityInfo>
-                  <When/>
+                  <When>
+                     <year>2018</year>
+                  </When>
                </ActivityInfo>
             </Publication>
             <Activity>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <label xml:lang="en-US">label10</label>
-               <label xml:lang="en-US">label11</label>
-               <note xml:lang="en-US">note2</note>
-               <note xml:lang="en-US">note3</note>
+               <label>Updated</label>
                <ActivityInfo>
-                  <When/>
-               </ActivityInfo>
-               <ActivityInfo>
-                  <When/>
-               </ActivityInfo>
-            </Activity>
-            <Activity>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <label xml:lang="en-US">label12</label>
-               <label xml:lang="en-US">label13</label>
-               <note xml:lang="en-US">note4</note>
-               <note xml:lang="en-US">note5</note>
-               <ActivityInfo>
-                  <When/>
-               </ActivityInfo>
-               <ActivityInfo>
-                  <When/>
+                  <When>
+                     <date>2018-07-10</date>
+                  </When>
                </ActivityInfo>
             </Activity>
          </ProvenanceInfo>

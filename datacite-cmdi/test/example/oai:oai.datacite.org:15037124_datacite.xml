@@ -72,8 +72,9 @@
         </contributor>
     </contributors>
     <dates>
+        <date dateType="Created">2012-01-01/2013-01-06</date>
         <date dateType="Updated">2018-07-10T14:46:02+0200</date>
-        <date dateType="Collected">2014-01-06/2014-10-10</date>
+        <date dateType="Collected" dateInformation="Extra information">2014-01-06</date>
     </dates>
     <language>en</language>
     <version>1.0</version>

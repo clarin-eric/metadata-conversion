@@ -280,6 +280,111 @@
         </Contributor>
     </xsl:template>
 
+    <!--    <xsl:variable name="dateRangePattern">^(-?\d{4}-\d{2}-\d{2})/(-?\d{4}-\d{2}-\d{2})$</xsl:variable>-->
+    
+
+<!--    <xsl:variable name="dateTimePattern">([\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?</xsl:variable>-->
+    <xsl:variable name="dateTimePattern">-?\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}:(\d{2})?)?</xsl:variable>
+    <xsl:variable name="dateRangePattern" select="concat('^',$dateTimePattern,'/',$dateTimePattern,'$')"/>
+    
+    <xsl:variable name="rangePattern">^([^/]*)/([^/]*)$</xsl:variable>
+    
+    <xsl:function name="datacite_cmd:isValidDateRange">
+        <xsl:param name="dateValue" />
+        <xsl:choose>
+            <xsl:when test="matches($dateValue, $rangePattern)">
+                <xsl:variable name="start" select="replace($dateValue, $rangePattern, '$1')"/>
+                <xsl:variable name="end" select="replace($dateValue, $rangePattern, '$2')"/>
+                <xsl:choose>
+                    <xsl:when test="($start castable as xs:date) and ($end castable as xs:date)">
+                        <xsl:sequence select="true()" />
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:sequence select="false()" />
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:sequence select="false()" />
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
+    <xsl:function name="datacite_cmd:getStartDateFromRange">
+        <xsl:param name="dateValue" />
+        <xsl:sequence select="replace($dateValue, $rangePattern, '$1')"/>
+    </xsl:function>
+    
+    <xsl:function name="datacite_cmd:getEndDateFromRange">
+        <xsl:param name="dateValue" />
+        <xsl:sequence select="replace($dateValue, $rangePattern, '$2')"/>
+    </xsl:function>
+    
+    <xsl:function name="datacite_cmd:getDateFromDateTime">
+        <xsl:param name="dateValue" />
+        <xsl:sequence select="replace($dateValue, '^(\d{4}-\d{2}-\d{2}).*', '$1')"/>
+    </xsl:function>
+    
+    <xsl:function name="datacite_cmd:getYearFromDateTime">
+        <xsl:param name="dateValue" />
+        <xsl:sequence select="replace($dateValue, '^(\d{4})-\d{2}-\d{2}.*', '$1')"/>
+    </xsl:function>
+    
+    <xsl:template match="date" mode="ActivityInfo">
+        <ActivityInfo>
+            <xsl:if test="@dateInformation">
+                <note><xsl:value-of select="@dateInformation" /></note>
+            </xsl:if>
+            <When>
+                <xsl:choose>
+                    <xsl:when test="datacite_cmd:isValidDateRange(text())">
+                        <start><xsl:value-of select="datacite_cmd:getDateFromDateTime(datacite_cmd:getStartDateFromRange(text()))"/></start>
+                        <end><xsl:value-of select="datacite_cmd:getDateFromDateTime(datacite_cmd:getEndDateFromRange(text()))"/></end>
+                    </xsl:when>
+                    <xsl:when test="(datacite_cmd:getDateFromDateTime(text()) castable as xs:date)">
+                        <date><xsl:value-of select="datacite_cmd:getDateFromDateTime(text())"/></date>
+                    </xsl:when>
+                    <xsl:when test="(datacite_cmd:getYearFromDateTime(text()) castable as xs:gYear)">
+                        <year><xsl:value-of select="datacite_cmd:getYearFromDateTime(text())"/></year>
+                    </xsl:when>
+                </xsl:choose>
+            </When>
+        </ActivityInfo>
+    </xsl:template>
+    
+    <!-- Creation -->
+    <xsl:template match="date[@dateType='Created']" mode="ProvenanceInfo.Creation">
+        <Creation>
+            <xsl:apply-templates select="." mode="ActivityInfo" />
+        </Creation>
+    </xsl:template>
+    
+    <!-- Collection -->
+    <xsl:template match="date[@dateType='Collected']" mode="ProvenanceInfo.Collection">
+        <Collection>
+            <xsl:apply-templates select="." mode="ActivityInfo" />
+        </Collection>
+    </xsl:template>
+    
+    <!-- other activities -->
+    <xsl:template match="date" mode="ProvenanceInfo.Activity">
+        <Activity>
+            <label><xsl:value-of select="@dateType" /></label>
+            <xsl:apply-templates select="." mode="ActivityInfo" />
+        </Activity>
+    </xsl:template>
+    
+    <!-- Publication -->
+    <xsl:template match="/resource/publicationYear" mode="ProvenanceInfo.Publication">
+        <Publication>
+            <ActivityInfo>
+                <When>
+                    <year><xsl:value-of select="."/></year>
+                </When>
+            </ActivityInfo>
+        </Publication>
+    </xsl:template>
+
     <xsl:template name="component-section">
         <!-- IdentificationInfo -->
 
@@ -329,60 +434,22 @@
         <!-- Contributor -->
         <xsl:apply-templates select="/resource/contributors/contributor" mode="Contributor" />
         
-        <ProvenanceInfo>
-            <Creation>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-            </Creation>
-            <Collection>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-            </Collection>
-            <Publication>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-            </Publication>
-            <Activity>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label10</label>
-                <label xml:lang="en-US">label11</label>
-                <note xml:lang="en-US">note2</note>
-                <note xml:lang="en-US">note3</note>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-            </Activity>
-            <Activity>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label12</label>
-                <label xml:lang="en-US">label13</label>
-                <note xml:lang="en-US">note4</note>
-                <note xml:lang="en-US">note5</note>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-            </Activity>
-        </ProvenanceInfo>
+        <!-- ProvenanceInfo -->
+        
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'ProvenanceInfo'" />
+            <xsl:with-param name="content">
+                <!-- Creation -->
+                <xsl:apply-templates select="/resource/dates/date[@dateType='Created']" mode="ProvenanceInfo.Creation"></xsl:apply-templates>
+                <!-- Collection -->
+                <xsl:apply-templates select="/resource/dates/date[@dateType='Collected']" mode="ProvenanceInfo.Collection"></xsl:apply-templates>
+                <!-- Publication -->
+                <xsl:apply-templates select="/resource/publicationYear" mode="ProvenanceInfo.Publication"></xsl:apply-templates>
+                <!-- other activities -->
+                <xsl:apply-templates select="/resource/dates/date[@dateType!='Created' and @dateType!='Collected']" mode="ProvenanceInfo.Activity"></xsl:apply-templates>
+            </xsl:with-param>
+        </xsl:call-template>
+        
         <Subresource>
             <SubresourceDescription>
                 <label xml:lang="en-US">label14</label>
