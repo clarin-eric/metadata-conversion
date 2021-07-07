@@ -516,6 +516,36 @@
             </Subresource> 
         -->
     </xsl:template>
+    
+    <xsl:template match="rights" mode="AccessInfo">
+        <xsl:choose>
+            <xsl:when test="(@rightsURI castable as xs:anyURI)">
+                <AccessInfo>
+                    <Licence>
+                        <identifier><xsl:value-of select="@rightsURI"/></identifier>
+                        <xsl:if test="@rightsIdentifier">
+                            <identifier><xsl:value-of select="@rightsIdentifier"/></identifier>
+                        </xsl:if>
+                        <label>
+                            <xsl:copy-of select="@xml:lang"></xsl:copy-of>
+                            <xsl:sequence select="text()"/>
+                        </label>
+                    </Licence>
+                </AccessInfo>
+            </xsl:when>
+            <xsl:otherwise>
+                <AccessInfo>
+                    <otherAccessInfo><xsl:value-of select="text()"/></otherAccessInfo>
+                    <xsl:if test="@rightsURI">
+                        <otherAccessInfo><xsl:value-of select="@rightsURI"/></otherAccessInfo>
+                    </xsl:if>
+                    <xsl:if test="@rightsIdentifier">
+                        <otherAccessInfo><xsl:value-of select="@rightsIdentifier"/></otherAccessInfo>
+                    </xsl:if>
+                </AccessInfo>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
 
     <xsl:template name="component-section">
         <!-- IdentificationInfo -->
@@ -593,84 +623,9 @@
         </xsl:call-template>
 
         <xsl:apply-templates select="/resource" mode="Subresource"/>
-
-        <AccessInfo>
-            <accessRights>openAccess</accessRights>
-            <accessRequirement>authenticationRequired</accessRequirement>
-            <accessRequirement>authenticationRequired</accessRequirement>
-            <condition xml:lang="en-US">condition2</condition>
-            <condition xml:lang="en-US">condition3</condition>
-            <disclaimer xml:lang="en-US">disclaimer2</disclaimer>
-            <disclaimer xml:lang="en-US">disclaimer3</disclaimer>
-            <otherAccessInfo type="type21" xml:lang="en-US">otherAccessInfo2</otherAccessInfo>
-            <otherAccessInfo type="type23" xml:lang="en-US">otherAccessInfo3</otherAccessInfo>
-            <Licence>
-                <identifier>identifier4</identifier>
-                <identifier>identifier5</identifier>
-                <label xml:lang="en-US">label20</label>
-                <label xml:lang="en-US">label21</label>
-                <url>http://www.oxygenxml.com/</url>
-                <Description>
-                    <description xml:lang="en-US">description8</description>
-                    <description xml:lang="en-US">description9</description>
-                </Description>
-                <Description>
-                    <description xml:lang="en-US">description10</description>
-                    <description xml:lang="en-US">description11</description>
-                </Description>
-            </Licence>
-            <Licence>
-                <identifier>identifier6</identifier>
-                <identifier>identifier7</identifier>
-                <label xml:lang="en-US">label22</label>
-                <label xml:lang="en-US">label23</label>
-                <url>http://www.oxygenxml.com/</url>
-                <Description>
-                    <description xml:lang="en-US">description12</description>
-                    <description xml:lang="en-US">description13</description>
-                </Description>
-                <Description>
-                    <description xml:lang="en-US">description14</description>
-                    <description xml:lang="en-US">description15</description>
-                </Description>
-            </Licence>
-            <IntellectualPropertyRightsHolder>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label24</label>
-                <label xml:lang="en-US">label25</label>
-                <AgentInfo> </AgentInfo>
-            </IntellectualPropertyRightsHolder>
-            <IntellectualPropertyRightsHolder>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label26</label>
-                <label xml:lang="en-US">label27</label>
-                <AgentInfo> </AgentInfo>
-            </IntellectualPropertyRightsHolder>
-            <Contact>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label28</label>
-                <label xml:lang="en-US">label29</label>
-                <Description>
-                    <description xml:lang="en-US">description16</description>
-                    <description xml:lang="en-US">description17</description>
-                </Description>
-                <AgentInfo> </AgentInfo>
-            </Contact>
-            <Contact>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label30</label>
-                <label xml:lang="en-US">label31</label>
-                <Description>
-                    <description xml:lang="en-US">description18</description>
-                    <description xml:lang="en-US">description19</description>
-                </Description>
-                <AgentInfo> </AgentInfo>
-            </Contact>
-        </AccessInfo>
+        
+        <xsl:apply-templates select="/resource/rightsList/rights" mode="AccessInfo" />
+        
         <GeoLocation>
             <identifier>http://www.oxygenxml.com/</identifier>
             <identifier>http://www.oxygenxml.com/</identifier>
