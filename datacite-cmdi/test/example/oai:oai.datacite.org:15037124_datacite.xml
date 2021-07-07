@@ -87,6 +87,10 @@
         <size>6700k</size>
         <size>67m</size>
     </sizes>
+    <formats>
+        <format>TEXT/XML</format>
+        <format>Some custom XML document</format>
+    </formats>
     <geoLocations>
         <geoLocation>
             <geoLocationPlace>Cape Town</geoLocationPlace>

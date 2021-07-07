@@ -141,6 +141,8 @@
          </ProvenanceInfo>
          <Subresource>
             <SubresourceTechnicalInfo>
+               <type>Some custom XML document</type>
+               <mediaType>TEXT/XML</mediaType>
                <size SizeUnit="kilobyte">6700</size>
                <!--Size: 10 pages b-->
             </SubresourceTechnicalInfo>
