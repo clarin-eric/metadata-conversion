@@ -585,10 +585,11 @@
             </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
-    
+
     <xsl:template match="geoLocationPoint" mode="GeographicCoordinates">
         <xsl:choose>
-            <xsl:when test="(./pointLatitude castable as xs:decimal) and (./pointLongitude castable as xs:decimal)">
+            <xsl:when
+                test="(./pointLatitude castable as xs:decimal) and (./pointLongitude castable as xs:decimal)">
                 <GeographicCoordinates>
                     <latitude>
                         <xsl:value-of select="pointLatitude"/>
@@ -599,11 +600,49 @@
                 </GeographicCoordinates>
             </xsl:when>
             <xsl:otherwise>
-                <label><xsl:value-of select="pointLongitude"/>; <xsl:value-of select="pointLatitude"/></label>
+                <label><xsl:value-of select="pointLongitude"/>; <xsl:value-of select="pointLatitude"
+                    /></label>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
+    <xsl:template match="fundingReference" mode="Funding">
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'Funding'"/>
+            <xsl:with-param name="content">
+                <!-- 
+                    <Funding> 
+                -->
+                <xsl:if test="awardNumber">
+                    <grantNumber>
+                        <xsl:value-of select="awardNumber"/>
+                    </grantNumber>
+                </xsl:if>
+                <xsl:if test="awardTitle">
+                    <label>
+                        <xsl:value-of select="awardTitle"/>
+                    </label>
+                </xsl:if>
+                <xsl:if test="funderName | funderIdentifier">
+                    <FundingAgency>
+                        <xsl:if test="funderIdentifier">
+                            <identifier>
+                                <xsl:value-of select="funderIdentifier/@funderIdentifierType"/>: <xsl:value-of select="funderIdentifier"/>
+                            </identifier>
+                        </xsl:if>
+                        <xsl:if test="funderName">
+                            <label>
+                                <xsl:value-of select="funderName"/>
+                            </label>
+                        </xsl:if>
+                    </FundingAgency>
+                </xsl:if>
+                <!-- 
+                    </Funding> 
+                -->
+            </xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
 
     <xsl:template name="component-section">
         <!-- IdentificationInfo -->
@@ -698,38 +737,16 @@
         <!-- GeoLocation -->
         <xsl:apply-templates select="/resource/geoLocations/geoLocation" mode="GeoLocation"/>
 
-        <FundingInfo>
-            <Funding>
-                <grantNumber>grantNumber0</grantNumber>
-                <label xml:lang="en-US">label36</label>
-                <label xml:lang="en-US">label37</label>
-                <FundingAgency>
-                    <label xml:lang="en-US">label38</label>
-                    <label xml:lang="en-US">label39</label>
-                </FundingAgency>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-            </Funding>
-            <Funding>
-                <grantNumber>grantNumber1</grantNumber>
-                <label xml:lang="en-US">label40</label>
-                <label xml:lang="en-US">label41</label>
-                <FundingAgency>
-                    <label xml:lang="en-US">label42</label>
-                    <label xml:lang="en-US">label43</label>
-                </FundingAgency>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-                <ActivityInfo>
-                    <When> </When>
-                </ActivityInfo>
-            </Funding>
-        </FundingInfo>
+        <!-- FundingInfo -->
+
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'FundingInfo'"/>
+            <xsl:with-param name="content">
+                <xsl:apply-templates select="/resource/fundingReferences/fundingReference"
+                    mode="Funding"/>
+            </xsl:with-param>
+        </xsl:call-template>
+
         <RelatedResource>
             <identifier>http://www.oxygenxml.com/</identifier>
             <identifier>http://www.oxygenxml.com/</identifier>

@@ -166,34 +166,9 @@
          </GeoLocation>
          <FundingInfo>
             <Funding>
-               <grantNumber>grantNumber0</grantNumber>
-               <label xml:lang="en-US">label36</label>
-               <label xml:lang="en-US">label37</label>
                <FundingAgency>
-                  <label xml:lang="en-US">label38</label>
-                  <label xml:lang="en-US">label39</label>
+                  <label>NWO</label>
                </FundingAgency>
-               <ActivityInfo>
-                  <When/>
-               </ActivityInfo>
-               <ActivityInfo>
-                  <When/>
-               </ActivityInfo>
-            </Funding>
-            <Funding>
-               <grantNumber>grantNumber1</grantNumber>
-               <label xml:lang="en-US">label40</label>
-               <label xml:lang="en-US">label41</label>
-               <FundingAgency>
-                  <label xml:lang="en-US">label42</label>
-                  <label xml:lang="en-US">label43</label>
-               </FundingAgency>
-               <ActivityInfo>
-                  <When/>
-               </ActivityInfo>
-               <ActivityInfo>
-                  <When/>
-               </ActivityInfo>
             </Funding>
          </FundingInfo>
          <RelatedResource>
