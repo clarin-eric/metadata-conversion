@@ -148,6 +148,7 @@
             </SubresourceTechnicalInfo>
          </Subresource>
          <AccessInfo>
+            <otherAccessInfo>Other access info</otherAccessInfo>
             <Licence>
                <identifier>https://creativecommons.org/licenses/by-sa/4.0/legalcode</identifier>
                <label>Creative Commons Attribution-ShareAlike 4.0 International Public License</label>

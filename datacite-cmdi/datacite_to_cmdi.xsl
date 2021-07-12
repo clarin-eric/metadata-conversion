@@ -517,34 +517,35 @@
         -->
     </xsl:template>
     
-    <xsl:template match="rights" mode="AccessInfo">
-        <xsl:choose>
-            <xsl:when test="(@rightsURI castable as xs:anyURI)">
-                <AccessInfo>
-                    <Licence>
-                        <identifier><xsl:value-of select="@rightsURI"/></identifier>
-                        <xsl:if test="@rightsIdentifier">
-                            <identifier><xsl:value-of select="@rightsIdentifier"/></identifier>
-                        </xsl:if>
-                        <label>
-                            <xsl:copy-of select="@xml:lang"></xsl:copy-of>
-                            <xsl:sequence select="text()"/>
-                        </label>
-                    </Licence>
-                </AccessInfo>
-            </xsl:when>
-            <xsl:otherwise>
-                <AccessInfo>
-                    <otherAccessInfo><xsl:value-of select="text()"/></otherAccessInfo>
-                    <xsl:if test="@rightsURI">
-                        <otherAccessInfo><xsl:value-of select="@rightsURI"/></otherAccessInfo>
-                    </xsl:if>
-                    <xsl:if test="@rightsIdentifier">
-                        <otherAccessInfo><xsl:value-of select="@rightsIdentifier"/></otherAccessInfo>
-                    </xsl:if>
-                </AccessInfo>
-            </xsl:otherwise>
-        </xsl:choose>
+    <xsl:template match="rights[@rightsURI castable as xs:anyURI]" mode="AccessInfo.Licence">
+        <Licence>
+            <identifier><xsl:value-of select="@rightsURI"/></identifier>
+            <xsl:if test="@rightsIdentifier">
+                <identifier><xsl:value-of select="@rightsIdentifier"/></identifier>
+            </xsl:if>
+            <label>
+                <xsl:copy-of select="@xml:lang"></xsl:copy-of>
+                <xsl:sequence select="text()"/>
+            </label>
+        </Licence>
+    </xsl:template>
+    
+    <xsl:template match="rights" mode="AccessInfo.Licence">
+        <!-- nothing -->
+    </xsl:template>
+    
+    <xsl:template match="rights" mode="AccessInfo.otherAccessInfo">
+        <otherAccessInfo><xsl:value-of select="text()"/></otherAccessInfo>
+        <xsl:if test="@rightsURI">
+            <otherAccessInfo><xsl:value-of select="@rightsURI"/></otherAccessInfo>
+        </xsl:if>
+        <xsl:if test="@rightsIdentifier">
+            <otherAccessInfo><xsl:value-of select="@rightsIdentifier"/></otherAccessInfo>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="rights[@rightsURI castable as xs:anyURI]" mode="AccessInfo.otherAccessInfo">
+        <!-- nothing -->
     </xsl:template>
 
     <xsl:template name="component-section">
@@ -624,7 +625,13 @@
 
         <xsl:apply-templates select="/resource" mode="Subresource"/>
         
-        <xsl:apply-templates select="/resource/rightsList/rights" mode="AccessInfo" />
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'AccessInfo'"/>
+            <xsl:with-param name="content">
+                <xsl:apply-templates select="/resource/rightsList/rights" mode="AccessInfo.otherAccessInfo" />
+                <xsl:apply-templates select="/resource/rightsList/rights" mode="AccessInfo.Licence" />
+            </xsl:with-param>
+        </xsl:call-template>
         
         <GeoLocation>
             <identifier>http://www.oxygenxml.com/</identifier>
