@@ -155,22 +155,14 @@
             </Licence>
          </AccessInfo>
          <GeoLocation>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <label xml:lang="en-US">label32</label>
-            <label xml:lang="en-US">label33</label>
-            <description xml:lang="en-US">description20</description>
-            <description xml:lang="en-US">description21</description>
-            <Country>
-               <code>AD</code>
-               <label xml:lang="en-US">label34</label>
-               <label xml:lang="en-US">label35</label>
-            </Country>
+            <label>Cape Town</label>
             <GeographicCoordinates>
-               <latitude>0</latitude>
-               <longitude>0</longitude>
-               <elevation>0</elevation>
+               <latitude>-33.925278</latitude>
+               <longitude>18.423889</longitude>
             </GeographicCoordinates>
+         </GeoLocation>
+         <GeoLocation>
+            <label>Johannesburg</label>
          </GeoLocation>
          <FundingInfo>
             <Funding>

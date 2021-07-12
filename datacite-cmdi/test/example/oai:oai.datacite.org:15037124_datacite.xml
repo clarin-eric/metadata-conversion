@@ -95,6 +95,10 @@
     <geoLocations>
         <geoLocation>
             <geoLocationPlace>Cape Town</geoLocationPlace>
+            <geoLocationPoint>
+                <pointLongitude>18.423889</pointLongitude>
+                <pointLatitude>-33.925278</pointLatitude>
+            </geoLocationPoint>
         </geoLocation>
         <geoLocation>
             <geoLocationPlace>Johannesburg</geoLocationPlace>

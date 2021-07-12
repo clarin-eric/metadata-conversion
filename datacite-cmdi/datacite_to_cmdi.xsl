@@ -458,7 +458,7 @@
         <!-- Not detected as a file (bitstream) size -->
         <xsl:comment>Size: <xsl:value-of select="."/></xsl:comment>
     </xsl:template>
-    
+
     <xsl:template match="format" mode="SubresourceTechnicalInfo.type">
         <!-- <type> is for type indications/specifications other than media types -->
         <xsl:choose>
@@ -466,16 +466,20 @@
                 <!-- nothing, handled by <mediaType> template -->
             </xsl:when>
             <xsl:otherwise>
-                <type><xsl:sequence select="text()" /></type>
+                <type>
+                    <xsl:sequence select="text()"/>
+                </type>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
+
     <xsl:template match="format" mode="SubresourceTechnicalInfo.mediaType">
         <!-- <mediaType> is for IANA media type specifications only -->
         <xsl:choose>
             <xsl:when test="datacite_cmd:isMediaType(text())">
-                <mediaType><xsl:sequence select="text()" /></mediaType>
+                <mediaType>
+                    <xsl:sequence select="text()"/>
+                </mediaType>
             </xsl:when>
             <xsl:otherwise>
                 <!-- nothing, handled by <type> template -->
@@ -500,8 +504,10 @@
                     <xsl:with-param name="name" select="'SubresourceTechnicalInfo'"/>
                     <xsl:with-param name="content">
                         <!-- Type: other type specifications, then media type ('mime type') -->
-                        <xsl:apply-templates select="formats/format" mode="SubresourceTechnicalInfo.type" />
-                        <xsl:apply-templates select="formats/format" mode="SubresourceTechnicalInfo.mediaType" />
+                        <xsl:apply-templates select="formats/format"
+                            mode="SubresourceTechnicalInfo.type"/>
+                        <xsl:apply-templates select="formats/format"
+                            mode="SubresourceTechnicalInfo.mediaType"/>
                         <!-- Size: Profile only accepts one size -->
                         <xsl:sequence select="$sizes/cmdp:size[1]"/>
                         <xsl:copy-of select="$sizes/comment()"/>
@@ -516,37 +522,88 @@
             </Subresource> 
         -->
     </xsl:template>
-    
+
     <xsl:template match="rights[@rightsURI castable as xs:anyURI]" mode="AccessInfo.Licence">
         <Licence>
-            <identifier><xsl:value-of select="@rightsURI"/></identifier>
+            <identifier>
+                <xsl:value-of select="@rightsURI"/>
+            </identifier>
             <xsl:if test="@rightsIdentifier">
-                <identifier><xsl:value-of select="@rightsIdentifier"/></identifier>
+                <identifier>
+                    <xsl:value-of select="@rightsIdentifier"/>
+                </identifier>
             </xsl:if>
             <label>
-                <xsl:copy-of select="@xml:lang"></xsl:copy-of>
+                <xsl:copy-of select="@xml:lang"/>
                 <xsl:sequence select="text()"/>
             </label>
         </Licence>
     </xsl:template>
-    
+
     <xsl:template match="rights" mode="AccessInfo.Licence">
         <!-- nothing -->
     </xsl:template>
-    
+
     <xsl:template match="rights" mode="AccessInfo.otherAccessInfo">
-        <otherAccessInfo><xsl:value-of select="text()"/></otherAccessInfo>
+        <otherAccessInfo>
+            <xsl:value-of select="text()"/>
+        </otherAccessInfo>
         <xsl:if test="@rightsURI">
-            <otherAccessInfo><xsl:value-of select="@rightsURI"/></otherAccessInfo>
+            <otherAccessInfo>
+                <xsl:value-of select="@rightsURI"/>
+            </otherAccessInfo>
         </xsl:if>
         <xsl:if test="@rightsIdentifier">
-            <otherAccessInfo><xsl:value-of select="@rightsIdentifier"/></otherAccessInfo>
+            <otherAccessInfo>
+                <xsl:value-of select="@rightsIdentifier"/>
+            </otherAccessInfo>
         </xsl:if>
     </xsl:template>
-    
+
     <xsl:template match="rights[@rightsURI castable as xs:anyURI]" mode="AccessInfo.otherAccessInfo">
         <!-- nothing -->
     </xsl:template>
+
+    <xsl:template match="geoLocation" mode="GeoLocation">
+        <!-- TODO: support geoLocationBox, geoLocationPolygon?? -->
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'GeoLocation'"/>
+            <xsl:with-param name="content">
+                <!-- 
+                    <GeoLocation> 
+                -->
+                <xsl:for-each select="geoLocationPlace">
+                    <label>
+                        <xsl:copy-of select="@xml:lang"/>
+                        <xsl:value-of select="."/>
+                    </label>
+                </xsl:for-each>
+                <xsl:apply-templates select="geoLocationPoint[1]" mode="GeographicCoordinates"/>
+                <!-- 
+                    </GeoLocation> 
+                -->
+            </xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
+    
+    <xsl:template match="geoLocationPoint" mode="GeographicCoordinates">
+        <xsl:choose>
+            <xsl:when test="(./pointLatitude castable as xs:decimal) and (./pointLongitude castable as xs:decimal)">
+                <GeographicCoordinates>
+                    <latitude>
+                        <xsl:value-of select="pointLatitude"/>
+                    </latitude>
+                    <longitude>
+                        <xsl:value-of select="pointLongitude"/>
+                    </longitude>
+                </GeographicCoordinates>
+            </xsl:when>
+            <xsl:otherwise>
+                <label><xsl:value-of select="pointLongitude"/>; <xsl:value-of select="pointLatitude"/></label>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+
 
     <xsl:template name="component-section">
         <!-- IdentificationInfo -->
@@ -623,34 +680,24 @@
             </xsl:with-param>
         </xsl:call-template>
 
+        <!-- Subresource -->
         <xsl:apply-templates select="/resource" mode="Subresource"/>
-        
+
+        <!-- AccessInfo -->
+
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'AccessInfo'"/>
             <xsl:with-param name="content">
-                <xsl:apply-templates select="/resource/rightsList/rights" mode="AccessInfo.otherAccessInfo" />
-                <xsl:apply-templates select="/resource/rightsList/rights" mode="AccessInfo.Licence" />
+                <xsl:apply-templates select="/resource/rightsList/rights"
+                    mode="AccessInfo.otherAccessInfo"/>
+                <xsl:apply-templates select="/resource/rightsList/rights" mode="AccessInfo.Licence"
+                />
             </xsl:with-param>
         </xsl:call-template>
-        
-        <GeoLocation>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <label xml:lang="en-US">label32</label>
-            <label xml:lang="en-US">label33</label>
-            <description xml:lang="en-US">description20</description>
-            <description xml:lang="en-US">description21</description>
-            <Country>
-                <code>AD</code>
-                <label xml:lang="en-US">label34</label>
-                <label xml:lang="en-US">label35</label>
-            </Country>
-            <GeographicCoordinates>
-                <latitude>0</latitude>
-                <longitude>0</longitude>
-                <elevation>0</elevation>
-            </GeographicCoordinates>
-        </GeoLocation>
+
+        <!-- GeoLocation -->
+        <xsl:apply-templates select="/resource/geoLocations/geoLocation" mode="GeoLocation"/>
+
         <FundingInfo>
             <Funding>
                 <grantNumber>grantNumber0</grantNumber>
@@ -813,10 +860,12 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    
+
     <xsl:function name="datacite_cmd:isMediaType">
         <xsl:param name="value" as="xs:string"/>
-        <xsl:sequence select="matches(normalize-space($value), '^(application|audio|image|message|multipart|text|video|font|example|model|image|text)/.+$', 'i')" />
+        <xsl:sequence
+            select="matches(normalize-space($value), '^(application|audio|image|message|multipart|text|video|font|example|model|image|text)/.+$', 'i')"
+        />
     </xsl:function>
 
 </xsl:stylesheet>
