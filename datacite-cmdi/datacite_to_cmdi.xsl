@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+    Datacite to CMD conversion stylesheet
+    Author: Twan Goosen (CLARIN ERIC) <twan@clarin.eu>
+    Version: 1.0.0-alpha1
+    
+    This stylesheet converts a Datacite XML metadata record to a CLARIN
+    Component Metadata instance (CMDI record). The output record is an instance
+    of the Datacite Profile, which has been developed using CLARIN's "core
+    components" set of metadata components.
+    
+    DataCite Metadata Schema 4.4: <https://schema.datacite.org/meta/kernel-4.4/>
+    CMD: <https://www.clarin.eu/cmdi>
+    
+    For up-to-date versions and other metadata conversions, see
+    <https://github.com/clarin-eric/metadata-conversion>
+-->
+
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cmd="http://www.clarin.eu/cmd/1"
