@@ -135,8 +135,25 @@
             <!-- TOOD: other supported identifier types -->
         </xsl:choose>
     </xsl:template>
+    
+    <xsl:template match="titles" mode="TitleInfo">
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'TitleInfo'"/>
+            <xsl:with-param name="content">
+                <!-- main title -->
+                <xsl:apply-templates select="./title[not(@titleType)]" mode="TitleInfo.title"/>
+                <!-- alternative title -->
+                <xsl:apply-templates
+                    select="./title[@titleType = 'AlternativeTitle' or @titleType = 'TranslatedTitle' or @titleType = 'Other']"
+                    mode="TitleInfo.title"/>
+                <!-- subtitle -->
+                <xsl:apply-templates select="./title[@titleType = 'Subtitle']"
+                    mode="TitleInfo.title"/>
+            </xsl:with-param>
+        </xsl:call-template>
+    </xsl:template>
 
-    <xsl:template match="/resource/titles/title" mode="TitleInfo.title">
+    <xsl:template match="titles/title" mode="TitleInfo.title">
         <xsl:variable name="elementName">
             <xsl:choose>
                 <xsl:when test="normalize-space(@titleType) = ''">
@@ -163,7 +180,7 @@
         </description>
     </xsl:template>
 
-    <xsl:template match="resourceType/@resourceTypeGeneral" mode="ResourceType.identifier">
+    <xsl:template match="resourceType/@resourceTypeGeneral|relatedItem/@relatedItemType" mode="ResourceType.identifier">
         <!-- 
                 The 'dcmitype' ontology is supported/recommended. See https://dublincore.org/specifications/dublin-core/dcmi-terms/#section-7. 
                 See https://sparontologies.github.io/datacite/current/datacite.html and https://databus.dbpedia.org/ontologies/purl.org/spar%2D%2Ddatacite        
@@ -308,10 +325,6 @@
         </Contributor>
     </xsl:template>
 
-    <!--    <xsl:variable name="dateRangePattern">^(-?\d{4}-\d{2}-\d{2})/(-?\d{4}-\d{2}-\d{2})$</xsl:variable>-->
-
-
-    <!--    <xsl:variable name="dateTimePattern">([\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?</xsl:variable>-->
     <xsl:variable name="dateTimePattern">-?\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}:(\d{2})?)?</xsl:variable>
     <xsl:variable name="dateRangePattern"
         select="concat('^', $dateTimePattern, '/', $dateTimePattern, '$')"/>
@@ -643,6 +656,83 @@
             </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
+    
+    <xsl:template match="*" mode="bibliographicCitation">
+        <xsl:param name="label" as="xs:string" select="datacite_cmd:firstToUpper(normalize-space(name()))" />
+        <bibliographicCitation><xsl:value-of select="$label"/>: <xsl:value-of select="text()"/></bibliographicCitation>
+    </xsl:template>
+    
+    <xsl:template match="relatedItem" mode="RelatedResource.CitationInfo">
+        <CitationInfo>
+            <xsl:apply-templates select="publicationYear" mode="bibliographicCitation">
+                <xsl:with-param name="label">Publication year</xsl:with-param>
+            </xsl:apply-templates>
+            <xsl:apply-templates select="volume" mode="bibliographicCitation"/>
+            <xsl:apply-templates select="issue" mode="bibliographicCitation"/>
+            <xsl:apply-templates select="number" mode="bibliographicCitation"/>
+            <xsl:apply-templates select="firstPage" mode="bibliographicCitation">
+                <xsl:with-param name="label">First page</xsl:with-param>
+            </xsl:apply-templates>
+            <xsl:apply-templates select="lastPage" mode="bibliographicCitation">
+                <xsl:with-param name="label">Last page</xsl:with-param>
+            </xsl:apply-templates>
+            <xsl:apply-templates select="publisher" mode="bibliographicCitation"/>            
+            <xsl:apply-templates select="edition" mode="bibliographicCitation"/>
+        </CitationInfo>
+    </xsl:template>
+    
+    <xsl:template match="relatedItem" mode="RelatedResource">
+        <RelatedResource>
+            <!-- identifier -->
+            <xsl:if test="relatedItemIdentifier">
+                <identifier>
+                    <xsl:choose>
+                        <xsl:when test="datacite_cmd:isDOI(relatedItemIdentifier/text())">
+                            <xsl:value-of select="datacite_cmd:normalize_doi(relatedItemIdentifier/text())"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="relatedItemIdentifier/text()"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </identifier>
+            </xsl:if>
+            
+            <!-- label -->
+            <xsl:choose>
+                <xsl:when test="titles/title[not(@titleType)]">
+                    <xsl:for-each select="titles/title[not(@titleType)]">
+                        <label>
+                            <xsl:copy-of select="@xml:lang" />
+                            <xsl:value-of select="."/>
+                        </label>
+                    </xsl:for-each>
+                </xsl:when>
+            </xsl:choose>
+            <xsl:if test="(relatedItemIdentifier/text() castable as xs:anyURI)">
+                <location><xsl:value-of select="relatedItemIdentifier/text()"/></location>
+            </xsl:if>
+            
+            <!-- TitleInfo -->
+            <xsl:apply-templates select="titles" mode="TitleInfo" />
+            
+            <!-- ResourceType -->
+            <xsl:if test="@relatedItemType">
+                <ResourceType>
+                    <xsl:apply-templates select="@relatedItemType" mode="ResourceType.identifier" />
+                    <label><xsl:value-of select="@relatedItemType"/></label>
+                </ResourceType>
+            </xsl:if>
+            
+            <!-- CitationInfo -->
+            <xsl:apply-templates select="." mode="RelatedResource.CitationInfo" />
+            
+            <!-- Creator -->
+            <xsl:apply-templates select="creators/creator" mode="Creator" />
+            
+            <!-- Contributor -->
+            <xsl:apply-templates select="contributors/contributor" mode="Contributor" />
+        </RelatedResource>
+    </xsl:template>    
 
     <xsl:template name="component-section">
         <!-- IdentificationInfo -->
@@ -657,21 +747,7 @@
         </xsl:call-template>
 
         <!-- TitleInfo -->
-
-        <xsl:call-template name="wrapper-component">
-            <xsl:with-param name="name" select="'TitleInfo'"/>
-            <xsl:with-param name="content">
-                <!-- main title -->
-                <xsl:apply-templates select="./titles/title[not(@titleType)]" mode="TitleInfo.title"/>
-                <!-- alternative title -->
-                <xsl:apply-templates
-                    select="./titles/title[@titleType = 'AlternativeTitle' or @titleType = 'TranslatedTitle' or @titleType = 'Other']"
-                    mode="TitleInfo.title"/>
-                <!-- subtitle -->
-                <xsl:apply-templates select="./titles/title[@titleType = 'Subtitle']"
-                    mode="TitleInfo.title"/>
-            </xsl:with-param>
-        </xsl:call-template>
+        <xsl:apply-templates select="/resource/titles" mode="TitleInfo" />
 
         <!-- Description -->
 
@@ -746,93 +822,9 @@
                     mode="Funding"/>
             </xsl:with-param>
         </xsl:call-template>
-
-        <RelatedResource>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <label xml:lang="en-US">label44</label>
-            <label xml:lang="en-US">label45</label>
-            <location>http://www.oxygenxml.com/</location>
-            <location>http://www.oxygenxml.com/</location>
-            <TitleInfo>
-                <title xml:lang="en-US">title2</title>
-                <title xml:lang="en-US">title3</title>
-                <alternativeTitle xml:lang="en-US">alternativeTitle2</alternativeTitle>
-                <alternativeTitle xml:lang="en-US">alternativeTitle3</alternativeTitle>
-                <subtitle xml:lang="en-US">subtitle2</subtitle>
-                <subtitle xml:lang="en-US">subtitle3</subtitle>
-            </TitleInfo>
-            <TitleInfo>
-                <title xml:lang="en-US">title4</title>
-                <title xml:lang="en-US">title5</title>
-                <alternativeTitle xml:lang="en-US">alternativeTitle4</alternativeTitle>
-                <alternativeTitle xml:lang="en-US">alternativeTitle5</alternativeTitle>
-                <subtitle xml:lang="en-US">subtitle4</subtitle>
-                <subtitle xml:lang="en-US">subtitle5</subtitle>
-            </TitleInfo>
-            <Description>
-                <description xml:lang="en-US">description22</description>
-                <description xml:lang="en-US">description23</description>
-            </Description>
-            <Description>
-                <description xml:lang="en-US">description24</description>
-                <description xml:lang="en-US">description25</description>
-            </Description>
-            <ResourceType>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label46</label>
-                <label xml:lang="en-US">label47</label>
-            </ResourceType>
-            <ResourceType>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label48</label>
-                <label xml:lang="en-US">label49</label>
-            </ResourceType>
-            <CitationInfo>
-                <bibliographicCitation format="format1"
-                    >bibliographicCitation1</bibliographicCitation>
-                <bibliographicCitation format="format3"
-                    >bibliographicCitation2</bibliographicCitation>
-            </CitationInfo>
-            <Creator>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label50</label>
-                <label xml:lang="en-US">label51</label>
-                <role>role4</role>
-                <role>role5</role>
-                <AgentInfo> </AgentInfo>
-            </Creator>
-            <Creator>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label52</label>
-                <label xml:lang="en-US">label53</label>
-                <role>role6</role>
-                <role>role7</role>
-                <AgentInfo> </AgentInfo>
-            </Creator>
-            <Contributor>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label54</label>
-                <label xml:lang="en-US">label55</label>
-                <role>role8</role>
-                <role>role9</role>
-                <AgentInfo> </AgentInfo>
-            </Contributor>
-            <Contributor>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <identifier>http://www.oxygenxml.com/</identifier>
-                <label xml:lang="en-US">label56</label>
-                <label xml:lang="en-US">label57</label>
-                <role>role10</role>
-                <role>role11</role>
-                <AgentInfo> </AgentInfo>
-            </Contributor>
-        </RelatedResource>
+        
+        <!-- RelatedResource -->
+        <xsl:apply-templates select="/resource/relatedItems/relatedItem" mode="RelatedResource" />
     </xsl:template>
 
     <xsl:template name="wrapper-component">
@@ -846,8 +838,8 @@
     </xsl:template>
 
     <xsl:function name="datacite_cmd:isDOI" as="xs:boolean">
-        <xsl:param name="uri" required="yes"/>
-        <xsl:sequence select="contains($uri, 'doi.org/')"/>
+        <xsl:param name="uri" required="yes" as="text()"/>
+        <xsl:sequence select="contains(string($uri), 'doi.org/')"/>
     </xsl:function>
 
     <xsl:function name="datacite_cmd:normalize_doi">
@@ -884,5 +876,21 @@
             select="matches(normalize-space($value), '^(application|audio|image|message|multipart|text|video|font|example|model|image|text)/.+$', 'i')"
         />
     </xsl:function>
+    
+    <xsl:function name="datacite_cmd:firstToUpper">
+        <xsl:param name="value" as="xs:string"/>
+        <xsl:choose>
+            <xsl:when test="string-length($value) = 0">
+                <xsl:sequence select="''" />
+            </xsl:when>
+            <xsl:when test="string-length($value) = 1">
+                <xsl:sequence select="upper-case($value)" />
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="concat(upper-case(substring($value, 1,1)), substring($value, 2))"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:function>
+    
 
 </xsl:stylesheet>

@@ -172,87 +172,51 @@
             </Funding>
          </FundingInfo>
          <RelatedResource>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <identifier>http://www.oxygenxml.com/</identifier>
-            <label xml:lang="en-US">label44</label>
-            <label xml:lang="en-US">label45</label>
-            <location>http://www.oxygenxml.com/</location>
-            <location>http://www.oxygenxml.com/</location>
+            <identifier>https://doi.org/123</identifier>
+            <label>Related resource title</label>
+            <location>http://doi.org/123</location>
             <TitleInfo>
-               <title xml:lang="en-US">title2</title>
-               <title xml:lang="en-US">title3</title>
-               <alternativeTitle xml:lang="en-US">alternativeTitle2</alternativeTitle>
-               <alternativeTitle xml:lang="en-US">alternativeTitle3</alternativeTitle>
-               <subtitle xml:lang="en-US">subtitle2</subtitle>
-               <subtitle xml:lang="en-US">subtitle3</subtitle>
+               <title>Related resource title</title>
+               <alternativeTitle>Related resource alternative title</alternativeTitle>
             </TitleInfo>
-            <TitleInfo>
-               <title xml:lang="en-US">title4</title>
-               <title xml:lang="en-US">title5</title>
-               <alternativeTitle xml:lang="en-US">alternativeTitle4</alternativeTitle>
-               <alternativeTitle xml:lang="en-US">alternativeTitle5</alternativeTitle>
-               <subtitle xml:lang="en-US">subtitle4</subtitle>
-               <subtitle xml:lang="en-US">subtitle5</subtitle>
-            </TitleInfo>
-            <Description>
-               <description xml:lang="en-US">description22</description>
-               <description xml:lang="en-US">description23</description>
-            </Description>
-            <Description>
-               <description xml:lang="en-US">description24</description>
-               <description xml:lang="en-US">description25</description>
-            </Description>
             <ResourceType>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <label xml:lang="en-US">label46</label>
-               <label xml:lang="en-US">label47</label>
-            </ResourceType>
-            <ResourceType>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <label xml:lang="en-US">label48</label>
-               <label xml:lang="en-US">label49</label>
+               <identifier>http://purl.org/dc/dcmitype/Sound</identifier>
+               <label>Sound</label>
             </ResourceType>
             <CitationInfo>
-               <bibliographicCitation format="format1">bibliographicCitation1</bibliographicCitation>
-               <bibliographicCitation format="format3">bibliographicCitation2</bibliographicCitation>
+               <bibliographicCitation>Publication year: 2020</bibliographicCitation>
+               <bibliographicCitation>Volume: 1</bibliographicCitation>
+               <bibliographicCitation>Issue: 2</bibliographicCitation>
+               <bibliographicCitation>Number: 3</bibliographicCitation>
+               <bibliographicCitation>First page: 100</bibliographicCitation>
+               <bibliographicCitation>Last page: 999</bibliographicCitation>
+               <bibliographicCitation>Publisher: CLARIN</bibliographicCitation>
+               <bibliographicCitation>Edition: v1.0</bibliographicCitation>
             </CitationInfo>
             <Creator>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <label xml:lang="en-US">label50</label>
-               <label xml:lang="en-US">label51</label>
-               <role>role4</role>
-               <role>role5</role>
-               <AgentInfo/>
+               <label>C. Reator</label>
+               <AgentInfo>
+                  <PersonInfo>
+                     <name>C. Reator</name>
+                  </PersonInfo>
+               </AgentInfo>
             </Creator>
             <Creator>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <label xml:lang="en-US">label52</label>
-               <label xml:lang="en-US">label53</label>
-               <role>role6</role>
-               <role>role7</role>
-               <AgentInfo/>
+               <label>O.R.G.</label>
+               <AgentInfo>
+                  <OrganisationInfo>
+                     <name>O.R.G.</name>
+                  </OrganisationInfo>
+               </AgentInfo>
             </Creator>
             <Contributor>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <label xml:lang="en-US">label54</label>
-               <label xml:lang="en-US">label55</label>
-               <role>role8</role>
-               <role>role9</role>
-               <AgentInfo/>
-            </Contributor>
-            <Contributor>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <identifier>http://www.oxygenxml.com/</identifier>
-               <label xml:lang="en-US">label56</label>
-               <label xml:lang="en-US">label57</label>
-               <role>role10</role>
-               <role>role11</role>
-               <AgentInfo/>
+               <label>Ron C. Tributor</label>
+               <role>Editor</role>
+               <AgentInfo>
+                  <PersonInfo>
+                     <name>Ron C. Tributor</name>
+                  </PersonInfo>
+               </AgentInfo>
             </Contributor>
          </RelatedResource>
       </DataCiteRecord>

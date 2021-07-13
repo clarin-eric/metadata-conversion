@@ -112,5 +112,35 @@
     <alternateIdentifiers>
         <alternateIdentifier alternateIdentifierType="BLA">abcDEF</alternateIdentifier>
     </alternateIdentifiers>
+    <relatedItems>
+        <relatedItem relatedItemType="Sound" relationType="Describes">
+            <relatedItemIdentifier>http://doi.org/123</relatedItemIdentifier>
+            <creators>
+                <creator>
+                    <creatorName nameType="Personal">C. Reator</creatorName>
+                </creator>
+                <creator>
+                    <creatorName nameType="Organizational">O.R.G.</creatorName>
+                </creator>
+            </creators>
+            <titles>
+                <title>Related resource title</title>
+                <title titleType="AlternativeTitle">Related resource alternative title</title>
+            </titles>
+            <publicationYear>2020</publicationYear>
+            <volume>1</volume>
+            <issue>2</issue>
+            <number>3</number>
+            <firstPage>100</firstPage>
+            <lastPage>999</lastPage>
+            <publisher>CLARIN</publisher>
+            <edition>v1.0</edition>
+            <contributors>
+                <contributor contributorType="Editor">
+                    <contributorName>Ron C. Tributor</contributorName>
+                </contributor>
+            </contributors>
+        </relatedItem>
+    </relatedItems>
 </resource>
 
