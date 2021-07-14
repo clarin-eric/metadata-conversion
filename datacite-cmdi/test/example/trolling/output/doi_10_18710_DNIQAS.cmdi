@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/DNIQAS</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/DNIQAS</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Didaktische Möglichkeiten und Herausforderungen der nonverbalen Kommunikationssituation im digitalen Raum – Präsentation und Erfahrungsbericht eines internetbasierten DaF-Lehrerkurses</title>
+         </TitleInfo>
+         <Description>
+            <description>The replication data consists of a short survey (including results) completing the article "Didaktische Möglichkeiten und Herausforderungen der nonverbalen Kommunikationssituation im digitalen Raum – Präsentation und Erfahrungsbericht eines internetbasierten DaF-Lehrerkurses".&#xD;
+Article abstract:&#xD;
+This article provides, on the one hand, insights into the didactic possibilities of online teaching by presenting an exclusively internet-based teachers’ education course in German as a foreign language (GFL) in Norway. On the other hand, the point of discussion lies on the communicative challenges that the teaching staff of the course faces in the digital room. Since the participants already are deeply involved in the everyday routines at their schools, there is a necessity to provide the course exclusively online-based. This offers new perspectives in the field of webinar didactics. Therefore, experiences of the teachers running these classes can contribute to furthering the development of digital teaching methods. Based on findings from a short survey, the focus lies on their observation and perception of teaching in a virtual setting, which is restricted by limited communicative aspects. Concluding approaches on how potential ‘digital teachers’ can be prepared for this situation will be presented.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>survey data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.1</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>webinar didactics</label>
+         </Subject>
+         <Subject>
+            <label>nonverbal communication</label>
+         </Subject>
+         <Subject>
+            <label>teachers education</label>
+         </Subject>
+         <Subject>
+            <label>German as a foreign language</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0001-7941-9514</identifier>
+            <label>Jensen, Franziska</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Jensen, Franziska</name>
+                  <alternativeName type="givenName">Franziska</alternativeName>
+                  <alternativeName type="familyName">Jensen</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <identifier>0000-0003-1357-6052</identifier>
+            <label>Zentner, Ina</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Zentner, Ina</name>
+                  <alternativeName type="givenName">Ina</alternativeName>
+                  <alternativeName type="familyName">Zentner</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Zentner, Ina</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Zentner, Ina</name>
+                  <alternativeName type="givenName">Ina</alternativeName>
+                  <alternativeName type="familyName">Zentner</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2019-03-01</start>
+                     <end>2019-03-15</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-09-27</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-02-05</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <!--Size: 1032-->
+               <!--Size: 493947-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

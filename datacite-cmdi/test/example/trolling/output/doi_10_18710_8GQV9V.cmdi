@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList><!--Resource identifier cannot be converted to a ResourceRef: 10037.1/10190--></cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier>10037.1/10190</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication data for: Animacy and Differential Object Marking in Old Church Slavonic</title>
+         </TitleInfo>
+         <Description>
+            <description>This article explores the synchronic variation between the nominative-accusative (NA) and genitive-accusative (GA) in the oldest layer of canonical Old Church Slavonic (OCS), using parallel Greek and OCS data with principled information status annotation. Firstly, the data are used to clarify the claims made about the pragmatic properties of the alternation in the previous literature. There is a good case for claiming that OCS GA marking functions as a limited type of definiteness marking, i.e. that GA objects will nearly always be previously mentioned or contextually accessible. Secondly, the data are used to examine whether the GA-NA variation correlates with any other discourse properties known to be important in differential object marking systems. The NA is found to be a marker of referential persistence: a new referent will typically be NA-marked if it is an important participant in the further narrative. Third, the focus is shifted to the relationship between subject and object properties. There are indications that the GA is preferred even with new object referents if the subject has low prominence. Thus, the variation is best understood as a situation of differential object marking conditioned by several discourse properties: definiteness, referential persistence and perhaps subject-object asymmetry.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Old Church Slavonic</label>
+            <scheme>&lt;not applicable&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>animacy</label>
+         </Subject>
+         <Subject>
+            <label>differential object marking</label>
+         </Subject>
+         <Subject>
+            <label>Ancient Greek</label>
+         </Subject>
+         <Subject>
+            <label>Field: Semantics</label>
+            <scheme>&lt;Field term: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Field: Syntax</label>
+         </Subject>
+         <Subject>
+            <label>Field: Discourse</label>
+         </Subject>
+         <Subject>
+            <label>Time-depth: synchronic</label>
+            <scheme>&lt;Time depth: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Time-depth: diachronic</label>
+            <scheme>&lt;Topic: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Topic: case</label>
+         </Subject>
+         <Creator>
+            <label>Hanne Eckhoff</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Hanne Eckhoff</name>
+                  <alternativeName type="givenName">Hanne</alternativeName>
+                  <alternativeName type="familyName">Eckhoff</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Hanne Eckhoff</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Hanne Eckhoff</name>
+                  <alternativeName type="givenName">Hanne</alternativeName>
+                  <alternativeName type="familyName">Eckhoff</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT Open Research Data</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT Open Research Data</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <year>2015</year>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2015</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Issued</label>
+               <ActivityInfo>
+                  <When>
+                     <year>2015</year>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2015-03-18</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2015-04-15</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=US-ASCII</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <!--Size: 7547-->
+               <!--Size: 6737-->
+               <!--Size: 72581-->
+               <!--Size: 228523-->
+               <!--Size: 18515-->
+               <!--Size: 44945-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

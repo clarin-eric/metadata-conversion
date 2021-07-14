@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/BIIGT6</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/BIIGT6</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Predicting Russian aspect by frequency across genres</title>
+         </TitleInfo>
+         <Description>
+            <description>We ask whether the aspect of individual verbs can be predicted based on the statistical distribution of their inflectional forms and how this is influenced by genre. To address these questions, we present an analysis of the “grammatical profiles” (relative frequency distributions of inflectional forms) of three samples of verbs extracted from the Russian National Corpus, representing three genres: Journalistic prose, Fiction, and Scientific-Technical prose. We find that the aspect of a given verb can be correctly predicted from the distribution of its forms alone with an average accuracy of 92.7%. Remarkably, this accuracy is statistically indistinguishable from the accuracy of prediction of aspect based on morphological marking. We maintain that it would be possible for first language learners to use distributional tendencies, in addition to morphological and other cues (for example semantic and syntactic cues), in acquiring the verbal category of aspect in Russian.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>semantics</label>
+         </Subject>
+         <Subject>
+            <label>aspect</label>
+         </Subject>
+         <Subject>
+            <label>correspondence analysis</label>
+         </Subject>
+         <Subject>
+            <label>Russian</label>
+         </Subject>
+         <Subject>
+            <label>verbs</label>
+         </Subject>
+         <Subject>
+            <label>frequency</label>
+         </Subject>
+         <Creator>
+            <label>Eckhoff, Hanne</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Eckhoff, Hanne</name>
+                  <alternativeName type="givenName">Hanne</alternativeName>
+                  <alternativeName type="familyName">Eckhoff</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Janda, Laura</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Janda, Laura</name>
+                  <alternativeName type="givenName">Laura</alternativeName>
+                  <alternativeName type="familyName">Janda</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Lyashevskaya, Olga Nikolayevna</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Lyashevskaya, Olga Nikolayevna</name>
+                  <alternativeName type="givenName">Olga Nikolayevna</alternativeName>
+                  <alternativeName type="familyName">Lyashevskaya</alternativeName>
+                  <affiliation>Higher School of Economics</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Eckhoff, Hanne</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Eckhoff, Hanne</name>
+                  <alternativeName type="givenName">Hanne</alternativeName>
+                  <alternativeName type="familyName">Eckhoff</alternativeName>
+                  <affiliation>University of Oxford</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT Open Research Data</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT Open Research Data</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2017</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2017-03-12</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2017-12-03</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <type>type/x-r-syntax</type>
+               <type>type/x-r-syntax</type>
+               <type>type/x-r-syntax</type>
+               <type>type/x-r-syntax</type>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <!--Size: 6898-->
+               <!--Size: 2976-->
+               <!--Size: 2935-->
+               <!--Size: 3568-->
+               <!--Size: 5818-->
+               <!--Size: 12668-->
+               <!--Size: 10682-->
+               <!--Size: 4829570-->
+               <!--Size: 3378902-->
+               <!--Size: 2964955-->
+               <!--Size: 10589-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/ZAM96S</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/ZAM96S</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Constructions, their families and their neighborhoods: the case of durak durakom ‘a fool times two’</title>
+         </TitleInfo>
+         <Description>
+            <description>This dataset concerns the Russian construction where the same noun occurs in the nominative and instrumental cases, such as durak durakom ‘ultimate fool’. The dataset contains examples excerpted from the Russian National Corpus (ruscorpora.ru).</description>
+            <description>Article abstract: On the basis of data from the Russian National Corpus, we analyze the meanings and structure of the syntactic construction observed in phrases like дурак дураком, which we term the “NOM-INS construction”. We argue that the construction constitutes a network of three closely related subcategories, which we refer to as “Extreme”, “Paragon” and “Topic change”. It is furthermore shown that a diachronic change has taken place, whereby Topic Change has taken over for Extreme as the dominant subcategory. Our analysis provides ample evidence for the main tenets of Construction Grammar, namely that a language is a network of related constructions, that meaning is often not compositional, that there is a continuum from idiomatic to schematic uses of constructions, and that constructions evolve over time.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Constructions</label>
+         </Subject>
+         <Subject>
+            <label>Russian</label>
+         </Subject>
+         <Subject>
+            <label>Construction grammar</label>
+         </Subject>
+         <Subject>
+            <label>Nominative</label>
+         </Subject>
+         <Subject>
+            <label>Instrumental</label>
+         </Subject>
+         <Subject>
+            <label>Corpus linguistics</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0003-1308-3506</identifier>
+            <label>Nesset, Tore</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nesset, Tore</name>
+                  <alternativeName type="givenName">Tore</alternativeName>
+                  <alternativeName type="familyName">Nesset</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <identifier>0000-0001-5047-1909</identifier>
+            <label>Janda, Laura A.</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Janda, Laura A.</name>
+                  <alternativeName type="givenName">Laura A.</alternativeName>
+                  <alternativeName type="familyName">Janda</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <identifier>0000-0002-4998-2952</identifier>
+            <label>Kopotev, Mihail</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Kopotev, Mihail</name>
+                  <alternativeName type="givenName">Mihail</alternativeName>
+                  <alternativeName type="familyName">Kopotev</alternativeName>
+                  <affiliation>University of Helsinki</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Nesset, Tore</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nesset, Tore</name>
+                  <alternativeName type="givenName">Tore</alternativeName>
+                  <alternativeName type="familyName">Nesset</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Kopotev, Mihail</label>
+            <role>DataCollector</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Kopotev, Mihail</name>
+                  <alternativeName type="givenName">Mihail</alternativeName>
+                  <alternativeName type="familyName">Kopotev</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Nesset, Tore</label>
+            <role>ProjectMember</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nesset, Tore</name>
+                  <alternativeName type="givenName">Tore</alternativeName>
+                  <alternativeName type="familyName">Nesset</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Janda, Laura A.</label>
+            <role>ProjectMember</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Janda, Laura A.</name>
+                  <alternativeName type="givenName">Laura A.</alternativeName>
+                  <alternativeName type="familyName">Janda</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2019/2019</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-03-02</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-03-04</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 3071-->
+               <!--Size: 422742-->
+               <!--Size: 2144569-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

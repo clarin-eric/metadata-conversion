@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/KR5RRK</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/KR5RRK</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: The Choice of Aspect in the Russian Modal Construction with prixodit'sja/prijtis'</title>
+         </TitleInfo>
+         <Description>
+            <description>&lt;p&gt;This dataset includes all the data files that were used for the studies in my Master Thesis: "The Choice of Aspect in the Russian Modal Construction with prixodit'sja/prijtis'". The data files are numbered so that they are shown in the same order as they are presented in the thesis. They include the database and the code used for the statistical analysis. Their contents are described in the ReadMe files.&lt;/p&gt;&#xD;
+&lt;p&gt;The core of the work is a quantitative and empirical study on the choice of aspect by Russian native speakers in the modal construction prixodit’sja/prijtis’ + inf. The hypothesis is that in the modal construction prixodit’sja/prijtis’ + inf the aspect of the infinitive is not fully determined by grammatical context but, to some extent, open to construal.&lt;/p&gt;&#xD;
+&lt;p&gt;A preliminary analysis was carried out on data gathered from the Russian National Corpus (www.ruscorpora.ru). Four hundred and forty-seven examples with the verb prijtis' were annotated manually for several factors and a statistical test (CART) was run. Results demonstrated that no grammatical factor plays a big role in the use of one aspect rather than the other. Data for this study can be consulted in the files from 01 to 03 and include a ReadMe file, the database in .csv format and the code used for the statistical test.&lt;/p&gt;&#xD;
+&lt;p&gt;An experiment with native speakers was then carried out. A hundred and ten native speakers of Russian were surveyed and asked to evaluate the acceptability of the infinitive in examples with prixodit’sja/prijtis’ delat’/sdelat’ šag/vid/vybor. The survey presented seventeen examples from the Russian National Corpus that were submitted two times: the first time with the same aspect as in the original version, the second time with the other aspect. Participants had to evaluate each case by choosing among “Impossible”, “Acceptable” and “Excellent” ratings. They were also allowed to give their opinion about the difference between aspects in each example. A Logistic Regression with Mixed Effects was run on the answers. Data for this study can be consulted in the files from 04 to 010 and include a ReadMe file, the text and the answers of the questionnaire, the database in .csv, .txt and pdf formats and the code used for the statistical test.&lt;/p&gt;&#xD;
+&lt;p&gt;Results showed that prijtis’ often admits both aspects in the infinitive, while prixodit’sja is more restrictive and prefers imperfective. Overall, “Acceptable” and “Excellent” responses were higher than “Impossible” responses for both aspects, even when the aspect evaluated didn’t match with the original. Personal opinions showed that the choice of aspect often depends on the meaning the speaker wants to convey. Only in very few cases the grammatical context was considered to be a constraint on the choice.&lt;/p&gt;</description>
+            <description>R, 3.6.2</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Russian</label>
+         </Subject>
+         <Subject>
+            <label>aspect</label>
+         </Subject>
+         <Subject>
+            <label>modality</label>
+         </Subject>
+         <Subject>
+            <label>corpus data</label>
+         </Subject>
+         <Subject>
+            <label>quantitative methods</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-4167-2415</identifier>
+            <label>Bernasconi, Beatrice</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Bernasconi, Beatrice</name>
+                  <alternativeName type="givenName">Beatrice</alternativeName>
+                  <alternativeName type="familyName">Bernasconi</alternativeName>
+                  <affiliation>Università degli Studi di Milano</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Bernasconi, Beatrice</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Bernasconi, Beatrice</name>
+                  <alternativeName type="givenName">Beatrice</alternativeName>
+                  <alternativeName type="familyName">Bernasconi</alternativeName>
+                  <affiliation>Università degli Studi di Milano</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Bernasconi, Beatrice</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Bernasconi, Beatrice</name>
+                  <alternativeName type="givenName">Beatrice</alternativeName>
+                  <alternativeName type="familyName">Bernasconi</alternativeName>
+                  <affiliation>Università degli Studi di Milano</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Janda, Laura A.</label>
+            <role>Supervisor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Janda, Laura A.</name>
+                  <alternativeName type="givenName">Laura A.</alternativeName>
+                  <alternativeName type="familyName">Janda</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Bernasconi, Beatrice</label>
+            <role>DataCollector</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Bernasconi, Beatrice</name>
+                  <alternativeName type="givenName">Beatrice</alternativeName>
+                  <alternativeName type="familyName">Bernasconi</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Bernasconi, Beatrice</label>
+            <role>DataCurator</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Bernasconi, Beatrice</name>
+                  <alternativeName type="givenName">Beatrice</alternativeName>
+                  <alternativeName type="familyName">Bernasconi</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2019-09-18</start>
+                     <end>2020-02-20</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-06-19</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-06-25</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/csv</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 1523-->
+               <!--Size: 2842-->
+               <!--Size: 197397-->
+               <!--Size: 1563-->
+               <!--Size: 3307-->
+               <!--Size: 133994-->
+               <!--Size: 668808-->
+               <!--Size: 70878-->
+               <!--Size: 992161-->
+               <!--Size: 134354-->
+               <!--Size: 731-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

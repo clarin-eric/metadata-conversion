@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/MIFRWN</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/MIFRWN</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Perception and production of plosives: Data from Norwegian learners of French L3</title>
+         </TitleInfo>
+         <Description>
+            <description>This dataset contains different measures of plosives produced by 16 Norwegian learners of French as a third language during a reading task and a repetition task. The data are extracted from two corpora collected within the framework of the IPFC project (Interphonologie du français contemporain): the Tromsø corpus with high school students, and the Oslo corpus with university students enrolled in a first year course on French phonetics and phonology. The dataset contains four files: A readme file, the word list used during the reading and repetition tasks, a data file containing all measures, and a text file presenting average values and VOT ranges for the individual informants.</description>
+            <description>Praat, 6.1.13</description>
+            <description>For questions about the sound files used to obtain these data, or for more information about the larger corpora, contact the author.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>experimental data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>phonology</label>
+         </Subject>
+         <Subject>
+            <label>Norwegian</label>
+         </Subject>
+         <Subject>
+            <label>French</label>
+         </Subject>
+         <Subject>
+            <label>plosives</label>
+         </Subject>
+         <Subject>
+            <label>L3 acquisition</label>
+         </Subject>
+         <Subject>
+            <label>voicing</label>
+         </Subject>
+         <Subject>
+            <label>aspiration</label>
+         </Subject>
+         <Subject>
+            <label>Voice Onset Time (VOT)</label>
+         </Subject>
+         <Subject>
+            <label>Interphonologie du français contemporain (IPFC)</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0001-9450-803X</identifier>
+            <label>Andreassen, Helene N.</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Andreassen, Helene N.</name>
+                  <alternativeName type="givenName">Helene N.</alternativeName>
+                  <alternativeName type="familyName">Andreassen</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Andreassen, Helene N.</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Andreassen, Helene N.</name>
+                  <alternativeName type="givenName">Helene N.</alternativeName>
+                  <alternativeName type="familyName">Andreassen</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Lyche, Chantal</label>
+            <role>DataCollector</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Lyche, Chantal</name>
+                  <alternativeName type="givenName">Chantal</alternativeName>
+                  <alternativeName type="familyName">Lyche</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-11-10</date>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2013/2014</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2021</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Issued</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-04-26</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-11-12</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-04-28</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/csv</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <!--Size: 10011-->
+               <!--Size: 87695-->
+               <!--Size: 49086-->
+               <!--Size: 141231-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

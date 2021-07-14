@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/AAZVJH</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/AAZVJH</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: English and Chinese children’s motion event similarity judgments</title>
+         </TitleInfo>
+         <Description>
+            <description>This study explores the relationship between language and thought in similarity judgments by testing how monolingual children who speak languages with partial typological differences in motion description (English and Chinese) respond to visual motion stimuli. Participants were, either Chinese- or English-speaking, 3-year-olds, 8-year-olds and adults (32 in each group) who judged the similarity between caused motion scenes in a match-to-sample task. The results suggest, first of all, that the two younger groups of 3-year-olds are predominantly path-oriented, irrespective of language, as evidenced by their significantly longer fixation on path-match videos rather than manner-match videos in a preferential looking scheme. Using categorical measurement of overt choices, older children and adults also showed a shared tendency of being more pathoriented. However, the analysis using continuous measurement of reaction time revealed significant variations in spatial cognition that can be related to linguistic differences: English speakers tended to be more manneroriented while Chinese speakers were equally manner- and path-oriented. Our findings indicate a likelihood that children’s non-linguistic thought is similar prior to internalising the lexicalisation pattern of motion events in their native languages, but shows divergences after such habitual use, thus suggesting that the pattern of non-linguistic thought may be linked to linguistic structure.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Chinese</label>
+         </Subject>
+         <Subject>
+            <label>English</label>
+         </Subject>
+         <Subject>
+            <label>motion event typology</label>
+         </Subject>
+         <Subject>
+            <label>linguistic relativity</label>
+         </Subject>
+         <Subject>
+            <label>similarity judgment</label>
+         </Subject>
+         <Subject>
+            <label>preferential looking</label>
+         </Subject>
+         <Creator>
+            <label>Ji, Yinglin</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Ji, Yinglin</name>
+                  <affiliation>Research Centre for Language and Cognition, Shenzhen University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Jill Hohenstein</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Jill Hohenstein</name>
+                  <alternativeName type="givenName">Jill</alternativeName>
+                  <alternativeName type="familyName">Hohenstein</alternativeName>
+                  <affiliation>King's College London</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Ji, Yinglin</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>Ji, Yinglin</name>
+                  <affiliation>Research Centre for Language and Cognition, Shenzhen University</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Shenzhen University</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>Shenzhen University</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>King's College London</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>King's College London</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2017</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2017-08-09</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2017-08-09</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 3700-->
+               <!--Size: 273-->
+               <!--Size: 9028-->
+               <!--Size: 1886-->
+               <!--Size: 3062-->
+               <!--Size: 797-->
+               <!--Size: 736-->
+               <!--Size: 330-->
+               <!--Size: 1828-->
+               <!--Size: 298-->
+               <!--Size: 2007-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

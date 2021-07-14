@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/NFNB8D</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/NFNB8D</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Two origins of the prefix IZ- and how they affect the VY- vs. IZ- correlation in Modern Russian.</title>
+         </TitleInfo>
+         <Description>
+            <description>This is the data examined in the study of Modern Russian verbs formed with the prefixes VY- and IZ-, a native East Slavic prefix and a loan Church Slavonic prefix, both of which mean ‘out of’. The study provides a synchronic contrastive analysis of the two prefixes and discusses how much they are semantically similar and what determines their distribution across Russian verbs. The dataset “VY_IZ_DATABASE_2019” provides replication data for the article “Two origins of the prefix IZ- and how they affect the VY- vs. IZ- correlation in Modern Russian” accepted for publication in Russian Linguistics. International Journal for the Study of Russian and other Slavic Languages 43(3).&#xD;
+&#xD;
+The amount of data examined in this study exceeds all previous accounts of the issue. The database contains 989 prefixed verbs. The verbs were culled from the Modern Subcorpus of the Russian National Corpus (www.ruscorpora.ru) and manually tagged for a number of parameters. The data was extracted automatically via the software management program MySQL. After that each verb was double-checked in the corpus and analyzed. In the database, each verb is accompanied with an English gloss, simplex base, corpus frequency, corpus example of its use, and a number of tags relevant for this study (type of perfective, submeaning of the prefix, etc.). The structure of the database is described in detail in the document “ReadMe”.</description>
+            <description>Here is the abstract of the article: This article reports on a synchronic study of 989 Modern Russian verbs formed with the prefixes VY- and IZ-, including standard lexemes, obsolete verbs, and newly-formed coinages culled from the Russian National Corpus. I argue that the hypothesis about the two historical origins of the prefix IZ- may explain the ambivalent behavior of this prefix in Modern Russian, which shows both semantic overlap and semantic contrast with the prefix VY-. I revisit the most detailed semantic account of the two prefixes (Nesset et al 2011) and provide additional support for their model of polysemy in terms of type and token frequencies of the analyzed verbs. I further propose that VY- and IZ- encode different spatial image schemas and thus explain why the prefix IZ- is compatible with verbs of multidirectional motion, whereas VY- preferably attaches to verbs of unidirectional motion; why the verbs prefixed in IZ- often carry a more evocative flavor and refer to more intensive activities than those described by parallel verbs in VY-; why IZ- encodes multiplication of an action named by the base and why this is not common for VY-; and finally how it is possible for IZ- to have both bookish and colloquial uses, being very obsolete and highly productive in different submeanings.</description>
+            <description>Russian  Federation</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>prefix</label>
+         </Subject>
+         <Subject>
+            <label>verb</label>
+         </Subject>
+         <Subject>
+            <label>slavonicism</label>
+         </Subject>
+         <Subject>
+            <label>Russian</label>
+         </Subject>
+         <Subject>
+            <label>cognitive semantics</label>
+         </Subject>
+         <Subject>
+            <label>polysemy</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-9235-613X</identifier>
+            <label>Endresen, Anna</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Endresen, Anna</name>
+                  <alternativeName type="givenName">Anna</alternativeName>
+                  <alternativeName type="familyName">Endresen</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Endresen, Anna</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Endresen, Anna</name>
+                  <alternativeName type="givenName">Anna</alternativeName>
+                  <alternativeName type="familyName">Endresen</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Endresen, Anna</label>
+            <role>Researcher</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Endresen, Anna</name>
+                  <alternativeName type="givenName">Anna</alternativeName>
+                  <alternativeName type="familyName">Endresen</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Janda, Laura Alexis</label>
+            <role>Supervisor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Janda, Laura Alexis</name>
+                  <alternativeName type="givenName">Laura Alexis</alternativeName>
+                  <alternativeName type="familyName">Janda</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Nesset, Tore</label>
+            <role>Supervisor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nesset, Tore</name>
+                  <alternativeName type="givenName">Tore</alternativeName>
+                  <alternativeName type="familyName">Nesset</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Cognitive Linguistics: Empirical Approaches to Russian (CLEAR)</label>
+            <role>ResearchGroup</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Cognitive Linguistics: Empirical Approaches to Russian (CLEAR)</name>
+                  <alternativeName type="givenName">to</alternativeName>
+                  <alternativeName type="familyName">nitive Linguistics: Empirical Approaches to Russian (CLEAR)</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <year>2019</year>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2014-06-14</start>
+                     <end>2014-06-14</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2019</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-06-11</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-06-13</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediaType>
+               <!--Size: 61023-->
+               <!--Size: 8075-->
+               <!--Size: 491558-->
+               <!--Size: 354229-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <GeoLocation>
+            <label>Norway</label>
+         </GeoLocation>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

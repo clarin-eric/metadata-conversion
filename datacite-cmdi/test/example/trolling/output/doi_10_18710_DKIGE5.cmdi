@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/DKIGE5</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/DKIGE5</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Final voiced obstruents in German Learner English: Dataset for chapter 10 in "Phonological variation in German Learner English"</title>
+         </TitleInfo>
+         <Description>
+            <description>This dataset contains tabular files with (i) auditory data on final voiced obstruent (FVO) production by German learners and (ii) acoustic measurements of the preceding vowel duration by German learners and native speakers. The data originate from two different studies. The auditory data by Pascoe (1987) include n = 26 speakers (instructional-setting learners from southern Bavaria; age: 14-16 years), who produced a total of n = 644 tokens. These data were elicited with the re-telling of a picture story. The productions were classified as "voiceless", "devoiced", and "voiced". The acoustic data by Soenning (2020) include n = 62 German learners (instructional-setting learners from northern Bavaria; age: 11-30) and n = 26 native speakers (BrE and AmE). Two reading tasks were used for data elicitation: a word list and short carrier phrases ("I said ..., not ..."). Each subject produced n = 11 minimal pairs, which contrasted in final obstruent voicing, yielding 284 tokens (i.e. minimal pairs) for the native speakers and n = 619 tokens (i.e. word pairs) for the learners. See ReadMe file for further information. Related publication: Soenning, Lukas. 2020. Phonological variation in German Learner English. University of Bamberg dissertation. DOI: 10.20378/irb-49135 Open access: https://fis.uni-bamberg.de/handle/uniba/49135</description>
+            <description>Praat, 5.3.68</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>auditory data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>L2 acquisition</label>
+         </Subject>
+         <Subject>
+            <label>German learner English</label>
+         </Subject>
+         <Subject>
+            <label>final voiced obstruents</label>
+         </Subject>
+         <Subject>
+            <label>final devoicing</label>
+         </Subject>
+         <Subject>
+            <label>phonetics &amp; phonology</label>
+         </Subject>
+         <Subject>
+            <label>auditory data</label>
+         </Subject>
+         <Subject>
+            <label>acoustic data</label>
+         </Subject>
+         <Subject>
+            <label>vowel length variation</label>
+         </Subject>
+         <Subject>
+            <label>preceding vowel duration</label>
+         </Subject>
+         <Subject>
+            <label>vowel-length effect</label>
+         </Subject>
+         <Subject>
+            <label>pre-lenis lengthening</label>
+         </Subject>
+         <Subject>
+            <label>pre-fortis clipping</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-2705-395X</identifier>
+            <label>Sönning, Lukas</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Sönning, Lukas</name>
+                  <alternativeName type="givenName">Lukas</alternativeName>
+                  <alternativeName type="familyName">Sönning</alternativeName>
+                  <affiliation>University of Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Pascoe, Graham</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Pascoe, Graham</name>
+                  <alternativeName type="givenName">Graham</alternativeName>
+                  <alternativeName type="familyName">Pascoe</alternativeName>
+                  <affiliation>SDI München</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Sönning, Lukas</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Sönning, Lukas</name>
+                  <alternativeName type="givenName">Lukas</alternativeName>
+                  <alternativeName type="familyName">Sönning</alternativeName>
+                  <affiliation>University of Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>University of Bamberg</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>University of Bamberg</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2014-04/2014-08</label>
+                  </When>
+               </ActivityInfo>
+               <ActivityInfo>
+                  <When>
+                     <label>1983/1985</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2021</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-12-06</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-02-01</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <!--Size: 11773-->
+               <!--Size: 25066-->
+               <!--Size: 9136-->
+               <!--Size: 22372-->
+               <!--Size: 4127-->
+               <!--Size: 783-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <otherAccessInfo>&lt;p&gt;This dataset, "Final voiced obstruents in German Learner English: Dataset for chapter 10 in "Phonological variation in German Learner English"", may be reused according to the Creative Commons Attribution 4.0 International (CC BY 4.0) license as described here: &lt;a href="https://creativecommons.org/licenses/by/4.0/"&#xD;
+title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/licenses/by/4.0/&lt;/a&gt;.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;The data contained in the tabular file "fvo_data_pascoe.csv" has been extracted from tables and other parts of the following academic work:&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;Pascoe, Graham. 1987. Die Aussprache des Englischen an bayerischen Schulen. München: Profil.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;and rearranged into the tabular form in the file "fvo_data_pascoe.csv".&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+Therefore, the data from Pascoe (1987) as reused in the file "fvo_data_pascoe.csv" represent facts and are reused under Public Domain conditions as described here: &lt;a href="https://creativecommons.org/share-your-work/public-domain/pdm/" title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/share-your-work/public-domain/pdm/&lt;/a&gt;.</otherAccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

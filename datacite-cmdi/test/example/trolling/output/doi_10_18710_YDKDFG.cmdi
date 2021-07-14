@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/YDKDFG</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/YDKDFG</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>English /r/ in German Learner English: Dataset for chapter 6 in "Phonological variation in German Learner English"</title>
+         </TitleInfo>
+         <Description>
+            <description>This dataset contains auditory classifications for prevocalic and postvocalic /r/ produced by German learners of English. The data originate from four different studies. The data by Pascoe (1987) include n = 26 speakers (instructional-setting learners from southern Bavaria; age: 14-16 years), who produced a total of n = 346 prevocalic and n = 303 postvocalic tokens. These data were elicited with the re-telling of a picture story. The data by Wunder (2012) include n = 30 speakers (instructional-setting learners from northern Bavaria; age: 11-20), who produced a total of n = 778 prevocalic and n = 658 postvocalic tokens. These data were elicited with the reading passage. The data by Soenning (2020) include n = 62 speakers (instructional-setting learners from northern Bavaria; age: 11-30), who produced a total of n = 1037 prevocalic and n = 2933 postvocalic tokens. These data were elicited with two reading tasks, a word list and short question-answer sequences. The data by Rank (2018) include n = 21 speakers (mostly university students from Bavaria), who produced a total of n = 1933 postvocalic tokens. These data were elicited with a word list, a reading passage, and a casual conversation with the author of that study. See ReadMe file for more details. Related publication: Soenning, Lukas. 2020. Phonological variation in German Learner English. University of Bamberg dissertation. DOI: 10.20378/irb-49135 Open access: https://fis.uni-bamberg.de/handle/uniba/49135</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>experimental data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>L2 acquisition</label>
+         </Subject>
+         <Subject>
+            <label>German learner English</label>
+         </Subject>
+         <Subject>
+            <label>rhotics</label>
+         </Subject>
+         <Subject>
+            <label>linking-r</label>
+         </Subject>
+         <Subject>
+            <label>rhoticity</label>
+         </Subject>
+         <Subject>
+            <label>phonetics &amp; phonology</label>
+         </Subject>
+         <Subject>
+            <label>auditory data</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-2705-395X</identifier>
+            <label>Sönning, Lukas</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Sönning, Lukas</name>
+                  <alternativeName type="givenName">Lukas</alternativeName>
+                  <alternativeName type="familyName">Sönning</alternativeName>
+                  <affiliation>University of Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Pascoe, Graham</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Pascoe, Graham</name>
+                  <alternativeName type="givenName">Graham</alternativeName>
+                  <alternativeName type="familyName">Pascoe</alternativeName>
+                  <affiliation>SDI München</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Rank, Isabel</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Rank, Isabel</name>
+                  <alternativeName type="givenName">Isabel</alternativeName>
+                  <alternativeName type="familyName">Rank</alternativeName>
+                  <affiliation>University of Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Wunder, Christina</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Wunder, Christina</name>
+                  <alternativeName type="givenName">Christina</alternativeName>
+                  <alternativeName type="familyName">Wunder</alternativeName>
+                  <affiliation>University of Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Sönning, Lukas</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Sönning, Lukas</name>
+                  <alternativeName type="givenName">Lukas</alternativeName>
+                  <alternativeName type="familyName">Sönning</alternativeName>
+                  <affiliation>University of Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>University of Bamberg</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>University of Bamberg</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2014-04/2014-08</label>
+                  </When>
+               </ActivityInfo>
+               <ActivityInfo>
+                  <When>
+                     <label>1983/1985</label>
+                  </When>
+               </ActivityInfo>
+               <ActivityInfo>
+                  <When>
+                     <label>2011/2012</label>
+                  </When>
+               </ActivityInfo>
+               <ActivityInfo>
+                  <When>
+                     <label>2017/2018</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2021</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-12-06</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-02-01</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <!--Size: 16332-->
+               <!--Size: 454888-->
+               <!--Size: 755895-->
+               <!--Size: 4127-->
+               <!--Size: 39330-->
+               <!--Size: 104873-->
+               <!--Size: 229038-->
+               <!--Size: 96918-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <otherAccessInfo>&lt;p&gt;This dataset, "English /r/ in German Learner English: Dataset for chapter 6 in "Phonological variation in German Learner English"", may be reused according to the Creative Commons Attribution 4.0 International (CC BY 4.0) license as described here: &lt;a href="https://creativecommons.org/licenses/by/4.0/"&#xD;
+title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/licenses/by/4.0/&lt;/a&gt;.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;The data contained in the tabular file "r_data_pascoe.csv" has been extracted from tables and other parts of the following academic work:&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;Pascoe, Graham. 1987. Die Aussprache des Englischen an bayerischen Schulen. München: Profil.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;and rearranged into the tabular form in the file "r_data_pascoe.csv".&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+Therefore, the data from Pascoe (1987) as reused in the file "r_data_pascoe.csv" represent facts and are reused under Public Domain conditions as described here: &lt;a href="https://creativecommons.org/share-your-work/public-domain/pdm/" title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/share-your-work/public-domain/pdm/&lt;/a&gt;.&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;The data contained in the tabular file "r_data_rank.csv" are based on data extracted from the following academic work:&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;Rank, Isabel. 2018. Realisation of post-vocalic /r/ by advanced German learners of English. Unpublished BA thesis, University of Bamberg, Germany.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+These data are here reused according to the Creative Commons Attribution 4.0 International (CC BY 4.0) license as described here: &lt;a href="https://creativecommons.org/licenses/by/4.0/"&#xD;
+title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/licenses/by/4.0/&lt;/a&gt; with the permission from the author (see the file "data_consent_rank.pdf").&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;The data contained in the tabular file "r_data_wunder.csv" are based on data extracted from the following academic work:&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;Wunder, Christina. 2012. Final devoicing in German Learner English: A study at a Franconian grammar school. University of Bamberg, Germany MA thesis.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+These data are here reused according to the Creative Commons Attribution 4.0 International (CC BY 4.0) license as described here: &lt;a href="https://creativecommons.org/licenses/by/4.0/"&#xD;
+title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/licenses/by/4.0/&lt;/a&gt; with the permission from the author (see the file "data_consent_wunder.pdf").&lt;/p&gt;</otherAccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

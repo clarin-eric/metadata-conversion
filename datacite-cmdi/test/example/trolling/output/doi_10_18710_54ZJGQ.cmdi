@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/54ZJGQ</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/54ZJGQ</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: A long birth: The development of gender-specific paucal constructions in Russian</title>
+         </TitleInfo>
+         <Description>
+            <description>The databases and scripts for statistical analysis included in this TROLLing post concern the so-called paucal construction in Russian where a numeral (dva ‘two’, tri ‘three’, chetyre ‘four’) is followed by an adjective and a noun. There are two versions of the database, one with examples in Cyrillic and one without. The version without examples can be used for statistical analysis, since some statistical software has problems with Cyrillic.</description>
+            <description>Article abstract: This article investigates the diachronic development of Russian numeral constructions consisting of a paucal numeral (dva ‘two’, tri ‘three’, chetyre ‘four’) followed by an adjective and a noun. Based on statistical analysis of more than 6,000 corpus examples, it is shown that a split took place in the second half of the twentieth century when feminine nouns developed a different agreement pattern from that of masculine and neuter nouns. This split is argued to represent the final step in a long “birth process” of gender-specific paucal constructions that started with the loss of the dual in the Middle Ages. It is suggested that we are witnessing a cascading effect, whereby the feminine pattern develops when the pattern for masculine and neuter nouns are approaching stabilization. The article furthermore includes a discussion of the hypothesis that “S-curves” represent a template for language change. While the documented changes resemble S-curves, the proposed analysis also addresses some general problems with testing the S-curve hypothesis empirically.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Russian</label>
+         </Subject>
+         <Subject>
+            <label>numeral</label>
+         </Subject>
+         <Subject>
+            <label>paucal</label>
+         </Subject>
+         <Subject>
+            <label>S-curve</label>
+         </Subject>
+         <Subject>
+            <label>language change</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0003-1308-3506</identifier>
+            <label>Nesset, Tore</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nesset, Tore</name>
+                  <alternativeName type="givenName">Tore</alternativeName>
+                  <alternativeName type="familyName">Nesset</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Nesset, Tore</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nesset, Tore</name>
+                  <alternativeName type="givenName">Tore</alternativeName>
+                  <alternativeName type="familyName">Nesset</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Nesset, Tore</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nesset, Tore</name>
+                  <alternativeName type="givenName">Tore</alternativeName>
+                  <alternativeName type="familyName">Nesset</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2015/2015</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-01-09</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-01-10</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <type>type/x-r-syntax</type>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 764453-->
+               <!--Size: 628592-->
+               <!--Size: 1717681-->
+               <!--Size: 1530049-->
+               <!--Size: 11727-->
+               <!--Size: 4318-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.1/metadata.xsd">
+    <identifier identifierType="DOI">10.18710/G6PJ5F</identifier>
+    <creators>
+        <creator>
+            <creatorName nameType="Personal">Sönning, Lukas</creatorName>
+            <givenName>Lukas</givenName>
+            <familyName>Sönning</familyName>
+            <nameIdentifier nameIdentifierScheme="ORCID">0000-0002-2705-395X</nameIdentifier>
+            <affiliation>University of Bamberg</affiliation>
+        </creator>
+    </creators>
+    <titles>
+        <title>Clear vs. dark /l/ in German Learner English: Dataset for chapter 5 in "Phonological variation in German Learner English"</title>
+    </titles>
+    <publisher>DataverseNO</publisher>
+    <publicationYear>2021</publicationYear>
+    <subjects>
+        <subject>Arts and Humanities</subject>
+        <subject>L2 acquisition</subject>
+        <subject>German learner English</subject>
+        <subject>laterals</subject>
+        <subject>clear and dark /l/</subject>
+        <subject>British English</subject>
+        <subject>American English</subject>
+        <subject>English</subject>
+        <subject>phonetics &amp; phonology</subject>
+        <subject>acoustic data</subject>
+    </subjects>
+    <contributors>
+        <contributor contributorType="ContactPerson">
+            <contributorName nameType="Personal">Sönning, Lukas</contributorName>
+            <givenName>Lukas</givenName>
+            <familyName>Sönning</familyName>
+            <affiliation>University of Bamberg</affiliation>
+        </contributor>
+        <contributor contributorType="Producer">
+            <contributorName nameType="Organizational">University of Bamberg</contributorName>
+        </contributor>
+        <contributor contributorType="Distributor">
+            <contributorName nameType="Personal">The Tromsø Repository of Language and Linguistics</contributorName>
+            <givenName>The</givenName>
+            <familyName>Tromsø Repository of Language and Linguistics</familyName>
+        </contributor>
+    </contributors>
+    <dates>
+        <date dateType="Submitted">2020-12-06</date>
+        <date dateType="Updated">2021-02-01</date>
+        <date dateType="Collected">2014-04/2014-08</date>
+    </dates>
+    <resourceType resourceTypeGeneral="Dataset">acoustic data</resourceType>
+    <relatedIdentifiers>
+        <relatedIdentifier relationType="IsCitedBy" relatedIdentifierType="DOI">10.20378/irb-49135</relatedIdentifier>
+    </relatedIdentifiers>
+    <sizes>
+        <size>12078</size>
+        <size>87091</size>
+        <size>26293</size>
+        <size>4127</size>
+        <size>783</size>
+    </sizes>
+    <formats>
+        <format>text/plain</format>
+        <format>text/tab-separated-values</format>
+        <format>text/tab-separated-values</format>
+        <format>text/tab-separated-values</format>
+        <format>text/tab-separated-values</format>
+    </formats>
+    <version>1.0</version>
+    <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess"/>
+        <rights>This dataset, "Clear vs. dark /l/ in German Learner English: Dataset for chapter 5 in "Phonological variation in German Learner English"", may be reused according to the Creative Commons Attribution 4.0 International (CC BY 4.0) license as described here: &lt;a href="https://creativecommons.org/licenses/by/4.0/"&#xd;
+title="TermsOfUse" target="_blank">https://creativecommons.org/licenses/by/4.0/&lt;/a>.</rights>
+    </rightsList>
+    <descriptions>
+        <description descriptionType="Abstract">This dataset contains tabular files with acoustic
+            measurements for prevocalic and non-prevocalic laterals produced by n = 62 German
+            learners of English and n = 26 native speakers of English (BrE and AmE). The German
+            subjects are instructional-setting learners ranging from grade 5 (age: 11) to
+            university. They are predominantly from northern Bavaria and represent a broad range of
+            proficiency levels. Pronunciation ability was assessed with a foreign accent rating. The
+            data were elicited with a word list and each subject produced n = 15 tokens (n = 10 in
+            non-prevocalic position, n = 5 in prevocalic position). Measurements are reported for
+            the first two formants (F1 and F2). See ReadMe file for more details. Related
+            publication: Soenning, Lukas. 2020. Phonological variation in German Learner English.
+            University of Bamberg dissertation. DOI: 10.20378/irb-49135 Open access:
+            https://fis.uni-bamberg.de/handle/uniba/49135</description>
+        <description descriptionType="TechnicalInfo">Praat, 5.3.68</description>
+    </descriptions>
+    <geoLocations/>
+</resource>

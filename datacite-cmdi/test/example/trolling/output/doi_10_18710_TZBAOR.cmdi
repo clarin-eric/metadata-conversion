@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/TZBAOR</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/TZBAOR</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Eye Behavior during Syntactic Movement Evidence for Processing Approach to Persian Syntax</title>
+         </TitleInfo>
+         <Description>
+            <description>[Dataset abstract:] The datasets include experimental material on an eye-tracking analysis in  Persian syntax and how syntactic movement in this language is affected by weight factor. It also includes statistical datasets and the results of statistical analysis. In addition, some relevant data to the study such as sample heat map and scan path images and videos are supplemented.</description>
+            <description>[Article abstract:] Syntactic movement as a linguistic phenomenon resulting in rearrangement of constituent ordering is not arbitrary, but is aimed at fulfilling efficiency principles of processing. Constituents’ weight and structural complexity seem to be significant determinants in the occurrence of linguistic movement rules and the ultimate constituent ordering. The ultimate structural configuration is thought to be compliant with processing ease. Adopting an eye tracking technique, this research aims to study eye behavior in response to processing difficulty of syntactically different, but semantically identical sentences and hence provide behavioral evidence for the effect of grammatical weight on the occurrence of syntactic movement in Persian language. Encompassing two syntactic movements (relative clause extraposition and postposing) in two weight levels (light, heavy), some eye behavior such as fixations, regressions, pupil size and blink analysis was registered and then assessed. It was concluded that syntactic movement is weight-sensitive and aimed at easing processing difficulty. The likelihood of post-verbal movement in extraposition and scrambling increases by the increase of grammatical weight and driven by the incentive of increasing processing efficiency.</description>
+            <description>SPSS, 22</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>experimental data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Other</label>
+         </Subject>
+         <Subject>
+            <label>constituent ordering</label>
+         </Subject>
+         <Subject>
+            <label>syntactic movement</label>
+         </Subject>
+         <Subject>
+            <label>grammatical weight</label>
+         </Subject>
+         <Subject>
+            <label>eye-tracking analysis</label>
+         </Subject>
+         <Subject>
+            <label>Persian</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0003-2890-7184</identifier>
+            <label>Alaee, Majid</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Alaee, Majid</name>
+                  <alternativeName type="givenName">Majid</alternativeName>
+                  <alternativeName type="familyName">Alaee</alternativeName>
+                  <affiliation>University of Bu-Ali Sina</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Rasekh-Mahand, Mohammad</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Rasekh-Mahand, Mohammad</name>
+                  <alternativeName type="givenName">Mohammad</alternativeName>
+                  <alternativeName type="familyName">Rasekh-Mahand</alternativeName>
+                  <affiliation>University of Bu-Ali Sina</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Tehrani-Doost, Mahdi</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Tehrani-Doost, Mahdi</name>
+                  <alternativeName type="givenName">Mahdi</alternativeName>
+                  <alternativeName type="familyName">Tehrani-Doost</alternativeName>
+                  <affiliation>Tehran University of Medical Sciences</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Alaee, Majid</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Alaee, Majid</name>
+                  <alternativeName type="givenName">Majid</alternativeName>
+                  <alternativeName type="familyName">Alaee</alternativeName>
+                  <affiliation>University of Bu-Ali Sina</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>University of Bu-Ali Sina</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>University of Bu-Ali Sina</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Faculty of Education and Psychology, Shahid Beheshti University of Tehran</label>
+            <role>HostingInstitution</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>Faculty of Education and Psychology, Shahid Beheshti University of Tehran</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2017-06/2017-08</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2021</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-11-27</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-06-28</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>application/zip</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>application/zip</mediaType>
+               <!--Size: 16480-->
+               <!--Size: 186280-->
+               <!--Size: 951916-->
+               <!--Size: 364119-->
+               <!--Size: 1058355-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

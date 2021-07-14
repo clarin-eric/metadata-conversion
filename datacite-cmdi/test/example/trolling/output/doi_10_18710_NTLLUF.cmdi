@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/NTLLUF</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/NTLLUF</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Universal linguistic hierarchies are not innately wired</title>
+         </TitleInfo>
+         <Description>
+            <description>This research put the nature and rigidity of linguistic hierarchies to test, taking multiple adjective placement as a case study. We developed an on-line forced choice experiment that measured (i) acceptability judgment ratings and (ii) reaction times, in a big sample of neurotypical, adult speakers of Standard Greek (n=140) and Cypriot Greek (n=30). The task compares what happens when people are asked to process sentences that either comply with or violate allegedly universal ordering constraints that have been described as the outcome of innately wired hierarchies. Our findings do not provide any evidence for a universal hierarchy for adjective ordering that imposes one rigid, unmarked order. We argue that the obtained results are effectively reducing the amount of primitives that are cast as innate, eventually offering a deflationist approach to human linguistic cognition.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>experimental linguistics</label>
+         </Subject>
+         <Subject>
+            <label>forced choice experiment</label>
+         </Subject>
+         <Subject>
+            <label>Likert scale</label>
+         </Subject>
+         <Subject>
+            <label>Universal Grammar</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0003-3181-1917</identifier>
+            <label>Leivada, Evelina</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Leivada, Evelina</name>
+                  <alternativeName type="givenName">Evelina</alternativeName>
+                  <alternativeName type="familyName">Leivada</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Westergaard, Marit</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Westergaard, Marit</name>
+                  <alternativeName type="givenName">Marit</alternativeName>
+                  <alternativeName type="familyName">Westergaard</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Evelina Leivada</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Evelina Leivada</name>
+                  <alternativeName type="givenName">Evelina</alternativeName>
+                  <alternativeName type="familyName">Leivada</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2019</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-07-09</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-07-10</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <!--Size: 245777-->
+               <!--Size: 610265-->
+               <!--Size: 5380-->
+               <!--Size: 169726-->
+               <!--Size: 385640-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <FundingInfo>
+            <Funding>
+               <grantNumber>No 746652</grantNumber>
+               <FundingAgency>
+                  <label>Horizon 2020 research and innovation programme: Marie Skłodowska-Curie</label>
+               </FundingAgency>
+            </Funding>
+         </FundingInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/VWDJ1Y</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/VWDJ1Y</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: "The loss of Latin OV: Steps towards an analysis"</title>
+         </TitleInfo>
+         <Description>
+            <description>In this paper I offer a first attempt to analyse the loss of OV word orders in  Latin/Romance. Assuming Yang's (2000, 2002) variational acquisition model of language change, I suggest that the eventual decline of the OV grammar can be traced back to an independent change in the grammar of Latin, namely one concerning the way in which the clausal EPP requirement is satisfied (Danckaert 2017). The crucial Late Latin innovation is argued to be the development of optional A-movement for subjects: as an indirect result of this, in the Late Latin period the VO grammar is more robustly cued than the OV grammar, despite the fact that the overall frequency of the order VO remains more or less constant over time (and in certain environments even decreases). Given this result, Yang’s model correctly predicts the VO order to oust the competing OV pattern. I also show that the rate of object extraposition (which yields linear VO sequences) remains fairly stable during the lifespan of the Latin language, which suggests that this phenomenon is unrelated to the spread of the VO order. Finally, the rate of object shift (i.e. a non-local type of OV) can in fact be shown to increase over time. This development too is suggested to be related to the new setting of the EPP parameter and the novel patterns of subject placement that follow from it. </description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>Historical corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Syntax</label>
+         </Subject>
+         <Subject>
+            <label>Word order</label>
+         </Subject>
+         <Subject>
+            <label>Language change</label>
+         </Subject>
+         <Subject>
+            <label>Object placement</label>
+         </Subject>
+         <Subject>
+            <label>Latin</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-9660-0945</identifier>
+            <label>Danckaert, Lieven</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Danckaert, Lieven</name>
+                  <alternativeName type="givenName">Lieven</alternativeName>
+                  <alternativeName type="familyName">Danckaert</alternativeName>
+                  <affiliation>CNRS/Université de Lille 3</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Danckaert, Lieven</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Danckaert, Lieven</name>
+                  <alternativeName type="givenName">Lieven</alternativeName>
+                  <alternativeName type="familyName">Danckaert</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>CNRS/Université de Lille 3</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>CNRS/Université de Lille 3</name>
+                  <alternativeName type="givenName">de Lille</alternativeName>
+                  <alternativeName type="familyName">ersité de Lille 3</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT Open Research Data</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT Open Research Data</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <date>2017-05-17</date>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2017</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2017-05-17</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2017-05-17</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 3708537-->
+               <!--Size: 21966-->
+               <!--Size: 4760-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

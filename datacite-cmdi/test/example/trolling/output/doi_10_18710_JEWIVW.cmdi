@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/JEWIVW</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/JEWIVW</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication data for: What makes a word easy to acquire? The effects of word class, frequency, imageability and phonological neighbourhood density on lexical development</title>
+         </TitleInfo>
+         <Description>
+            <description>The main dataset includes age of acquisition, vocabulary acquisition and two different sets of frequency data for words in the Norwegian adaptation of the MacArthur-Bates Communicative Development Inventories. In addition, a frequency list for child-directed speech based on two Norwegian CHILDES corpora is available in a separate file. Here, also words that do not occur in the CDI are listed, and counts from each corpora are given separately.</description>
+            <description>This paper asks how a set of psycholinguistic factors may account for children's lexical development. Age of acquisition is compared to a measure of lexical development based on vocabulary size rather than age, and robust regression models are used to assess the individual and joint effects on lexical development from word class, frequency, imageability and phonological neighbourhood density on Norwegian children’s early lexical development. The Norwegian Communicative Development Inventories (CDI) norms were used to calculate each CDI word’s age of acquisition and vocabulary size of acquisition. Lexical properties were downloaded from the lexical database Norwegian words, supplemented with data on frequency in adult and child-directed speech. Age of acquisition correlated highly with vocabulary size of acquisition, but the new measure was more evenly distributed and more sensitive to lexical effects. Frequency in child-directed speech was the most important predictor of lexical development, followed by imageability, which seems to account for the dominance of nominals over predicates in Norwegian.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.1</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>frequency</label>
+         </Subject>
+         <Subject>
+            <label>imageability</label>
+         </Subject>
+         <Subject>
+            <label>phonological neighbourhood density</label>
+         </Subject>
+         <Subject>
+            <label>lexical development</label>
+         </Subject>
+         <Subject>
+            <label>child-directed speech</label>
+         </Subject>
+         <Subject>
+            <label>age of acquisition</label>
+         </Subject>
+         <Subject>
+            <label>vocabulary size of acquisition</label>
+         </Subject>
+         <Subject>
+            <label>Norwegian</label>
+         </Subject>
+         <Subject>
+            <label>CDI</label>
+         </Subject>
+         <Creator>
+            <label>Hansen, Pernille</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Hansen, Pernille</name>
+                  <alternativeName type="givenName">Pernille</alternativeName>
+                  <alternativeName type="familyName">Hansen</alternativeName>
+                  <affiliation>University of Oslo</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Hansen, Pernille</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Hansen, Pernille</name>
+                  <alternativeName type="givenName">Pernille</alternativeName>
+                  <alternativeName type="familyName">Hansen</alternativeName>
+                  <affiliation>University of Oslo</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>University of Oslo</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>University of Oslo</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT Open Research Data</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT Open Research Data</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2016</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-10-23</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-12-06</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 119936-->
+               <!--Size: 39230-->
+               <!--Size: 3353-->
+               <!--Size: 2682-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

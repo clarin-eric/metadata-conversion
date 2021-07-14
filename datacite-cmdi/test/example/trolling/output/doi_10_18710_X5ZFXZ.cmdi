@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/X5ZFXZ</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/X5ZFXZ</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Les expressions spatiales en français médiéval: particules et formes préfixées en de-</title>
+         </TitleInfo>
+         <Description>
+            <description>This dataset contains the raw data and the R scripts necessary to replicate all tables and figures in the cited publication. The raw data consists of manually-annotated plain-text concordances containing instances of five pairs of Old French spatial prepositions (ens/dedans, hors/dehors, avant/devant, arriere/derriere, sus/dessus). The concordances were initially extracted from the "Base de Français Médiéval" corpus (http://txm.bfm-corpus.org/).</description>
+            <description>(publication abstract): This paper compares the syntactic distribution of two separate series of spatial preposition-adverbs in medieval French: "base" forms descended directly from Latin adverbs and forms prefixed with &lt;i&gt;de-&lt;/i&gt;. As both types of form may occur with a similar meaning either as prepositions or as adverbs, many grammars of Old French typically consider them to be free variants. However, on the basis of a detailed quantitative analysis of five pairs of forms across 1.4 million words of medieval French drawn from the &lt;i&gt;Base de français médiéval&lt;/i&gt; corpus, I argue that the base forms are particles, being favoured in motion expressions and showing limited prepositional uses, while the &lt;i&gt;de-&lt;/i&gt;prefixed forms, favoured in static contexts or as locative adjuncts, are best analysed as locative adverbs with secondary prepositional uses.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>Corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Old French</label>
+         </Subject>
+         <Subject>
+            <label>prepositions</label>
+         </Subject>
+         <Subject>
+            <label>adverbs</label>
+         </Subject>
+         <Subject>
+            <label>locatives</label>
+         </Subject>
+         <Subject>
+            <label>particles</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0003-2592-0084</identifier>
+            <label>Rainsford, Thomas</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Rainsford, Thomas</name>
+                  <alternativeName type="givenName">Thomas</alternativeName>
+                  <alternativeName type="familyName">Rainsford</alternativeName>
+                  <affiliation>Universität Stuttgart</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Rainsford, Thomas</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Rainsford, Thomas</name>
+                  <alternativeName type="givenName">Thomas</alternativeName>
+                  <alternativeName type="familyName">Rainsford</alternativeName>
+                  <affiliation>Universität Stuttgart</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Universität Stuttgart</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Universität Stuttgart</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2019</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2018-05-10</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-02-06</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 10248-->
+               <!--Size: 38092-->
+               <!--Size: 145338-->
+               <!--Size: 1710-->
+               <!--Size: 3238-->
+               <!--Size: 130473-->
+               <!--Size: 55781-->
+               <!--Size: 18451-->
+               <!--Size: 82867-->
+               <!--Size: 394452-->
+               <!--Size: 191770-->
+               <!--Size: 4428-->
+               <!--Size: 111842-->
+               <!--Size: 6659-->
+               <!--Size: 73757-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

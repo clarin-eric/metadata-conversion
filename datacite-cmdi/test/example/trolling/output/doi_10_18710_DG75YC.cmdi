@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/DG75YC</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/DG75YC</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication data for: Big data in Russian linguistics? Another look at paucal constructions</title>
+         </TitleInfo>
+         <Description>
+            <description>This post contains a database of Russian numeral constructions from the RuTenTen corpus (https://www.sketchengine.co.uk/rutenten-russian-corpus/). The constructions are of the following type: paucal numeral (2, 3 or 4) followed by an adjective and a feminine noun.</description>
+            <description>&lt;p&gt;&#xD;
+Abstract:&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
+With the advent of large web-based corpora, Russian linguistics steps into the era of “big data”. But how useful are large datasets in our field? What are the advantages? Which problems arise? The present study seeks to shed light on these questions based on an investigation of the Russian paucal construction in the RuTenTen corpus, a web-based corpus with more than ten billion words. The focus is on the choice between adjectives in the nominative (dve/tri/četyre starye knigi) and genitive (dve/tri/četyre staryx knigi) in paucal constructions with the numerals dve, tri or četyre and a feminine noun. Three generalizations emerge. First, the large RuTenTen dataset enables us to identify predictors that could not be explored in smaller corpora. In particular, it is shown that predicates, modifiers, prepositions and word-order affect the case of the adjective. Second, we identify situations where the RuTenTen data cannot be straightforwardly reconciled with findings from earlier studies or there appear to be discrepancies between different statistical models. In such cases, further research is called for. The effect of the numeral (dve, tri vs. četyre) and verbal government are relevant examples. Third, it is shown that adjectives in the nominative have more easily learnable predictors that cover larger classes of examples and show clearer preferences for the relevant case. It is therefore suggested that nominative adjectives have the potential to outcompete adjectives in the genitive over time. Although these three generalizations are valuable additions to our knowledge of Russian paucal constructions, three problems arise. Large internet-based corpora like the RuTenTen corpus (a) are not balanced, (b) involve a certain amount of “noise”, and (c) do not provide metadata. As a consequence of this, it is argued, it may be wise to exercise some caution with regard to conclusions based on “big data”.&#xD;
+&lt;/p&gt;</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>Corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Russian</label>
+         </Subject>
+         <Subject>
+            <label>RUTenTen corpus</label>
+         </Subject>
+         <Subject>
+            <label>Russian web corpus</label>
+         </Subject>
+         <Subject>
+            <label>Numeral</label>
+         </Subject>
+         <Subject>
+            <label>Paucal</label>
+         </Subject>
+         <Subject>
+            <label>Big data</label>
+         </Subject>
+         <Subject>
+            <label>corpus linguistics</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0003-1308-3506</identifier>
+            <label>Nesset, Tore</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nesset, Tore</name>
+                  <alternativeName type="givenName">Tore</alternativeName>
+                  <alternativeName type="familyName">Nesset</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Nesset, Tore</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nesset, Tore</name>
+                  <alternativeName type="givenName">Tore</alternativeName>
+                  <alternativeName type="familyName">Nesset</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Berdicevskis, Aleksandrs</label>
+            <role>DataCollector</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Berdicevskis, Aleksandrs</name>
+                  <alternativeName type="givenName">Aleksandrs</alternativeName>
+                  <alternativeName type="familyName">Berdicevskis</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2018</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2018-09-20</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2018-10-04</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/csv</mediaType>
+               <!--Size: 12769-->
+               <!--Size: 42585725-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

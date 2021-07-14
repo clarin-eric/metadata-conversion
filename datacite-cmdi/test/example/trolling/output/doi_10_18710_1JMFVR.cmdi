@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/1JMFVR</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/1JMFVR</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Concessive constructions in varieties of English: Corpus data</title>
+         </TitleInfo>
+         <Description>
+            <description>The data were used in a corpus-based study that investigates the variation of concessive constructions across nine varieties of English. Concessive constructions are here taken to consist of a subordinate clause linked to a matrix clause using one of the three subordinating conjunctions 'although', 'though' or 'even though'. For each occurrence, the data contain information concerning its semantic properties, the position of the subordinate clause, the conjunction that was used, the finite or nonfinite status of the subordinate clause as well as its length. Further, each token is annotated for variety, mode of production (spoken vs. written) and genre (or text type). It is also possible to model the text frequencies of conjunctions and semantic subtypes, since in the respective data tables counts are given for each text in the corpora, along with the total word count per text.</description>
+            <description>AntConc, 3.5.7</description>
+            <description>R, 3.6.2</description>
+            <description>RStudio, 1.2.5033</description>
+            <description>R package 'brms', 3.6.2</description>
+            <description>R package 'rstan', 2.19.3</description>
+            <description>R package 'StanHeaders', 2.21.0-1</description>
+            <description>R package 'lattice', 0.20-38</description>
+            <description>R-package 'latticeExtra', 0.6-29</description>
+            <description>https://www.ice-corpora.uzh.ch/en.html [ICE-website at the University of Zurich]&#xD;
+&#xD;
+Kirk, John &amp; Gerald Nelson. 2018. The International Corpus of English project: A progress report. World Englishes 34(4): 697–716.  https://doi.org/10.1111/weng.12350</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>Corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Corpus linguistics</label>
+         </Subject>
+         <Subject>
+            <label>Concessives</label>
+         </Subject>
+         <Subject>
+            <label>English</label>
+         </Subject>
+         <Subject>
+            <label>Subordinating conjunctions</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0001-8868-0191</identifier>
+            <label>Schützler, Ole</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Schützler, Ole</name>
+                  <alternativeName type="givenName">Ole</alternativeName>
+                  <alternativeName type="familyName">Schützler</alternativeName>
+                  <affiliation>Otto-Friedrich-Universität Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Schützler, Ole</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Schützler, Ole</name>
+                  <alternativeName type="givenName">Ole</alternativeName>
+                  <alternativeName type="familyName">Schützler</alternativeName>
+                  <affiliation>Otto-Friedrich-Universität Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Otto-Friedrich-Universität Bamberg</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Otto-Friedrich-Universität Bamberg</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Vetter, Fabian</label>
+            <role>Other</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Vetter, Fabian</name>
+                  <alternativeName type="givenName">Fabian</alternativeName>
+                  <alternativeName type="familyName">Vetter</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2013-04-01</start>
+                     <end>2017-09-30</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2021</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-01-20</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-02-11</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <!--Size: 13505-->
+               <!--Size: 750337-->
+               <!--Size: 1002517-->
+               <!--Size: 314683-->
+               <!--Size: 309881-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <otherAccessInfo>&lt;p&gt;This dataset, "Concessive constructions in varieties of English: Corpus data", may be reused according to the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license as described here: &lt;a href="https://creativecommons.org/licenses/by-nc/4.0/"&#xD;
+title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/licenses/by-nc/4.0/&lt;/a&gt;.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;This dataset contains data from the International Corpus of English (ICE). The ICE license (cf. &lt;a href="https://www.ice-corpora.uzh.ch/dam/jcr:7ae594b2-ee97-4935-8022-7d2d91b60be4/ICElicence_UZH.pdf"&#xD;
+title="Terms of Use" target="_blank"&gt;https://www.ice-corpora.uzh.ch/dam/jcr:7ae594b2-ee97-4935-8022-7d2d91b60be4/ICElicence_UZH.pdf&lt;/a&gt;) and the file "Corpus_licences.pdf") includes the following conditions:&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;“The Corpus must be used for non-profit academic research purposes only. […] The Licensee agrees not to reproduce or redistribute the Corpus or to use all or any part of the Corpus texts in any commercial product or service.”&lt;/li&gt;&#xD;
+&lt;li&gt;“Publications based on the Corpus may include citations from texts only in a way which would be permitted under the fair dealings provision of copyright law.”&lt;/li&gt;&#xD;
+&lt;li&gt;“If you publish a paper using any ICE corpus, please send a reference to ice@es.uzh.ch.”&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;In this dataset, "Concessive constructions in varieties of English: Corpus data", the data files “concessives_1.csv”, “concessives_2.csv”, and “concessives_3.csv” contain statistical data / calculations based on nine national components of the ICE. In addition, the files contain&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;the keywords which the ICE was searched for, and for each token&lt;/li&gt;&#xD;
+&lt;li&gt;the genre indication used in ICE, and&lt;/li&gt;&#xD;
+&lt;li&gt;the unique alpha-numeric identifier used in ICE.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;However, the files do not contain any coherent (parts of) utterances which the keywords were found in as all context was removed from the data files.&#xD;
+&lt;p&gt;According to UK Copyright Law (cf. &lt;a href="https://www.gov.uk/guidance/exceptions-to-copyright#fair-dealing"&#xD;
+title="BNC" target="_blank"&gt;https://www.gov.uk/guidance/exceptions-to-copyright#fair-dealing&lt;/a&gt;), “[f]actors that have been identified by the courts as relevant in determining whether a particular dealing with a work is fair include:&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;"does using the work affect the market for the original work? If a use of a work acts as a substitute for it, causing the owner to lose revenue, then it is not likely to be fair"&lt;/li&gt;&#xD;
+&lt;li&gt;"is the amount of the work taken reasonable and appropriate? Was it necessary to use the amount that was taken? Usually only part of a work may be used”&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;The extracts used in this present dataset may be said to represent fair dealing according to both these factors:&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;The extracted material does not affect the market for the original work, as it is unlikely that any researcher would refrain from using the ICE because of the availability of the extracted material contained in the present dataset.&lt;/li&gt;&#xD;
+&lt;li&gt;The amount of the extracted work is reasonable and appropriate as it was necessary to carry out the study, and as it is necessary to replicate the study. Also, the extracted material does not even contain the context for the keywords, and publishing the data files does therefore not infringe the copyright of the original IPR holders.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&lt;/p&gt;</otherAccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

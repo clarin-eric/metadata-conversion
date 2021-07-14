@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/MTEQYP</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/MTEQYP</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Genusvariasjon i norsk skriftspråk</title>
+            <alternativeTitle>Variation in Grammatical Gender in Written Norwegian</alternativeTitle>
+         </TitleInfo>
+         <Description>
+            <description>&lt;p&gt;Dette datasettet inneheld materialet ifrå ei undersøking av genusvariasjon i norsk skriftspråk. Undersøkinga har sitt utspring i to oppdrag eg fekk ifrå Språkrådet om å kartleggja genusvariasjon i bokmål og nynorsk. Datagrunnlaget og metoden som er nytta i undersøkinga, er beskrivne i prosjektrapporten (sjå "Related Publication" nedanfor). Innhaldet og oppsettet på filene er forklåra i ReadMe-fila.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;Datafilene vil bli gjorde ope tilgjengelege når resultata frå studien er publiserte i eit godkjent tidsskrift.&lt;/p&gt;</description>
+            <description>&lt;p&gt;This dataset contains the material for a study of variation in grammatical gender in written Norwegian. The study has its origin in two assignments I received from the  Language Council of Norway to map gender variation in Bokmål and Nynorsk. The background data and methods used in the survey are discussed in the project report (see "Related Publication" below). The contents and layout of the data files are explained in the ReadMe file.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;The data files will be made openly available after the results have been published in a recognised scholarly journal.&lt;/p&gt;</description>
+            <description>Annotated corpora of written texts of Norwegian Bokmål and Nynorsk.&#xD;
+Lemma and word form list for Norwegian Bokmål and Nynorsk.</description>
+            <description>Open access.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Norwegian</label>
+         </Subject>
+         <Subject>
+            <label>norsk</label>
+         </Subject>
+         <Subject>
+            <label>Bokmål</label>
+         </Subject>
+         <Subject>
+            <label>Nynorsk</label>
+         </Subject>
+         <Subject>
+            <label>grammatical gender</label>
+         </Subject>
+         <Subject>
+            <label>grammatisk kjønn</label>
+         </Subject>
+         <Subject>
+            <label>genus</label>
+         </Subject>
+         <Subject>
+            <label>variation</label>
+         </Subject>
+         <Subject>
+            <label>variasjon</label>
+         </Subject>
+         <Subject>
+            <label>corpus linguistics</label>
+         </Subject>
+         <Subject>
+            <label>korpuslingvistikk</label>
+         </Subject>
+         <Subject>
+            <label>morphology</label>
+         </Subject>
+         <Subject>
+            <label>morfologi</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-6754-7911</identifier>
+            <label>Conzett, Philipp</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Conzett, Philipp</name>
+                  <alternativeName type="givenName">Philipp</alternativeName>
+                  <alternativeName type="familyName">Conzett</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Conzett, Philipp</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Conzett, Philipp</name>
+                  <alternativeName type="givenName">Philipp</alternativeName>
+                  <alternativeName type="familyName">Conzett</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Språkrådet</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Språkrådet</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Conzett, Philipp</label>
+            <role>DataCollector</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Conzett, Philipp</name>
+                  <alternativeName type="givenName">Philipp</alternativeName>
+                  <alternativeName type="familyName">Conzett</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Conzett, Philipp</label>
+            <role>DataManager</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Conzett, Philipp</name>
+                  <alternativeName type="givenName">Philipp</alternativeName>
+                  <alternativeName type="familyName">Conzett</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Conzett, Philipp</label>
+            <role>DataCurator</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Conzett, Philipp</name>
+                  <alternativeName type="givenName">Philipp</alternativeName>
+                  <alternativeName type="familyName">Conzett</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Conzett, Philipp</label>
+            <role>Researcher</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Conzett, Philipp</name>
+                  <alternativeName type="givenName">Philipp</alternativeName>
+                  <alternativeName type="familyName">Conzett</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>HostingInstitution</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>UiT The Arctic University of Norway</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">The Arctic University of Norway</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2016-07-07</start>
+                     <end>2016-10-23</end>
+                  </When>
+               </ActivityInfo>
+               <ActivityInfo>
+                  <When>
+                     <start>2018-11-18</start>
+                     <end>2020-02-24</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-03-16</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-03-17</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>application/vnd.oasis.opendocument.spreadsheet</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/vnd.oasis.opendocument.spreadsheet</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/vnd.oasis.opendocument.spreadsheet</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/vnd.oasis.opendocument.spreadsheet</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>application/vnd.oasis.opendocument.spreadsheet</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/vnd.oasis.opendocument.spreadsheet</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 1023425-->
+               <!--Size: 17964509-->
+               <!--Size: 33732986-->
+               <!--Size: 972972-->
+               <!--Size: 3589044-->
+               <!--Size: 41541-->
+               <!--Size: 53870-->
+               <!--Size: 31632143-->
+               <!--Size: 67242573-->
+               <!--Size: 12827504-->
+               <!--Size: 35492-->
+               <!--Size: 33151-->
+               <!--Size: 38768-->
+               <!--Size: 39164-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/closedAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <FundingInfo>
+            <Funding>
+               <FundingAgency>
+                  <label>The Language Council of Norway</label>
+               </FundingAgency>
+            </Funding>
+         </FundingInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

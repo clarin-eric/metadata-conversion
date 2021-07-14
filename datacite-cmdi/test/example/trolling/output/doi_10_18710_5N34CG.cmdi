@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/5N34CG</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/5N34CG</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Russian verbal borrowings in Udmurt</title>
+         </TitleInfo>
+         <Description>
+            <description>This is the dataset used in a study of Russian verbal loans in Udmurt. The files contain lists of Russian verbs found in the Udmurt social media corpus (http://udmurt.web-corpora.net/index_en.html), manually annotated for several features such as aspect or frequencies in different corpora.</description>
+            <description>Abstract: In Udmurt, a Uralic language that has experienced long and extensive contact with the dominant Russian language, all four typologically relevant strategies of verbal borrowing are attested. This is unusual both cross-linguistically and for the Uralic family. The paper investigates these strategies and the factors that govern their choice. It turns out that, although free variation plays a major role in the distribution of strategies, there are also several important morphological, stylistic and areal factors. By analyzing these factors and the available historical data, I propose a diachronic explanation of the currently observed distribution. The study is mostly based on corpus data collected from contemporary Udmurt-language social media.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>language contact</label>
+         </Subject>
+         <Subject>
+            <label>verbal borrowings</label>
+         </Subject>
+         <Subject>
+            <label>Udmurt</label>
+         </Subject>
+         <Subject>
+            <label>Russian</label>
+         </Subject>
+         <Subject>
+            <label>social media</label>
+         </Subject>
+         <Subject>
+            <label>corpus</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0001-6195-0139</identifier>
+            <label>Arkhangelskiy, Timofey</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Arkhangelskiy, Timofey</name>
+                  <alternativeName type="givenName">Timofey</alternativeName>
+                  <alternativeName type="familyName">Arkhangelskiy</alternativeName>
+                  <affiliation>Universität Hamburg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Arkhangelskiy, Timofey</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Arkhangelskiy, Timofey</name>
+                  <alternativeName type="givenName">Timofey</alternativeName>
+                  <alternativeName type="familyName">Arkhangelskiy</alternativeName>
+                  <affiliation>Universität Hamburg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Universität Hamburg</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Universität Hamburg</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <date>2018-03-22</date>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2017-12-01</start>
+                     <end>2018-03-22</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2019</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-05-10</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-05-14</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 5483-->
+               <!--Size: 73005-->
+               <!--Size: 23757-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <GeoLocation>
+            <label>Hamburg</label>
+         </GeoLocation>
+         <FundingInfo>
+            <Funding>
+               <FundingAgency>
+                  <label>Alexander for Humboldt Foundation</label>
+               </FundingAgency>
+            </Funding>
+         </FundingInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

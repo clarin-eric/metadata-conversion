@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/BFFMPH</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/BFFMPH</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Construal vs. Redundancy: Russian Aspect in Context</title>
+         </TitleInfo>
+         <Description>
+            <description>This post contains the stimuli texts, data, and R code for analysis for this article. Here is the abstract for the article: The relationship between construal and redundancy has not been previously explored empirically. Russian aspect allows speakers to construe situations as either Perfective or Imperfective, but it is not clear to what extent aspect is determined by context and therefore redundant. We investigate the relationship between redundancy and open construal by surveying  500 native Russian speakers who rated the acceptability of both Perfective and Imperfective verb forms in complete extensive authentic contexts. We find that aspect is largely redundant in about 81% of uses, and in about 17% of contexts aspect is relatively open to construal. We contend that anchoring in redundant contexts likely facilitates the independence of construal in contexts with less redundancy. However further research is needed to discover what makes contexts redundant since known cues for aspect are absent in the majority of such contexts. Native speakers are fairly consistent in giving the original aspect high ratings, but less consistent in rating the non-original aspect, indicating potential problems in testing the reactions of speakers to non-authentic data.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>acceptability judgments</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2.3</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Russian</label>
+         </Subject>
+         <Subject>
+            <label>aspect</label>
+         </Subject>
+         <Subject>
+            <label>redundancy</label>
+         </Subject>
+         <Subject>
+            <label>construal</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0001-5047-1909</identifier>
+            <label>Janda, Laura A</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Janda, Laura A</name>
+                  <alternativeName type="givenName">Laura A</alternativeName>
+                  <alternativeName type="familyName">Janda</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Reynolds, Robert J</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Reynolds, Robert J</name>
+                  <alternativeName type="givenName">Robert J</alternativeName>
+                  <alternativeName type="familyName">Reynolds</alternativeName>
+                  <affiliation>Brigham Young University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Janda, Laura A</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Janda, Laura A</name>
+                  <alternativeName type="givenName">Laura A</alternativeName>
+                  <alternativeName type="familyName">Janda</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2016-09/2016-09</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2018</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2018-02-14</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-05-24</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <type>type/x-r-syntax</type>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 17683-->
+               <!--Size: 13981078-->
+               <!--Size: 17120-->
+               <!--Size: 12016-->
+               <!--Size: 17754-->
+               <!--Size: 15599-->
+               <!--Size: 3706-->
+               <!--Size: 137709-->
+               <!--Size: 21208-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

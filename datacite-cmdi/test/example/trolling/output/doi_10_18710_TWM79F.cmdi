@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/TWM79F</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/TWM79F</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>K-SPAN (Korean Surface Phones and Neighborhoods)</title>
+         </TitleInfo>
+         <Description>
+            <description>This corpus provides surface phonetic forms derived from a publicly available orthographic corpus of Korean, along with neighborhood density statistics for each word in the corpus. The surface phonetic forms are rendered in an ASCII-encoded scheme, which allows users to explore and query the corpus without having to read Korean orthography.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Korean</label>
+         </Subject>
+         <Subject>
+            <label>corpus</label>
+         </Subject>
+         <Subject>
+            <label>phonetic forms</label>
+         </Subject>
+         <Subject>
+            <label>neighborhood density</label>
+         </Subject>
+         <Creator>
+            <label>Holliday, Jeffrey J.</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Holliday, Jeffrey J.</name>
+                  <alternativeName type="givenName">Jeffrey J.</alternativeName>
+                  <alternativeName type="familyName">Holliday</alternativeName>
+                  <affiliation>Korea University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Turnbull, Rory</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Turnbull, Rory</name>
+                  <alternativeName type="givenName">Rory</alternativeName>
+                  <alternativeName type="familyName">Turnbull</alternativeName>
+                  <affiliation>Laboratoire de Sciences Cognitives et Psycholinguistique (ENS, EHESS)</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Eychenne, Julien</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Eychenne, Julien</name>
+                  <alternativeName type="givenName">Julien</alternativeName>
+                  <alternativeName type="familyName">Eychenne</alternativeName>
+                  <affiliation>Hankuk University of Foreign Studies</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Eychenne, Julien</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Eychenne, Julien</name>
+                  <alternativeName type="givenName">Julien</alternativeName>
+                  <alternativeName type="familyName">Eychenne</alternativeName>
+                  <affiliation>Hankuk University of Foreign Studies</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2016</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-06-02</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-09-01</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/x-python</mediaType>
+               <!--Size: 9061949-->
+               <!--Size: 738354-->
+               <!--Size: 4590-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/K1NJBT</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/K1NJBT</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: (No) competition between deverbal nouns and nominalized infinitives in Spanish</title>
+         </TitleInfo>
+         <Description>
+            <description>This is the data set that serves as the basis for an acceptability judgment experiment on which the following article is based:" (No) competition between deverbal nouns and nominalized infinitives in Spanish".&#xD;
+The data set includes the experimental stimuli, working instructions, all attributes and values for which the data were coded, the R-code and the results of the statistical analysis.</description>
+            <description>This paper explores the distribution of deverbal nouns and nominalized infinitives that are built on transitive verbs and occur in eventive interpretations. The study is empirically oriented and based on an acceptability judgment experiment in which argument realization and interpretational possibilities are manipulated as the independent variables. The results show that deverbal nouns prefer but are not limited to realizing the lower argument of the base, whereas nominalized infinitives are mostly restricted to realizing the higher argument. Furthermore, deverbal nouns turn out to be insensitive with regard to the distinction between episodic and generic event readings, while nominalized infinitives are shown to be specialized on generic interpretations. Deverbal nouns and nominalized infinitives are, thus, mostly neither paradigmatically interchangeable nor complementarily distributed as nominalized infinitives reach the same degree of acceptability as deverbal nouns only under very specific conditions.</description>
+            <description>R, 3.5.2</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>experimental data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>deverbal noun</label>
+         </Subject>
+         <Subject>
+            <label>nominalized infinitive</label>
+         </Subject>
+         <Subject>
+            <label>event nominal</label>
+         </Subject>
+         <Subject>
+            <label>acceptability judgment</label>
+         </Subject>
+         <Subject>
+            <label>Spanish</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0001-5422-3689</identifier>
+            <label>Schirakowski, Barbara</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Schirakowski, Barbara</name>
+                  <alternativeName type="givenName">Barbara</alternativeName>
+                  <alternativeName type="familyName">Schirakowski</alternativeName>
+                  <affiliation>Freie Universität Berlin</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Schirakowski, Barbara</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Schirakowski, Barbara</name>
+                  <alternativeName type="givenName">Barbara</alternativeName>
+                  <alternativeName type="familyName">Schirakowski</alternativeName>
+                  <affiliation>Freie Universität Berlin</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Freie Universität Berlin</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Freie Universität Berlin</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2018-12/2019-01</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-11-12</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-11-17</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <!--Size: 10837-->
+               <!--Size: 263135-->
+               <!--Size: 326668-->
+               <!--Size: 3566-->
+               <!--Size: 253124-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

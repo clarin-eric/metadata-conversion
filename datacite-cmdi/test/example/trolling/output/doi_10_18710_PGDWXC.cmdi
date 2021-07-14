@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/PGDWXC</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/PGDWXC</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Czech word and MWE lists</title>
+         </TitleInfo>
+         <Description>
+            <description>This post contains word and MWE (multi-word expression) lists used for the operationalization of some of the linguistic features in the multi-dimensional analysis (MDA) of Czech project carried out at the Czech National Corpus. The MDA procedure requires identifying and operationalizing linguistic features relevant for register variation in the language under scrutiny. In the Czech MDA project, some of these features were operationalized by compiling lists of words and multi-word expressions, which can then be matched against a text to identify occurrences. Compiling such a list can be tedious and error prone work, which is why we provide ours as a resource for other linguists either to adopt wholesale or at least use as a starting point to build on top of.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>multi-dimensional analysis</label>
+         </Subject>
+         <Subject>
+            <label>lexicon</label>
+         </Subject>
+         <Subject>
+            <label>Czech</label>
+         </Subject>
+         <Subject>
+            <label>word list</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0003-3977-2393</identifier>
+            <label>Cvrček, Václav</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Cvrček, Václav</name>
+                  <alternativeName type="givenName">Václav</alternativeName>
+                  <alternativeName type="familyName">Cvrček</alternativeName>
+                  <affiliation>Czech National Corpus</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Lukeš, David</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Lukeš, David</name>
+                  <alternativeName type="givenName">David</alternativeName>
+                  <alternativeName type="familyName">Lukeš</alternativeName>
+                  <affiliation>Czech National Corpus</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Czech National Corpus (CNC)</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>Czech National Corpus (CNC)</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Cvrček, Václav</label>
+            <role>ProjectLeader</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Cvrček, Václav</name>
+                  <alternativeName type="givenName">Václav</alternativeName>
+                  <alternativeName type="familyName">Cvrček</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Komrsková, Zuzana</label>
+            <role>ProjectMember</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Komrsková, Zuzana</name>
+                  <alternativeName type="givenName">Zuzana</alternativeName>
+                  <alternativeName type="familyName">Komrsková</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Lukeš, David</label>
+            <role>ProjectMember</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Lukeš, David</name>
+                  <alternativeName type="givenName">David</alternativeName>
+                  <alternativeName type="familyName">Lukeš</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Poukarová, Petra</label>
+            <role>ProjectMember</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Poukarová, Petra</name>
+                  <alternativeName type="givenName">Petra</alternativeName>
+                  <alternativeName type="familyName">Poukarová</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Řehořková, Anna</label>
+            <role>ProjectMember</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Řehořková, Anna</name>
+                  <alternativeName type="givenName">Anna</alternativeName>
+                  <alternativeName type="familyName">Řehořková</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Zasina, Adrian Jan</label>
+            <role>ProjectMember</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Zasina, Adrian Jan</name>
+                  <alternativeName type="givenName">Adrian Jan</alternativeName>
+                  <alternativeName type="familyName">Zasina</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2017/2018</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-04-06</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-04-09</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 34412-->
+               <!--Size: 415505-->
+               <!--Size: 6453-->
+               <!--Size: 661-->
+               <!--Size: 376-->
+               <!--Size: 9758-->
+               <!--Size: 1441-->
+               <!--Size: 1268-->
+               <!--Size: 1591-->
+               <!--Size: 3611-->
+               <!--Size: 4166-->
+               <!--Size: 797-->
+               <!--Size: 13261-->
+               <!--Size: 39474-->
+               <!--Size: 20048-->
+               <!--Size: 678-->
+               <!--Size: 774-->
+               <!--Size: 663-->
+               <!--Size: 1261-->
+               <!--Size: 389-->
+               <!--Size: 10252-->
+               <!--Size: 6891-->
+               <!--Size: 8296-->
+               <!--Size: 1595-->
+               <!--Size: 2002-->
+               <!--Size: 2310-->
+               <!--Size: 314-->
+               <!--Size: 1058-->
+               <!--Size: 613-->
+               <!--Size: 18675-->
+               <!--Size: 203-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <GeoLocation>
+            <label>Prague</label>
+         </GeoLocation>
+         <FundingInfo>
+            <Funding>
+               <grantNumber>CZ.02.1.01/0.0/0.0/16_013/0001758</grantNumber>
+               <FundingAgency>
+                  <label>ERDF</label>
+               </FundingAgency>
+            </Funding>
+         </FundingInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

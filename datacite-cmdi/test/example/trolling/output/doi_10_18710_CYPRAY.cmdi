@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/CYPRAY</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/CYPRAY</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Accusative of Negation in ‘Borderland’ Polish</title>
+         </TitleInfo>
+         <Description>
+            <description>These are the data for a journal article on 'Accusative of Negation in 'Borderland' Polish'. The abstract of the article is below. The data consist of the annotated list of tokens of accusative vs. genitive of negation (=GenNeg.txt), excerpted manually from relevant sources documenting south-eastern 'Borderland' Polish as used in the city of Lviv until WWII. Three types of sources have been used for this study: i.) the surviving and published scripts of a weekly popular radio programme of Polish Radio Lwów ('Wesola Lwowska Fala'), mainly pre-WWII, conducted in the dialect (1933-1945), for a few of which the accompanying recordings have been recovered too; ii.) a recovered pre-WWII film production with dialogues predominantly in the dialect (1939); iii.) written texts in the dialect from Lviv-based satirical magazines, predominantly pre-WWI (1882-1917). The sources and the annotation of the tokens are detailed in the accompanying description of the data (=00_readme_file_for_GenNeg.txt). The tokens were annotated for various factors, pertaining to the case-marked noun, to the verb and to the type of clause. The aim was to establish the correlation between these factors and the selection of dialectal accusative vs. Standard Polish genitive of negation.</description>
+            <description>Here is the abstract of the article:&#xD;
+The paper aims at offering a descriptive analysis of case under sentential negation in the pre-World War II urban dialect of Lviv, one of the key historical south-eastern ‘Borderland’ varieties of Polish which developed under strong Ukrainian influence. In this dialect, the direct internal argument in negated sentences could surface either in the genitive or accusative case. This is in contrast to other varieties of Polish, including Standard Polish, where it must be in the genitive. A distributional analysis of the data available suggests that the variation was not random. It was conditioned by the semantics of the object: The accusative was available if the noun phrase was definite. The genitive was not subject to any constraints. I argue that this represents a mixed grammar of case under negation: the Standard Polish model as well as a dialectal model. The latter emerged under the influence of Ukrainian. This mixed model is ultimately based on the availability of two types of negation phrase in Lviv ‘Borderland’ Polish, one without any scope features as in Standard Polish, and one with a negated quantificational scope feature as in East Slavonic.</description>
+            <description>The sources are i.) published historical radio scripts, available from 3 book publications, and partly recovered audio recordings of these radio programmes, available from a published CD; ii.) a recovered historical film production, available from the Filmoteka Narodowa in Warsaw, with the transcription of the dialogues by myself; iii.) historical periodicals, available from the Stefanyk National Science Library in Lviv and from the Jagiellonian Library in Krakow.</description>
+            <description>The sources offer stylized data of the south-eastern 'Borderland' Polish dialect of Lviv. They provide legitimate evidence of the dialect for two reasons: First, such stylizations have been used, and thus considered suitable evidence, for previous studies of south-eastern 'Borderland' Polish. Second, historical descriptions of the dialect corroborate the authenticity of these stylizations. These existing studies and descriptions focus on phonetics, inflectional and derivational morphology, vocabulary. The present data focus on a morpho-syntactic feature of the dialect.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>textual data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Polish</label>
+         </Subject>
+         <Subject>
+            <label>Ukrainian</label>
+         </Subject>
+         <Subject>
+            <label>Case</label>
+         </Subject>
+         <Subject>
+            <label>Sentential Negation</label>
+         </Subject>
+         <Subject>
+            <label>Scope of Negation</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-7474-5692</identifier>
+            <label>Fellerer, Jan</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Fellerer, Jan</name>
+                  <alternativeName type="givenName">Jan</alternativeName>
+                  <alternativeName type="familyName">Fellerer</alternativeName>
+                  <affiliation>University of Oxford (UK)</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Fellerer, Jan</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Fellerer, Jan</name>
+                  <alternativeName type="givenName">Jan</alternativeName>
+                  <alternativeName type="familyName">Fellerer</alternativeName>
+                  <affiliation>University of Oxford (UK)</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>University of Oxford (UK)</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>University of Oxford (UK)</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2012/2017</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2019</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-03-07</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-03-08</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <!--Size: 9252-->
+               <!--Size: 20343-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

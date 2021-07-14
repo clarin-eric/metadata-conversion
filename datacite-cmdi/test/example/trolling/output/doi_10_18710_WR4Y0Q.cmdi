@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/WR4Y0Q</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/WR4Y0Q</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Seeing from without, seeing from within: aspectual differences between Spanish and Russian</title>
+         </TitleInfo>
+         <Description>
+            <description>This is the data that serves as the basis for an article comparing the grammatical category of aspect in Spanish and Russian. Here is the abstract of the article: &#xD;
+Linguistic categories such as aspect are not identical across languages, and cross-linguistic differences can reveal differences in construal and conceptual categorization, which are key concepts in cognitive linguistics. Spanish-Russian parallel data diverge in situations where Spanish uses a Perfective Past tense form, while the Russian translation equivalent is an Imperfective Past tense form. We classify examples of aspectual mismatch according to grammatical constructions and language-specific facts. We find this mismatch in contexts with overt expression of time periods, as well as situations in which a final temporal boundary either is expressed or can be inferred. We interpret this in terms of a difference in conceptualization: Spanish has a tendency to view time periods from without, interpreting them as bounded and thus Perfective, whereas Russian has a tendency to view time periods from within, interpreting them on the basis of their duration without reference to their boundaries and thus Imperfective. </description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Spanish</label>
+         </Subject>
+         <Subject>
+            <label>Russian</label>
+         </Subject>
+         <Subject>
+            <label>aspect</label>
+         </Subject>
+         <Subject>
+            <label>corpus</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0001-5047-1909</identifier>
+            <label>Janda, Laura A</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Janda, Laura A</name>
+                  <alternativeName type="givenName">Laura A</alternativeName>
+                  <alternativeName type="familyName">Janda</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Fábregas, Antonio</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Fábregas, Antonio</name>
+                  <alternativeName type="givenName">Antonio</alternativeName>
+                  <alternativeName type="familyName">Fábregas</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Janda, Laura A</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Janda, Laura A</name>
+                  <alternativeName type="givenName">Laura A</alternativeName>
+                  <alternativeName type="familyName">Janda</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2017/2018</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2018</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2018-11-24</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2018-11-27</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/csv</mediaType>
+               <mediaType>text/csv</mediaType>
+               <mediaType>text/csv</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/csv</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mediaType>
+               <mediaType>text/csv</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <!--Size: 44706-->
+               <!--Size: 40942-->
+               <!--Size: 86360-->
+               <!--Size: 187084-->
+               <!--Size: 29633-->
+               <!--Size: 930838-->
+               <!--Size: 76-->
+               <!--Size: 9156-->
+               <!--Size: 1370383-->
+               <!--Size: 62308-->
+               <!--Size: 20588-->
+               <!--Size: 2188-->
+               <!--Size: 439612-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

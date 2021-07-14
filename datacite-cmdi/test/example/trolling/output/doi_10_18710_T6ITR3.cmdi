@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList><!--Resource identifier cannot be converted to a ResourceRef: 10037.1/10281--></cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier>10037.1/10281</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication data for: Are Schalter and šapka good competitors? Searching for stimuli for an investigation of the Russian-German bilingual mental lexicon</title>
+         </TitleInfo>
+         <Description>
+            <description>Abstract of the corresponding paper:  Journal articles on language processing rarely comment on difficulties and obstacles in the construction of the material for experimental investigations. This is remarkable, given that the compilation of appropriate, i.e. valid and well-controlled, linguistic stimuli is one of the biggest challenges in psycholinguistic research. This holds in particular for languages other than English. This paper addresses a number of methodological issues that arose during the preparation of the material for an eye-tracking investigation of the Russian-German bilingual mental lexicon. As we intended to study intra- and interlingual coactivation, quadruples of two Russian and two German words with phonological overlap in the onset were needed. Thus, we discuss the concept of phonological overlap and consider phonetic and phonological differences between Russian and German. Furthermore, word frequency is known to be a crucial factor in language processing. However, several problems arise with the concept of frequency in
+general and in comparing frequency data from two languages. We broach this issue in the final section of this paper, presenting and discussing frequency data of different types. Lastly, we present and discuss how we assured that the pictures we used were reliably associated with the intended object names in each language, a critical pre-condition for materials to be used in the visual-world paradigm.   Information on the data: The data presented here are the results of the pre-test discussed in the paper. German native speakers and Russian-German late bilinguals solved three tasks: naming, picture word matching and subjective frequency estimation of German or Russian picture/word-items.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>questionnaire or survey</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Russian</label>
+            <scheme>&lt;not applicable&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>German</label>
+         </Subject>
+         <Subject>
+            <label>descriptive statistics</label>
+         </Subject>
+         <Subject>
+            <label>Field: other</label>
+            <scheme>&lt;Field term: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Time-depth: synchronic</label>
+            <scheme>&lt;Time depth: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Topic: nouns</label>
+            <scheme>&lt;Topic: Choose one or more&gt;</scheme>
+         </Subject>
+         <Creator>
+            <label>Clasmeier, Christina</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Clasmeier, Christina</name>
+                  <alternativeName type="givenName">Christina</alternativeName>
+                  <alternativeName type="familyName">Clasmeier</alternativeName>
+                  <affiliation>Chair of Slavic Linguistics, Ruhr-University Bochum, Germany</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Anstatt, Tanja</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Anstatt, Tanja</name>
+                  <alternativeName type="givenName">Tanja</alternativeName>
+                  <alternativeName type="familyName">Anstatt</alternativeName>
+                  <affiliation>Chair of Slavic Linguistics, Ruhr-University Bochum, Germany</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Ernst, Jessica</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Ernst, Jessica</name>
+                  <alternativeName type="givenName">Jessica</alternativeName>
+                  <alternativeName type="familyName">Ernst</alternativeName>
+                  <affiliation>Chair of Psycholinguistics, Ruhr-University Bochum, Germany</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Belke, Eva</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Belke, Eva</name>
+                  <alternativeName type="givenName">Eva</alternativeName>
+                  <alternativeName type="familyName">Belke</alternativeName>
+                  <affiliation>Chair of Psycholinguistics, Ruhr-University Bochum, Germany</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Christina Clasmeier</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Christina Clasmeier</name>
+                  <alternativeName type="givenName">Christina</alternativeName>
+                  <alternativeName type="familyName">Clasmeier</alternativeName>
+                  <affiliation>Chair of Slavic Linguistics, Ruhr-University Bochum, Germany</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Ruhr-University Bochum</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Ruhr-University Bochum</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT Open Research Data</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT Open Research Data</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <year>2015</year>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2016</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Issued</label>
+               <ActivityInfo>
+                  <When>
+                     <label>2016-01</label>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-01-20</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-01-25</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=US-ASCII</mediaType>
+               <!--Size: 19218-->
+               <!--Size: 37214-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

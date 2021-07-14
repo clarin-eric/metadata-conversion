@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/6HUAMB</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/6HUAMB</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Zur Determiniererlosigkeit bei prädikativ verwendeten zählbaren Nomen im Deutschen</title>
+            <alternativeTitle>German determinerless singular count nouns in predicative contexts</alternativeTitle>
+         </TitleInfo>
+         <Description>
+            <description>&lt;p&gt;&#xD;
+This data set contains the replication data for the article "Zur Determiniererlosigkeit bei prädikativ verwendeten zählbaren Nomen im Deutschen: Korpusdaten und ihre Konsequenzen", which was accepted for publication at `Linguistische Berichte'. See the English abstract below.&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;&#xD;
+The data set contains 5 corpus samples of singular count nouns that are used&#xD;
+without a determiner in different predicative contexts in German: (i) copula sentences with 'sein' (to be) and animate subjects, (ii) copula sentences with 'sein' (to be) and inanimate subjects, (iii) copula sentences with 'bleiben' (to stay), (iv) copula sentences with 'werden' (to become), (v) predicative 'als'-phrases (`as'-phrases).&#xD;
+&lt;/p&gt;</description>
+            <description>&lt;p&gt;&#xD;
+English abstract (the paper is in German):&lt;br&gt;&lt;br&gt;This article reports on the results of four corpus studies investigating determinerless count nouns in different predicative contexts in German (i.e., copula sentences with sein ‘be’, werden ‘become’, bleiben ‘stay’ and predicative als-phrases). The starting point for these corpus studies is the recent literature on German copula sentences with sein that addresses the question which nouns need to occur with a determiner and which can occur determinerless when used predicatively (Hallab 2011; Geist 2019, 2014). The studies reported in this article provide a broad overview of the attested data, which shows that the near exclusive focus on copula sentences, as well as the way in which the data was compiled in the literature so far have led to a biased picture of the determinerless predicative use of German count nouns. The data furthermore motivates the two theoretical results of this&#xD;
+article: (i) a new characterization of the class of nouns that can occur determinerless in&#xD;
+German copula sentences and (ii) a list of desiderata for future theoretical and formal&#xD;
+analyses addressing which aspects of the determinerless occurrences can be attributed to the nouns and which are plausibly a result of the predicative contexts.&#xD;
+&lt;/p&gt;</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>annotations of textual data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>German</label>
+         </Subject>
+         <Subject>
+            <label>bare nominals</label>
+         </Subject>
+         <Subject>
+            <label>predicative contexts</label>
+         </Subject>
+         <Subject>
+            <label>social roles</label>
+         </Subject>
+         <Subject>
+            <label>corpus linguistics</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-9282-6138</identifier>
+            <label>Zobel, Sarah</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Zobel, Sarah</name>
+                  <alternativeName type="givenName">Sarah</alternativeName>
+                  <alternativeName type="familyName">Zobel</alternativeName>
+                  <affiliation>University of Oslo</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Zobel, Sarah</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Zobel, Sarah</name>
+                  <alternativeName type="givenName">Sarah</alternativeName>
+                  <alternativeName type="familyName">Zobel</alternativeName>
+                  <affiliation>University of Oslo</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>University of Tuebingen</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>University of Tuebingen</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Zobel, Sarah</label>
+            <role>ProjectManager</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Zobel, Sarah</name>
+                  <alternativeName type="givenName">Sarah</alternativeName>
+                  <alternativeName type="familyName">Zobel</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Lietz, Sonja</label>
+            <role>ProjectMember</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Lietz, Sonja</name>
+                  <alternativeName type="givenName">Sonja</alternativeName>
+                  <alternativeName type="familyName">Lietz</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2014/2019</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-05-01</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-05-06</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <!--Size: 8214-->
+               <!--Size: 4622-->
+               <!--Size: 3220-->
+               <!--Size: 336573-->
+               <!--Size: 24463-->
+               <!--Size: 48028-->
+               <!--Size: 35224-->
+               <!--Size: 41807-->
+               <!--Size: 205-->
+               <!--Size: 312542-->
+               <!--Size: 16489-->
+               <!--Size: 297111-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <FundingInfo>
+            <Funding>
+               <FundingAgency>
+                  <label>Athene-Program for female early career researchers, University of Tuebingen</label>
+               </FundingAgency>
+            </Funding>
+         </FundingInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/FERT42</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/FERT42</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication Data for: Automatic parsing as an efficient pre-annotation tool for historical texts</title>
+         </TitleInfo>
+         <Description>
+            <description>Historical treebanks tend to be manually annotated, which is not surprising, since state-of-the-art parsers are not accurate enough to ensure high-quality annotation for historical texts. We show that automatic parsing can be an efficient pre-annotation tool for Old East Slavic texts.</description>
+            <description>Ruby, 2.0</description>
+            <description>Maltparser, 1.9.0</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>machine-readable text</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>parsing</label>
+         </Subject>
+         <Subject>
+            <label>Old East Slavic</label>
+         </Subject>
+         <Subject>
+            <label>treebank</label>
+         </Subject>
+         <Subject>
+            <label>pre-annotation</label>
+         </Subject>
+         <Subject>
+            <label>PROIEL</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0001-8096-6515</identifier>
+            <label>Eckhoff, Hanne</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Eckhoff, Hanne</name>
+                  <alternativeName type="givenName">Hanne</alternativeName>
+                  <alternativeName type="familyName">Eckhoff</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <identifier>0000-0003-3290-7179</identifier>
+            <label>Berdicevskis, Aleksandrs</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Berdicevskis, Aleksandrs</name>
+                  <alternativeName type="givenName">Aleksandrs</alternativeName>
+                  <alternativeName type="familyName">Berdicevskis</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Berdicevskis, Aleksandrs</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Berdicevskis, Aleksandrs</name>
+                  <alternativeName type="givenName">Aleksandrs</alternativeName>
+                  <alternativeName type="familyName">Berdicevskis</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Eckhoff, Hanne</label>
+            <role>Researcher</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Eckhoff, Hanne</name>
+                  <alternativeName type="givenName">Hanne</alternativeName>
+                  <alternativeName type="familyName">Eckhoff</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Berdicevskis, Aleksandrs</label>
+            <role>Researcher</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Berdicevskis, Aleksandrs</name>
+                  <alternativeName type="givenName">Aleksandrs</alternativeName>
+                  <alternativeName type="familyName">Berdicevskis</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT Open Research Data</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT Open Research Data</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2016</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-11-16</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-08-03</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/x-7z-compressed</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>text/xml</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>text/xml</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>text/xml</mediaType>
+               <mediaType>text/xml</mediaType>
+               <mediaType>text/xml</mediaType>
+               <mediaType>text/xml</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/x-7z-compressed</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/x-7z-compressed</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>text/xml</mediaType>
+               <mediaType>text/xml</mediaType>
+               <mediaType>application/x-ruby</mediaType>
+               <!--Size: 6419-->
+               <!--Size: 4944-->
+               <!--Size: 4945-->
+               <!--Size: 3981-->
+               <!--Size: 4946-->
+               <!--Size: 3824-->
+               <!--Size: 4371-->
+               <!--Size: 395-->
+               <!--Size: 667-->
+               <!--Size: 4392068-->
+               <!--Size: 3520964-->
+               <!--Size: 1163-->
+               <!--Size: 639192-->
+               <!--Size: 626532-->
+               <!--Size: 698914-->
+               <!--Size: 626437-->
+               <!--Size: 698184-->
+               <!--Size: 626609-->
+               <!--Size: 700963-->
+               <!--Size: 709735-->
+               <!--Size: 2390901-->
+               <!--Size: 2439051-->
+               <!--Size: 2530882-->
+               <!--Size: 3594202-->
+               <!--Size: 1169-->
+               <!--Size: 122146-->
+               <!--Size: 1783-->
+               <!--Size: 9491209-->
+               <!--Size: 12284784-->
+               <!--Size: 1184-->
+               <!--Size: 1640-->
+               <!--Size: 1849-->
+               <!--Size: 41253-->
+               <!--Size: 36168-->
+               <!--Size: 36916-->
+               <!--Size: 42908-->
+               <!--Size: 113338-->
+               <!--Size: 1083-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label/>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>
