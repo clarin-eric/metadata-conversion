@@ -174,10 +174,10 @@
             <xsl:with-param name="name" select="'ProvenanceInfo'"/>
             <xsl:with-param name="content">
                 <!-- Creation -->
-                <xsl:apply-templates select="/resource/dates/date[@dateType = 'Created']"
+                <xsl:apply-templates select="/resource/dates"
                     mode="ProvenanceInfo.Creation"/>
                 <!-- Collection -->
-                <xsl:apply-templates select="/resource/dates/date[@dateType = 'Collected']"
+                <xsl:apply-templates select="/resource/dates"
                     mode="ProvenanceInfo.Collection"/>
                 <!-- Publication -->
                 <xsl:apply-templates select="/resource/publicationYear"
@@ -548,23 +548,38 @@
                             <xsl:value-of select="datacite_cmd:getYearFromDateTime(text())"/>
                         </year>
                     </xsl:when>
+                    <xsl:otherwise>
+                        <label>
+                            <xsl:value-of select="text()"/>
+                        </label>
+                    </xsl:otherwise>
                 </xsl:choose>
             </When>
         </ActivityInfo>
     </xsl:template>
 
     <!-- Provenance: Creation -->
-    <xsl:template match="date[@dateType = 'Created']" mode="ProvenanceInfo.Creation">
-        <Creation>
-            <xsl:apply-templates select="." mode="ActivityInfo"/>
-        </Creation>
+    <xsl:template match="dates" mode="ProvenanceInfo.Creation">
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'Creation'"/>
+            <xsl:with-param name="content">
+                <xsl:for-each select="date[@dateType = 'Created']">
+                    <xsl:apply-templates select="." mode="ActivityInfo"/>
+                </xsl:for-each>
+            </xsl:with-param>
+        </xsl:call-template>
     </xsl:template>
 
     <!-- Provenance: Collection -->
-    <xsl:template match="date[@dateType = 'Collected']" mode="ProvenanceInfo.Collection">
-        <Collection>
-            <xsl:apply-templates select="." mode="ActivityInfo"/>
-        </Collection>
+    <xsl:template match="dates" mode="ProvenanceInfo.Collection">
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'Collection'"/>
+            <xsl:with-param name="content">
+                <xsl:for-each select="date[@dateType = 'Collected']">
+                    <xsl:apply-templates select="." mode="ActivityInfo"/>
+                </xsl:for-each>
+            </xsl:with-param>
+        </xsl:call-template>
     </xsl:template>
 
     <!-- Provenance: other activities -->
