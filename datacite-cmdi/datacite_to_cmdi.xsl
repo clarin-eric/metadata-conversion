@@ -49,7 +49,7 @@
             >http://purl.org/dc/dcmitype/StillImage</datacite_cmd:entry>
         <datacite_cmd:entry key="Text">http://purl.org/dc/dcmitype/Text</datacite_cmd:entry>
     </xsl:variable>
-
+    
     <xsl:template match="identifier[@identifierType = 'DOI']" mode="ResourceProxy">
         <cmd:ResourceProxy>
             <xsl:attribute name="id" select="generate-id(.)"/>
@@ -67,6 +67,18 @@
                 </xsl:choose>
             </cmd:ResourceRef>
         </cmd:ResourceProxy>
+    </xsl:template>
+    
+    <xsl:template match="identifier[@identifierType != 'DOI' and datacite_cmd:isAbsoluteUri(text())]" mode="ResourceProxy">
+        <cmd:ResourceProxy>
+            <xsl:attribute name="id" select="generate-id(.)"/>
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef><xsl:value-of select="text()"/></cmd:ResourceRef>
+        </cmd:ResourceProxy>
+    </xsl:template>
+    
+    <xsl:template match="identifier" mode="ResourceProxy">
+        <xsl:comment>Resource identifier cannot be converted to a ResourceRef: <xsl:value-of select="text()" /></xsl:comment>
     </xsl:template>
 
     <xsl:template match="/resource">
@@ -877,6 +889,12 @@
             </xsl:element>
         </xsl:if>
     </xsl:template>
+    
+    
+    <xsl:function name="datacite_cmd:isAbsoluteUri">
+        <xsl:param name="value" />
+        <xsl:sequence select="matches($value,'^(http|https|hdl|doi):.*$')" />
+    </xsl:function>
 
     <xsl:function name="datacite_cmd:isDOI" as="xs:boolean">
         <xsl:param name="uri" required="yes" as="text()"/>
