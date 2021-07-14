@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-RJXGM6</identifier>
+  <titles>
+    <title xml:lang="en-us">The impact of verbal insults</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">The archive contains the following folders and content: Raw data EEG GSR: raw bdf data; Raw data behavioral: Presentation logfiles; Procedure: all forms used in the project; Pretest: the pretest on the words used in the experiment; Experimental setup: Presentation files and sitmulus material; Analysis GSR: history template, matfiles, SPSS files; Analysis EEG: history templates, SPSS files; Analysis description: codebook and description of workflow</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2017</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Marijn Struiksma</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">0000-0002-1166-1424</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <contributors>
+    <contributor contributorType="ProjectLeader">
+      <contributorName>Jos van Berkum</contributorName>
+      <affiliation>Utrecht University</affiliation>
+    </contributor>
+    <contributor contributorType="Researcher">
+      <contributorName>Hannah De Mulder</contributorName>
+      <affiliation>Leiden University</affiliation>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Updated">2017-12-27T13:07:01+0100</date>
+    <date dateType="Collected">2012-12-05/2013-02-06</date>
+  </dates>
+  <version>1</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International Public License</rights>
+  </rightsList>
+  <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>NWO</funderName>
+      <awardNumber>277-89-001 </awardNumber>
+    </fundingReference>
+  </fundingReferences>
+</resource>

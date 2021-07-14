@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.24416/UU01-RJXGM6</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.24416/UU01-RJXGM6</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title xml:lang="en-us">The impact of verbal insults</title>
+         </TitleInfo>
+         <Description>
+            <description>The archive contains the following folders and content: Raw data EEG GSR: raw bdf data; Raw data behavioral: Presentation logfiles; Procedure: all forms used in the project; Pretest: the pretest on the words used in the experiment; Experimental setup: Presentation files and sitmulus material; Analysis GSR: history template, matfiles, SPSS files; Analysis EEG: history templates, SPSS files; Analysis description: codebook and description of workflow</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Humanities - Languages and literature (6.2)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-1166-1424</identifier>
+            <label>Marijn Struiksma</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Marijn Struiksma</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Jos van Berkum</label>
+            <role>ProjectLeader</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Jos van Berkum</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Hannah De Mulder</label>
+            <role>Researcher</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Hannah De Mulder</name>
+                  <affiliation>Leiden University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2012-12-05</start>
+                     <end>2013-02-06</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2017</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2017-12-27</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <AccessInfo>
+            <Licence>
+               <identifier>https://creativecommons.org/licenses/by/4.0/legalcode</identifier>
+               <label>Creative Commons Attribution 4.0 International Public License</label>
+            </Licence>
+         </AccessInfo>
+         <FundingInfo>
+            <Funding>
+               <grantNumber>277-89-001 </grantNumber>
+               <FundingAgency>
+                  <label>NWO</label>
+               </FundingAgency>
+            </Funding>
+         </FundingInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

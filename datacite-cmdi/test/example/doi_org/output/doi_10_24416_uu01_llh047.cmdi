@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.24416/UU01-LLH047</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.24416/UU01-LLH047</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title xml:lang="nl">Kees Smit (ed.), Arnoldus Buchelius, Commentarius (Diarium), deel I en II.</title>
+         </TitleInfo>
+         <Description>
+            <description>Transcriptie met inleiding en annotaties van Arnoldus Buchelius, Diarium (Commentarius rerum quotidianarum …), in Utrecht, Universiteitsbibliotheek, Hs. 798 (deel I en II). Het Diarium is deels autobiografie en deels kroniek, geschreven door Aernout van Buchell (1565-1641). Het beslaat de periode 1560-1599, bevat een beschrijving van de stad Utrecht en zijn reizen door Frankrijk, Duitsland en Italie, en is vooral geschreven in het Latijn. 
+Transcription with preface and annotations of Arnoldus Buchelius, Diarium (Commentarius rerum quotidianarum …), in Utrecht, University Library, Hs. 798 (parts I and II). The Diarium is part autobiography, part chronicle, written by Aernout van Buchell (1565-1641). It covers the period 1560-1599, contains a description of the city of Utrecht and his travels through France, Germany and Italy, and is mainly written in Latin.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>Research Data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2020_10_29</versionIdentifier>
+         </VersionInfo>
+         <Language>
+            <name>nl</name>
+            <code>nl</code>
+         </Language>
+         <Subject>
+            <label>Humanities - History and archaeology (6.1)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Subject>
+            <label>Humanities - Languages and literature (6.2)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Subject>
+            <label>Humanities - Philosophy, ethics and religion (6.3)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Subject>
+            <label>dagboek</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>reizen</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>studeren</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>reformatie</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>humanisme</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>zestiende eeuw</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>diary</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>travel</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>study</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>reformation</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>humanism</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>sixteenth century</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Creator>
+            <identifier>https://orcid.org/0000-0002-3731-4551</identifier>
+            <label>Jaski, Bart</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Jaski, Bart</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Smit, Kees</label>
+            <role>Editor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Smit, Kees</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Gerritsen-Geywitz, Gisela </label>
+            <role>Researcher</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Gerritsen-Geywitz, Gisela </name>
+                  <affiliation>private researcher</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Blok, Margreet</label>
+            <role>Researcher</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Blok, Margreet</name>
+                  <affiliation>private researcher</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <identifier>https://orcid.org/0000-0002-3731-4551</identifier>
+            <label>Jaski, Bart</label>
+            <role>Editor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Jaski, Bart</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2012-01-01</start>
+                     <end>2020-10-29</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-11-04</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <AccessInfo>
+            <otherAccessInfo>Creative Commons Attribution 4.0 International Public License</otherAccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>Open Access</label>
+            </Licence>
+         </AccessInfo>
+         <GeoLocation>
+            <label>Utrecht</label>
+         </GeoLocation>
+         <GeoLocation>
+            <label>Douai</label>
+         </GeoLocation>
+         <GeoLocation>
+            <label>Cologne</label>
+         </GeoLocation>
+         <GeoLocation>
+            <label>Rome</label>
+         </GeoLocation>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

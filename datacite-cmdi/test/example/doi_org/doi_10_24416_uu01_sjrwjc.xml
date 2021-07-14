@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:yoda="https://yoda.uu.nl/schemas/default-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-SJRWJC</identifier>
+  <titles>
+    <title xml:lang="nl">Das Berliner Album amicorum von Aernout van Buchell</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">Transcriptie en vertaling in het Nederlands van Berlijn. Kunstbibliothek Staatliche Museen Preussischer Kunstbesitz, Lipperheidesche Kostümbibliothek, Lipp. O Z3 (Album amicorum van Aernout van Buchell), met commentaren in het Nederlands en Duits.
+Transcription and translation into Dutch of Berlin. Kunstbibliothek Staatliche Museen Preussischer Kunstbesitz, Lipperheidesche Kostümbibliothek, Lipp. O Z3 (Album amicorum of Aernout van Buchell), with comments in Dutch and German.</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2020</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - History and archaeology (6.1)</subject>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Art (arts, history of arts, performing arts, music) (6.4)</subject>
+    <subject subjectScheme="Keyword">album amicorum</subject>
+    <subject subjectScheme="Keyword">Reformatie</subject>
+    <subject subjectScheme="Keyword">zestiende eeuw</subject>
+    <subject subjectScheme="Keyword">tekeningen</subject>
+    <subject subjectScheme="Keyword">Latijn</subject>
+    <subject subjectScheme="Keyword">Reformation</subject>
+    <subject subjectScheme="Keyword">sixteenth century</subject>
+    <subject subjectScheme="Keyword">drawings</subject>
+    <subject subjectScheme="Keyword">Latin</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Jaski, Bart</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-3731-4551</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <contributors>
+    <contributor contributorType="Researcher">
+      <contributorName>Smit, Kees</contributorName>
+      <affiliation>Utrecht University</affiliation>
+    </contributor>
+    <contributor contributorType="Researcher">
+      <contributorName>Gerritsen-Geywitz, Gisela</contributorName>
+      <affiliation>Utrecht University</affiliation>
+    </contributor>
+    <contributor contributorType="Editor">
+      <contributorName>Jaski, Bart</contributorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-3731-4551</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Updated">2020-10-21T13:20:01+0200</date>
+    <date dateType="Collected">2017-01-01/2020-10-16</date>
+  </dates>
+  <version>2020_10_16</version>
+  <rightsList>
+    <rights>Creative Commons Attribution 4.0 International Public License</rights>
+    <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+  </rightsList>
+  <language>nl</language>
+  <resourceType resourceTypeGeneral="Dataset">Research Data</resourceType>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Utrecht</geoLocationPlace>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationPlace>Berlin</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+</resource>

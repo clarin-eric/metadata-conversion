@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.24416/UU01-O8ZD60</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.24416/UU01-O8ZD60</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title xml:lang="en">Typology of concord</title>
+         </TitleInfo>
+         <Description>
+            <description>Raw typological data, acquired by Sterre Leufkens in the context of research into redundancy. </description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>Research Data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Language>
+            <name>en</name>
+            <code>en</code>
+         </Language>
+         <Subject>
+            <label>Humanities - Languages and literature (6.2)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Creator>
+            <identifier>https://orcid.org/0000-0002-2251-1309</identifier>
+            <label>Sterre Leufkens</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Sterre Leufkens</name>
+                  <affiliation>Utrecht University</affiliation>
+                  <affiliation>Utrecht Institute of Linguistics (UiL OTS)</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2019-06-22</start>
+                     <end>2020-10-14</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-10-26</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <AccessInfo>
+            <Licence>
+               <identifier>https://creativecommons.org/licenses/by-sa/4.0/legalcode</identifier>
+               <label>Creative Commons Attribution-ShareAlike 4.0 International Public License</label>
+            </Licence>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>Open Access</label>
+            </Licence>
+         </AccessInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

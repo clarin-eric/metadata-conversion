@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.24416/UU01-4MECRO</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.24416/UU01-4MECRO</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title xml:lang="en-us">ChroniclItaly 2.0. A corpus of Italian American newspapers annotated for entities, 1898-1920.</title>
+         </TitleInfo>
+         <Description>
+            <description>ChroniclItaly 2.0 is the tagged version of ChroniclItaly (Viola 2018), a corpus of Italian language newspapers published in the USA between 1898 and 1920. The corpus includes seven Italian language newspapers published in California, Massachusetts, Pennsylvania, Vermont, and West Virginia: L’Italia, Cronaca sovversiva, La libera parola, The patriot, La ragione, La rassegna, and La sentinella del West Virginia. This collection, which totals 4,810 issues and contains 16,624,571 words, gathers the front pages of each issue and it was collected from Chronicling America (https://chroniclingamerica.loc.gov/newspapers/), an Internet-based, searchable database of U.S. newspapers published in the United States from 1789 to 1963 made available by the Library of Congress. ChronclItaly 2.0 has been tagged for entities using a sequence tagging tool (Riedl and Padó 2018) that implements Tensorflow. The Italian language model of the sequence tagging tool was trained on I-CAB (Italian Content Annotation Bank), an open access corpus annotated for entities. 
+The tags are:
+
+LOC -&gt; Location
+GPE -&gt; Geo-political entity
+PER -&gt; Person
+ORG -&gt; Organization
+
+The output is in columns as it follows: the first column is the input word, the second column specifies the pre-processed, lower-cased word, the third column contains a flag, i.e., whether the word has been known during training (KNOWN) or not (UNKNOWN). If labels are assigned to the input file, these will appear in the third column. The last column contains the predicted tags. The no-entity tag is O. Because some entities (like Stati Uniti) have multiple words, the tagging scheme distinguishes between the beginning (tag B-...) or the inside of an entity (tag I-...). 
+Please see the GitHub repository https://github.com/lorellav/GeoNewsMiner#chroniclitaly for further information. Finally, the files are arranged in two types: by newspaper's title to allow for comparative analysis across titles, and all together. Within each title, files are arranged chronologically. 
+</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Humanities - Other humanities (6.5)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Subject>
+            <label>Italian language newspapers</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Ethnic press in the United States</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Historical newspapers</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Italian diaspora in the United States</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Named Entity Recognition</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Place names disambiguation</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Creator>
+            <identifier>0000-0001-9994-0841</identifier>
+            <label>Lorella Viola</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Lorella Viola</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <identifier>0000-0001-6754-2515</identifier>
+            <label>Jaap Verheul</label>
+            <role>Supervisor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Jaap Verheul</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2019-05-01</start>
+                     <end>2019-09-23</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2019</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-10-02</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <AccessInfo>
+            <Licence>
+               <identifier>https://opendatacommons.org/licenses/by/1.0/</identifier>
+               <label>Open Data Commons Attribution License (ODC-By) v1.0</label>
+            </Licence>
+         </AccessInfo>
+         <GeoLocation>
+            <label>California</label>
+         </GeoLocation>
+         <GeoLocation>
+            <label>Vermont</label>
+         </GeoLocation>
+         <GeoLocation>
+            <label>West Virginia</label>
+         </GeoLocation>
+         <GeoLocation>
+            <label>Massachusetts</label>
+         </GeoLocation>
+         <GeoLocation>
+            <label>Pennsylvania</label>
+         </GeoLocation>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

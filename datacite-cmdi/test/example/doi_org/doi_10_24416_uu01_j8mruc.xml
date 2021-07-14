@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:yoda="https://yoda.uu.nl/schemas/default-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-J8MRUC</identifier>
+  <titles>
+    <title xml:lang="la">De festo aurei velleris Traiecti celebrato … anno 1546</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">Transcription of Utrecht, University Library, Ms. 796, part 3 (pp. 30-36), about the parade and festivities of the Chapter of the Order of the Golden Fleece in Utrecht, 1546, a text attributed to Nicolaus Mameranus. The manuscript belonged to Gijsbert Lap van Waveren.</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2020</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - History and archaeology (6.1)</subject>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+    <subject subjectScheme="Keyword">Utrecht</subject>
+    <subject subjectScheme="Keyword">Charles V</subject>
+    <subject subjectScheme="Keyword">Order of the Golden Fleece</subject>
+    <subject subjectScheme="Keyword">parade</subject>
+    <subject subjectScheme="Keyword">transcription</subject>
+    <subject subjectScheme="Keyword">sixteenth century</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Jaski, Bart</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-3731-4551</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <contributors>
+    <contributor contributorType="Editor">
+      <contributorName>Gerritsen-Geywitz, Gisela </contributorName>
+      <affiliation>scholar</affiliation>
+    </contributor>
+    <contributor contributorType="Editor">
+      <contributorName>Smit, Kees</contributorName>
+      <affiliation>scholar</affiliation>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Updated">2020-02-25T13:39:39+0100</date>
+    <date dateType="Collected">2016-01-01/2020-02-21</date>
+  </dates>
+  <version>2020_02_24</version>
+  <rightsList>
+    <rights>Creative Commons Attribution 4.0 International Public License</rights>
+    <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+  </rightsList>
+  <language>la</language>
+  <resourceType resourceTypeGeneral="Dataset">Research Data</resourceType>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References">https://utrechtuniversity.on.worldcat.org/oclc/965420381</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="Handle" relationType="References">https://dspace.library.uu.nl/handle/1874/214517</relatedIdentifier>
+  </relatedIdentifiers>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Utrecht</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+</resource>

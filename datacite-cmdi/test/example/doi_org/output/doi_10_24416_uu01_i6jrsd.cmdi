@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.24416/UU01-I6JRSD</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.24416/UU01-I6JRSD</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title xml:lang="nl">Transcriptie van Den cleynen herbarius ofte cruyt-boecxken van Heyman Jacobs uit 1632</title>
+         </TitleInfo>
+         <Description>
+            <description>Transcriptie van de Nederlandse tekst van Heyman Jacobs' Den cleynen herbarius ofte cruyt-boecxken, gepubliceerd in Amsterdam in 1632.
+Transcription of the Dutch text of Heyman Jacobs' Den cleynen herbarius ofte cruyt-boecxken (The little herbarium or little herbal book), published in Amsterdam in 1632.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>Research Data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2020_10_16</versionIdentifier>
+         </VersionInfo>
+         <Language>
+            <name>nl</name>
+            <code>nl</code>
+         </Language>
+         <Subject>
+            <label>Humanities - Languages and literature (6.2)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Subject>
+            <label>Natural Sciences - Biological sciences (1.6)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Subject>
+            <label>Dutch language</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>history of medicine</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>herbals</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>transcription</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>seventeenth century</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>printed book</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Nederlands</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>geschiedenis van de geneeskunde</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>kruiden</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>transcriptie</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>zeventiende eeuw</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>gedrukt boek</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Creator>
+            <identifier>https://orcid.org/0000-0002-3731-4551</identifier>
+            <label>Jaski, Bart</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Jaski, Bart</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Hilten, Femke van</label>
+            <role>Editor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Hilten, Femke van</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2017-04-01</start>
+                     <end>2020-10-16</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-10-21</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <AccessInfo>
+            <otherAccessInfo>Creative Commons Attribution 4.0 International Public License</otherAccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>Open Access</label>
+            </Licence>
+         </AccessInfo>
+         <GeoLocation>
+            <label>Utrecht</label>
+         </GeoLocation>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

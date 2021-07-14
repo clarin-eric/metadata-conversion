@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.24416/UU01-SJRWJC</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.24416/UU01-SJRWJC</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title xml:lang="nl">Das Berliner Album amicorum von Aernout van Buchell</title>
+         </TitleInfo>
+         <Description>
+            <description>Transcriptie en vertaling in het Nederlands van Berlijn. Kunstbibliothek Staatliche Museen Preussischer Kunstbesitz, Lipperheidesche Kostümbibliothek, Lipp. O Z3 (Album amicorum van Aernout van Buchell), met commentaren in het Nederlands en Duits.
+Transcription and translation into Dutch of Berlin. Kunstbibliothek Staatliche Museen Preussischer Kunstbesitz, Lipperheidesche Kostümbibliothek, Lipp. O Z3 (Album amicorum of Aernout van Buchell), with comments in Dutch and German.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>Research Data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2020_10_16</versionIdentifier>
+         </VersionInfo>
+         <Language>
+            <name>nl</name>
+            <code>nl</code>
+         </Language>
+         <Subject>
+            <label>Humanities - History and archaeology (6.1)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Subject>
+            <label>Humanities - Languages and literature (6.2)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Subject>
+            <label>Humanities - Art (arts, history of arts, performing arts, music) (6.4)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Subject>
+            <label>album amicorum</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Reformatie</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>zestiende eeuw</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>tekeningen</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Latijn</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Reformation</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>sixteenth century</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>drawings</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Latin</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Creator>
+            <identifier>https://orcid.org/0000-0002-3731-4551</identifier>
+            <label>Jaski, Bart</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Jaski, Bart</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Smit, Kees</label>
+            <role>Researcher</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Smit, Kees</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Gerritsen-Geywitz, Gisela</label>
+            <role>Researcher</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Gerritsen-Geywitz, Gisela</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <identifier>https://orcid.org/0000-0002-3731-4551</identifier>
+            <label>Jaski, Bart</label>
+            <role>Editor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Jaski, Bart</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2017-01-01</start>
+                     <end>2020-10-16</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-10-21</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <AccessInfo>
+            <otherAccessInfo>Creative Commons Attribution 4.0 International Public License</otherAccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>Open Access</label>
+            </Licence>
+         </AccessInfo>
+         <GeoLocation>
+            <label>Utrecht</label>
+         </GeoLocation>
+         <GeoLocation>
+            <label>Berlin</label>
+         </GeoLocation>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

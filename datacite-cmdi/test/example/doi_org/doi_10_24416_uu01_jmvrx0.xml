@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-JMVRX0</identifier>
+  <titles>
+    <title xml:lang="en-us">Middelnederlandse Handschriften in de Universiteitsbibliotheek Utrecht</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">Catalogue of c. 100 Middle Dutch manuscripts and manuscript fragments in the University Library of Utrecht. Rubrics: title, date, origin, description, script, scribe, decoration, content, genre, binding, provenance and recent secondary literature. Genres: Artes literature, Didactic texts, Philosophy, Historical texts, Court literature, Moralistic texts, Travel literature, Religious texts, Statutes. Religious texts are subdivided into: biblical texts, exempla, prayers, books of hours, hagiography, monastic rules and theology. Of each manuscript an image is included. The manuscripts are all medieval (until 1500), most of them of the 15th century. Compiled as part of a traineeship in 2012, revised and updated in 2018.</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2020</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Art (arts, history of arts, performing arts, music) (6.4)</subject>
+    <subject subjectScheme="Keyword">manuscripts</subject>
+    <subject subjectScheme="Keyword">Middle Dutch</subject>
+    <subject subjectScheme="Keyword">decorations</subject>
+    <subject subjectScheme="Keyword">medieval texts</subject>
+    <subject subjectScheme="Keyword">sources</subject>
+    <subject subjectScheme="Keyword">penwork</subject>
+    <subject subjectScheme="Keyword">manuscript fragments</subject>
+    <subject subjectScheme="Keyword">religious texts</subject>
+    <subject subjectScheme="Keyword">provenance</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>van den Assem, Roel</creatorName>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+    <creator>
+      <creatorName>van Hilten, Femke</creatorName>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+    <creator>
+      <creatorName>Lammers, Kristien</creatorName>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+    <creator>
+      <creatorName>van Setten, Sophie</creatorName>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+    <creator>
+      <creatorName>Jaski, Bart</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-3731-4551</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <contributors>
+    <contributor contributorType="Editor">
+      <contributorName>Jaski, Bart</contributorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-3731-4551</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Updated">2020-01-30T12:29:41+0100</date>
+    <date dateType="Collected">2012-01-01/2018-12-31</date>
+  </dates>
+  <version>1</version>
+  <rightsList>
+    <rights>Creative Commons Attribution 4.0 International Public License</rights>
+    <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+  </rightsList>
+  <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Netherlands</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+</resource>

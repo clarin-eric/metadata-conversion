@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-C5PE8E</identifier>
+  <titles>
+    <title xml:lang="en">Verbal Diminutives - Appendix</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">Excel file with information on language sample used for paper 'Mall events. Verbal diminutives in the language of the world' (Audring, Leufkens, Van Lier, to appear) + rtf-file describing the excel file. </description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2021</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Leufkens, Sterre</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">0000-0002-2251-1309</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+    <creator>
+      <creatorName>Audring, Jenny</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">0000-0002-1254-1192</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <dates>
+    <date dateType="Updated">2021-06-08T11:14:10.000000</date>
+  </dates>
+  <rightsList>
+    <rights rightsURI="info:eu-repo/semantics/openAccess"/>
+  </rightsList>
+  <language>en</language>
+  <resourceType resourceTypeGeneral="Dataset">Research Data</resourceType>
+</resource>

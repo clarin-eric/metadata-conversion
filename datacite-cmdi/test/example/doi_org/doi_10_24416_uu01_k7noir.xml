@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:yoda="https://yoda.uu.nl/schemas/default-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-K7NOIR</identifier>
+  <titles>
+    <title xml:lang="nl">Transcriptie T’boeck vande vroet-wijfs van Jacob Rueff vertaald uit het Hoogduits in het Nederlands door Martinus Everaerts, Amsterdam 1591</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">Transcriptie van de Nederlandse tekst van Jacob Rueff, T’boeck vande vroet-wijfs, zoals vertaald uit het Hoogduits door Martinus Everaerts, gepubliceerd in Amsterdam in 1591.
+Transcription of the Dutch text of Jacob Rueff, T’boeck vande vroet-wijfs (The book of the midwife), as translated from the High German by Martinus Everaerts, published in Amsterdam in 1591.</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2020</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Medical and Health Sciences - Health sciences (3.3)</subject>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+    <subject subjectScheme="Keyword">Nederlands</subject>
+    <subject subjectScheme="Keyword">geschiedenis van de geneeskunde</subject>
+    <subject subjectScheme="Keyword">verloskunde</subject>
+    <subject subjectScheme="Keyword">transcriptie</subject>
+    <subject subjectScheme="Keyword">zestiende eeuw</subject>
+    <subject subjectScheme="Keyword">gedrukt boek</subject>
+    <subject subjectScheme="Keyword">Dutch language</subject>
+    <subject subjectScheme="Keyword">history of medicine</subject>
+    <subject subjectScheme="Keyword">obstetrics</subject>
+    <subject subjectScheme="Keyword">transcription</subject>
+    <subject subjectScheme="Keyword">sixteenth century</subject>
+    <subject subjectScheme="Keyword">printed book</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Jaski, Bart</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-3731-4551</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <contributors>
+    <contributor contributorType="Editor">
+      <contributorName>Brakenhoff, Linda</contributorName>
+      <affiliation>Utrecht University</affiliation>
+      <affiliation>WEMAL (Werkgroep Nederlandse Artesliteratuur)</affiliation>
+    </contributor>
+    <contributor contributorType="Researcher">
+      <contributorName>Bentum, Willem van</contributorName>
+      <affiliation>WEMAL (Werkgroep Nederlandse Artesliteratuur)</affiliation>
+    </contributor>
+    <contributor contributorType="Researcher">
+      <contributorName>Claessens, Edith</contributorName>
+      <affiliation>WEMAL (Werkgroep Nederlandse Artesliteratuur)</affiliation>
+    </contributor>
+    <contributor contributorType="Researcher">
+      <contributorName>Rijns, Hans</contributorName>
+      <affiliation>WEMAL (Werkgroep Nederlandse Artesliteratuur)</affiliation>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Updated">2020-10-21T13:40:19+0200</date>
+    <date dateType="Collected">2017-04-01/2020-10-21</date>
+  </dates>
+  <version>2020_10_16</version>
+  <rightsList>
+    <rights>Creative Commons Attribution 4.0 International Public License</rights>
+    <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+  </rightsList>
+  <language>nl</language>
+  <resourceType resourceTypeGeneral="Dataset">Research Data</resourceType>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References">https://utrechtuniversity.on.worldcat.org/oclc/902179584</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="IsNewVersionOf">https://utrechtuniversity.on.worldcat.org/oclc/1076541342</relatedIdentifier>
+  </relatedIdentifiers>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Utrecht</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+</resource>
