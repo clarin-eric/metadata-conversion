@@ -75,6 +75,38 @@
             <name>en</name>
             <code>en</code>
          </Language>
+         <Subject>
+            <label>Humanities - Other humanities (6.5)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Subject>
+            <label>South Africa</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Townships</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Black Lesbians</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Female Masculinity</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Sexual Health</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>HIV</label>
+            <scheme>Keyword</scheme>
+         </Subject>
+         <Subject>
+            <label>Gender</label>
+            <scheme>Keyword</scheme>
+         </Subject>
          <Creator>
             <identifier>URN:NBN:NL:UI:10-1874-359562</identifier>
             <identifier>0000-0003-2538-8198</identifier>

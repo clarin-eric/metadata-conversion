@@ -113,6 +113,102 @@
 
     <!-- Component section -->
 
+    <xsl:template name="component-section">
+        <!-- IdentificationInfo -->
+        
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'IdentificationInfo'"/>
+            <xsl:with-param name="content">
+                <xsl:apply-templates select="./identifier" mode="IdentificationInfo.identifier"/>
+                <xsl:apply-templates select="./alternateIdentifiers/alternateIdentifier"
+                    mode="IdentificationInfo.alternativeIdentifier"/>
+            </xsl:with-param>
+        </xsl:call-template>
+        
+        <!-- TitleInfo -->
+        <xsl:apply-templates select="/resource/titles" mode="TitleInfo" />
+        
+        <!-- Description -->
+        
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'Description'"/>
+            <xsl:with-param name="content">
+                <xsl:apply-templates select="/resource/descriptions/description"
+                    mode="Description.description"/>
+            </xsl:with-param>
+        </xsl:call-template>
+        
+        <!-- Resource type -->
+        <xsl:apply-templates select="/resource/resourceType" mode="ResourceType"/>
+        
+        <!-- Version info -->
+        <xsl:apply-templates select="/resource/version[1]" mode="VersionInfo"/>
+        
+        <!-- Language -->
+        <xsl:apply-templates select="/resource/language[1]" mode="Language"/>
+        
+        <!-- Subject -->
+        <xsl:apply-templates select="/resource/subjects/subject" mode="Subject"/>
+
+        <!-- Creator -->
+        <xsl:apply-templates select="/resource/creators/creator" mode="Creator"/>
+        
+        <!-- Contributor -->
+        <xsl:apply-templates select="/resource/contributors/contributor" mode="Contributor"/>
+        
+        <!-- ProvenanceInfo -->
+        
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'ProvenanceInfo'"/>
+            <xsl:with-param name="content">
+                <!-- Creation -->
+                <xsl:apply-templates select="/resource/dates/date[@dateType = 'Created']"
+                    mode="ProvenanceInfo.Creation"/>
+                <!-- Collection -->
+                <xsl:apply-templates select="/resource/dates/date[@dateType = 'Collected']"
+                    mode="ProvenanceInfo.Collection"/>
+                <!-- Publication -->
+                <xsl:apply-templates select="/resource/publicationYear"
+                    mode="ProvenanceInfo.Publication"/>
+                <!-- other activities -->
+                <xsl:apply-templates
+                    select="/resource/dates/date[@dateType != 'Created' and @dateType != 'Collected']"
+                    mode="ProvenanceInfo.Activity"/>
+            </xsl:with-param>
+        </xsl:call-template>
+        
+        <!-- Subresource -->
+        <xsl:apply-templates select="/resource" mode="Subresource"/>
+        
+        <!-- AccessInfo -->
+        
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'AccessInfo'"/>
+            <xsl:with-param name="content">
+                <xsl:apply-templates select="/resource/rightsList/rights"
+                    mode="AccessInfo.otherAccessInfo"/>
+                <xsl:apply-templates select="/resource/rightsList/rights" mode="AccessInfo.Licence"
+                />
+            </xsl:with-param>
+        </xsl:call-template>
+        
+        <!-- GeoLocation -->
+        <xsl:apply-templates select="/resource/geoLocations/geoLocation" mode="GeoLocation"/>
+        
+        <!-- FundingInfo -->
+        
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'FundingInfo'"/>
+            <xsl:with-param name="content">
+                <xsl:apply-templates select="/resource/fundingReferences/fundingReference"
+                    mode="Funding"/>
+            </xsl:with-param>
+        </xsl:call-template>
+        
+        <!-- RelatedResource -->
+        <xsl:apply-templates select="/resource/relatedItems/relatedItem" mode="RelatedResource" />
+    </xsl:template>
+
     <xsl:template match="/resource/identifier" mode="IdentificationInfo.identifier">
         <xsl:element name="identifier">
             <xsl:choose>
@@ -264,6 +360,23 @@
                 <xsl:sequence select="$iso639-3-code"/>
             </code>
         </Language>
+    </xsl:template>
+    
+    
+    <!-- Subject -->
+    <xsl:template match="subjects/subject" mode="Subject">
+        <Subject>
+            <xsl:if test="@valueURI">
+                <identifier><xsl:value-of select="@valueURI"/></identifier>
+            </xsl:if>
+            <label><xsl:sequence select="text()" /></label>
+            <xsl:if test="@subjectScheme">
+                <scheme><xsl:value-of select="@subjectScheme"/></scheme>
+            </xsl:if>
+            <xsl:if test="@schemeURI">
+                <schemeURI><xsl:value-of select="@schemeURI"/></schemeURI>
+            </xsl:if>
+        </Subject>
     </xsl:template>
 
     <xsl:template match="creator | contributor" mode="AgentInfo">
@@ -753,98 +866,7 @@
         </RelatedResource>
     </xsl:template>    
 
-    <xsl:template name="component-section">
-        <!-- IdentificationInfo -->
-
-        <xsl:call-template name="wrapper-component">
-            <xsl:with-param name="name" select="'IdentificationInfo'"/>
-            <xsl:with-param name="content">
-                <xsl:apply-templates select="./identifier" mode="IdentificationInfo.identifier"/>
-                <xsl:apply-templates select="./alternateIdentifiers/alternateIdentifier"
-                    mode="IdentificationInfo.alternativeIdentifier"/>
-            </xsl:with-param>
-        </xsl:call-template>
-
-        <!-- TitleInfo -->
-        <xsl:apply-templates select="/resource/titles" mode="TitleInfo" />
-
-        <!-- Description -->
-
-        <xsl:call-template name="wrapper-component">
-            <xsl:with-param name="name" select="'Description'"/>
-            <xsl:with-param name="content">
-                <xsl:apply-templates select="/resource/descriptions/description"
-                    mode="Description.description"/>
-            </xsl:with-param>
-        </xsl:call-template>
-
-        <!-- Resource type -->
-        <xsl:apply-templates select="/resource/resourceType" mode="ResourceType"/>
-
-        <!-- Version info -->
-        <xsl:apply-templates select="/resource/version[1]" mode="VersionInfo"/>
-
-        <!-- Language -->
-        <xsl:apply-templates select="/resource/language[1]" mode="Language"/>
-
-        <!-- Creator -->
-        <xsl:apply-templates select="/resource/creators/creator" mode="Creator"/>
-
-        <!-- Contributor -->
-        <xsl:apply-templates select="/resource/contributors/contributor" mode="Contributor"/>
-
-        <!-- ProvenanceInfo -->
-
-        <xsl:call-template name="wrapper-component">
-            <xsl:with-param name="name" select="'ProvenanceInfo'"/>
-            <xsl:with-param name="content">
-                <!-- Creation -->
-                <xsl:apply-templates select="/resource/dates/date[@dateType = 'Created']"
-                    mode="ProvenanceInfo.Creation"/>
-                <!-- Collection -->
-                <xsl:apply-templates select="/resource/dates/date[@dateType = 'Collected']"
-                    mode="ProvenanceInfo.Collection"/>
-                <!-- Publication -->
-                <xsl:apply-templates select="/resource/publicationYear"
-                    mode="ProvenanceInfo.Publication"/>
-                <!-- other activities -->
-                <xsl:apply-templates
-                    select="/resource/dates/date[@dateType != 'Created' and @dateType != 'Collected']"
-                    mode="ProvenanceInfo.Activity"/>
-            </xsl:with-param>
-        </xsl:call-template>
-
-        <!-- Subresource -->
-        <xsl:apply-templates select="/resource" mode="Subresource"/>
-
-        <!-- AccessInfo -->
-
-        <xsl:call-template name="wrapper-component">
-            <xsl:with-param name="name" select="'AccessInfo'"/>
-            <xsl:with-param name="content">
-                <xsl:apply-templates select="/resource/rightsList/rights"
-                    mode="AccessInfo.otherAccessInfo"/>
-                <xsl:apply-templates select="/resource/rightsList/rights" mode="AccessInfo.Licence"
-                />
-            </xsl:with-param>
-        </xsl:call-template>
-
-        <!-- GeoLocation -->
-        <xsl:apply-templates select="/resource/geoLocations/geoLocation" mode="GeoLocation"/>
-
-        <!-- FundingInfo -->
-
-        <xsl:call-template name="wrapper-component">
-            <xsl:with-param name="name" select="'FundingInfo'"/>
-            <xsl:with-param name="content">
-                <xsl:apply-templates select="/resource/fundingReferences/fundingReference"
-                    mode="Funding"/>
-            </xsl:with-param>
-        </xsl:call-template>
-        
-        <!-- RelatedResource -->
-        <xsl:apply-templates select="/resource/relatedItems/relatedItem" mode="RelatedResource" />
-    </xsl:template>
+    <!-- Helper templates and functions -->
 
     <xsl:template name="wrapper-component">
         <xsl:param name="name"/>

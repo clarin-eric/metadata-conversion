@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.34733/VCR-1036</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Arnold, Denis</creatorName>
+      <givenName>Denis</givenName>
+      <familyName>Arnold</familyName>
+      <affiliation>Leibniz-Institut f�r Deutsche Sprache</affiliation>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Fisseni, Bernhard</creatorName>
+      <givenName>Bernhard</givenName>
+      <familyName>Fisseni</familyName>
+      <affiliation>Leibniz-Institut f�r Deutsche Sprache</affiliation>
+    </creator>
+    <creator>
+      <creatorName nameType="Personal">Trippel, Thorsten</creatorName>
+      <givenName>Thorsten</givenName>
+      <familyName>Trippel</familyName>
+      <affiliation>Eberhard Karls Universit�t T�bingen</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title>Signpost Demo Collection ? Bonner Gerontologische L�ngsschnittstudie (BOLSA), all recordings of subject 2608</title>
+  </titles>
+  <publisher>CLARIN</publisher>
+  <publicationYear>2021</publicationYear>
+  <resourceType resourceTypeGeneral="Collection">Virtual Collection</resourceType>
+  <sizes/>
+  <formats/>
+  <version/>
+</resource>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.34733/VCR-1036</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.34733/VCR-1036</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Signpost Demo Collection ? Bonner Gerontologische L�ngsschnittstudie (BOLSA), all recordings of subject 2608</title>
+         </TitleInfo>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Collection</identifier>
+            <label>Collection</label>
+            <label>Virtual Collection</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier/>
+         </VersionInfo>
+         <Creator>
+            <label>Arnold, Denis</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Arnold, Denis</name>
+                  <alternativeName type="givenName">Denis</alternativeName>
+                  <alternativeName type="familyName">Arnold</alternativeName>
+                  <affiliation>Leibniz-Institut f�r Deutsche Sprache</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Fisseni, Bernhard</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Fisseni, Bernhard</name>
+                  <alternativeName type="givenName">Bernhard</alternativeName>
+                  <alternativeName type="familyName">Fisseni</alternativeName>
+                  <affiliation>Leibniz-Institut f�r Deutsche Sprache</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Trippel, Thorsten</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Trippel, Thorsten</name>
+                  <alternativeName type="givenName">Thorsten</alternativeName>
+                  <alternativeName type="familyName">Trippel</alternativeName>
+                  <affiliation>Eberhard Karls Universit�t T�bingen</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2021</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+         </ProvenanceInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>
