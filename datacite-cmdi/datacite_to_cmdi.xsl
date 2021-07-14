@@ -49,7 +49,7 @@
             >http://purl.org/dc/dcmitype/StillImage</datacite_cmd:entry>
         <datacite_cmd:entry key="Text">http://purl.org/dc/dcmitype/Text</datacite_cmd:entry>
     </xsl:variable>
-    
+
     <xsl:template match="identifier[@identifierType = 'DOI']" mode="ResourceProxy">
         <cmd:ResourceProxy>
             <xsl:attribute name="id" select="generate-id(.)"/>
@@ -68,17 +68,21 @@
             </cmd:ResourceRef>
         </cmd:ResourceProxy>
     </xsl:template>
-    
-    <xsl:template match="identifier[@identifierType != 'DOI' and datacite_cmd:isAbsoluteUri(text())]" mode="ResourceProxy">
+
+    <xsl:template
+        match="identifier[@identifierType != 'DOI' and datacite_cmd:isAbsoluteUri(text())]"
+        mode="ResourceProxy">
         <cmd:ResourceProxy>
             <xsl:attribute name="id" select="generate-id(.)"/>
             <cmd:ResourceType>Resource</cmd:ResourceType>
-            <cmd:ResourceRef><xsl:value-of select="text()"/></cmd:ResourceRef>
+            <cmd:ResourceRef>
+                <xsl:value-of select="text()"/>
+            </cmd:ResourceRef>
         </cmd:ResourceProxy>
     </xsl:template>
-    
+
     <xsl:template match="identifier" mode="ResourceProxy">
-        <xsl:comment>Resource identifier cannot be converted to a ResourceRef: <xsl:value-of select="text()" /></xsl:comment>
+        <xsl:comment>Resource identifier cannot be converted to a ResourceRef: <xsl:value-of select="text()"/></xsl:comment>
     </xsl:template>
 
     <xsl:template match="/resource">
@@ -127,7 +131,7 @@
 
     <xsl:template name="component-section">
         <!-- IdentificationInfo -->
-        
+
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'IdentificationInfo'"/>
             <xsl:with-param name="content">
@@ -136,12 +140,12 @@
                     mode="IdentificationInfo.alternativeIdentifier"/>
             </xsl:with-param>
         </xsl:call-template>
-        
+
         <!-- TitleInfo -->
-        <xsl:apply-templates select="/resource/titles" mode="TitleInfo" />
-        
+        <xsl:apply-templates select="/resource/titles" mode="TitleInfo"/>
+
         <!-- Description -->
-        
+
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'Description'"/>
             <xsl:with-param name="content">
@@ -149,36 +153,34 @@
                     mode="Description.description"/>
             </xsl:with-param>
         </xsl:call-template>
-        
+
         <!-- Resource type -->
         <xsl:apply-templates select="/resource/resourceType" mode="ResourceType"/>
-        
+
         <!-- Version info -->
         <xsl:apply-templates select="/resource/version[1]" mode="VersionInfo"/>
-        
+
         <!-- Language -->
         <xsl:apply-templates select="/resource/language[1]" mode="Language"/>
-        
+
         <!-- Subject -->
         <xsl:apply-templates select="/resource/subjects/subject" mode="Subject"/>
 
         <!-- Creator -->
         <xsl:apply-templates select="/resource/creators/creator" mode="Creator"/>
-        
+
         <!-- Contributor -->
         <xsl:apply-templates select="/resource/contributors/contributor" mode="Contributor"/>
-        
+
         <!-- ProvenanceInfo -->
-        
+
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'ProvenanceInfo'"/>
             <xsl:with-param name="content">
                 <!-- Creation -->
-                <xsl:apply-templates select="/resource/dates"
-                    mode="ProvenanceInfo.Creation"/>
+                <xsl:apply-templates select="/resource/dates" mode="ProvenanceInfo.Creation"/>
                 <!-- Collection -->
-                <xsl:apply-templates select="/resource/dates"
-                    mode="ProvenanceInfo.Collection"/>
+                <xsl:apply-templates select="/resource/dates" mode="ProvenanceInfo.Collection"/>
                 <!-- Publication -->
                 <xsl:apply-templates select="/resource/publicationYear"
                     mode="ProvenanceInfo.Publication"/>
@@ -188,12 +190,12 @@
                     mode="ProvenanceInfo.Activity"/>
             </xsl:with-param>
         </xsl:call-template>
-        
+
         <!-- Subresource -->
         <xsl:apply-templates select="/resource" mode="Subresource"/>
-        
+
         <!-- AccessInfo -->
-        
+
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'AccessInfo'"/>
             <xsl:with-param name="content">
@@ -203,12 +205,12 @@
                 />
             </xsl:with-param>
         </xsl:call-template>
-        
+
         <!-- GeoLocation -->
         <xsl:apply-templates select="/resource/geoLocations/geoLocation" mode="GeoLocation"/>
-        
+
         <!-- FundingInfo -->
-        
+
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'FundingInfo'"/>
             <xsl:with-param name="content">
@@ -216,9 +218,9 @@
                     mode="Funding"/>
             </xsl:with-param>
         </xsl:call-template>
-        
+
         <!-- RelatedResource -->
-        <xsl:apply-templates select="/resource/relatedItems/relatedItem" mode="RelatedResource" />
+        <xsl:apply-templates select="/resource/relatedItems/relatedItem" mode="RelatedResource"/>
     </xsl:template>
 
     <xsl:template match="/resource/identifier" mode="IdentificationInfo.identifier">
@@ -262,7 +264,7 @@
             <!-- TOOD: other supported identifier types -->
         </xsl:choose>
     </xsl:template>
-    
+
     <xsl:template match="titles" mode="TitleInfo">
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'TitleInfo'"/>
@@ -307,7 +309,8 @@
         </description>
     </xsl:template>
 
-    <xsl:template match="resourceType/@resourceTypeGeneral|relatedItem/@relatedItemType" mode="ResourceType.identifier">
+    <xsl:template match="resourceType/@resourceTypeGeneral | relatedItem/@relatedItemType"
+        mode="ResourceType.identifier">
         <!-- 
                 The 'dcmitype' ontology is supported/recommended. See https://dublincore.org/specifications/dublin-core/dcmi-terms/#section-7. 
                 See https://sparontologies.github.io/datacite/current/datacite.html and https://databus.dbpedia.org/ontologies/purl.org/spar%2D%2Ddatacite        
@@ -373,20 +376,28 @@
             </code>
         </Language>
     </xsl:template>
-    
-    
+
+
     <!-- Subject -->
     <xsl:template match="subjects/subject" mode="Subject">
         <Subject>
             <xsl:if test="@valueURI">
-                <identifier><xsl:value-of select="@valueURI"/></identifier>
+                <identifier>
+                    <xsl:value-of select="@valueURI"/>
+                </identifier>
             </xsl:if>
-            <label><xsl:sequence select="text()" /></label>
+            <label>
+                <xsl:sequence select="text()"/>
+            </label>
             <xsl:if test="@subjectScheme">
-                <scheme><xsl:value-of select="@subjectScheme"/></scheme>
+                <scheme>
+                    <xsl:value-of select="@subjectScheme"/>
+                </scheme>
             </xsl:if>
             <xsl:if test="@schemeURI">
-                <schemeURI><xsl:value-of select="@schemeURI"/></schemeURI>
+                <schemeURI>
+                    <xsl:value-of select="@schemeURI"/>
+                </schemeURI>
             </xsl:if>
         </Subject>
     </xsl:template>
@@ -799,7 +810,8 @@
                     <FundingAgency>
                         <xsl:if test="funderIdentifier">
                             <identifier>
-                                <xsl:value-of select="funderIdentifier/@funderIdentifierType"/>: <xsl:value-of select="funderIdentifier"/>
+                                <xsl:value-of select="funderIdentifier/@funderIdentifierType"/>:
+                                    <xsl:value-of select="funderIdentifier"/>
                             </identifier>
                         </xsl:if>
                         <xsl:if test="funderName">
@@ -815,12 +827,14 @@
             </xsl:with-param>
         </xsl:call-template>
     </xsl:template>
-    
+
     <xsl:template match="*" mode="bibliographicCitation">
-        <xsl:param name="label" as="xs:string" select="datacite_cmd:firstToUpper(normalize-space(name()))" />
-        <bibliographicCitation><xsl:value-of select="$label"/>: <xsl:value-of select="text()"/></bibliographicCitation>
+        <xsl:param name="label" as="xs:string"
+            select="datacite_cmd:firstToUpper(normalize-space(name()))"/>
+        <bibliographicCitation><xsl:value-of select="$label"/>: <xsl:value-of select="text()"
+            /></bibliographicCitation>
     </xsl:template>
-    
+
     <xsl:template match="relatedItem" mode="RelatedResource.CitationInfo">
         <CitationInfo>
             <xsl:apply-templates select="publicationYear" mode="bibliographicCitation">
@@ -835,11 +849,11 @@
             <xsl:apply-templates select="lastPage" mode="bibliographicCitation">
                 <xsl:with-param name="label">Last page</xsl:with-param>
             </xsl:apply-templates>
-            <xsl:apply-templates select="publisher" mode="bibliographicCitation"/>            
+            <xsl:apply-templates select="publisher" mode="bibliographicCitation"/>
             <xsl:apply-templates select="edition" mode="bibliographicCitation"/>
         </CitationInfo>
     </xsl:template>
-    
+
     <xsl:template match="relatedItem" mode="RelatedResource">
         <RelatedResource>
             <!-- identifier -->
@@ -847,7 +861,8 @@
                 <identifier>
                     <xsl:choose>
                         <xsl:when test="datacite_cmd:isDOI(relatedItemIdentifier/text())">
-                            <xsl:value-of select="datacite_cmd:normalize_doi(relatedItemIdentifier/text())"/>
+                            <xsl:value-of
+                                select="datacite_cmd:normalize_doi(relatedItemIdentifier/text())"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:value-of select="relatedItemIdentifier/text()"/>
@@ -855,43 +870,47 @@
                     </xsl:choose>
                 </identifier>
             </xsl:if>
-            
+
             <!-- label -->
             <xsl:choose>
                 <xsl:when test="titles/title[not(@titleType)]">
                     <xsl:for-each select="titles/title[not(@titleType)]">
                         <label>
-                            <xsl:copy-of select="@xml:lang" />
+                            <xsl:copy-of select="@xml:lang"/>
                             <xsl:value-of select="."/>
                         </label>
                     </xsl:for-each>
                 </xsl:when>
             </xsl:choose>
             <xsl:if test="(relatedItemIdentifier/text() castable as xs:anyURI)">
-                <location><xsl:value-of select="relatedItemIdentifier/text()"/></location>
+                <location>
+                    <xsl:value-of select="relatedItemIdentifier/text()"/>
+                </location>
             </xsl:if>
-            
+
             <!-- TitleInfo -->
-            <xsl:apply-templates select="titles" mode="TitleInfo" />
-            
+            <xsl:apply-templates select="titles" mode="TitleInfo"/>
+
             <!-- ResourceType -->
             <xsl:if test="@relatedItemType">
                 <ResourceType>
-                    <xsl:apply-templates select="@relatedItemType" mode="ResourceType.identifier" />
-                    <label><xsl:value-of select="@relatedItemType"/></label>
+                    <xsl:apply-templates select="@relatedItemType" mode="ResourceType.identifier"/>
+                    <label>
+                        <xsl:value-of select="@relatedItemType"/>
+                    </label>
                 </ResourceType>
             </xsl:if>
-            
+
             <!-- CitationInfo -->
-            <xsl:apply-templates select="." mode="RelatedResource.CitationInfo" />
-            
+            <xsl:apply-templates select="." mode="RelatedResource.CitationInfo"/>
+
             <!-- Creator -->
-            <xsl:apply-templates select="creators/creator" mode="Creator" />
-            
+            <xsl:apply-templates select="creators/creator" mode="Creator"/>
+
             <!-- Contributor -->
-            <xsl:apply-templates select="contributors/contributor" mode="Contributor" />
+            <xsl:apply-templates select="contributors/contributor" mode="Contributor"/>
         </RelatedResource>
-    </xsl:template>    
+    </xsl:template>
 
     <!-- Helper templates and functions -->
 
@@ -904,11 +923,11 @@
             </xsl:element>
         </xsl:if>
     </xsl:template>
-    
-    
+
+
     <xsl:function name="datacite_cmd:isAbsoluteUri">
-        <xsl:param name="value" />
-        <xsl:sequence select="matches($value,'^(http|https|hdl|doi):.*$')" />
+        <xsl:param name="value"/>
+        <xsl:sequence select="matches($value, '^(http|https|hdl|doi):.*$')"/>
     </xsl:function>
 
     <xsl:function name="datacite_cmd:isDOI" as="xs:boolean">
@@ -950,21 +969,22 @@
             select="matches(normalize-space($value), '^(application|audio|image|message|multipart|text|video|font|example|model|image|text)/.+$', 'i')"
         />
     </xsl:function>
-    
+
     <xsl:function name="datacite_cmd:firstToUpper">
         <xsl:param name="value" as="xs:string"/>
         <xsl:choose>
             <xsl:when test="string-length($value) = 0">
-                <xsl:sequence select="''" />
+                <xsl:sequence select="''"/>
             </xsl:when>
             <xsl:when test="string-length($value) = 1">
-                <xsl:sequence select="upper-case($value)" />
+                <xsl:sequence select="upper-case($value)"/>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:value-of select="concat(upper-case(substring($value, 1,1)), substring($value, 2))"/>
+                <xsl:value-of
+                    select="concat(upper-case(substring($value, 1, 1)), substring($value, 2))"/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    
+
 
 </xsl:stylesheet>
