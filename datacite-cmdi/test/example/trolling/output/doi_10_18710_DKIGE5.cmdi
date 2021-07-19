@@ -201,7 +201,7 @@ title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/licenses/by/4.
 Therefore, the data from Pascoe (1987) as reused in the file "fvo_data_pascoe.csv" represent facts and are reused under Public Domain conditions as described here: &lt;a href="https://creativecommons.org/share-your-work/public-domain/pdm/" title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/share-your-work/public-domain/pdm/&lt;/a&gt;.</otherAccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
          </AccessInfo>
       </DataCiteRecord>

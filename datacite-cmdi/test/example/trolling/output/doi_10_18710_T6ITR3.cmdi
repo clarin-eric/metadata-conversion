@@ -183,7 +183,7 @@ general and in comparing frequency data from two languages. We broach this issue
          <AccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
             <Licence>
                <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>

@@ -85,7 +85,7 @@
          <AccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
          </AccessInfo>
       </DataCiteRecord>

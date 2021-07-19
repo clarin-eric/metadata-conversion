@@ -184,7 +184,7 @@ ities. We construct a database by extracting from the RNC gold standard 100 rand
          <AccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
             <Licence>
                <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>

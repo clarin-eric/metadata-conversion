@@ -165,7 +165,7 @@
 title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/licenses/by/4.0/&lt;/a&gt;.</otherAccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
          </AccessInfo>
       </DataCiteRecord>

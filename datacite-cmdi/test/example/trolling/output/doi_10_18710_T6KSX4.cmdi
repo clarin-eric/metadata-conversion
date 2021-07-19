@@ -227,7 +227,7 @@ tions. We test two different hypotheses: first, that constructional profiles can
          <AccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
             <Licence>
                <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>

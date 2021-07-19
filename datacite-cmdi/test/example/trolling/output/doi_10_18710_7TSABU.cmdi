@@ -196,7 +196,7 @@ Frequently used linguistic structures become entrenched in memory; this is often
          <AccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
             <Licence>
                <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>

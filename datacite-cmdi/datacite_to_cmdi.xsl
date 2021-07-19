@@ -707,20 +707,38 @@
     </xsl:template>
 
     <xsl:template match="rights[@rightsURI castable as xs:anyURI]" mode="AccessInfo.Licence">
-        <Licence>
-            <identifier>
-                <xsl:value-of select="@rightsURI"/>
-            </identifier>
-            <xsl:if test="@rightsIdentifier">
-                <identifier>
-                    <xsl:value-of select="@rightsIdentifier"/>
-                </identifier>
-            </xsl:if>
-            <label>
-                <xsl:copy-of select="@xml:lang"/>
-                <xsl:sequence select="text()"/>
-            </label>
-        </Licence>
+        <xsl:call-template name="wrapper-component">
+            <xsl:with-param name="name" select="'Licence'"/>
+            <xsl:with-param name="content">
+                <!--
+                    <Licence>
+                -->
+                <xsl:if test="@rightsURI">
+                    <identifier>
+                        <xsl:value-of select="@rightsURI"/>
+                    </identifier>
+                </xsl:if>
+                <xsl:if test="@rightsIdentifier">
+                    <identifier>
+                        <xsl:value-of select="@rightsIdentifier"/>
+                    </identifier>
+                </xsl:if>
+                <xsl:choose>
+                    <xsl:when test="normalize-space(text()) != ''">
+                        <label>
+                            <xsl:copy-of select="@xml:lang"/>
+                            <xsl:sequence select="text()"/>
+                        </label>
+                    </xsl:when>
+                    <xsl:when test="@rightsURI">
+                        <label><xsl:value-of select="@rightsURI"/></label>
+                    </xsl:when>
+                </xsl:choose>
+                <!--
+                    </Licence>
+                -->
+            </xsl:with-param>
+        </xsl:call-template>
     </xsl:template>
 
     <xsl:template match="rights" mode="AccessInfo.Licence">

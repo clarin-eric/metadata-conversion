@@ -106,7 +106,7 @@ We aim to present such a dataset for the period from 1500 to the present. It cov
          <AccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
          </AccessInfo>
          <GeoLocation>

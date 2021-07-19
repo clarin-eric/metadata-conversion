@@ -204,7 +204,7 @@ title="BNC" target="_blank"&gt;https://www.gov.uk/guidance/exceptions-to-copyrig
 &lt;/ul&gt;&lt;/p&gt;</otherAccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
          </AccessInfo>
       </DataCiteRecord>

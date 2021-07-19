@@ -134,7 +134,7 @@ The aim of this paper is to provide further support for one aspect of the analys
          <AccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
             <Licence>
                <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>

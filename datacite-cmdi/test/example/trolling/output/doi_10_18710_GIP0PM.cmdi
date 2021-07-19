@@ -219,7 +219,7 @@ According to UK Copyright Law (cf. &lt;a href="https://www.gov.uk/guidance/excep
 &lt;/ul&gt;&lt;/p&gt;</otherAccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/openAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/openAccess</label>
             </Licence>
          </AccessInfo>
          <FundingInfo>

@@ -270,7 +270,7 @@ Lemma and word form list for Norwegian Bokmål and Nynorsk.</description>
          <AccessInfo>
             <Licence>
                <identifier>info:eu-repo/semantics/closedAccess</identifier>
-               <label/>
+               <label>info:eu-repo/semantics/closedAccess</label>
             </Licence>
             <Licence>
                <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
