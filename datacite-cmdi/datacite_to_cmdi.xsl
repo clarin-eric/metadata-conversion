@@ -21,11 +21,12 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cmd="http://www.clarin.eu/cmd/1"
-    xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+    xmlns:datacite_oai="http://schema.datacite.org/oai/oai-1.1/"
     xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
     xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd"
-    xpath-default-namespace="http://datacite.org/schema/kernel-4" exclude-result-prefixes="xs"
+    xpath-default-namespace="http://datacite.org/schema/kernel-4" exclude-result-prefixes="xs datacite_oai datacite_cmd"
     version="2.0">
 
     <xsl:output indent="yes"/>
@@ -49,6 +50,31 @@
             >http://purl.org/dc/dcmitype/StillImage</datacite_cmd:entry>
         <datacite_cmd:entry key="Text">http://purl.org/dc/dcmitype/Text</datacite_cmd:entry>
     </xsl:variable>
+    
+    <xsl:template match="/datacite_oai:oai_datacite">
+        <xsl:apply-templates select="datacite_oai:payload/resource" mode="root" />
+    </xsl:template>
+    
+    <xsl:template match="/resource">
+        <xsl:apply-templates select="." mode="root" />
+    </xsl:template>
+    
+    <xsl:template match="/*" priority="-1">
+        <xsl:comment>Cannot convert metadata, no DataCite or DataCite OAI detected at root</xsl:comment>
+    </xsl:template>
+    
+    <xsl:template match="resource" mode="root">
+        <cmd:CMD CMDVersion="1.2"
+            xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+            <xsl:apply-templates select="." mode="header-section"/>
+            <xsl:apply-templates select="." mode="resource-section"/>
+            <cmd:Components>
+                <DataCiteRecord>
+                    <xsl:apply-templates select="." mode="component-section"/>
+                </DataCiteRecord>
+            </cmd:Components>
+        </cmd:CMD>
+    </xsl:template>
 
     <xsl:template match="identifier[@identifierType = 'DOI']" mode="ResourceProxy">
         <cmd:ResourceProxy>
@@ -85,22 +111,9 @@
         <xsl:comment>Resource identifier cannot be converted to a ResourceRef: <xsl:value-of select="text()"/></xsl:comment>
     </xsl:template>
 
-    <xsl:template match="/resource">
-        <cmd:CMD CMDVersion="1.2"
-            xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
-            <xsl:call-template name="header-section"/>
-            <xsl:call-template name="resource-section"/>
-            <cmd:Components>
-                <DataCiteRecord>
-                    <xsl:call-template name="component-section"/>
-                </DataCiteRecord>
-            </cmd:Components>
-        </cmd:CMD>
-    </xsl:template>
-
     <!-- Header section -->
 
-    <xsl:template name="header-section">
+    <xsl:template match="resource" mode="header-section">
         <cmd:Header>
             <!-- Metadata creator not in DataCite model - make this a parameter? -->
             <!--                <cmd:MdCreator>MdCreator1</cmd:MdCreator>-->
@@ -115,11 +128,11 @@
 
     <!-- Resources section -->
 
-    <xsl:template name="resource-section">
+    <xsl:template match="resource" mode="resource-section">
         <cmd:Resources>
             <cmd:ResourceProxyList>
                 <!-- there should be only one identifier -->
-                <xsl:apply-templates select="/resource/identifier[1]" mode="ResourceProxy"/>
+                <xsl:apply-templates select="identifier[1]" mode="ResourceProxy"/>
             </cmd:ResourceProxyList>
             <cmd:JournalFileProxyList/>
             <cmd:ResourceRelationList/>
@@ -129,7 +142,7 @@
 
     <!-- Component section -->
 
-    <xsl:template name="component-section">
+    <xsl:template match="resource" mode="component-section">
         <!-- IdentificationInfo -->
 
         <xsl:call-template name="wrapper-component">
@@ -142,35 +155,35 @@
         </xsl:call-template>
 
         <!-- TitleInfo -->
-        <xsl:apply-templates select="/resource/titles" mode="TitleInfo"/>
+        <xsl:apply-templates select="titles" mode="TitleInfo"/>
 
         <!-- Description -->
 
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'Description'"/>
             <xsl:with-param name="content">
-                <xsl:apply-templates select="/resource/descriptions/description"
+                <xsl:apply-templates select="descriptions/description"
                     mode="Description.description"/>
             </xsl:with-param>
         </xsl:call-template>
 
         <!-- Resource type -->
-        <xsl:apply-templates select="/resource/resourceType" mode="ResourceType"/>
+        <xsl:apply-templates select="resourceType" mode="ResourceType"/>
 
         <!-- Version info -->
-        <xsl:apply-templates select="/resource/version[1]" mode="VersionInfo"/>
+        <xsl:apply-templates select="version[1]" mode="VersionInfo"/>
 
         <!-- Language -->
-        <xsl:apply-templates select="/resource/language[1]" mode="Language"/>
+        <xsl:apply-templates select="language[1]" mode="Language"/>
 
         <!-- Subject -->
-        <xsl:apply-templates select="/resource/subjects/subject" mode="Subject"/>
+        <xsl:apply-templates select="subjects/subject" mode="Subject"/>
 
         <!-- Creator -->
-        <xsl:apply-templates select="/resource/creators/creator" mode="Creator"/>
+        <xsl:apply-templates select="creators/creator" mode="Creator"/>
 
         <!-- Contributor -->
-        <xsl:apply-templates select="/resource/contributors/contributor" mode="Contributor"/>
+        <xsl:apply-templates select="contributors/contributor" mode="Contributor"/>
 
         <!-- ProvenanceInfo -->
 
@@ -178,52 +191,52 @@
             <xsl:with-param name="name" select="'ProvenanceInfo'"/>
             <xsl:with-param name="content">
                 <!-- Creation -->
-                <xsl:apply-templates select="/resource/dates" mode="ProvenanceInfo.Creation"/>
+                <xsl:apply-templates select="dates" mode="ProvenanceInfo.Creation"/>
                 <!-- Collection -->
-                <xsl:apply-templates select="/resource/dates" mode="ProvenanceInfo.Collection"/>
+                <xsl:apply-templates select="dates" mode="ProvenanceInfo.Collection"/>
                 <!-- Publication -->
-                <xsl:apply-templates select="/resource/publicationYear"
+                <xsl:apply-templates select="publicationYear"
                     mode="ProvenanceInfo.Publication"/>
                 <!-- other activities -->
                 <xsl:apply-templates
-                    select="/resource/dates/date[@dateType != 'Created' and @dateType != 'Collected']"
+                    select="dates/date[@dateType != 'Created' and @dateType != 'Collected']"
                     mode="ProvenanceInfo.Activity"/>
             </xsl:with-param>
         </xsl:call-template>
 
         <!-- Subresource -->
-        <xsl:apply-templates select="/resource" mode="Subresource"/>
+        <xsl:apply-templates select="." mode="Subresource"/>
 
         <!-- AccessInfo -->
 
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'AccessInfo'"/>
             <xsl:with-param name="content">
-                <xsl:apply-templates select="/resource/rightsList/rights"
+                <xsl:apply-templates select="rightsList/rights"
                     mode="AccessInfo.otherAccessInfo"/>
-                <xsl:apply-templates select="/resource/rightsList/rights" mode="AccessInfo.Licence"
+                <xsl:apply-templates select="rightsList/rights" mode="AccessInfo.Licence"
                 />
             </xsl:with-param>
         </xsl:call-template>
 
         <!-- GeoLocation -->
-        <xsl:apply-templates select="/resource/geoLocations/geoLocation" mode="GeoLocation"/>
+        <xsl:apply-templates select="geoLocations/geoLocation" mode="GeoLocation"/>
 
         <!-- FundingInfo -->
 
         <xsl:call-template name="wrapper-component">
             <xsl:with-param name="name" select="'FundingInfo'"/>
             <xsl:with-param name="content">
-                <xsl:apply-templates select="/resource/fundingReferences/fundingReference"
+                <xsl:apply-templates select="fundingReferences/fundingReference"
                     mode="Funding"/>
             </xsl:with-param>
         </xsl:call-template>
 
         <!-- RelatedResource -->
-        <xsl:apply-templates select="/resource/relatedItems/relatedItem" mode="RelatedResource"/>
+        <xsl:apply-templates select="relatedItems/relatedItem" mode="RelatedResource"/>
     </xsl:template>
 
-    <xsl:template match="/resource/identifier" mode="IdentificationInfo.identifier">
+    <xsl:template match="resource/identifier" mode="IdentificationInfo.identifier">
         <xsl:element name="identifier">
             <xsl:choose>
                 <xsl:when test="normalize-space(@identifierType | @alternateIdentifierType) = 'DOI'">
@@ -239,7 +252,7 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="/resource/alternateIdentifiers/alternateIdentifier"
+    <xsl:template match="resource/alternateIdentifiers/alternateIdentifier"
         mode="IdentificationInfo.alternativeIdentifier">
         <xsl:element name="alternativeIdentifier">
             <xsl:choose>
@@ -302,7 +315,7 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="/resource/descriptions/description" mode="Description.description">
+    <xsl:template match="resource/descriptions/description" mode="Description.description">
         <description>
             <xsl:copy-of select="@xml:lang"/>
             <xsl:sequence select="text()"/>
@@ -328,7 +341,7 @@
         </xsl:if>
     </xsl:template>
 
-    <xsl:template match="/resource/resourceType" mode="ResourceType">
+    <xsl:template match="resource/resourceType" mode="ResourceType">
         <ResourceType>
 
             <!-- Identifier from @resourceTypeGeneral attribute -->
@@ -353,7 +366,7 @@
         </ResourceType>
     </xsl:template>
 
-    <xsl:template match="/resource/version" mode="VersionInfo">
+    <xsl:template match="resource/version" mode="VersionInfo">
         <VersionInfo>
             <versionIdentifier>
                 <xsl:sequence select="text()"/>
@@ -361,7 +374,7 @@
         </VersionInfo>
     </xsl:template>
 
-    <xsl:template match="/resource/language[1]" mode="Language">
+    <xsl:template match="resource/language[1]" mode="Language">
         <!-- TODO: convert to ISO-639-3 -->
         <xsl:variable name="iso639-3-code" select="datacite_cmd:toISO693-3(text())"/>
 
@@ -604,7 +617,7 @@
     </xsl:template>
 
     <!-- Provenance: Publication -->
-    <xsl:template match="/resource/publicationYear" mode="ProvenanceInfo.Publication">
+    <xsl:template match="resource/publicationYear" mode="ProvenanceInfo.Publication">
         <Publication>
             <ActivityInfo>
                 <When>
