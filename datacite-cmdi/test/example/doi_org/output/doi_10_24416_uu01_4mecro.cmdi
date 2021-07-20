@@ -142,6 +142,19 @@ Please see the GitHub repository https://github.com/lorellav/GeoNewsMiner#chroni
          <GeoLocation>
             <label>Pennsylvania</label>
          </GeoLocation>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
       </DataCiteRecord>
    </cmd:Components>
 </cmd:CMD>

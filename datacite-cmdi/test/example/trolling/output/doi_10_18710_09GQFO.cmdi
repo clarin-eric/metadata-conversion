@@ -10,7 +10,7 @@
    </cmd:Header>
    <cmd:Resources>
       <cmd:ResourceProxyList>
-         <cmd:ResourceProxy id="d1e3">
+         <cmd:ResourceProxy id="d4e3">
             <cmd:ResourceType>Resource</cmd:ResourceType>
             <cmd:ResourceRef>https://doi.org/10.18710/09GQFO</cmd:ResourceRef>
          </cmd:ResourceProxy>
@@ -326,6 +326,19 @@
          <GeoLocation>
             <label>Tromsø</label>
          </GeoLocation>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
       </DataCiteRecord>
    </cmd:Components>
 </cmd:CMD>
