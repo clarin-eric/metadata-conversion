@@ -9,7 +9,12 @@
       <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
    </cmd:Header>
    <cmd:Resources>
-      <cmd:ResourceProxyList/>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d4e15">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.24416/UU01-4MECRO</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
       <cmd:JournalFileProxyList/>
       <cmd:ResourceRelationList/>
    </cmd:Resources>

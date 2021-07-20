@@ -39,7 +39,7 @@
     <xsl:include href="datacite_to_cmdi-kernel4.xsl"/>
     
     <xsl:template match="/datacite_oai:oai_datacite">
-        <xsl:apply-templates select="datacite_oai:payload/(datacite_3:resource|/datacite_4:resource)" mode="root" />
+        <xsl:apply-templates select="datacite_oai:payload/*" mode="root" />
     </xsl:template>
     
     <xsl:template match="/datacite_3:resource|/datacite_4:resource">
@@ -47,7 +47,11 @@
     </xsl:template>
     
     <xsl:template match="/*" priority="-1">
-        <xsl:comment>Main template: cannot convert metadata, no DataCite or DataCite OAI detected at root</xsl:comment>
+        <xsl:comment>ERROR in main template: cannot convert metadata, no DataCite or DataCite OAI detected at root</xsl:comment>
+    </xsl:template>
+    
+    <xsl:template match="*" priority="-1" mode="root">
+        <xsl:comment>ERROR in main template: cannot convert metadata, no DataCite or DataCite OAI detected at (payload) root</xsl:comment>
     </xsl:template>
     
 </xsl:stylesheet>
