@@ -88,7 +88,7 @@
             <!--                <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>-->
             <!-- Can we generate a selflink? -->
             <!--                <cmd:MdSelfLink>http://www.oxygenxml.com/</cmd:MdSelfLink>-->
-            <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+            <cmd:MdProfile><xsl:value-of select="$cmdiProfileId"/></cmd:MdProfile>
             <!--<cmd:MdCollectionDisplayName>MdCollectionDisplayName0</cmd:MdCollectionDisplayName>-->
         </cmd:Header>
     </xsl:template>
@@ -201,6 +201,9 @@
 
         <!-- RelatedResource -->
         <xsl:apply-templates select="relatedItems/relatedItem" mode="RelatedResource"/>
+        
+        <!-- MetadataInfo -->
+        <xsl:apply-templates select="." mode="MetadataInfo" />
     </xsl:template>
 
     <xsl:template match="resource/identifier" mode="IdentificationInfo.identifier">
@@ -861,6 +864,22 @@
             <!-- Contributor -->
             <xsl:apply-templates select="contributors/contributor" mode="Contributor"/>
         </RelatedResource>
+    </xsl:template>
+    
+    <xsl:template match="resource" mode="MetadataInfo">
+        <MetadataInfo>
+            <ProvenanceInfo>
+                <Activity>
+                    <label>Conversion</label>
+                    <note>Conversion from DataCite (<xsl:value-of select="namespace-uri()"/>) to CMD (profile <xsl:value-of select="$cmdiProfileId"/>)</note>
+                    <ActivityInfo>
+                        <When>
+                            <date><xsl:value-of select="current-date()"/></date>
+                        </When>
+                    </ActivityInfo>
+                </Activity>
+            </ProvenanceInfo>
+        </MetadataInfo>
     </xsl:template>
     
 </xsl:stylesheet>

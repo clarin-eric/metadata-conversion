@@ -25,6 +25,8 @@
     xpath-default-namespace="http://datacite.org/schema/kernel-3" exclude-result-prefixes="xs datacite_cmd"
     version="2.0">
     
+    <xsl:variable name="cmdiProfileId">clarin.eu:cr1:p_1610707853541</xsl:variable>
+    
     <xsl:variable name="resourceTypeUris">
         <datacite_cmd:entry key="Collection"
             >http://purl.org/dc/dcmitype/Collection</datacite_cmd:entry>
