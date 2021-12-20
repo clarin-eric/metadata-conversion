@@ -1,0 +1,2701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="18.1">
+    <meta>
+        <filters directoryPatterns="" filePatterns="datacite-cmdi.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized version="18.1" xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>scenario.associations</String>
+                        <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/oai_datacite/1000389.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/oai_datacite/UU01-4MECRO.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/oai_datacite/output/UU01-4MECRO.cmdi</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/oai:oai.datacite.org:15037124_datacite.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/oai:oai.datacite.org:15037124_datacite.cmdi</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_cipbjb.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_c5pe8e.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_c3wpsv.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_93dqs5.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_4mecro.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_3wo479.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_2so9te.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/afp/adp_ads974_v1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/celr/ty_0005.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/instance1.cmdi</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_ym9vpp.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_y3fhkz.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_t4ymow.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_sjrwjc.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_s1tz43.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_rjxgm6.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_o8zd60.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_n8q1ro.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_llh047.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_kil8qr.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_k7noir.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_jmvrx0.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_j8mruc.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_org/doi_10_24416_uu01_i6jrsd.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/hdl_10037_1_10196.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_ZYOAXC.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_ZGAYDT.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_ZAM96S.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_YRIQ2V.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_YDKDFG.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_XYMXPC.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_X5ZFXZ.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_WR4Y0Q.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_WAKCKT.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_VWDJ1Y.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_VREGYP.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_VGPNQQ.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_VDWPZS.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_V9D674.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_V8CAOU.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_UDVRZM.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_TZYDNQ.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_TZBAOR.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_TWM79F.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_TU1GSY.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_TP3TIY.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_TJUSQA.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_TBWFYV.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_T9NQ9L.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_T6ITR3.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_T6KSX4.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_SJ4OQE.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_SEDBXL.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_SE00DS.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_S5SXRG.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_RAWN5R.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_R4E1EW.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_R2SZVK.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_QULOBC.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_QKHCVE.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_QGXLQR.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_QAJKZW.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_PUXWXL.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_PP1GT2.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_PGDWXC.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_PAKDS9.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_P9REAV.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_OHPUPU.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_NYY2DV.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_NTLLUF.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_NL8UQC.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_NFNB8D.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_N8KO4O.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_MTEQYP.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_MP1JF6.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_MJDL3F.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_MIFRWN.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_LAMNKW.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_KR5RRK.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_K1NJBT.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_JGVGQH.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_JFNESU.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_JEWIVW.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_IORWF6.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_IOCDRU.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_HZZOOU.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_HZKYL4.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_HXUJQW.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_HSK0LE.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_GSV27M.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_GSI6B4.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_GIP0PM.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_GF8QZ5.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_G6PJ5F.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_FKJAJR.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_FERT42.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_F1A34O.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_DYAGZG.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_DNIQAS.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_DKIGE5.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_DG75YC.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_CYPRAY.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_CVQPYG.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_BUGMHY.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_BIIGT6.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_BFFMPH.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_B276ZX.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_ATIRRV.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_AGL9FD.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_ADPC3A.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_AAZVJH.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_A3SATC.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_700FNV.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_54ZJGQ.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_9BAXWN.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_09GQFO.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_8GQV9V.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_8ECVSD.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_8W7AEL.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_8E0X4R.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_7TSABU.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_7NLJSG.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_6HUAMB.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_5N34CG.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_4XTXMH.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_4QHOBK.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_3YNHO7.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_3PKATY.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_2NKJPG.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_2YJITD.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_1GNZSC.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_1JMFVR.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_1J0YZG.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_0JC95M.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_18710_0U0KN2.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/trolling/doi_10_5072_FK2_VA3BVU.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>https://api.datacite.org/application/vnd.datacite.datacite+xml/10.15155/ty.0005</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>https://api.datacite.org/application/vnd.datacite.datacite+xml/10.17898/adp_ads974_v1</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI - quiet</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/oai:oai.datacite.org:15037124_oai_dc.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>oai:oai</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/vcr-1036.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/doi_10_24416_uu01_2so9te.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../test-oai-harvest/output/trolling-datacite/workdir/test-test/oai-rec/DataverseNO/doi_10_18710_2YJITD.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../test-oai-harvest/output/datacite/workdir/test-test/results/datacite/DataCite/doi_10_24416_uu01_2so9te.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>vcr-1036.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/zenodo-datafile.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/example/zenodo-document.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>test/instance1.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DataCite to CMDI</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../Downloads/oai.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>filter europeana</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../../../../Downloads/oai2.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>filter europeana</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                        </scenarioAssociation-array>
+                    </entry>
+                    <entry>
+                        <String>scenarios</String>
+                        <scenario-array>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>DataCite to CMDI</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/datacite_to_cmdi.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>output/${cfn}.cmdi</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>output/${cfn}.cmdi</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-HE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>DataCite to CMDI - quiet</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/datacite_to_cmdi.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>output/${cfn}.cmdi</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>output/${cfn}.cmdi</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-HE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>filter europeana</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>file:/Users/twagoo/Downloads/filter.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list>
+                                        <transformationParameter>
+                                            <field name="paramDescription">
+                                                <paramDescriptor>
+                                                    <field name="localName">
+                                                        <String>selectionDoc</String>
+                                                    </field>
+                                                    <field name="prefix">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="namespace">
+                                                        <null/>
+                                                    </field>
+                                                </paramDescriptor>
+                                            </field>
+                                            <field name="value">
+                                                <String>selection.xml</String>
+                                            </field>
+                                            <field name="hasXPathValue">
+                                                <Boolean>false</Boolean>
+                                            </field>
+                                        </transformationParameter>
+                                    </list>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-HE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>oai:oai</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>file:/Users/twagoo/Documents/Repositories/git/metadata-conversion/olac-cmdi/olac2cmdi.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-HE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                        </scenario-array>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="datacite-cmdi.xpr">
+        <folder path="."/>
+    </projectTree>
+</project>

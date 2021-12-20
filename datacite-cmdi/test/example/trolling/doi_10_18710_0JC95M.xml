@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.1/metadata.xsd">
+    <identifier identifierType="Handle">10037.1/10138</identifier>
+    <creators>
+        <creator>
+            <creatorName nameType="Personal">Nordrum, Maria</creatorName>
+            <givenName>Maria</givenName>
+            <familyName>Nordrum</familyName>
+            <affiliation>UiT The Arctic University of Norway</affiliation>
+        </creator>
+    </creators>
+    <titles>
+        <title>Replication data for: Prefix variation in путать: в-. за-, пере- and с-</title>
+    </titles>
+    <publisher>DataverseNO</publisher>
+    <publicationYear>2014</publicationYear>
+    <subjects>
+        <subject subjectScheme="&lt;not applicable>">Russian</subject>
+        <subject>aspect</subject>
+        <subject>prefix variation</subject>
+        <subject>Natural Perfectives</subject>
+        <subject>classification tree analysis</subject>
+        <subject>second language learning</subject>
+        <subject subjectScheme="&lt;Time depth: Choose one or more>">Field: Morphology</subject>
+        <subject>Time-depth: synchronic</subject>
+        <subject>Topic: aspect</subject>
+        <subject>Topic: affixes</subject>
+        <subject>Topic: verbs</subject>
+    </subjects>
+    <contributors>
+        <contributor contributorType="ContactPerson">
+            <contributorName nameType="Personal">Nordrum, Maria</contributorName>
+            <givenName>Maria</givenName>
+            <familyName>Nordrum</familyName>
+            <affiliation>UiT The Arctic University of Norway</affiliation>
+        </contributor>
+        <contributor contributorType="Producer">
+            <contributorName nameType="Personal">Nordrum, Maria</contributorName>
+            <givenName>Maria</givenName>
+            <familyName>Nordrum</familyName>
+            <affiliation>UiT The Arctic University of Norway</affiliation>
+        </contributor>
+        <contributor contributorType="Distributor">
+            <contributorName nameType="Organizational">UiT Open Research Data</contributorName>
+            <affiliation>UiT The Arctic University of Norway</affiliation>
+        </contributor>
+    </contributors>
+    <dates>
+        <date dateType="Issued">2014-11</date>
+        <date dateType="Created">2014-06</date>
+        <date dateType="Submitted">2014-11-04</date>
+        <date dateType="Updated">2014-11-07</date>
+    </dates>
+    <resourceType resourceTypeGeneral="Dataset">corpus</resourceType>
+    <sizes>
+        <size>110637</size>
+        <size>10169</size>
+        <size>411</size>
+    </sizes>
+    <formats>
+        <format>application/octet-stream</format>
+        <format>text/plain; charset=US-ASCII</format>
+        <format>text/plain; charset=US-ASCII</format>
+    </formats>
+    <version>1.0</version>
+    <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess"/>
+        <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/">CC0 Waiver</rights>
+    </rightsList>
+    <descriptions>
+        <description descriptionType="Abstract">This case study of the four Natural Perfectives of
+            the Russian simplex verb путать ‘tangle’ sheds light on the following questions: Is it
+            possible to predict the choice of prefix when there is prefix variation in Russian? And
+            if yes, how? Since these questions are particularly relevant for second-language
+            learners, the author also discusses how the present study and similar ones, can be used
+            to make second language learning of Russian more effective. The analysis is based on a
+            database of 630 sentences from the Russian National Corpus (RNC) and takes two factors
+            into consideration: type of construction and semantic category of the internal
+            argument.</description>
+        <description descriptionType="Abstract">The uploaded data contain 3 files: "Database,
+            everything": Each sentence is tagged according to prefix, form of the verb (Active vs
+            Passive), type of construction and semantic category of the internal argument. The four
+            types of constructions and four types of semantic categories are explained with examples
+            from the database inside the article. "Database_simplified": This version of the
+            database contains the three parameters for the sentences: prefix, type of construction
+            and semantic category of the internal argument. The simplified database was created to
+            do statistical analyses in R. "R_putat": The R script that was used in order to produce
+            the cTree which is presented in the article.</description>
+    </descriptions>
+    <geoLocations/>
+</resource>

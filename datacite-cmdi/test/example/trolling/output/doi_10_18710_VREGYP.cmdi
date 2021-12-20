@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d4e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/VREGYP</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/VREGYP</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication data for: La segunda persona objetivadora (tú) en las redes sociales y revistas: Datos de textos escritos</title>
+            <alternativeTitle>Replication data for: The second objectifying person 'you' (tú) in the written discourse of social networks and magazines: Written text data</alternativeTitle>
+         </TitleInfo>
+         <Description>
+            <description>This database concerns the use of the second person singular as an objectifying resource in the written texts of social networks and magazines. This phenomenon has different variants, so the use of the second objectifying person and its variables have been analyzed. These variants are: the expression or omission of the pronoun, the communicative field, the textual gender, the speaker and listener, the socio-professional ascription and the genericity inducers (the elements that co-appear with this phenomenon). The examples obtained have been taken from the social networks Facebook, Instagram and Twitter. Regarding the magazines, the examples have been obtained from different men's and women's magazines. We analyzed 300 texts from social networks and 30 from magazine, so we collected 1201 examples of the use of the second person singular with objectifying value from social networks and magazines.</description>
+            <description>Publication Abstract: The second person of the singular tú in Spanish may acquire two different kinds of references, depending on the discursive and communicative situations in which it is used. The first use is the deictic, that is, the one that appeals directly to the interlocutor. The second use of this pronoun is non-deictic, that is, it is used not to refer to a real listener, but to convey general or nonspecific meanings. This phenomenon has been labeled as generic or non-specific tú. However, in recent research that has delved into the cognitive and discursive properties of this usage, they have chosen to name it as objectivizing second-person singular tú due to its being a communicative resource that tends to express the discourse objectively through cognitive salience. We will analyze the use of the second person of the singular “you” (tú) as an objectifying resource in the written discourse of social networks and magazines, departing from the idea that the functions that most appear in both areas are the expression of opinions, arguments or own ideas and own personal experience. Therefore, this phenomenon should be used to construct a meaning that helps to achieve such a communicative goal. This usage presents the possibility that the pronoun appears express or omitted, that implies that each of these variants expresses a different objective meaning. Furthermore, there are grammatical elements or genericity inductors that promote that objectifying use of the pronoun tú.</description>
+            <description>Rbrul, 3.1.3</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>textual data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.1</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Objectivity</label>
+         </Subject>
+         <Subject>
+            <label>pronoun you</label>
+         </Subject>
+         <Subject>
+            <label>variation</label>
+         </Subject>
+         <Subject>
+            <label>Spanish</label>
+         </Subject>
+         <Subject>
+            <label>social networks</label>
+         </Subject>
+         <Subject>
+            <label>magazines</label>
+         </Subject>
+         <Subject>
+            <label>deixis</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0003-0798-7840</identifier>
+            <label>González Abrante, Zaida</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>González Abrante, Zaida</name>
+                  <alternativeName type="givenName">Zaida</alternativeName>
+                  <alternativeName type="familyName">González Abrante</alternativeName>
+                  <affiliation>Universidad de La Laguna</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>González Abrante, Zaida</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>González Abrante, Zaida</name>
+                  <alternativeName type="givenName">Zaida</alternativeName>
+                  <alternativeName type="familyName">González Abrante</alternativeName>
+                  <affiliation>Universidad de La Laguna</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Universidad de La Laguna</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Universidad de La Laguna</name>
+                  <alternativeName type="givenName">de</alternativeName>
+                  <alternativeName type="familyName">versidad de La Laguna</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-03-31</date>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2020</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-11-09</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-12-10</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/comma-separated-values</mediaType>
+               <!--Size: 7167-->
+               <!--Size: 360960-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>info:eu-repo/semantics/openAccess</label>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

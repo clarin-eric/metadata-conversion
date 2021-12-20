@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d4e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/GIP0PM</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/GIP0PM</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Modal verbs of strong obligation in Scottish Standard English: Corpus data</title>
+         </TitleInfo>
+         <Description>
+            <description>The dataset contains instances of the (semi-)modal verbs 'must', 'have to', 'need to' and '(have) got to' from nineteen written and spoken genres in the Scottish and British components of the International Corpus of English (ICE-SCO and ICE-GB). Nonfinite forms (e.g. 'will have to', 'might need to'), interrogatives, past-tense forms, as well as negations were excluded (partly through non-inclusion in the search, partly manually), as were all epistemic instances (predominantly of 'must') and non-obligation meanings of 'got to' (e.g. 'They got to be friends'). The sentences attached to each occurrence were manually annotated for grammatical person (of the subject) and source of obligation (objective vs. subjective).</description>
+            <description>AntConc, 3.5.7</description>
+            <description>R, 3.6.2</description>
+            <description>RStudio, 1.2.5033</description>
+            <description>R package 'brms', 3.6.2</description>
+            <description>R package 'rstan', 2.19.3</description>
+            <description>R package 'StanHeaders', 2.21.0-1</description>
+            <description>R package 'lattice', 0.20-38</description>
+            <description>https://www.ice-corpora.uzh.ch/en.html [ICE-website at the University of Zurich]&#xD;
+&#xD;
+Kirk, John &amp; Gerald Nelson. 2018. The International Corpus of English project: A progress report. World Englishes 34(4): 697–716.  https://doi.org/10.1111/weng.12350&#xD;
+&#xD;
+Nelson, Gerald, Sean Wallis &amp; Bas Aarts. 2002. Exploring Natural Language. Working with the British Component of the International Corpus of English. Amsterdam: John Benjamins.&#xD;
+&#xD;
+Schützler, Ole, Ulrike Gut &amp; Robert Fuchs. 2017. New perspectives on Scottish Standard English: Introducing the Scottish component of the International Corpus of English. In: Joan C. Beal &amp; Sylvie Hancil (Hg.), Perspectives on northern Englishes. Berlin: Mouton de Gruyter [TiEL 96]. 273–302. https://doi.org/10.1515/9783110450903-012</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>Corpus data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>Scottish Standard English</label>
+         </Subject>
+         <Subject>
+            <label>Modal verbs</label>
+         </Subject>
+         <Subject>
+            <label>Obligation</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0001-8868-0191</identifier>
+            <label>Schützler, Ole</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Schützler, Ole</name>
+                  <alternativeName type="givenName">Ole</alternativeName>
+                  <alternativeName type="familyName">Schützler</alternativeName>
+                  <affiliation>Otto-Friedrich-Universität Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Herzky, Jenny</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Herzky, Jenny</name>
+                  <alternativeName type="givenName">Jenny</alternativeName>
+                  <alternativeName type="familyName">Herzky</alternativeName>
+                  <affiliation>Otto-Friedrich-Universität Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Schützler, Ole</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Schützler, Ole</name>
+                  <alternativeName type="givenName">Ole</alternativeName>
+                  <alternativeName type="familyName">Schützler</alternativeName>
+                  <affiliation>Otto-Friedrich-Universität Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Otto-Friedrich-Universität Bamberg</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Otto-Friedrich-Universität Bamberg</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Deutsche Forschungsgemeinschaft</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>Deutsche Forschungsgemeinschaft</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Li, Zeyu</label>
+            <role>Other</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Li, Zeyu</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2019-01-01</start>
+                     <end>2019-12-01</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2021</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-02-06</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-02-19</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <!--Size: 7011-->
+               <!--Size: 123096-->
+               <!--Size: 48660-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <otherAccessInfo>&lt;p&gt;This dataset, "Modal verbs of strong obligation in Scottish Standard English: Corpus data", may be reused according to the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license as described here: &lt;a href="https://creativecommons.org/licenses/by-nc/4.0/"title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/licenses/by-nc/4.0&lt;/a&gt;.&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;This dataset contains data from two components of the  International Corpus of English (ICE), namely the British and the Scottish components.&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;ICE-Scotland has partly been (and will continue to be) published under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany (CC BY-NC-SA 3.0 DE) licence.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;The license for ICE-GB (as given in the file "Corpus_licences.pdf") includes the following conditions:&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;“The Corpus […] must be used for non-profit educational purposes only. The licence cannot be transferred, lent, or resold.”&lt;/li&gt;&#xD;
+&lt;li&gt;“Copyright in all ICE-GB Texts is retained by the original copyright holders.”&lt;/li&gt;&#xD;
+&lt;li&gt;“The Licensee agrees not to reproduce or redistribute the ICE-GB Texts or to use all or any part of the ICE-GB Texts in any commercial product or service.”&lt;/li&gt;&#xD;
+&lt;li&gt;“Publications based on the ICE-GB Corpus may include citations from ICE-GB Texts only in a way which would be permitted under the fair dealings provision of copyright law.”&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;In this dataset, "Modal verbs of strong obligation in Scottish Standard English: Corpus data", the data file “modals.csv” contains statistical data / calculations based on two national components of the ICE. In addition, the files contain&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;the keywords which the ICE was searched for, and for each token&lt;/li&gt;&#xD;
+&lt;li&gt;the genre indication used in ICE, and&lt;/li&gt;&#xD;
+&lt;li&gt;the unique alpha-numeric identifier used in ICE.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;However, the files do not contain any coherent (parts of) utterances which the keywords were found in as all context was removed from the data files.&lt;/p&gt;&#xD;
+&lt;p&gt;&#xD;
+According to UK Copyright Law (cf. &lt;a href="https://www.gov.uk/guidance/exceptions-to-copyright#fair-dealing"title="BNC" target="_blank"&gt;https://www.gov.uk/guidance/exceptions-to-copyright#fair-dealing&lt;/a&gt;), “[f]actors that have been identified by the courts as relevant in determining whether a particular dealing with a work is fair include:&lt;ul&gt;&#xD;
+&lt;li&gt;"does using the work affect the market for the original work? If a use of a work acts as a substitute for it, causing the owner to lose revenue, then it is not likely to be fair"&lt;/li&gt;&#xD;
+&lt;li&gt;"is the amount of the work taken reasonable and appropriate? Was it necessary to use the amount that was taken? Usually only part of a work may be used”&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;The extracts used in this present dataset may be said to represent fair dealing according to both these factors:&lt;ul&gt;&#xD;
+&lt;li&gt;The extracted material does not affect the market for the original work, as it is unlikely that any researcher would refrain from using the ICE because of the availability of the extracted material contained in the present dataset.&lt;/li&gt;&#xD;
+&lt;li&gt;The amount of the extracted work is reasonable and appropriate as it was necessary to carry out the study, and as it is necessary to replicate the study. Also, the extracted material does not even contain the context for the keywords, and publishing the data files does therefore not infringe the copyright of the original IPR holders.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&lt;/p&gt;</otherAccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>info:eu-repo/semantics/openAccess</label>
+            </Licence>
+         </AccessInfo>
+         <FundingInfo>
+            <Funding>
+               <grantNumber>SCHU 3250/1-1</grantNumber>
+               <FundingAgency>
+                  <label>Deutsche Forschungsgemeinschaft (DFG)</label>
+               </FundingAgency>
+            </Funding>
+         </FundingInfo>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

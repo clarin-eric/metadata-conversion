@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList><!--Resource identifier cannot be converted to a ResourceRef: 10037.1/10074--></cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier>10037.1/10074</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication data for: Old Church Slavonic byti Part One and Part Two</title>
+         </TitleInfo>
+         <Description>
+            <description>Abstract Part One. There is controversy over whether byti ‘be’ in Old Church Slavonic functioned as an imperfective verb with an unusually large number of inflected forms or as an aspectual pair of verbs, reflecting its suppletive origin from two stems (es- and bū-). We offer an objective empirical approach to the status of this verb, using statistical analysis of 2,428 attestations of byti in comparison with 9,694 attestations of 129 other verbs. This makes it possible to accurately locate byti in the context of the verbal lexicon of Old Church Slavonic. The comparison is made via grammatical profiles, a method that examines the frequency distribution of each verb’s inflected forms.  This comparison is undertaken in two rounds, one assuming that byti is a single verb, and the other assuming that it is a pair of verbs. Both assumptions yield reasonable results, and although the grammatical profile analyses do not suffice to solve the controversy, they lay the groundwork for further analysis in Part Two that argues for a single-verb interpretation of byti.  Data and R Scripts Part One:  The Dat
+a Our analysis uses two datasets, one that presents the forms of byti as a single paradigm, verbs.csv, and one that presents it as a pair of verbs, splitverbs.csv. The R Scripts In order to represent the Church Slavonic orthography, you will need our transliteration script: translit.r. This script is sourced by the scripts for our analysis which present byti as either a single verb or a verb pair: PartOneSingleVerb.r and PartOneVerbPair.r . This script performs all of the steps for the analysis in our article and generates the plots.</description>
+            <description>Abstract Part Two: The verb byti ‘be’ in Old Church Slavonic appears in an unusually rich inventory of grammatical constructions that it appears in. We analyze corpus data on the distribution of constructions in order to assess the status of this verb as either a single verb or an aspectual pair of verbs. Our study moves beyond a strict structuralist interpretation of the behavior of byti, instead recognizing the real variation and ambiguity in the data. Our findings make both theoretical and descriptive advances. The radial category structure is a central tenet of cognitive linguistics, but until now such structures have usually been posited by researchers based on their qualitative insights from data. We show that it is possible to identify both the nodes and the structure of a radial category statistically, using only linguistic data as input. We provide an enhanced description of byti that clearly distinguishes between core uses and those that are more peripheral and shows the relationships among them. While we find some evidence in support of an aspectual pair, most evidence points instead toward a single verb. Data and R Script Part Two: The Data The dataset used in this analysis is frames.csv. The R Script The R script used in this analysis is PartTwo.r.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Old Church Slavonic</label>
+            <scheme>&lt;not applicable&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>grammatical constructions</label>
+         </Subject>
+         <Subject>
+            <label>aspect</label>
+         </Subject>
+         <Subject>
+            <label>Field: Morphology</label>
+            <scheme>&lt;Field term: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Time-depth: diachronic</label>
+            <scheme>&lt;Time depth: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Topic: verbs</label>
+            <scheme>&lt;Topic: Choose one or more&gt;</scheme>
+         </Subject>
+         <Creator>
+            <label>Eckhoff, Hanne M.</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Eckhoff, Hanne M.</name>
+                  <alternativeName type="givenName">Hanne M.</alternativeName>
+                  <alternativeName type="familyName">Eckhoff</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Nesset, Tore</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nesset, Tore</name>
+                  <alternativeName type="givenName">Tore</alternativeName>
+                  <alternativeName type="familyName">Nesset</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Janda, Laura A.</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Janda, Laura A.</name>
+                  <alternativeName type="givenName">Laura A.</alternativeName>
+                  <alternativeName type="familyName">Janda</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Laura A. Janda</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Laura A. Janda</name>
+                  <alternativeName type="givenName">Laura</alternativeName>
+                  <alternativeName type="familyName">A. Janda</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT The Arctic University of Norway</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT The Arctic University of Norway</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT Open Research Data</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT Open Research Data</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <year>2014</year>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2014</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Issued</label>
+               <ActivityInfo>
+                  <When>
+                     <year>2014</year>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2014-07-04</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2014-12-07</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain; charset=US-ASCII</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <!--Size: 1162043-->
+               <!--Size: 2673-->
+               <!--Size: 5674-->
+               <!--Size: 14170-->
+               <!--Size: 5405110-->
+               <!--Size: 3035-->
+               <!--Size: 5405111-->
+               <!--Size: 129969-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>info:eu-repo/semantics/openAccess</label>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <FundingInfo>
+            <Funding>
+               <grantNumber>222506</grantNumber>
+               <FundingAgency>
+                  <label>Norges forskningsråd</label>
+               </FundingAgency>
+            </Funding>
+         </FundingInfo>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

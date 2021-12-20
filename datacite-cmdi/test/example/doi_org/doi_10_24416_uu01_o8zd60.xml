@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:yoda="https://yoda.uu.nl/schemas/default-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-O8ZD60</identifier>
+  <titles>
+    <title xml:lang="en">Typology of concord</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">Raw typological data, acquired by Sterre Leufkens in the context of research into redundancy. </description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2020</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Sterre Leufkens</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-2251-1309</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+      <affiliation>Utrecht Institute of Linguistics (UiL OTS)</affiliation>
+    </creator>
+  </creators>
+  <dates>
+    <date dateType="Updated">2020-10-26T12:52:06+0100</date>
+    <date dateType="Collected">2019-06-22/2020-10-14</date>
+  </dates>
+  <version>1.0</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons Attribution-ShareAlike 4.0 International Public License</rights>
+    <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+  </rightsList>
+  <language>en</language>
+  <resourceType resourceTypeGeneral="Dataset">Research Data</resourceType>
+</resource>

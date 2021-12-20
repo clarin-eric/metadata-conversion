@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-3" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+  <identifier identifierType="DOI">10.15155/TY.0005</identifier>
+  <creators>
+    <creator>
+      <creatorName>Prillop, K&#xFC;lli</creatorName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Corpus of Old Written Estonian</title>
+  </titles>
+  <publisher>Center of Estonian Language Resources</publisher>
+  <publicationYear>2013</publicationYear>
+</resource>

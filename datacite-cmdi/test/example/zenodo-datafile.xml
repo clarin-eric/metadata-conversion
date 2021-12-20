@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.1/metadata.xsd">
+  <identifier identifierType="DOI">10.5281/zenodo.582300</identifier>
+  <creators>
+    <creator>
+      <creatorName>Dmitrijs Milajevs</creatorName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Toward a Comparable Corpus of Latvian, Russian and English Tweets</title>
+  </titles>
+  <publisher>Zenodo</publisher>
+  <publicationYear>2017</publicationYear>
+  <subjects>
+    <subject>twitter</subject>
+    <subject>corpus</subject>
+  </subjects>
+  <dates>
+    <date dateType="Issued">2017-05-22</date>
+  </dates>
+  <resourceType resourceTypeGeneral="Dataset"/>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="url">https://zenodo.org/record/582300</alternateIdentifier>
+  </alternateIdentifiers>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementTo">https://github.com/dimazest/2017-lv-corpus</relatedIdentifier>
+  </relatedIdentifiers>
+  <rightsList>
+    <rights rightsURI="http://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International</rights>
+    <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">&lt;p&gt;Twitter has become a rich source for linguistic data. Here, a possibility of building a trilingual Latvian-Russian-English corpus of tweets from Riga, Latvia is investigated. Such a corpus, once constructed, might be of great use for multiple purposes such as training machine translation models, examining cross-lingual phenomena and studying the population of Riga. This pilot study shows that it is feasible to build such a resource by building and analysing a pilot corpus, which is made publicly available and can be used to construct a large comparable corpus.&lt;/p&gt;</description>
+  </descriptions>
+</resource>
+

@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.1/metadata.xsd">
+    <identifier identifierType="DOI">10.18710/09GQFO</identifier>
+    <creators>
+        <creator>
+            <creatorName nameType="Personal">Strand, Bror-Magnus S.</creatorName>
+            <givenName>Bror-Magnus S.</givenName>
+            <familyName>Strand</familyName>
+            <nameIdentifier nameIdentifierScheme="ORCID">0000-0003-2381-1327</nameIdentifier>
+            <affiliation>UiT The Arctic University of Norway</affiliation>
+        </creator>
+    </creators>
+    <titles>
+        <title>Replication data for: Playing with fire compounds</title>
+        <title titleType="Subtitle">Compound accent tones in (North) Norwegian pre-schoolers' role play register</title>
+        <title titleType="AlternativeTitle">Playing with fire compounds: Compound accent tones in (North) Norwegian pre-schoolers' role play register</title>
+    </titles>
+    <publisher>DataverseNO</publisher>
+    <publicationYear>2021</publicationYear>
+    <subjects>
+        <subject>Arts and Humanities</subject>
+        <subject>Prosody</subject>
+        <subject>Role Play</subject>
+        <subject>Tone</subject>
+        <subject>Accent tone</subject>
+        <subject>Tone accent</subject>
+        <subject>Functional data analysis</subject>
+        <subject>Phonology</subject>
+        <subject>Phonetics</subject>
+        <subject>Acoustic analysis</subject>
+        <subject>Play</subject>
+        <subject>Role play</subject>
+        <subject>Compounds</subject>
+        <subject>Norwegian</subject>
+        <subject>Northern Norwegian</subject>
+        <subject>North Norwegian</subject>
+        <subject>Urban East Norwegian</subject>
+    </subjects>
+    <contributors>
+        <contributor contributorType="ContactPerson">
+            <contributorName nameType="Organizational">Strand, Bror-Magnus S.</contributorName>
+            <affiliation>UiT The Arctic University of Norway</affiliation>
+        </contributor>
+        <contributor contributorType="Producer">
+            <contributorName nameType="Organizational">UiT The Arctic University of Norway</contributorName>
+        </contributor>
+        <contributor contributorType="Supervisor">
+            <contributorName nameType="Personal">Merete Anderssen</contributorName>
+            <givenName>Merete</givenName>
+            <familyName>Anderssen</familyName>
+        </contributor>
+        <contributor contributorType="Supervisor">
+            <contributorName nameType="Personal">Øystein A. Vangsnes</contributorName>
+            <givenName>Øystein</givenName>
+            <familyName>A. Vangsnes</familyName>
+        </contributor>
+        <contributor contributorType="ResearchGroup">
+            <contributorName>AcqVA AURORA</contributorName>
+        </contributor>
+        <contributor contributorType="Distributor">
+            <contributorName nameType="Personal">The Tromsø Repository of Language and Linguistics</contributorName>
+            <givenName>The</givenName>
+            <familyName>Tromsø Repository of Language and Linguistics</familyName>
+        </contributor>
+    </contributors>
+    <dates>
+        <date dateType="Submitted">2021-01-22</date>
+        <date dateType="Updated">2021-03-26</date>
+        <date dateType="Collected">2017/2018</date>
+        <date dateType="Collected">2019/2019</date>
+    </dates>
+    <resourceType resourceTypeGeneral="Dataset">Experimental data</resourceType>
+    <sizes>
+        <size>10113</size>
+        <size>5912</size>
+        <size>4352</size>
+        <size>1310</size>
+        <size>35384</size>
+        <size>8698</size>
+        <size>8032</size>
+        <size>6250</size>
+        <size>6938</size>
+        <size>4702</size>
+        <size>5836</size>
+        <size>14758</size>
+        <size>2755</size>
+        <size>2197</size>
+        <size>8750</size>
+        <size>85101</size>
+        <size>17077</size>
+        <size>50297</size>
+        <size>35963</size>
+        <size>14308</size>
+        <size>28147</size>
+        <size>34258</size>
+        <size>43972</size>
+        <size>604542</size>
+        <size>10719</size>
+        <size>350651</size>
+        <size>30089</size>
+        <size>21499</size>
+        <size>399</size>
+        <size>483</size>
+        <size>609</size>
+        <size>573717</size>
+        <size>89247</size>
+        <size>509013</size>
+        <size>797274350</size>
+        <size>1672805</size>
+        <size>570385</size>
+        <size>577523</size>
+        <size>7066575</size>
+        <size>193621</size>
+        <size>159263</size>
+        <size>2789735</size>
+    </sizes>
+    <formats>
+        <format>text/plain</format>
+        <format>application/octet-stream</format>
+        <format>application/octet-stream</format>
+        <format>application/octet-stream</format>
+        <format>application/octet-stream</format>
+        <format>application/octet-stream</format>
+        <format>type/x-r-syntax</format>
+        <format>type/x-r-syntax</format>
+        <format>type/x-r-syntax</format>
+        <format>type/x-r-syntax</format>
+        <format>type/x-r-syntax</format>
+        <format>type/x-r-syntax</format>
+        <format>type/x-r-syntax</format>
+        <format>type/x-r-syntax</format>
+        <format>type/x-r-syntax</format>
+        <format>text/tab-separated-values</format>
+        <format>text/tab-separated-values</format>
+        <format>text/tab-separated-values</format>
+        <format>text/tab-separated-values</format>
+        <format>text/tab-separated-values</format>
+        <format>text/tab-separated-values</format>
+        <format>text/tab-separated-values</format>
+        <format>text/tab-separated-values</format>
+        <format>application/gzip</format>
+        <format>application/gzip</format>
+        <format>application/gzip</format>
+        <format>application/gzip</format>
+        <format>application/gzip</format>
+        <format>application/gzip</format>
+        <format>application/gzip</format>
+        <format>application/gzip</format>
+        <format>application/gzip</format>
+        <format>application/gzip</format>
+        <format>application/gzip</format>
+        <format>application/zip</format>
+        <format>application/zip</format>
+        <format>application/zip</format>
+        <format>application/zip</format>
+        <format>application/zip</format>
+        <format>application/zip</format>
+        <format>application/zip</format>
+        <format>application/zip</format>
+    </formats>
+    <version>1.0</version>
+    <rightsList>
+        <rights rightsURI="info:eu-repo/semantics/openAccess"/>
+        <rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/">CC0 Waiver</rights>
+    </rightsList>
+    <descriptions>
+        <description descriptionType="Abstract">&lt;p>The dataset contains: &lt;/p>&#xd;
+            &lt;p>&lt;/p>&#xd; &lt;p>Praat scripts for extracting and annotating relevant utterances
+            from larger sound files, and extracting data (F0) from shorter sound files for further
+            analysis. &lt;/p>&#xd; &lt;p>&lt;/p>&#xd; &lt;p>Sound files (.wav) containing single
+            utterances &lt;/>&#xd; &lt;p>Praat Pitch files with F0 contours of pitch accent tones
+            &lt;/>&#xd; &lt;p>Praat TextGrid Files &lt;/>&#xd; &lt;p>&lt;/p>&#xd; &lt;p>R script for
+            smoothing F0 contours using functional data analysis (fda), and making plots from and
+            calculating correlation coefficients on the contours.&lt;/>&#xd; &lt;p>&lt;/p>&#xd;
+            &lt;p>All material from a corpus of 7 children engaging in free peer interaction and
+            self recording of 5 adults for baseline data.&lt;/p>&#xd; &lt;p>&lt;/p>&#xd;
+            &lt;p>&lt;/p>&#xd; &lt;p>Publication abstract:&lt;/p>&#xd; &lt;p>&lt;/p>&#xd;
+            &lt;p>Prosodic features are some of the most salient features of dialect variation in
+            Norway. It is therefore no wonder that the switch in prosodic systems is what is first
+            recognized by caretakers and scholars when Norwegian children code-switch to something
+            resembling the dialect of the capital (henceforth Urban East Norwegian, UEN) in role
+            play. With focus on the Scandinavian system of lexical accent tones, this paper
+            investigates the spontaneous speech of North Norwegian children engaging in peer social
+            role play. The paper makes the case that children fail to apply the target accent tone
+            in compounds in consistency with UEN in role play, although the production of accent
+            tones otherwise seems to be phonetically target like UEN. Put in other words, they
+            perform in accordance with UEN phonetics, but not UEN
+            morpho-phonology.&lt;/p></description>
+        <description descriptionType="TechnicalInfo">R, 4.0.3</description>
+        <description descriptionType="TechnicalInfo">Praat, 6.0.39</description>
+        <description descriptionType="TechnicalInfo">ELAN, 4.9.4 – 5.7-AVFX</description>
+    </descriptions>
+    <geoLocations>
+        <geoLocation>
+            <geoLocationPlace>Tromsø</geoLocationPlace>
+        </geoLocation>
+    </geoLocations>
+</resource>

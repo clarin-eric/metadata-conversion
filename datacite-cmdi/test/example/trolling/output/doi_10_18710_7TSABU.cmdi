@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d4e2">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/7TSABU</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/7TSABU</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication data for: Chunking or predicting – frequency information and reduction in the perception of multi-word sequences</title>
+         </TitleInfo>
+         <Description>
+            <description>&lt;p&gt;This is the data and code from a word-monitoring task, in which participants responded to the word 'to' in verb + to-infinitive structures (V-to-Vinf) in English, where 'to' could occur in a full or reduced pronunciation. Accuracy and response times were analysed with mixed-effects generalized additive models (GAMM); the code also includes visualisations of these models. The paper is accepted for publication in Cognitive Linguistics.&#xD;
+The experiment was run with OpenSesame (version 3.0.7 for Mac, cf. Mathôt et al. 2012). The data include information on frequencies of occurrence of words and bigrams; this was extracted from the Corpus of Contemporary American English (COCA, Davies 2008–). We used R (R Core Team 2017) for all data analyses, hence the code can best be replicated in R. &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&#xD;
+&#xD;
+&#xD;
+&lt;p&gt;Abstract:&#xD;
+Frequently used linguistic structures become entrenched in memory; this is often assumed to make their consecutive parts more predictable, as well as fuse them into a single unit (chunking). High frequency moreover leads to a propensity for phonetic reduction. We present a word recognition experiment which tests how frequency information (string frequency, transitional probability) interacts with reduction in speech perception. Detection of the element to is tested in V-to-Vinf sequences in English (e.g. need to Vinf), where to can undergo reduction (“needa”). Results show that reduction impedes recognition, but this can be mitigated by the predictability of the item. Recognition generally benefits from surface frequency, while a modest chunking effect is found in delayed responses to reduced forms of high-frequency items. Transitional probability shows a facilitating effect on reduced but not on full forms. Reduced forms also pose more difficulty when the phonological context obscures the onset of to. We conclude that listeners draw on frequency information in a predictive manner to cope with reduction. High-frequency structures are not inevitably perceived as chunks, but depend on cues in the phonetic form – reduction leads to perceptual prominence of the whole over the parts and thus promotes a holistic access.&lt;/p&gt;</description>
+            <description>OpenSesame, 3.0.7.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>experimental data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.1</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>speech perception</label>
+         </Subject>
+         <Subject>
+            <label>phonetic reduction</label>
+         </Subject>
+         <Subject>
+            <label>chunking</label>
+         </Subject>
+         <Subject>
+            <label>frequency information</label>
+         </Subject>
+         <Subject>
+            <label>entrenchment</label>
+         </Subject>
+         <Subject>
+            <label>English</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-7451-099X</identifier>
+            <label>Lorenz, David</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Lorenz, David</name>
+                  <alternativeName type="givenName">David</alternativeName>
+                  <alternativeName type="familyName">Lorenz</alternativeName>
+                  <affiliation>Universität Rostock</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <identifier>0000-0003-0788-7954</identifier>
+            <label>Tizón-Couto, David</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Tizón-Couto, David</name>
+                  <alternativeName type="givenName">David</alternativeName>
+                  <alternativeName type="familyName">Tizón-Couto</alternativeName>
+                  <affiliation>Universidade de Vigo</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Lorenz, David</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Lorenz, David</name>
+                  <alternativeName type="givenName">David</alternativeName>
+                  <alternativeName type="familyName">Lorenz</alternativeName>
+                  <affiliation>Universität Rostock</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Albert-Ludwigs-Universität Freiburg</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Albert-Ludwigs-Universität Freiburg</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Universidade de Vigo</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Universidade de Vigo</name>
+                  <alternativeName type="givenName">de</alternativeName>
+                  <alternativeName type="familyName">versidade de Vigo</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <year>2016</year>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <start>2016-05-09</start>
+                     <end>2016-11-24</end>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2019</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-04-18</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-06-06</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>application/x-rlang-transport</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <!--Size: 8470-->
+               <!--Size: 25648-->
+               <!--Size: 316412-->
+               <!--Size: 31345-->
+               <!--Size: 575470-->
+               <!--Size: 369845-->
+               <!--Size: 599815-->
+               <!--Size: 352431-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>info:eu-repo/semantics/openAccess</label>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <GeoLocation>
+            <label>Freiburg, Vigo</label>
+         </GeoLocation>
+         <FundingInfo>
+            <Funding>
+               <grantNumber>FFI2016-77018-P</grantNumber>
+               <FundingAgency>
+                  <label>Spanish Ministry of Economy and Competitiveness</label>
+               </FundingAgency>
+            </Funding>
+            <Funding>
+               <grantNumber>IJCI-2015-25843</grantNumber>
+               <FundingAgency>
+                  <label>European Regional Development Fund</label>
+               </FundingAgency>
+            </Funding>
+            <Funding>
+               <grantNumber>ED431C 2017/50</grantNumber>
+               <FundingAgency>
+                  <label>Xunta de Galicia</label>
+               </FundingAgency>
+            </Funding>
+            <Funding>
+               <FundingAgency>
+                  <label>Wissenschaftliche Gesellschaft Freiburg</label>
+               </FundingAgency>
+            </Funding>
+         </FundingInfo>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList><!--Resource identifier cannot be converted to a ResourceRef: 10037.1/10056--></cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier>10037.1/10056</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>North Norwegian consonants from the inside</title>
+         </TitleInfo>
+         <Description>
+            <description>This study contains MRI recordings of consonants produced by a native of Tromsø. Each consonant is produced between two low vowels: a__a. The files are labelled with intuitive orthographic renderings of the consonants. Retroflex consonants are preceded by an 'r', e.g., 'arna' for the retroflex nasal, found in words such as 'barn' (child). Palatal consonants are followed by 'j', e.g., 'anja' for the palatal stop, which can be found in words such as 'mann' (man). The recordings were produced for the Artifon project as part of visual illustrations for students learning Norwegian (phonetics). The goal of the Artifon project is to produce a phonetics training app for hand-held devices tailored to Norwegian dialect phonetics.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>&lt;other&gt;</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>2.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Artifon</label>
+            <scheme>&lt;not applicable&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>MRI recordings</label>
+         </Subject>
+         <Subject>
+            <label>Field: Phonetics</label>
+            <scheme>&lt;Field term: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Field: Dialectology</label>
+            <scheme>&lt;Time depth: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Topic: consonants</label>
+            <scheme>&lt;Topic: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Time-depth: synchronic</label>
+         </Subject>
+         <Creator>
+            <label>Krämer, Martin</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Krämer, Martin</name>
+                  <alternativeName type="givenName">Martin</alternativeName>
+                  <alternativeName type="familyName">Krämer</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Albertsen, Egil</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Albertsen, Egil</name>
+                  <alternativeName type="givenName">Egil</alternativeName>
+                  <alternativeName type="familyName">Albertsen</alternativeName>
+                  <affiliation>Norwegian University of Science and Technology</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Krämer, Martin</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Krämer, Martin</name>
+                  <alternativeName type="givenName">Martin</alternativeName>
+                  <alternativeName type="familyName">Krämer</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Kværness, Jørn</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Kværness, Jørn</name>
+                  <alternativeName type="givenName">Jørn</alternativeName>
+                  <alternativeName type="familyName">Kværness</alternativeName>
+                  <affiliation>St. Olavs Hospital, Trondheim</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT Open Research Data</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT Open Research Data</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <year>2013</year>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2014</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Issued</label>
+               <ActivityInfo>
+                  <When>
+                     <year>2014</year>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2014-06-18</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2014-06-19</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>text/plain; charset=US-ASCII</mediaType>
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 166715904-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 166715904-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 3326366-->
+               <!--Size: 6148-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>info:eu-repo/semantics/openAccess</label>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

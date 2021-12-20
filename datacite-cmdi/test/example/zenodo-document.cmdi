@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.5281/zenodo.3236194</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.5281/zenodo.3236194</identifier>
+            <alternativeIdentifier>urlhttps://zenodo.org/record/3236194</alternativeIdentifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>User Guide for the CESSDA Metadata Model</title>
+         </TitleInfo>
+         <Description>
+            <description>&lt;p&gt;This document includes guidelines for the usage of and best practice for the CESSDA Metadata Model (https://doi.org/10.5281/zenodo.3236171). The guidelines address all relevant aspects of the elements in the CESSDA Metadata Model, and serve to provide recommendations and guidance for usage. Please note that this document is the first public version of the User Guide for the CESSDA Metadata Model and thus considered as a final draft, meaning that comments and requests for revision by the CESSDA community are welcome. Please send your requests to the CESSDA Metadata Office via metadata-office@cessda.eu.&lt;/p&gt;</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Text</identifier>
+            <label>Text</label>
+            <label>Project deliverable</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>0</versionIdentifier>
+         </VersionInfo>
+         <Creator>
+            <label>Storviken, Silje</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Storviken, Silje</name>
+                  <alternativeName type="givenName">Silje</alternativeName>
+                  <alternativeName type="familyName">Storviken</alternativeName>
+                  <affiliation>NSD</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Hagen, Sunniva</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Hagen, Sunniva</name>
+                  <alternativeName type="givenName">Sunniva</alternativeName>
+                  <alternativeName type="familyName">Hagen</alternativeName>
+                  <affiliation>NSD</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Bockaj, Brigita</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Bockaj, Brigita</name>
+                  <alternativeName type="givenName">Brigita</alternativeName>
+                  <alternativeName type="familyName">Bockaj</alternativeName>
+                  <affiliation>ADP</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Bolko, Irena</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Bolko, Irena</name>
+                  <alternativeName type="givenName">Irena</alternativeName>
+                  <alternativeName type="familyName">Bolko</alternativeName>
+                  <affiliation>ADP</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Vipavc Brvar, Irena</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Vipavc Brvar, Irena</name>
+                  <alternativeName type="givenName">Irena</alternativeName>
+                  <alternativeName type="familyName">Vipavc Brvar</alternativeName>
+                  <affiliation>ADP</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Fink Kjeldgaard, Anne Sofie</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Fink Kjeldgaard, Anne Sofie</name>
+                  <alternativeName type="givenName">Anne Sofie</alternativeName>
+                  <alternativeName type="familyName">Fink Kjeldgaard</alternativeName>
+                  <affiliation>DDA</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Guldfeldt, Madsen, Christina</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Guldfeldt, Madsen, Christina</name>
+                  <affiliation>DDA</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Ala-Lahti, Henri</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Ala-Lahti, Henri</name>
+                  <alternativeName type="givenName">Henri</alternativeName>
+                  <alternativeName type="familyName">Ala-Lahti</alternativeName>
+                  <affiliation>FSD</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Haanpää, Eliisa</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Haanpää, Eliisa</name>
+                  <alternativeName type="givenName">Eliisa</alternativeName>
+                  <alternativeName type="familyName">Haanpää</alternativeName>
+                  <affiliation>FSD</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Kleemola, Mari</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Kleemola, Mari</name>
+                  <alternativeName type="givenName">Mari</alternativeName>
+                  <alternativeName type="familyName">Kleemola</alternativeName>
+                  <affiliation>FSD</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Moilanen, Katja</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Moilanen, Katja</name>
+                  <alternativeName type="givenName">Katja</alternativeName>
+                  <alternativeName type="familyName">Moilanen</alternativeName>
+                  <affiliation>FSD</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Borschewski, Kerrin</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Borschewski, Kerrin</name>
+                  <alternativeName type="givenName">Kerrin</alternativeName>
+                  <alternativeName type="familyName">Borschewski</alternativeName>
+                  <affiliation>GESIS</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Zenk-Möltgen, Wolfgang</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Zenk-Möltgen, Wolfgang</name>
+                  <alternativeName type="givenName">Wolfgang</alternativeName>
+                  <alternativeName type="familyName">Zenk-Möltgen</alternativeName>
+                  <affiliation>GESIS</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Alfredsson, Iris</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Alfredsson, Iris</name>
+                  <alternativeName type="givenName">Iris</alternativeName>
+                  <alternativeName type="familyName">Alfredsson</alternativeName>
+                  <affiliation>SND</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Lundgren, Malin</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Lundgren, Malin</name>
+                  <alternativeName type="givenName">Malin</alternativeName>
+                  <alternativeName type="familyName">Lundgren</alternativeName>
+                  <affiliation>SND</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Svensson, Sara</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Svensson, Sara</name>
+                  <alternativeName type="givenName">Sara</alternativeName>
+                  <alternativeName type="familyName">Svensson</alternativeName>
+                  <affiliation>SND</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Etheridge, Anne</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Etheridge, Anne</name>
+                  <alternativeName type="givenName">Anne</alternativeName>
+                  <alternativeName type="familyName">Etheridge</alternativeName>
+                  <affiliation>UKDS</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Bolton, Sharon</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Bolton, Sharon</name>
+                  <alternativeName type="givenName">Sharon</alternativeName>
+                  <alternativeName type="familyName">Bolton</alternativeName>
+                  <affiliation>UKDS</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2019</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Issued</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2019-05-31</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <AccessInfo>
+            <accessRights>openAccess</accessRights>
+            <accessRequirement>authenticationRequired</accessRequirement>
+            <accessRequirement>authenticationRequired</accessRequirement>
+            <condition xml:lang="en-US">condition2</condition>
+            <condition xml:lang="en-US">condition3</condition>
+            <disclaimer xml:lang="en-US">disclaimer2</disclaimer>
+            <disclaimer xml:lang="en-US">disclaimer3</disclaimer>
+            <otherAccessInfo type="type21" xml:lang="en-US">otherAccessInfo2</otherAccessInfo>
+            <otherAccessInfo type="type23" xml:lang="en-US">otherAccessInfo3</otherAccessInfo>
+            <Licence>
+               <identifier>identifier4</identifier>
+               <identifier>identifier5</identifier>
+               <label xml:lang="en-US">label20</label>
+               <label xml:lang="en-US">label21</label>
+               <url>http://www.oxygenxml.com/</url>
+               <Description>
+                  <description xml:lang="en-US">description8</description>
+                  <description xml:lang="en-US">description9</description>
+               </Description>
+               <Description>
+                  <description xml:lang="en-US">description10</description>
+                  <description xml:lang="en-US">description11</description>
+               </Description>
+            </Licence>
+            <Licence>
+               <identifier>identifier6</identifier>
+               <identifier>identifier7</identifier>
+               <label xml:lang="en-US">label22</label>
+               <label xml:lang="en-US">label23</label>
+               <url>http://www.oxygenxml.com/</url>
+               <Description>
+                  <description xml:lang="en-US">description12</description>
+                  <description xml:lang="en-US">description13</description>
+               </Description>
+               <Description>
+                  <description xml:lang="en-US">description14</description>
+                  <description xml:lang="en-US">description15</description>
+               </Description>
+            </Licence>
+            <IntellectualPropertyRightsHolder>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label24</label>
+               <label xml:lang="en-US">label25</label>
+               <AgentInfo/>
+            </IntellectualPropertyRightsHolder>
+            <IntellectualPropertyRightsHolder>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label26</label>
+               <label xml:lang="en-US">label27</label>
+               <AgentInfo/>
+            </IntellectualPropertyRightsHolder>
+            <Contact>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label28</label>
+               <label xml:lang="en-US">label29</label>
+               <Description>
+                  <description xml:lang="en-US">description16</description>
+                  <description xml:lang="en-US">description17</description>
+               </Description>
+               <AgentInfo/>
+            </Contact>
+            <Contact>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label30</label>
+               <label xml:lang="en-US">label31</label>
+               <Description>
+                  <description xml:lang="en-US">description18</description>
+                  <description xml:lang="en-US">description19</description>
+               </Description>
+               <AgentInfo/>
+            </Contact>
+         </AccessInfo>
+         <GeoLocation>
+            <identifier>http://www.oxygenxml.com/</identifier>
+            <identifier>http://www.oxygenxml.com/</identifier>
+            <label xml:lang="en-US">label32</label>
+            <label xml:lang="en-US">label33</label>
+            <description xml:lang="en-US">description20</description>
+            <description xml:lang="en-US">description21</description>
+            <Country>
+               <code>AD</code>
+               <label xml:lang="en-US">label34</label>
+               <label xml:lang="en-US">label35</label>
+            </Country>
+            <GeographicCoordinates>
+               <latitude>0</latitude>
+               <longitude>0</longitude>
+               <elevation>0</elevation>
+            </GeographicCoordinates>
+         </GeoLocation>
+         <FundingInfo>
+            <Funding>
+               <grantNumber>grantNumber0</grantNumber>
+               <label xml:lang="en-US">label36</label>
+               <label xml:lang="en-US">label37</label>
+               <FundingAgency>
+                  <label xml:lang="en-US">label38</label>
+                  <label xml:lang="en-US">label39</label>
+               </FundingAgency>
+               <ActivityInfo>
+                  <When/>
+               </ActivityInfo>
+               <ActivityInfo>
+                  <When/>
+               </ActivityInfo>
+            </Funding>
+            <Funding>
+               <grantNumber>grantNumber1</grantNumber>
+               <label xml:lang="en-US">label40</label>
+               <label xml:lang="en-US">label41</label>
+               <FundingAgency>
+                  <label xml:lang="en-US">label42</label>
+                  <label xml:lang="en-US">label43</label>
+               </FundingAgency>
+               <ActivityInfo>
+                  <When/>
+               </ActivityInfo>
+               <ActivityInfo>
+                  <When/>
+               </ActivityInfo>
+            </Funding>
+         </FundingInfo>
+         <RelatedResource>
+            <identifier>http://www.oxygenxml.com/</identifier>
+            <identifier>http://www.oxygenxml.com/</identifier>
+            <label xml:lang="en-US">label44</label>
+            <label xml:lang="en-US">label45</label>
+            <location>http://www.oxygenxml.com/</location>
+            <location>http://www.oxygenxml.com/</location>
+            <TitleInfo>
+               <title xml:lang="en-US">title2</title>
+               <title xml:lang="en-US">title3</title>
+               <alternativeTitle xml:lang="en-US">alternativeTitle2</alternativeTitle>
+               <alternativeTitle xml:lang="en-US">alternativeTitle3</alternativeTitle>
+               <subtitle xml:lang="en-US">subtitle2</subtitle>
+               <subtitle xml:lang="en-US">subtitle3</subtitle>
+            </TitleInfo>
+            <TitleInfo>
+               <title xml:lang="en-US">title4</title>
+               <title xml:lang="en-US">title5</title>
+               <alternativeTitle xml:lang="en-US">alternativeTitle4</alternativeTitle>
+               <alternativeTitle xml:lang="en-US">alternativeTitle5</alternativeTitle>
+               <subtitle xml:lang="en-US">subtitle4</subtitle>
+               <subtitle xml:lang="en-US">subtitle5</subtitle>
+            </TitleInfo>
+            <Description>
+               <description xml:lang="en-US">description22</description>
+               <description xml:lang="en-US">description23</description>
+            </Description>
+            <Description>
+               <description xml:lang="en-US">description24</description>
+               <description xml:lang="en-US">description25</description>
+            </Description>
+            <ResourceType>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label46</label>
+               <label xml:lang="en-US">label47</label>
+            </ResourceType>
+            <ResourceType>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label48</label>
+               <label xml:lang="en-US">label49</label>
+            </ResourceType>
+            <CitationInfo>
+               <bibliographicCitation format="format1">bibliographicCitation1</bibliographicCitation>
+               <bibliographicCitation format="format3">bibliographicCitation2</bibliographicCitation>
+            </CitationInfo>
+            <Creator>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label50</label>
+               <label xml:lang="en-US">label51</label>
+               <role>role4</role>
+               <role>role5</role>
+               <AgentInfo/>
+            </Creator>
+            <Creator>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label52</label>
+               <label xml:lang="en-US">label53</label>
+               <role>role6</role>
+               <role>role7</role>
+               <AgentInfo/>
+            </Creator>
+            <Contributor>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label54</label>
+               <label xml:lang="en-US">label55</label>
+               <role>role8</role>
+               <role>role9</role>
+               <AgentInfo/>
+            </Contributor>
+            <Contributor>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label56</label>
+               <label xml:lang="en-US">label57</label>
+               <role>role10</role>
+               <role>role11</role>
+               <AgentInfo/>
+            </Contributor>
+         </RelatedResource>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

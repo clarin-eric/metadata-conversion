@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-C3WPSV</identifier>
+  <titles>
+    <title xml:lang="en">Presupposition, Admittance and Karttunen Calculus</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">This paper describes the logical properties of various systems dealing with presuppositions in natural language. It is an extended version, May 2021, of a paper that is to appear in Sedlár et al. (eds.), Logica Yearbook 2020. This version includes appendices with proofs of claims made in that paper.</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2021</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Winter, Yoad</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">0000-0002-7209-710X</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <dates>
+    <date dateType="Updated">2021-05-17T15:58:58.000000</date>
+    <date dateType="Collected">2021-05-17/2021-05-17</date>
+  </dates>
+  <version>1</version>
+  <rightsList>
+    <rights rightsURI="info:eu-repo/semantics/openAccess"/>
+  </rightsList>
+  <language>en</language>
+  <resourceType resourceTypeGeneral="Text">Other Document</resourceType>
+</resource>

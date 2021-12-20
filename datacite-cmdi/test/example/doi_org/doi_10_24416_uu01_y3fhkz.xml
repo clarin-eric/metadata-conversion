@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-Y3FHKZ</identifier>
+  <titles>
+    <title xml:lang="en">Urbanisation Hub</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">Much of the recent work done by economists and economic historians analyzing long-term trends in the world economy has used urbanization as a proxy for economic development, and has analyzed data on the number and size of cities and/or the urbanization ratio as measures of the economic success of regions and countries. Estimates of the size of cities are indeed among the few more or less reliable data available for the pre-industrial age, making it possible to chart and analyse long term trends and spatial structures. Therefore a state of the art global dataset of city sizes can be an important asset for economic historical research.
+
+We aim to present such a dataset for the period from 1500 to the present. It covers the whole world, except for China, for which research is still unfinished. The idea is to present the best available estimates for all (large) cities during the 1500-2000 period, and invite scholars working on the (demographic) history of these cities and countries, to suggest possible improvements and refinements. We basically present two sets of estimates: the historical estimates of city sizes that could be found (organized by country and continent), and a complete set of estimates, where the missing values are intra- or extrapolated.</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2021</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Other humanities (6.5)</subject>
+    <subject subjectScheme="OECD FOS 2007">Humanities - History and archaeology (6.1)</subject>
+    <subject subjectScheme="Keyword">Urbanisation</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Buringh, Eltjo </creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">6602674945</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <contributors>
+    <contributor contributorType="ProjectManager">
+      <contributorName>van Zanden, Jan Luiten</contributorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0001-6078-9427</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Updated">2021-04-15T16:39:14.000000</date>
+    <date dateType="Collected">2018-01-01/2019-01-01</date>
+  </dates>
+  <version>1</version>
+  <rightsList>
+    <rights rightsURI="info:eu-repo/semantics/openAccess"/>
+  </rightsList>
+  <language>en</language>
+  <resourceType resourceTypeGeneral="Text">Other Document</resourceType>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Europe, Africa, Asia, America, Australia</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+</resource>

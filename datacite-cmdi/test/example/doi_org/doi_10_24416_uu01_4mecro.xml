@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-4MECRO</identifier>
+  <titles>
+    <title xml:lang="en-us">ChroniclItaly 2.0. A corpus of Italian American newspapers annotated for entities, 1898-1920.</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">ChroniclItaly 2.0 is the tagged version of ChroniclItaly (Viola 2018), a corpus of Italian language newspapers published in the USA between 1898 and 1920. The corpus includes seven Italian language newspapers published in California, Massachusetts, Pennsylvania, Vermont, and West Virginia: L’Italia, Cronaca sovversiva, La libera parola, The patriot, La ragione, La rassegna, and La sentinella del West Virginia. This collection, which totals 4,810 issues and contains 16,624,571 words, gathers the front pages of each issue and it was collected from Chronicling America (https://chroniclingamerica.loc.gov/newspapers/), an Internet-based, searchable database of U.S. newspapers published in the United States from 1789 to 1963 made available by the Library of Congress. ChronclItaly 2.0 has been tagged for entities using a sequence tagging tool (Riedl and Padó 2018) that implements Tensorflow. The Italian language model of the sequence tagging tool was trained on I-CAB (Italian Content Annotation Bank), an open access corpus annotated for entities. 
+The tags are:
+
+LOC -> Location
+GPE -> Geo-political entity
+PER -> Person
+ORG -> Organization
+
+The output is in columns as it follows: the first column is the input word, the second column specifies the pre-processed, lower-cased word, the third column contains a flag, i.e., whether the word has been known during training (KNOWN) or not (UNKNOWN). If labels are assigned to the input file, these will appear in the third column. The last column contains the predicted tags. The no-entity tag is O. Because some entities (like Stati Uniti) have multiple words, the tagging scheme distinguishes between the beginning (tag B-...) or the inside of an entity (tag I-...). 
+Please see the GitHub repository https://github.com/lorellav/GeoNewsMiner#chroniclitaly for further information. Finally, the files are arranged in two types: by newspaper's title to allow for comparative analysis across titles, and all together. Within each title, files are arranged chronologically. 
+</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2019</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Other humanities (6.5)</subject>
+    <subject subjectScheme="Keyword">Italian language newspapers</subject>
+    <subject subjectScheme="Keyword">Ethnic press in the United States</subject>
+    <subject subjectScheme="Keyword">Historical newspapers</subject>
+    <subject subjectScheme="Keyword">Italian diaspora in the United States</subject>
+    <subject subjectScheme="Keyword">Named Entity Recognition</subject>
+    <subject subjectScheme="Keyword">Place names disambiguation</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Lorella Viola</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">0000-0001-9994-0841</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <contributors>
+    <contributor contributorType="Supervisor">
+      <contributorName>Jaap Verheul</contributorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">0000-0001-6754-2515</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Updated">2019-10-02T10:31:00+0200</date>
+    <date dateType="Collected">2019-05-01/2019-09-23</date>
+  </dates>
+  <version>2.0</version>
+  <rightsList>
+    <rights rightsURI="https://opendatacommons.org/licenses/by/1.0/">Open Data Commons Attribution License (ODC-By) v1.0</rights>
+  </rightsList>
+  <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo">10.24416/UU01-T4YMOW</relatedIdentifier>
+  </relatedIdentifiers>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>California</geoLocationPlace>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationPlace>Vermont</geoLocationPlace>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationPlace>West Virginia</geoLocationPlace>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationPlace>Massachusetts</geoLocationPlace>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationPlace>Pennsylvania</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+</resource>

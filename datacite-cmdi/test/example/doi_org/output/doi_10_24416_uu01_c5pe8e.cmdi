@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d4e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.24416/UU01-C5PE8E</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.24416/UU01-C5PE8E</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title xml:lang="en">Verbal Diminutives - Appendix</title>
+         </TitleInfo>
+         <Description>
+            <description>Excel file with information on language sample used for paper 'Mall events. Verbal diminutives in the language of the world' (Audring, Leufkens, Van Lier, to appear) + rtf-file describing the excel file. </description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>Research Data</label>
+         </ResourceType>
+         <Language>
+            <name>en</name>
+            <code>en</code>
+         </Language>
+         <Subject>
+            <label>Humanities - Languages and literature (6.2)</label>
+            <scheme>OECD FOS 2007</scheme>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-2251-1309</identifier>
+            <label>Leufkens, Sterre</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Leufkens, Sterre</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <identifier>0000-0002-1254-1192</identifier>
+            <label>Audring, Jenny</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Audring, Jenny</name>
+                  <affiliation>Utrecht University</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2021</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-06-08</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>info:eu-repo/semantics/openAccess</label>
+            </Licence>
+         </AccessInfo>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

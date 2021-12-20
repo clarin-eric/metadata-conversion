@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList><!--Resource identifier cannot be converted to a ResourceRef: 10037.1/10305--></cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier>10037.1/10305</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication data for: Windmills, Nizaa and the typology of binominal compounds</title>
+         </TitleInfo>
+         <Description>
+            <description>This data set consists of 500+ nominal compounds from the African language Nizaa (sgi; Niger-Congo, Cameroon). It is based on an unpublished word list collected by Rolf Theil (
+&lt;I&gt;genannt&lt;/I&gt; Endresen) of the University of Oslo in the 1980s. Each compound and its constituents are glossed and annotated for word class, and 201 transparent noun-noun compounds are annotated for head position and semantic relation.  The data set was originally prepared for the author's 2010 MA dissertation, which sought to explain the presence of both left-headed and right-headed nominal compounds in Nizaa. It was updated and revised in conjunction with the publication of his 2016 article &lt;
+I&gt;Windmills, Nizaa and the typology of binominal compounds&lt;/I&gt;.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>fieldwork</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Nizaa</label>
+            <scheme>&lt;not applicable&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>sgi</label>
+            <scheme>ISO 639-2</scheme>
+            <schemeURI>http://www.sil.org/iso639-3/</schemeURI>
+         </Subject>
+         <Subject>
+            <label>compounding</label>
+         </Subject>
+         <Subject>
+            <label>typology</label>
+         </Subject>
+         <Subject>
+            <label>suga1248</label>
+            <scheme>Glottocode</scheme>
+            <schemeURI>http://glottolog.org/glottolog/language</schemeURI>
+         </Subject>
+         <Subject>
+            <label>Field: Morphology</label>
+         </Subject>
+         <Subject>
+            <label>Time-depth: synchronic</label>
+         </Subject>
+         <Subject>
+            <label>Topic: nouns</label>
+            <scheme>&lt;Time depth: Choose one or more&gt;</scheme>
+         </Subject>
+         <Creator>
+            <label>Pepper, Steve</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Pepper, Steve</name>
+                  <alternativeName type="givenName">Steve</alternativeName>
+                  <alternativeName type="familyName">Pepper</alternativeName>
+                  <affiliation>University of Oslo</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Pepper, Steve</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Pepper, Steve</name>
+                  <alternativeName type="givenName">Steve</alternativeName>
+                  <alternativeName type="familyName">Pepper</alternativeName>
+                  <affiliation>University of Oslo</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>School of Oriental and African Studies</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>School of Oriental and African Studies</name>
+                  <affiliation>University of London</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT Open Research Data</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT Open Research Data</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-04-25</date>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2016</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Issued</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-04-25</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-04-25</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2016-04-25</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>application/octet-stream</mediaType>
+               <mediaType>application/pdf</mediaType>
+               <!--Size: 67915-->
+               <!--Size: 96343-->
+               <!--Size: 242041-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>info:eu-repo/semantics/openAccess</label>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

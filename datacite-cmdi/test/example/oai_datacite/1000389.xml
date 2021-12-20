@@ -1,0 +1,97 @@
+<?xml version="1.0" ?><?xml-stylesheet type="text/xsl" href="/static/oaitohtml.xsl"?>
+
+<!--<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2021-07-19T12:08:18Z</responseDate>
+  <request identifier="doi:10.5284/1000389" metadataPrefix="oai_datacite" verb="GetRecord">https://oai.datacite.org/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>doi:10.5284/1000389</identifier>
+        <datestamp>2020-10-10T04:06:08Z</datestamp>
+        <setSpec>MQKK</setSpec>
+        <setSpec>BL.ADS</setSpec>
+      </header>
+      <metadata>-->
+        
+<oai_datacite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://schema.datacite.org/oai/oai-1.1/"
+  xsi:schemaLocation="http://schema.datacite.org/oai/oai-1.1/ http://schema.datacite.org/oai/oai-1.1/oai.xsd">
+  <schemaVersion>3</schemaVersion>
+  <datacentreSymbol>BL.ADS</datacentreSymbol>
+  <payload>
+    <resource xmlns="http://datacite.org/schema/kernel-3"
+      xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+      <identifier identifierType="DOI">10.5284/1000389</identifier>
+      <creators>
+        <creator>
+          <creatorName>H E M Cool</creatorName>
+        </creator>
+        <creator>
+          <creatorName>Mark Bell</creatorName>
+        </creator>
+      </creators>
+      <titles>
+        <title>Excavations at St Peter's Church, Barton-upon-Humber</title>
+      </titles>
+      <publisher>Archaeology Data Service</publisher>
+      <publicationYear>2011</publicationYear>
+      <subjects>
+        <subject subjectScheme="LCSH">Archaeology</subject>
+        <subject subjectScheme="FISH Archaeological Objects (England)">BEAD</subject>
+        <subject subjectScheme="FISH Archaeological Objects (England)">CERAMIC</subject>
+        <subject subjectScheme="Monument Type (England)">CHURCH</subject>
+        <subject subjectScheme="FISH Archaeological Objects (England)">COIN</subject>
+        <subject subjectScheme="Monument Type (England)">ENCLOSURE</subject>
+        <subject subjectScheme="FISH Archaeological Objects (England)">FLOOR TILE</subject>
+        <subject subjectScheme="FISH Archaeological Objects (England)">Human Bone</subject>
+        <subject subjectScheme="Monument Type (England)">INHUMATION CEMETERY</subject>
+        <subject subjectScheme="FISH Archaeological Objects (England)">PIN</subject>
+      </subjects>
+      <contributors>
+        <contributor contributorType="Funder">
+          <contributorName>English Heritage</contributorName>
+        </contributor>
+        <contributor contributorType="RightsHolder">
+          <contributorName>Barbican Research Associates</contributorName>
+        </contributor>
+      </contributors>
+      <dates>
+        <date dateType="Created">1974/2010</date>
+      </dates>
+      <language>en</language>
+      <resourceType resourceTypeGeneral="Dataset">Archive</resourceType>
+      <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="ADS Collection ID">1030</alternateIdentifier>
+      </alternateIdentifiers>
+      <formats>
+        <format>application/pdf</format>
+        <format>text/csv</format>
+      </formats>
+      <version>1</version>
+      <rightsList>
+        <rights rightsURI="http://archaeologydataservice.ac.uk/advice/termsOfUseAndAccess">ADS Terms and Conditions apply to reuse</rights>
+      </rightsList>
+      <descriptions>
+        <description descriptionType="Other">St Peter's Church at Barton-upon-Humber (TA 0347 2194)
+          was declared redundant in 1972 and taken into public guardianship in 1978 by the then
+          Department of Environment. Given that it had long been recognised that it had a late Saxon
+          origin, a major programme of excavation and survey was instituted. This explored the
+          church and its churchyard, and ran from 1978 to 1984 under the direction of Warwick
+          Rodwell. The programme has meant that this is the most intensively studied and recorded
+          parish church in the country. It also produced the largest collection of human remains
+          ever excavated in the UK. The latter provide a unique insight into the population of a
+          small, relatively isolated, market town over 900 years.</description>
+      </descriptions>
+      <geoLocations>
+        <geoLocation>
+          <geoLocationPoint>52.785123 -0.467239</geoLocationPoint>
+          <geoLocationPlace>England</geoLocationPlace>
+        </geoLocation>
+      </geoLocations>
+    </resource>
+  </payload>
+</oai_datacite>
+<!--      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>-->

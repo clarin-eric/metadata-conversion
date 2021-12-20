@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList><!--Resource identifier cannot be converted to a ResourceRef: 10037.1/10196--></cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier>10037.1/10196</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Replication data for: Prefix variation in Russian путать</title>
+         </TitleInfo>
+         <Description>
+            <description>This thesis explores the prefix variation in путать and consists of three case studies:  Case study 1 “The choice of prefix under prefix variation”:  Is it possible to predict the choice of prefix when there is prefix variation? And if yes, how? The analysis is based on 630 sentences of спутать, перепутать, запутать and впутать from the Russian National Corpus (RNC) and takes two factors into consideration: type of construction and semantic category of the internal argument. Since these questions are relevant for second-language learners, the author also discusses how the present study and similar ones, can be used to make second language learning of Russian more effective.   Case study 2 “Aspectual strength and the aspectual relations of путать” What does it mean that a simplex verb uses more than one prefix to form Natural Perfectives? Are all of the Natural Perfectives Natural Perfectives to the same degree? If not, why are they different? These and related questions are discussed in this analysis, which is based on 768 sentences of путать and its four Natural Perfectives from the RNC. The author also discusses the choice of granularity level when using constructions to measure aspectual strength.   Case study 3 “Путать and aspectual triplets” What is the relationship between the Primary and Secondary Imperfectives in an aspectual triplet? This case study gives a detailed analysis of the relationship between the Primary and Secondary Imperfectives in the triplets involving путать. The analysis is based on 638 examples of путать and the four relevant Secondary Imperfectives from the RNC and considers three hypotheses: (1) The P
+rimary and Secondary Imperfectives in a triplet are used in different constructions (“The Semantic Differentiation Hypothesis”), (2) The Primary Imperfective is preferred in atelic contexts, while the Secondary Imperfective is preferred in telic contexts (“The Telicity Hypothesis”), and (3) The distribution between the Primary and Secondary Imperfectives in a triplet is motivated by the aspectual strength of the Primary Imperfective and Natural Perfective (“The Aspectual Strength Hypothesis”). On the basis of her findings, the author also discusses the question of synonymy: Does complete synonymy exist? Do the two imperfective verbs in a triplet display the exact same meaning?</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>corpus</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Russian</label>
+            <scheme>&lt;not applicable&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>aspect</label>
+         </Subject>
+         <Subject>
+            <label>verb</label>
+         </Subject>
+         <Subject>
+            <label>prefix</label>
+         </Subject>
+         <Subject>
+            <label>prefix variation</label>
+         </Subject>
+         <Subject>
+            <label>aspectual strength</label>
+         </Subject>
+         <Subject>
+            <label>aspectual triplets</label>
+         </Subject>
+         <Subject>
+            <label>constructions</label>
+         </Subject>
+         <Subject>
+            <label>semantics</label>
+         </Subject>
+         <Subject>
+            <label>Topic: verbs</label>
+            <scheme>&lt;Field term: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Field: Semantics</label>
+         </Subject>
+         <Subject>
+            <label>Field: Morphology</label>
+         </Subject>
+         <Subject>
+            <label>Topic: affixes</label>
+            <scheme>&lt;Time depth: Choose one or more&gt;</scheme>
+         </Subject>
+         <Subject>
+            <label>Topic: aspect</label>
+            <scheme>&lt;Topic: Choose one or more&gt;</scheme>
+         </Subject>
+         <Creator>
+            <label>Nordrum, Maria</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nordrum, Maria</name>
+                  <alternativeName type="givenName">Maria</alternativeName>
+                  <alternativeName type="familyName">Nordrum</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Maria Nordrum</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Maria Nordrum</name>
+                  <alternativeName type="givenName">Maria</alternativeName>
+                  <alternativeName type="familyName">Nordrum</alternativeName>
+                  <affiliation>UiT The Arctic University of Norwayi</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Nordrum, Maria</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nordrum, Maria</name>
+                  <alternativeName type="givenName">Maria</alternativeName>
+                  <alternativeName type="familyName">Nordrum</alternativeName>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>UiT Open Research Data</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>UiT Open Research Data</name>
+                  <affiliation>UiT The Arctic University of Norway</affiliation>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <year>2015</year>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2015</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Issued</label>
+               <ActivityInfo>
+                  <When>
+                     <label>2015-05</label>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2015-05-11</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2015-05-13</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <mediaType>text/plain; charset=UTF-8</mediaType>
+               <!--Size: 178320-->
+               <!--Size: 920356-->
+               <!--Size: 835980-->
+               <!--Size: 919-->
+               <!--Size: 994-->
+               <!--Size: 1064-->
+               <!--Size: 158-->
+               <!--Size: 331-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>info:eu-repo/semantics/openAccess</label>
+            </Licence>
+            <Licence>
+               <identifier>https://creativecommons.org/publicdomain/zero/1.0/</identifier>
+               <label>CC0 Waiver</label>
+            </Licence>
+         </AccessInfo>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

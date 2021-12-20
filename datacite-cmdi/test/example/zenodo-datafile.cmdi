@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:datacite_cmd="http://www.clarin.eu/cmd/conversion/ddi/cmd"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d1e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.5281/zenodo.582300</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.5281/zenodo.582300</identifier>
+            <alternativeIdentifier>urlhttps://zenodo.org/record/582300</alternativeIdentifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Toward a Comparable Corpus of Latvian, Russian and English Tweets</title>
+         </TitleInfo>
+         <Description>
+            <description>&lt;p&gt;Twitter has become a rich source for linguistic data. Here, a possibility of building a trilingual Latvian-Russian-English corpus of tweets from Riga, Latvia is investigated. Such a corpus, once constructed, might be of great use for multiple purposes such as training machine translation models, examining cross-lingual phenomena and studying the population of Riga. This pilot study shows that it is feasible to build such a resource by building and analysing a pilot corpus, which is made publicly available and can be used to construct a large comparable corpus.&lt;/p&gt;</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+         </ResourceType>
+         <Creator>
+            <label>Dmitrijs Milajevs</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Dmitrijs Milajevs</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <ProvenanceInfo>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2017</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Issued</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2017-05-22</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <AccessInfo>
+            <Licence>
+               <identifier>http://creativecommons.org/licenses/by/4.0/legalcode</identifier>
+               <label>Creative Commons Attribution 4.0 International</label>
+            </Licence>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>Open Access</label>
+            </Licence>
+         </AccessInfo>
+         <GeoLocation>
+            <identifier>http://www.oxygenxml.com/</identifier>
+            <identifier>http://www.oxygenxml.com/</identifier>
+            <label xml:lang="en-US">label32</label>
+            <label xml:lang="en-US">label33</label>
+            <description xml:lang="en-US">description20</description>
+            <description xml:lang="en-US">description21</description>
+            <Country>
+               <code>AD</code>
+               <label xml:lang="en-US">label34</label>
+               <label xml:lang="en-US">label35</label>
+            </Country>
+            <GeographicCoordinates>
+               <latitude>0</latitude>
+               <longitude>0</longitude>
+               <elevation>0</elevation>
+            </GeographicCoordinates>
+         </GeoLocation>
+         <FundingInfo>
+            <Funding>
+               <grantNumber>grantNumber0</grantNumber>
+               <label xml:lang="en-US">label36</label>
+               <label xml:lang="en-US">label37</label>
+               <FundingAgency>
+                  <label xml:lang="en-US">label38</label>
+                  <label xml:lang="en-US">label39</label>
+               </FundingAgency>
+               <ActivityInfo>
+                  <When/>
+               </ActivityInfo>
+               <ActivityInfo>
+                  <When/>
+               </ActivityInfo>
+            </Funding>
+            <Funding>
+               <grantNumber>grantNumber1</grantNumber>
+               <label xml:lang="en-US">label40</label>
+               <label xml:lang="en-US">label41</label>
+               <FundingAgency>
+                  <label xml:lang="en-US">label42</label>
+                  <label xml:lang="en-US">label43</label>
+               </FundingAgency>
+               <ActivityInfo>
+                  <When/>
+               </ActivityInfo>
+               <ActivityInfo>
+                  <When/>
+               </ActivityInfo>
+            </Funding>
+         </FundingInfo>
+         <RelatedResource>
+            <identifier>http://www.oxygenxml.com/</identifier>
+            <identifier>http://www.oxygenxml.com/</identifier>
+            <label xml:lang="en-US">label44</label>
+            <label xml:lang="en-US">label45</label>
+            <location>http://www.oxygenxml.com/</location>
+            <location>http://www.oxygenxml.com/</location>
+            <TitleInfo>
+               <title xml:lang="en-US">title2</title>
+               <title xml:lang="en-US">title3</title>
+               <alternativeTitle xml:lang="en-US">alternativeTitle2</alternativeTitle>
+               <alternativeTitle xml:lang="en-US">alternativeTitle3</alternativeTitle>
+               <subtitle xml:lang="en-US">subtitle2</subtitle>
+               <subtitle xml:lang="en-US">subtitle3</subtitle>
+            </TitleInfo>
+            <TitleInfo>
+               <title xml:lang="en-US">title4</title>
+               <title xml:lang="en-US">title5</title>
+               <alternativeTitle xml:lang="en-US">alternativeTitle4</alternativeTitle>
+               <alternativeTitle xml:lang="en-US">alternativeTitle5</alternativeTitle>
+               <subtitle xml:lang="en-US">subtitle4</subtitle>
+               <subtitle xml:lang="en-US">subtitle5</subtitle>
+            </TitleInfo>
+            <Description>
+               <description xml:lang="en-US">description22</description>
+               <description xml:lang="en-US">description23</description>
+            </Description>
+            <Description>
+               <description xml:lang="en-US">description24</description>
+               <description xml:lang="en-US">description25</description>
+            </Description>
+            <ResourceType>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label46</label>
+               <label xml:lang="en-US">label47</label>
+            </ResourceType>
+            <ResourceType>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label48</label>
+               <label xml:lang="en-US">label49</label>
+            </ResourceType>
+            <CitationInfo>
+               <bibliographicCitation format="format1">bibliographicCitation1</bibliographicCitation>
+               <bibliographicCitation format="format3">bibliographicCitation2</bibliographicCitation>
+            </CitationInfo>
+            <Creator>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label50</label>
+               <label xml:lang="en-US">label51</label>
+               <role>role4</role>
+               <role>role5</role>
+               <AgentInfo/>
+            </Creator>
+            <Creator>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label52</label>
+               <label xml:lang="en-US">label53</label>
+               <role>role6</role>
+               <role>role7</role>
+               <AgentInfo/>
+            </Creator>
+            <Contributor>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label54</label>
+               <label xml:lang="en-US">label55</label>
+               <role>role8</role>
+               <role>role9</role>
+               <AgentInfo/>
+            </Contributor>
+            <Contributor>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <identifier>http://www.oxygenxml.com/</identifier>
+               <label xml:lang="en-US">label56</label>
+               <label xml:lang="en-US">label57</label>
+               <role>role10</role>
+               <role>role11</role>
+               <AgentInfo/>
+            </Contributor>
+         </RelatedResource>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

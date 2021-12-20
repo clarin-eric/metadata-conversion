@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:yoda="https://yoda.uu.nl/schemas/default-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-I6JRSD</identifier>
+  <titles>
+    <title xml:lang="nl">Transcriptie van Den cleynen herbarius ofte cruyt-boecxken van Heyman Jacobs uit 1632</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">Transcriptie van de Nederlandse tekst van Heyman Jacobs' Den cleynen herbarius ofte cruyt-boecxken, gepubliceerd in Amsterdam in 1632.
+Transcription of the Dutch text of Heyman Jacobs' Den cleynen herbarius ofte cruyt-boecxken (The little herbarium or little herbal book), published in Amsterdam in 1632.</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2020</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+    <subject subjectScheme="OECD FOS 2007">Natural Sciences - Biological sciences (1.6)</subject>
+    <subject subjectScheme="Keyword">Dutch language</subject>
+    <subject subjectScheme="Keyword">history of medicine</subject>
+    <subject subjectScheme="Keyword">herbals</subject>
+    <subject subjectScheme="Keyword">transcription</subject>
+    <subject subjectScheme="Keyword">seventeenth century</subject>
+    <subject subjectScheme="Keyword">printed book</subject>
+    <subject subjectScheme="Keyword">Nederlands</subject>
+    <subject subjectScheme="Keyword">geschiedenis van de geneeskunde</subject>
+    <subject subjectScheme="Keyword">kruiden</subject>
+    <subject subjectScheme="Keyword">transcriptie</subject>
+    <subject subjectScheme="Keyword">zeventiende eeuw</subject>
+    <subject subjectScheme="Keyword">gedrukt boek</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Jaski, Bart</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-3731-4551</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <contributors>
+    <contributor contributorType="Editor">
+      <contributorName>Hilten, Femke van</contributorName>
+      <affiliation>Utrecht University</affiliation>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Updated">2020-10-21T13:21:13+0200</date>
+    <date dateType="Collected">2017-04-01/2020-10-16</date>
+  </dates>
+  <version>2020_10_16</version>
+  <rightsList>
+    <rights>Creative Commons Attribution 4.0 International Public License</rights>
+    <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+  </rightsList>
+  <language>nl</language>
+  <resourceType resourceTypeGeneral="Dataset">Research Data</resourceType>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References">https://utrechtuniversity.on.worldcat.org/oclc/65952920</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="IsNewVersionOf">https://utrechtuniversity.on.worldcat.org/oclc/1003289886</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References">https://www.uu.nl/bijzondere-collecties/over-bijzondere-collecties/oude-en-bijzondere-drukken/de-cleynen-herbarius-van-heyman-jacobs</relatedIdentifier>
+  </relatedIdentifiers>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Utrecht</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+</resource>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d4e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.18710/G6PJ5F</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.18710/G6PJ5F</identifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Clear vs. dark /l/ in German Learner English: Dataset for chapter 5 in "Phonological variation in German Learner English"</title>
+         </TitleInfo>
+         <Description>
+            <description>This dataset contains tabular files with acoustic
+            measurements for prevocalic and non-prevocalic laterals produced by n = 62 German
+            learners of English and n = 26 native speakers of English (BrE and AmE). The German
+            subjects are instructional-setting learners ranging from grade 5 (age: 11) to
+            university. They are predominantly from northern Bavaria and represent a broad range of
+            proficiency levels. Pronunciation ability was assessed with a foreign accent rating. The
+            data were elicited with a word list and each subject produced n = 15 tokens (n = 10 in
+            non-prevocalic position, n = 5 in prevocalic position). Measurements are reported for
+            the first two formants (F1 and F2). See ReadMe file for more details. Related
+            publication: Soenning, Lukas. 2020. Phonological variation in German Learner English.
+            University of Bamberg dissertation. DOI: 10.20378/irb-49135 Open access:
+            https://fis.uni-bamberg.de/handle/uniba/49135</description>
+            <description>Praat, 5.3.68</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>acoustic data</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier>1.0</versionIdentifier>
+         </VersionInfo>
+         <Subject>
+            <label>Arts and Humanities</label>
+         </Subject>
+         <Subject>
+            <label>L2 acquisition</label>
+         </Subject>
+         <Subject>
+            <label>German learner English</label>
+         </Subject>
+         <Subject>
+            <label>laterals</label>
+         </Subject>
+         <Subject>
+            <label>clear and dark /l/</label>
+         </Subject>
+         <Subject>
+            <label>British English</label>
+         </Subject>
+         <Subject>
+            <label>American English</label>
+         </Subject>
+         <Subject>
+            <label>English</label>
+         </Subject>
+         <Subject>
+            <label>phonetics &amp; phonology</label>
+         </Subject>
+         <Subject>
+            <label>acoustic data</label>
+         </Subject>
+         <Creator>
+            <identifier>0000-0002-2705-395X</identifier>
+            <label>Sönning, Lukas</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Sönning, Lukas</name>
+                  <alternativeName type="givenName">Lukas</alternativeName>
+                  <alternativeName type="familyName">Sönning</alternativeName>
+                  <affiliation>University of Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Sönning, Lukas</label>
+            <role>ContactPerson</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Sönning, Lukas</name>
+                  <alternativeName type="givenName">Lukas</alternativeName>
+                  <alternativeName type="familyName">Sönning</alternativeName>
+                  <affiliation>University of Bamberg</affiliation>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>University of Bamberg</label>
+            <role>Producer</role>
+            <AgentInfo>
+               <OrganisationInfo>
+                  <name>University of Bamberg</name>
+               </OrganisationInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>The Tromsø Repository of Language and Linguistics</label>
+            <role>Distributor</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>The Tromsø Repository of Language and Linguistics</name>
+                  <alternativeName type="givenName">The</alternativeName>
+                  <alternativeName type="familyName">Tromsø Repository of Language and Linguistics</alternativeName>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Collection>
+               <ActivityInfo>
+                  <When>
+                     <label>2014-04/2014-08</label>
+                  </When>
+               </ActivityInfo>
+            </Collection>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2021</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Submitted</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2020-12-06</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2021-02-01</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <mediaType>text/plain</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <mediaType>text/tab-separated-values</mediaType>
+               <!--Size: 12078-->
+               <!--Size: 87091-->
+               <!--Size: 26293-->
+               <!--Size: 4127-->
+               <!--Size: 783-->
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <otherAccessInfo>This dataset, "Clear vs. dark /l/ in German Learner English: Dataset for chapter 5 in "Phonological variation in German Learner English"", may be reused according to the Creative Commons Attribution 4.0 International (CC BY 4.0) license as described here: &lt;a href="https://creativecommons.org/licenses/by/4.0/"&#xD;
+title="TermsOfUse" target="_blank"&gt;https://creativecommons.org/licenses/by/4.0/&lt;/a&gt;.</otherAccessInfo>
+            <Licence>
+               <identifier>info:eu-repo/semantics/openAccess</identifier>
+               <label>info:eu-repo/semantics/openAccess</label>
+            </Licence>
+         </AccessInfo>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2021-07-20+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

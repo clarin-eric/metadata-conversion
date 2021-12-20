@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-93DQS5</identifier>
+  <titles>
+    <title xml:lang="en-us">Reciprocity MTH study</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">This dataset is the result of research in which we studied the effects of verb concepts on the interpretation of reciprocal expressions in Dutch and Hebrew. More about the research van be found in an article: http://doi.org/10.5334/gjgl.180.
+The data are structured as follows: 
+Experiment 1 – consisting of a pretest and a main part - studies Hebrew verb concepts in a behavioral experiment using a forced-choice task. The dataset contains raw data (.xls files).
+Experiment 2 is a behavioral experiment consisting of a pretest and two parts, studying Dutch verb concepts and the interpretation of Dutch reciprocal sentences, respectively. The pretest is a membership task that ranks typicality preferences with different verbs. Part 1 is a membership task that ranks typicality preferences with a subset of the verbs from the pretest. Part 2 is a truth-value judgement task with reciprocal sentences containing these verbs. For the pretest and both parts, the dataset contains the experimental setup (including stimuli), procedural information, raw data, output of several statistical analyses and a description of the analysis steps. In addition, the dataset contains the output of a correlation analysis that tests the relationship between results of part 1 and part 2. The software that was used is Presentation software (Neurobehavioral Systems, Albany, CA) and SPSS (version 24). 
+
+This is the second version of Reciprocity MTH study.
+</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2018</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Poortman, Eva</creatorName>
+      <nameIdentifier nameIdentifierScheme="Author identifier (Scopus)"> 57190375249 </nameIdentifier>
+      <nameIdentifier nameIdentifierScheme="ISNI">0000000395380423</nameIdentifier>
+      <nameIdentifier nameIdentifierScheme="ORCID">0000-0003-3660-7333</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <dates>
+    <date dateType="Updated">2018-05-01T09:04:01+0200</date>
+  </dates>
+  <version>2.0</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons Attribution-ShareAlike 4.0 International Public License</rights>
+  </rightsList>
+  <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+</resource>

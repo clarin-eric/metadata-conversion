@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://datacite.org/schema/kernel-4"
+    xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+    <identifier identifierType="DOI">10.24416/UU01-S1TZ43</identifier>
+    <titles>
+        <title titleType="Subtitle" xml:lang="en-us">Decolonised Sexualities: The Lived Experiences of Black Township Women Who Love Women</title>
+        <title xml:lang="en-us">Decolonised Sexualities: The Lived Experiences of Black Township Women Who Love Women</title>
+    </titles>
+    <descriptions>
+        <description xml:lang="en-us" descriptionType="Abstract">This database was compiled as part of the NWO funded
+            doctoral research project entitled “Decolonised Sexualities: The Lived Experiences of
+            Black Township Women Who Love Women” under the supervision of Prof. Dr. R.L. Buikema
+            (Utrecht University), Prof. Dr. G.D. Wekker (Utrecht University) and Dr. Z. Matebeni
+            (University of Cape Town). This research project centres the lived experiences of black
+            township women in same-sex relationships in Cape Town and Johannesburg – South Africa.
+            The main question—‘How do black township women construct their same-sex
+            sexuality?’—called for a mixed methods approach, combining qualitative and quantitative
+            data which was collected over a 10 month period between January and October 2014. The
+            mixed method approach generated 209 questionnaires (physically stored at the Archive of
+            the Faculty of Humanities at Janskerkof 13, Utrecht), 34 in-depth interviews, and 18
+            focus group discussions from Cape Town and Johannesburg as well as 2 Focus Group
+            discussions from the West Coast in the Western Cape. &#xD; &#xD; The mixed methods
+            approach I employed was grounded in Utrecht University as well as feminist research
+            ethics. In order to produce both the broader picture and the nuanced subtleties of the
+            lives and lived experiences of the research participants, the approach included a
+            questionnaire that was devised prior to my departure to South Africa. The purpose of the
+            survey was not to develop empirical generalisations, but rather to provide an in-depth
+            understanding of knowledge, sexual acts and risks of HIV and other sexually transmitted
+            infections for black township women in same-sex relationships—the first of its kind to
+            be carried out in South African Townships. For qualitative data, a semi-structured
+            approach was employed for the focus group discussions and in-depth interviews, for which
+            an interview schedule was devised. These various methods were employed to bring out
+            subjective meaning, reflection on experiences, and daily lived experiences, as well as
+            to gain exploratory insights into the sexuality, kinship, friendships, and intimate
+            relationships of the women concerned. For data collection, I collaborated with NGOs -
+            The Triangle Project in Cape Town and Forum for Empowerment of Women in
+            Johannesburg.&#xD; &#xD; For further description on the methods and data collection,
+            please check in the archive folder - Decolonised Sexualities for a word document titled
+            "data description". For an in-depth description of the findings from this data set,
+            please check a copy my dissertation at: https://dspace.library.uu.nl/handle/1874/359562
+        </description>
+    </descriptions>
+    <publisher>Utrecht University</publisher>
+    <publicationYear>2018</publicationYear>
+    <subjects>
+        <subject subjectScheme="OECD FOS 2007">Humanities - Other humanities (6.5)</subject>
+        <subject subjectScheme="Keyword">South Africa</subject>
+        <subject subjectScheme="Keyword">Townships</subject>
+        <subject subjectScheme="Keyword">Black Lesbians</subject>
+        <subject subjectScheme="Keyword">Female Masculinity</subject>
+        <subject subjectScheme="Keyword">Sexual Health</subject>
+        <subject subjectScheme="Keyword">HIV</subject>
+        <subject subjectScheme="Keyword">Gender</subject>
+    </subjects>
+    <creators>
+        <creator>
+            <creatorName nameType="Personal">Phoebe Kisubi Mbasalaki</creatorName>
+            <nameIdentifier nameIdentifierScheme="DAI">URN:NBN:NL:UI:10-1874-359562</nameIdentifier>
+            <nameIdentifier nameIdentifierScheme="ORCID">0000-0003-2538-8198</nameIdentifier>
+            <affiliation>Utrecht University</affiliation>
+        </creator>
+    </creators>
+    <contributors>
+        <contributor contributorType="HostingInstitution">
+            <contributorName nameType="Organizational">The Triangle Project - Cape Town</contributorName>
+            <affiliation>The Triangle Project - Cape Town</affiliation>
+        </contributor>
+        <contributor contributorType="HostingInstitution">
+            <contributorName nameType="Organizational">Forum for Empowerment of Women - Johannesburg</contributorName>
+            <affiliation>Forum for Empowerment of Women - Johannesburg</affiliation>
+        </contributor>
+    </contributors>
+    <dates>
+        <date dateType="Created">2012-01-01/2013-01-06</date>
+        <date dateType="Updated">2018-07-10T14:46:02+0200</date>
+        <date dateType="Collected" dateInformation="Extra information">2014-01-06</date>
+    </dates>
+    <language>en</language>
+    <version>1.0</version>
+    <rightsList>
+        <rights rightsURI="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons Attribution-ShareAlike 4.0 International Public License</rights>
+        <rights>Other access info</rights>
+    </rightsList>
+    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+    <sizes>
+        <size>10 pages b</size>
+        <size>6700k</size>
+        <size>67m</size>
+    </sizes>
+    <formats>
+        <format>TEXT/XML</format>
+        <format>Some custom XML document</format>
+    </formats>
+    <geoLocations>
+        <geoLocation>
+            <geoLocationPlace>Cape Town</geoLocationPlace>
+            <geoLocationPoint>
+                <pointLongitude>18.423889</pointLongitude>
+                <pointLatitude>-33.925278</pointLatitude>
+            </geoLocationPoint>
+        </geoLocation>
+        <geoLocation>
+            <geoLocationPlace>Johannesburg</geoLocationPlace>
+        </geoLocation>
+    </geoLocations>
+    <fundingReferences>
+        <fundingReference>
+            <funderName>NWO</funderName>
+        </fundingReference>
+    </fundingReferences>
+    <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="BLA">abcDEF</alternateIdentifier>
+    </alternateIdentifiers>
+    <relatedItems>
+        <relatedItem relatedItemType="Sound" relationType="Describes">
+            <relatedItemIdentifier>http://doi.org/123</relatedItemIdentifier>
+            <creators>
+                <creator>
+                    <creatorName nameType="Personal">C. Reator</creatorName>
+                </creator>
+                <creator>
+                    <creatorName nameType="Organizational">O.R.G.</creatorName>
+                </creator>
+            </creators>
+            <titles>
+                <title>Related resource title</title>
+                <title titleType="AlternativeTitle">Related resource alternative title</title>
+            </titles>
+            <publicationYear>2020</publicationYear>
+            <volume>1</volume>
+            <issue>2</issue>
+            <number>3</number>
+            <firstPage>100</firstPage>
+            <lastPage>999</lastPage>
+            <publisher>CLARIN</publisher>
+            <edition>v1.0</edition>
+            <contributors>
+                <contributor contributorType="Editor">
+                    <contributorName>Ron C. Tributor</contributorName>
+                </contributor>
+            </contributors>
+        </relatedItem>
+    </relatedItems>
+</resource>
+

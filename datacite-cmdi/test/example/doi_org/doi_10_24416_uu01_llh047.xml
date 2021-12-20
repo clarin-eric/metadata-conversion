@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?><resource xmlns="http://datacite.org/schema/kernel-4" xmlns:yoda="https://yoda.uu.nl/schemas/default-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.24416/UU01-LLH047</identifier>
+  <titles>
+    <title xml:lang="nl">Kees Smit (ed.), Arnoldus Buchelius, Commentarius (Diarium), deel I en II.</title>
+  </titles>
+  <descriptions>
+    <description descriptionType="Abstract">Transcriptie met inleiding en annotaties van Arnoldus Buchelius, Diarium (Commentarius rerum quotidianarum …), in Utrecht, Universiteitsbibliotheek, Hs. 798 (deel I en II). Het Diarium is deels autobiografie en deels kroniek, geschreven door Aernout van Buchell (1565-1641). Het beslaat de periode 1560-1599, bevat een beschrijving van de stad Utrecht en zijn reizen door Frankrijk, Duitsland en Italie, en is vooral geschreven in het Latijn. 
+Transcription with preface and annotations of Arnoldus Buchelius, Diarium (Commentarius rerum quotidianarum …), in Utrecht, University Library, Hs. 798 (parts I and II). The Diarium is part autobiography, part chronicle, written by Aernout van Buchell (1565-1641). It covers the period 1560-1599, contains a description of the city of Utrecht and his travels through France, Germany and Italy, and is mainly written in Latin.</description>
+  </descriptions>
+  <publisher>Utrecht University</publisher>
+  <publicationYear>2020</publicationYear>
+  <subjects>
+    <subject subjectScheme="OECD FOS 2007">Humanities - History and archaeology (6.1)</subject>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Languages and literature (6.2)</subject>
+    <subject subjectScheme="OECD FOS 2007">Humanities - Philosophy, ethics and religion (6.3)</subject>
+    <subject subjectScheme="Keyword">dagboek</subject>
+    <subject subjectScheme="Keyword">reizen</subject>
+    <subject subjectScheme="Keyword">studeren</subject>
+    <subject subjectScheme="Keyword">reformatie</subject>
+    <subject subjectScheme="Keyword">humanisme</subject>
+    <subject subjectScheme="Keyword">zestiende eeuw</subject>
+    <subject subjectScheme="Keyword">diary</subject>
+    <subject subjectScheme="Keyword">travel</subject>
+    <subject subjectScheme="Keyword">study</subject>
+    <subject subjectScheme="Keyword">reformation</subject>
+    <subject subjectScheme="Keyword">humanism</subject>
+    <subject subjectScheme="Keyword">sixteenth century</subject>
+  </subjects>
+  <creators>
+    <creator>
+      <creatorName>Jaski, Bart</creatorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-3731-4551</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </creator>
+  </creators>
+  <contributors>
+    <contributor contributorType="Editor">
+      <contributorName>Smit, Kees</contributorName>
+      <affiliation>Utrecht University</affiliation>
+    </contributor>
+    <contributor contributorType="Researcher">
+      <contributorName>Gerritsen-Geywitz, Gisela </contributorName>
+      <affiliation>private researcher</affiliation>
+    </contributor>
+    <contributor contributorType="Researcher">
+      <contributorName>Blok, Margreet</contributorName>
+      <affiliation>private researcher</affiliation>
+    </contributor>
+    <contributor contributorType="Editor">
+      <contributorName>Jaski, Bart</contributorName>
+      <nameIdentifier nameIdentifierScheme="ORCID">https://orcid.org/0000-0002-3731-4551</nameIdentifier>
+      <affiliation>Utrecht University</affiliation>
+    </contributor>
+  </contributors>
+  <dates>
+    <date dateType="Updated">2020-11-04T09:32:33+0100</date>
+    <date dateType="Collected">2012-01-01/2020-10-29</date>
+  </dates>
+  <version>2020_10_29</version>
+  <rightsList>
+    <rights>Creative Commons Attribution 4.0 International Public License</rights>
+    <rights rightsURI="info:eu-repo/semantics/openAccess">Open Access</rights>
+  </rightsList>
+  <language>nl</language>
+  <resourceType resourceTypeGeneral="Dataset">Research Data</resourceType>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="References">https://utrechtuniversity.on.worldcat.org/oclc/965407851</relatedIdentifier>
+    <relatedIdentifier relatedIdentifierType="URL" relationType="IsReferencedBy">https://www.uu.nl/bijzondere-collecties/over-bijzondere-collecties/handschriften/diarium-van-aernout-van-buchell</relatedIdentifier>
+  </relatedIdentifiers>
+  <geoLocations>
+    <geoLocation>
+      <geoLocationPlace>Utrecht</geoLocationPlace>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationPlace>Douai</geoLocationPlace>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationPlace>Cologne</geoLocationPlace>
+    </geoLocation>
+    <geoLocation>
+      <geoLocationPlace>Rome</geoLocationPlace>
+    </geoLocation>
+  </geoLocations>
+</resource>
