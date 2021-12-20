@@ -52,12 +52,6 @@ test_conversion() {
 			echo "Conversion output and target file comparison succeeded"
 		else
 			echo "FAILED: conversion (${XSLT_FILE}) output and target file comparison failed"
-			echo -e "Dumping output...\n......................\n.....................\n"
-			echo -e "Source '${SOURCE_RECORD}':\n......................\n"
-			cat "${SOURCE_RECORD}"
-			echo -e "Target '${TARGET_RECORD}':\n......................\n"
-			cat "${TARGET_RECORD}"
-			echo -e "End...\n......................\n"
 			cleanup "${BASE_DIR}/${CONVERSION_OUT}"; return 1
 		fi
 		
@@ -125,6 +119,15 @@ compare_xml() {
 	
 	echo "Diff exit code: ${SUCCESS}"
 	echo "--------------------------"
+	
+	if [ "${SUCCESS}" != 0 ]; then
+		echo -e "Comparison failed. Dumping output...\n......................\n.....................\n"
+		echo -e "Source normalised '${SRC_NORMALIZED}':\n......................\n"
+		cat "${SRC_NORMALIZED}"
+		echo -e "Target normalised '${OUT_NORMALIZED}':\n......................\n"
+		cat "${OUT_NORMALIZED}"
+		echo -e "End...\n......................\n"
+	fi
 	
 	cleanup "${SRC_NORMALIZED}" "${OUT_NORMALIZED}"
 	
