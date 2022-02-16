@@ -692,8 +692,8 @@
     <xsl:template mode="CitationInfo" match="citation">
         <!-- Construct single bibliographic citation from information in citation block -->
         <xsl:variable name="prodDate">
-            <xsl:if test="prodStmt/prodDate">
-                <xsl:value-of select="concat(normalize-space(prodStmt/prodDate), '. ')"/>
+            <xsl:if test="prodStmt/prodDate[1]">
+                <xsl:value-of select="concat(normalize-space(prodStmt/prodDate[1]), '. ')"/>
             </xsl:if>
         </xsl:variable>
         
@@ -724,7 +724,7 @@
         
         <xsl:variable name="title">
             <xsl:if test="count(titlStmt/titl) = 1">
-                <xsl:value-of select="normalize-space(titlStmt/titl)"/>
+                <xsl:value-of select="concat(normalize-space(titlStmt/titl), '. ')"/>
             </xsl:if>
         </xsl:variable>
         
