@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<datacite:resource
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd http://purl.org/dc/elements/1.1/ https://dublincore.org/schemas/xmls/simpledc20021212.xsd http://namespace.openaire.eu/oaf http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd http://datacite.org/schema/kernel-3 https://schema.datacite.org/meta/kernel-3/metadata.xsd"
+    xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:open_aire="http://namespace.openaire.eu/oaf"
+    xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+    xmlns:datacite="http://datacite.org/schema/kernel-3" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <datacite:identifier identifierType="Handle">11858/00-1734-0000-0003-1A1F-1</datacite:identifier>
+    <datacite:creators>
+        <datacite:creator>
+            <datacite:creatorName>Gryphius, Andreas</datacite:creatorName>
+            <datacite:nameIdentifier nameIdentifierScheme="pnd" schemeURI="https://ref.de.dariah.eu/pndsearch/pndquery.xql?id=">118543032</datacite:nameIdentifier>
+        </datacite:creator>
+    </datacite:creators>
+    <datacite:titles>
+        <datacite:title>Andreas Gryphius: Gesamtausgabe der deutschsprachigen Werke. Herausgegeben von Marian Szyrocki und Hugh Powell, Tübingen: Niemeyer, 1963.</datacite:title>
+        <datacite:title>Andreas Gryphius: Gesamtausgabe der deutschsprachigen Werke. Herausgegeben von Marian Szyrocki und Hugh Powell, Tübingen: Niemeyer, 1963.</datacite:title>
+    </datacite:titles>
+    <datacite:publisher>TextGrid</datacite:publisher>
+    <datacite:publicationYear>2012</datacite:publicationYear>
+    <datacite:subjects>
+        <datacite:subject subjectScheme="" schemeURI=""/>
+    </datacite:subjects>
+    <datacite:contributors>
+        <datacite:contributor contributorType="DataManager">
+            <datacite:contributorName>tvitt@textgrid.de</datacite:contributorName>
+        </datacite:contributor>
+        <datacite:contributor contributorType="Other">
+            <datacite:contributorName>Digitale Bibliothek</datacite:contributorName>
+            <datacite:nameIdentifier nameIdentifierScheme="textgrid" schemeURI="https://textgridlab.org/schema/textgrid-metadata_2010.xsd">TGPR-372fe6dc-57f2-6cd4-01b5-2c4bbefcfd3c</datacite:nameIdentifier>
+        </datacite:contributor>
+    </datacite:contributors>
+    <datacite:dates>
+        <datacite:date dateType="Created">2012-01-18T19:52:34Z</datacite:date>
+        <datacite:date dateType="Issued">2012-01-18T19:52:34Z</datacite:date>
+        <datacite:date dateType="Updated">2012-01-18T19:52:34Z</datacite:date>
+    </datacite:dates>
+    <datacite:resourceType resourceTypeGeneral="Dataset">text/tg.edition+tg.aggregation+xml</datacite:resourceType>
+    <datacite:alternateIdentifiers>
+        <datacite:alternateIdentifier alternateIdentifierType="URI">textgrid:p841.0</datacite:alternateIdentifier>
+    </datacite:alternateIdentifiers>
+    <datacite:relatedIdentifiers>
+        <datacite:relatedIdentifier relatedIdentifierType="Handle" relationType="IsPartOf">hdl:11858/00-1734-0000-0003-1A20-C</datacite:relatedIdentifier>
+    </datacite:relatedIdentifiers>
+    <datacite:sizes>
+        <datacite:size>527 Bytes</datacite:size>
+    </datacite:sizes>
+    <datacite:formats>
+        <datacite:format>text/tg.edition+tg.aggregation+xml</datacite:format>
+    </datacite:formats>
+    <datacite:version>0</datacite:version>
+    <datacite:rightsList>
+        <datacite:rights rightsURI="http://creativecommons.org/licenses/by/3.0/de/legalcode"> Der annotierte Datenbestand der Digitalen Bibliothek inklusive
+                            Metadaten sowie davon einzeln zugängliche Teile sind eine Abwandlung
+                            des Datenbestandes von www.editura.de durch TextGrid und werden
+                            unter der Lizenz Creative Commons Namensnennung 3.0 Deutschland
+                            Lizenz (by-Nennung TextGrid) veröffentlicht. Die Lizenz bezieht sich
+                            nicht auf die der Annotation zu Grunde liegenden allgemeinfreien
+                            Texte (Siehe auch Punkt 2 der Lizenzbestimmungen).</datacite:rights>
+        <datacite:rights rightsURI="info:eu-repo/semantics/openAccess"/>
+    </datacite:rightsList>
+    <datacite:descriptions/>
+    <datacite:geoLocations>
+        <datacite:geoLocation>
+            <datacite:geoLocationPlace xsi:type="xs:string"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema">Tübingen</datacite:geoLocationPlace>
+        </datacite:geoLocation>
+    </datacite:geoLocations>
+</datacite:resource>

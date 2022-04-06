@@ -239,7 +239,7 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="@identifierType" mode="identifier.type">
+    <xsl:template match="resource//*/@identifierType" mode="identifier.type">
         <xsl:choose>
             <xsl:when test="normalize-space(.) = 'DOI'">
                 <xsl:attribute name="type">DOI</xsl:attribute>
