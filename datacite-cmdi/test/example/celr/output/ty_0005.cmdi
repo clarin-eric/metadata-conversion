@@ -48,10 +48,10 @@
             <ProvenanceInfo>
                <Activity>
                   <label>Conversion</label>
-                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-3) to CMDI (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-3) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
                   <ActivityInfo>
                      <When>
-                        <date>2021-07-20+03:00</date>
+                        <date>2022-04-11+03:00</date>
                      </When>
                   </ActivityInfo>
                </Activity>

@@ -9,7 +9,12 @@
       <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
    </cmd:Header>
    <cmd:Resources>
-      <cmd:ResourceProxyList><!--Resource identifier cannot be converted to a ResourceRef: 11858/00-1734-0000-0003-1A1F-1--></cmd:ResourceProxyList>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d4e3">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://hdl.handle.net/11858/00-1734-0000-0003-1A1F-1</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
       <cmd:JournalFileProxyList/>
       <cmd:ResourceRelationList/>
    </cmd:Resources>
@@ -129,7 +134,7 @@
                   <note>Conversion from DataCite (http://datacite.org/schema/kernel-3) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
                   <ActivityInfo>
                      <When>
-                        <date>2022-04-06+03:00</date>
+                        <date>2022-04-11+03:00</date>
                      </When>
                   </ActivityInfo>
                </Activity>

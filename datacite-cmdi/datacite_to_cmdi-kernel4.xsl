@@ -4,7 +4,7 @@
 
     Datacite to CMD conversion stylesheet
     Author: Twan Goosen (CLARIN ERIC) <twan@clarin.eu>
-    Version: 1.0.0-alpha1
+    Version: 1.1.0
     
     This stylesheet converts a Datacite XML metadata record to a CLARIN
     Component Metadata instance (CMDI record). The output record is an instance
@@ -42,8 +42,11 @@
             </cmd:Components>
         </cmd:CMD>
     </xsl:template>
-
-    <xsl:template match="identifier[@identifierType = 'DOI']" mode="ResourceProxy">
+    
+    <xsl:template
+        match="identifier[@identifierType = 'DOI']"
+        priority="1"
+        mode="ResourceProxy">
         <cmd:ResourceProxy>
             <xsl:attribute name="id" select="generate-id(.)"/>
             <cmd:ResourceType>Resource</cmd:ResourceType>
@@ -61,9 +64,10 @@
             </cmd:ResourceRef>
         </cmd:ResourceProxy>
     </xsl:template>
-
+    
     <xsl:template
         match="identifier[@identifierType != 'DOI' and datacite_cmd:isAbsoluteUri(text())]"
+        priority="1"
         mode="ResourceProxy">
         <cmd:ResourceProxy>
             <xsl:attribute name="id" select="generate-id(.)"/>
@@ -73,9 +77,25 @@
             </cmd:ResourceRef>
         </cmd:ResourceProxy>
     </xsl:template>
-
-    <xsl:template match="identifier" mode="ResourceProxy">
-        <xsl:comment>Resource identifier cannot be converted to a ResourceRef: <xsl:value-of select="text()"/></xsl:comment>
+    
+    <xsl:template
+        match="identifier[@identifierType = 'Handle' and not(datacite_cmd:isAbsoluteUri(text()))]"
+        priority="1"
+        mode="ResourceProxy">
+        <cmd:ResourceProxy>
+            <xsl:attribute name="id" select="generate-id(.)"/>
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>
+                <xsl:value-of select="concat('https://hdl.handle.net/',text())"/>
+            </cmd:ResourceRef>
+        </cmd:ResourceProxy>
+    </xsl:template>
+    
+    <xsl:template
+        match="identifier"
+        priority="-1"
+        mode="ResourceProxy">
+        <xsl:comment>Identifier type not recognised - Resource Proxy skipped for <xsl:value-of select="text()"/></xsl:comment>
     </xsl:template>
 
     <!-- Header section -->
