@@ -601,21 +601,21 @@
     <xsl:template match="format" mode="SubresourceTechnicalInfo.type">
         <!-- <type> is for type indications/specifications other than media types -->
         <xsl:choose>
-            <xsl:when test="datacite_cmd:isMediaType(text())">
+            <xsl:when test="text() and datacite_cmd:isMediaType(text())">
                 <!-- nothing, handled by <mediaType> template -->
             </xsl:when>
-            <xsl:otherwise>
+            <xsl:when test="text()">
                 <type>
                     <xsl:sequence select="text()"/>
-                </type>
-            </xsl:otherwise>
+                </type>                
+            </xsl:when>
         </xsl:choose>
     </xsl:template>
-
+    
     <xsl:template match="format" mode="SubresourceTechnicalInfo.mediaType">
         <!-- <mediaType> is for IANA media type specifications only -->
         <xsl:choose>
-            <xsl:when test="datacite_cmd:isMediaType(text())">
+            <xsl:when test="text() and datacite_cmd:isMediaType(text())">
                 <mediaType>
                     <xsl:sequence select="text()"/>
                 </mediaType>

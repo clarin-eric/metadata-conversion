@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--<OAI-PMH xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd http://purl.org/dc/elements/1.1/ https://dublincore.org/schemas/xmls/simpledc20021212.xsd http://namespace.openaire.eu/oaf http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd http://datacite.org/schema/kernel-3 https://schema.datacite.org/meta/kernel-3/metadata.xsd" xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:open_aire="http://namespace.openaire.eu/oaf" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:datacite="http://datacite.org/schema/kernel-3" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <responseDate>2022-04-12T13:14:33Z</responseDate>
+    <request verb="GetRecord" identifier="21.11113/0000-000E-8BE7-1" metadataPrefix="oai_datacite">repository.de.dariah.eu</request>
+    <GetRecord>
+        <record>
+            <header>
+                <identifier>hdl:21</identifier>
+                <datestamp>2022-03-02T17:11:32Z</datestamp>
+                <setSpec>hdl:21.11113/0000-000E-8BE7-1</setSpec>
+            </header>
+            <metadata>-->
+<datacite:resource
+    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd http://purl.org/dc/elements/1.1/ https://dublincore.org/schemas/xmls/simpledc20021212.xsd http://namespace.openaire.eu/oaf http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd http://datacite.org/schema/kernel-3 https://schema.datacite.org/meta/kernel-3/metadata.xsd"
+    xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:open_aire="http://namespace.openaire.eu/oaf"
+    xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+    xmlns:datacite="http://datacite.org/schema/kernel-3" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <datacite:identifier identifierType="DOI">10.20375/0000-000E-8BE7-1</datacite:identifier>
+    <datacite:creators>
+        <datacite:creator>
+            <datacite:creatorName>orcid.org/0000-0002-0719-9003</datacite:creatorName>
+        </datacite:creator>
+        <datacite:creator>
+            <datacite:creatorName>Autorinnen und Autoren des Siglo de Oro</datacite:creatorName>
+        </datacite:creator>
+        <datacite:creator>
+            <datacite:creatorName>Nanette Rißler-Pipka</datacite:creatorName>
+        </datacite:creator>
+    </datacite:creators>
+    <datacite:titles>
+        <datacite:title>Literary Texts of the Spanish Golden Age</datacite:title>
+        <datacite:title>Textos literarios del Siglo de Oro</datacite:title>
+        <datacite:title>Literarische Werke des Spanischen Goldenen Zeitalters</datacite:title>
+    </datacite:titles>
+    <datacite:publisher>DARIAH-DE</datacite:publisher>
+    <datacite:publicationYear>2022</datacite:publicationYear>
+    <datacite:subjects>
+        <datacite:subject>Hispanistik</datacite:subject>
+        <datacite:subject>Romanistik</datacite:subject>
+    </datacite:subjects>
+    <datacite:contributors>
+        <datacite:contributor contributorType="DataManager">
+            <datacite:contributorName>Nanette@dariah.eu</datacite:contributorName>
+        </datacite:contributor>
+        <datacite:contributor contributorType="Other">
+            <datacite:contributorName>Silvia Hernández Alonso</datacite:contributorName>
+        </datacite:contributor>
+    </datacite:contributors>
+    <datacite:dates>
+        <datacite:date dateType="Created">2022-03-02T17:11:32Z</datacite:date>
+        <datacite:date dateType="Updated">2022-03-02T17:11:32Z</datacite:date>
+    </datacite:dates>
+    <datacite:language>es</datacite:language>
+    <datacite:resourceType resourceTypeGeneral="Dataset">text/vnd.dariah.dhrep.collection+turtle</datacite:resourceType>
+    <datacite:alternateIdentifiers>
+        <datacite:alternateIdentifier alternateIdentifierType="HANDLE">21.11113/0000-000E-8BE7-1</datacite:alternateIdentifier>
+        <datacite:alternateIdentifier alternateIdentifierType="DOI">10.20375/0000-000E-8BE7-1</datacite:alternateIdentifier>
+    </datacite:alternateIdentifiers>
+    <datacite:relatedIdentifiers>
+        <datacite:relatedIdentifier relatedIdentifierType="URL" relationType="References"/>
+        <datacite:relatedIdentifier relatedIdentifierType="DOI" relationType="References">10.17175/2018_004</datacite:relatedIdentifier>
+        <datacite:relatedIdentifier relatedIdentifierType="URL" relationType="References"/>
+    </datacite:relatedIdentifiers>
+    <datacite:sizes>
+        <datacite:size>5136 Bytes</datacite:size>
+    </datacite:sizes>
+    <datacite:formats>
+        <datacite:format></datacite:format>
+    </datacite:formats>
+    <datacite:version/>
+    <datacite:rightsList>
+        <datacite:rights>CC BY 4.0</datacite:rights>
+    </datacite:rightsList>
+    <datacite:descriptions>
+        <datacite:description descriptionType="Abstract">Esta es una colección de textos literarios,
+            escritos por varios autores del siglo de oro y pertenecientes a diferentes géneros
+            literarios. Los fuentes bibliográficos y los géneros literarios son listados en la tabla
+            de metadatos. Fue creada y analizada en los artículos "Die Digitalisierung des goldenen
+            Zeitalters – Editionsproblematik und stilometrische Autorschaftsattribution am Beispiel
+            des Quijote" (doi:10.17175/2018_004) y „Avellaneda y los problemas de la identificación
+            del autor. Propuestas para una investigación con nuevas herramientas digitales"
+            (https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-37049). Los 96 textos se encuentran
+            en dominio público, son de acceso libre y la mayoría de ellos proceden de la Biblioteca
+            Virtual Miguel de Cervantes o de Wikisource. Los textos han sido modificados mínimamente
+            (por ejemplo en eliminando la cabacera o carácteres especiales) y convertidos en texto
+            plano (txt, con codificación UTF-8). En algunos casos todavía se encuentran ciertos
+            paratextos, por ejemplo al comienzo del texto. Los archivos se encuentran tal y como
+            fueron utilizados en proyectos anteriores, por lo que los nombres de los documentos no
+            están normalizados.</datacite:description>
+        <datacite:description descriptionType="Abstract">This collection of literary works contains
+            texts of several different genre and authors from the 16th to 17th century in Spain (in
+            catellano). Detailled information regarding the genres and bibliographic references are
+            given in the metadata table. The collection was created for the papers: "Avellaneda y
+            los problemas de la identificación del autor. Propuestas para una investigación con
+            nuevas herramientas digitales"
+            (https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-37049) and "Die Digitalisierung des
+            goldenen Zeitalters – Editionsproblematik und stilometrische Autorschaftsattribution am
+            Beispiel des Quijote" (doi:10.17175/2018_004). All in all 96 texts are coming from
+            public domain and different digital libraries, mostly the Biblioteca Virtual Miguel de
+            Cervantes or Wikisource. They were transferred into plain text format (UTF-8) but only
+            minimally cleaned. Some of the texts still have paratexts (prelimanary notes,
+            dedications etc.</datacite:description>
+        <datacite:description descriptionType="Abstract">Diese Textsammlung enthält literarische
+            Werke unterschiedlicher Gattungen und Autoren in spanischer Originalsprache aus dem
+            Zeitraum des 16. bis 17. Jahrhunderts. Die Sammlung wurde anlässlich zweier
+            stilometrischer Studien zur Autorschaft des "Quijote apocrífo" erstellt: "Avellaneda y
+            los problemas de la identificación del autor. Propuestas para una investigación con
+            nuevas herramientas digitales"
+            (https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-37049) und "Die Digitalisierung des
+            goldenen Zeitalters – Editionsproblematik und stilometrische Autorschaftsattribution am
+            Beispiel des Quijote" (doi:10.17175/2018_004). Die insgesamt 96 Texte sind gemeinfrei
+            zugänglich und wurden aus unterschiedlichen digitalen Bibliotheken gesammelt. Zum großen
+            Teil stammen die Texte von Biblioteca Virtual Miguel Cervantes oder Wikisource. Zur
+            Sammlung wird eine Metadatentabelle mit bibliographischen Angaben und Informationen zu
+            den Gattungen veröffentlicht. Die Texte liegen im Reintextformat (UTF-8 codiert) vor und
+            wurden nur minimal bereinigt. Es befinden sich z.T. noch Paratexte (Vorwort, Widmung,
+            etc.) in den einzelnen Textdateien. Die Benennung der Dateien entspricht leider keinem
+            einheitlichen Prinzip, weil sie für unterschiedliche digitale Untersuchungen verwendet
+            wurden.</datacite:description>
+    </datacite:descriptions>
+    <datacite:geoLocations>
+        <datacite:geoLocation>
+            <datacite:geoLocationPlace xsi:type="xs:string"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+        </datacite:geoLocation>
+    </datacite:geoLocations>
+</datacite:resource>
+<!--            </metadata>
+        </record>
+    </GetRecord>
+</OAI-PMH>
+-->

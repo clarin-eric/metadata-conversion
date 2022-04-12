@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1610707853541"
+         CMDVersion="1.2"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
+   <cmd:Header>
+      <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+   </cmd:Header>
+   <cmd:Resources>
+      <cmd:ResourceProxyList>
+         <cmd:ResourceProxy id="d4e4">
+            <cmd:ResourceType>Resource</cmd:ResourceType>
+            <cmd:ResourceRef>https://doi.org/10.20375/0000-000E-8BE7-1</cmd:ResourceRef>
+         </cmd:ResourceProxy>
+      </cmd:ResourceProxyList>
+      <cmd:JournalFileProxyList/>
+      <cmd:ResourceRelationList/>
+   </cmd:Resources>
+   <cmd:IsPartOfList/>
+   <cmd:Components>
+      <DataCiteRecord>
+         <IdentificationInfo>
+            <identifier type="DOI">https://doi.org/10.20375/0000-000E-8BE7-1</identifier>
+            <alternativeIdentifier>HANDLE21.11113/0000-000E-8BE7-1</alternativeIdentifier>
+            <alternativeIdentifier type="DOI">https://doi.org/10.20375/0000-000E-8BE7-1</alternativeIdentifier>
+         </IdentificationInfo>
+         <TitleInfo>
+            <title>Literary Texts of the Spanish Golden Age</title>
+            <title>Textos literarios del Siglo de Oro</title>
+            <title>Literarische Werke des Spanischen Goldenen Zeitalters</title>
+         </TitleInfo>
+         <Description>
+            <description>Esta es una colección de textos literarios,
+            escritos por varios autores del siglo de oro y pertenecientes a diferentes géneros
+            literarios. Los fuentes bibliográficos y los géneros literarios son listados en la tabla
+            de metadatos. Fue creada y analizada en los artículos "Die Digitalisierung des goldenen
+            Zeitalters – Editionsproblematik und stilometrische Autorschaftsattribution am Beispiel
+            des Quijote" (doi:10.17175/2018_004) y „Avellaneda y los problemas de la identificación
+            del autor. Propuestas para una investigación con nuevas herramientas digitales"
+            (https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-37049). Los 96 textos se encuentran
+            en dominio público, son de acceso libre y la mayoría de ellos proceden de la Biblioteca
+            Virtual Miguel de Cervantes o de Wikisource. Los textos han sido modificados mínimamente
+            (por ejemplo en eliminando la cabacera o carácteres especiales) y convertidos en texto
+            plano (txt, con codificación UTF-8). En algunos casos todavía se encuentran ciertos
+            paratextos, por ejemplo al comienzo del texto. Los archivos se encuentran tal y como
+            fueron utilizados en proyectos anteriores, por lo que los nombres de los documentos no
+            están normalizados.</description>
+            <description>This collection of literary works contains
+            texts of several different genre and authors from the 16th to 17th century in Spain (in
+            catellano). Detailled information regarding the genres and bibliographic references are
+            given in the metadata table. The collection was created for the papers: "Avellaneda y
+            los problemas de la identificación del autor. Propuestas para una investigación con
+            nuevas herramientas digitales"
+            (https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-37049) and "Die Digitalisierung des
+            goldenen Zeitalters – Editionsproblematik und stilometrische Autorschaftsattribution am
+            Beispiel des Quijote" (doi:10.17175/2018_004). All in all 96 texts are coming from
+            public domain and different digital libraries, mostly the Biblioteca Virtual Miguel de
+            Cervantes or Wikisource. They were transferred into plain text format (UTF-8) but only
+            minimally cleaned. Some of the texts still have paratexts (prelimanary notes,
+            dedications etc.</description>
+            <description>Diese Textsammlung enthält literarische
+            Werke unterschiedlicher Gattungen und Autoren in spanischer Originalsprache aus dem
+            Zeitraum des 16. bis 17. Jahrhunderts. Die Sammlung wurde anlässlich zweier
+            stilometrischer Studien zur Autorschaft des "Quijote apocrífo" erstellt: "Avellaneda y
+            los problemas de la identificación del autor. Propuestas para una investigación con
+            nuevas herramientas digitales"
+            (https://nbn-resolving.org/urn:nbn:de:bvb:384-opus4-37049) und "Die Digitalisierung des
+            goldenen Zeitalters – Editionsproblematik und stilometrische Autorschaftsattribution am
+            Beispiel des Quijote" (doi:10.17175/2018_004). Die insgesamt 96 Texte sind gemeinfrei
+            zugänglich und wurden aus unterschiedlichen digitalen Bibliotheken gesammelt. Zum großen
+            Teil stammen die Texte von Biblioteca Virtual Miguel Cervantes oder Wikisource. Zur
+            Sammlung wird eine Metadatentabelle mit bibliographischen Angaben und Informationen zu
+            den Gattungen veröffentlicht. Die Texte liegen im Reintextformat (UTF-8 codiert) vor und
+            wurden nur minimal bereinigt. Es befinden sich z.T. noch Paratexte (Vorwort, Widmung,
+            etc.) in den einzelnen Textdateien. Die Benennung der Dateien entspricht leider keinem
+            einheitlichen Prinzip, weil sie für unterschiedliche digitale Untersuchungen verwendet
+            wurden.</description>
+         </Description>
+         <ResourceType>
+            <identifier>http://purl.org/dc/dcmitype/Dataset</identifier>
+            <label>Dataset</label>
+            <label>text/vnd.dariah.dhrep.collection+turtle</label>
+         </ResourceType>
+         <VersionInfo>
+            <versionIdentifier/>
+         </VersionInfo>
+         <Language>
+            <name>es</name>
+            <code>es</code>
+         </Language>
+         <Subject>
+            <label>Hispanistik</label>
+         </Subject>
+         <Subject>
+            <label>Romanistik</label>
+         </Subject>
+         <Creator>
+            <label>orcid.org/0000-0002-0719-9003</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>orcid.org/0000-0002-0719-9003</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Autorinnen und Autoren des Siglo de Oro</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Autorinnen und Autoren des Siglo de Oro</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Creator>
+            <label>Nanette Rißler-Pipka</label>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nanette Rißler-Pipka</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Creator>
+         <Contributor>
+            <label>Nanette@dariah.eu</label>
+            <role>DataManager</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Nanette@dariah.eu</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <Contributor>
+            <label>Silvia Hernández Alonso</label>
+            <role>Other</role>
+            <AgentInfo>
+               <PersonInfo>
+                  <name>Silvia Hernández Alonso</name>
+               </PersonInfo>
+            </AgentInfo>
+         </Contributor>
+         <ProvenanceInfo>
+            <Creation>
+               <ActivityInfo>
+                  <When>
+                     <date>2022-03-02</date>
+                  </When>
+               </ActivityInfo>
+            </Creation>
+            <Publication>
+               <ActivityInfo>
+                  <When>
+                     <year>2022</year>
+                  </When>
+               </ActivityInfo>
+            </Publication>
+            <Activity>
+               <label>Updated</label>
+               <ActivityInfo>
+                  <When>
+                     <date>2022-03-02</date>
+                  </When>
+               </ActivityInfo>
+            </Activity>
+         </ProvenanceInfo>
+         <Subresource>
+            <SubresourceTechnicalInfo>
+               <size SizeUnit="byte">5136</size>
+            </SubresourceTechnicalInfo>
+         </Subresource>
+         <AccessInfo>
+            <otherAccessInfo>CC BY 4.0</otherAccessInfo>
+         </AccessInfo>
+         <GeoLocation>
+            <label/>
+         </GeoLocation>
+         <MetadataInfo>
+            <ProvenanceInfo>
+               <Activity>
+                  <label>Conversion</label>
+                  <note>Conversion from DataCite (http://datacite.org/schema/kernel-3) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
+                  <ActivityInfo>
+                     <When>
+                        <date>2022-04-12+03:00</date>
+                     </When>
+                  </ActivityInfo>
+               </Activity>
+            </ProvenanceInfo>
+         </MetadataInfo>
+      </DataCiteRecord>
+   </cmd:Components>
+</cmd:CMD>

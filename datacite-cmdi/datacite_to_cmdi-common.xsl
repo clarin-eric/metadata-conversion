@@ -106,7 +106,6 @@
         </xsl:if>
     </xsl:template>
 
-
     <xsl:function name="datacite_cmd:isAbsoluteUri">
         <xsl:param name="value"/>
         <xsl:sequence select="matches($value, '^(http|https|hdl|doi):.*$')"/>
@@ -146,7 +145,7 @@
     </xsl:function>
 
     <xsl:function name="datacite_cmd:isMediaType">
-        <xsl:param name="value" as="xs:string"/>
+        <xsl:param name="value" as="xs:string" />
         <xsl:sequence
             select="matches(normalize-space($value), '^(application|audio|image|message|multipart|text|video|font|example|model|image|text)/.+$', 'i')"
         />
