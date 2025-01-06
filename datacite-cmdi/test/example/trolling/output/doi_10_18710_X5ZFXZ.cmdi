@@ -7,6 +7,7 @@
          xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
    <cmd:Header>
       <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
+      <cmd:MdCollectionDisplayName>Trolling Dataverse OAI Provider</cmd:MdCollectionDisplayName>
    </cmd:Header>
    <cmd:Resources>
       <cmd:ResourceProxyList>
@@ -177,7 +178,7 @@
                   <note>Conversion from DataCite (http://datacite.org/schema/kernel-4) to CMD (profile clarin.eu:cr1:p_1610707853541)</note>
                   <ActivityInfo>
                      <When>
-                        <date>2021-07-20+03:00</date>
+                        <date>2025-01-06+02:00</date>
                      </When>
                   </ActivityInfo>
                </Activity>
