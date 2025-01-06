@@ -35,6 +35,9 @@
 
     <xsl:output indent="yes"/>
     
+    <xsl:param name="provider_name" select="''"/>
+    <xsl:param name="collection_name" select="$provider_name"/>
+    
     <xsl:include href="datacite_to_cmdi-common.xsl"/>
     <xsl:include href="datacite_to_cmdi-kernel3.xsl"/>
     <xsl:include href="datacite_to_cmdi-kernel4.xsl"/>

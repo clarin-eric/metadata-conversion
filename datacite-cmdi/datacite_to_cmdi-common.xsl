@@ -105,6 +105,15 @@
             </xsl:element>
         </xsl:if>
     </xsl:template>
+    
+    <xsl:template name="collectionDisplayName">
+        <xsl:param name="collection_name" select="''"/>
+        <xsl:if test="normalize-space($collection_name)!=''">
+            <MdCollectionDisplayName>
+                <xsl:value-of select="$collection_name"/>
+            </MdCollectionDisplayName>
+        </xsl:if>
+    </xsl:template>
 
     <xsl:function name="datacite_cmd:isAbsoluteUri">
         <xsl:param name="value"/>
