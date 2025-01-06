@@ -7,7 +7,7 @@
          xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
    <cmd:Header>
       <cmd:MdProfile>clarin.eu:cr1:p_1610707853541</cmd:MdProfile>
-      <MdCollectionDisplayName>test collection name</MdCollectionDisplayName>
+      <cmd:MdCollectionDisplayName>test collection name</cmd:MdCollectionDisplayName>
    </cmd:Header>
    <cmd:Resources>
       <cmd:ResourceProxyList>

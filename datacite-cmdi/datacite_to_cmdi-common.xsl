@@ -109,9 +109,9 @@
     <xsl:template name="collectionDisplayName">
         <xsl:param name="collection_name" select="''"/>
         <xsl:if test="normalize-space($collection_name)!=''">
-            <MdCollectionDisplayName>
+            <cmd:MdCollectionDisplayName>
                 <xsl:value-of select="$collection_name"/>
-            </MdCollectionDisplayName>
+            </cmd:MdCollectionDisplayName>
         </xsl:if>
     </xsl:template>
 
