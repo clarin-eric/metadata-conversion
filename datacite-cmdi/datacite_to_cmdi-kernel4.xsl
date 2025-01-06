@@ -33,7 +33,7 @@
     <xsl:template match="resource" mode="root">
         <cmd:CMD CMDVersion="1.2"
             xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1610707853541/xsd">
-            <xsl:apply-templates select="." mode="header-section"/>
+            <xsl:apply-templates select="." mode="header-section" />
             <xsl:apply-templates select="." mode="resource-section"/>
             <cmd:Components>
                 <DataCiteRecord>
@@ -109,7 +109,9 @@
             <!-- Can we generate a selflink? -->
             <!--                <cmd:MdSelfLink>http://www.oxygenxml.com/</cmd:MdSelfLink>-->
             <cmd:MdProfile><xsl:value-of select="$cmdiProfileId"/></cmd:MdProfile>
-            <!--<cmd:MdCollectionDisplayName>MdCollectionDisplayName0</cmd:MdCollectionDisplayName>-->
+            <xsl:call-template name="collectionDisplayName">
+                <xsl:with-param name="collection_name" select="$collection_name" />
+            </xsl:call-template>
         </cmd:Header>
     </xsl:template>
 
